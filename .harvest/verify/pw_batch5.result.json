@@ -1,0 +1,266 @@
+{
+ "JEE Main 2025 Apr #70": {
+  "verdict": "ok",
+  "explanation": "Need $x^2-9x+18>0$ and $1-\\log_4(x^2-9x+18)>0$, i.e. $x^2-9x+18<4\\Rightarrow x^2-9x+14<0\\Rightarrow 2<x<7$. With $x<3$ or $x>6$, the domain is $(2,3)\\cup(6,7)$, so the sum is $2+3+6+7=18$. Trap: forgetting the inner positivity condition."
+ },
+ "JEE Main 2025 Apr #76": {
+  "verdict": "ok",
+  "explanation": "$\\mathrm{adj}(2A)=4\\,\\mathrm{adj}A$, so $3A\\,\\mathrm{adj}(2A)=12A\\,\\mathrm{adj}A=12|A|I=60I$. Then $\\mathrm{adj}(60I)=60^2I$ and $|2\\cdot60^2I|=2^3\\cdot60^6=2^{15}3^6 5^6$. Hence $\\alpha+\\beta+\\gamma=15+6+6=27$. Trap: $\\mathrm{adj}(kA)=k^{n-1}\\mathrm{adj}A$, not $k\\,\\mathrm{adj}A$."
+ },
+ "JEE Main 2025 Apr #77": {
+  "verdict": "fix",
+  "explanation": "Take $A=(1+2t,2+3t,3+4t)$ on $L_1$ and $B=(6+s,s,4-s)$ on $L_2$; collinearity with $(4,1,0)$ gives $t=-1$, $s=3$. So $A=(-1,-1,-1)$, $B=(9,3,1)$. The determinant is $1(-1+3)-0+1(-3+9)=2+6=8$.",
+  "stem": "Let a line passing through the point $(4,1,0)$ intersect the line $L_1:\\;\\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{4}$ at the point $A(\\alpha,\\beta,\\gamma)$ and the line $L_2:\\;x-6 = y = -z + 4$ at the point $B(a,b,c)$. Then $\\det\\begin{pmatrix}1 & 0 & 1 \\ \\alpha & \\beta & \\gamma \\ a & b & c\\end{pmatrix}$ is equal to:"
+ },
+ "JEE Main 2025 Apr #78": {
+  "verdict": "ok",
+  "explanation": "Since $\\alpha^2=-\\sqrt3\\alpha+16$, $P_{25}+\\sqrt3P_{24}=16P_{23}$, so the first fraction is $8$. Since $\\gamma^2=-3\\gamma+1$, $Q_{25}=-3Q_{24}+Q_{23}$, so the second fraction is $-3$. Total $8-3=5$."
+ },
+ "JEE Main 2025 Apr #79": {
+  "verdict": "ok",
+  "explanation": "Rational terms (even powers of $\\sqrt3$) sum to $\\frac{(2+\\sqrt3)^8+(2-\\sqrt3)^8}{2}$. Now $(2+\\sqrt3)^2=7+4\\sqrt3$, $(2+\\sqrt3)^4=97+56\\sqrt3$, $(2+\\sqrt3)^8=18817+10864\\sqrt3$. So the sum is $18817$."
+ },
+ "JEE Main 2025 Apr #80": {
+  "verdict": "ok",
+  "explanation": "For each $x$, list $y$ with $-x^2\\le 2y\\le 4-x^2$: $x=0$: $y=0,1,2$; $x=\\pm1$: $y=0,1$; $x=\\pm2$: $y=-2,-1,0$; $x=\\pm3$: $y=-3$. So $\\ell=3+4+6+2=15$. Pairs $(x,x)$ present: $(0,0),(1,1),(-2,-2),(-3,-3)$, so $m=7-4=3$. $\\ell+m=18$."
+ },
+ "JEE Main 2025 Apr #81": {
+  "verdict": "ok",
+  "explanation": "$P$ is inside. For a chord through $P$ at angle $\\theta$, $PA\\cdot PB=\\frac{|S_P|}{\\cos^2\\theta/36+\\sin^2\\theta/25}$, maximal when $\\theta=0$ (horizontal). On $y=\\sqrt5$: $x=\\pm\\frac{12}{\\sqrt5}$, so $PA=\\frac{7}{\\sqrt5}$, $PB=\\frac{17}{\\sqrt5}$. Then $5(PA^2+PB^2)=49+289=338$."
+ },
+ "JEE Main 2025 Apr #82": {
+  "verdict": "ok",
+  "explanation": "Differences $2,8,14,20,\\dots$ form an A.P. with difference $6$, so $T_n=3n^2-7n+5$. Then $S_{20}=3\\cdot2870-7\\cdot210+5\\cdot20=8610-1470+100=7240$."
+ },
+ "JEE Main 2025 Apr #83": {
+  "verdict": "ok",
+  "explanation": "Log needs $\\frac{2x-3}{5+4x}>0$: $x<-\\frac54$ or $x>\\frac32$. $\\sin^{-1}$ needs $(4+3x)^2\\le(2-x)^2\\Rightarrow 2x^2+7x+3\\le0\\Rightarrow -3\\le x\\le-\\frac12$. Intersection gives $\\alpha=-3$, $\\beta=-\\frac54$, so $\\alpha^2+4\\beta=9-5=4$."
+ },
+ "JEE Main 2025 Apr #84": {
+  "verdict": "fix",
+  "explanation": "$\\sum_{r=0}^{9}\\frac{r+3}{2^r}\\binom9r=3\\left(\\tfrac32\\right)^9+\\tfrac92\\left(\\tfrac32\\right)^8=6\\left(\\tfrac32\\right)^9$. Removing the $r=0$ term ($=3$): sum $=6\\left(\\tfrac32\\right)^9-3$, so $\\alpha=6,\\beta=3$ and $(\\alpha+\\beta)^2=81$.",
+  "stem": "If $\\displaystyle\\sum_{r=1}^{9}\\left(\\frac{r+3}{2^r}\\right)\\binom{9}{r} = \\alpha\\left(\\tfrac{3}{2}\\right)^9 - \\beta$, where $\\alpha,\\beta\\in\\mathbb{N}$, then $(\\alpha+\\beta)^2$ is equal to:"
+ },
+ "JEE Main 2025 Apr #85": {
+  "verdict": "ok",
+  "explanation": "Apply $C_3\\to C_3-C_1$ then expand: the determinant simplifies to $y=-\\cos x-1$. Then $y''=\\cos x$, so $y''+y=\\cos x-\\cos x-1=-1$. Trap: the $\\sin x,\\cos x$ parts always cancel in $y''+y$; only the constant survives."
+ },
+ "JEE Main 2025 Apr #86": {
+  "verdict": "ok",
+  "explanation": "Write it as $3\\tan x=\\pi-2x$ and intersect $y=3\\tan x$ with the decreasing line $y=\\pi-2x$. Each branch of $\\tan x$ in $[-2\\pi,2\\pi]$ (the two partial end branches and the three full branches) meets the line exactly once, at $x\\approx-4.94,-1.97,0.58,2.56,5.11$. So there are $5$ solutions."
+ },
+ "JEE Main 2025 Apr #87": {
+  "verdict": "fix",
+  "explanation": "Differentiating $\\int_0^x g=x-\\int_0^x tg(t)\\,dt$ gives $g=1-xg$, so $g(x)=\\frac1{1+x}$. The DE becomes $y'-y\\tan x=2\\sec x$; with integrating factor $\\cos x$, $(y\\cos x)'=2$, so $y\\cos x=2x$. Hence $y(\\pi/3)=\\frac{2\\pi/3}{1/2}=\\frac{4\\pi}{3}$.",
+  "stem": "Let $g$ be a differentiable function such that $\\displaystyle\\int_0^x g(t)\\,dt = x - \\int_0^x t\\,g(t)\\,dt$, $x\\ge0$, and let $y=y(x)$ satisfy the differential equation $\\frac{dy}{dx} - y\\tan x = 2(x+1)\\sec x\\,g(x)$ for $x\\in[0,\\tfrac{\\pi}{2})$. If $y(0)=0$, then $y\\bigl(\\tfrac{\\pi}{3}\\bigr)$ is equal to:"
+ },
+ "JEE Main 2025 Apr #88": {
+  "verdict": "ok",
+  "explanation": "The line is $y=x$: $A=(-2,-2)$, $B=(\\frac p6,\\frac p6)$, and $AB=\\sqrt2\\left|\\frac p6+2\\right|=\\frac9{\\sqrt2}$ gives $p=15$. $AM=\\frac{|-8-4-15|}{\\sqrt{20}}=\\frac{27}{\\sqrt{20}}$, $BM=\\sqrt{AB^2-AM^2}=\\frac9{\\sqrt{20}}$. Ratio $=3$."
+ },
+ "JEE Main 2025 Apr #89": {
+  "verdict": "ok",
+  "explanation": "Clearing denominators: $z^2+3i=(2+3i)(z-2+i)$, i.e. $z^2-(2+3i)z+(7+7i)=0$. Then $z_1+z_2=2+3i$, $z_1z_2=7+7i$, and $z_1^2+z_2^2=(2+3i)^2-2(7+7i)=-5+12i-14-14i=-19-2i$."
+ },
+ "JEE Main 2025 Apr #90": {
+  "verdict": "fix",
+  "explanation": "Put $u=3-x^2$: $\\int x^3\\sqrt{3-x^2}\\,dx=-\\frac12\\int(3-u)\\sqrt u\\,du=-u^{3/2}+\\frac{u^{5/2}}5+C$. At $x=\\sqrt2$ ($u=1$): $-\\frac45+C=-\\frac45$, so $C=0$. At $x=1$ ($u=2$): $f(1)=-2\\sqrt2+\\frac{4\\sqrt2}5=-\\frac{6\\sqrt2}5$.",
+  "stem": "Let $f(x)=\\int x^3\\sqrt{3 - x^2}\\,dx$. If $5f(\\sqrt{2}) = -4$, then $f(1)$ is equal to:"
+ },
+ "JEE Main 2025 Apr #91": {
+  "verdict": "ok",
+  "explanation": "$a_3a_5=a_4^2=729\\Rightarrow a_4=27$, so $a_2=\\frac{111}4-27=\\frac34$ and $r^2=36$, $r=6$. Then $a_1=\\frac18$, $a_2=\\frac34$, $a_3=\\frac92$; sum $=\\frac{43}8$, and $24\\cdot\\frac{43}8=129$."
+ },
+ "JEE Main 2025 Apr #92": {
+  "verdict": "fix",
+  "explanation": "Need $\\log_6(3+4x-x^2)>1\\Rightarrow x^2-4x+3<0$, so $(a,b)=(1,3)$ and $b-a=2$. $\\int_0^2\\lfloor x^2\\rfloor dx=(\\sqrt2-1)+2(\\sqrt3-\\sqrt2)+3(2-\\sqrt3)=5-\\sqrt2-\\sqrt3$. So $p+q+r=5+2+3=10$.",
+  "stem": "Let the domain of the function $f(x)=\\log_2\\bigl(\\log_4\\bigl(\\log_6(3+4x-x^2)\\bigr)\\bigr)$ be $(a,b)$. If $\\displaystyle\\int_0^{b-a} \\lfloor x^2\\rfloor\\,dx = p - \\sqrt{q} - \\sqrt{r}$, with $p,q,r\\in\\mathbb{N}$ and $\\gcd(p,q,r)=1$, where $\\lfloor\\cdot\\rfloor$ is the greatest integer function, then $p+q+r$ is equal to:"
+ },
+ "JEE Main 2025 Apr #93": {
+  "verdict": "ok",
+  "explanation": "The parabolas are mirror images in $y=x$. Distance from $(t,t^2+2)$ to $y=x$ is $\\frac{t^2-t+2}{\\sqrt2}$, minimised at $t=\\frac12$: $\\frac{7}{4\\sqrt2}$. The gap between the curves is twice this, $\\frac{7\\sqrt2}4$, so the smallest circle has radius $\\frac{7\\sqrt2}8$."
+ },
+ "JEE Main 2025 Apr #94": {
+  "verdict": "ok",
+  "explanation": "Left limit: $e^a$. Right side is $0/0$ only if $c=8$; then the limit is $\\frac{1/4}{1/12}=3$. Continuity: $e^a=1+b=3$, so $b=2$. Thus $e^abc=3\\cdot2\\cdot8=48$."
+ },
+ "JEE Main 2025 Apr #95": {
+  "verdict": "ok",
+  "explanation": "$L_1$: $(1,2,t)$, $L_2$: $(\\lambda,s,6)$. The common perpendicular is along the $x$-axis, so the shortest distance is $|\\lambda-1|=3$, giving $\\lambda_1=4$, $\\lambda_2=-2$. Distance$^2$ of $(4,-2,7)$ from $L_1$ ($x=1,y=2$) is $3^2+4^2=25$."
+ },
+ "JEE Main 2025 Apr #101": {
+  "verdict": "ok",
+  "explanation": "$f'(x)=18(x^2-5ax+6a^2)=18(x-2a)(x-3a)$. Since $a>0$, the local max is at $x_1=2a$ and the local min at $x_2=3a$. $6a^2=54\\Rightarrow a=3$, so $x_1=6$, $x_2=9$ and $a+x_1+x_2=18$."
+ },
+ "JEE Main 2025 Apr #102": {
+  "verdict": "ok",
+  "explanation": "The general term is $\\cot^{-1}\\left(n^2+\\frac34\\right)=\\tan^{-1}\\frac{(n+\\frac12)-(n-\\frac12)}{1+(n+\\frac12)(n-\\frac12)}=\\tan^{-1}(n+\\tfrac12)-\\tan^{-1}(n-\\tfrac12)$. The series telescopes to $\\frac\\pi2-\\tan^{-1}\\frac12$."
+ },
+ "JEE Main 2025 Apr #103": {
+  "verdict": "ok",
+  "explanation": "$1^\\infty$ form: limit $=e^{3f'(2)/f(2)}=e^{12}$, so $\\alpha=12$. Then $y=4x^3-4x^2-20x-12=4(x+1)^2(x-3)$, which meets the $x$-axis at $x=-1$ (touching) and $x=3$: $2$ points. Trap: counting the double root twice."
+ },
+ "JEE Main 2025 Apr #104": {
+  "verdict": "ok",
+  "explanation": "$y=2x$ or $y=2x-1$ with $y\\in A$: $R=\\{(-1,-2),(-1,-3),(0,0),(0,-1),(1,2),(1,1),(2,3)\\}$, so $\\ell=7$. Diagonal pairs present: $(0,0),(1,1)$, so $m=5$. Every non-diagonal pair lacks its reverse, so $n=5$. Total $17$."
+ },
+ "JEE Main 2025 Apr #105": {
+  "verdict": "ok",
+  "explanation": "Note $\\omega_2=i\\,\\overline{\\omega_1}$, so $\\omega_1\\omega_2=i|\\omega_1|^2$: $\\alpha=0$, $\\beta=(8\\sin\\theta+7\\cos\\theta)^2+(\\sin\\theta+4\\cos\\theta)^2=65+60\\sin2\\theta$. Hence $p=125$, $q=5$, $p+q=130$."
+ },
+ "JEE Main 2025 Apr #106": {
+  "verdict": "ok",
+  "explanation": "$\\vec b_1\\times\\vec b_2=(1,-2,1)$, $|\\cdot|=\\sqrt6$. With $\\vec a_2-\\vec a_1=(p+1,2,1)$, the distance is $\\frac{|p+1-4+1|}{\\sqrt6}=\\frac{|p-2|}{\\sqrt6}=\\frac1{\\sqrt6}$, so $p=1,3$. The ellipse $\\frac{x^2}1+\\frac{y^2}9=1$ has major axis along $y$, latus rectum $\\frac{2\\cdot1}{3}=\\frac23$. Trap: using $2b^2/a$ with the wrong axis."
+ },
+ "JEE Main 2025 Apr #107": {
+  "verdict": "ok",
+  "explanation": "Vertex $(1,1)$, focus $(2,2)$, so the directrix is $x+y=0$. Parabola: $(x-2)^2+(y-2)^2=\\frac{(x+y)^2}2$. At $x=1$: $2+2(k-2)^2=(1+k)^2\\Rightarrow k^2-10k+9=0$, so $k=1$ or $9$. Of the options, $9$."
+ },
+ "JEE Main 2025 Apr #108": {
+  "verdict": "drop",
+  "reason": "As transcribed, $f$'s domain is $(-2-\\sqrt{127},-2+\\sqrt{127})$, giving $262+5$, not matching any option; original form of $f$ uncertain."
+ },
+ "JEE Main 2025 Apr #109": {
+  "verdict": "ok",
+  "explanation": "For $y^2=x-2$ the tangent at $(2+t^2,t)$ is $2ty=x-2+t^2$; through $(-2,0)$ gives $t=2$, $B=(6,2)$, line $x=4y-2$. Area $=\\int_0^2\\big[(y^2+2)-(4y-2)\\big]dy=\\int_0^2(y-2)^2dy=\\frac83$."
+ },
+ "JEE Main 2025 Apr #110": {
+  "verdict": "fix",
+  "explanation": "For $x>0$ on a hyperbola the focal distances are $ex\\pm a$, sum $8e=8\\sqrt{5/3}$, so $e^2=\\frac53$ and $b^2=\\frac23a^2$. $P$ on $H$: $\\frac{16}{a^2}-\\frac{27}{2a^2}=1\\Rightarrow a^2=\\frac52$, $b^2=\\frac53$. Then $l^2=\\frac{4b^4}{a^2}=\\frac{40}9$ and $m=16e^2-a^2=\\frac{145}6$, so $9l^2+6m=40+145=185$.",
+  "stem": "Let the sum of the focal distances of the point $P(4,3)$ on the hyperbola $H:\\;\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$ be $8\\sqrt{\\tfrac{5}{3}}$. If for $H$, the length of the latus rectum is $l$ and the product of the focal distances of the point $P$ is $m$, then $9l^2+6m$ is equal to:"
+ },
+ "JEE Main 2025 Apr #111": {
+  "verdict": "ok",
+  "explanation": "Repeatedly applying $A^n=A^{n-2}+A^2-I$ gives $A^{50}=A^2+24(A^2-I)=25A^2-24I$. Here $A^2=\\begin{pmatrix}1&0&0\\1&1&0\\1&0&1\\end{pmatrix}$, so $A^{50}=\\begin{pmatrix}1&0&0\\25&1&0\\25&0&1\\end{pmatrix}$, whose elements sum to $53$."
+ },
+ "JEE Main 2025 Apr #112": {
+  "verdict": "ok",
+  "explanation": "$4+3k^2+k^4=(k^2+k+2)(k^2-k+2)$ and $4k=2[(k^2+k+2)-(k^2-k+2)]$, so $T_k=2\\left(\\frac1{k^2-k+2}-\\frac1{k^2+k+2}\\right)$, which telescopes: $S_{20}=2\\left(\\frac12-\\frac1{422}\\right)=\\frac{210}{211}$. So $m+n=421$."
+ },
+ "JEE Main 2025 Apr #113": {
+  "verdict": "fix",
+  "explanation": "$\\sum_{r=1}^{n}r^2\\binom nr=n(n+1)2^{n-2}$. For $n=15$: $15\\cdot16\\cdot2^{13}=2^{17}\\cdot3\\cdot5$. So $m+n+k=17+1+1=19$. Trap: using $r\\binom nr=n\\binom{n-1}{r-1}$ only once (that gives $\\sum r\\binom nr$).",
+  "stem": "If $1^2\\binom{15}{1} + 2^2\\binom{15}{2} + 3^2\\binom{15}{3} + \\dots + 15^2\\binom{15}{15} = 2^m\\,3^n\\,5^k$, where $m,n,k$ are positive integers, then $m + n + k$ is equal to:"
+ },
+ "JEE Main 2025 Apr #114": {
+  "verdict": "fix",
+  "explanation": "Tangency: $p^2=16+9=25$, $p=\\pm5$; points of contact $\\left(\\mp\\frac{16}5,\\pm\\frac95\\right)$. $y=x$ meets $E$ at $\\pm\\left(\\frac{12}5,\\frac{12}5\\right)$. $ABCD$ is a parallelogram centred at the origin, area $=2\\left|\\frac{-16}{5}\\cdot\\frac{12}5-\\frac95\\cdot\\frac{12}5\\right|=2\\cdot12=24$.",
+  "stem": "Let for two distinct values of $p$ the lines $y = x + p$ touch the ellipse $E:\\;\\frac{x^2}{4^2}+\\frac{y^2}{3^2}=1$ at the points $A$ and $B$. Let the line $y = x$ intersect $E$ at the points $C$ and $D$. Then the area of the quadrilateral $ABCD$ is equal to:"
+ },
+ "JEE Main 2025 Apr #115": {
+  "verdict": "ok",
+  "explanation": "$A=\\{12-d,12,12+d\\}$, $p=12(144-d^2)$; $q=12(144-D^2)$. Then $\\frac{p+q}{p-q}=\\frac{288-d^2-D^2}{D^2-d^2}=\\frac{19}5$ with $D=d+3$ gives $5d^2+72d-612=0$, so $d=6$, $D=9$. $p-q=12(81-36)=540$."
+ },
+ "JEE Main 2025 Apr #116": {
+  "verdict": "ok",
+  "explanation": "Rewrite as $\\sin y\\frac{dy}{dx}=\\frac{7\\cos y}{x}-\\frac{e^x}{x^5}$; with $u=\\cos y$: $u'+\\frac7xu=\\frac{e^x}{x^5}$. I.F. $x^7$: $(x^7u)'=x^2e^x$, so $x^7u=e^x(x^2-2x+2)+C$; $u(1)=0$ gives $C=-e$. At $x=2$: $\\cos y=\\frac{2e^2-e}{128}$."
+ },
+ "JEE Main 2025 Apr #117": {
+  "verdict": "ok",
+  "explanation": "The circle has $F_1F_2$ as diameter, so $\\angle F_1PF_2=90^\\circ$. With $PF_1+PF_2=17$ and $\\frac12PF_1\\cdot PF_2=30$: $(2c)^2=PF_1^2+PF_2^2=289-120=169$, so $2c=13$."
+ },
+ "JEE Main 2025 Apr #118": {
+  "verdict": "fix",
+  "explanation": "From the $f$-equation and its $x\\to\\frac1x$ version: $f(x)=\\frac13\\left(\\frac2{x^2}+5-x^2\\right)$, so $\\alpha=\\frac13\\left(1+5-\\frac73\\right)=\\frac{11}9$. Putting $x=\\frac12$ in the $g$-equation: $-g(\\tfrac12)=\\tfrac12$, so $g(x)=\\frac{x}2-\\frac34$ and $\\beta=\\int_1^2\\left(\\frac x2-\\frac34\\right)dx=0$. Thus $9\\alpha+\\beta=11$.",
+  "stem": "Let $f(x)+2f\\bigl(\\tfrac{1}{x}\\bigr)=x^2+5$ and $2g(x)-3g\\bigl(\\tfrac{1}{2}\\bigr)=x$, $x>0$. If $\\alpha=\\int_1^2 f(x)\\,dx$ and $\\beta=\\int_1^2 g(x)\\,dx$, then the value of $9\\alpha+\\beta$ is:"
+ },
+ "JEE Main 2025 Apr #119": {
+  "verdict": "ok",
+  "explanation": "Solving, the lines meet at $A=(7,5,3)$. The angle between directions $(1,0,-1)$ and $(3,4,5)$ has $\\cos\\theta=\\frac{-2}{\\sqrt2\\sqrt{50}}=-\\frac15$, so $\\sin^2\\theta=\\frac{24}{25}$. Area$^2=\\left(\\frac12\\cdot15\\sin\\theta\\right)^2=\\frac{225}4\\cdot\\frac{24}{25}=54$."
+ },
+ "JEE Main 2025 Apr #120": {
+  "verdict": "ok",
+  "explanation": "Mean $4$: $a+b=8$. Variance $2$: $\\sum x^2=8(16+2)=144$, so $a^2+b^2=144-112=32$, giving $a=b=4$. Data $2,3,3,4,4,4,5,7$; mode $4$. Mean deviation about $4$: $\\frac{2+1+1+0+0+0+1+3}8=1$."
+ },
+ "JEE Main 2025 Apr #126": {
+  "verdict": "fix",
+  "explanation": "$g(x)=\\frac{3x-2}{x-1}$ is decreasing, mapping $[2,4]$ onto $[\\frac{10}3,4]$; $f'(x)=\\frac{-11}{(5x+2)^2}<0$, so $f$ is decreasing. Range of $f\\circ g$: $[f(4),f(\\tfrac{10}3)]=[\\tfrac12,\\tfrac{29}{56}]$. Then $\\beta-\\alpha=\\frac1{56}$, so the answer is $56$.",
+  "stem": "Let $f, g: (1, \\infty) \\to \\mathbb{R}$ be defined as $f(x) = \\frac{2x+3}{5x+2}$ and $g(x) = \\frac{2-3x}{1-x}$. If the range of the function $f\\circ g: [2,4] \\to \\mathbb{R}$ is $[\\alpha, \\beta]$, then $\\frac{1}{\\beta - \\alpha}$ is equal to:"
+ },
+ "JEE Main 2025 Apr #127": {
+  "verdict": "drop",
+  "reason": "As transcribed $D=A\\cap B$ is infinite; reading $A$ as $x^2+y^2=25$ gives $|D|=4$, $|C|=11$ and $7920$ one-one maps, not $17160$. Original sets uncertain."
+ },
+ "JEE Main 2025 Apr #128": {
+  "verdict": "fix",
+  "explanation": "$A$: $5k-4$, $B$: $7k+2$. Common terms are $\\equiv1\\pmod5$ and $\\equiv2\\pmod7$: $16,51,86,\\dots$ (step $35$) up to $\\min(10121,14177)=10121$, giving $\\lfloor\\frac{10121-16}{35}\\rfloor+1=289$ terms. $n(A\\cup B)=2025+2025-289=3761$.",
+  "stem": "Let $A = \\{1, 6, 11, 16, \\ldots\\}$ and $B = \\{9, 16, 23, 30, \\ldots\\}$ be the sets consisting of the first 2025 terms of two arithmetic progressions. Then $n(A \\cup B)$ is:"
+ },
+ "JEE Main 2025 Apr #129": {
+  "verdict": "ok",
+  "explanation": "Total $\\binom{16}{12}=1820$. Favourable (engineers, doctors, professors): $(3,1,8)$: $4\\cdot2\\cdot45=360$; $(3,2,7)$: $4\\cdot1\\cdot120=480$; $(4,1,7)$: $1\\cdot2\\cdot120=240$; $(4,2,6)$: $1\\cdot1\\cdot210=210$. Sum $1290$, probability $\\frac{1290}{1820}=\\frac{129}{182}$."
+ },
+ "JEE Main 2025 Apr #130": {
+  "verdict": "fix",
+  "explanation": "$(x+y)^{2n-3}$ has $2n-2$ coefficients summing to $2^{2n-3}$, so $\\frac{2^{2n-3}}{2n-2}=16$, giving $n=5$. Then $P=(9,5)$ and its distance from $x+y=8$ is $\\frac{|9+5-8|}{\\sqrt2}=3\\sqrt2$.",
+  "stem": "For an integer $n \\ge 2$, if the arithmetic mean of all coefficients in the binomial expansion of $(x + y)^{2n-3}$ is $16$, then the distance of the point $P(2n-1, n^2-4n)$ from the line $x + y = 8$ is:"
+ },
+ "JEE Main 2025 Apr #131": {
+  "verdict": "fix",
+  "explanation": "$\\vec b_1\\times\\vec b_2=(3,-1,1)\\times(-3,2,4)=(-6,-15,3)$, magnitude $3\\sqrt{30}$. With $\\vec a_2-\\vec a_1=(-6,-7-\\alpha,\\beta-3)$, the distance is $\\frac{|15\\alpha+3\\beta+132|}{3\\sqrt{30}}=3\\sqrt{30}$, so $5\\alpha+\\beta+44=\\pm90$. The positive value is $5\\alpha+\\beta=46$.",
+  "stem": "Let the shortest distance between the lines $\\frac{x-3}{3} = \\frac{y-\\alpha}{-1} = \\frac{z-3}{1}$ and $\\frac{x+3}{-3} = \\frac{y+7}{2} = \\frac{z-\\beta}{4}$ be $3\\sqrt{30}$. Then the positive value of $5\\alpha + \\beta$ is:"
+ },
+ "JEE Main 2025 Apr #132": {
+  "verdict": "fix",
+  "explanation": "Put $h=x-1$: numerator $=h(6+\\lambda\\cos h)-\\mu\\sin h=(6+\\lambda-\\mu)h+\\left(\\frac\\mu6-\\frac\\lambda2\\right)h^3+\\dots$. So $6+\\lambda-\\mu=0$ and $\\frac\\mu6-\\frac\\lambda2=-1$, giving $\\lambda=6$, $\\mu=12$, $\\lambda+\\mu=18$.",
+  "stem": "If $\\displaystyle\\lim_{x\\to1} \\frac{(x-1)\\bigl(6 + \\lambda \\cos(x-1)\\bigr) + \\mu \\sin(1-x)}{(x-1)^3} = -1$, where $\\lambda, \\mu \\in \\mathbb{R}$, then $\\lambda + \\mu$ is equal to:"
+ },
+ "JEE Main 2025 Apr #133": {
+  "verdict": "fix",
+  "explanation": "Write $e^{-x}f(x)=e^{-x}(1-2x)+\\int_0^xe^{-t}f(t)\\,dt$ and differentiate: $e^{-x}(f'-f)=e^{-x}(2x-3)+e^{-x}f$, so $f'=2f+2x-3$ with $f(0)=1$. Trying $f=Ax+B$ gives $f(x)=1-x$ (the $Ce^{2x}$ part vanishes). The region is a triangle with vertices $(0,0),(1,0),(0,1)$: area $\\frac12$.",
+  "stem": "Let $f: [0, \\infty) \\to \\mathbb{R}$ be a differentiable function such that $f(x) = 1 - 2x + \\int_0^x e^{x-t} f(t) \\, dt$ for all $x \\in [0, \\infty)$. Then the area of the region bounded by $y = f(x)$ and the coordinate axes is:"
+ },
+ "JEE Main 2025 Apr #134": {
+  "verdict": "fix",
+  "explanation": "Foot: $(6+3t,7+2t,7-2t)$ with $(5+3t,5+2t,4-2t)\\cdot(3,2,-2)=0\\Rightarrow t=-1$, foot $F=(3,5,9)$. Since $|\\vec d|=\\sqrt{17}$, $A,B=F\\pm2\\vec d=(9,9,5)$ and $(-3,1,13)$. $\\vec{OA}\\cdot\\vec{OB}=-27+9+65=47$.",
+  "stem": "Let $A$ and $B$ be two distinct points on the line $L: \\frac{x-6}{3} = \\frac{y-7}{2} = \\frac{z-7}{-2}$. Both $A$ and $B$ are at a distance $2\\sqrt{17}$ from the foot of the perpendicular drawn from the point $(1, 2, 3)$ to the line $L$. If $O$ is the origin, then $\\overrightarrow{OA} \\cdot \\overrightarrow{OB}$ is equal to:"
+ },
+ "JEE Main 2025 Apr #135": {
+  "verdict": "fix",
+  "explanation": "Telescoping $f(x)-f(\\tfrac x2)=\\tfrac x2$, $f(\\tfrac x2)-f(\\tfrac x4)=\\tfrac x4,\\dots$: $f(x)-f(\\tfrac x{2^n})=x(1-2^{-n})\\to x$. So $G(x)=x$ and $\\sum_{r=1}^{10}G(r^2)=\\sum r^2=385$.",
+  "stem": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be a continuous function satisfying $f(0) = 1$ and $f(2x) - f(x) = x$ for all $x \\in \\mathbb{R}$. If $\\displaystyle\\lim_{n\\to\\infty} \\left[f(x) - f\\left(\\tfrac{x}{2^n}\\right)\\right] = G(x)$, then $\\sum_{r=1}^{10} G(r^2)$ is equal to:"
+ },
+ "JEE Main 2025 Apr #136": {
+  "verdict": "fix",
+  "explanation": "Odd-position terms are $(4k-3)^2$ and even-position terms are $4k-1$, $k=1,\\dots,20$. $\\sum(4k-3)^2=16\\cdot2870-24\\cdot210+9\\cdot20=41060$ and $\\sum(4k-1)=840-20=820$. Total $41880$.",
+  "stem": "$1 + 3 + 5^2 + 7 + 9^2 + \\dots$ up to 40 terms is equal to:"
+ },
+ "JEE Main 2025 Apr #137": {
+  "verdict": "fix",
+  "explanation": "$\\frac{T_{15}\\text{ (start)}}{T_{15}\\text{ (end)}}=\\left(\\frac{2^{1/3}}{3^{-1/3}}\\right)^{n-28}=6^{(n-28)/3}=\\frac16$, so $n-28=-3$, $n=25$. Then $\\binom{25}3=2300$.",
+  "stem": "In the expansion of $\\left(\\sqrt[3]{2} + \\frac{1}{\\sqrt[3]{3}}\\right)^n$, $n \\in \\mathbb{N}$, if the ratio of the 15th term from the beginning to the 15th term from the end is $\\tfrac{1}{6}$, then the value of $\\binom{n}{3}$ is:"
+ },
+ "JEE Main 2025 Apr #138": {
+  "verdict": "fix",
+  "explanation": "Let $x=\\sin\\theta$, $\\theta\\in(-\\frac\\pi6,\\frac\\pi4)$. The argument is $\\sin\\theta\\cos\\frac\\pi6+\\cos\\theta\\sin\\frac\\pi6=\\sin(\\theta+\\frac\\pi6)$, and $\\theta+\\frac\\pi6\\in(0,\\frac{5\\pi}{12})\\subset[-\\frac\\pi2,\\frac\\pi2]$. So the value is $\\frac\\pi6+\\sin^{-1}x$.",
+  "stem": "Considering the principal values of the inverse trigonometric functions, $\\sin^{-1}\\left(\\tfrac{\\sqrt{3}}{2}x + \\tfrac{1}{2}\\sqrt{1-x^2}\\right)$, $-\\tfrac{1}{2} < x < \\tfrac{1}{\\sqrt{2}}$, is equal to:"
+ },
+ "JEE Main 2025 Apr #139": {
+  "verdict": "fix",
+  "explanation": "$\\cos\\theta=\\frac{5}{\\sqrt{10}\\sqrt{5+\\lambda^2}}=\\frac{\\sqrt5}{2\\sqrt7}\\Rightarrow5+\\lambda^2=14$, $\\lambda=3$. Since $\\vec v_1\\perp\\vec v_2$, $|\\vec v_1|^2+|\\vec v_2|^2=|\\vec v|^2=14$. Trap: computing the projections separately is unnecessary.",
+  "stem": "Consider two vectors $\\vec{u}=3\\hat{i}-\\hat{j}$ and $\\vec{v}=2\\hat{i}+\\hat{j}-\\lambda\\hat{k}$, $\\lambda > 0$. The angle between them is given by $\\cos^{-1}\\left(\\tfrac{\\sqrt{5}}{2\\sqrt{7}}\\right)$. Let $\\vec{v}=\\vec{v}_1+\\vec{v}_2$, where $\\vec{v}_1$ is parallel to $\\vec{u}$ and $\\vec{v}_2$ is perpendicular to $\\vec{u}$. Then the value of $|\\vec{v}_1|^2 + |\\vec{v}_2|^2$ is:"
+ },
+ "JEE Main 2025 Apr #140": {
+  "verdict": "fix",
+  "explanation": "$4x-7y+10=0$ and $7x+4y=15$ are perpendicular (slopes $\\frac47,-\\frac74$), so the triangle is right-angled at their intersection $(1,2)$, which is its orthocentre. The second triangle is right-angled at the origin, orthocentre $(0,0)$. Distance $=\\sqrt5$.",
+  "stem": "Let the three sides of a triangle be on the lines $4x - 7y + 10 = 0$, $x + y = 5$, and $7x + 4y = 15$. Then the distance of its orthocentre from the orthocentre of the triangle formed by the lines $x = 0$, $y = 0$, and $x + y = 1$ is:"
+ },
+ "JEE Main 2025 Apr #141": {
+  "verdict": "drop",
+  "reason": "As transcribed the integral equals $1+\\int_{-1}^1\\sqrt{|x|}\\,dx=\\frac73$, matching no option (key $1+\\frac{2\\sqrt2}{3}$); stem likely garbled."
+ },
+ "JEE Main 2025 Apr #142": {
+  "verdict": "fix",
+  "explanation": "Distance between foci $2c=8$, $c=4$; $e=\\frac45\\Rightarrow a=5$, $b^2=25-16=9$. Latus rectum $=\\frac{2b^2}a=\\frac{18}5$.",
+  "stem": "The length of the latus-rectum of the ellipse whose foci are $(2,5)$ and $(2,-3)$ and eccentricity is $\\tfrac{4}{5}$ is:"
+ },
+ "JEE Main 2025 Apr #143": {
+  "verdict": "fix",
+  "explanation": "Roots are integers iff $(x+2)^2=n+4$ has integer solutions, i.e. $n+4$ is a perfect square. For $n\\in[20,100]$: $n+4\\in\\{25,36,49,64,81,100\\}$, so $6$ values.",
+  "stem": "Consider the equation $x^2 + 4x - n = 0$, where $n \\in [20,100]$ is a natural number. Then the number of all distinct values of $n$, for which the given equation has integral roots, is equal to:"
+ },
+ "JEE Main 2025 Apr #144": {
+  "verdict": "ok",
+  "explanation": "$P(X=0)=\\frac{21}{45}$, $P(X=1)=\\frac{21}{45}$, $P(X=2)=\\frac3{45}$. $E[X]=\\frac{27}{45}=\\frac35$, $E[X^2]=\\frac{33}{45}=\\frac{11}{15}$. $\\mathrm{Var}=\\frac{11}{15}-\\frac9{25}=\\frac{28}{75}$. Trap: answering $E[X^2]=\\frac{11}{15}$."
+ }
+}

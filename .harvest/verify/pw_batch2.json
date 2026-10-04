@@ -1,0 +1,662 @@
+[
+ {
+  "ref": "JEE Main 2025 Jan #78",
+  "stem": "Let $A$, $B$, $C$ be three points in $xy$-plane, whose position vectors are given by $\\sqrt{3} \\hat{i}+\\hat{j}$, $\\hat{i}+\\sqrt{3} \\hat{j}$ and $a \\hat{i}+(1-a) \\hat{j}$ respectively with respect to the origin $O$. If the distance of the point $C$ from the line bisecting the angle between the vectors $\\vec{OA}$ and $\\vec{OB}$ is $\\frac{\\theta}{\\sqrt{2}}$, then the sum of all the possible values of $a$ is:",
+  "options": {
+   "A": "2",
+   "B": "$\\frac{9}{2}$",
+   "C": "1",
+   "D": "0"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #79",
+  "stem": "Let the coefficients of three consecutive terms $T_r$, $T_{r+1}$ and $T_{r+2}$ in the binomial expansion of $(a+b)^{12}$ be in a G.P. and let $p$ be the number of all possible values of $r$. Let $q$ be the sum of all rational terms in the binomial expansion of $(\\sqrt[4]{3}+\\sqrt[4]{4})^{12}$. Then $p+q$ is equal to:",
+  "options": {
+   "A": "283",
+   "B": "287",
+   "C": "295",
+   "D": "299"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #80",
+  "stem": "Let $[x]$ denote the greatest integer less than or equal to $x$. Then the domain of $f(x)=\\sec^{-1}(2[x]+1)$ is:",
+  "options": {
+   "A": "$(-\\infty, -1] \\cup [0, \\infty)$",
+   "B": "$(-\\infty, -1] \\cup [1, \\infty)$",
+   "C": "$(-\\infty, \\infty)$",
+   "D": "$(-\\infty, \\infty) - \\{0\\}$"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #81",
+  "stem": "Let $S$ be the set of all the words that can be formed by arranging all the letters of the word GARDEN. From the set $S$, one word is selected at random. The probability that the selected word will NOT have vowels in alphabetical order is:",
+  "options": {
+   "A": "$\\frac{1}{2}$",
+   "B": "$\\frac{1}{4}$",
+   "C": "$\\frac{2}{3}$",
+   "D": "$\\frac{1}{3}$"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #82",
+  "stem": "If $\\sum_{r=1}^{13} \\left\\{\\frac{1}{\\sin \\left(\\frac{1}{4}+(r-1) \\frac{2}{3}\\right) \\sin \\left(\\frac{7}{4}+\\frac{2}{7}\\right)}\\right\\}=a \\sqrt{3}+b$, $a, b \\in \\mathbb{Z}$, then $a^2+b^2$ is equal to:",
+  "options": {
+   "A": "10",
+   "B": "4",
+   "C": "2",
+   "D": "8"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #83",
+  "stem": "Let $f$ be a real valued continuous function defined on the positive real axis such that $g(x)=\\int_{0}^{x} t f(t) \\, dt$. If $g(x^3)=x^6+x^7$, then value of $\\sum_{r=1}^{15} f(r^3)$ is:",
+  "options": {
+   "A": "270",
+   "B": "340",
+   "C": "320",
+   "D": "310"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #84",
+  "stem": "Let $f:[0,3] \\rightarrow A$ be defined by $f(x)=2x^3-15x^2+36x+7$ and $g:[0, \\infty) \\rightarrow B$ be defined by $g(x)=\\frac{x^{200}}{x^{2005}+1}$. If both the functions are onto and $S=\\{x \\in \\mathbb{Z} : x \\in A \\text{ or } x \\in B\\}$, then $n(S)$ is equal to:",
+  "options": {
+   "A": "29",
+   "B": "30",
+   "C": "31",
+   "D": "36"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #85",
+  "stem": "Bag $B_1$ contains 6 white and 4 blue balls, Bag $B_2$ contains 4 white and 6 blue balls, and Bag $B_3$ contains 5 white and 5 blue balls. One of the bags is selected at random and a ball is drawn from it. If the ball is white, then the probability that the ball is drawn from Bag $B_2$ is:",
+  "options": {
+   "A": "$\\frac{4}{15}$",
+   "B": "$\\frac{1}{3}$",
+   "C": "$\\frac{2}{5}$",
+   "D": "$\\frac{4}{3}$"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #87",
+  "stem": "For positive integers $n$, if $4a_n = (n^2 + 5n + 6)$ and $S_n = \\sum_{k=1}^{n} \\left(\\frac{1}{a_k}\\right)$, then the value of $507 S_{2025}$ is:",
+  "options": {
+   "A": "540",
+   "B": "675",
+   "C": "1350",
+   "D": "135"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #88",
+  "stem": "Let $f: \\mathbb{R} - \\{0\\} \\rightarrow (-\\infty, 1)$ be a polynomial of degree 2, satisfying $f(x) f\\left(\\frac{1}{x}\\right) = f(x) + f\\left(\\frac{1}{x}\\right)$. If $f(K) = -2K$, then the sum of squares of all possible values of $K$ is:",
+  "options": {
+   "A": "7",
+   "B": "6",
+   "C": "1",
+   "D": "9"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #89",
+  "stem": "If $A$ and $B$ are the points of intersection of the circle $x^2 + y^2 - 8x = 0$ and the hyperbola $\\frac{x^2}{9} - \\frac{y^2}{4} = 1$ and a point $P$ moves on the line $2x - 3y + 4 = 0$, then the centroid of $\\triangle PAB$ lies on the line:",
+  "options": {
+   "A": "$x + 9y = 36$",
+   "B": "$4x - 9y = 12$",
+   "C": "$6x - 9y = 20$",
+   "D": "$9x - 9y = 32$"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #90",
+  "stem": "If $f(x) = \\int \\frac{1}{x^{1/4} (1 + x^{1/4})} \\, dx$, $f(0) = -6$, then $f(1)$ is equal to:",
+  "options": {
+   "A": "$4(\\log_e 2 - 2)$",
+   "B": "$2 - \\log_e 2$",
+   "C": "$\\log_e 2 + 2$",
+   "D": "$4(\\log_e 2 + 2)$"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #91",
+  "stem": "The area of the region bounded by the curves $x(1 + y^2) = 1$ and $y^2 = 2x$ is:",
+  "options": {
+   "A": "$2\\left(\\frac{\\pi}{2} - \\frac{1}{3}\\right)$",
+   "B": "$\\frac{\\pi}{2} - \\frac{1}{3}$",
+   "C": "$\\frac{\\pi}{4} - \\frac{1}{3}$",
+   "D": "$\\frac{1}{2}\\left(\\frac{\\pi}{2} - \\frac{1}{3}\\right)$"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #92",
+  "stem": "The square of the distance of the point $\\left(\\frac{10}{7}, \\frac{22}{7}, 7\\right)$ from the line $\\frac{x+1}{3} = \\frac{y+3}{5} = \\frac{z+5}{7}$ in the direction of the vector $\\hat{i} + 4\\hat{j} + 7\\hat{k}$ is:",
+  "options": {
+   "A": "54",
+   "B": "44",
+   "C": "41",
+   "D": "66"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #94",
+  "stem": "If $\\alpha + i\\beta$ and $\\gamma + i\\delta$ are the roots of $x^2 - (3 - 2i)x - (2i - 2) = 0$, $i = \\sqrt{-1}$, then $\\alpha\\gamma + \\beta\\delta$ is equal to:",
+  "options": {
+   "A": "-2",
+   "B": "6",
+   "C": "-6",
+   "D": "2"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #95",
+  "stem": "Two equal sides of an isosceles triangle are along $-x + 2y = 4$ and $x + y = 4$. If $m$ is the slope of its third side, then the sum of all possible distinct values of $m$ is:",
+  "options": {
+   "A": "$-2\\sqrt{10}$",
+   "B": "1",
+   "C": "6",
+   "D": "-6"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #101",
+  "stem": "Let $x_1, x_2, \\ldots, x_{10}$ be ten observations such that $\\sum_{i=1}^{10}(x_i-2)=30$, $\\sum_{i=1}^{10}(x_i-\\beta)^2=98$, $\\beta>2$, and their variance is $\\frac{4}{5}$. If $\\mu$ and $\\sigma^2$ are respectively the mean and the variance of $2(x_1-1)+4\\beta$, $2(x_2-1)+4\\beta$, $\\ldots$, $2(x_{10}-1)+4\\beta$, then $\\frac{\\beta \\mu}{\\sigma^2}$ is equal to:",
+  "options": {
+   "A": "100",
+   "B": "120",
+   "C": "110",
+   "D": "90"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #102",
+  "stem": "Consider an A.P. of positive integers, whose sum of the first three terms is 54 and the sum of the first twenty terms lies between 1600 and 1800. Then its $11^{\\text{th}}$ term is:",
+  "options": {
+   "A": "90",
+   "B": "84",
+   "C": "122",
+   "D": "108"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #103",
+  "stem": "The number of solutions of the equation $\\left(\\frac{9}{x}-\\frac{9}{\\sqrt{x}}+2\\right)\\left(\\frac{2}{x}-\\frac{7}{\\sqrt{x}}+3\\right)=0$ is:",
+  "options": {
+   "A": "2",
+   "B": "3",
+   "C": "1",
+   "D": "4"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #104",
+  "stem": "Define a relation $\\mathrm{R}$ on the interval $\\left[0, \\frac{x}{y}\\right)$ by $x \\mathrm{R} y$ if and only if $\\sec^2 x - \\tan^2 y = 1$. Then $\\mathrm{R}$ is:",
+  "options": {
+   "A": "both reflexive and transitive but not symmetric",
+   "B": "an equivalence relation",
+   "C": "reflexive but neither symmetric nor transitive",
+   "D": "both reflexive and symmetric but not transitive"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #105",
+  "stem": "Two parabolas have the same focus $(4,3)$ and their directrices are the $x$-axis and the $y$-axis, respectively. If these parabolas intersect at the points $A$ and $B$, then $(AB)^2$ is equal to:",
+  "options": {
+   "A": "392",
+   "B": "384",
+   "C": "192",
+   "D": "96"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #106",
+  "stem": "Let $\\mathrm{P}$ be the set of seven-digit numbers with sum of their digits equal to 11. If the numbers in $\\mathrm{P}$ are formed by using the digits 1, 2, and 3 only, then the number of elements in the set $P$ is:",
+  "options": {
+   "A": "173",
+   "B": "164",
+   "C": "158",
+   "D": "161"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #107",
+  "stem": "Let $\\overrightarrow{\\mathrm{a}}=\\hat{\\imath}+2\\hat{\\jmath}+\\hat{k}$ and $\\overrightarrow{\\mathrm{b}}=2\\hat{\\imath}+7\\hat{\\jmath}+3\\hat{k}$. Let $\\mathrm{L}_1: \\overrightarrow{\\mathrm{r}}=(-\\hat{\\imath}+2\\hat{\\jmath}+\\hat{k})+\\lambda \\overrightarrow{\\mathrm{a}}, \\lambda \\in \\mathbf{R}$ and $\\mathrm{L}_2: \\overrightarrow{\\mathrm{r}}=(\\hat{\\jmath}+\\hat{k})+\\mu \\overrightarrow{\\mathrm{b}}, \\mu \\in \\mathbf{R}$ be two lines. If the line $\\mathrm{L}_3$ passes through the point of intersection of $\\mathrm{L}_1$ and $\\mathrm{L}_2$, and is parallel to $\\vec{a}+\\vec{b}$, then $\\mathrm{L}_3$ passes through the point:",
+  "options": {
+   "A": "$(5,17,4)$",
+   "B": "$(2,8,5)$",
+   "C": "$(8,26,12)$",
+   "D": "$(-1,-1,1)$"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #108",
+  "stem": "Let $\\overrightarrow{\\mathrm{a}}=2\\hat{\\imath}-\\hat{\\jmath}+3\\hat{k}$, $\\overrightarrow{\\mathrm{b}}=3\\hat{\\imath}-5\\hat{\\jmath}+\\hat{k}$ and $\\overrightarrow{\\mathrm{c}}$ be a vector such that $\\overrightarrow{\\mathrm{a}} \\times \\overrightarrow{\\mathrm{c}}=\\overrightarrow{\\mathrm{c}} \\times \\overrightarrow{\\mathrm{b}}$ and $(\\vec{a}+\\vec{c}) \\cdot (\\vec{b}+\\vec{c})=168$. Then the maximum value of $|\\vec{c}|^2$ is:",
+  "options": {
+   "A": "462",
+   "B": "77",
+   "C": "154",
+   "D": "308"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #109",
+  "stem": "The integral $80 \\int_0^{\\frac{\\pi}{2}} \\left(\\frac{\\sin \\theta + \\cos \\theta}{9 + 16 \\sin 2 \\theta}\\right) d\\theta$ is equal to:",
+  "options": {
+   "A": "$3 \\log_e 4$",
+   "B": "$4 \\log_e 3$",
+   "C": "$6 \\log_e 4$",
+   "D": "$2 \\log_e 3$"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #110",
+  "stem": "Let the ellipse $\\mathbf{E}_1: \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1, \\mathbf{a} > \\mathbf{b}$ and $\\mathbf{E}_2: \\frac{x^2}{A^2} + \\frac{y^2}{B^2} = 1, \\mathbf{A} < \\mathbf{B}$ have the same eccentricity $\\frac{1}{\\sqrt{3}}$. Let the product of their lengths of latus rectums be $\\frac{32}{\\sqrt{3}}$, and the distance between the foci of $E_1$ be 4. If $E_1$ and $E_2$ meet at $A, B, C$ and $D$, then the area of the quadrilateral $ABCD$ equals:",
+  "options": {
+   "A": "$\\frac{12 \\sqrt{6}}{5}$",
+   "B": "$6 \\sqrt{6}$",
+   "C": "$\\frac{18 \\sqrt{6}}{5}$",
+   "D": "$\\frac{24 \\sqrt{6}}{5}$"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #111",
+  "stem": "Let $\\mathbf{A}=\\left[a_{ij}\\right]=\\left[\\begin{array}{cc} \\log_5 128 & \\log_4 5 \\\\ \\log_5 8 & \\log_4 25 \\end{array}\\right]$. If $\\mathbf{A}_{ij}$ is the cofactor of $\\mathbf{a}_{ij}$, $\\mathbf{C}_{ij}=\\sum_{k=1}^2 \\mathbf{a}_{ik} \\mathbf{A}_{jk}, 1 \\leq i, j \\leq 2$, and $\\mathbf{C}=\\left[\\mathbf{C}_{ij}\\right]$, then $8|\\mathbf{C}|$ is equal to:",
+  "options": {
+   "A": "288",
+   "B": "222",
+   "C": "242",
+   "D": "262"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #112",
+  "stem": "Let $|z_1 - 8 - 2i| \\leq 1$ and $|z_2 - 2 + 6i| \\leq 2, z_1, z_2 \\in \\mathbf{C}$. Then the minimum value of $|z_1 - z_2|$ is:",
+  "options": {
+   "A": "13",
+   "B": "10",
+   "C": "3",
+   "D": "7"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #113",
+  "stem": "Let $\\mathbf{L}_1: \\frac{x-1}{1} = \\frac{y-2}{1} = \\frac{z-1}{2}$ and $\\mathbf{L}_2: \\frac{x+1}{1} = \\frac{y-2}{2} = \\frac{z}{4}$ be two lines. Let $L_3$ be a line passing through the point $(\\alpha, \\beta, \\gamma)$ and be perpendicular to both $L_1$ and $L_2$. If $L_3$ intersects $L_1$, then $|5\\alpha - 11\\beta - 8\\gamma|$ equals:",
+  "options": {
+   "A": "20",
+   "B": "18",
+   "C": "25",
+   "D": "16"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #114",
+  "stem": "Let $M$ and $m$ respectively be the maximum and the minimum values of $\\begin{vmatrix} 1 + \\sin^2 x & \\cos^2 x & 4 \\sin 4x \\\\ 1 + \\sin^2 x & \\cos^2 x & 4 \\sin 4x \\\\ \\sin^2 x & \\cos^2 x & 1 + 4 \\sin 4x \\end{vmatrix}, x \\in \\mathbf{R}$. Then $M^4 - m^4$ is equal to:",
+  "options": {
+   "A": "1280",
+   "B": "1295",
+   "C": "1215",
+   "D": "1040"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #116",
+  "stem": "The value of $\\lim_{n \\to \\infty} \\left( \\sum_{k=1}^n \\frac{k^3 + 6k^2 + 11k + 6}{(k+3)!} \\right)$ is:",
+  "options": {
+   "A": "$\\frac{4}{3}$",
+   "B": "2",
+   "C": "$\\frac{7}{3}$",
+   "D": "$\\frac{5}{3}$"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #117",
+  "stem": "The least value of $n$ for which the number of integral terms in the Binomial expansion of $(\\sqrt[3]{7} + \\sqrt[3]{11})^n$ is 183, is:",
+  "options": {
+   "A": "2184",
+   "B": "2196",
+   "C": "2148",
+   "D": "2172"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #118",
+  "stem": "Let $y = y(x)$ be the solution of the differential equation $\\cos x (\\log_e (\\cos x))^2 dy + (\\sin x - 3y \\sin x \\log_e (\\cos x)) dx = 0, x \\in \\left(0, \\frac{\\pi}{2}\\right)$. If $y\\left(\\frac{\\pi}{4}\\right) = \\frac{-1}{\\log_e 2}$, then $y\\left(\\frac{\\pi}{6}\\right)$ is equal to:",
+  "options": {
+   "A": "$\\frac{1}{\\log_e 3 - \\log_e 4}$",
+   "B": "$\\frac{2}{\\log_e 3 - \\log_e 4}$",
+   "C": "$\\frac{1}{\\log_e 4 - \\log_e 3}$",
+   "D": "$\\frac{-1}{\\log_e 4}$"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #119",
+  "stem": "Let the line $x + y = 1$ meet the circle $x^2 + y^2 = 4$ at the points $A$ and $B$. If the line perpendicular to $AB$ and passing through the midpoint of the chord $AB$ intersects the circle at $C$ and $D$, then the area of the quadrilateral $ADBC$ is equal to:",
+  "options": {
+   "A": "$\\sqrt{14}$",
+   "B": "$3 \\sqrt{7}$",
+   "C": "$2 \\sqrt{14}$",
+   "D": "$5 \\sqrt{7}$"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #120",
+  "stem": "Let the area of the region $\\{(x, y): 2y \\leq x^2 + 3, y + |x| \\leq 3, y \\geq |x-1|\\}$ be $A$. Then $6A$ is equal to:",
+  "options": {
+   "A": "16",
+   "B": "12",
+   "C": "14",
+   "D": "18"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #126",
+  "stem": "Let $f(x)=\\int_0^x t\\left(t^2-9t+20\\right) dt$, $1 \\leq x \\leq 5$. If the range of $f$ is $[\\alpha, \\beta]$, then $4(\\alpha+\\beta)$ equals:",
+  "options": {
+   "A": "253",
+   "B": "154",
+   "C": "125",
+   "D": "157"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #127",
+  "stem": "Let $\\hat{a}$ be a unit vector perpendicular to the vectors $\\vec{b}=\\hat{i}-2\\hat{j}+3\\hat{k}$ and $\\vec{c}=2\\hat{i}+3\\hat{j}-\\hat{k}$, and makes an angle of $\\cos^{-1}\\left(-\\frac{1}{3}\\right)$ with the vector $\\hat{i}+\\hat{j}+\\hat{k}$. If $\\hat{a}$ makes an angle of $\\frac{\\pi}{3}$ with the vector $\\hat{i}+\\alpha\\hat{j}+\\hat{k}$, then the value of $\\alpha$ is:",
+  "options": {
+   "A": "$\\sqrt{6}$",
+   "B": "$-\\sqrt{6}$",
+   "C": "$-\\sqrt{3}$",
+   "D": "$\\sqrt{3}$"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #128",
+  "stem": "If for the solution curve $y=f(x)$ of the differential equation $\\frac{dy}{dx}+(\\tan x)y=\\frac{2+\\sec x}{(1+2\\sec x)^2}$, $x \\in \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$, $f\\left(\\frac{\\pi}{3}\\right)=\\frac{\\sqrt{3}}{10}$, then $f\\left(\\frac{\\pi}{4}\\right)$ is equal to:",
+  "options": {
+   "A": "$\\frac{\\sqrt{3}+1}{10(4+\\sqrt{3})}$",
+   "B": "$\\frac{5-\\sqrt{3}}{2\\sqrt{2}}$",
+   "C": "$\\frac{9\\sqrt{3}+3}{10(4+\\sqrt{3})}$",
+   "D": "$\\frac{4-\\sqrt{2}}{14}$"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #129",
+  "stem": "Let $P$ be the foot of the perpendicular from the point $(1,2,2)$ on the line $L: \\frac{x-1}{1}=\\frac{y+1}{-1}=\\frac{z-2}{2}$. Let the line $\\vec{r}=(-\\hat{i}+\\hat{j}-2\\hat{k})+\\lambda(\\hat{i}-\\hat{j}+\\hat{k})$, $\\lambda \\in \\mathbb{R}$, intersect the line $L$ at $Q$. Then $2(PQ)^2$ is equal to:",
+  "options": {
+   "A": "25",
+   "B": "19",
+   "C": "29",
+   "D": "27"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #130",
+  "stem": "Let $A=\\left[a_{ij}\\right]$ be a matrix of order $3 \\times 3$, with $a_{ij}=(\\sqrt{2})^{i+j}$. If the sum of all the elements in the third row of $A^2$ is $\\alpha+\\beta\\sqrt{2}$, $\\alpha, \\beta \\in \\mathbb{Z}$, then $\\alpha+\\beta$ is equal to:",
+  "options": {
+   "A": "280",
+   "B": "224",
+   "C": "210",
+   "D": "168"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #131",
+  "stem": "Let the line $x+y=1$ meet the axes of $x$ and $y$ at $A$ and $B$, respectively. A right-angled triangle $AMN$ is inscribed in the triangle $OAB$, where $O$ is the origin and the points $M$ and $N$ lie on the lines $OB$ and $AB$, respectively. If the area of the triangle $AMN$ is $\\frac{4}{9}$ of the area of the triangle $OAB$ and $AN:NB=\\lambda:1$, then the sum of all possible value(s) of $\\lambda$ is:",
+  "options": {
+   "A": "2",
+   "B": "$\\frac{5}{2}$",
+   "C": "$\\frac{1}{2}$",
+   "D": "$\\frac{15}{6}$"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #132",
+  "stem": "If all the words with or without meaning made using all the letters of the word 'KANPUR' are arranged as in a dictionary, then the word at $440^{\\text{th}}$ position in this arrangement is:",
+  "options": {
+   "A": "PRNAUK",
+   "B": "PRKANU",
+   "C": "PRKAUN",
+   "D": "PRNAKU"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #133",
+  "stem": "If the set of all $a \\in \\mathbb{R}$, for which the equation $2x^2+(a-5)x+15=3a$ has no real root, is the interval $(\\alpha, \\beta)$, and $X=\\{x \\in \\mathbb{Z}: \\alpha < x < \\beta\\}$, then $\\sum_{x \\in X} x^2$ is equal to:",
+  "options": {
+   "A": "2109",
+   "B": "2129",
+   "C": "2119",
+   "D": "2139"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #135",
+  "stem": "Let the function $f(x)=\\left(x^2+1\\right)\\left|x^2-ax+2\\right|+\\cos|x|$ be not differentiable at the two points $x=\\alpha=2$ and $x=\\beta$. Then the distance of the point $(\\alpha, \\beta)$ from the line $12x+5y+10=0$ is equal to:",
+  "options": {
+   "A": "5",
+   "B": "4",
+   "C": "3",
+   "D": "2"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #136",
+  "stem": "Let the area enclosed between the curves $|y|=1-x^2$ and $x^2+y^2=1$ be $\\alpha$. If $9\\alpha=\\beta\\pi+\\gamma$, $\\beta, \\gamma$ are integers, then the value of $|\\beta-\\gamma|$ equals:",
+  "options": {
+   "A": "27",
+   "B": "33",
+   "C": "15",
+   "D": "18"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #137",
+  "stem": "The remainder, when $7^{103}$ is divided by 23, is equal to:",
+  "options": {
+   "A": "6",
+   "B": "17",
+   "C": "9",
+   "D": "14"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #138",
+  "stem": "If $\\alpha x+\\beta y=109$ is the equation of the chord of the ellipse $\\frac{x^2}{9}+\\frac{y^2}{4}=1$, whose midpoint is $\\left(\\frac{5}{2}, \\frac{1}{2}\\right)$, then $\\alpha+\\beta$ is equal to:",
+  "options": {
+   "A": "58",
+   "B": "46",
+   "C": "37",
+   "D": "72"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #139",
+  "stem": "If the domain of the function $\\log_5\\left(18x-x^2-77\\right)$ is $(\\alpha, \\beta)$ and the domain of the function $\\log_{(\\alpha-1)}\\left(\\frac{2x^2+3x-2}{x^2-3x-4}\\right)$ is $(\\gamma, \\delta)$, then $\\alpha^2+\\beta^2+\\gamma^2$ is equal to:",
+  "options": {
+   "A": "195",
+   "B": "179",
+   "C": "186",
+   "D": "174"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #140",
+  "stem": "Let a circle $C$ pass through the points $(4,2)$ and $(0,2)$, and its centre lie on $3x+2y+2=0$. Then the length of the chord of the circle $C$, whose midpoint is $(1,2)$, is:",
+  "options": {
+   "A": "$\\sqrt{3}$",
+   "B": "$2\\sqrt{2}$",
+   "C": "$2\\sqrt{3}$",
+   "D": "$4\\sqrt{2}$"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #141",
+  "stem": "Let a straight line $L$ pass through the point $P(2,-1,3)$ and be perpendicular to the lines $\\frac{x-1}{4}=\\frac{y+1}{4}=\\frac{z-3}{2}$ and $\\frac{x-3}{4}=\\frac{y-2}{3}=\\frac{z+2}{4}$. If the line $L$ intersects the $yz$-plane at the point $Q$, then the distance between the points $P$ and $Q$ is:",
+  "options": {
+   "A": "$\\sqrt{10}$",
+   "B": "$2\\sqrt{3}$",
+   "C": "2",
+   "D": "3"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #142",
+  "stem": "Bag 1 contains 4 white balls and 5 black balls, and Bag 2 contains $n$ white balls and 3 black balls. One ball is drawn randomly from Bag 1 and transferred to Bag 2. A ball is then drawn randomly from Bag 2. If the probability that the ball drawn is white is $\\frac{29}{45}$, then $n$ is equal to:",
+  "options": {
+   "A": "6",
+   "B": "3",
+   "C": "5",
+   "D": "4"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #143",
+  "stem": "Let $\\alpha, \\beta (\\alpha \\neq \\beta)$ be the values of $m$, for which the equations $x+y+z=1$, $x+2y+4z=m$, and $x+4y+10z=m^2$ have infinitely many solutions. Then the value of $\\sum_{n=1}^{10} (n^\\alpha + n^\\beta)$ is equal to:",
+  "options": {
+   "A": "3080",
+   "B": "560",
+   "C": "3410",
+   "D": "440"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #144",
+  "stem": "Let $S=\\mathbb{N} \\cup \\{0\\}$. Define a relation $R$ from $S$ to $\\mathbb{R}$ by: $R=\\left\\{(x, y): \\log_e y = x \\log_e \\left(\\frac{x}{5}\\right), x \\in S, y \\in \\mathbb{R}\\right\\}$. Then, the sum of all the elements in the range of $R$ is equal to:",
+  "options": {
+   "A": "$\\frac{10}{9}$",
+   "B": "$\\frac{3}{2}$",
+   "C": "$\\frac{5}{2}$",
+   "D": "$\\frac{5}{3}$"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #145",
+  "stem": "If $\\sin x + \\sin^2 x = 1$, $x \\in \\left(0, \\frac{\\pi}{2}\\right)$, then $\\left(\\cos^{12} x + \\tan^{12} x\\right) + 3\\left(\\cos^{10} x + \\tan^{10} x + \\cos^8 x + \\tan^8 x\\right) + \\left(\\cos^6 x + \\tan^6 x\\right)$ is equal to:",
+  "options": {
+   "A": "4",
+   "B": "1",
+   "C": "3",
+   "D": "2"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #151",
+  "stem": "Let $O$ be the origin, the point $A$ be $z_1 = \\sqrt{3} + 2 \\sqrt{2} i$, the point $B(z_2)$ be such that $\\sqrt{3} |z_2| = |z_1|$ and $\\arg(z_2) = \\arg(z_1) + \\frac{\\pi}{2}$. Then",
+  "options": {
+   "A": "area of triangle $ABO$ is $\\frac{11}{\\sqrt{3}}$",
+   "B": "$ABO$ is an obtuse angled isosceles triangle",
+   "C": "area of triangle $ABO$ is $\\frac{11}{4}$",
+   "D": "$ABO$ is a scalene triangle"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #152",
+  "stem": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be a function defined by $f(x) = (2 + 3a) x^2 + \\left( \\frac{a + 2}{a - 1} \\right) x + b, a \\neq 1$. If $f(x + y) = f(x) + f(y) + 1 - \\frac{2}{7} xy$, then the value of $28 \\sum_{i=1}^{5} |f(i)|$ is",
+  "options": {
+   "A": "545",
+   "B": "715",
+   "C": "735",
+   "D": "675"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #154",
+  "stem": "The sum of all local minimum values of the function $f(x) = \\begin{cases} 1 - 2x, & x < -1 \\\\ \\frac{1}{3}(7 + 2|x|), & -1 \\leq x \\leq 2 \\\\ \\frac{11}{18}(x - 4)(x - 5), & x > 2 \\end{cases}$ is",
+  "options": {
+   "A": "$\\frac{127}{72}$",
+   "B": "$\\frac{131}{72}$",
+   "C": "$\\frac{171}{72}$",
+   "D": "$\\frac{167}{72}$"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #155",
+  "stem": "Let ${}^n C_{r-1} = 28$, ${}^n C_r = 56$ and ${}^n C_{r+1} = 70$. Let $A(4 \\cos t, 4 \\sin t)$, $B(2 \\sin t, -2 \\cos t)$ and $C(3r - n, r^2 - n - 1)$ be the vertices of a triangle $ABC$, where $t$ is a parameter. If $(3x - 1)^2 + (3y)^2 = \\alpha$, is the locus of the centroid of triangle $ABC$, then $\\alpha$ equals",
+  "options": {
+   "A": "6",
+   "B": "18",
+   "C": "8",
+   "D": "20"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #156",
+  "stem": "Let the equation of the circle, which touches $x$-axis at the point $(a, 0)$, $a > 0$ and cuts off an intercept of length $b$ on $y$-axis be $x^2 + y^2 - \\alpha x + \\beta y + \\gamma = 0$. If the circle lies below $x$-axis, then the ordered pair $(2a, b^2)$ is equal to",
+  "options": {
+   "A": "$(\\gamma, \\beta^2 - 4\\alpha)$",
+   "B": "$(\\alpha, \\beta^2 + 4\\gamma)$",
+   "C": "$(\\gamma, \\beta^2 + 4\\alpha)$",
+   "D": "$(\\alpha, \\beta^2 - 4\\gamma)$"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #157",
+  "stem": "If $f(x) = \\frac{x^2}{2^2 + \\sqrt{2}}$, $x \\in \\mathbb{R}$, then $\\sum_{k=1}^{81} f\\left(\\frac{x}{82}\\right)$ is equal to",
+  "options": {
+   "A": "$1.81 \\sqrt{2}$",
+   "B": "41",
+   "C": "82",
+   "D": "$\\frac{81}{2}$"
+  },
+  "answer": "D"
+ }
+]

@@ -1,0 +1,662 @@
+[
+ {
+  "ref": "JEE Main 2025 Jan #243",
+  "stem": "Let the shortest distance from $(a, 0)$, $a > 0$, to the parabola $y^2 = 4x$ be 4. Then the equation of the circle passing through the point $(a, 0)$ and the focus of the parabola, and having its centre on the axis of the parabola is:",
+  "options": {
+   "A": "$x^2 + y^2 - 10x + 9 = 0$",
+   "B": "$x^2 + y^2 - 6x + 5 = 0$",
+   "C": "$x^2 + y^2 - 4x + 3 = 0$",
+   "D": "$x^2 + y^2 - 8x + 7 = 0$"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #244",
+  "stem": "If in the expansion of $(1 + x)^p (1 - x)^q$, the coefficients of $x$ and $x^2$ are 1 and -2, respectively, then $p^2 + q^2$ is equal to:",
+  "options": {
+   "A": "18",
+   "B": "13",
+   "C": "8",
+   "D": "20"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Jan #245",
+  "stem": "If the area of the region $\\{(x, y) : -1 \\leq x \\leq 1, 0 \\leq y \\leq a + e^{|x|} - e^{-x}, a > 0\\}$ is $\\frac{\\pi^2 + 8e + 1}{e}$, then the value of $a$ is:",
+  "options": {
+   "A": "8",
+   "B": "7",
+   "C": "5",
+   "D": "6"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #2",
+  "stem": "Let $f : [1, \\infty) \\to [2, \\infty)$ be a differentiable function. If $\\int_1^x f(t)\\,dt = 5x f(x) - x^5 - 9$ for all $x \\geq 1$, then the value of $f(3)$ is:",
+  "options": {
+   "A": "18",
+   "B": "32",
+   "C": "22",
+   "D": "26"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #3",
+  "stem": "The number of terms of an A.P. is even; the sum of all the odd terms is 24, the sum of all the even terms is 30 and the last term exceeds the first by $\\frac{21}{2}$. Then the number of terms which are integers in the A.P. is:",
+  "options": {
+   "A": "4",
+   "B": "10",
+   "C": "6",
+   "D": "8"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #4",
+  "stem": "Let $A = \\{1, 2, 3, \\ldots, 10\\}$ and $R$ be a relation on $A$ such that $R = \\{(a, b) : a = 2b + 1\\}$. Let $(a_1, a_2), (a_2, a_3), (a_3, a_4), \\ldots, (a_k, a_{k+1})$ be a sequence of $k$ elements of $R$ such that the second entry of an ordered pair is equal to the first entry of the next ordered pair. Then the largest integer $k$, for which such a sequence exists, is equal to:",
+  "options": {
+   "A": "6",
+   "B": "7",
+   "C": "5",
+   "D": "8"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #5",
+  "stem": "If the length of the minor axis of an ellipse is equal to one fourth of the distance between the foci, then the eccentricity of the ellipse is:",
+  "options": {
+   "A": "$\\frac{4}{\\sqrt{17}}$",
+   "B": "$\\frac{\\sqrt{3}}{16}$",
+   "C": "$\\frac{3}{\\sqrt{19}}$",
+   "D": "$\\frac{\\sqrt{5}}{7}$"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #6",
+  "stem": "The line $L_1$ is parallel to the vector $\\vec{a} = -3\\hat{i} + 2\\hat{j} + 4\\hat{k}$ and passes through the point $(7, 6, 2)$ and the line $L_2$ is parallel to the vector $\\vec{b} = 2\\hat{i} + \\hat{j} + 3\\hat{k}$ and passes through the point $(5, 3, 4)$. The shortest distance between the lines $L_1$ and $L_2$ is:",
+  "options": {
+   "A": "$\\frac{23}{\\sqrt{38}}$",
+   "B": "$\\frac{21}{\\sqrt{57}}$",
+   "C": "$\\frac{23}{\\sqrt{57}}$",
+   "D": "$\\frac{21}{\\sqrt{38}}$"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #7",
+  "stem": "Let $(a, b)$ be the point of intersection of the curve $x^2 = 2y$ and the straight line $y - 2x - 6 = 0$ in the second quadrant. Then the integral $I = \\int_a^b \\frac{9x^2}{1 + 5^x} \\, dx$ is equal to:",
+  "options": {
+   "A": "24",
+   "B": "27",
+   "C": "18",
+   "D": "21"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #8",
+  "stem": "If the system of equations \\\\\n$2x + \\lambda y + 3z = 5$ \\\\\n$3x + 2y - z = 7$ \\\\\n$4x + 5y + \\mu z = 9$ \\\\\n has infinitely many solutions, then $(\\lambda^2 + \\mu^2)$ is equal to:",
+  "options": {
+   "A": "22",
+   "B": "18",
+   "C": "26",
+   "D": "30"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #9",
+  "stem": "If $\\theta \\in \\left[-\\frac{7\\pi}{6}, \\frac{4\\pi}{3}\\right]$, then the number of solutions of \\\\\n$\\sqrt{3}\\csc^2\\theta - 2(\\sqrt{3} - 1)\\csc\\theta - 4 = 0$, is equal to:",
+  "options": {
+   "A": "6",
+   "B": "8",
+   "C": "10",
+   "D": "7"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #10",
+  "stem": "Given three identical bags each containing 10 balls, whose colours are as follows: \\\\\n\\textbf{Bag I:} Red = 3, Blue = 2, Green = 5 \\\\\n\\textbf{Bag II:} Red = 4, Blue = 3, Green = 3 \\\\\n\\textbf{Bag III:} Red = 5, Blue = 1, Green = 4 \\\\\nA person chooses a bag at random and takes out a ball. If the ball is Red, the probability that it is from bag I is $p$ and if the ball is Green, the probability that it is from bag III is $q$, then the value of $\\left( \\frac{1}{p} + \\frac{1}{q} \\right)$ is:",
+  "options": {
+   "A": "6",
+   "B": "9",
+   "C": "7",
+   "D": "8"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #11",
+  "stem": "If the mean and the variance of $6,\\ 4,\\ a,\\ 8,\\ b,\\ 12,\\ 10,\\ 13$ are $9$ and $9.25$ respectively, then $a + b + ab$ is equal to:",
+  "options": {
+   "A": "105",
+   "B": "103",
+   "C": "100",
+   "D": "106"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #12",
+  "stem": "If the domain of the function \\\\\n$f(x) = \\frac{1}{\\sqrt{10 + 3x - x^2}} + \\frac{1}{\\sqrt{x + |x|}}$ is $(a,\\ b)$, then $(1 + a)^2 + b^2$ is equal to:",
+  "options": {
+   "A": "26",
+   "B": "29",
+   "C": "25",
+   "D": "30"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #13",
+  "stem": "$4\\int_0^1 \\left(\\frac{1}{\\sqrt{3 + x^2} + \\sqrt{1 + x^2}}\\right) dx - 3 \\log_e(\\sqrt{3})$ is equal to:",
+  "options": {
+   "A": "$2 + \\sqrt{2} + \\log_e(1 + \\sqrt{2})$",
+   "B": "$2 - \\sqrt{2} - \\log_e(1 + \\sqrt{2})$",
+   "C": "$2 + \\sqrt{2} - \\log_e(1 + \\sqrt{2})$",
+   "D": "$2 - \\sqrt{2} + \\log_e(1 + \\sqrt{2})$"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #14",
+  "stem": "If $\\lim\\limits_{x \\to 0} \\frac{\\cos(2x) + a\\cos(4x) - b}{x^4}$ is finite, then $(a + b)$ is equal to:",
+  "options": {
+   "A": "$\\frac{1}{2}$",
+   "B": "0",
+   "C": "$\\frac{3}{4}$",
+   "D": "$-1$"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #15",
+  "stem": "If $\\sum_{r=0}^{10} \\left(\\frac{10^{r+1} - 1}{10^r}\\right) \\cdot {}^{11}C_{r+1} = \\frac{\\alpha^{11} - 11^{11}}{10^{10}}$, then $\\alpha$ is equal to:",
+  "options": {
+   "A": "15",
+   "B": "11",
+   "C": "24",
+   "D": "20"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #17",
+  "stem": "Let the point $P$ of the focal chord $PQ$ of the parabola $y^2 = 16x$ be $(1, -4)$. If the focus of the parabola divides the chord $PQ$ in the ratio $m : n$, $\\gcd(m, n) = 1$, then $m^2 + n^2$ is equal to:",
+  "options": {
+   "A": "17",
+   "B": "10",
+   "C": "37",
+   "D": "26"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #18",
+  "stem": "Let $\\vec{a} = 2\\hat{i} - 3\\hat{j} + \\hat{k}$, $\\vec{b} = 3\\hat{i} + 2\\hat{j} + 5\\hat{k}$ and a vector $\\vec{c}$ be such that $(\\vec{a} - \\vec{c}) \\times \\vec{b} = -18\\hat{i} - 3\\hat{j} + 12\\hat{k}$ and $\\vec{a} \\cdot \\vec{c} = 3$. If $\\vec{b} \\times \\vec{c} = \\vec{d}$, then $|\\vec{a} \\cdot \\vec{d}|$ is equal to:",
+  "options": {
+   "A": "18",
+   "B": "12",
+   "C": "9",
+   "D": "15"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #19",
+  "stem": "Let the area of the triangle formed by a straight line $L : x + by + c = 0$ with coordinate axes be $48$ square units. If the perpendicular drawn from the origin to the line $L$ makes an angle of $45^\\circ$ with the positive x-axis, then the value of $b^2 + c^2$ is:",
+  "options": {
+   "A": "90",
+   "B": "93",
+   "C": "97",
+   "D": "83"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #20",
+  "stem": "Let $A$ be a $3 \\times 3$ real matrix such that $A^2(A - 2I) - 4(A - I) = O$, where $I$ and $O$ are the identity and null matrices, respectively. If $A^5 = \\alpha A^2 + \\beta A + \\gamma I$, where $\\alpha$, $\\beta$ and $\\gamma$ are real constants, then $\\alpha + \\beta + \\gamma$ is equal to:",
+  "options": {
+   "A": "12",
+   "B": "20",
+   "C": "76",
+   "D": "4"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #26",
+  "stem": "The largest $n\\in\\mathbb{N}$ such that $3^n$ divides $50!$ is:",
+  "options": {
+   "A": "21",
+   "B": "22",
+   "C": "20",
+   "D": "23"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #27",
+  "stem": "The number of sequences of ten terms, whose terms are either $0$, $1$, or $2$, that contain exactly five $1$’s and exactly three $2$’s is equal to:",
+  "options": {
+   "A": "360",
+   "B": "45",
+   "C": "2520",
+   "D": "1820"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #28",
+  "stem": "Let one focus of the hyperbola $H:\\tfrac{x^2}{a^2}-\\tfrac{y^2}{b^2}=1$ be at $(\\sqrt{10},0)$ and the corresponding directrix be $x=\\tfrac{9}{\\sqrt{10}}$. If $e$ and $l$ respectively are the eccentricity and the length of the latus rectum of $H$, then $9\\,(e^2+l)$ is equal to:",
+  "options": {
+   "A": "14",
+   "B": "15",
+   "C": "16",
+   "D": "12"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #29",
+  "stem": "Let $f:\\mathbb{R}\\to\\mathbb{R}$ be a twice-differentiable function such that\n$(\\sin x\\cos y)\\bigl[f(2x+2y)-f(2x-2y)\\bigr]=(\\cos x\\sin y)\\bigl[f(2x+2y)+f(2x-2y)\\bigr]$\nfor all $x,y\\in\\mathbb{R}$. If $f'(0)=\\tfrac12$, then the value of $24\\,f''\\bigl(\\tfrac{5\\pi}{3}\\bigr)$ is:",
+  "options": {
+   "A": "2",
+   "B": "-3",
+   "C": "3",
+   "D": "-2"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #30",
+  "stem": "Let $A=\\begin{pmatrix}\\alpha-1 & -1\\\\6 & \\beta\\end{pmatrix}$, $\\alpha>0$, such that $\\det(A)=0$ and $\\alpha+\\beta=1$. If $I$ denotes the $2\\times2$ identity matrix, then the matrix $(I+A)^8$ is:",
+  "options": {
+   "A": "$\\begin{pmatrix}4 & -1\\\\6 & -1\\end{pmatrix}$",
+   "B": "$\\begin{pmatrix}257 & -64\\\\514 & -127\\end{pmatrix}$",
+   "C": "$\\begin{pmatrix}1025 & -511\\\\2024 & -1024\\end{pmatrix}$",
+   "D": "$\\begin{pmatrix}766 & -255\\\\1530 & -509\\end{pmatrix}$"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #31",
+  "stem": "The term independent of $x$ in the expansion of\n$\\displaystyle\\bigl(\\tfrac{x+1}{x^{2/3}+1-x^{1/3}} - \\tfrac{x+1}{x-x^{1/2}}\\bigr)^{10}$,\nfor $x>1$, is:",
+  "options": {
+   "A": "210",
+   "B": "150",
+   "C": "240",
+   "D": "120"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #32",
+  "stem": "If $\\theta \\in [-2\\pi, 2\\pi]$, then the number of solutions of $2\\sqrt{2}\\cos^2\\theta + (2-\\sqrt{6})\\cos\\theta - \\sqrt{3} = 0$ is equal to:",
+  "options": {
+   "A": "12",
+   "B": "6",
+   "C": "8",
+   "D": "10"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #33",
+  "stem": "Let $a_1,a_2,a_3,\\dots$ be in an A.P. such that $\\displaystyle\\sum_{k=1}^{12}a_{2k-1}=-\\tfrac{72}{5}a_1$, $a_1\\neq0$. If $\\displaystyle\\sum_{k=1}^n a_k=0$, then $n$ is:",
+  "options": {
+   "A": "11",
+   "B": "10",
+   "C": "18",
+   "D": "17"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #34",
+  "stem": "If the function $f(x)=2x^3 - 9a x^2 + 12a^2 x + 1$, where $a>0$, attains its local maximum and local minimum at $p$ and $q$ respectively, such that $p^2 = q$, then $f(3)$ is equal to:",
+  "options": {
+   "A": "55",
+   "B": "10",
+   "C": "23",
+   "D": "37"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #35",
+  "stem": "Let $z$ be a complex number such that $|z|=1$. If $\\displaystyle\\frac{2 + k^2 z}{k + \\overline{z}} = k z$, $k\\in\\mathbb{R}$, then the maximum distance of $k + i k^2$ from the circle $|z - (1 + 2i)| = 1$ is:",
+  "options": {
+   "A": "$\\sqrt{5} + 1$",
+   "B": "2",
+   "C": "3",
+   "D": "$\\sqrt{3} + 1$"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #36",
+  "stem": "If $\\vec{a}$ is a nonzero vector such that its projections on the vectors $2\\hat{i}-\\hat{j}+2\\hat{k}$, $\\hat{i}+2\\hat{j}-2\\hat{k}$, and $\\hat{k}$ are equal, then a unit vector along $\\vec{a}$ is:",
+  "options": {
+   "A": "$\\frac{1}{\\sqrt{155}}(-7\\hat{i} + 9\\hat{j} + 5\\hat{k})$",
+   "B": "$\\frac{1}{\\sqrt{155}}(-7\\hat{i} + 9\\hat{j} - 5\\hat{k})$",
+   "C": "$\\frac{1}{\\sqrt{155}}(7\\hat{i} + 9\\hat{j} + 5\\hat{k})$",
+   "D": "$\\frac{1}{\\sqrt{155}}(7\\hat{i} + 9\\hat{j} - 5\\hat{k})$"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #37",
+  "stem": "Let $A$ be the set of all functions $f: \\mathbb{Z} \\to \\mathbb{Z}$ and $R$ be a relation on $A$ such that $R = \\{(f,g): f(0)=g(1) \\text{ and } f(1)=g(0)\\}$. Then $R$ is:",
+  "options": {
+   "A": "Symmetric and transitive but not reflective",
+   "B": "Symmetric but neither reflective nor transitive",
+   "C": "Reflexive but neither symmetric nor transitive",
+   "D": "Transitive but neither reflexive nor symmetric"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #38",
+  "stem": "For $\\alpha,\\beta,\\gamma\\in\\mathbb{R}$, if $\\displaystyle\\lim_{x\\to0}\\frac{x^2\\sin(\\alpha x)+(\\gamma-1)e^{x^2}}{\\sin(2x)-\\beta x}=3$, then $\\beta+\\gamma-\\alpha$ is equal to:",
+  "options": {
+   "A": "7",
+   "B": "4",
+   "C": "6",
+   "D": "-1"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #39",
+  "stem": "Let $P_n=\\alpha^n+\\beta^n,\\ n\\in\\mathbb{N}$. If $P_{10}=123,\\ P_9=76,\\ P_8=47$ and $P_1=1$, then the quadratic equation having roots $\\frac{1}{\\alpha}$ and $\\frac{1}{\\beta}$ is:",
+  "options": {
+   "A": "$x^2 - x + 1 = 0$",
+   "B": "$x^2 + x - 1 = 0$",
+   "C": "$x^2 - x - 1 = 0$",
+   "D": "$x^2 + x + 1 = 0$"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #40",
+  "stem": "If the system of linear equations $3x + y + \\beta z = 3$, $2x + \\alpha y - z = -3$, $x + 2y + z = 4$ has infinitely many solutions, then the value of $22\\beta - 9\\alpha$ is:",
+  "options": {
+   "A": "49",
+   "B": "31",
+   "C": "43",
+   "D": "37"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #41",
+  "stem": "If $S$ and $S'$ are the foci of the ellipse $\\frac{x^2}{18} + \\frac{y^2}{9} = 1$ and $P$ is a point on the ellipse, then $\\min\\bigl(SP\\cdot S'P\\bigr) + \\max\\bigl(SP\\cdot S'P\\bigr)$ is equal to:",
+  "options": {
+   "A": "$3(1+\\sqrt{2})$",
+   "B": "$3(6+\\sqrt{2})$",
+   "C": "9",
+   "D": "27"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #42",
+  "stem": "Let the vertices Q and R of the triangle PQR lie on the line $\\frac{x+3}{5}=\\frac{y-1}{2}=\\frac{z+4}{3}$, QR = 5, and the coordinates of the point P be $(0,2,3)$. If the area of the triangle PQR is $\\tfrac{m}{n}$, then:",
+  "options": {
+   "A": "$m - 5\\sqrt{21}\\,n = 0$",
+   "B": "$2m - 5\\sqrt{21}\\,n = 0$",
+   "C": "$5m - 2\\sqrt{21}\\,n = 0$",
+   "D": "$5m - 21\\sqrt{2}\\,n = 0$"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #43",
+  "stem": "Let ABCD be a tetrahedron such that the edges AB, AC and AD are mutually perpendicular. Let the areas of the triangles ABC, ACD and ADB be 5, 6 and 7 square units respectively. Then the area (in square units) of ABCD is equal to:",
+  "options": {
+   "A": "$\\sqrt{340}$",
+   "B": "12",
+   "C": "$\\sqrt{110}$",
+   "D": "$7\\sqrt{3}$"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #44",
+  "stem": "Let $a\\in\\mathbb{R}$ and $A$ be a matrix of order $3\\times3$ such that $\\det(A)=-4$ and\n$$A+I=\\begin{pmatrix}1 & a & 1\\\\2 & 1 & 0\\\\a & 1 & 2\\end{pmatrix},$$\nwhere $I$ is the $3\\times3$ identity. If\n$$\\det\\bigl((a+1)\\adj((a-1)A)\\bigr)=2^m3^n,\\quad m,n\\in\\{0,1,2,\\dots,20\\},$$\nthen $m+n$ is equal to:",
+  "options": {
+   "A": "14",
+   "B": "17",
+   "C": "15",
+   "D": "16"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #45",
+  "stem": "Let the focal chord $PQ$ of the parabola $y^2 = 4x$ make an angle of $60^\\circ$ with the positive x-axis, where $P$ lies in the first quadrant. If the circle, whose one diameter is $PS$, $S$ being the focus of the parabola, touches the y-axis at the point $(0,\\alpha)$, then $5\\alpha^2$ is equal to:",
+  "options": {
+   "A": "15",
+   "B": "25",
+   "C": "30",
+   "D": "20"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #51",
+  "stem": "Let $f: \\mathbb{R}\\to\\mathbb{R}$ be a function defined by $$f(x)=\\lvert x+2\\rvert - 2\\lvert x\\rvert.$$ If $m$ is the number of points of local minima and $n$ is the number of points of local maxima of $f$, then $m+n$ is:",
+  "options": {
+   "A": "5",
+   "B": "3",
+   "C": "2",
+   "D": "4"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #52",
+  "stem": "Each of the angles $\\beta$ and $\\gamma$ that a given line makes with the positive $y$- and $z$-axes, respectively, is half of the angle that this line makes with the positive $x$-axis. Then the sum of all possible values of the angle $\\beta$ is:",
+  "options": {
+   "A": "$\\tfrac{3\\pi}{4}$",
+   "B": "$\\pi$",
+   "C": "$\\tfrac{\\pi}{2}$",
+   "D": "$\\tfrac{3\\pi}{2}$"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #53",
+  "stem": "If the four distinct points $(4,6)$, $(-1,5)$, $(0,0)$ and $(k,3k)$ lie on a circle of radius $r$, then $10k + r^2$ is equal to:",
+  "options": {
+   "A": "32",
+   "B": "33",
+   "C": "34",
+   "D": "35"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #54",
+  "stem": "Let the mean and variance of five observations $x_1=1$, $x_2=3$, $x_3=a$, $x_4=7$ and $x_5=b$, with $a>b$, be $5$ and $10$ respectively. Then the variance of the observations $n + x_n$ for $n=1,2,\\dots,5$ is:",
+  "options": {
+   "A": "17",
+   "B": "16.4",
+   "C": "17.4",
+   "D": "16"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #55",
+  "stem": "Let $A=\\{-2,-1,0,1,2,3\\}$. Define a relation $R$ on $A$ by $xRy$ if and only if $y=\\max(x,1)$. If $l$ is the number of elements in $R$, and $m$ and $n$ are the minimum numbers of ordered pairs that must be added to $R$ to make it reflexive and symmetric respectively, then $l+m+n$ is equal to:",
+  "options": {
+   "A": "12",
+   "B": "11",
+   "C": "13",
+   "D": "14"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #56",
+  "stem": "Consider the lines $x(3\\lambda+1)+y(7\\lambda+2)=17\\lambda+5$, $\\lambda$ being a parameter, all passing through a point $P$. One of these lines (say $L$) is farthest from the origin. If the distance of $L$ from the point $(3,6)$ is $d$, then the value of $d^2$ is:",
+  "options": {
+   "A": "20",
+   "B": "30",
+   "C": "10",
+   "D": "15"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #57",
+  "stem": "Let the equation $x(x+2)(12-k)=2$ have equal roots. Then the distance of the point $(k,\\tfrac{k}{2})$ from the line $3x+4y+5=0$ is:",
+  "options": {
+   "A": "15",
+   "B": "$5\\sqrt{3}$",
+   "C": "$15\\sqrt{5}$",
+   "D": "12"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #58",
+  "stem": "Line $L_1$ of slope $2$ and line $L_2$ of slope $\\tfrac12$ intersect at the origin $O$. In the first quadrant, $P_1,P_2,\\dots,P_{12}$ are 12 points on $L_1$ and $Q_1,Q_2,\\dots,Q_9$ are 9 points on $L_2$. Then the total number of triangles that can be formed with vertices chosen from the 22 points $O,P_1,\\dots,P_{12},Q_1,\\dots,Q_9$ is:",
+  "options": {
+   "A": "1080",
+   "B": "1134",
+   "C": "1026",
+   "D": "1188"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #59",
+  "stem": "Let $f$ be a function such that $f(x) + 3\\,f\\bigl(24/x\\bigr) = 4x$, $x\\neq0$. Then $f(3) + f(8)$ is equal to:",
+  "options": {
+   "A": "11",
+   "B": "10",
+   "C": "12",
+   "D": "13"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #60",
+  "stem": "The integral $\\displaystyle\\int_{0}^{\\pi}\\frac{8x}{4\\cos^2x + \\sin^2x}\\,dx$ is equal to:",
+  "options": {
+   "A": "$2\\pi^2$",
+   "B": "$4\\pi^2$",
+   "C": "$\\pi^2$",
+   "D": "$\\tfrac{3\\pi^2}{2}$"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #61",
+  "stem": "The area of the region $\\{(x,y):\\lvert x-y\\rvert \\le y \\le 4\\sqrt{x}\\}$ is:",
+  "options": {
+   "A": "512",
+   "B": "$\\tfrac{1024}{3}$",
+   "C": "$\\tfrac{512}{3}$",
+   "D": "$\\tfrac{2048}{3}$"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #62",
+  "stem": "If the probability that the random variable $X$ takes the value $x$ is given by\n$$P(X=x)=k\\,(x+1)3^{-x},\\quad x=0,1,2,\\dots,$$\nwhere $k$ is a constant, then $P(X\\ge3)$ is equal to:",
+  "options": {
+   "A": "7/27",
+   "B": "4/9",
+   "C": "8/27",
+   "D": "1/9"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #63",
+  "stem": "Let $y=y(x)$ be the solution of the differential equation $\\frac{dy}{dx} + 3(\\tan^2x)\\,y + 3y = \\sec^2x$, with $y(0)=\\tfrac{1}{3}+e^3$. Then $y\\bigl(\\tfrac{\\pi}{4}\\bigr)$ is equal to:",
+  "options": {
+   "A": "$\\tfrac{2}{3}$",
+   "B": "$\\tfrac{4}{3}$",
+   "C": "$\\tfrac{4}{3} + e^3$",
+   "D": "$\\tfrac{2}{3} + e^3$"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #64",
+  "stem": "If $z_1, z_2, z_3\\in\\mathbb{C}$ are the vertices of an equilateral triangle whose centroid is $z_0$, then $\\displaystyle\\sum_{k=1}^3 (z_k - z_0)^2$ is equal to:",
+  "options": {
+   "A": "0",
+   "B": "1",
+   "C": "i",
+   "D": "-i"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #65",
+  "stem": "The number of solutions of the equation $$(4-\\sqrt{3})\\sin x - 2\\sqrt{3}\\cos^2x = -\\frac{4}{1+\\sqrt{3}},\\quad x\\in[-2\\pi,\\tfrac{5\\pi}{2}]$$ is equal to:",
+  "options": {
+   "A": "4",
+   "B": "3",
+   "C": "6",
+   "D": "5"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #66",
+  "stem": "The shortest distance between the curves $$y^2 = 8x$$ and $$x^2 + y^2 + 12y + 35 = 0$$ is:",
+  "options": {
+   "A": "$2\\sqrt{3} - 1$",
+   "B": "$\\sqrt{2}$",
+   "C": "$3\\sqrt{2} - 1$",
+   "D": "$2\\sqrt{2} - 1$"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #67",
+  "stem": "Let $C$ be the circle of minimum area enclosing the ellipse $\\displaystyle\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$ with eccentricity $\\tfrac12$ and foci $(\\pm2,0)$. Let $PQR$ be a variable triangle whose vertex $P$ lies on $C$ and whose side $QR$ of length $29$ is parallel to the major axis of the ellipse and passes through the point where the ellipse intersects the negative $y$–axis. Then the maximum area of $\\triangle PQR$ is:",
+  "options": {
+   "A": "$6(3+\\sqrt{2})$",
+   "B": "$8(3+\\sqrt{2})$",
+   "C": "$6(2+\\sqrt{3})$",
+   "D": "$8(2+\\sqrt{3})$"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #68",
+  "stem": "The distance of the point $(7,10,11)$ from the line $\\displaystyle\\frac{x-4}{1}=\\frac{y-4}{0}=\\frac{z-2}{3}$ along the line $\\displaystyle\\frac{x-9}{2}=\\frac{y-13}{-3}=\\frac{z-17}{6}$ is:",
+  "options": {
+   "A": "18",
+   "B": "14",
+   "C": "12",
+   "D": "16"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #69",
+  "stem": "The sum $1 + \\tfrac{1+3}{2!} + \\tfrac{1+3+5}{3!} + \\tfrac{1+3+5+7}{4!} + \\dots$ up to infinitely many terms is equal to:",
+  "options": {
+   "A": "6e",
+   "B": "4e",
+   "C": "3e",
+   "D": "2e"
+  },
+  "answer": "D"
+ }
+]

@@ -1,0 +1,67 @@
+# Entrance Mock Tests
+
+Offline mock-test site for Indian engineering entrance exams. Pick an exam from the side menu:
+
+| Exam | Pattern | Marking | Status |
+|---|---|---|---|
+| **BITSAT** | 130 Qs, 180 min: Physics 30, Chemistry 30, English 10, LR 20, Maths 40, plus a 12-question bonus round | +3 / −1 / 0 | Ready |
+| **TS EAMCET** (TG EAPCET) | 160 Qs, 180 min: Maths 80, Physics 40, Chemistry 40 | +1 / 0 / 0 | Coming soon |
+| **AP EAMCET** (AP EAPCET) | 160 Qs, 180 min: Maths 80, Physics 40, Chemistry 40 | +1 / 0 / 0 | Coming soon |
+
+The BITSAT pattern follows the official BITSAT-2026 brochure. Answer all 130 questions and you can opt into 12 bonus questions (3 each from Physics, Chemistry, Maths and LR). Once you opt in, the 130 answers are locked.
+
+## Run it
+
+Double-click **`start-exam.cmd`**. The first run installs dependencies, then the site opens at http://localhost:5191. Keep the window open while practising.
+
+Or from a terminal:
+
+```
+npm install
+npm run dev
+```
+
+## Features
+
+| Feature | Details |
+|---|---|
+| Full mock | Real paper size, timing and marking. BITSAT includes the bonus round. Question palette shows answered / not answered / not visited / marked. |
+| Sectional tests | One per subject at real-paper size and pace (e.g. BITSAT Physics: 30 Qs / 42 min), plus combined tests where they apply |
+| Custom test | Any number of questions per subject; timing scales at exam pace |
+| Timer options | Exam pace, custom minutes, or untimed with a stopwatch |
+| Pause | Optional per test. Pausing hides the questions. Switching tabs auto-pauses. |
+| Results | Score, answered / correct / incorrect / skipped, marks lost to negative marking, accuracy, time per section, weak topics |
+| Review | Every question shows the correct option and your option, marks gained or lost, time spent and a worked explanation. Filter by correct / incorrect / skipped / marked and by subject. |
+| PDF report | "Download PDF report" on the results/review screens: score summary, section table, and every question with your answer, the correct answer (or "Not answered") and the explanation, figures included. Uses the browser's print dialog → **Save as PDF**. |
+| Past attempts | Every attempt in "Your attempts" can be reopened for review or exported as PDF later |
+| Resume | Progress is saved in the browser per exam; close the tab and resume later |
+| No repeats | New tests prefer questions you haven't seen yet |
+
+Keyboard: `A`–`D` or `1`–`4` select · `←` / `→` move · `M` mark for review · `P` pause.
+
+## Question bank
+
+`public/data/questions/*.json`, schema in [QUESTION_SCHEMA.md](QUESTION_SCHEMA.md).
+
+| File | Questions | Source |
+|---|---|---|
+| `physics.json` | 100 | Original, BITSAT-2026 syllabus |
+| `chemistry.json` | 100 | Original, BITSAT-2026 syllabus |
+| `mathematics-1.json` | 70 | Original: algebra, calculus |
+| `mathematics-2.json` | 70 | Original: coordinate geometry, trigonometry, vectors/3D, probability |
+| `english.json` | 45 | Original |
+| `reasoning.json` | 75 | Original |
+| `harvested.json` | 691 | Openly licensed JEE Main / Advanced datasets. See [ATTRIBUTION.md](ATTRIBUTION.md). |
+
+Every original question was independently re-solved by a second reviewer. Harvested questions were re-solved, and any that didn't match their key were repaired or dropped.
+
+After editing or adding questions:
+
+```
+npm run validate   # checks every question + KaTeX math, regenerates data/manifest.json
+npm test
+```
+
+## Adding an exam's questions (e.g. EAMCET)
+
+Exams are defined in `src/exams.ts`. Subject pools are shared across exams. Tag exam-specific questions with `"exams": ["ts-eamcet"]` so they're only drawn for that exam. When an exam's bank is reviewed, set its `status` to `'ready'` and its tests appear in the menu.

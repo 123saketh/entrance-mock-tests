@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "phy-a-0001",
+    "subject": "physics",
+    "topic": "Units & Measurement",
+    "difficulty": "easy",
+    "stem": "The dimensional formula of Planck's constant $h$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$[ML^2T^{-2}]$"
+      },
+      {
+        "key": "B",
+        "text": "$[MLT^{-1}]$"
+      },
+      {
+        "key": "C",
+        "text": "$[ML^2T^{-1}]$"
+      },
+      {
+        "key": "D",
+        "text": "$[ML^2T^{-3}]$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "From $E = h\\nu$, $[h] = [E]/[\\nu] = [ML^2T^{-2}]/[T^{-1}] = [ML^2T^{-1}]$ (same as angular momentum). $[ML^2T^{-2}]$ is energy (forgot to divide by frequency), $[MLT^{-1}]$ is linear momentum and $[ML^2T^{-3}]$ is power.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0002",
+    "subject": "physics",
+    "topic": "Units & Measurement",
+    "difficulty": "medium",
+    "stem": "A quantity is given by $X = \\dfrac{a^2 b^3}{c\\sqrt{d}}$. The percentage errors in $a$, $b$, $c$ and $d$ are 1%, 2%, 3% and 4% respectively. The maximum percentage error in $X$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "10%"
+      },
+      {
+        "key": "B",
+        "text": "15%"
+      },
+      {
+        "key": "C",
+        "text": "13%"
+      },
+      {
+        "key": "D",
+        "text": "3%"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Maximum error: $\\frac{\\Delta X}{X} = 2\\frac{\\Delta a}{a} + 3\\frac{\\Delta b}{b} + \\frac{\\Delta c}{c} + \\frac12\\frac{\\Delta d}{d} = 2 + 6 + 3 + 2 = 13\\%$. 10% simply adds the given errors without powers; 15% uses power 1 instead of 1/2 for $d$; 3% wrongly subtracts errors of quantities in the denominator - errors always add.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0003",
+    "subject": "physics",
+    "topic": "Units & Measurement",
+    "difficulty": "easy",
+    "stem": "In a vernier callipers, 10 vernier scale divisions coincide with 9 main scale divisions, and one main scale division is 1 mm. The least count of the instrument is",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.9 mm"
+      },
+      {
+        "key": "B",
+        "text": "0.1 mm"
+      },
+      {
+        "key": "C",
+        "text": "0.01 mm"
+      },
+      {
+        "key": "D",
+        "text": "0.11 mm"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1 VSD $= \\frac{9}{10}$ MSD $= 0.9$ mm. Least count $=$ 1 MSD $-$ 1 VSD $= 1 - 0.9 = 0.1$ mm. 0.9 mm is the value of one VSD, not the least count; 0.01 mm is a typical screw-gauge value; 0.11 mm comes from wrongly computing $1/9$ mm.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0004",
+    "subject": "physics",
+    "topic": "Units & Measurement",
+    "difficulty": "medium",
+    "stem": "The length and breadth of a metal sheet are measured as 4.234 m and 1.005 m. Its area, reported to the correct number of significant figures, is",
+    "options": [
+      {
+        "key": "A",
+        "text": "4.25517 m$^2$"
+      },
+      {
+        "key": "B",
+        "text": "4.255 m$^2$"
+      },
+      {
+        "key": "C",
+        "text": "4.26 m$^2$"
+      },
+      {
+        "key": "D",
+        "text": "4.3 m$^2$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$4.234 \\times 1.005 = 4.25517$. In multiplication, the result keeps as many significant figures as the least precise factor: both have 4 significant figures, so area $= 4.255$ m$^2$. 4.25517 keeps too many digits; 4.26 and 4.3 round off too much (3 and 2 significant figures).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0005",
+    "subject": "physics",
+    "topic": "Kinematics",
+    "difficulty": "easy",
+    "stem": "A ball is thrown vertically upward with a speed of 20 m/s. Taking $g = 10$ m/s$^2$, the maximum height reached is",
+    "options": [
+      {
+        "key": "A",
+        "text": "40 m"
+      },
+      {
+        "key": "B",
+        "text": "10 m"
+      },
+      {
+        "key": "C",
+        "text": "20 m"
+      },
+      {
+        "key": "D",
+        "text": "2 m"
+      }
+    ],
+    "answer": "C",
+    "explanation": "At the top $v = 0$: $H = \\frac{u^2}{2g} = \\frac{400}{20} = 20$ m. 40 m forgets the factor 2 in the denominator; 10 m uses $u^2/4g$; 2 m confuses with time of ascent $u/g = 2$ s.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0006",
+    "subject": "physics",
+    "topic": "Kinematics",
+    "difficulty": "medium",
+    "stem": "For a given speed of projection, the maximum horizontal range of a projectile is $R_0$. The maximum height attained by the projectile when it is fired at the angle that gives this maximum range is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{R_0}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$R_0$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{R_0}{4}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{R_0}{8}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Maximum range occurs at $45^\\circ$: $R_0 = u^2/g$. Height $H = \\frac{u^2\\sin^2 45^\\circ}{2g} = \\frac{u^2}{4g} = \\frac{R_0}{4}$. $R_0/2$ forgets the $\\sin^2 45^\\circ = 1/2$ factor; $R_0$ confuses height with range; $R_0/8$ applies the factor 1/2 twice.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0007",
+    "subject": "physics",
+    "topic": "Kinematics",
+    "difficulty": "medium",
+    "stem": "A particle starts from rest and moves with uniform acceleration. The ratio of the distances covered by it in the 3rd second and in the 5th second is",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 : 9"
+      },
+      {
+        "key": "B",
+        "text": "3 : 5"
+      },
+      {
+        "key": "C",
+        "text": "9 : 25"
+      },
+      {
+        "key": "D",
+        "text": "5 : 7"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Distance in the $n$th second: $s_n = u + \\frac{a}{2}(2n-1)$. With $u = 0$, $s_3 : s_5 = 5 : 9$. 9 : 25 is the ratio of total distances in 3 s and 5 s ($t^2$); 3 : 5 is the ratio of times or velocities; 5 : 7 compares the 3rd and 4th seconds.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0008",
+    "subject": "physics",
+    "topic": "Kinematics",
+    "difficulty": "medium",
+    "stem": "Rain is falling vertically with a speed of 6 m/s. A man walks on a horizontal road at 8 m/s. To protect himself from rain, he should hold his umbrella at an angle $\\theta$ with the vertical where",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\theta = \\tan^{-1}(3/4)$, tilted forward"
+      },
+      {
+        "key": "B",
+        "text": "$\\theta = \\tan^{-1}(4/3)$, tilted forward"
+      },
+      {
+        "key": "C",
+        "text": "$\\theta = \\tan^{-1}(4/3)$, tilted backward"
+      },
+      {
+        "key": "D",
+        "text": "$\\theta = 0$ (held vertical)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Velocity of rain relative to man $= \\vec v_r - \\vec v_m$: 6 m/s down and 8 m/s backward (towards him from the front). So rain appears to come from the front at $\\tan\\theta = 8/6 = 4/3$ with the vertical; the umbrella is tilted forward. $\\tan^{-1}(3/4)$ inverts the ratio; tilting backward ignores the relative-velocity direction; vertical ignores the man's motion.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0009",
+    "subject": "physics",
+    "topic": "Kinematics",
+    "difficulty": "hard",
+    "stem": "The position of a particle moving along the x-axis is $x = t^3 - 6t^2 + 9t$ (x in metres, t in seconds). The distance travelled by the particle in the first 4 s is",
+    "options": [
+      {
+        "key": "A",
+        "text": "12 m"
+      },
+      {
+        "key": "B",
+        "text": "4 m"
+      },
+      {
+        "key": "C",
+        "text": "8 m"
+      },
+      {
+        "key": "D",
+        "text": "0 m"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$v = 3t^2 - 12t + 9 = 3(t-1)(t-3)$, so the particle reverses at $t = 1$ s and $t = 3$ s. $x(0)=0,\\ x(1)=4,\\ x(3)=0,\\ x(4)=4$. Distance $= 4 + 4 + 4 = 12$ m. 4 m is the displacement $x(4)-x(0)$; 8 m misses one reversal (adds only the first and last legs); 0 m is the position at $t = 3$ s, i.e. the displacement up to the second turning point.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0010",
+    "subject": "physics",
+    "topic": "Kinematics",
+    "difficulty": "easy",
+    "stem": "Two stones are dropped from rest from heights $h$ and $4h$. The ratio of their times of fall to the ground is",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 : 4"
+      },
+      {
+        "key": "B",
+        "text": "1 : $\\sqrt{2}$"
+      },
+      {
+        "key": "C",
+        "text": "2 : 1"
+      },
+      {
+        "key": "D",
+        "text": "1 : 2"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$t = \\sqrt{2h/g} \\propto \\sqrt{h}$, so $t_1 : t_2 = \\sqrt{h} : \\sqrt{4h} = 1 : 2$. 1 : 4 assumes $t \\propto h$; 1 : $\\sqrt2$ takes the square root twice; 2 : 1 inverts the ratio.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0011",
+    "subject": "physics",
+    "topic": "Laws of Motion",
+    "difficulty": "easy",
+    "stem": "A person of mass 60 kg stands on a weighing machine (calibrated in newtons) in a lift that is accelerating upward at 2 m/s$^2$. Taking $g = 10$ m/s$^2$, the reading of the machine is",
+    "options": [
+      {
+        "key": "A",
+        "text": "600 N"
+      },
+      {
+        "key": "B",
+        "text": "720 N"
+      },
+      {
+        "key": "C",
+        "text": "480 N"
+      },
+      {
+        "key": "D",
+        "text": "120 N"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Normal force $N - mg = ma \\Rightarrow N = m(g + a) = 60 \\times 12 = 720$ N. 600 N is the reading at rest; 480 N corresponds to downward acceleration $m(g-a)$; 120 N is just $ma$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0012",
+    "subject": "physics",
+    "topic": "Laws of Motion",
+    "difficulty": "medium",
+    "stem": "Two blocks of masses 4 kg and 6 kg are connected by a light inextensible string passing over a light frictionless pulley (Atwood machine). Taking $g = 10$ m/s$^2$, the tension in the string is",
+    "options": [
+      {
+        "key": "A",
+        "text": "48 N"
+      },
+      {
+        "key": "B",
+        "text": "40 N"
+      },
+      {
+        "key": "C",
+        "text": "60 N"
+      },
+      {
+        "key": "D",
+        "text": "24 N"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$T = \\frac{2m_1m_2 g}{m_1 + m_2} = \\frac{2 \\times 4 \\times 6 \\times 10}{10} = 48$ N (acceleration $= 2$ m/s$^2$). 40 N and 60 N are the weights of the individual blocks - tension lies between them; 24 N misses the factor 2.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0013",
+    "subject": "physics",
+    "topic": "Laws of Motion",
+    "difficulty": "medium",
+    "stem": "A block slides down a rough inclined plane of inclination $30^\\circ$. The coefficient of kinetic friction is $\\mu = \\dfrac{1}{2\\sqrt{3}}$. Taking $g = 10$ m/s$^2$, the acceleration of the block is",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 m/s$^2$"
+      },
+      {
+        "key": "B",
+        "text": "7.5 m/s$^2$"
+      },
+      {
+        "key": "C",
+        "text": "2.5 m/s$^2$"
+      },
+      {
+        "key": "D",
+        "text": "3.56 m/s$^2$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$a = g(\\sin\\theta - \\mu\\cos\\theta) = 10\\left(\\frac12 - \\frac{1}{2\\sqrt3}\\cdot\\frac{\\sqrt3}{2}\\right) = 10(0.5 - 0.25) = 2.5$ m/s$^2$. 5 m/s$^2$ ignores friction; 7.5 m/s$^2$ adds friction instead of subtracting it (sign error); 3.56 m/s$^2$ uses $\\mu\\sin\\theta$ in place of $\\mu\\cos\\theta$ for the friction term.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0014",
+    "subject": "physics",
+    "topic": "Impulse & Momentum",
+    "difficulty": "medium",
+    "stem": "A ball of mass 0.2 kg strikes a wall normally with a speed of 10 m/s and rebounds with a speed of 8 m/s. If the contact lasts 0.1 s, the average force exerted by the wall on the ball is",
+    "options": [
+      {
+        "key": "A",
+        "text": "36 N"
+      },
+      {
+        "key": "B",
+        "text": "4 N"
+      },
+      {
+        "key": "C",
+        "text": "20 N"
+      },
+      {
+        "key": "D",
+        "text": "18 N"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Change in momentum $= m(v_f - v_i) = 0.2[8 - (-10)] = 3.6$ N s. $F = \\Delta p/\\Delta t = 3.6/0.1 = 36$ N. 4 N comes from the sign error $0.2(10-8)/0.1$; 20 N assumes the ball stops ($0.2 \\times 10/0.1$); 18 N halves the correct value.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0015",
+    "subject": "physics",
+    "topic": "Laws of Motion",
+    "difficulty": "hard",
+    "stem": "A 2 kg block rests on top of a 4 kg block, which lies on a frictionless horizontal floor. The coefficient of static friction between the two blocks is 0.3. The maximum horizontal force that can be applied to the lower block so that both blocks move together is ($g = 10$ m/s$^2$)",
+    "options": [
+      {
+        "key": "A",
+        "text": "6 N"
+      },
+      {
+        "key": "B",
+        "text": "12 N"
+      },
+      {
+        "key": "C",
+        "text": "9 N"
+      },
+      {
+        "key": "D",
+        "text": "18 N"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The top block is accelerated only by friction, so the common acceleration cannot exceed $\\mu g = 3$ m/s$^2$. Then $F_{max} = (m_1 + m_2)\\mu g = 6 \\times 3 = 18$ N. 6 N is just the limiting friction $\\mu m_1 g$ (forgetting the system must accelerate); 12 N uses the lower block's mass; 9 N halves the answer.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0016",
+    "subject": "physics",
+    "topic": "Laws of Motion",
+    "difficulty": "medium",
+    "stem": "A road of radius of curvature 100 m is banked at an angle $\\theta$ with $\\tan\\theta = 0.4$. The speed at which a car can take the turn without relying on friction is ($g = 10$ m/s$^2$)",
+    "options": [
+      {
+        "key": "A",
+        "text": "31.6 m/s"
+      },
+      {
+        "key": "B",
+        "text": "20 m/s"
+      },
+      {
+        "key": "C",
+        "text": "50 m/s"
+      },
+      {
+        "key": "D",
+        "text": "14.1 m/s"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Without friction: $\\tan\\theta = \\frac{v^2}{rg} \\Rightarrow v = \\sqrt{rg\\tan\\theta} = \\sqrt{100 \\times 10 \\times 0.4} = 20$ m/s. 31.6 m/s ($\\sqrt{rg}$) ignores $\\tan\\theta$; 50 m/s uses $\\sqrt{rg/\\tan\\theta}$ (inverted relation); 14.1 m/s uses $\\sqrt{200}$ (halving $\\tan\\theta$).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0017",
+    "subject": "physics",
+    "topic": "Work & Energy",
+    "difficulty": "easy",
+    "stem": "A force $\\vec F = (3\\hat i + 4\\hat j)$ N displaces a particle by $\\vec s = (2\\hat i - \\hat j)$ m. The work done by the force is",
+    "options": [
+      {
+        "key": "A",
+        "text": "10 J"
+      },
+      {
+        "key": "B",
+        "text": "-2 J"
+      },
+      {
+        "key": "C",
+        "text": "5 J"
+      },
+      {
+        "key": "D",
+        "text": "2 J"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$W = \\vec F \\cdot \\vec s = (3)(2) + (4)(-1) = 6 - 4 = 2$ J. 10 J ignores the negative component; $-2$ J is a sign slip; 5 J is just the magnitude of $\\vec F$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0018",
+    "subject": "physics",
+    "topic": "Work & Energy",
+    "difficulty": "medium",
+    "stem": "The work done in compressing a spring from its natural length by $x$ is $W$. The additional work needed to compress it further by another $x$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "W"
+      },
+      {
+        "key": "B",
+        "text": "2W"
+      },
+      {
+        "key": "C",
+        "text": "4W"
+      },
+      {
+        "key": "D",
+        "text": "3W"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$W = \\frac12 kx^2$. Total work to compress by $2x$: $\\frac12 k(2x)^2 = 4W$. Additional work $= 4W - W = 3W$. $W$ assumes equal work for equal compression (spring force is not constant); $2W$ assumes linear dependence; $4W$ is the total work from zero, not the additional work.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0019",
+    "subject": "physics",
+    "topic": "Work & Energy",
+    "difficulty": "easy",
+    "stem": "A pump lifts 600 kg of water to a height of 20 m in 1 minute. Ignoring losses, the power of the pump is ($g = 10$ m/s$^2$)",
+    "options": [
+      {
+        "key": "A",
+        "text": "120 kW"
+      },
+      {
+        "key": "B",
+        "text": "200 W"
+      },
+      {
+        "key": "C",
+        "text": "2 kW"
+      },
+      {
+        "key": "D",
+        "text": "20 kW"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$P = \\frac{mgh}{t} = \\frac{600 \\times 10 \\times 20}{60} = 2000$ W $= 2$ kW. 120 kW forgets to convert 1 minute into 60 s; 200 W and 20 kW are power-of-ten slips.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0020",
+    "subject": "physics",
+    "topic": "Impulse & Momentum",
+    "difficulty": "hard",
+    "stem": "A ball of mass $m$ moving with speed $v$ collides head-on and perfectly elastically with a stationary ball of mass $2m$. The fraction of the initial kinetic energy transferred to the heavier ball is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{1}{9}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{2}{3}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{4}{9}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{8}{9}$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "For a head-on elastic collision with a target at rest, fraction transferred $= \\frac{4m_1m_2}{(m_1+m_2)^2} = \\frac{4 \\cdot m \\cdot 2m}{9m^2} = \\frac89$. (Check: $v_1' = -v/3$, so the first ball keeps $1/9$ of its KE.) $1/9$ is the fraction retained; $2/3$ is the speed ratio $2m_1/(m_1+m_2)$ of the struck ball; $4/9$ is that ratio squared without the mass factor.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0021",
+    "subject": "physics",
+    "topic": "Impulse & Momentum",
+    "difficulty": "hard",
+    "stem": "The kinetic energy of a body increases by 300%. The percentage increase in its linear momentum is",
+    "options": [
+      {
+        "key": "A",
+        "text": "300%"
+      },
+      {
+        "key": "B",
+        "text": "200%"
+      },
+      {
+        "key": "C",
+        "text": "73.2%"
+      },
+      {
+        "key": "D",
+        "text": "100%"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$p = \\sqrt{2mK}$. A 300% increase makes $K' = 4K$, so $p' = \\sqrt{4}\\,p = 2p$: increase $= 100\\%$. 300% assumes $p \\propto K$; 200% confuses 'increase' with 'becomes'; 73.2% uses $K' = 3K$ (misreading 300% increase as 3 times).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0022",
+    "subject": "physics",
+    "topic": "Rotational Motion",
+    "difficulty": "easy",
+    "stem": "The moment of inertia of a thin uniform ring of mass $M$ and radius $R$ about a tangent perpendicular to its plane is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{3}{2}MR^2$"
+      },
+      {
+        "key": "B",
+        "text": "$MR^2$"
+      },
+      {
+        "key": "C",
+        "text": "$2MR^2$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{1}{2}MR^2$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "About the central axis perpendicular to the plane $I = MR^2$; by the parallel axis theorem $I = MR^2 + MR^2 = 2MR^2$. $\\frac32 MR^2$ is about a tangent in the plane of the ring; $MR^2$ is about the central axis; $\\frac12 MR^2$ is about a diameter.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0023",
+    "subject": "physics",
+    "topic": "Rotational Motion",
+    "difficulty": "medium",
+    "stem": "A solid sphere rolls without slipping on a horizontal surface. The fraction of its total kinetic energy that is rotational is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{2}{5}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{5}{7}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{2}{7}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{1}{2}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$K_{rot} = \\frac12 \\cdot \\frac25 mR^2 \\cdot \\frac{v^2}{R^2} = \\frac15 mv^2$, $K_{trans} = \\frac12 mv^2$. Fraction $= \\frac{1/5}{1/2 + 1/5} = \\frac27$. $2/5$ is the ratio $K_{rot}/K_{trans}$, not the fraction of total; $5/7$ is the translational fraction; $1/2$ applies to a ring.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0024",
+    "subject": "physics",
+    "topic": "Rotational Motion",
+    "difficulty": "medium",
+    "stem": "A skater spinning freely on frictionless ice pulls in her arms so that her moment of inertia becomes one-third of the initial value. The ratio of her final rotational kinetic energy to the initial rotational kinetic energy is",
+    "options": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "9"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{1}{3}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Angular momentum is conserved: $I\\omega = \\frac{I}{3}\\omega' \\Rightarrow \\omega' = 3\\omega$. $K = \\frac{L^2}{2I}$, so with $L$ fixed and $I$ reduced to one-third, $K' = 3K$ (extra energy comes from muscular work). 1 wrongly assumes KE is conserved; 9 squares the angular-velocity ratio without the $I$ factor; $1/3$ inverts.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0025",
+    "subject": "physics",
+    "topic": "Rotational Motion",
+    "difficulty": "hard",
+    "stem": "A uniform rod of length $L$ is pivoted at one end and released from rest in the horizontal position. It swings freely in a vertical plane. The linear speed of its free end when the rod becomes vertical is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\sqrt{3gL}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\sqrt{2gL}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\sqrt{gL}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\sqrt{6gL}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The centre of mass falls $L/2$: $mg\\frac{L}{2} = \\frac12 \\cdot \\frac{mL^2}{3}\\omega^2 \\Rightarrow \\omega = \\sqrt{3g/L}$. Free end speed $v = \\omega L = \\sqrt{3gL}$. $\\sqrt{2gL}$ treats the tip as falling freely through $L$; $\\sqrt{gL}$ uses the centre-of-mass drop as for a point mass; $\\sqrt{6gL}$ takes the full drop $L$ for the centre of mass.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0026",
+    "subject": "physics",
+    "topic": "Rotational Motion",
+    "difficulty": "easy",
+    "stem": "A force $\\vec F = (2\\hat i + 3\\hat j)$ N acts at a point with position vector $\\vec r = (\\hat i + 2\\hat j)$ m. The torque of the force about the origin is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$+\\hat k$ N m"
+      },
+      {
+        "key": "B",
+        "text": "$7\\hat k$ N m"
+      },
+      {
+        "key": "C",
+        "text": "$-7\\hat k$ N m"
+      },
+      {
+        "key": "D",
+        "text": "$-\\hat k$ N m"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$\\vec\\tau = \\vec r \\times \\vec F = (x F_y - y F_x)\\hat k = (1 \\cdot 3 - 2 \\cdot 2)\\hat k = -\\hat k$ N m. $+\\hat k$ computes $\\vec F \\times \\vec r$ (wrong order); $\\pm 7\\hat k$ adds the cross terms instead of subtracting them.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0027",
+    "subject": "physics",
+    "topic": "Rotational Motion",
+    "difficulty": "medium",
+    "stem": "A constant torque of 10 N m acts on a wheel of moment of inertia 2 kg m$^2$, initially at rest, for 4 s. The rotational kinetic energy of the wheel at the end of 4 s is",
+    "options": [
+      {
+        "key": "A",
+        "text": "40 J"
+      },
+      {
+        "key": "B",
+        "text": "800 J"
+      },
+      {
+        "key": "C",
+        "text": "100 J"
+      },
+      {
+        "key": "D",
+        "text": "400 J"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$\\alpha = \\tau/I = 5$ rad/s$^2$, $\\omega = \\alpha t = 20$ rad/s, $K = \\frac12 I\\omega^2 = \\frac12 \\times 2 \\times 400 = 400$ J. (Check: work $= \\tau\\theta = 10 \\times 40 = 400$ J.) 40 J is the numerical value of the angular momentum $\\tau t = 40$ kg m$^2$/s, not energy; 800 J forgets the $\\frac12$; 100 J uses $\\omega = 10$ rad/s.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0028",
+    "subject": "physics",
+    "topic": "Impulse & Momentum",
+    "difficulty": "medium",
+    "stem": "A man of mass 60 kg stands at one end of a boat of mass 40 kg and length 5 m floating at rest on still water. He walks to the other end of the boat. Neglecting water resistance, the distance moved by the boat relative to the water is",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 m"
+      },
+      {
+        "key": "B",
+        "text": "2 m"
+      },
+      {
+        "key": "C",
+        "text": "2.5 m"
+      },
+      {
+        "key": "D",
+        "text": "3 m"
+      }
+    ],
+    "answer": "D",
+    "explanation": "No external horizontal force, so the centre of mass stays fixed. If the boat moves $x$ backward, the man moves $5 - x$ forward: $60(5 - x) = 40x \\Rightarrow x = \\frac{60 \\times 5}{100} = 3$ m. 5 m assumes the boat moves the full length; 2 m is the man's displacement relative to water (uses $M$ in the numerator); 2.5 m assumes the man and the boat simply share the length equally, ignoring their masses.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0029",
+    "subject": "physics",
+    "topic": "Work & Energy",
+    "difficulty": "medium",
+    "stem": "The potential energy of a particle moving along the x-axis is $U(x) = 5x^2 - 20x$ (U in joules, x in metres). The force on the particle at $x = 1$ m is",
+    "options": [
+      {
+        "key": "A",
+        "text": "10 N along $-x$"
+      },
+      {
+        "key": "B",
+        "text": "15 N along $+x$"
+      },
+      {
+        "key": "C",
+        "text": "zero"
+      },
+      {
+        "key": "D",
+        "text": "10 N along $+x$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "For a conservative force $F = -\\frac{dU}{dx} = -(10x - 20)$. At $x = 1$: $F = +10$ N, i.e. along $+x$ (towards the equilibrium point $x = 2$ m). 10 N along $-x$ forgets the minus sign in $F = -dU/dx$; 15 N is $|U(1)|$, confusing energy with force; zero holds only at the equilibrium point $x = 2$ m.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0030",
+    "subject": "physics",
+    "topic": "Gravitation",
+    "difficulty": "easy",
+    "stem": "If $g$ is the acceleration due to gravity at the Earth's surface, its value at a height equal to the radius $R$ of the Earth above the surface is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{g}{4}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{g}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{g}{8}$"
+      },
+      {
+        "key": "D",
+        "text": "zero"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$g_h = g\\left(\\frac{R}{R+h}\\right)^2 = g\\left(\\frac{R}{2R}\\right)^2 = \\frac g4$. $g/2$ assumes $g \\propto 1/r$; $g/8$ assumes $1/r^3$; zero confuses with the value at the Earth's centre. (The approximation $g(1 - 2h/R)$ is invalid for $h = R$.)",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0031",
+    "subject": "physics",
+    "topic": "Gravitation",
+    "difficulty": "medium",
+    "stem": "The escape velocity from the Earth is 11.2 km/s. The escape velocity from a planet having the same mean density as the Earth but twice its radius is",
+    "options": [
+      {
+        "key": "A",
+        "text": "11.2 km/s"
+      },
+      {
+        "key": "B",
+        "text": "22.4 km/s"
+      },
+      {
+        "key": "C",
+        "text": "15.8 km/s"
+      },
+      {
+        "key": "D",
+        "text": "44.8 km/s"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$v_e = \\sqrt{\\frac{2GM}{R}}$ with $M = \\frac43\\pi R^3\\rho$ gives $v_e = R\\sqrt{\\frac{8\\pi G\\rho}{3}} \\propto R$ at fixed density. So $v_e' = 2 \\times 11.2 = 22.4$ km/s. 11.2 km/s assumes independence of size; 15.8 km/s assumes the same surface gravity, $v_e = \\sqrt{2gR} \\propto \\sqrt R$, but at fixed density $g \\propto R$; 44.8 km/s uses $v_e \\propto R^2$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0032",
+    "subject": "physics",
+    "topic": "Gravitation",
+    "difficulty": "easy",
+    "stem": "If the radius of a satellite's circular orbit around a planet is made 4 times larger, its time period becomes",
+    "options": [
+      {
+        "key": "A",
+        "text": "4 times"
+      },
+      {
+        "key": "B",
+        "text": "16 times"
+      },
+      {
+        "key": "C",
+        "text": "2 times"
+      },
+      {
+        "key": "D",
+        "text": "8 times"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Kepler's third law: $T^2 \\propto r^3 \\Rightarrow T \\propto r^{3/2} = 4^{3/2} = 8$. 4 times assumes $T \\propto r$; 16 times uses $T \\propto r^2$; 2 times uses $T \\propto \\sqrt r$ (this is how orbital speed changes, inversely).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0033",
+    "subject": "physics",
+    "topic": "Gravitation",
+    "difficulty": "hard",
+    "stem": "A satellite of mass $m$ revolves around the Earth (radius $R$, surface gravity $g$) in a circular orbit of radius $2R$. The minimum energy required to shift it to a circular orbit of radius $3R$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{mgR}{12}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{mgR}{6}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{mgR}{4}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{mgR}{3}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Total energy in orbit $E = -\\frac{GMm}{2r}$ with $GM = gR^2$. $\\Delta E = \\frac{gR^2 m}{2}\\left(\\frac{1}{2R} - \\frac{1}{3R}\\right) = \\frac{mgR}{12}$. $mgR/6$ is the change in potential energy alone (ignores the decrease in KE); $mgR/4$ is the KE in the first orbit; $mgR/3$ is a slip in the fraction arithmetic.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0034",
+    "subject": "physics",
+    "topic": "Gravitation",
+    "difficulty": "hard",
+    "stem": "The acceleration due to gravity at a height $R/2$ above the Earth's surface equals that at a depth $d$ below the surface ($R$ = radius of Earth). Then $d$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{5R}{9}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{R}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{4R}{9}$"
+      },
+      {
+        "key": "D",
+        "text": "$R$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "At height $R/2$: $g_h = \\frac{g}{(3/2)^2} = \\frac{4g}{9}$. At depth $d$: $g_d = g\\left(1 - \\frac dR\\right)$. Equating, $1 - \\frac dR = \\frac49 \\Rightarrow d = \\frac{5R}{9}$. $R/2$ assumes height and depth effects are symmetric; $4R/9$ confuses $d/R$ with $g_d/g$; $R$ results from using the small-height approximation $g(1 - 2h/R)$, which is invalid for $h = R/2$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0035",
+    "subject": "physics",
+    "topic": "Solids & Fluids",
+    "difficulty": "easy",
+    "stem": "A wire of length 2 m and cross-sectional area 1 mm$^2$ stretches by 1 mm when a 10 kg mass is hung from it. Taking $g = 10$ m/s$^2$, the Young's modulus of the material is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$1 \\times 10^{11}$ N/m$^2$"
+      },
+      {
+        "key": "B",
+        "text": "$2 \\times 10^{11}$ N/m$^2$"
+      },
+      {
+        "key": "C",
+        "text": "$2 \\times 10^{8}$ N/m$^2$"
+      },
+      {
+        "key": "D",
+        "text": "$2 \\times 10^{14}$ N/m$^2$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$Y = \\frac{FL}{A\\,\\Delta L} = \\frac{100 \\times 2}{10^{-6} \\times 10^{-3}} = 2 \\times 10^{11}$ N/m$^2$. $1 \\times 10^{11}$ forgets the length 2 m; $2 \\times 10^8$ uses area in cm$^2$ incorrectly ($10^{-3}$ slip); $2 \\times 10^{14}$ treats 1 mm$^2$ as $10^{-9}$ m$^2$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0036",
+    "subject": "physics",
+    "topic": "Solids & Fluids",
+    "difficulty": "medium",
+    "stem": "A wooden block floats in water with $\\frac35$ of its volume submerged. When placed in an oil, it floats with $\\frac34$ of its volume submerged. The density of the oil is (density of water = 1 g/cm$^3$)",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.6 g/cm$^3$"
+      },
+      {
+        "key": "B",
+        "text": "0.8 g/cm$^3$"
+      },
+      {
+        "key": "C",
+        "text": "1.25 g/cm$^3$"
+      },
+      {
+        "key": "D",
+        "text": "0.45 g/cm$^3$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Floating: weight = buoyancy in both liquids, so $\\rho_w \\cdot \\frac35 V = \\rho_o \\cdot \\frac34 V \\Rightarrow \\rho_o = \\frac{3/5}{3/4} = 0.8$ g/cm$^3$. 0.6 g/cm$^3$ is the density of the wood; 1.25 g/cm$^3$ inverts the ratio (a liquid in which the block sinks deeper must be less dense); 0.45 g/cm$^3$ multiplies the fractions.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0037",
+    "subject": "physics",
+    "topic": "Solids & Fluids",
+    "difficulty": "medium",
+    "stem": "Eight identical spherical rain drops, each falling with terminal velocity $v$, coalesce to form a single bigger drop. The terminal velocity of the bigger drop is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$4v$"
+      },
+      {
+        "key": "B",
+        "text": "$2v$"
+      },
+      {
+        "key": "C",
+        "text": "$8v$"
+      },
+      {
+        "key": "D",
+        "text": "$16v$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Volume conservation: $\\frac43\\pi R^3 = 8 \\cdot \\frac43\\pi r^3 \\Rightarrow R = 2r$. Stokes' law gives $v_t = \\frac{2r^2(\\rho - \\sigma)g}{9\\eta} \\propto r^2$, so $v' = 4v$. $2v$ assumes $v \\propto r$; $8v$ assumes $v \\propto$ volume; $16v$ uses $r^4$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0038",
+    "subject": "physics",
+    "topic": "Solids & Fluids",
+    "difficulty": "medium",
+    "stem": "The surface tension of a soap solution is 0.03 N/m. The excess pressure inside a soap bubble of radius 1 cm is",
+    "options": [
+      {
+        "key": "A",
+        "text": "6 Pa"
+      },
+      {
+        "key": "B",
+        "text": "3 Pa"
+      },
+      {
+        "key": "C",
+        "text": "24 Pa"
+      },
+      {
+        "key": "D",
+        "text": "12 Pa"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A soap bubble has two surfaces: $\\Delta P = \\frac{4T}{r} = \\frac{4 \\times 0.03}{0.01} = 12$ Pa. 6 Pa uses $2T/r$, valid for a liquid drop (one surface); 3 Pa uses $T/r$; 24 Pa doubles once more.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0039",
+    "subject": "physics",
+    "topic": "Solids & Fluids",
+    "difficulty": "hard",
+    "stem": "Water flows steadily through a horizontal pipe. At a wide section of the pipe, the speed is 2 m/s; at a narrow section, the cross-sectional area is one-third of that at the wide section. The pressure difference between the wide and narrow sections is (density of water = 1000 kg/m$^3$)",
+    "options": [
+      {
+        "key": "A",
+        "text": "18 kPa"
+      },
+      {
+        "key": "B",
+        "text": "16 kPa"
+      },
+      {
+        "key": "C",
+        "text": "32 kPa"
+      },
+      {
+        "key": "D",
+        "text": "8 kPa"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Continuity: $A_1v_1 = A_2v_2 \\Rightarrow v_2 = 3 \\times 2 = 6$ m/s. Bernoulli (horizontal): $P_1 - P_2 = \\frac12\\rho(v_2^2 - v_1^2) = 500(36 - 4) = 16000$ Pa $= 16$ kPa. 18 kPa ignores the speed at the wide part; 32 kPa misses the factor $\\frac12$; 8 kPa uses $\\frac12\\rho(v_2 - v_1)^2$ instead of the difference of squares.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0040",
+    "subject": "physics",
+    "topic": "Solids & Fluids",
+    "difficulty": "hard",
+    "stem": "Water rises to a height $h$ in a capillary tube of radius $r$. If the tube is pushed down so that only a length $h/2$ projects above the water surface, then",
+    "options": [
+      {
+        "key": "A",
+        "text": "water overflows from the top like a fountain"
+      },
+      {
+        "key": "B",
+        "text": "water rises only to $h/2$ inside the tube with the meniscus radius unchanged"
+      },
+      {
+        "key": "C",
+        "text": "water does not rise at all"
+      },
+      {
+        "key": "D",
+        "text": "water rises to the top of the tube and the radius of curvature of the meniscus becomes $2r$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "From $h = \\frac{2T}{R\\rho g}$, $hR$ is constant (R = radius of curvature of meniscus). With insufficient length $h/2$, water reaches the top and the meniscus flattens: $R' = \\frac{hR}{h/2} = 2R$, i.e. $2r$ for zero contact angle. Water never overflows - that would violate energy conservation. It does rise, so 'does not rise' is wrong, and the meniscus radius cannot stay unchanged at reduced height.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0041",
+    "subject": "physics",
+    "topic": "Oscillations",
+    "difficulty": "easy",
+    "stem": "A particle executes SHM given by $x = 5\\sin\\left(\\pi t + \\frac{\\pi}{3}\\right)$ cm, where $t$ is in seconds. Its maximum speed is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$5\\pi^2$ cm/s"
+      },
+      {
+        "key": "B",
+        "text": "5 cm/s"
+      },
+      {
+        "key": "C",
+        "text": "$10\\pi$ cm/s"
+      },
+      {
+        "key": "D",
+        "text": "$5\\pi$ cm/s"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$v_{max} = A\\omega = 5 \\times \\pi = 5\\pi \\approx 15.7$ cm/s. $5\\pi^2$ is the maximum acceleration $A\\omega^2$; 5 cm/s is just the amplitude; $10\\pi$ uses $\\omega = 2\\pi$ (confusing $\\omega$ with frequency).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0042",
+    "subject": "physics",
+    "topic": "Oscillations",
+    "difficulty": "medium",
+    "stem": "A block attached to a spring oscillates with period $T$. The spring is cut into two equal halves and the same block is attached to one of the halves. The new period is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{T}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\sqrt{2}\\,T$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{T}{\\sqrt{2}}$"
+      },
+      {
+        "key": "D",
+        "text": "$2T$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Spring constant is inversely proportional to length, so each half has $k' = 2k$. $T = 2\\pi\\sqrt{m/k} \\Rightarrow T' = T/\\sqrt2$. $T/2$ assumes $T \\propto 1/k$; $\\sqrt2\\,T$ assumes cutting halves $k$; $2T$ combines both errors.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0043",
+    "subject": "physics",
+    "topic": "Oscillations",
+    "difficulty": "medium",
+    "stem": "A simple pendulum has a period $T$ when the lift containing it is at rest. If the lift accelerates upward with acceleration $g/3$, the period becomes",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{2}{\\sqrt{3}}T$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{\\sqrt{3}}{2}T$"
+      },
+      {
+        "key": "C",
+        "text": "$\\sqrt{\\dfrac{3}{2}}\\,T$"
+      },
+      {
+        "key": "D",
+        "text": "T"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In the lift frame, effective gravity $g_{eff} = g + \\frac g3 = \\frac{4g}{3}$. $T' = 2\\pi\\sqrt{\\frac{l}{g_{eff}}} = T\\sqrt{\\frac34} = \\frac{\\sqrt3}{2}T$. $\\frac{2}{\\sqrt3}T$ inverts the ratio (a larger $g_{eff}$ must shorten the period); $\\sqrt{3/2}\\,T$ uses $g_{eff} = 2g/3$ (downward acceleration); $T$ ignores the non-inertial frame.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0044",
+    "subject": "physics",
+    "topic": "Oscillations",
+    "difficulty": "easy",
+    "stem": "A particle executes SHM with amplitude $A$. When its displacement is $A/2$, the fraction of its total energy that is kinetic is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{1}{4}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{3}{4}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{1}{2}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{1}{\\sqrt{2}}$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$U = \\frac12 kx^2 = \\frac12 k\\frac{A^2}{4} = \\frac{E}{4}$, so $K = E - U = \\frac34 E$. $1/4$ is the potential-energy fraction; $1/2$ assumes energy varies linearly with $x$; KE = PE occurs at $x = A/\\sqrt2$, not at $A/2$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0045",
+    "subject": "physics",
+    "topic": "Waves",
+    "difficulty": "medium",
+    "stem": "A pipe closed at one end has a length of 25 cm. If the speed of sound in air is 340 m/s, the frequency of its first overtone is (neglect end correction)",
+    "options": [
+      {
+        "key": "A",
+        "text": "680 Hz"
+      },
+      {
+        "key": "B",
+        "text": "1020 Hz"
+      },
+      {
+        "key": "C",
+        "text": "340 Hz"
+      },
+      {
+        "key": "D",
+        "text": "1360 Hz"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Closed pipe: $f_1 = \\frac{v}{4L} = \\frac{340}{1} = 340$ Hz; only odd harmonics occur, so the first overtone is $3f_1 = 1020$ Hz. 680 Hz ($2f_1$) wrongly includes even harmonics as in an open pipe; 340 Hz is the fundamental; 1360 Hz is $4f_1$, which does not exist for a closed pipe.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0046",
+    "subject": "physics",
+    "topic": "Waves",
+    "difficulty": "medium",
+    "stem": "A source emitting sound of frequency 900 Hz moves towards a stationary observer at 34 m/s. If the speed of sound is 340 m/s, the frequency heard by the observer is",
+    "options": [
+      {
+        "key": "A",
+        "text": "990 Hz"
+      },
+      {
+        "key": "B",
+        "text": "818 Hz"
+      },
+      {
+        "key": "C",
+        "text": "900 Hz"
+      },
+      {
+        "key": "D",
+        "text": "1000 Hz"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Moving source: $f' = f\\frac{v}{v - v_s} = 900 \\times \\frac{340}{306} = 1000$ Hz. 990 Hz uses the moving-observer formula $f(v + v_o)/v$ - source and observer motion are not equivalent; 818 Hz is for a receding source; 900 Hz ignores the Doppler effect.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0047",
+    "subject": "physics",
+    "topic": "Waves",
+    "difficulty": "hard",
+    "stem": "A tuning fork A produces 5 beats per second with a tuning fork of frequency 256 Hz. When a little wax is stuck to the prongs of A, the number of beats becomes 3 per second. The original frequency of A is",
+    "options": [
+      {
+        "key": "A",
+        "text": "251 Hz"
+      },
+      {
+        "key": "B",
+        "text": "259 Hz"
+      },
+      {
+        "key": "C",
+        "text": "261 Hz"
+      },
+      {
+        "key": "D",
+        "text": "253 Hz"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Possible frequencies of A: $256 \\pm 5 = 261$ or 251 Hz. Loading with wax lowers A's frequency. If A were 251 Hz, lowering it would increase beats above 5; since beats decrease to 3, A must be 261 Hz (it drops to 259 Hz). 251 Hz ignores the direction of change; 259 Hz is A's frequency after loading; 253 Hz is $256 - 3$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0048",
+    "subject": "physics",
+    "topic": "Waves",
+    "difficulty": "easy",
+    "stem": "A string of length 1 m and mass 10 g is fixed at both ends and kept under a tension of 400 N. The frequency of its third harmonic is",
+    "options": [
+      {
+        "key": "A",
+        "text": "100 Hz"
+      },
+      {
+        "key": "B",
+        "text": "600 Hz"
+      },
+      {
+        "key": "C",
+        "text": "150 Hz"
+      },
+      {
+        "key": "D",
+        "text": "300 Hz"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$\\mu = 0.01$ kg/m, $v = \\sqrt{T/\\mu} = \\sqrt{400/0.01} = 200$ m/s. $f_n = \\frac{nv}{2L} \\Rightarrow f_3 = \\frac{3 \\times 200}{2} = 300$ Hz. 100 Hz is the fundamental; 600 Hz forgets the 2 in $2L$; 150 Hz uses $v/4L$ as for a closed pipe.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0049",
+    "subject": "physics",
+    "topic": "Heat & Thermodynamics",
+    "difficulty": "easy",
+    "stem": "The temperature of an ideal gas is raised from 27°C to 927°C. The rms speed of its molecules becomes",
+    "options": [
+      {
+        "key": "A",
+        "text": "four times the initial value"
+      },
+      {
+        "key": "B",
+        "text": "$\\sqrt{927/27}$ times the initial value"
+      },
+      {
+        "key": "C",
+        "text": "half the initial value"
+      },
+      {
+        "key": "D",
+        "text": "twice the initial value"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$v_{rms} = \\sqrt{3RT/M} \\propto \\sqrt T$ with $T$ in kelvin: $300$ K $\\to 1200$ K, ratio $\\sqrt{4} = 2$. 'Four times' assumes $v \\propto T$; $\\sqrt{927/27}$ uses Celsius temperatures; 'half' inverts the ratio.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0050",
+    "subject": "physics",
+    "topic": "Heat & Thermodynamics",
+    "difficulty": "easy",
+    "stem": "A Carnot engine works between a source at 527°C and a sink at 127°C. Its efficiency is",
+    "options": [
+      {
+        "key": "A",
+        "text": "75.9%"
+      },
+      {
+        "key": "B",
+        "text": "50%"
+      },
+      {
+        "key": "C",
+        "text": "24%"
+      },
+      {
+        "key": "D",
+        "text": "25%"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$\\eta = 1 - \\frac{T_2}{T_1} = 1 - \\frac{400}{800} = 0.5 = 50\\%$. 75.9% uses Celsius temperatures ($1 - 127/527$); 24% is the Celsius ratio $127/527$; 25% is a slip in the kelvin conversion.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0051",
+    "subject": "physics",
+    "topic": "Heat & Thermodynamics",
+    "difficulty": "medium",
+    "stem": "A monatomic ideal gas is compressed adiabatically to $\\frac18$ of its initial volume. The pressure becomes",
+    "options": [
+      {
+        "key": "A",
+        "text": "8 times the initial pressure"
+      },
+      {
+        "key": "B",
+        "text": "32 times the initial pressure"
+      },
+      {
+        "key": "C",
+        "text": "64 times the initial pressure"
+      },
+      {
+        "key": "D",
+        "text": "16 times the initial pressure"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$PV^\\gamma$ = constant with $\\gamma = \\frac53$: $\\frac{P_2}{P_1} = 8^{5/3} = (2^3)^{5/3} = 2^5 = 32$. 8 times is the isothermal result ($PV$ = constant); 64 and 16 use wrong values of $\\gamma$ (2 and 4/3).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0052",
+    "subject": "physics",
+    "topic": "Heat & Thermodynamics",
+    "difficulty": "medium",
+    "stem": "Two moles of a monatomic ideal gas are heated at constant pressure so that the temperature rises by 10 K. The heat supplied is ($R = 8.314$ J mol$^{-1}$K$^{-1}$)",
+    "options": [
+      {
+        "key": "A",
+        "text": "≈ 249 J"
+      },
+      {
+        "key": "B",
+        "text": "≈ 166 J"
+      },
+      {
+        "key": "C",
+        "text": "≈ 582 J"
+      },
+      {
+        "key": "D",
+        "text": "≈ 416 J"
+      }
+    ],
+    "answer": "D",
+    "explanation": "For a monatomic gas $C_p = \\frac52 R$: $Q = nC_p\\Delta T = 2 \\times 2.5 \\times 8.314 \\times 10 \\approx 416$ J. 249 J uses $C_v = \\frac32R$ (constant volume, this is $\\Delta U$); 166 J is the work $nR\\Delta T$; 582 J uses $C_p = \\frac72 R$ for a diatomic gas.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0053",
+    "subject": "physics",
+    "topic": "Heat & Thermodynamics",
+    "difficulty": "medium",
+    "stem": "The absolute temperature of a black body is increased by 100%. The rate at which it radiates energy increases by",
+    "options": [
+      {
+        "key": "A",
+        "text": "1600%"
+      },
+      {
+        "key": "B",
+        "text": "1500%"
+      },
+      {
+        "key": "C",
+        "text": "300%"
+      },
+      {
+        "key": "D",
+        "text": "100%"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Stefan's law $P \\propto T^4$: doubling $T$ makes $P' = 16P$, an increase of $15P$, i.e. 1500%. 1600% confuses 'becomes 16 times' with 'increases by'; 300% uses $T^2$; 100% assumes $P \\propto T$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0054",
+    "subject": "physics",
+    "topic": "Heat & Thermodynamics",
+    "difficulty": "hard",
+    "stem": "A body cools from 70°C to 60°C in 5 minutes in surroundings at 30°C. Assuming Newton's law of cooling, the time taken to cool further from 60°C to 50°C is approximately",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 min"
+      },
+      {
+        "key": "B",
+        "text": "6 min"
+      },
+      {
+        "key": "C",
+        "text": "7 min"
+      },
+      {
+        "key": "D",
+        "text": "3.6 min"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Using the average form: $\\frac{\\Delta T}{t} = k(\\bar T - T_0)$. First interval: $\\frac{10}{5} = k(65 - 30) \\Rightarrow k = \\frac{2}{35}$ per min. Second: $\\frac{10}{t} = \\frac{2}{35}(55 - 30) \\Rightarrow t = 7$ min (exact exponential form gives 7.05 min). 5 min assumes a constant cooling rate; 6 min forgets to subtract the surrounding temperature (uses 65 and 55 instead of 35 and 25); 3.6 min inverts the ratio of excess temperatures - cooling slows down as the body approaches the surroundings.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0055",
+    "subject": "physics",
+    "topic": "Heat & Thermodynamics",
+    "difficulty": "medium",
+    "stem": "Two slabs of equal thickness and equal area, with thermal conductivities $K$ and $2K$, are joined face to face. The free face of the slab of conductivity $K$ is kept at 100°C and the free face of the other at 0°C. In steady state, the temperature of the interface is",
+    "options": [
+      {
+        "key": "A",
+        "text": "33.3°C"
+      },
+      {
+        "key": "B",
+        "text": "66.7°C"
+      },
+      {
+        "key": "C",
+        "text": "50°C"
+      },
+      {
+        "key": "D",
+        "text": "25°C"
+      }
+    ],
+    "answer": "A",
+    "explanation": "In steady state, heat current is the same through both: $K(100 - T) = 2K(T - 0) \\Rightarrow T = \\frac{100}{3} \\approx 33.3$°C. 66.7°C swaps the conductivities (the better conductor needs the smaller temperature drop); 50°C assumes equal conductivities; 25°C is an arithmetic slip.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0056",
+    "subject": "physics",
+    "topic": "Electrostatics",
+    "difficulty": "easy",
+    "stem": "Two point charges repel each other with a force $F$. If each charge is doubled and the distance between them is halved, the force becomes",
+    "options": [
+      {
+        "key": "A",
+        "text": "$4F$"
+      },
+      {
+        "key": "B",
+        "text": "$16F$"
+      },
+      {
+        "key": "C",
+        "text": "$8F$"
+      },
+      {
+        "key": "D",
+        "text": "$F$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$F \\propto \\frac{q_1q_2}{r^2}$: numerator becomes $4\\times$ and $\\frac{1}{r^2}$ becomes $4\\times$, so $F' = 16F$. $4F$ accounts for only one of the two changes; $8F$ uses $1/r$ dependence; $F$ assumes the two changes cancel.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0057",
+    "subject": "physics",
+    "topic": "Electrostatics",
+    "difficulty": "medium",
+    "stem": "A thin ring of radius $R$ carries a uniformly distributed charge. The electric field on its axis is maximum at a distance from the centre equal to",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{R}{\\sqrt{2}}$"
+      },
+      {
+        "key": "B",
+        "text": "$R$"
+      },
+      {
+        "key": "C",
+        "text": "$\\sqrt{2}\\,R$"
+      },
+      {
+        "key": "D",
+        "text": "zero (at the centre)"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$E = \\frac{kQx}{(R^2 + x^2)^{3/2}}$. Setting $\\frac{dE}{dx} = 0$: $R^2 + x^2 = 3x^2 \\Rightarrow x = \\frac{R}{\\sqrt2}$. At the centre the field is zero by symmetry (contributions cancel), not maximum; $R$ and $\\sqrt2 R$ come from algebraic slips in the derivative.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0058",
+    "subject": "physics",
+    "topic": "Electrostatics",
+    "difficulty": "medium",
+    "stem": "A parallel plate capacitor is charged by a battery and then disconnected. Its stored energy is $U$. A dielectric slab of dielectric constant $K$ is now inserted to completely fill the space between the plates. The new stored energy is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$KU$"
+      },
+      {
+        "key": "B",
+        "text": "$U$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{U}{K}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{U}{K^2}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "With the battery disconnected, charge $Q$ is constant while $C' = KC$. $U' = \\frac{Q^2}{2C'} = \\frac{U}{K}$. $KU$ is the result if the battery stays connected ($V$ constant, $U = \\frac12CV^2$); $U$ ignores the change in capacitance; $U/K^2$ squares $K$ wrongly.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0059",
+    "subject": "physics",
+    "topic": "Electrostatics",
+    "difficulty": "medium",
+    "stem": "Three capacitors of capacitances 2 $\\mu$F, 3 $\\mu$F and 6 $\\mu$F are connected in series across a 12 V battery. The charge on the 3 $\\mu$F capacitor is",
+    "options": [
+      {
+        "key": "A",
+        "text": "132 $\\mu$C"
+      },
+      {
+        "key": "B",
+        "text": "12 $\\mu$C"
+      },
+      {
+        "key": "C",
+        "text": "36 $\\mu$C"
+      },
+      {
+        "key": "D",
+        "text": "6 $\\mu$C"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$\\frac{1}{C} = \\frac12 + \\frac13 + \\frac16 = 1 \\Rightarrow C = 1\\ \\mu$F. In series every capacitor carries the same charge $Q = CV = 12\\ \\mu$C. 132 $\\mu$C treats them as parallel ($11\\ \\mu$F $\\times$ 12 V); 36 $\\mu$C applies the full 12 V across the 3 $\\mu$F capacitor; 6 $\\mu$C halves the charge.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0060",
+    "subject": "physics",
+    "topic": "Electrostatics",
+    "difficulty": "hard",
+    "stem": "A point charge $q$ is placed at one corner of a cube. The total electric flux through the cube is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{q}{8\\varepsilon_0}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{q}{\\varepsilon_0}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{q}{6\\varepsilon_0}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{q}{24\\varepsilon_0}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Eight such cubes placed around the corner enclose the charge completely, so each cube receives $\\frac{1}{8}\\cdot\\frac{q}{\\varepsilon_0}$. $q/\\varepsilon_0$ treats the charge as enclosed; $q/6\\varepsilon_0$ applies to a charge at the centre and one face; $q/24\\varepsilon_0$ is the flux through each of the three faces not touching the corner.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0061",
+    "subject": "physics",
+    "topic": "Electrostatics",
+    "difficulty": "medium",
+    "stem": "An electric dipole of moment $4 \\times 10^{-9}$ C m is placed in a uniform electric field of $5 \\times 10^4$ N/C, initially aligned along the field. The work done in rotating it through $180^\\circ$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2 \\times 10^{-4}$ J"
+      },
+      {
+        "key": "B",
+        "text": "zero"
+      },
+      {
+        "key": "C",
+        "text": "$4 \\times 10^{-4}$ J"
+      },
+      {
+        "key": "D",
+        "text": "$8 \\times 10^{-4}$ J"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$W = pE(\\cos\\theta_1 - \\cos\\theta_2) = pE(1 - (-1)) = 2pE = 2 \\times 4\\times10^{-9} \\times 5\\times10^4 = 4 \\times 10^{-4}$ J. $2\\times10^{-4}$ J is $pE$ (rotation by $90^\\circ$); zero assumes no net work since the torque is zero at both ends; $8\\times10^{-4}$ J doubles again.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0062",
+    "subject": "physics",
+    "topic": "Electrostatics",
+    "difficulty": "easy",
+    "stem": "The electric potential at a distance of 9 cm from a point charge of 1 $\\mu$C in vacuum is ($\\frac{1}{4\\pi\\varepsilon_0} = 9\\times10^9$ N m$^2$C$^{-2}$)",
+    "options": [
+      {
+        "key": "A",
+        "text": "$1.1 \\times 10^6$ V"
+      },
+      {
+        "key": "B",
+        "text": "$1 \\times 10^7$ V"
+      },
+      {
+        "key": "C",
+        "text": "$1 \\times 10^5$ V"
+      },
+      {
+        "key": "D",
+        "text": "$1 \\times 10^3$ V"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$V = \\frac{kq}{r} = \\frac{9\\times10^9 \\times 10^{-6}}{0.09} = 10^5$ V. $1.1\\times10^6$ is the field magnitude $kq/r^2$ (in N/C); $10^7$ V converts 9 cm wrongly to $9\\times10^{-4}$ m; $10^3$ V treats 9 cm as 9 m.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0063",
+    "subject": "physics",
+    "topic": "Current Electricity",
+    "difficulty": "easy",
+    "stem": "A wire of resistance $R$ is stretched uniformly so that its length becomes twice the original. Its new resistance is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2R$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{R}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$8R$"
+      },
+      {
+        "key": "D",
+        "text": "$4R$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Volume is constant, so doubling $l$ halves $A$. $R = \\frac{\\rho l}{A} \\propto l^2 \\Rightarrow R' = 4R$. $2R$ ignores the decrease in area; $R/2$ inverts; $8R$ cubes the length factor.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0064",
+    "subject": "physics",
+    "topic": "Current Electricity",
+    "difficulty": "medium",
+    "stem": "A current of 1.6 A flows through a copper wire of cross-sectional area 1 mm$^2$. If the free-electron density is $10^{29}$ m$^{-3}$, the drift speed of electrons is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$1 \\times 10^{-3}$ m/s"
+      },
+      {
+        "key": "B",
+        "text": "$1 \\times 10^{-5}$ m/s"
+      },
+      {
+        "key": "C",
+        "text": "$1 \\times 10^{-2}$ m/s"
+      },
+      {
+        "key": "D",
+        "text": "$1 \\times 10^{-4}$ m/s"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$v_d = \\frac{I}{neA} = \\frac{1.6}{10^{29} \\times 1.6\\times10^{-19} \\times 10^{-6}} = 10^{-4}$ m/s. The other options arise from wrong conversion of mm$^2$ to m$^2$ (e.g. using $10^{-3}$ or $10^{-7}$) - note drift speeds are typically fractions of a mm per second.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0065",
+    "subject": "physics",
+    "topic": "Current Electricity",
+    "difficulty": "medium",
+    "stem": "In a meter bridge experiment, a resistance of 12 $\\Omega$ is connected in the left gap and an unknown resistance in the right gap. The balance point is found at 40 cm from the left end. The unknown resistance is",
+    "options": [
+      {
+        "key": "A",
+        "text": "8 $\\Omega$"
+      },
+      {
+        "key": "B",
+        "text": "4.8 $\\Omega$"
+      },
+      {
+        "key": "C",
+        "text": "30 $\\Omega$"
+      },
+      {
+        "key": "D",
+        "text": "18 $\\Omega$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Balance: $\\frac{R_L}{R_R} = \\frac{l}{100 - l} \\Rightarrow \\frac{12}{X} = \\frac{40}{60} \\Rightarrow X = 18\\ \\Omega$. 8 $\\Omega$ inverts the length ratio; 4.8 $\\Omega$ uses $l/100$; 30 $\\Omega$ uses $100/l$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0066",
+    "subject": "physics",
+    "topic": "Current Electricity",
+    "difficulty": "hard",
+    "stem": "A potentiometer wire of length 4 m and resistance 10 $\\Omega$ is connected in series with a resistance of 40 $\\Omega$ and an ideal cell of emf 2 V. The balancing length for a thermocouple of emf 30 mV is",
+    "options": [
+      {
+        "key": "A",
+        "text": "6 cm"
+      },
+      {
+        "key": "B",
+        "text": "30 cm"
+      },
+      {
+        "key": "C",
+        "text": "15 cm"
+      },
+      {
+        "key": "D",
+        "text": "60 cm"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Current $I = \\frac{2}{10 + 40} = 0.04$ A; p.d. across wire $= 0.4$ V; potential gradient $= 0.1$ V/m. Balancing length $= \\frac{0.03}{0.1} = 0.3$ m $= 30$ cm. 6 cm ignores the series resistor (gradient 0.5 V/m); 15 cm and 60 cm come from doubling or halving the gradient (e.g. taking the length as 2 m or 8 m).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0067",
+    "subject": "physics",
+    "topic": "Current Electricity",
+    "difficulty": "hard",
+    "stem": "Two cells of emf 6 V and 4 V, each of internal resistance 1 $\\Omega$, are connected in parallel (positive terminal to positive terminal). A 2 $\\Omega$ resistor is connected across the combination. The current through the 2 $\\Omega$ resistor is",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 A"
+      },
+      {
+        "key": "B",
+        "text": "2.5 A"
+      },
+      {
+        "key": "C",
+        "text": "0.5 A"
+      },
+      {
+        "key": "D",
+        "text": "1 A"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Equivalent emf $= \\frac{E_1/r_1 + E_2/r_2}{1/r_1 + 1/r_2} = \\frac{6 + 4}{2} = 5$ V, equivalent internal resistance $= 0.5\\ \\Omega$. $I = \\frac{5}{0.5 + 2} = 2$ A (terminal voltage 4 V). 2.5 A treats the cells as in series (10 V, 4 $\\Omega$) or ignores internal resistance (5 V / 2 $\\Omega$); 0.5 A treats them as opposing in series; 1 A is a slip.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0068",
+    "subject": "physics",
+    "topic": "Current Electricity",
+    "difficulty": "easy",
+    "stem": "A metal wire has a resistance of 10 $\\Omega$ at 20°C. If its temperature coefficient of resistance is $0.004\\ ^\\circ$C$^{-1}$, its resistance at 70°C is approximately",
+    "options": [
+      {
+        "key": "A",
+        "text": "12 $\\Omega$"
+      },
+      {
+        "key": "B",
+        "text": "12.8 $\\Omega$"
+      },
+      {
+        "key": "C",
+        "text": "10.2 $\\Omega$"
+      },
+      {
+        "key": "D",
+        "text": "8 $\\Omega$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$R = R_{20}[1 + \\alpha(T - 20)] = 10(1 + 0.004 \\times 50) = 12\\ \\Omega$. 12.8 $\\Omega$ uses the full 70°C instead of the 50°C rise; 10.2 $\\Omega$ forgets to multiply $\\alpha\\Delta T$ by $R_{20}$; 8 $\\Omega$ wrongly decreases resistance - metals have positive $\\alpha$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0069",
+    "subject": "physics",
+    "topic": "Magnetic Effect of Current",
+    "difficulty": "easy",
+    "stem": "A circular loop of radius 10 cm carries a current of 5 A. The magnetic field at its centre is ($\\mu_0 = 4\\pi\\times10^{-7}$ T m/A)",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2\\pi \\times 10^{-5}$ T"
+      },
+      {
+        "key": "B",
+        "text": "$\\pi \\times 10^{-5}$ T"
+      },
+      {
+        "key": "C",
+        "text": "$1 \\times 10^{-5}$ T"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{\\pi}{2} \\times 10^{-5}$ T"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$B = \\frac{\\mu_0 I}{2R} = \\frac{4\\pi\\times10^{-7} \\times 5}{0.2} = \\pi\\times10^{-5}$ T. $2\\pi\\times10^{-5}$ uses $\\mu_0I/R$; $1\\times10^{-5}$ uses the straight-wire formula $\\mu_0I/2\\pi R$; $\\frac{\\pi}{2}\\times10^{-5}$ uses $\\mu_0 I/4R$ (semicircle).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0070",
+    "subject": "physics",
+    "topic": "Magnetic Effect of Current",
+    "difficulty": "medium",
+    "stem": "A proton and an alpha particle having equal kinetic energies enter a uniform magnetic field perpendicular to it. The ratio of the radii of their circular paths $r_p : r_\\alpha$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 : 1"
+      },
+      {
+        "key": "B",
+        "text": "1 : 2"
+      },
+      {
+        "key": "C",
+        "text": "2 : 1"
+      },
+      {
+        "key": "D",
+        "text": "1 : $\\sqrt{2}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$r = \\frac{mv}{qB} = \\frac{\\sqrt{2mK}}{qB}$. With $m_\\alpha = 4m_p$, $q_\\alpha = 2q_p$: $\\frac{r_p}{r_\\alpha} = \\frac{\\sqrt{m_p}/q_p}{\\sqrt{4m_p}/2q_p} = 1$. 2 : 1 is the result for equal momenta ($r \\propto 1/q$); 1 : $\\sqrt2$ is for equal accelerating potential ($r \\propto \\sqrt{m/q}$); 1 : 2 uses $r \\propto \\sqrt m$, ignoring the charge.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0071",
+    "subject": "physics",
+    "topic": "Magnetic Effect of Current",
+    "difficulty": "medium",
+    "stem": "Two long parallel wires 10 cm apart carry currents of 10 A each in opposite directions. The force per unit length between them is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2 \\times 10^{-4}$ N/m, repulsive"
+      },
+      {
+        "key": "B",
+        "text": "$2 \\times 10^{-4}$ N/m, attractive"
+      },
+      {
+        "key": "C",
+        "text": "$4 \\times 10^{-4}$ N/m, repulsive"
+      },
+      {
+        "key": "D",
+        "text": "$2 \\times 10^{-5}$ N/m, repulsive"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$\\frac{F}{l} = \\frac{\\mu_0 I_1I_2}{2\\pi d} = \\frac{2\\times10^{-7}\\times100}{0.1} = 2\\times10^{-4}$ N/m. Antiparallel currents repel (parallel currents attract). 'Attractive' reverses the rule; $4\\times10^{-4}$ uses $\\mu_0/\\pi$; $2\\times10^{-5}$ is a power-of-ten slip in $d$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0072",
+    "subject": "physics",
+    "topic": "Magnetic Effect of Current",
+    "difficulty": "medium",
+    "stem": "A galvanometer of resistance 50 $\\Omega$ gives full-scale deflection for a current of 5 mA. To convert it into an ammeter of range 0-5 A, one must connect",
+    "options": [
+      {
+        "key": "A",
+        "text": "about 0.05 $\\Omega$ in series"
+      },
+      {
+        "key": "B",
+        "text": "about 950 $\\Omega$ in series"
+      },
+      {
+        "key": "C",
+        "text": "about 0.05 $\\Omega$ in parallel"
+      },
+      {
+        "key": "D",
+        "text": "about 5 $\\Omega$ in parallel"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Shunt in parallel: $S = \\frac{I_gG}{I - I_g} = \\frac{0.005 \\times 50}{4.995} \\approx 0.05\\ \\Omega$. A series connection would not bypass the extra current; 950 $\\Omega$ in series converts it into a voltmeter (of range 5 V); 5 $\\Omega$ is a factor-of-100 slip.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0073",
+    "subject": "physics",
+    "topic": "Magnetic Effect of Current",
+    "difficulty": "medium",
+    "stem": "A long straight solid cylindrical wire of radius $R$ carries a steady current $I$ distributed uniformly over its cross-section. The magnetic field at a distance $R/2$ from its axis is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{\\mu_0 I}{\\pi R}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{\\mu_0 I}{2\\pi R}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{\\mu_0 I}{4\\pi R}$"
+      },
+      {
+        "key": "D",
+        "text": "zero"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Ampere's law for a loop of radius $r < R$: $B \\cdot 2\\pi r = \\mu_0 I\\frac{r^2}{R^2} \\Rightarrow B = \\frac{\\mu_0 I r}{2\\pi R^2}$. At $r = R/2$: $B = \\frac{\\mu_0 I}{4\\pi R}$. $\\frac{\\mu_0 I}{\\pi R}$ applies the outside formula $\\mu_0I/2\\pi r$ at $r = R/2$ (ignores the reduced enclosed current); $\\frac{\\mu_0I}{2\\pi R}$ is the field at the surface; zero holds inside a hollow pipe, not a solid wire.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0074",
+    "subject": "physics",
+    "topic": "Magnetic Effect of Current",
+    "difficulty": "hard",
+    "stem": "A rectangular coil of 100 turns and area 0.01 m$^2$ carries a current of 2 A in a uniform magnetic field of 0.5 T. The plane of the coil makes an angle of $30^\\circ$ with the field. The torque on the coil is",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.5 N m"
+      },
+      {
+        "key": "B",
+        "text": "1.0 N m"
+      },
+      {
+        "key": "C",
+        "text": "≈ 0.87 N m"
+      },
+      {
+        "key": "D",
+        "text": "≈ 1.73 N m"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$\\tau = NIAB\\sin\\theta$ where $\\theta$ is the angle between the field and the normal (area vector). Plane at $30^\\circ$ means normal at $60^\\circ$: $\\tau = 100 \\times 2 \\times 0.01 \\times 0.5 \\times \\sin 60^\\circ \\approx 0.87$ N m. 0.5 N m uses $\\sin 30^\\circ$ (angle with the plane); 1.0 N m is the maximum torque; 1.73 N m doubles the correct value.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0075",
+    "subject": "physics",
+    "topic": "Electromagnetic Induction & AC",
+    "difficulty": "easy",
+    "stem": "The magnetic flux through a coil varies with time as $\\Phi = 5t^2 + 3t$ (in Wb, $t$ in s). The magnitude of the induced emf at $t = 2$ s is",
+    "options": [
+      {
+        "key": "A",
+        "text": "26 V"
+      },
+      {
+        "key": "B",
+        "text": "13 V"
+      },
+      {
+        "key": "C",
+        "text": "23 V"
+      },
+      {
+        "key": "D",
+        "text": "20 V"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$|\\varepsilon| = \\frac{d\\Phi}{dt} = 10t + 3 = 23$ V at $t = 2$ s. 26 V is the flux value $\\Phi(2)$, not its rate of change; 13 V uses $5t + 3$; 20 V drops the constant term.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0076",
+    "subject": "physics",
+    "topic": "Electromagnetic Induction & AC",
+    "difficulty": "medium",
+    "stem": "A metal rod of length 1 m rotates with angular speed 20 rad/s about an axis through one end, perpendicular to the rod, in a uniform magnetic field of 0.5 T parallel to the axis. The emf induced between the ends of the rod is",
+    "options": [
+      {
+        "key": "A",
+        "text": "10 V"
+      },
+      {
+        "key": "B",
+        "text": "5 V"
+      },
+      {
+        "key": "C",
+        "text": "2.5 V"
+      },
+      {
+        "key": "D",
+        "text": "20 V"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Each element $dr$ moves with speed $\\omega r$: $\\varepsilon = \\int_0^l B\\omega r\\,dr = \\frac12 B\\omega l^2 = \\frac12 \\times 0.5 \\times 20 \\times 1 = 5$ V. 10 V forgets the $\\frac12$ (uses tip speed for the whole rod); 2.5 V halves again; 20 V multiplies without $B$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0077",
+    "subject": "physics",
+    "topic": "Electromagnetic Induction & AC",
+    "difficulty": "medium",
+    "stem": "A series LCR circuit has $L = 0.1$ H, $C = 10\\ \\mu$F and $R = 10\\ \\Omega$. Its resonant frequency is approximately",
+    "options": [
+      {
+        "key": "A",
+        "text": "1000 Hz"
+      },
+      {
+        "key": "B",
+        "text": "159 Hz"
+      },
+      {
+        "key": "C",
+        "text": "318 Hz"
+      },
+      {
+        "key": "D",
+        "text": "50 Hz"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$f_0 = \\frac{1}{2\\pi\\sqrt{LC}} = \\frac{1}{2\\pi\\sqrt{10^{-6}}} = \\frac{1000}{2\\pi} \\approx 159$ Hz. 1000 Hz is the angular frequency $\\omega_0$ in rad/s; 318 Hz uses $1/\\pi\\sqrt{LC}$; 50 Hz is just the mains frequency. $R$ does not affect $f_0$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0078",
+    "subject": "physics",
+    "topic": "Electromagnetic Induction & AC",
+    "difficulty": "easy",
+    "stem": "An ideal step-down transformer converts 220 V to 11 V. If the current in the secondary is 4 A, the current in the primary is",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.2 A"
+      },
+      {
+        "key": "B",
+        "text": "80 A"
+      },
+      {
+        "key": "C",
+        "text": "4 A"
+      },
+      {
+        "key": "D",
+        "text": "0.4 A"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Ideal transformer: $V_pI_p = V_sI_s \\Rightarrow I_p = \\frac{11 \\times 4}{220} = 0.2$ A. 80 A inverts the ratio (current is larger on the low-voltage side); 4 A assumes the same current; 0.4 A is a factor-of-2 slip.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0079",
+    "subject": "physics",
+    "topic": "Electromagnetic Induction & AC",
+    "difficulty": "hard",
+    "stem": "A series LCR circuit with $R = 30\\ \\Omega$, $X_L = 80\\ \\Omega$ and $X_C = 40\\ \\Omega$ is connected to an AC source of rms voltage 100 V. The average power dissipated in the circuit is",
+    "options": [
+      {
+        "key": "A",
+        "text": "120 W"
+      },
+      {
+        "key": "B",
+        "text": "200 W"
+      },
+      {
+        "key": "C",
+        "text": "160 W"
+      },
+      {
+        "key": "D",
+        "text": "333 W"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$Z = \\sqrt{30^2 + (80 - 40)^2} = 50\\ \\Omega$, $I_{rms} = 2$ A, $\\cos\\phi = R/Z = 0.6$. $P = I_{rms}^2R = 4 \\times 30 = 120$ W ($= V I\\cos\\phi$). 200 W is the apparent power $VI$; 160 W uses $\\cos\\phi = 0.8$ ($X/Z$); 333 W is $V^2/R$, ignoring reactance.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0080",
+    "subject": "physics",
+    "topic": "Electromagnetic Induction & AC",
+    "difficulty": "easy",
+    "stem": "The current in a coil of self-inductance 0.2 H decreases uniformly from 5 A to 1 A in 0.1 s. The magnitude of the emf induced in the coil is",
+    "options": [
+      {
+        "key": "A",
+        "text": "12 V"
+      },
+      {
+        "key": "B",
+        "text": "2 V"
+      },
+      {
+        "key": "C",
+        "text": "8 V"
+      },
+      {
+        "key": "D",
+        "text": "0.8 V"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$|\\varepsilon| = L\\frac{\\Delta I}{\\Delta t} = 0.2 \\times \\frac{4}{0.1} = 8$ V. 12 V uses the sum $5 + 1$ instead of the change; 2 V uses only the final current (1 A) instead of the change; 0.8 V is $L\\Delta I$, forgetting to divide by $\\Delta t$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0081",
+    "subject": "physics",
+    "topic": "Optics",
+    "difficulty": "easy",
+    "stem": "Which of the following electromagnetic radiations has the longest wavelength?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Infrared rays"
+      },
+      {
+        "key": "B",
+        "text": "Ultraviolet rays"
+      },
+      {
+        "key": "C",
+        "text": "Microwaves"
+      },
+      {
+        "key": "D",
+        "text": "X-rays"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In order of increasing wavelength: X-rays < UV < visible < infrared < microwaves < radio waves. So microwaves have the longest wavelength among the options. Infrared lies just beyond red light but is shorter than microwaves; UV and X-rays have shorter wavelengths (higher frequencies) than visible light.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0082",
+    "subject": "physics",
+    "topic": "Optics",
+    "difficulty": "medium",
+    "stem": "Unpolarised light is incident on the surface of a glass slab of refractive index $\\sqrt{3}$. The angle of incidence at which the reflected light is completely plane-polarised is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$30^\\circ$"
+      },
+      {
+        "key": "B",
+        "text": "$45^\\circ$"
+      },
+      {
+        "key": "C",
+        "text": "$60^\\circ$"
+      },
+      {
+        "key": "D",
+        "text": "$\\sin^{-1}(1/\\sqrt{3}) \\approx 35.3^\\circ$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Brewster's law: $\\tan i_p = n = \\sqrt3 \\Rightarrow i_p = 60^\\circ$ (the reflected and refracted rays are then perpendicular). $30^\\circ$ is the angle of refraction at this incidence; $45^\\circ$ assumes $n = 1$; $\\sin^{-1}(1/\\sqrt3)$ is the critical angle formula, which applies to total internal reflection.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0083",
+    "subject": "physics",
+    "topic": "Optics",
+    "difficulty": "easy",
+    "stem": "An object is placed 30 cm in front of a concave mirror of focal length 15 cm. The image is formed",
+    "options": [
+      {
+        "key": "A",
+        "text": "30 cm in front of the mirror (real)"
+      },
+      {
+        "key": "B",
+        "text": "30 cm behind the mirror (virtual)"
+      },
+      {
+        "key": "C",
+        "text": "10 cm in front of the mirror (real)"
+      },
+      {
+        "key": "D",
+        "text": "15 cm in front of the mirror (real)"
+      }
+    ],
+    "answer": "A",
+    "explanation": "With sign convention $u = -30$ cm, $f = -15$ cm: $\\frac1v = \\frac1f - \\frac1u = -\\frac1{15} + \\frac1{30} = -\\frac1{30} \\Rightarrow v = -30$ cm: real, inverted, same size (object at $C$). 'Behind' is a sign error; 10 cm comes from adding $\\frac1{15} + \\frac1{30}$; 15 cm would be for an object at infinity.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0084",
+    "subject": "physics",
+    "topic": "Optics",
+    "difficulty": "medium",
+    "stem": "An object is placed 10 cm from a convex lens of focal length 20 cm. The magnification produced is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$-2$"
+      },
+      {
+        "key": "B",
+        "text": "$+\\dfrac{2}{3}$"
+      },
+      {
+        "key": "C",
+        "text": "$+2$"
+      },
+      {
+        "key": "D",
+        "text": "$-\\dfrac{1}{2}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$\\frac1v - \\frac1u = \\frac1f$ with $u = -10$: $\\frac1v = \\frac1{20} - \\frac1{10} = -\\frac1{20} \\Rightarrow v = -20$ cm. $m = \\frac vu = \\frac{-20}{-10} = +2$ (virtual, erect, magnified - the magnifying-glass case). $-2$ assigns a real inverted image; $+2/3$ comes from using the mirror formula $\\frac1v + \\frac1u = \\frac1f$ with lens signs; $-1/2$ inverts $m$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0085",
+    "subject": "physics",
+    "topic": "Optics",
+    "difficulty": "hard",
+    "stem": "An equiconvex lens of glass (refractive index 1.5) has a focal length of 20 cm in air. When it is completely immersed in water (refractive index 4/3), its focal length becomes",
+    "options": [
+      {
+        "key": "A",
+        "text": "80 cm"
+      },
+      {
+        "key": "B",
+        "text": "20 cm"
+      },
+      {
+        "key": "C",
+        "text": "26.7 cm"
+      },
+      {
+        "key": "D",
+        "text": "60 cm"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Lens-maker's formula: in air $\\frac1{20} = (1.5 - 1)K \\Rightarrow K = \\frac1{10}$. In water $\\frac1{f'} = \\left(\\frac{1.5}{4/3} - 1\\right)K = \\frac18 \\cdot \\frac1{10} \\Rightarrow f' = 80$ cm, i.e. 4 times longer. 20 cm assumes the focal length is unchanged; 26.7 cm simply multiplies by 4/3; 60 cm uses $(n_g - n_w) = \\frac16$ instead of $\\left(\\frac{n_g}{n_w} - 1\\right) = \\frac18$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0086",
+    "subject": "physics",
+    "topic": "Optics",
+    "difficulty": "medium",
+    "stem": "An astronomical telescope has an objective of focal length 100 cm and an eyepiece of focal length 5 cm. In normal adjustment, its magnifying power and the length of the tube are respectively",
+    "options": [
+      {
+        "key": "A",
+        "text": "20 and 95 cm"
+      },
+      {
+        "key": "B",
+        "text": "0.05 and 105 cm"
+      },
+      {
+        "key": "C",
+        "text": "500 and 105 cm"
+      },
+      {
+        "key": "D",
+        "text": "20 and 105 cm"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Normal adjustment (final image at infinity): $M = \\frac{f_o}{f_e} = \\frac{100}{5} = 20$ and $L = f_o + f_e = 105$ cm. 95 cm subtracts the focal lengths; 0.05 inverts the ratio $f_e/f_o$; 500 multiplies the focal lengths.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0087",
+    "subject": "physics",
+    "topic": "Optics",
+    "difficulty": "medium",
+    "stem": "In a Young's double-slit experiment with slit separation 1 mm, screen distance 1 m and light of wavelength 600 nm, the fringe width is 0.6 mm in air. If the entire apparatus is immersed in water (refractive index 4/3), the fringe width becomes",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.6 mm"
+      },
+      {
+        "key": "B",
+        "text": "0.8 mm"
+      },
+      {
+        "key": "C",
+        "text": "0.45 mm"
+      },
+      {
+        "key": "D",
+        "text": "0.3 mm"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In water the wavelength becomes $\\lambda/n$, so $\\beta' = \\frac{\\beta}{n} = \\frac{0.6}{4/3} = 0.45$ mm. 0.6 mm ignores the medium; 0.8 mm multiplies by $n$ instead of dividing; 0.3 mm halves the fringe width.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0088",
+    "subject": "physics",
+    "topic": "Optics",
+    "difficulty": "hard",
+    "stem": "A thin film of oil (refractive index 1.25) is spread over a glass plate (refractive index 1.5). Light of wavelength 500 nm falls normally on it. The minimum thickness of the oil film for which the reflected light is darkest (destructive interference) is",
+    "options": [
+      {
+        "key": "A",
+        "text": "200 nm"
+      },
+      {
+        "key": "B",
+        "text": "250 nm"
+      },
+      {
+        "key": "C",
+        "text": "100 nm"
+      },
+      {
+        "key": "D",
+        "text": "125 nm"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Reflection at air-oil and at oil-glass both occur at a denser medium, so both rays get a phase change of $\\pi$ - these cancel. Condition for destructive reflection: $2nt = \\frac{\\lambda}{2} \\Rightarrow t = \\frac{\\lambda}{4n} = \\frac{500}{5} = 100$ nm. 200 nm assumes only one phase reversal (as for a soap film in air); 250 nm and 125 nm forget the refractive index of the film.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0089",
+    "subject": "physics",
+    "topic": "Optics",
+    "difficulty": "medium",
+    "stem": "Light of wavelength 500 nm falls normally on a single slit of width 0.1 mm. The width of the central bright maximum on a screen 1 m away is",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.5 cm"
+      },
+      {
+        "key": "B",
+        "text": "1.0 cm"
+      },
+      {
+        "key": "C",
+        "text": "2.0 cm"
+      },
+      {
+        "key": "D",
+        "text": "0.25 cm"
+      }
+    ],
+    "answer": "B",
+    "explanation": "First minima at $\\sin\\theta = \\lambda/a$; central maximum width $= \\frac{2\\lambda D}{a} = \\frac{2 \\times 5\\times10^{-7} \\times 1}{10^{-4}} = 10^{-2}$ m $= 1$ cm. 0.5 cm is the distance to the first minimum on one side only (forgets the factor 2); 2.0 cm doubles twice; 0.25 cm is a further halving.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0090",
+    "subject": "physics",
+    "topic": "Optics",
+    "difficulty": "medium",
+    "stem": "Unpolarised light of intensity $I_0$ passes through two ideal polaroids whose transmission axes are inclined at $60^\\circ$ to each other. The intensity of the emergent light is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{I_0}{4}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{I_0}{8}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{I_0}{2}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{3I_0}{8}$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The first polaroid transmits $I_0/2$. By Malus' law, the second transmits $\\frac{I_0}{2}\\cos^2 60^\\circ = \\frac{I_0}{2}\\cdot\\frac14 = \\frac{I_0}{8}$. $I_0/4$ forgets the halving at the first polaroid; $I_0/2$ ignores the second polaroid; $3I_0/8$ uses $\\cos^2 30^\\circ$ (angle measured wrongly).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0091",
+    "subject": "physics",
+    "topic": "Modern Physics",
+    "difficulty": "easy",
+    "stem": "The energy of a photon of wavelength 620 nm is approximately (take $hc = 1240$ eV nm)",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.5 eV"
+      },
+      {
+        "key": "B",
+        "text": "20 eV"
+      },
+      {
+        "key": "C",
+        "text": "1 eV"
+      },
+      {
+        "key": "D",
+        "text": "2 eV"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$E = \\frac{hc}{\\lambda} = \\frac{1240}{620} = 2$ eV. 0.5 eV inverts the ratio; 20 eV is a power-of-ten slip; 1 eV halves the correct value.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0092",
+    "subject": "physics",
+    "topic": "Modern Physics",
+    "difficulty": "medium",
+    "stem": "Light of wavelength 310 nm falls on a metal surface of work function 2.5 eV. The stopping potential for the emitted photoelectrons is (take $hc = 1240$ eV nm)",
+    "options": [
+      {
+        "key": "A",
+        "text": "4.0 V"
+      },
+      {
+        "key": "B",
+        "text": "6.5 V"
+      },
+      {
+        "key": "C",
+        "text": "2.5 V"
+      },
+      {
+        "key": "D",
+        "text": "1.5 V"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Photon energy $= \\frac{1240}{310} = 4.0$ eV. $eV_0 = h\\nu - \\phi = 4.0 - 2.5 = 1.5$ eV $\\Rightarrow V_0 = 1.5$ V. 4.0 V ignores the work function; 6.5 V adds instead of subtracting; 2.5 V is the work function itself.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0093",
+    "subject": "physics",
+    "topic": "Modern Physics",
+    "difficulty": "hard",
+    "stem": "A proton and an alpha particle are accelerated from rest through the same potential difference. The ratio of their de Broglie wavelengths $\\lambda_p : \\lambda_\\alpha$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2\\sqrt{2} : 1$"
+      },
+      {
+        "key": "B",
+        "text": "2 : 1"
+      },
+      {
+        "key": "C",
+        "text": "$\\sqrt{2} : 1$"
+      },
+      {
+        "key": "D",
+        "text": "4 : 1"
+      }
+    ],
+    "answer": "A",
+    "explanation": "KE gained $= qV$, so $p = \\sqrt{2mqV}$ and $\\lambda = \\frac{h}{\\sqrt{2mqV}}$. $\\frac{\\lambda_p}{\\lambda_\\alpha} = \\sqrt{\\frac{m_\\alpha q_\\alpha}{m_p q_p}} = \\sqrt{4 \\times 2} = 2\\sqrt2$. 2 : 1 ignores the charge (equal KE case); $\\sqrt2 : 1$ uses only the charge ratio under the square root; 4 : 1 uses the mass ratio without the square root.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0094",
+    "subject": "physics",
+    "topic": "Modern Physics",
+    "difficulty": "easy",
+    "stem": "In Rutherford's alpha-scattering experiment, the distance of closest approach for a head-on collision is $r_0$. If the kinetic energy of the alpha particles is doubled, the distance of closest approach becomes",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{r_0}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$2r_0$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{r_0}{\\sqrt{2}}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{r_0}{4}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "At closest approach all KE becomes electrostatic PE: $K = \\frac{k(2e)(Ze)}{r_0} \\Rightarrow r_0 \\propto \\frac1K$. Doubling $K$ halves $r_0$. $2r_0$ inverts the dependence; $r_0/\\sqrt2$ assumes $r_0 \\propto 1/\\sqrt K$ (i.e. on speed); $r_0/4$ assumes $r_0 \\propto 1/K^2$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0095",
+    "subject": "physics",
+    "topic": "Modern Physics",
+    "difficulty": "medium",
+    "stem": "The longest wavelength in the Balmer series of the hydrogen spectrum is approximately ($R = 1.097 \\times 10^7$ m$^{-1}$)",
+    "options": [
+      {
+        "key": "A",
+        "text": "365 nm"
+      },
+      {
+        "key": "B",
+        "text": "656 nm"
+      },
+      {
+        "key": "C",
+        "text": "122 nm"
+      },
+      {
+        "key": "D",
+        "text": "486 nm"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Longest wavelength (smallest energy) is the $3 \\to 2$ transition: $\\frac1\\lambda = R\\left(\\frac14 - \\frac19\\right) = \\frac{5R}{36} \\Rightarrow \\lambda = \\frac{36}{5R} \\approx 656$ nm (H$_\\alpha$). 365 nm is the series limit ($\\infty \\to 2$), the shortest Balmer wavelength; 122 nm is Lyman-$\\alpha$ ($2 \\to 1$); 486 nm is the $4 \\to 2$ line.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0096",
+    "subject": "physics",
+    "topic": "Modern Physics",
+    "difficulty": "medium",
+    "stem": "The half-life of a radioactive sample is 5 days. The fraction of the original sample that has decayed after 15 days is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{1}{8}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{3}{4}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{7}{8}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{1}{3}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "15 days $= 3$ half-lives, so the fraction remaining is $\\left(\\frac12\\right)^3 = \\frac18$ and the fraction decayed is $1 - \\frac18 = \\frac78$. $1/8$ is the fraction remaining, not decayed; $3/4$ is the decayed fraction after only 2 half-lives; $1/3$ wrongly assumes linear decay (15/5 = 3).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0097",
+    "subject": "physics",
+    "topic": "Modern Physics",
+    "difficulty": "hard",
+    "stem": "The mass of a $^4_2$He nucleus (taken as the atomic mass) is 4.00260 u. The mass of a hydrogen atom is 1.00783 u and that of a neutron is 1.00867 u. Taking 1 u = 931.5 MeV/$c^2$, the binding energy per nucleon of $^4_2$He is approximately",
+    "options": [
+      {
+        "key": "A",
+        "text": "28.3 MeV"
+      },
+      {
+        "key": "B",
+        "text": "7.1 MeV"
+      },
+      {
+        "key": "C",
+        "text": "14.2 MeV"
+      },
+      {
+        "key": "D",
+        "text": "3.5 MeV"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Mass defect $\\Delta m = 2(1.00783) + 2(1.00867) - 4.00260 = 0.03040$ u. Binding energy $= 0.03040 \\times 931.5 \\approx 28.3$ MeV; per nucleon $= 28.3/4 \\approx 7.1$ MeV. 28.3 MeV is the total binding energy; 14.2 MeV divides by the number of protons (2) only; 3.5 MeV divides by 8.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0098",
+    "subject": "physics",
+    "topic": "Electronic Devices",
+    "difficulty": "medium",
+    "stem": "A Zener diode with breakdown voltage 6 V is used as a voltage regulator. It is connected in series with a 200 $\\Omega$ resistor across a 10 V DC supply, and a load of 1 k$\\Omega$ is connected across the Zener. The current through the Zener diode is",
+    "options": [
+      {
+        "key": "A",
+        "text": "14 mA"
+      },
+      {
+        "key": "B",
+        "text": "20 mA"
+      },
+      {
+        "key": "C",
+        "text": "6 mA"
+      },
+      {
+        "key": "D",
+        "text": "26 mA"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Voltage across the series resistor $= 10 - 6 = 4$ V, so total current $= 4/200 = 20$ mA. Load current $= 6/1000 = 6$ mA. Zener current $= 20 - 6 = 14$ mA. 20 mA is the total (series) current; 6 mA is the load current; 26 mA adds them instead of subtracting.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0099",
+    "subject": "physics",
+    "topic": "Electronic Devices",
+    "difficulty": "medium",
+    "stem": "The two inputs $A$ and $B$ are each passed through a NOT gate, and the two outputs are fed to the inputs of a NAND gate. The resulting circuit is equivalent to",
+    "options": [
+      {
+        "key": "A",
+        "text": "an OR gate"
+      },
+      {
+        "key": "B",
+        "text": "an AND gate"
+      },
+      {
+        "key": "C",
+        "text": "a NOR gate"
+      },
+      {
+        "key": "D",
+        "text": "a NAND gate"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Output $Y = \\overline{\\bar A \\cdot \\bar B} = A + B$ by De Morgan's theorem, i.e. an OR gate. (Check: $A = B = 0$ gives NAND(1,1) = 0; any input 1 gives 1.) An AND gate would need NOT gates feeding a NOR gate; NOR and NAND ignore the effect of the input inversions.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "phy-a-0100",
+    "subject": "physics",
+    "topic": "Electronic Devices",
+    "difficulty": "easy",
+    "stem": "In a common-emitter transistor amplifier, the current gain is 100, the input resistance is 1 k$\\Omega$ and the load resistance is 10 k$\\Omega$. The voltage gain of the amplifier is",
+    "options": [
+      {
+        "key": "A",
+        "text": "100"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "10000"
+      },
+      {
+        "key": "D",
+        "text": "1000"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$A_v = \\beta\\frac{R_L}{R_{in}} = 100 \\times \\frac{10}{1} = 1000$. 100 is just the current gain; 10 is only the resistance ratio; 10000 squares the current gain ($\\beta^2$); note the power gain would be $\\beta A_v = 10^5$.",
+    "source": {
+      "kind": "authored"
+    }
+  }
+]

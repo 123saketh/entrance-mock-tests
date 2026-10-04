@@ -1,0 +1,2427 @@
+[
+  {
+    "id": "lr-fig-0001",
+    "subject": "reasoning",
+    "topic": "Figure Series",
+    "difficulty": "easy",
+    "stem": "Which figure comes next in the series?",
+    "stemImage": "figures/lr/lr-fig-0001-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0001-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0001-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0001-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0001-d.svg"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Each figure is the previous one rotated 90° clockwise as a whole (watch any one element, e.g. the black piece). Rotating the fourth figure once more gives option C. A is wrong: it turns the last figure back the other way (90° anticlockwise) — wrong direction. B is wrong: it is the mirror image of the correct figure, not a rotation. D is wrong: it turns two steps instead of one.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0002",
+    "subject": "reasoning",
+    "topic": "Figure Series",
+    "difficulty": "medium",
+    "stem": "Which figure comes next in the series?",
+    "stemImage": "figures/lr/lr-fig-0002-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0002-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0002-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0002-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0002-d.svg"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Each figure is the previous one rotated 45° clockwise as a whole (watch any one element, e.g. the black piece). Rotating the fourth figure once more gives option D. A is wrong: it turns two steps instead of one. B is wrong: it is the mirror image of the correct figure, not a rotation. C is wrong: it turns the last figure back the other way (45° anticlockwise) — wrong direction.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0003",
+    "subject": "reasoning",
+    "topic": "Figure Series",
+    "difficulty": "hard",
+    "stem": "Which figure comes next in the series?",
+    "stemImage": "figures/lr/lr-fig-0003-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0003-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0003-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0003-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0003-d.svg"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Each figure is the previous one rotated 135° anticlockwise as a whole (watch any one element, e.g. the black piece). Rotating the fourth figure once more gives option A. B is wrong: it is the mirror image of the correct figure, not a rotation. C is wrong: it turns the last figure back the other way (135° clockwise) — wrong direction. D is wrong: it turns two steps instead of one.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0004",
+    "subject": "reasoning",
+    "topic": "Figure Series",
+    "difficulty": "easy",
+    "stem": "Which figure comes next in the series?",
+    "stemImage": "figures/lr/lr-fig-0004-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0004-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0004-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0004-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0004-d.svg"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Two changes happen at every step: one dot is added, and the black corner triangle moves one corner anticlockwise. So the fifth figure has 6 dots with the black triangle at the bottom-left corner: option B. A is wrong: it has 7 dots — one too many. C is wrong: it has 5 dots — one addition is missed. D is wrong: the black corner moves clockwise (wrong direction).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0005",
+    "subject": "reasoning",
+    "topic": "Figure Series",
+    "difficulty": "medium",
+    "stem": "Which figure comes next in the series?",
+    "stemImage": "figures/lr/lr-fig-0005-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0005-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0005-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0005-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0005-d.svg"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Two changes happen at every step: the inner polygon gains one side, and the black corner triangle moves one corner clockwise. So the fifth figure has 7 sides with the black triangle at the top-left corner: option C. A is wrong: the black corner moves anticlockwise (wrong direction). B is wrong: it has 8 sides — one too many. D is wrong: it has 6 sides — one addition is missed.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0006",
+    "subject": "reasoning",
+    "topic": "Figure Series",
+    "difficulty": "medium",
+    "stem": "Which figure comes next in the series?",
+    "stemImage": "figures/lr/lr-fig-0006-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0006-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0006-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0006-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0006-d.svg"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Two changes happen at every step: one dot is added, and the black corner triangle moves one corner anticlockwise. So the fifth figure has 6 dots with the black triangle at the bottom-right corner: option A. B is wrong: it has 5 dots — one addition is missed. C is wrong: the black corner moves clockwise (wrong direction). D is wrong: it has 7 dots — one too many.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0007",
+    "subject": "reasoning",
+    "topic": "Figure Series",
+    "difficulty": "easy",
+    "stem": "The elements move round the square in a fixed way. Which figure comes next?",
+    "stemImage": "figures/lr/lr-fig-0007-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0007-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0007-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0007-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0007-d.svg"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Positions go round the border in 8 steps (corners and side-midpoints). Each time, the black circle moves 1 step anticlockwise. Applying this once more gives option B. A is wrong: the black circle moves one step too far. C is wrong: the black circle has not moved. D is wrong: the black circle moves the wrong way.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0008",
+    "subject": "reasoning",
+    "topic": "Figure Series",
+    "difficulty": "medium",
+    "stem": "The elements move round the square in a fixed way. Which figure comes next?",
+    "stemImage": "figures/lr/lr-fig-0008-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0008-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0008-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0008-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0008-d.svg"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Positions go round the border in 8 steps (corners and side-midpoints). Each time, the black circle moves 1 step clockwise; the white square moves 2 steps anticlockwise. Applying this once more gives option D. A is wrong: the white square moves the wrong way. B is wrong: the black circle moves one step too far. C is wrong: the black circle has not moved.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0009",
+    "subject": "reasoning",
+    "topic": "Figure Series",
+    "difficulty": "hard",
+    "stem": "The elements move round the square in a fixed way. Which figure comes next?",
+    "stemImage": "figures/lr/lr-fig-0009-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0009-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0009-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0009-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0009-d.svg"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Positions go round the border in 8 steps (corners and side-midpoints). Each time, the black circle moves 1 step clockwise; the white square moves 3 steps anticlockwise. Applying this once more gives option C. A is wrong: the black circle moves the wrong way. B is wrong: the black circle has not moved. D is wrong: the white square moves the wrong way.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0010",
+    "subject": "reasoning",
+    "topic": "Figure Analogy",
+    "difficulty": "easy",
+    "stem": "The first two figures are related in a certain way. Choose the figure that is related to the third figure in the same way.",
+    "stemImage": "figures/lr/lr-fig-0010-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0010-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0010-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0010-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0010-d.svg"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The second figure is the first figure rotated 90° clockwise. Doing the same to the third figure gives option A. B is wrong: it is the third figure rotated 90° anticlockwise, not rotated 90° clockwise. C is wrong: it is the third figure flipped left-right (mirror image), not rotated 90° clockwise. D is wrong: it is the third figure rotated 180°, not rotated 90° clockwise.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0011",
+    "subject": "reasoning",
+    "topic": "Figure Analogy",
+    "difficulty": "easy",
+    "stem": "The first two figures are related in a certain way. Choose the figure that is related to the third figure in the same way.",
+    "stemImage": "figures/lr/lr-fig-0011-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0011-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0011-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0011-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0011-d.svg"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The second figure is the first figure flipped left-right (mirror image). Doing the same to the third figure gives option D. A is wrong: it is the third figure flipped top-bottom (water image), not flipped left-right (mirror image). B is wrong: it is the third figure rotated 180°, not flipped left-right (mirror image). C is wrong: it is the third figure rotated 90° clockwise, not flipped left-right (mirror image).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0012",
+    "subject": "reasoning",
+    "topic": "Figure Analogy",
+    "difficulty": "easy",
+    "stem": "The first two figures are related in a certain way. Choose the figure that is related to the third figure in the same way.",
+    "stemImage": "figures/lr/lr-fig-0012-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0012-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0012-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0012-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0012-d.svg"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The second figure is the first figure colour-swapped (black ↔ white). Doing the same to the third figure gives option B. A is wrong: it is the third figure left unchanged, not colour-swapped (black ↔ white). C is wrong: it is the third figure flipped left-right (mirror image) and then colour-swapped (black ↔ white), not colour-swapped (black ↔ white). D is wrong: it is the third figure rotated 180° and then colour-swapped (black ↔ white), not colour-swapped (black ↔ white).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0013",
+    "subject": "reasoning",
+    "topic": "Figure Analogy",
+    "difficulty": "medium",
+    "stem": "The first two figures are related in a certain way. Choose the figure that is related to the third figure in the same way.",
+    "stemImage": "figures/lr/lr-fig-0013-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0013-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0013-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0013-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0013-d.svg"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The second figure is the first figure flipped top-bottom (water image). Doing the same to the third figure gives option A. B is wrong: it is the third figure rotated 90° anticlockwise, not flipped top-bottom (water image). C is wrong: it is the third figure rotated 180°, not flipped top-bottom (water image). D is wrong: it is the third figure flipped left-right (mirror image), not flipped top-bottom (water image).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0014",
+    "subject": "reasoning",
+    "topic": "Figure Analogy",
+    "difficulty": "medium",
+    "stem": "The first two figures are related in a certain way. Choose the figure that is related to the third figure in the same way.",
+    "stemImage": "figures/lr/lr-fig-0014-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0014-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0014-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0014-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0014-d.svg"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The second figure is the first figure rotated 180°. Doing the same to the third figure gives option B. A is wrong: it is the third figure rotated 90° clockwise, not rotated 180°. C is wrong: it is the third figure flipped top-bottom (water image), not rotated 180°. D is wrong: it is the third figure flipped left-right (mirror image), not rotated 180°.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0015",
+    "subject": "reasoning",
+    "topic": "Figure Analogy",
+    "difficulty": "medium",
+    "stem": "The first two figures are related in a certain way. Choose the figure that is related to the third figure in the same way.",
+    "stemImage": "figures/lr/lr-fig-0015-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0015-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0015-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0015-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0015-d.svg"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The second figure is the first figure rotated 45° anticlockwise. Doing the same to the third figure gives option C. A is wrong: it is the third figure flipped left-right (mirror image) and then rotated 45° clockwise, not rotated 45° anticlockwise. B is wrong: it is the third figure rotated 90° anticlockwise, not rotated 45° anticlockwise. D is wrong: it is the third figure rotated 45° clockwise, not rotated 45° anticlockwise.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0016",
+    "subject": "reasoning",
+    "topic": "Figure Analogy",
+    "difficulty": "hard",
+    "stem": "The first two figures are related in a certain way. Choose the figure that is related to the third figure in the same way.",
+    "stemImage": "figures/lr/lr-fig-0016-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0016-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0016-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0016-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0016-d.svg"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The second figure is the first figure rotated 90° anticlockwise and then colour-swapped (black ↔ white). Doing the same to the third figure gives option D. A is wrong: it is the third figure rotated 90° clockwise and then colour-swapped (black ↔ white), not rotated 90° anticlockwise and then colour-swapped (black ↔ white). B is wrong: it is the third figure rotated 90° anticlockwise, not rotated 90° anticlockwise and then colour-swapped (black ↔ white). C is wrong: it is the third figure colour-swapped (black ↔ white), not rotated 90° anticlockwise and then colour-swapped (black ↔ white).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0017",
+    "subject": "reasoning",
+    "topic": "Figure Analogy",
+    "difficulty": "hard",
+    "stem": "The first two figures are related in a certain way. Choose the figure that is related to the third figure in the same way.",
+    "stemImage": "figures/lr/lr-fig-0017-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0017-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0017-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0017-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0017-d.svg"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The second figure is the first figure flipped left-right (mirror image) and then colour-swapped (black ↔ white). Doing the same to the third figure gives option D. A is wrong: it is the third figure flipped top-bottom (water image) and then colour-swapped (black ↔ white), not flipped left-right (mirror image) and then colour-swapped (black ↔ white). B is wrong: it is the third figure colour-swapped (black ↔ white), not flipped left-right (mirror image) and then colour-swapped (black ↔ white). C is wrong: it is the third figure flipped left-right (mirror image), not flipped left-right (mirror image) and then colour-swapped (black ↔ white).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0018",
+    "subject": "reasoning",
+    "topic": "Figure Classification",
+    "difficulty": "easy",
+    "stem": "Three of the following four figures are alike in a certain way and one is different. Choose the odd one out.",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0018-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0018-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0018-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0018-d.svg"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Three figures are the same figure turned through different angles. Option C cannot be obtained by any rotation — it is a mirror image (the elements appear in the reverse order going round). Rotate any of the others: they all coincide, so they are not odd.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0019",
+    "subject": "reasoning",
+    "topic": "Figure Classification",
+    "difficulty": "medium",
+    "stem": "Three of the following four figures are alike in a certain way and one is different. Choose the odd one out.",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0019-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0019-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0019-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0019-d.svg"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Three figures are the same figure turned through different angles. Option A cannot be obtained by any rotation — it is a mirror image (the elements appear in the reverse order going round). Rotate any of the others: they all coincide, so they are not odd.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0020",
+    "subject": "reasoning",
+    "topic": "Figure Classification",
+    "difficulty": "medium",
+    "stem": "Three of the following four figures are alike in a certain way and one is different. Choose the odd one out.",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0020-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0020-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0020-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0020-d.svg"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Three figures are the same figure turned through different angles. Option B cannot be obtained by any rotation — it is a mirror image (the elements appear in the reverse order going round). Rotate any of the others: they all coincide, so they are not odd.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0021",
+    "subject": "reasoning",
+    "topic": "Figure Classification",
+    "difficulty": "medium",
+    "stem": "Three of the following four figures are alike in a certain way and one is different. Choose the odd one out.",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0021-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0021-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0021-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0021-d.svg"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Three figures are the same figure turned through different angles. Option C cannot be obtained by any rotation — it is a mirror image (the elements appear in the reverse order going round). Rotate any of the others: they all coincide, so they are not odd.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0022",
+    "subject": "reasoning",
+    "topic": "Figure Classification",
+    "difficulty": "hard",
+    "stem": "Three of the following four figures are alike in a certain way and one is different. Choose the odd one out.",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0022-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0022-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0022-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0022-d.svg"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Three figures are the same figure turned through different angles. Option D cannot be obtained by any rotation — it is a mirror image (the elements appear in the reverse order going round). Rotate any of the others: they all coincide, so they are not odd.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0023",
+    "subject": "reasoning",
+    "topic": "Figure Classification",
+    "difficulty": "easy",
+    "stem": "Three of the following four figures are alike in a certain way and one is different. Choose the odd one out.",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0023-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0023-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0023-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0023-d.svg"
+      }
+    ],
+    "answer": "A",
+    "explanation": "In three figures the number of dots inside equals the number of sides of the polygon. Option A has 3 sides but 2 dots, so it is the odd one. B is wrong: its 6 sides match its 6 dots. C is wrong: its 5 sides match its 5 dots. D is wrong: its 4 sides match its 4 dots.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0024",
+    "subject": "reasoning",
+    "topic": "Figure Classification",
+    "difficulty": "medium",
+    "stem": "Three of the following four figures are alike in a certain way and one is different. Choose the odd one out.",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0024-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0024-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0024-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0024-d.svg"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In three figures the number of dots inside equals the number of sides of the polygon. Option B has 5 sides but 4 dots, so it is the odd one. A is wrong: its 4 sides match its 4 dots. C is wrong: its 6 sides match its 6 dots. D is wrong: its 3 sides match its 3 dots.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0025",
+    "subject": "reasoning",
+    "topic": "Figure Matrix",
+    "difficulty": "easy",
+    "stem": "Which figure fits in the empty cell of the matrix?",
+    "stemImage": "figures/lr/lr-fig-0025-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0025-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0025-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0025-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0025-d.svg"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Every row and every column contains each shape, number of shapes exactly once (e.g. one, two and three shapes). The missing cell must therefore hold 3 diamonds: option C. A is wrong: it has 2 shape(s) instead of 3. B is wrong: it has 1 shape(s), but the count rule needs 3. D is wrong: it uses hexagons; that shape already appears in this row/column.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0026",
+    "subject": "reasoning",
+    "topic": "Figure Matrix",
+    "difficulty": "easy",
+    "stem": "Which figure fits in the empty cell of the matrix?",
+    "stemImage": "figures/lr/lr-fig-0026-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0026-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0026-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0026-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0026-d.svg"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Every row and every column contains each shape, number of shapes exactly once (e.g. one, two and three shapes). The missing cell must therefore hold 3 squares: option A. B is wrong: it has 1 shape(s), but the count rule needs 3. C is wrong: it uses circles; that shape already appears in this row/column. D is wrong: it has 2 shape(s) instead of 3.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0027",
+    "subject": "reasoning",
+    "topic": "Figure Matrix",
+    "difficulty": "medium",
+    "stem": "Which figure fits in the empty cell of the matrix?",
+    "stemImage": "figures/lr/lr-fig-0027-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0027-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0027-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0027-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0027-d.svg"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Every row and every column contains each shape, number of shapes and shading exactly once (e.g. one, two and three shapes). The missing cell must therefore hold 2 triangles, grey: option B. A is wrong: its shading is black, which is already used in this row/column. C is wrong: it has 1 shape(s), but the count rule needs 2. D is wrong: it uses circles; that shape already appears in this row/column.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0028",
+    "subject": "reasoning",
+    "topic": "Figure Matrix",
+    "difficulty": "medium",
+    "stem": "Which figure fits in the empty cell of the matrix?",
+    "stemImage": "figures/lr/lr-fig-0028-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0028-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0028-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0028-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0028-d.svg"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Every row and every column contains each shape, number of shapes and shading exactly once (e.g. one, two and three shapes). The missing cell must therefore hold 2 squares, white: option D. A is wrong: its shading is black, which is already used in this row/column. B is wrong: it uses diamonds; that shape already appears in this row/column. C is wrong: it has 1 shape(s), but the count rule needs 2.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0029",
+    "subject": "reasoning",
+    "topic": "Figure Matrix",
+    "difficulty": "medium",
+    "stem": "Which figure fits in the empty cell of the matrix?",
+    "stemImage": "figures/lr/lr-fig-0029-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0029-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0029-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0029-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0029-d.svg"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Every row and every column contains each shape, number of shapes and shading exactly once (e.g. one, two and three shapes). The missing cell must therefore hold 2 triangles, white: option D. A is wrong: it uses circles; that shape already appears in this row/column. B is wrong: it has 1 shape(s), but the count rule needs 2. C is wrong: its shading is black, which is already used in this row/column.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0030",
+    "subject": "reasoning",
+    "topic": "Figure Matrix",
+    "difficulty": "medium",
+    "stem": "Which figure fits in the empty cell of the matrix?",
+    "stemImage": "figures/lr/lr-fig-0030-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0030-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0030-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0030-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0030-d.svg"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Every row and every column contains each shape, number of shapes and shading exactly once (e.g. one, two and three shapes). The missing cell must therefore hold 1 square, white: option A. B is wrong: it has 2 shape(s), but the count rule needs 1. C is wrong: it uses circles; that shape already appears in this row/column. D is wrong: its shading is grey, which is already used in this row/column.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0031",
+    "subject": "reasoning",
+    "topic": "Figure Matrix",
+    "difficulty": "hard",
+    "stem": "Which figure fits in the empty cell of the matrix?",
+    "stemImage": "figures/lr/lr-fig-0031-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0031-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0031-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0031-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0031-d.svg"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Every row and every column contains each shape, number of shapes and shading exactly once (e.g. one, two and three shapes). The missing cell must therefore hold 1 circle, white: option C. A is wrong: its shading is grey, which is already used in this row/column. B is wrong: it has 2 shape(s), but the count rule needs 1. D is wrong: it uses hexagons; that shape already appears in this row/column.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0032",
+    "subject": "reasoning",
+    "topic": "Figure Matrix",
+    "difficulty": "hard",
+    "stem": "Which figure fits in the empty cell of the matrix?",
+    "stemImage": "figures/lr/lr-fig-0032-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0032-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0032-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0032-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0032-d.svg"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Every row and every column contains each shape, number of shapes and shading exactly once (e.g. one, two and three shapes). The missing cell must therefore hold 3 diamonds, black: option B. A is wrong: it uses squares; that shape already appears in this row/column. C is wrong: its shading is white, which is already used in this row/column. D is wrong: it has 1 shape(s), but the count rule needs 3.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0033",
+    "subject": "reasoning",
+    "topic": "Mirror and Water Images",
+    "difficulty": "easy",
+    "stem": "Choose the correct mirror image of the given figure when the mirror is held along the dashed line on its right.",
+    "stemImage": "figures/lr/lr-fig-0033-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0033-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0033-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0033-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0033-d.svg"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In a mirror held vertically, left and right are exchanged while top and bottom stay the same: each element keeps its distance from the line but moves to the other side. That gives option C. A is wrong: it is the figure turned 180° — a rotation, not a reflection. B is wrong: it is merely a 90° rotation. D is wrong: it is the water image (top-bottom flip), not the mirror image.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0034",
+    "subject": "reasoning",
+    "topic": "Mirror and Water Images",
+    "difficulty": "easy",
+    "stem": "Choose the correct water image of the given figure (water surface along the dashed line below it).",
+    "stemImage": "figures/lr/lr-fig-0034-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0034-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0034-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0034-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0034-d.svg"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In a water image, top and bottom are exchanged while left and right stay the same: each element keeps its distance from the line but moves to the other side. That gives option B. A is wrong: it is merely a 90° rotation. C is wrong: it is the mirror image (left-right flip), not the water image. D is wrong: it is the figure turned 180° — that flips both ways.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0035",
+    "subject": "reasoning",
+    "topic": "Mirror and Water Images",
+    "difficulty": "medium",
+    "stem": "Choose the correct mirror image of the given figure when the mirror is held along the dashed line on its right.",
+    "stemImage": "figures/lr/lr-fig-0035-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0035-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0035-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0035-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0035-d.svg"
+      }
+    ],
+    "answer": "D",
+    "explanation": "In a mirror held vertically, left and right are exchanged while top and bottom stay the same: each element keeps its distance from the line but moves to the other side. That gives option D. A is wrong: it is the water image (top-bottom flip), not the mirror image. B is wrong: it is merely a 90° rotation. C is wrong: it is the figure turned 180° — a rotation, not a reflection.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0036",
+    "subject": "reasoning",
+    "topic": "Mirror and Water Images",
+    "difficulty": "medium",
+    "stem": "Choose the correct water image of the given figure (water surface along the dashed line below it).",
+    "stemImage": "figures/lr/lr-fig-0036-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0036-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0036-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0036-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0036-d.svg"
+      }
+    ],
+    "answer": "A",
+    "explanation": "In a water image, top and bottom are exchanged while left and right stay the same: each element keeps its distance from the line but moves to the other side. That gives option A. B is wrong: it is the mirror image (left-right flip), not the water image. C is wrong: it is the figure turned 180° — that flips both ways. D is wrong: it is merely a 90° rotation.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0037",
+    "subject": "reasoning",
+    "topic": "Mirror and Water Images",
+    "difficulty": "medium",
+    "stem": "Choose the correct mirror image of the given figure when the mirror is held along the dashed line on its right.",
+    "stemImage": "figures/lr/lr-fig-0037-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0037-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0037-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0037-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0037-d.svg"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In a mirror held vertically, left and right are exchanged while top and bottom stay the same: each element keeps its distance from the line but moves to the other side. That gives option C. A is wrong: it is the water image (top-bottom flip), not the mirror image. B is wrong: it is the figure turned 180° — a rotation, not a reflection. D is wrong: it is merely a 90° rotation.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0038",
+    "subject": "reasoning",
+    "topic": "Mirror and Water Images",
+    "difficulty": "easy",
+    "stem": "Choose the mirror image of the given character group when the mirror is held along the dashed line on its right.",
+    "stemImage": "figures/lr/lr-fig-0038-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0038-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0038-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0038-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0038-d.svg"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A vertical mirror reverses left and right: the character order is reversed AND every character is flipped left-right, while nothing turns upside-down. That is option B. A is wrong: it is the string turned upside-down (180° rotation), which flips both ways. C is wrong: only the order of the characters is reversed; each character must also be flipped. D is wrong: it is the water image instead.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0039",
+    "subject": "reasoning",
+    "topic": "Mirror and Water Images",
+    "difficulty": "medium",
+    "stem": "Choose the water image of the given character group (water surface along the dashed line below it).",
+    "stemImage": "figures/lr/lr-fig-0039-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0039-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0039-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0039-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0039-d.svg"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A water image reverses top and bottom only: the characters stay in the same order and each one is flipped upside-down (not rotated). That is option A. B is wrong: reversing the order of characters belongs to a mirror image, and even then each character must be flipped. C is wrong: it is the string turned upside-down (180° rotation), which flips both ways. D is wrong: it is the mirror image instead.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0040",
+    "subject": "reasoning",
+    "topic": "Mirror and Water Images",
+    "difficulty": "hard",
+    "stem": "Choose the mirror image of the given character group when the mirror is held along the dashed line on its right.",
+    "stemImage": "figures/lr/lr-fig-0040-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0040-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0040-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0040-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0040-d.svg"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A vertical mirror reverses left and right: the character order is reversed AND every character is flipped left-right, while nothing turns upside-down. That is option D. A is wrong: it is the string turned upside-down (180° rotation), which flips both ways. B is wrong: only the order of the characters is reversed; each character must also be flipped. C is wrong: it is the water image instead.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0041",
+    "subject": "reasoning",
+    "topic": "Paper Folding",
+    "difficulty": "easy",
+    "stem": "A square sheet of paper is folded as shown (dashed line = fold, arrow = direction) and then punched where the black circle(s) appear in the last figure. How will the sheet look when unfolded?",
+    "stemImage": "figures/lr/lr-fig-0041-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0041-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0041-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0041-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0041-d.svg"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Unfold in reverse order, reflecting every hole across each crease (fold 1: right half folded over onto the left). Each fold doubles the holes: 1 punch × 2 layers = 2 holes, placed symmetrically about the creases (grey = punched position in the figure). Option C. A is wrong: right number of holes, but not where the reflections put them. B is wrong: it forgets to unfold fold 1, so half the holes are missing. D is wrong: fold 1 is along the vertical centre line, but this unfolds it about the horizontal centre line.",
+    "explanationImage": "figures/lr/lr-fig-0041-x.svg",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0042",
+    "subject": "reasoning",
+    "topic": "Paper Folding",
+    "difficulty": "easy",
+    "stem": "A square sheet of paper is folded as shown (dashed line = fold, arrow = direction) and then punched where the black circle(s) appear in the last figure. How will the sheet look when unfolded?",
+    "stemImage": "figures/lr/lr-fig-0042-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0042-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0042-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0042-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0042-d.svg"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Unfold in reverse order, reflecting every hole across each crease (fold 1: top half folded down onto the bottom). Each fold doubles the holes: 1 punch × 2 layers = 2 holes, placed symmetrically about the creases (grey = punched position in the figure). Option B. A is wrong: right number of holes, but not where the reflections put them. C is wrong: fold 1 is along the horizontal centre line, but this unfolds it about the vertical centre line. D is wrong: it forgets to unfold fold 1, so half the holes are missing.",
+    "explanationImage": "figures/lr/lr-fig-0042-x.svg",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0043",
+    "subject": "reasoning",
+    "topic": "Paper Folding",
+    "difficulty": "easy",
+    "stem": "A square sheet of paper is folded as shown (dashed line = fold, arrow = direction) and then punched where the black circle(s) appear in the last figure. How will the sheet look when unfolded?",
+    "stemImage": "figures/lr/lr-fig-0043-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0043-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0043-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0043-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0043-d.svg"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Unfold in reverse order, reflecting every hole across each crease (fold 1: top-right triangle folded onto the bottom-left along a diagonal). Each fold doubles the holes: 1 punch × 2 layers = 2 holes, placed symmetrically about the creases (grey = punched position in the figure). Option D. A is wrong: right number of holes, but not where the reflections put them. B is wrong: it forgets to unfold fold 1, so half the holes are missing. C is wrong: fold 1 is along the top-left-to-bottom-right diagonal, but this unfolds it about the bottom-left-to-top-right diagonal.",
+    "explanationImage": "figures/lr/lr-fig-0043-x.svg",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0044",
+    "subject": "reasoning",
+    "topic": "Paper Folding",
+    "difficulty": "medium",
+    "stem": "A square sheet of paper is folded as shown (dashed line = fold, arrow = direction) and then punched where the black circle(s) appear in the last figure. How will the sheet look when unfolded?",
+    "stemImage": "figures/lr/lr-fig-0044-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0044-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0044-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0044-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0044-d.svg"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Unfold in reverse order, reflecting every hole across each crease (fold 1: right half folded over onto the left; fold 2: top half folded down onto the bottom). Each fold doubles the holes: 1 punch × 4 layers = 4 holes, placed symmetrically about the creases (grey = punched position in the figure). Option A. B is wrong: fold 2 is along the horizontal centre line, but this unfolds it about the vertical centre line. C is wrong: fold 1 is along the vertical centre line, but this unfolds it about the horizontal centre line. D is wrong: it forgets to unfold fold 2, so half the holes are missing.",
+    "explanationImage": "figures/lr/lr-fig-0044-x.svg",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0045",
+    "subject": "reasoning",
+    "topic": "Paper Folding",
+    "difficulty": "medium",
+    "stem": "A square sheet of paper is folded as shown (dashed line = fold, arrow = direction) and then punched where the black circle(s) appear in the last figure. How will the sheet look when unfolded?",
+    "stemImage": "figures/lr/lr-fig-0045-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0045-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0045-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0045-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0045-d.svg"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Unfold in reverse order, reflecting every hole across each crease (fold 1: top-right triangle folded onto the bottom-left along a diagonal; fold 2: top-left triangle folded onto the bottom-right along a diagonal). Each fold doubles the holes: 1 punch × 4 layers = 4 holes, placed symmetrically about the creases (grey = punched position in the figure). Option A. B is wrong: right number of holes, but not where the reflections put them. C is wrong: fold 1 is along the top-left-to-bottom-right diagonal, but this unfolds it about the bottom-left-to-top-right diagonal. D is wrong: fold 2 is along the bottom-left-to-top-right diagonal, but this unfolds it about the top-left-to-bottom-right diagonal.",
+    "explanationImage": "figures/lr/lr-fig-0045-x.svg",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0046",
+    "subject": "reasoning",
+    "topic": "Paper Folding",
+    "difficulty": "medium",
+    "stem": "A square sheet of paper is folded as shown (dashed line = fold, arrow = direction) and then punched where the black circle(s) appear in the last figure. How will the sheet look when unfolded?",
+    "stemImage": "figures/lr/lr-fig-0046-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0046-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0046-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0046-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0046-d.svg"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Unfold in reverse order, reflecting every hole across each crease (fold 1: left half folded over onto the right; fold 2: bottom half folded up onto the top). Each fold doubles the holes: 1 punch × 4 layers = 4 holes, placed symmetrically about the creases (grey = punched position in the figure). Option B. A is wrong: fold 1 is along the vertical centre line, but this unfolds it about the horizontal centre line. C is wrong: it forgets to unfold fold 2, so half the holes are missing. D is wrong: fold 2 is along the horizontal centre line, but this unfolds it about the vertical centre line.",
+    "explanationImage": "figures/lr/lr-fig-0046-x.svg",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0047",
+    "subject": "reasoning",
+    "topic": "Paper Folding",
+    "difficulty": "hard",
+    "stem": "A square sheet of paper is folded as shown (dashed line = fold, arrow = direction) and then punched where the black circle(s) appear in the last figure. How will the sheet look when unfolded?",
+    "stemImage": "figures/lr/lr-fig-0047-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0047-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0047-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0047-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0047-d.svg"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Unfold in reverse order, reflecting every hole across each crease (fold 1: top half folded down onto the bottom; fold 2: right half folded over onto the left). Each fold doubles the holes: 2 punches × 4 layers = 8 holes, placed symmetrically about the creases (grey = punched position in the figure). Option C. A is wrong: fold 1 is along the horizontal centre line, but this unfolds it about the vertical centre line. B is wrong: fold 2 is along the vertical centre line, but this unfolds it about the horizontal centre line. D is wrong: it forgets to unfold fold 2, so half the holes are missing.",
+    "explanationImage": "figures/lr/lr-fig-0047-x.svg",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0048",
+    "subject": "reasoning",
+    "topic": "Paper Folding",
+    "difficulty": "hard",
+    "stem": "A square sheet of paper is folded as shown (dashed line = fold, arrow = direction) and then punched where the black circle(s) appear in the last figure. How will the sheet look when unfolded?",
+    "stemImage": "figures/lr/lr-fig-0048-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0048-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0048-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0048-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0048-d.svg"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Unfold in reverse order, reflecting every hole across each crease (fold 1: right half folded over onto the left; fold 2: top half folded down onto the bottom; fold 3: top-right triangle folded onto the bottom-left along a diagonal). Each fold doubles the holes: 1 punch × 8 layers = 8 holes, placed symmetrically about the creases (grey = punched position in the figure). Option D. A is wrong: fold 2 is along the horizontal centre line, but this unfolds it about the vertical centre line. B is wrong: fold 3 is along the top-left-to-bottom-right diagonal, but this unfolds it about the bottom-left-to-top-right diagonal. C is wrong: fold 1 is along the vertical centre line, but this unfolds it about the horizontal centre line.",
+    "explanationImage": "figures/lr/lr-fig-0048-x.svg",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0049",
+    "subject": "reasoning",
+    "topic": "Paper Cutting",
+    "difficulty": "easy",
+    "stem": "A square sheet of paper is folded as shown (dashed line = fold, arrow = direction) and the grey part is cut away in the last figure. How will the sheet look when unfolded?",
+    "stemImage": "figures/lr/lr-fig-0049-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0049-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0049-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0049-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0049-d.svg"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The cut goes through every layer, so on unfolding the cut-out is reflected across each crease in turn (fold 1: right half folded over onto the left). A cut touching a crease opens into a shape symmetric about that crease. Result: option A. B is wrong: fold 1 is along the vertical centre line, but this unfolds it about the horizontal centre line. C is wrong: it forgets to unfold fold 1, so some cut-outs are missing. D is wrong: the cut-outs are in the wrong places.",
+    "explanationImage": "figures/lr/lr-fig-0049-x.svg",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0050",
+    "subject": "reasoning",
+    "topic": "Paper Cutting",
+    "difficulty": "medium",
+    "stem": "A square sheet of paper is folded as shown (dashed line = fold, arrow = direction) and the grey part is cut away in the last figure. How will the sheet look when unfolded?",
+    "stemImage": "figures/lr/lr-fig-0050-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0050-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0050-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0050-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0050-d.svg"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The cut goes through every layer, so on unfolding the cut-out is reflected across each crease in turn (fold 1: right half folded over onto the left; fold 2: top half folded down onto the bottom). A cut touching a crease opens into a shape symmetric about that crease. Result: option D. A is wrong: fold 1 is along the vertical centre line, but this unfolds it about the horizontal centre line. B is wrong: it forgets to unfold fold 2, so some cut-outs are missing. C is wrong: fold 2 is along the horizontal centre line, but this unfolds it about the vertical centre line.",
+    "explanationImage": "figures/lr/lr-fig-0050-x.svg",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0051",
+    "subject": "reasoning",
+    "topic": "Paper Cutting",
+    "difficulty": "medium",
+    "stem": "A square sheet of paper is folded as shown (dashed line = fold, arrow = direction) and the grey part is cut away in the last figure. How will the sheet look when unfolded?",
+    "stemImage": "figures/lr/lr-fig-0051-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0051-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0051-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0051-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0051-d.svg"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The cut goes through every layer, so on unfolding the cut-out is reflected across each crease in turn (fold 1: bottom-left triangle folded onto the top-right along a diagonal). A cut touching a crease opens into a shape symmetric about that crease. Result: option B. A is wrong: fold 1 is along the top-left-to-bottom-right diagonal, but this unfolds it about the bottom-left-to-top-right diagonal. C is wrong: the cut-outs are in the wrong places. D is wrong: it forgets to unfold fold 1, so some cut-outs are missing.",
+    "explanationImage": "figures/lr/lr-fig-0051-x.svg",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0052",
+    "subject": "reasoning",
+    "topic": "Paper Cutting",
+    "difficulty": "hard",
+    "stem": "A square sheet of paper is folded as shown (dashed line = fold, arrow = direction) and the grey part is cut away in the last figure. How will the sheet look when unfolded?",
+    "stemImage": "figures/lr/lr-fig-0052-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0052-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0052-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0052-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0052-d.svg"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The cut goes through every layer, so on unfolding the cut-out is reflected across each crease in turn (fold 1: top half folded down onto the bottom; fold 2: left half folded over onto the right). A cut touching a crease opens into a shape symmetric about that crease. Result: option C. A is wrong: fold 2 is along the vertical centre line, but this unfolds it about the horizontal centre line. B is wrong: it forgets to unfold fold 2, so some cut-outs are missing. D is wrong: fold 1 is along the horizontal centre line, but this unfolds it about the vertical centre line.",
+    "explanationImage": "figures/lr/lr-fig-0052-x.svg",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0053",
+    "subject": "reasoning",
+    "topic": "Embedded Figures",
+    "difficulty": "easy",
+    "stem": "In which option is the given figure (left) hidden? The figure must appear with the same size and orientation.",
+    "stemImage": "figures/lr/lr-fig-0053-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0053-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0053-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0053-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0053-d.svg"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Trace the given figure, same size and same orientation, inside each option. It fits exactly in option C (highlighted grey). A is wrong: it hides the mirror image of the figure, not the figure itself. B is wrong: one line of the figure is missing from it, though it looks close. D is wrong: it hides a rotated copy; the figure must appear in the same orientation.",
+    "explanationImage": "figures/lr/lr-fig-0053-x.svg",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0054",
+    "subject": "reasoning",
+    "topic": "Embedded Figures",
+    "difficulty": "medium",
+    "stem": "In which option is the given figure (left) hidden? The figure must appear with the same size and orientation.",
+    "stemImage": "figures/lr/lr-fig-0054-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0054-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0054-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0054-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0054-d.svg"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Trace the given figure, same size and same orientation, inside each option. It fits exactly in option B (highlighted grey). A is wrong: one line of the figure is missing from it, though it looks close. C is wrong: it hides the mirror image of the figure, not the figure itself. D is wrong: it hides a rotated copy; the figure must appear in the same orientation.",
+    "explanationImage": "figures/lr/lr-fig-0054-x.svg",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0055",
+    "subject": "reasoning",
+    "topic": "Embedded Figures",
+    "difficulty": "medium",
+    "stem": "In which option is the given figure (left) hidden? The figure must appear with the same size and orientation.",
+    "stemImage": "figures/lr/lr-fig-0055-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0055-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0055-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0055-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0055-d.svg"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Trace the given figure, same size and same orientation, inside each option. It fits exactly in option D (highlighted grey). A is wrong: it hides an upside-down (water-image) copy. B is wrong: it hides the mirror image of the figure, not the figure itself. C is wrong: one line of the figure is missing from it, though it looks close.",
+    "explanationImage": "figures/lr/lr-fig-0055-x.svg",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0056",
+    "subject": "reasoning",
+    "topic": "Embedded Figures",
+    "difficulty": "hard",
+    "stem": "In which option is the given figure (left) hidden? The figure must appear with the same size and orientation.",
+    "stemImage": "figures/lr/lr-fig-0056-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0056-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0056-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0056-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0056-d.svg"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Trace the given figure, same size and same orientation, inside each option. It fits exactly in option A (highlighted grey). B is wrong: one line of the figure is missing from it, though it looks close. C is wrong: it hides an upside-down (water-image) copy. D is wrong: it hides the mirror image of the figure, not the figure itself.",
+    "explanationImage": "figures/lr/lr-fig-0056-x.svg",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0057",
+    "subject": "reasoning",
+    "topic": "Counting Figures",
+    "difficulty": "easy",
+    "stem": "How many triangles are there in the given figure?",
+    "stemImage": "figures/lr/lr-fig-0057-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "14"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "11"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Count systematically by size, smallest first: 1 + 2 + 2 + 1 + 1 + 2 + 2 + 1 = 12 triangles. Option C. A is wrong: that count counts only the obvious shapes and misses the composite ones. B is wrong: that count double-counts shapes or counts non-closed outlines. D is wrong: that count misses one of the larger shapes formed by combining smaller pieces.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0058",
+    "subject": "reasoning",
+    "topic": "Counting Figures",
+    "difficulty": "medium",
+    "stem": "How many triangles are there in the given figure?",
+    "stemImage": "figures/lr/lr-fig-0058-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "15"
+      },
+      {
+        "key": "B",
+        "text": "14"
+      },
+      {
+        "key": "C",
+        "text": "18"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Count systematically by size, smallest first: 8 + 4 + 4 = 16 triangles. Option D. A is wrong: that count misses one of the larger shapes formed by combining smaller pieces. B is wrong: that count counts only the obvious shapes and misses the composite ones. C is wrong: that count double-counts shapes or counts non-closed outlines.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0059",
+    "subject": "reasoning",
+    "topic": "Counting Figures",
+    "difficulty": "medium",
+    "stem": "How many triangles are there in the given figure?",
+    "stemImage": "figures/lr/lr-fig-0059-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "18"
+      },
+      {
+        "key": "B",
+        "text": "17"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Count systematically by size, smallest first: 8 + 8 + 2 = 18 triangles. Option A. B is wrong: that count misses one of the larger shapes formed by combining smaller pieces. C is wrong: that count double-counts shapes or counts non-closed outlines. D is wrong: that count counts only the obvious shapes and misses the composite ones.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0060",
+    "subject": "reasoning",
+    "topic": "Counting Figures",
+    "difficulty": "hard",
+    "stem": "How many triangles are there in the given figure?",
+    "stemImage": "figures/lr/lr-fig-0060-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "18"
+      },
+      {
+        "key": "B",
+        "text": "16"
+      },
+      {
+        "key": "C",
+        "text": "15"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Count systematically by size, smallest first: 6 + 3 + 6 + 1 = 16 triangles. Option B. A is wrong: that count double-counts shapes or counts non-closed outlines. C is wrong: that count misses one of the larger shapes formed by combining smaller pieces. D is wrong: that count counts only the obvious shapes and misses the composite ones.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0061",
+    "subject": "reasoning",
+    "topic": "Counting Figures",
+    "difficulty": "medium",
+    "stem": "How many squares are there in the given figure?",
+    "stemImage": "figures/lr/lr-fig-0061-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "14"
+      },
+      {
+        "key": "C",
+        "text": "13"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Count systematically by size, smallest first: 9 + 4 + 1 = 14 squares. Option B. A is wrong: that count counts only the obvious shapes and misses the composite ones. C is wrong: that count misses one of the larger shapes formed by combining smaller pieces. D is wrong: that count double-counts shapes or counts non-closed outlines.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0062",
+    "subject": "reasoning",
+    "topic": "Counting Figures",
+    "difficulty": "hard",
+    "stem": "How many triangles are there in the given figure?",
+    "stemImage": "figures/lr/lr-fig-0062-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "22"
+      },
+      {
+        "key": "B",
+        "text": "18"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "19"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Count systematically by size, smallest first: 8 + 4 + 4 + 4 = 20 triangles. Option C. A is wrong: that count double-counts shapes or counts non-closed outlines. B is wrong: that count counts only the obvious shapes and misses the composite ones. D is wrong: that count misses one of the larger shapes formed by combining smaller pieces.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0063",
+    "subject": "reasoning",
+    "topic": "Pattern Completion",
+    "difficulty": "easy",
+    "stem": "Which option completes the pattern (replaces the \"?\" quarter)?",
+    "stemImage": "figures/lr/lr-fig-0063-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0063-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0063-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0063-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0063-d.svg"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The pattern is symmetric about both the vertical and the horizontal centre lines: each quarter is the mirror image of the quarter beside it. Applying this to the bottom-right quarter gives option A. B is wrong: it copies the top-left quarter without reflecting/rotating it. C is wrong: it copies the top-right quarter without reflecting/rotating it. D is wrong: it copies the bottom-left quarter without reflecting/rotating it.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0064",
+    "subject": "reasoning",
+    "topic": "Pattern Completion",
+    "difficulty": "medium",
+    "stem": "Which option completes the pattern (replaces the \"?\" quarter)?",
+    "stemImage": "figures/lr/lr-fig-0064-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0064-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0064-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0064-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0064-d.svg"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The pattern is symmetric about both the vertical and the horizontal centre lines: each quarter is the mirror image of the quarter beside it. Applying this to the bottom-left quarter gives option D. A is wrong: it copies the top-left quarter without reflecting/rotating it. B is wrong: it copies the bottom-right quarter without reflecting/rotating it. C is wrong: it copies the top-right quarter without reflecting/rotating it.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0065",
+    "subject": "reasoning",
+    "topic": "Pattern Completion",
+    "difficulty": "medium",
+    "stem": "Which option completes the pattern (replaces the \"?\" quarter)?",
+    "stemImage": "figures/lr/lr-fig-0065-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0065-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0065-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0065-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0065-d.svg"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The pattern has quarter-turn symmetry: each quarter is the previous one rotated 90° clockwise about the centre. Applying this to the top-right quarter gives option A. B is wrong: it copies the bottom-left quarter without reflecting/rotating it. C is wrong: it copies the bottom-right quarter without reflecting/rotating it. D is wrong: it copies the top-left quarter without reflecting/rotating it.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0066",
+    "subject": "reasoning",
+    "topic": "Pattern Completion",
+    "difficulty": "hard",
+    "stem": "Which option completes the pattern (replaces the \"?\" quarter)?",
+    "stemImage": "figures/lr/lr-fig-0066-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0066-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0066-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0066-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0066-d.svg"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The pattern has quarter-turn symmetry: each quarter is the previous one rotated 90° clockwise about the centre. Applying this to the bottom-left quarter gives option C. A is wrong: it copies the bottom-right quarter without reflecting/rotating it. B is wrong: it copies the top-right quarter without reflecting/rotating it. D is wrong: it copies the top-left quarter without reflecting/rotating it.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0067",
+    "subject": "reasoning",
+    "topic": "Cube and Dice",
+    "difficulty": "easy",
+    "stem": "The sheet below is folded to form a cube. Which face will be opposite the face with 6 dots?",
+    "stemImage": "figures/lr/lr-fig-0067-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 dots"
+      },
+      {
+        "key": "B",
+        "text": "2 dots"
+      },
+      {
+        "key": "C",
+        "text": "3 dots"
+      },
+      {
+        "key": "D",
+        "text": "4 dots"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Folding the net gives the opposite-face pairs 6–4, 2–3, 5–1 (in a net, two faces with exactly one square between them in a straight line are opposite; any two squares sharing an edge are adjacent). So 4 dots is opposite 6 dots: option D. A is wrong: the face with 1 dots shares an edge with the 6-dot face. B is wrong: the face with 2 dots shares an edge with the 6-dot face. C is wrong: the face with 3 dots shares an edge with the 6-dot face.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0068",
+    "subject": "reasoning",
+    "topic": "Cube and Dice",
+    "difficulty": "medium",
+    "stem": "The sheet below is folded to form a cube. Which face will be opposite the face with 2 dots?",
+    "stemImage": "figures/lr/lr-fig-0068-q.svg",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 dots"
+      },
+      {
+        "key": "B",
+        "text": "6 dots"
+      },
+      {
+        "key": "C",
+        "text": "1 dots"
+      },
+      {
+        "key": "D",
+        "text": "3 dots"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Folding the net gives the opposite-face pairs 4–3, 2–6, 5–1 (in a net, two faces with exactly one square between them in a straight line are opposite; any two squares sharing an edge are adjacent). So 6 dots is opposite 2 dots: option B. A is wrong: the face with 5 dots shares an edge with the 2-dot face. C is wrong: the face with 1 dots shares an edge with the 2-dot face. D is wrong: the face with 3 dots shares an edge with the 2-dot face.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0069",
+    "subject": "reasoning",
+    "topic": "Cube and Dice",
+    "difficulty": "medium",
+    "stem": "Which of the following sheets can be folded along the lines to form a closed cube?",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0069-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0069-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0069-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0069-d.svg"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Fold option A mentally: keep one square as the base; the four squares around it (in the net) become the side walls and the last square becomes the lid — all six faces are covered exactly once. B is wrong: it contains a 2×2 block of squares, which would close up with gaps and overlaps. C is wrong: it contains a 2×2 block of squares, which would close up with gaps and overlaps. D is wrong: on folding, two of its squares land on the same face and one face stays open.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-fig-0070",
+    "subject": "reasoning",
+    "topic": "Cube and Dice",
+    "difficulty": "hard",
+    "stem": "Which of the following sheets can be folded along the lines to form a closed cube?",
+    "options": [
+      {
+        "key": "A",
+        "text": "",
+        "image": "figures/lr/lr-fig-0070-a.svg"
+      },
+      {
+        "key": "B",
+        "text": "",
+        "image": "figures/lr/lr-fig-0070-b.svg"
+      },
+      {
+        "key": "C",
+        "text": "",
+        "image": "figures/lr/lr-fig-0070-c.svg"
+      },
+      {
+        "key": "D",
+        "text": "",
+        "image": "figures/lr/lr-fig-0070-d.svg"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Fold option B mentally: keep one square as the base; the four squares around it (in the net) become the side walls and the last square becomes the lid — all six faces are covered exactly once. A is wrong: on folding, two of its squares land on the same face and one face stays open. C is wrong: on folding, two of its squares land on the same face and one face stays open. D is wrong: on folding, two of its squares land on the same face and one face stays open.",
+    "source": {
+      "kind": "authored"
+    }
+  }
+]

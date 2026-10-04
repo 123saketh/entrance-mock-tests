@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "eng-a-0001",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "stem": "Identify the part of the sentence that contains an error. If there is no error, choose 'No error'.\n\n(A) Neither of the two candidates / (B) have submitted / (C) their application forms on time. / (D) No error",
+    "options": [
+      {
+        "key": "A",
+        "text": "Neither of the two candidates"
+      },
+      {
+        "key": "B",
+        "text": "have submitted"
+      },
+      {
+        "key": "C",
+        "text": "their application forms on time"
+      },
+      {
+        "key": "D",
+        "text": "No error"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'Neither of the two' takes a singular verb, so it should be 'has submitted'. Part A is fine: 'neither of' + plural noun is standard. Part C is acceptable because 'their' is commonly used with 'neither'. The sentence does contain an error, so 'No error' is wrong.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0002",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Identify the part of the sentence that contains an error. If there is no error, choose 'No error'.\n\n(A) The committee, along with its advisers, / (B) has decided to postpone / (C) the meeting until the members will return. / (D) No error",
+    "options": [
+      {
+        "key": "A",
+        "text": "The committee, along with its advisers,"
+      },
+      {
+        "key": "B",
+        "text": "has decided to postpone"
+      },
+      {
+        "key": "C",
+        "text": "the meeting until the members will return"
+      },
+      {
+        "key": "D",
+        "text": "No error"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In a time clause beginning with 'until', 'when', 'before', etc., the simple present expresses future time: 'until the members return'. Part B is correct because the subject is 'The committee' (singular); 'along with its advisers' does not change the number of the subject. A is punctuated and phrased correctly.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0003",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "stem": "Identify the part of the sentence that contains an error. If there is no error, choose 'No error'.\n\n(A) She is one of those engineers / (B) who has never compromised / (C) on safety standards. / (D) No error",
+    "options": [
+      {
+        "key": "A",
+        "text": "She is one of those engineers"
+      },
+      {
+        "key": "B",
+        "text": "who has never compromised"
+      },
+      {
+        "key": "C",
+        "text": "on safety standards"
+      },
+      {
+        "key": "D",
+        "text": "No error"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The relative pronoun 'who' refers to 'engineers' (plural), not to 'one', so the verb must be plural: 'who have never compromised'. Many students wrongly match the verb with 'one'. 'Compromise on' (C) is the correct prepositional use, and A has no error.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0004",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "stem": "Identify the part of the sentence that contains an error. If there is no error, choose 'No error'.\n\n(A) I have been living / (B) in this city / (C) since five years. / (D) No error",
+    "options": [
+      {
+        "key": "A",
+        "text": "I have been living"
+      },
+      {
+        "key": "B",
+        "text": "in this city"
+      },
+      {
+        "key": "C",
+        "text": "since five years"
+      },
+      {
+        "key": "D",
+        "text": "No error"
+      }
+    ],
+    "answer": "C",
+    "explanation": "'Since' is used with a point of time (since 2019); 'for' is used with a period of time. It should be 'for five years'. The present perfect continuous in A is exactly right for an action continuing up to now, and B is correct.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0005",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Identify the part of the sentence that contains an error. If there is no error, choose 'No error'.\n\n(A) Scarcely had the guests arrived / (B) when the lights / (C) went out across the hall. / (D) No error",
+    "options": [
+      {
+        "key": "A",
+        "text": "Scarcely had the guests arrived"
+      },
+      {
+        "key": "B",
+        "text": "when the lights"
+      },
+      {
+        "key": "C",
+        "text": "went out across the hall"
+      },
+      {
+        "key": "D",
+        "text": "No error"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The sentence is correct. 'Scarcely' is correctly followed by inverted past perfect ('had the guests arrived') and paired with 'when'. Students often think 'than' is needed, but 'than' pairs with 'no sooner', not with 'scarcely/hardly'. C is a correct simple-past clause.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0006",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Fill in the blank with the most appropriate determiner.\n\nThere is ______ milk left in the jug, so we must buy some more on the way home.",
+    "options": [
+      {
+        "key": "A",
+        "text": "little"
+      },
+      {
+        "key": "B",
+        "text": "a little"
+      },
+      {
+        "key": "C",
+        "text": "few"
+      },
+      {
+        "key": "D",
+        "text": "a few"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'Little' (without 'a') means 'hardly any' and gives the negative sense that justifies buying more. 'A little' means 'some', which would not explain the need to buy more. 'Few' and 'a few' are used with countable nouns, but 'milk' is uncountable.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0007",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "stem": "Fill in the blank with the most appropriate modal.\n\nYou ______ have told me about the problem earlier; I would gladly have helped you.",
+    "options": [
+      {
+        "key": "A",
+        "text": "should"
+      },
+      {
+        "key": "B",
+        "text": "must"
+      },
+      {
+        "key": "C",
+        "text": "may"
+      },
+      {
+        "key": "D",
+        "text": "will"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'Should have + past participle' expresses that something advisable was not done (mild criticism/regret), which fits the context. 'Must have' expresses a logical deduction about the past, 'may have' expresses possibility, and 'will have' expresses future completion; none conveys the intended reproach.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0008",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "stem": "Fill in the blank with the correct relative pronoun.\n\nThe scientist ______ research on drought-resistant crops won the national award lives in our neighbourhood.",
+    "options": [
+      {
+        "key": "A",
+        "text": "who"
+      },
+      {
+        "key": "B",
+        "text": "whom"
+      },
+      {
+        "key": "C",
+        "text": "which"
+      },
+      {
+        "key": "D",
+        "text": "whose"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'Whose' is the possessive relative pronoun: the research belongs to the scientist. 'Who' would need a verb right after it (who researched...), 'whom' is the object form, and 'which' is used for things, not people.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0009",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Choose the correct option to fill in the blank.\n\nBy the time the rescue team reached the village, the floodwaters ______.",
+    "options": [
+      {
+        "key": "A",
+        "text": "had already receded"
+      },
+      {
+        "key": "B",
+        "text": "have already receded"
+      },
+      {
+        "key": "C",
+        "text": "already recede"
+      },
+      {
+        "key": "D",
+        "text": "would already recede"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Of two past actions, the earlier one takes the past perfect: the water receded before the team arrived, so 'had already receded'. 'Have receded' (present perfect) cannot be used with a past-time clause like 'By the time ... reached'. 'Already recede' is the wrong tense, and 'would already recede' expresses a hypothetical, not a completed earlier action.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0010",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Choose the correct option to fill in the blanks.\n\nThe number of applicants for the scholarship ______ risen sharply this year, and a number of them ______ from rural districts.",
+    "options": [
+      {
+        "key": "A",
+        "text": "have, is"
+      },
+      {
+        "key": "B",
+        "text": "has, are"
+      },
+      {
+        "key": "C",
+        "text": "have, are"
+      },
+      {
+        "key": "D",
+        "text": "has, is"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'The number of' refers to a single quantity and takes a singular verb ('has'). 'A number of' means 'several/many' and takes a plural verb ('are'). Options that swap these or use the same verb for both ignore this distinction.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0011",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Choose the sentence that is grammatically correct and shows proper parallel construction.",
+    "options": [
+      {
+        "key": "A",
+        "text": "The new manager is known for being punctual, fairness and her decisiveness."
+      },
+      {
+        "key": "B",
+        "text": "The new manager is known for her punctuality, being fair and decisive."
+      },
+      {
+        "key": "C",
+        "text": "The new manager is known for her punctuality, fairness and decisiveness."
+      },
+      {
+        "key": "D",
+        "text": "The new manager is known to be punctual, fairness and for decisiveness."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Items in a list should have the same grammatical form. The correct option uses three nouns (punctuality, fairness, decisiveness). The other options mix gerund phrases, adjectives and nouns, which breaks parallelism even though each individual word is correct.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0012",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Choose the correct passive form of the sentence.\n\nWho wrote this letter?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Who was this letter written?"
+      },
+      {
+        "key": "B",
+        "text": "By whom this letter was written?"
+      },
+      {
+        "key": "C",
+        "text": "By whom has this letter been written?"
+      },
+      {
+        "key": "D",
+        "text": "By whom was this letter written?"
+      }
+    ],
+    "answer": "D",
+    "explanation": "In passive questions, 'who' (subject) becomes 'by whom', the simple past active 'wrote' becomes 'was written', and question word order (auxiliary before subject) is kept. 'Who was this letter written?' lacks 'by'; 'By whom this letter was written?' has statement order; 'has been written' changes the tense to present perfect.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0013",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "stem": "Choose the correct question tag.\n\nNobody called while I was out, ______?",
+    "options": [
+      {
+        "key": "A",
+        "text": "did they"
+      },
+      {
+        "key": "B",
+        "text": "didn't they"
+      },
+      {
+        "key": "C",
+        "text": "did he"
+      },
+      {
+        "key": "D",
+        "text": "didn't he"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'Nobody' is a negative word, so the tag must be positive ('did'). Indefinite pronouns like nobody, somebody and everyone take 'they' in tags. 'Didn't they' wrongly treats the sentence as positive, and 'he' is not used in tags after 'nobody'.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0014",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "stem": "Fill in the blanks with the correct prepositions.\n\nThe manager was angry ______ his assistant ______ losing the important file.",
+    "options": [
+      {
+        "key": "A",
+        "text": "on, about"
+      },
+      {
+        "key": "B",
+        "text": "at, with"
+      },
+      {
+        "key": "C",
+        "text": "against, of"
+      },
+      {
+        "key": "D",
+        "text": "with, for"
+      }
+    ],
+    "answer": "D",
+    "explanation": "We are 'angry with' a person 'for' doing something. 'Angry on', 'angry against' are incorrect usages; 'angry at ... with losing' uses the wrong preposition for the reason.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0015",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "stem": "Choose the word closest in meaning to EPHEMERAL.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Eternal"
+      },
+      {
+        "key": "B",
+        "text": "Transient"
+      },
+      {
+        "key": "C",
+        "text": "Ethereal"
+      },
+      {
+        "key": "D",
+        "text": "Fragile"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Ephemeral means lasting for a very short time, i.e. transient. 'Eternal' is its opposite. 'Ethereal' (delicate, heavenly) is a look-alike trap. 'Fragile' means easily broken, which is related in feeling but not in meaning.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0016",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "stem": "Choose the word opposite in meaning to LOQUACIOUS.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Garrulous"
+      },
+      {
+        "key": "B",
+        "text": "Talkative"
+      },
+      {
+        "key": "C",
+        "text": "Taciturn"
+      },
+      {
+        "key": "D",
+        "text": "Arrogant"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Loquacious means very talkative; its opposite is taciturn (reserved, saying little). 'Garrulous' and 'talkative' are synonyms, not antonyms, and 'arrogant' is unrelated to speech.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0017",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "hard",
+    "stem": "Choose the one word for: the study of the origin and historical development of words.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Etymology"
+      },
+      {
+        "key": "B",
+        "text": "Entomology"
+      },
+      {
+        "key": "C",
+        "text": "Lexicography"
+      },
+      {
+        "key": "D",
+        "text": "Orthography"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Etymology traces the origin and history of words. 'Entomology' (study of insects) is the classic sound-alike trap. 'Lexicography' is the compiling of dictionaries, and 'orthography' is the conventional spelling system of a language.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0018",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "stem": "Choose the correct meaning of the idiom.\n\nAfter years of rivalry, the two neighbours finally decided to bury the hatchet.",
+    "options": [
+      {
+        "key": "A",
+        "text": "To hide a valuable secret"
+      },
+      {
+        "key": "B",
+        "text": "To start a fresh dispute"
+      },
+      {
+        "key": "C",
+        "text": "To make peace and end a quarrel"
+      },
+      {
+        "key": "D",
+        "text": "To abandon a joint plan"
+      }
+    ],
+    "answer": "C",
+    "explanation": "'Bury the hatchet' means to stop fighting and become friendly again; the context 'after years of rivalry' supports this. The other options take 'bury' literally (hide) or reverse the meaning (start a dispute).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0019",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "stem": "Choose the option closest in meaning to the phrasal verb 'called off' as used in the sentence.\n\nThe outdoor concert was called off because of the heavy rain.",
+    "options": [
+      {
+        "key": "A",
+        "text": "postponed"
+      },
+      {
+        "key": "B",
+        "text": "announced"
+      },
+      {
+        "key": "C",
+        "text": "shortened"
+      },
+      {
+        "key": "D",
+        "text": "cancelled"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'Call off' means to cancel. 'Postpone' would be 'put off', a common confusion. 'Announced' and 'shortened' do not match the meaning of 'call off'.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0020",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "stem": "Choose the correct pair of words to fill in the blanks.\n\nThe drought will badly ______ this year's harvest, but its long-term ______ on the soil is still unclear.",
+    "options": [
+      {
+        "key": "A",
+        "text": "effect, affect"
+      },
+      {
+        "key": "B",
+        "text": "affect, effect"
+      },
+      {
+        "key": "C",
+        "text": "effect, effect"
+      },
+      {
+        "key": "D",
+        "text": "affect, affect"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'Affect' is usually a verb (to influence); 'effect' is usually a noun (a result). The first blank needs a verb after 'will', and the second needs a noun after 'its long-term'. The other pairs confuse these homophones.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0021",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "stem": "Choose the word that collocates correctly.\n\nThe detective was convinced that the suspect had ______ the crime.",
+    "options": [
+      {
+        "key": "A",
+        "text": "made"
+      },
+      {
+        "key": "B",
+        "text": "committed"
+      },
+      {
+        "key": "C",
+        "text": "done"
+      },
+      {
+        "key": "D",
+        "text": "performed"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The fixed collocation is 'commit a crime'. 'Made', 'done' and 'performed' are not used with 'crime' in standard English, although they are general action verbs.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0022",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "stem": "Choose the odd word out.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Morose"
+      },
+      {
+        "key": "B",
+        "text": "Elated"
+      },
+      {
+        "key": "C",
+        "text": "Jubilant"
+      },
+      {
+        "key": "D",
+        "text": "Ecstatic"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Elated, jubilant and ecstatic all mean extremely happy. Morose means sullen and gloomy, so it is the odd one out.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0023",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "stem": "Choose the pair that completes the analogy.\n\nPen : Writer :: Scalpel : ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hospital"
+      },
+      {
+        "key": "B",
+        "text": "Nurse"
+      },
+      {
+        "key": "C",
+        "text": "Carpenter"
+      },
+      {
+        "key": "D",
+        "text": "Surgeon"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A pen is the principal tool of a writer; a scalpel is the principal tool of a surgeon. 'Hospital' is a place, not a user. A nurse works with surgeons but does not use the scalpel to operate, and a carpenter's tools are saws and chisels.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0024",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "stem": "Choose the word that is INCORRECTLY spelt.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Embarrass"
+      },
+      {
+        "key": "B",
+        "text": "Millennium"
+      },
+      {
+        "key": "C",
+        "text": "Occurence"
+      },
+      {
+        "key": "D",
+        "text": "Conscientious"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct spelling is 'occurrence' (double 'r' and '-ence'). 'Embarrass' (double r, double s), 'millennium' (double l, double n) and 'conscientious' are all spelt correctly, though they are frequently misspelt.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0025",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "stem": "Read the passage and answer the question.\n\nCities are often several degrees warmer than the countryside around them, a phenomenon known as the urban heat island effect. The causes are not mysterious. Asphalt roads and concrete buildings absorb sunlight during the day and release the stored heat slowly at night, so cities cool far less after sunset than open fields do. Air conditioners, vehicles and factories add waste heat of their own, while the scarcity of trees removes one of nature's most effective coolants: plants release water vapour through their leaves, and this evaporation draws heat from the surrounding air.\nThe consequences extend beyond discomfort. Heat waves are deadlier in dense urban neighbourhoods, particularly for the elderly and for those who cannot afford cooling. Higher temperatures also raise electricity demand, which, if met by burning fossil fuels, worsens the very warming that created the demand.\nRemedies are surprisingly modest in cost. Painting roofs white, planting street trees and creating small parks can lower local temperatures noticeably. The challenge lies less in technology than in persuading city planners to treat shade as essential infrastructure rather than decoration.\n\nAccording to the passage, why do cities cool down less than open fields after sunset?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Roads and buildings release the heat they absorbed during the day slowly"
+      },
+      {
+        "key": "B",
+        "text": "Cities receive more sunlight than the countryside"
+      },
+      {
+        "key": "C",
+        "text": "Air conditioners are switched off at night"
+      },
+      {
+        "key": "D",
+        "text": "Clouds trap heat over cities at night"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The passage states that asphalt and concrete 'absorb sunlight during the day and release the stored heat slowly at night'. It never says cities receive more sunlight or mentions clouds, and air conditioners are described as adding waste heat, not as being switched off.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0026",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "stem": "Read the passage and answer the question.\n\nCities are often several degrees warmer than the countryside around them, a phenomenon known as the urban heat island effect. The causes are not mysterious. Asphalt roads and concrete buildings absorb sunlight during the day and release the stored heat slowly at night, so cities cool far less after sunset than open fields do. Air conditioners, vehicles and factories add waste heat of their own, while the scarcity of trees removes one of nature's most effective coolants: plants release water vapour through their leaves, and this evaporation draws heat from the surrounding air.\nThe consequences extend beyond discomfort. Heat waves are deadlier in dense urban neighbourhoods, particularly for the elderly and for those who cannot afford cooling. Higher temperatures also raise electricity demand, which, if met by burning fossil fuels, worsens the very warming that created the demand.\nRemedies are surprisingly modest in cost. Painting roofs white, planting street trees and creating small parks can lower local temperatures noticeably. The challenge lies less in technology than in persuading city planners to treat shade as essential infrastructure rather than decoration.\n\nThe author mentions rising electricity demand mainly to show that",
+    "options": [
+      {
+        "key": "A",
+        "text": "cities should stop using air conditioners"
+      },
+      {
+        "key": "B",
+        "text": "the problem can feed on itself and grow worse"
+      },
+      {
+        "key": "C",
+        "text": "fossil fuels are cheaper than other energy sources"
+      },
+      {
+        "key": "D",
+        "text": "heat waves affect only people who cannot afford cooling"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Higher temperatures raise power demand, and meeting it with fossil fuels 'worsens the very warming that created the demand': a self-reinforcing loop. The author never recommends banning air conditioners or compares fuel costs, and the passage says the poor are 'particularly' affected, not exclusively.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0027",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "stem": "Read the passage and answer the question.\n\nCities are often several degrees warmer than the countryside around them, a phenomenon known as the urban heat island effect. The causes are not mysterious. Asphalt roads and concrete buildings absorb sunlight during the day and release the stored heat slowly at night, so cities cool far less after sunset than open fields do. Air conditioners, vehicles and factories add waste heat of their own, while the scarcity of trees removes one of nature's most effective coolants: plants release water vapour through their leaves, and this evaporation draws heat from the surrounding air.\nThe consequences extend beyond discomfort. Heat waves are deadlier in dense urban neighbourhoods, particularly for the elderly and for those who cannot afford cooling. Higher temperatures also raise electricity demand, which, if met by burning fossil fuels, worsens the very warming that created the demand.\nRemedies are surprisingly modest in cost. Painting roofs white, planting street trees and creating small parks can lower local temperatures noticeably. The challenge lies less in technology than in persuading city planners to treat shade as essential infrastructure rather than decoration.\n\nWhich of the following is NOT mentioned as a cause of the urban heat island effect?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Waste heat from vehicles and factories"
+      },
+      {
+        "key": "B",
+        "text": "A shortage of trees"
+      },
+      {
+        "key": "C",
+        "text": "High humidity from rivers flowing through cities"
+      },
+      {
+        "key": "D",
+        "text": "Heat stored in asphalt and concrete"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Waste heat, scarcity of trees and heat-absorbing surfaces are all named as causes. Humidity from rivers is never mentioned, so it is the answer.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0028",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "stem": "Read the passage and answer the question.\n\nCities are often several degrees warmer than the countryside around them, a phenomenon known as the urban heat island effect. The causes are not mysterious. Asphalt roads and concrete buildings absorb sunlight during the day and release the stored heat slowly at night, so cities cool far less after sunset than open fields do. Air conditioners, vehicles and factories add waste heat of their own, while the scarcity of trees removes one of nature's most effective coolants: plants release water vapour through their leaves, and this evaporation draws heat from the surrounding air.\nThe consequences extend beyond discomfort. Heat waves are deadlier in dense urban neighbourhoods, particularly for the elderly and for those who cannot afford cooling. Higher temperatures also raise electricity demand, which, if met by burning fossil fuels, worsens the very warming that created the demand.\nRemedies are surprisingly modest in cost. Painting roofs white, planting street trees and creating small parks can lower local temperatures noticeably. The challenge lies less in technology than in persuading city planners to treat shade as essential infrastructure rather than decoration.\n\nWhich of the following best summarises the passage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Urban heat islands are caused mainly by air conditioners, and only advanced technology can solve the problem."
+      },
+      {
+        "key": "B",
+        "text": "Heat waves are deadly for the elderly, so cities must build more hospitals and cooling centres."
+      },
+      {
+        "key": "C",
+        "text": "Painting roofs white is the single most effective way to cool a city, according to recent research."
+      },
+      {
+        "key": "D",
+        "text": "Cities trap and generate extra heat with harmful effects, but inexpensive measures can help if planners give shade proper priority."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A good summary covers causes, consequences and remedies, plus the author's point about planners' attitudes. The first distractor contradicts the passage (remedies are low-cost; technology is not the challenge). The second fixes on one detail and adds an idea not in the passage. The third exaggerates one remedy into 'the single most effective'.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0029",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "stem": "Read the passage and answer the question.\n\nIn 1816 a French physician named René Laennec faced an awkward problem. A young patient showed signs of heart disease, but the accepted method of examination, pressing one's ear directly against the patient's chest, seemed improper and, in her case, unlikely to work well anyway. Laennec remembered watching children send signals to one another by scratching one end of a long piece of wood while listening at the other. He rolled a sheet of paper into a tight tube, placed one end on the patient's chest and put his ear to the other. To his surprise, the heartbeat sounded clearer than it ever had through direct contact.\nLaennec soon replaced the paper with a hollow wooden cylinder and spent the next few years listening to hundreds of patients, matching the sounds he heard with what was later found at autopsy. His careful records turned an act of improvisation into a diagnostic science. Ironically, many senior doctors at first dismissed the instrument as a gimmick, arguing that a good physician needed nothing but his own senses.\n\nWhy did Laennec look for a new way to examine his patient?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Placing his ear directly on her chest seemed improper and unlikely to work well"
+      },
+      {
+        "key": "B",
+        "text": "He had partially lost his hearing"
+      },
+      {
+        "key": "C",
+        "text": "The patient demanded a modern instrument"
+      },
+      {
+        "key": "D",
+        "text": "Wooden cylinders had recently become popular among doctors"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The passage says the accepted ear-to-chest method 'seemed improper and, in her case, unlikely to work well anyway'. Nothing is said about Laennec's hearing or the patient's demands, and the wooden cylinder came after his paper experiment.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0030",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "stem": "Read the passage and answer the question.\n\nIn 1816 a French physician named René Laennec faced an awkward problem. A young patient showed signs of heart disease, but the accepted method of examination, pressing one's ear directly against the patient's chest, seemed improper and, in her case, unlikely to work well anyway. Laennec remembered watching children send signals to one another by scratching one end of a long piece of wood while listening at the other. He rolled a sheet of paper into a tight tube, placed one end on the patient's chest and put his ear to the other. To his surprise, the heartbeat sounded clearer than it ever had through direct contact.\nLaennec soon replaced the paper with a hollow wooden cylinder and spent the next few years listening to hundreds of patients, matching the sounds he heard with what was later found at autopsy. His careful records turned an act of improvisation into a diagnostic science. Ironically, many senior doctors at first dismissed the instrument as a gimmick, arguing that a good physician needed nothing but his own senses.\n\nAs used in the passage, the word 'improvisation' most nearly means",
+    "options": [
+      {
+        "key": "A",
+        "text": "a carefully planned scientific experiment"
+      },
+      {
+        "key": "B",
+        "text": "something devised on the spot without preparation"
+      },
+      {
+        "key": "C",
+        "text": "a musical performance without written notes"
+      },
+      {
+        "key": "D",
+        "text": "a copy of someone else's invention"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Rolling a sheet of paper into a tube was a spur-of-the-moment solution, so 'improvisation' means something made up on the spot. The passage contrasts it with the later systematic science, so it was not a planned experiment. The musical sense of the word does not fit here, and nothing was copied from anyone.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0031",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "stem": "Read the passage and answer the question.\n\nIn 1816 a French physician named René Laennec faced an awkward problem. A young patient showed signs of heart disease, but the accepted method of examination, pressing one's ear directly against the patient's chest, seemed improper and, in her case, unlikely to work well anyway. Laennec remembered watching children send signals to one another by scratching one end of a long piece of wood while listening at the other. He rolled a sheet of paper into a tight tube, placed one end on the patient's chest and put his ear to the other. To his surprise, the heartbeat sounded clearer than it ever had through direct contact.\nLaennec soon replaced the paper with a hollow wooden cylinder and spent the next few years listening to hundreds of patients, matching the sounds he heard with what was later found at autopsy. His careful records turned an act of improvisation into a diagnostic science. Ironically, many senior doctors at first dismissed the instrument as a gimmick, arguing that a good physician needed nothing but his own senses.\n\nIn the sentence 'His careful records turned an act of improvisation into a diagnostic science', the phrase 'an act of improvisation' refers to",
+    "options": [
+      {
+        "key": "A",
+        "text": "the children scratching one end of a long piece of wood"
+      },
+      {
+        "key": "B",
+        "text": "the senior doctors' habit of relying on their own senses"
+      },
+      {
+        "key": "C",
+        "text": "rolling a sheet of paper into a tube to listen to the patient's heart"
+      },
+      {
+        "key": "D",
+        "text": "matching heart sounds with findings at autopsy"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The improvised act was Laennec's paper tube. The children's game only inspired him; it was not what his records turned into science. The senior doctors' attitude comes later in the passage, and matching sounds with autopsy findings is the systematic work that made it a science, not the improvisation itself.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0032",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "stem": "Read the passage and answer the question.\n\nIn 1816 a French physician named René Laennec faced an awkward problem. A young patient showed signs of heart disease, but the accepted method of examination, pressing one's ear directly against the patient's chest, seemed improper and, in her case, unlikely to work well anyway. Laennec remembered watching children send signals to one another by scratching one end of a long piece of wood while listening at the other. He rolled a sheet of paper into a tight tube, placed one end on the patient's chest and put his ear to the other. To his surprise, the heartbeat sounded clearer than it ever had through direct contact.\nLaennec soon replaced the paper with a hollow wooden cylinder and spent the next few years listening to hundreds of patients, matching the sounds he heard with what was later found at autopsy. His careful records turned an act of improvisation into a diagnostic science. Ironically, many senior doctors at first dismissed the instrument as a gimmick, arguing that a good physician needed nothing but his own senses.\n\nThe irony mentioned in the last sentence lies in the fact that",
+    "options": [
+      {
+        "key": "A",
+        "text": "Laennec himself later gave up using the instrument"
+      },
+      {
+        "key": "B",
+        "text": "the instrument was actually invented by children"
+      },
+      {
+        "key": "C",
+        "text": "autopsies later showed that the instrument was useless"
+      },
+      {
+        "key": "D",
+        "text": "doctors who prized their own senses rejected a tool that made one of those senses sharper"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The senior doctors argued that a physician needed only his senses, yet the stethoscope improved hearing, a sense. That contradiction is the irony. The passage never says Laennec abandoned the device; children only inspired the idea; and autopsies supported, not disproved, its value.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0033",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "stem": "Read the passage and answer the question.\n\nWe tend to treat boredom as a problem to be solved, usually by reaching for a phone. Yet some psychologists have begun to suggest that boredom may serve a purpose. In one frequently described type of study, participants first perform a deliberately dull task, such as copying numbers from a list, and are then asked to think of as many uses as possible for an ordinary object like a plastic cup. Those who endured the tedious task often produce more, and more inventive, ideas than those who did not.\nThe explanation offered is that boredom acts as a signal. It tells us that our current activity is unrewarding and pushes the mind to wander in search of something better. Such mind-wandering, though it looks idle, allows loosely related ideas to collide, which is the raw material of creativity.\nNone of this means that boredom is pleasant or that all of it is useful. Chronic boredom has been linked to poor health and risky behaviour. The point is narrower: by filling every empty moment with distraction, we may be silencing a signal worth hearing.\n\nWhich of the following best expresses the main idea of the passage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Boredom is always harmful and should be avoided by staying busy."
+      },
+      {
+        "key": "B",
+        "text": "Mobile phones are the main cause of chronic boredom."
+      },
+      {
+        "key": "C",
+        "text": "Short spells of boredom may be useful because they can push the mind towards creative thinking."
+      },
+      {
+        "key": "D",
+        "text": "Copying numbers is an effective way to train memory."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The passage argues that boredom can act as a signal that sparks mind-wandering and creativity, while admitting chronic boredom is harmful. The first option contradicts this. Phones are mentioned only as a common response to boredom, not its cause, and copying numbers is just the dull task used in studies.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0034",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "stem": "Read the passage and answer the question.\n\nWe tend to treat boredom as a problem to be solved, usually by reaching for a phone. Yet some psychologists have begun to suggest that boredom may serve a purpose. In one frequently described type of study, participants first perform a deliberately dull task, such as copying numbers from a list, and are then asked to think of as many uses as possible for an ordinary object like a plastic cup. Those who endured the tedious task often produce more, and more inventive, ideas than those who did not.\nThe explanation offered is that boredom acts as a signal. It tells us that our current activity is unrewarding and pushes the mind to wander in search of something better. Such mind-wandering, though it looks idle, allows loosely related ideas to collide, which is the raw material of creativity.\nNone of this means that boredom is pleasant or that all of it is useful. Chronic boredom has been linked to poor health and risky behaviour. The point is narrower: by filling every empty moment with distraction, we may be silencing a signal worth hearing.\n\nWhich of the following statements from the passage expresses the author's opinion rather than a reported fact?",
+    "options": [
+      {
+        "key": "A",
+        "text": "\"Participants first perform a deliberately dull task, such as copying numbers from a list.\""
+      },
+      {
+        "key": "B",
+        "text": "\"By filling every empty moment with distraction, we may be silencing a signal worth hearing.\""
+      },
+      {
+        "key": "C",
+        "text": "\"Chronic boredom has been linked to poor health and risky behaviour.\""
+      },
+      {
+        "key": "D",
+        "text": "\"Those who endured the tedious task often produce more, and more inventive, ideas.\""
+      }
+    ],
+    "answer": "B",
+    "explanation": "The final sentence is the author's own judgement ('may be', 'worth hearing'). The other three report the design or findings of research, which are presented as facts that can be checked.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0035",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "stem": "Read the passage and answer the question.\n\nWe tend to treat boredom as a problem to be solved, usually by reaching for a phone. Yet some psychologists have begun to suggest that boredom may serve a purpose. In one frequently described type of study, participants first perform a deliberately dull task, such as copying numbers from a list, and are then asked to think of as many uses as possible for an ordinary object like a plastic cup. Those who endured the tedious task often produce more, and more inventive, ideas than those who did not.\nThe explanation offered is that boredom acts as a signal. It tells us that our current activity is unrewarding and pushes the mind to wander in search of something better. Such mind-wandering, though it looks idle, allows loosely related ideas to collide, which is the raw material of creativity.\nNone of this means that boredom is pleasant or that all of it is useful. Chronic boredom has been linked to poor health and risky behaviour. The point is narrower: by filling every empty moment with distraction, we may be silencing a signal worth hearing.\n\nThe author's attitude towards boredom can best be described as",
+    "options": [
+      {
+        "key": "A",
+        "text": "cautiously appreciative"
+      },
+      {
+        "key": "B",
+        "text": "wholly enthusiastic"
+      },
+      {
+        "key": "C",
+        "text": "contemptuous"
+      },
+      {
+        "key": "D",
+        "text": "completely indifferent"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The author sees value in boredom but adds qualifications ('None of this means that boredom is pleasant or that all of it is useful'), so the tone is cautiously appreciative. 'Wholly enthusiastic' ignores these limits, 'contemptuous' contradicts the positive argument, and an indifferent writer would not argue a case.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0036",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "stem": "Read the passage and answer the question.\n\nFor forty years Mr. Iyer had repaired clocks in a narrow shop near the railway station. His customers were mostly elderly people who brought in heirlooms: wall clocks that had belonged to grandparents, pocket watches engraved with names nobody remembered. Younger people, he noticed, rarely came; their phones told the time perfectly well.\nOne monsoon afternoon a teenage girl walked in carrying a small brass alarm clock wrapped in newspaper. It had been her grandfather's, she explained, and it had stopped on the day he died. She did not need it to tell the time; she simply wanted to hear it tick again. Mr. Iyer worked on it for three evenings and refused the money she offered when she returned. As she wound it and held it to her ear, her face changed in a way he had not seen in years.\nThat night he took down the faded sign above his door, which read \"Clock Repairs\", and painted a new one. It said simply: \"Clocks Restored\".\n\nWhy did the girl bring the alarm clock to Mr. Iyer?",
+    "options": [
+      {
+        "key": "A",
+        "text": "She needed a reliable alarm clock"
+      },
+      {
+        "key": "B",
+        "text": "She wanted to sell the antique clock"
+      },
+      {
+        "key": "C",
+        "text": "Her phone had stopped showing the time"
+      },
+      {
+        "key": "D",
+        "text": "She wanted to hear her late grandfather's clock tick again"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The passage states that she 'did not need it to tell the time; she simply wanted to hear it tick again'. This rules out needing an alarm, and nothing suggests selling the clock or a problem with her phone.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0037",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "stem": "Read the passage and answer the question.\n\nFor forty years Mr. Iyer had repaired clocks in a narrow shop near the railway station. His customers were mostly elderly people who brought in heirlooms: wall clocks that had belonged to grandparents, pocket watches engraved with names nobody remembered. Younger people, he noticed, rarely came; their phones told the time perfectly well.\nOne monsoon afternoon a teenage girl walked in carrying a small brass alarm clock wrapped in newspaper. It had been her grandfather's, she explained, and it had stopped on the day he died. She did not need it to tell the time; she simply wanted to hear it tick again. Mr. Iyer worked on it for three evenings and refused the money she offered when she returned. As she wound it and held it to her ear, her face changed in a way he had not seen in years.\nThat night he took down the faded sign above his door, which read \"Clock Repairs\", and painted a new one. It said simply: \"Clocks Restored\".\n\nWhich of the following can most reasonably be inferred about why Mr. Iyer refused payment?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The repair was too simple to charge for"
+      },
+      {
+        "key": "B",
+        "text": "He had decided to close the shop permanently"
+      },
+      {
+        "key": "C",
+        "text": "He valued the emotional meaning of the repair more than the fee"
+      },
+      {
+        "key": "D",
+        "text": "The girl had already paid in advance"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The repair took three evenings, so it was not trivial, and the story stresses the clock's emotional importance and his response to her joy. There is no hint that he was closing the shop (he paints a new sign), and the passage says she offered money when she returned, so she had not paid in advance.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0038",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "stem": "Read the passage and answer the question.\n\nFor forty years Mr. Iyer had repaired clocks in a narrow shop near the railway station. His customers were mostly elderly people who brought in heirlooms: wall clocks that had belonged to grandparents, pocket watches engraved with names nobody remembered. Younger people, he noticed, rarely came; their phones told the time perfectly well.\nOne monsoon afternoon a teenage girl walked in carrying a small brass alarm clock wrapped in newspaper. It had been her grandfather's, she explained, and it had stopped on the day he died. She did not need it to tell the time; she simply wanted to hear it tick again. Mr. Iyer worked on it for three evenings and refused the money she offered when she returned. As she wound it and held it to her ear, her face changed in a way he had not seen in years.\nThat night he took down the faded sign above his door, which read \"Clock Repairs\", and painted a new one. It said simply: \"Clocks Restored\".\n\nThe change of the sign from \"Clock Repairs\" to \"Clocks Restored\" suggests that Mr. Iyer",
+    "options": [
+      {
+        "key": "A",
+        "text": "planned to start selling new clocks"
+      },
+      {
+        "key": "B",
+        "text": "wanted modern wording to attract young customers"
+      },
+      {
+        "key": "C",
+        "text": "had to replace a sign damaged by the monsoon"
+      },
+      {
+        "key": "D",
+        "text": "now saw his work as reviving memories and meaning rather than just fixing machines"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'Restored' implies bringing something back to its former life, reflecting what the girl's clock meant to her. Nothing indicates selling new clocks or targeting young customers, and the old sign was merely 'faded', not damaged; the timing ('That night') links the change to the experience.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0039",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "medium",
+    "stem": "Arrange the sentences P, Q, R and S to form a coherent paragraph.\n\nP: Within weeks, the idea had spread to neighbouring towns.\nQ: It began when a retired teacher left a shelf of books outside her gate with a note inviting passers-by to borrow them.\nR: Today, the district has more than two hundred such free libraries.\nS: Her neighbours soon added books of their own, and the shelf became a small community library.",
+    "options": [
+      {
+        "key": "A",
+        "text": "QSPR"
+      },
+      {
+        "key": "B",
+        "text": "QPSR"
+      },
+      {
+        "key": "C",
+        "text": "SQPR"
+      },
+      {
+        "key": "D",
+        "text": "QSRP"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Q introduces the origin ('It began...'). S follows with 'Her neighbours', referring to the teacher. P describes the spread ('the idea'), and R gives the present result ('Today'). 'QPSR' puts the spread before the neighbours' involvement; 'SQPR' starts with 'Her', which has no referent; 'QSRP' puts 'Today' before 'Within weeks'.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0040",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "hard",
+    "stem": "The first and last sentences of a paragraph are given. Arrange P, Q, R and S in the correct order.\n\nFirst: Coral reefs cover less than one per cent of the ocean floor.\nP: When water temperatures rise even slightly, the corals expel these algae and turn white.\nQ: Yet they support roughly a quarter of all known marine species.\nR: This partnership, however, is surprisingly fragile.\nS: Much of this richness depends on the tiny algae that live inside coral tissue and supply it with food.\nLast: If the heat persists, the bleached corals starve and die.",
+    "options": [
+      {
+        "key": "A",
+        "text": "QRSP"
+      },
+      {
+        "key": "B",
+        "text": "QSRP"
+      },
+      {
+        "key": "C",
+        "text": "SQRP"
+      },
+      {
+        "key": "D",
+        "text": "QSPR"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'Yet' in Q contrasts with the small area in the first sentence. 'This richness' in S refers to the species diversity in Q. 'This partnership' in R refers to the coral-algae relationship in S. P ('these algae', turning white) explains the fragility and leads to 'bleached corals' in the last sentence. In 'QRSP', 'This partnership' appears before the partnership is described; 'QSPR' places the fragility statement after its example.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0041",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "easy",
+    "stem": "Rearrange the parts P, Q, R and S to form a meaningful sentence.\n\nP: only two days\nQ: The students were given\nR: to finish\nS: the project",
+    "options": [
+      {
+        "key": "A",
+        "text": "QRPS"
+      },
+      {
+        "key": "B",
+        "text": "QPRS"
+      },
+      {
+        "key": "C",
+        "text": "PQRS"
+      },
+      {
+        "key": "D",
+        "text": "QPSR"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The sentence reads: 'The students were given only two days to finish the project.' 'Were given' needs its object ('only two days') next, followed by the infinitive 'to finish' and its object 'the project'. The other orders produce ungrammatical or meaningless sequences.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0042",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "medium",
+    "stem": "Choose the most appropriate topic sentence for the paragraph.\n\n______. Owls can turn their heads through about 270 degrees, their soft-fringed feathers muffle the sound of their wings, and in many species the ears are placed asymmetrically, helping the bird locate prey in near-total darkness.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Owls have long been symbols of wisdom in many cultures."
+      },
+      {
+        "key": "B",
+        "text": "Many birds migrate thousands of kilometres every year."
+      },
+      {
+        "key": "C",
+        "text": "Owls possess several adaptations that make them highly effective night hunters."
+      },
+      {
+        "key": "D",
+        "text": "Owl populations are declining because of habitat loss."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Every supporting detail describes a physical feature that helps owls hunt at night, so the topic sentence must introduce these adaptations. The wisdom symbolism and habitat loss are about owls but not about the details given, and migration is not mentioned at all.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0043",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "easy",
+    "stem": "Choose the most suitable linker to fill in the blank.\n\nThe experiment was carefully designed and repeated three times; ______, the results remained inconclusive.",
+    "options": [
+      {
+        "key": "A",
+        "text": "nevertheless"
+      },
+      {
+        "key": "B",
+        "text": "therefore"
+      },
+      {
+        "key": "C",
+        "text": "moreover"
+      },
+      {
+        "key": "D",
+        "text": "consequently"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Careful design would normally lead to clear results, so the inconclusive outcome is a contrast, which needs 'nevertheless'. 'Therefore' and 'consequently' show cause and effect, and 'moreover' adds a similar point; none signals contrast.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0044",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "medium",
+    "stem": "Choose the most suitable connective to fill in the blank.\n\nCandidates will not be allowed to enter the examination hall ______ they show a valid admit card.",
+    "options": [
+      {
+        "key": "A",
+        "text": "if"
+      },
+      {
+        "key": "B",
+        "text": "although"
+      },
+      {
+        "key": "C",
+        "text": "because"
+      },
+      {
+        "key": "D",
+        "text": "unless"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'Unless' means 'except if': entry is denied except when a valid card is shown. 'If' would mean they are refused entry when they show the card, reversing the sense. 'Although' and 'because' do not express a condition.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-a-0045",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "medium",
+    "stem": "Choose the pair of words that best completes the sentence.\n\nThe scientist's theory, though initially ______ by her peers, was eventually ______ by experimental evidence.",
+    "options": [
+      {
+        "key": "A",
+        "text": "ridiculed, vindicated"
+      },
+      {
+        "key": "B",
+        "text": "praised, supported"
+      },
+      {
+        "key": "C",
+        "text": "dismissed, discredited"
+      },
+      {
+        "key": "D",
+        "text": "accepted, confirmed"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'Though' signals a contrast between the early reaction and the final outcome: first mocked (ridiculed), later proved right (vindicated). 'Praised, supported' and 'accepted, confirmed' are both positive, and 'dismissed, discredited' are both negative, so none of them gives the contrast that 'though' demands.",
+    "source": {
+      "kind": "authored"
+    }
+  }
+]

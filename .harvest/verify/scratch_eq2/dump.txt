@@ -1,0 +1,340 @@
+===== M-19-Q19 mathematics Equation of straight lines
+Equation of the line which is parallel to the line common to the pair of lines given by $6x^2$ - xy - $12y^2$ = 0 and $15x^2$ + 14xy - $8y^2$ = 0 and the sum of whose intercepts on the axes is 7, is
+{'A': '2x - 3y = 42', 'B': '3x + 4y = 12', 'C': '5x - 2y = 10', 'D': '4x + 3y = 12'}
+ANS B
+SOL $6x^2$ - xy - $12y^2$ = 0 $\Rightarrow$ (2x - 3y) (3x + 4y) = 0....(i) and $15x^2$ + 14xy - $8y^2$ = 0 $\Rightarrow$ (5x - 2y) (3x + 4y) = 0....(ii) Equation of the line common to (i) and (ii) is 3x + 4y = 0 Equation of any line parallel to (ii) is 3x + 4y = k or $\frac{x}{k/3} + \frac{y}{k/4} = 1$ If $\frac{k}{3} + \frac{k}{4} = 7$, then k = 12 and the equation of the required line is 3x + 4y = 12
+===== M-25-Q19 mathematics Equation of line
+Equation of straight line $ax + by + c = 0$ where $3a + 4b + c = 0$ which is at maximum distance from (1,-2), is -2)
+{'A': '$3x + y - 17 = 0$', 'B': '$4x + 3y - 24 = 0$', 'C': '$3x + 4y - 25 = 0$', 'D': '$x + 3y - 15 = 0$'}
+ANS D
+SOL It passes through a fixed point (3, 4) Slope of line joining (3, 4) and (1, -2) is $\frac{- 6}{- 2} = 3$ $\therefore$ Slope of required line $= - \frac{1}{3}$ equation is $y - 4 = - \frac{1}{3}(x - 3)x + 3y - 15 = 0$
+===== M-12-Q3 mathematics Differentiation of logarithmic functions
+If $y = \log_{\sqrt{e}}(sinx),$ then $\frac{dy}{dx}$ is
+{'A': '2 cot x', 'B': '$\\sqrt{e}cotx$', 'C': '$\\frac{1}{2}cotx$', 'D': '$\\frac{1}{\\sqrt{e}}cotx$'}
+ANS A
+SOL $y = \frac{1}{1/2}\log_{e}(sinx) = 2ln(sinx)$ $\frac{dy}{dx} = 2\frac{cosx}{sinx} = 2cotx$
+===== M-28-Q24 mathematics Differential equation
+If y=y(x) is the solution of the differential equation, $x\frac{dy}{dx} + 2y = x^{2}$ satisfying y
+{'A': '=1, then $y\\left( \\frac{1}{2} \\right)$ is equal to', 'B': '$\\frac{7}{64}$', 'C': '$\\frac{49}{16}$', 'D': '$\\frac{13}{16}$'}
+ANS C
+SOL $x\frac{dy}{dx} + 2y = x^{2}$ $\frac{dy}{dx} + \frac{2}{x}y = x$ This is linear differential equation $\ I.\ F_{.} = e^{\int\frac{2}{x}dx} = e^{2lnx} = x^{2}$ $\ Solution\ of\ differential\ equation\ is\ $ $y \cdot x^{2} = \int x \cdot x^{2}dx + C$ $yx^{2} = \frac{x^{4}}{4} + C$ $y = \frac{x^{4}}{4} + \frac{C}{x^{2}}$ given y (1) = 1 $1 = \frac{1}{4} + C \Rightarrow C = \frac{3}{4}$ Hence $\ y(x) = \frac{x^{2}}{4} + \frac{3}{4x^{2}}$ $\begin{matrix} y\left( \frac{1}{2} \right) = \frac{1}{16} + \
+===== M-12-Q13 mathematics Integration of Trigonometric functions
+If C arbitrary constant then the value of $\int\ 4sinxcos\frac{x}{2}cos\frac{3x}{2}$ dx is equal to.
+{'A': '$cosx - \\frac{1}{2}cos2x + \\frac{1}{3}cos3x + c$', 'B': '$cosx - \\frac{1}{2}cos2x - \\frac{1}{3}cos3x + c$', 'C': '$cosx + \\frac{1}{2}cos2x + \\frac{1}{3}cos3x + c$', 'D': '$cosx + \\frac{1}{2}cos2x - \\frac{1}{3}cos3x + c$'}
+ANS B
+SOL $\int\ 4sinxcos\frac{x}{2}cos\frac{3x}{2}dx = \int\ 2sinx(cos2x + cosx)dx$ $= \int\ 2sinxcos2xdx + \int\ sin2xdx$ $= \int\ (sin3x - sinx + sin2x)dx = cosx - \frac{1}{2}cos2x - \frac{1}{3}cos3x + c$
+===== M-22-Q3 mathematics Algebra
+Let $A = \left\{ \theta \in \left( - \frac{\pi}{2},\pi \right):\frac{3 + 2isin\theta}{1 - 2isin\theta}\ ispurely\ imaginary\ \right\}.$ Then the sum of the elements in A is
+{'A': '$\\frac{2\\pi}{3}$', 'B': '$\\pi$', 'C': '$\\frac{5\\pi}{6}$', 'D': '$\\frac{3\\pi}{4}$'}
+ANS A
+SOL Let  $z = \frac{3 + 2isin\theta}{1 - 2isin\theta}$ θ$\in \left( - \frac{\pi}{2},\pi \right)$ For z to be purely imaginary $\frac{3 + 2{isin}\theta}{1 - 2{isin}\theta} + \frac{3 - 2{isin}\theta}{1 + 2{isin}\theta} = 0$ $\Rightarrow$ $\frac{3 + 6isin\theta + 2isin\theta - 4\sin^{2}\theta + 3 - 6isin\theta - 2isin\theta - 4\sin^{2}\theta}{1 + 4\sin^{2}\theta}$ $\Rightarrow$ $3 - 4\sin^{2}\theta = 0 \Rightarrow$ $\sin^{2}\theta = \frac{3}{4}$ $\theta = n\pi \pm \frac{\pi}{3}$ Given $\theta \in \left
+===== M-10-Q7 mathematics Permutation
+The number less than 1000 that can be formed using the digits 0, 1, 2, 3, 4, 5 when repetition is not allowed is equal to
+{'A': '130', 'B': '131', 'C': '156', 'D': '155'}
+ANS A
+SOL The number of one-digit numbers is 5 The number of two-digit numbers is The number of three -digit numbers is Hence, the total number are is 130
+===== M-06-Q5 mathematics Nature of roots
+Let a and b be real numbers such that 4a + 2b + c = 0 and ab > 0. Then the equation $ax^2$ + bx + c = 0 has
+{'A': 'Real roots', 'B': 'Imaginary roots', 'C': 'Exactly one root', 'D': 'None of these'}
+ANS A
+SOL $ax^{2} + bx + c = 0$ $f(2) = 4a + 2b + c = 0$ (given) $\Rightarrow x = 2$ is a root $\Rightarrow$ real roots
+===== M-07-Q19 mathematics Cube roots of unity
+If $\omega$ is an imaginary cube root of unity then the value of $sin\left( \left( \omega^{19} + \omega^{101} \right)\pi - \frac{\pi}{6} \right)$ is
+{'A': '$\\frac{- 1}{2}$', 'B': '$\\frac{- \\sqrt{3}}{2}$', 'C': '$\\frac{1}{2}$', 'D': 'None of these'}
+ANS C
+SOL $\sin\left\{ \left( \omega^{19} + \omega^{101} \right)\ \pi - \frac{\pi}{6} \right\} = \sin\left( - \pi - \frac{\pi}{6} \right)\ $ $= - \sin\left( \pi + \frac{\pi}{6} \right) = \frac{1}{2}$
+===== M-13-Q20 mathematics Linear differential equation
+If y(x) is the solution of the differential equation $\frac{dt}{dx}$ = - 2 (y - 1), then $\lim_{x \rightarrow \infty}  y(x)$ equal.
+{'A': '0', 'B': '1', 'C': 'e', 'D': 'Not defined'}
+ANS B
+SOL $\frac{dy}{dx}$ = - 2 x (y - 1) $\frac{dy}{dx}$ + 2 xy = 2x I.F. = $e^{\int 2xdx} = e^{x^{2}}$ Solution $\Rightarrow$ $y \cdot e^{x^{2}} = \int 2xe^{x^{2}}dx + c$ $y \cdot e^{x^{2}} = e^{x^{2}} + c$........(1) Given y(0) = 1 $\Rightarrow$ 1. 1 = 1 + c $\Rightarrow$ c = 0 $\therefore$ $y \cdot e^{x^{2}} = e^{x^{2}}$ $\therefore$ $\lim_{x \rightarrow \infty}  y(x) = \lim_{x \rightarrow \infty} (1) = 1$
+===== M-28-Q20 mathematics General solution of DE
+The general solution of the differential equation $\left( y^{2} - x^{3} \right)dx - xydy = 0(x \neq 0)$ is:(where c is a constant of integration)
+{'A': '$y^{2} + 2x^{2} + cx^{3} = 0$', 'B': '$y^{2} - 2x^{2} + cx^{3} = 0$', 'C': '$y^{2} - 2x^{3} + cx^{2} = 0$', 'D': '$y^{2} + 2x^{3} + cx^{2} = 0$'}
+ANS D
+SOL $\left( y^{2} - x^{3} \right)dx - xydy = 0 \Rightarrow y(ydx - xdy) = x^{3}dx \Rightarrow \frac{y}{x}\left( \frac{ydx - xdy}{x^{2}} \right) = dx$ $\Rightarrow - \frac{y}{x}d\left( \frac{y}{x} \right) = dx \Rightarrow - \frac{1}{2}\left( \frac{y}{x} \right)^{2} = x + k \Rightarrow - y^{2} = 2x^{3} + 2x^{2}k \Rightarrow y^{2} + 2x^{3} + cx^{2} = 0$
+===== M-11-Q2 mathematics Limits of standard function
+The value of $\lim_{x \rightarrow \alpha} \frac{1 - cos\left( ax^{2} + bx + c \right)}{(x - \alpha)^{2}}$ where $\alpha,\beta$ are the distinct roots $ax^2$ + bx + c = 0 is.
+{'A': '$(\\alpha - \\beta)^{2}$', 'B': '$\\frac{(\\alpha - \\beta)^{2}}{2}$', 'C': '$\\left( \\frac{a(\\alpha - \\beta)}{2} \\right)^{2}$', 'D': '$\\frac{a^{2}(\\alpha - \\beta)^{2}}{2}$'}
+ANS D
+SOL $\lim_{x \rightarrow \alpha} \frac{1 - cos\left( ax^{2} + bx + c \right)}{(x - \alpha)^{2}} = \lim_{x \rightarrow \alpha} \frac{2\sin^{2}\frac{ax^{2} + bx + c}{2}}{(x - \alpha)^{2}}$ $= \lim_{x \rightarrow \alpha} \frac{\frac{\sin^{2}a(x - \alpha)(x - \beta)}{2}}{\left( \frac{a(x - \alpha)(x - \beta)}{2} \right)^{2}} \times \frac{a^{2}}{2}(x - \beta)^{2} = \frac{a^{2}(\alpha - \beta)^{2}}{2}$
+===== M-11-Q6 mathematics Point and line
+A point equidistant from the lines 4x + 3y + 10 = 0, 5x - 12y + 26 = 0 and 7x + 24y - 50 = 0 is
+{'A': '(1, -1)', 'B': '(1, 1)', 'C': '(0, 0)', 'D': '(0, 1)'}
+ANS C
+SOL $4^2$ + $3^2$ = $5^2$, $5^2$ + $12^2$ = $13^2$, $7^2$ + $24^2$ = $25^2$ Hence, the distance of (0, 0) from the three sides are $\frac{10}{5},\frac{26}{13},\frac{50}{25}$ i.e. each 2
+===== M-02-Q19 mathematics Algebra
+If x > - 1, then the statement (1 + $x)^n$ > 1 + nx is true for
+{'A': 'all n ∈\xa0N', 'B': 'all n > 1', 'C': 'all n > 1 provided n ∈\xa0N', 'D': 'None of these'}
+ANS B
+SOL For n = 1, (1 + $x)^n$ = 1 + x and 1 + nx = 1 + x ∴ P(1) is not true. For n = 2, (1 + $x)^n$ = (1 + $x)^2$ = 1 + 2x + $x^2$ > 1 + 2x [$x^2$ ≥ 0] (for n = 2) ∴ P(n) is true for n = 2 Let P(m) be true where m is a some positive integer ≥2. ∴ (1 + $x)^m$ > 1 + mx ⇒ (1 + $x)^m$ + 1 > (1 + mx) (1 + x) = 1 + (m + 1)x + $mx^2$ > 1 + (m + 1)x ∴ P(m + 1) is true if P (m) is true. ∴ By induction, P(n) is true for all n > 1 and x ≠
+===== M-13-Q9 mathematics Area bounded by curve
+The area bounded by the curves y = 6x - $x^2$ and y = $x^2$ - 2x is
+{'A': '$\\frac{64}{6}$', 'B': '$\\frac{64}{3}$', 'C': '22', 'D': '21'}
+ANS B
+SOL $A = \int_{0}^{4} \left\{ \left( 6x - x^{2} \right) - \left( x^{2} - 2x \right) \right\} dx$ $A = \int_{0}^{4} \left( 8x - 2x^{2} \right)dx$ $A = \left\lbrack 4x^{2} - \frac{2}{3}x^{3} \right\rbrack_{0}^{4} = 64 - \frac{128}{3} = \frac{64}{3}$ square units
+===== M-05-Q14 mathematics Logarithmic inequality
+The number of integral solutions of $(log_.5x$)^2 + $log_.5x$$- 2 \leq 0$ is
+{'A': '1', 'B': '2', 'C': '4', 'D': '5'}
+ANS C
+SOL $\left( \log_{0.5}\ x \right)^{2} + \left( \log_{0.5}x \right) - 2 \leq 0$ Put - $\log_{0.5} - x = 1$ $\Rightarrow$ $u^{2} + t - 2 \leq 0$ ⇒ $(1t + 2)(t - 1) \leq 0$ $- 2 \leq u \leq 1$ $- 2 \leq \log_{0.5}n \leq 1$ $(0.5)^{- 2} \geq x \geq 0.5$ $\frac{1}{2} \leq x \leq 4$ Integral solution = 1, 2, 3, 4
+===== M-05-Q18 mathematics Logarithmic inequality
+The number of positive integers not satisfying the inequality $\log_{2}\left( 4^{x} - 2 \cdot 2^{x} + 17 \right) > 5$
+{'A': '2', 'B': '3', 'C': '4', 'D': '1'}
+ANS A
+SOL $\log_{2}{(4^{x} - {2.2}^{x} + 17)} > 5$ $\Rightarrow 4^{x} - {2.2}^{x} + 17 > 2^{5}$ Put $2^{x} = t$ $\Rightarrow t^{2} - 2t - 15 > 0$ $\Rightarrow (t + 3)(t - 5) > 0$ $t < - 3$ or $t > 5$ $t < - 3$ rejected at $2^{x}$ can't be negative. If if does not satisfy $2^{x} > 5$ then it must satisfy $2^{x} \leq 5$ $\Rightarrow x = 1;\ \ \ 2^{1} \leq 5$ $x = 2;\ \ \ \ \ \ \ \ \ 2^{2} = 4 \leq 5$ $x = 3;\ \ \ \ \ \ \ \ \ 2^{3} = 8 \nleq 5$ $\Rightarrow x = 1$ and 2
+===== M-16-Q12 mathematics Relation between roots and coefficients
+If $cot\theta,cosec\theta$ are the roots of the equation $ax^{2} + bx + c = 0$ and $\Delta = b^{2} - 4ac$, then $a^{4}$equals
+{'A': '$b\\Delta$', 'B': '$b^{2}\\Delta$', 'C': '$bc\\Delta$', 'D': '$c\\Delta$'}
+ANS B
+SOL $cosec\theta + cot\theta = \frac{- b}{a}$ $cosec\theta \cdot cot\theta = \frac{c}{a}$ As ${cosec}^{2}\theta - \cot^{2}\theta = 1$, we get $cosec\theta - cot\theta = - \frac{a}{b}$ $\therefore cosec\theta = \frac{- 1}{2}(\frac{b}{a} + \frac{a}{b})$ $cot\theta = \frac{1}{2}(\frac{a}{b} - \frac{b}{a})$ Thus, $- \frac{1}{4}(\frac{a^{2}}{b^{2}} - \frac{b^{2}}{a^{2}}) = \frac{c}{a}$ $\Rightarrow a^{4} - b^{4} = - 4acb^{2}$ $\Rightarrow a^{4} = b^{2}(b^{2} - 4ac) = b^{2}\Delta$
+===== M-08-Q3 mathematics Binomial Theorem
+(If the ratio of co-efficient of three consecutive terms in expansion of  $(1 + x)^{n}$ is $1:7:42$ then n =
+{'A': '35', 'B': '45', 'C': '55', 'D': '65'}
+ANS C
+SOL By solving equation (1) and (2) we get n = 55, r = 7
+===== M-23-Q12 mathematics Arithmetic progression
+Let (1 + $x)^n$ = 1 + $a_1x$ + $a_2x^2$ +...+ $a_nx^n.$ If $a_1$, $a_2$ and $a_3$ are in AP, then the value of n is
+{'A': '4', 'B': '5', 'C': '6', 'D': '7'}
+ANS D
+SOL $\because$ $a_1$, $a_2$ and $a_3$ are in AP. $\therefore$ $2a_2$ = $a_1$ + $a_3$ $\Rightarrow 2 \cdot \frac{n(n - 1)}{2!} = n + \frac{n(n - 1)(n - 2)}{3!}$ $\Rightarrow$ $n^2$ - 9n + 14 = 0 $\Rightarrow$ (n - 2) (n -7) = 0 $\therefore$ n = 7
+===== M-22-Q6 mathematics Fractional part
+If the fractional part of the number $\frac{2^{403}}{15}$ is $\frac{k}{15}$,then k is equal to
+{'A': '14', 'B': '8', 'C': '6', 'D': '4'}
+ANS B
+SOL $\left\{ \frac{2^{203}}{15} \right\}$ $8.2^{200}$ $\Rightarrow$ $8.16^{50}$ = 8(1 + $15)^{50}$ = 8(1 + 15) Hence remainder is
+===== M-13-Q15 mathematics Integration by substitution
+If tan⁡$(\alpha + \beta) = \frac{1}{2}\ $and $tan(\alpha = \beta) = \frac{1}{3}$ then tan⁡$2\alpha\ is\ $(where $\alpha + \beta$ and $\alpha$ = $\beta\ $both are acute angles)
+{'A': '1', 'B': '$\\frac{1}{4}$', 'C': '$\\frac{1}{5}$', 'D': '2'}
+ANS A
+SOL $tan2\alpha = tan\lbrack(\alpha + \beta) + (\alpha - \beta)\rbrack$ $= \frac{\tan(\alpha + \beta) + \tan(\alpha - \beta)}{1 - \tan(\alpha - \beta)\tan(\alpha + \beta)}$ $= \frac{\frac{1}{2} + \frac{1}{3}}{1 - \frac{1}{2}\ \ \frac{1}{3}\ } = 1$.
+===== M-19-Q3 mathematics Point and line
+Value of $\lambda$ so that point $\left( \lambda,\lambda^{2} \right)$ lies between the lines $|x + 2y| = 3$ is
+{'A': '$\\left( - \\frac{1}{2},2 \\right)$', 'B': '$\\left( - \\frac{3}{2},2 \\right)$', 'C': '$\\left( - \\frac{3}{2},1 \\right)$', 'D': '$\\left( - 1,\\frac{3}{2} \\right)$'}
+ANS C
+SOL $2\lambda^{2} + \lambda - 3 < 0$ $\lambda \in \left( - \frac{3}{2},1 \right)$
+===== M-16-Q4 mathematics Logarithm
+If $\frac{logx}{2} = \frac{logy}{3} = \frac{logz}{5},$ then $x^{2} =$
+{'A': '$\\sqrt{xy}$', 'B': '$\\sqrt{yz}$', 'C': '$\\sqrt{3x}$', 'D': 'none of these'}
+ANS B
+SOL $\frac{logx}{2} = \frac{logy}{3} = \frac{logz}{5}$ then $x^{1/2} = K$ $y^{1/3} = K,z^{1/5} = K$ $\Rightarrow x = K^{2},y = K^{3},z = K^{5} \Rightarrow x^{2} = K^{4}$ $\sqrt{yz} = \sqrt{K^{8}} = K^{4} \Rightarrow x^{2} = \sqrt{yz}$
+===== M-07-Q5 mathematics Modulus
+If the points A(z), A(-z) and A(z -1) form an equilateral triangle then value of z is
+{'A': '$\\frac{2 \\pm \\sqrt{3}i}{4}$', 'B': '$\\frac{1 \\pm \\sqrt{3}i}{4}$', 'C': '$\\frac{1 \\pm \\sqrt{3}i}{2}$', 'D': '$\\frac{1 \\pm \\ i}{2}$'}
+ANS B
+SOL If z, -z and z -1 form equilateral triangle then $z^{2} + z^{2} + (z - 1)^{2} = - z^{2} - z(z - 1) + z(z - 1)$ $3z^{2} - 2z + 1 = - z^{2} \Rightarrow 4z^{2} - 2z + 1 = 0$ $\Rightarrow z = \frac{2 \pm \sqrt{4 - 16}}{8} \Rightarrow z = \frac{2 \pm 2\sqrt{3}\ i}{8} \Rightarrow z = \frac{1 \pm \sqrt{3}\ i}{4}$
+===== M-07-Q6 mathematics Argument and its properties
+The complex z satisfies$|2z + 10 + 10i| \leq 5\sqrt{3} - 5$, and then the least principal argument of z is
+{'A': '$\\frac{- 5\\pi}{6}$', 'B': '$\\frac{- 11\\pi}{12}$', 'C': '$\\frac{- 3\\pi}{4}$', 'D': '$\\frac{- 2\\pi}{3}$'}
+ANS A
+SOL $|z + 5 + 5i| \leq \frac{5\sqrt{3} - 1}{2}$ Point B has least principal argument $AB = \frac{5}{2}(\sqrt{3} - 1)$ $\angle AOB = \pi/12arg(z) = \frac{- 5\pi}{6}$
+===== M-08-Q19 mathematics Distribution of objects
+The number of ways in which 15 identical toys can be distributed among 3 children so that each of them gets at least two toys is equal to
+{'A': '$\\ ^{11}C_{2}$', 'B': '$\\ ^{10}C_{2}$', 'C': '$\\ ^{10}C_{3}$', 'D': '$\\ ^{11}C_{3}$'}
+ANS A
+SOL $x_{1} + x_{2} + x_{3} = 15$ $x_{i} \geq 2,\ let\ y_{i} = x_{i} - 2$ $\Rightarrow y_{1} + y_{2} + y_{3} = 9,y_{i} \geq 0$ $\therefore$ no. of ways $= \ ^{11}C_{2}$
+===== M-23-Q20 mathematics Trigonometry
+If $\alpha,\beta,\gamma,\delta$ are the solutions of the equation $\tan\left( \theta + \frac{\pi}{4} \right) = 3tan3\theta$ (where no two solutions among these have equal tangents), then value of $tan\alpha + tan\beta + tan\gamma + tan\delta$ is
+{'A': '1', 'B': '-2', 'C': '-1', 'D': '0'}
+ANS D
+SOL $\tan\left( \theta + \frac{\pi}{4} \right) = 3\tan\theta,\frac{1 + \tan\theta}{1 - \tan\theta} = 3\left( \frac{3\tan\theta - \tan^{3}\theta}{1 - 3\tan^{2}\theta} \right)$ Let $tan\theta = t \Rightarrow \frac{1 + t}{1 - t} = 3\left( \frac{3t - t^{3}}{1 - 3t^{2}} \right)$ $\Rightarrow$ $3t^4$ - $6t^2$ + 8t -1= 0 so, $t_1$ + $t_2$ + $t_3$ + $t_4$ = 0 $\therefore tan\alpha + tan\beta + tan\gamma + tan\delta = 0$
+===== M-19-Q7 mathematics Limits using standard formulas
+$\lim_{n \rightarrow \infty} \frac{1^{2} + 2^{2} + 3^{2} + \ldots\ldots\ldots + n^{2}}{n^{3}} =$
+{'A': '$1$', 'B': '$\\frac{1}{2}$', 'C': '$\\frac{1}{3}$', 'D': '$0$'}
+ANS C
+SOL $\lim_{n \rightarrow \infty} \frac{1^{2} + 2^{2} + 3^{2} + \ldots\ldots\ldots + n^{2}}{n^{3}} = \lim_{n \rightarrow \infty} \frac{n(n + 1)(2n + 1)}{6n^{3}}$ $= \frac{1}{6}\lim_{n \rightarrow \infty} \frac{1\left( 1 + \frac{1}{n} \right)\left( 2 + \frac{1}{n} \right)}{1} = \frac{1}{6}(1 + 0)(2 + 0) = \frac{1}{3}$
+===== M-23-Q10 mathematics Adjoint of a matrix
+Let A is a non - zero matrix of order such that A + adj A = $A^-1$ then determinant of $(2A^-1$) is equal to
+{'A': '2', 'B': '4', 'C': '1', 'D': '8'}
+ANS D
+SOL Pre multiply by A $A^2$ + A.adj A = $I_2$ $A^2$ + $|A|$$.I_2$ = $I_2$ $A^{2} = \left( 1 - |A| \right)I_{2}$ $|A|^{2} = (|A| - 1)^{2}$ $|A| = \pm (|A| - 1)$ $\Rightarrow |A| = \frac{1}{2}$ Determinant $(2A^-1$) = 8
+===== M-13-Q14 mathematics Properties of definite integration
+$\int_{2 - log3}^{3 + log3} \frac{log(4 + x)}{log(4 + x) + log(9 - x)}$ dx is equal to
+{'A': 'Cannot be evaluated', 'B': '$\\frac{5}{2}$', 'C': '1 + 2 log 3', 'D': '$\\frac{1}{2}$ + log 3'}
+ANS D
+SOL $I = \int_{2 - log3}^{3 + log3} \frac{log(4 + x)}{log(4 + x) + log(9 - x)}dx$.......(1) Using $\int_{a}^{b}  f(x)dx = \int_{a}^{b}  f(a + b - x)dx$ $I = \int_{2 - log3}^{3 + log3} \frac{log(9 - x)}{log(9 - x) + log(4 + x)}dx$........(2) From equation (1) and (2) $2I = \int_{2 - \log 3}^{3 + \log 3}  dx = 1 + 2\log 3$ $\therefore$ I = $\frac{1}{2}$+ log 3
+===== M-01-Q13 mathematics Statistics
+If the mean deviation of numbers 1, 1 + k, 1 + 2k, 1 + 3k,............, 1 + 100k (k > 0) about their mean is 255, then k is equal to
+{'A': '10.0', 'B': '10.1', 'C': '20.0', 'D': '20.1'}
+ANS B
+SOL The numbers 1, 1 + k, 1 + 2k, 1 + 3k,............, 1 + 100k are in A.P. Also, Mean = 51st term = (1 + 50k) ∴ Mean deviation about mean = = · 2d · (1 + 2 + 3 +...... + 50) But mean deviation about mean = 255 (Given) So, we get k = 255 ⇒ k = 10.1
+===== M-13-Q16 mathematics Shifting property
+If $\int_{0}^{100}  f(x)dx = a,\ then\ \left. \ \sum_{r = 1}^{100} \int_{0}^{1}  f(r - 1 + x)dx \right) =$
+{'A': '100 a', 'B': 'a', 'C': '0', 'D': '10 a'}
+ANS B
+SOL $\sum_{r = 1}^{100} \left( \int_{0}^{1}  f(r - 1 + x)dx \right) = \int_{0}^{1}  f(x)dx + \int_{0}^{1}  f(1 + x)dx + \int_{0}^{1}  f(2 + x)dx$ +......+ $\int_{0}^{1} $f (99 + x) dx $= \int_{0}^{1}  f(x)dx + \int_{1}^{2}  f(x)dx$+.....+$\int_{99}^{100}  f(x)dx$ $= \int_{0}^{100}  f(x)dx = a$
+===== M-22-Q8 mathematics Coefficients of expansion
+The coefficient of $t^4$ in the expansion of $\left( \frac{1 - t^{6}}{1 - t} \right)^{3}$ is
+{'A': '12', 'B': '14', 'C': '10', 'D': '15'}
+ANS D
+SOL coefficient of $t^4$ in (1 - $t^6$)^3 (1 - $t)^-3$ = coefficient of $t^4$ in (1 - $3t^6$ + $3t^{12}$ - $t^{18}$) (1 - $t)^-3$ = 1 × ^3 + 4-$1^C_4$ = ^$6C_4$ = 15
+===== M-08-Q12 mathematics Permutations & Combinations
+The number of words from the letters of the word ' BHARAT in which B and H will never come together, is
+{'A': '360', 'B': '240', 'C': '120', 'D': 'none of these'}
+ANS B
+SOL Total number of words with these letters $= \frac{6!}{2!} = 360$  Number of words in which B and H come together $= \frac{5!.2!}{2!}$  so the required number of words $= 360 - 120 = 240$
+===== M-16-Q17 mathematics Arithmetic progression
+$7^th$ term of an AP is 40, then the sum of first 13 terms is
+{'A': '53', 'B': '520', 'C': '1040', 'D': '2080'}
+ANS B
+SOL $S_{13} = \frac{13}{2}\lbrack 2a + 12d\rbrack$ $= 13 \times T_{7}$ = 520
+===== M-13-Q13 mathematics Properties of definite integration
+$\int_{- \pi/2}^{\pi/2} \sin^{10}x\left( 6x^{9} - 25x^{7} + 4x^{3} - 2x \right)$ dx equals.
+{'A': '$\\pi$', 'B': '0', 'C': '25', 'D': '2'}
+ANS B
+SOL Let f(x) = $sin^{10}$ x $(6x^9$ - $25x^7$ + $4x^3$ - 2x) $\Rightarrow$ f(-x) = $sin^{10}$ x (- $6x^9$ + $25x^7$ - $4x^3$ + 2x) = - f(x) $\Rightarrow$ f(x) is an odd function $\therefore$ $\int_{- \pi/2}^{\pi/2} \sin^{10}x\left( 6x^{9} - 25x^{7} + 4x^{3} - 2x \right)dx = 0$ $2\mathcal{l}np = \frac{2}{\pi}\int_{0}^{\pi/2} \mathcal{(l}n(tant) + \mathcal{l}n(cott)dt$ $= \frac{2}{\pi}\int_{0}^{\pi/2} \mathcal{l}n(tantcott)dt = 0$ p = 1
+===== M-26-Q22 mathematics Latus rectum
+Find the latus rectum of the conic (3x+4y-$4)^2$=4(4x-3 y+1). 'kkado (3x+4y-$4)^2$=4(4x-3 y+1)
+{'A': '$\\frac{4}{5}$', 'B': '$\\frac{8}{5}$', 'C': '$\\frac{12}{5}$', 'D': '$\\frac{16}{5}$'}
+ANS A
+SOL $\left( \frac{3x + 1y - 1}{5} \right)^{2} = \frac{4}{5}\left( \frac{4x - 3y + 1}{5} \right)$ $L \cdot R = \frac{4}{5}$
+===== M-07-Q18 mathematics Algebra of Statements
+If p: 4 is an even prime number q: 6 is a divisor of 12 r: HCF of 4 and 6 is 2, then which one of the following is true
+{'A': '$p \\land q$', 'B': '$(p \\vee q) \\land \\sim r$', 'C': '$(q \\land r) \\rightarrow p$', 'D': '$\\sim p \\vee (q \\land r)$'}
+ANS D
+SOL $\sim p \vee (q \land r) \equiv T \vee (T \land T) \equiv T$
+===== M-13-Q11 mathematics Integration by substitution
+The integral $\int_{0}^{1} \frac{\tan^{- 1}x}{1 + x}$ dx equals
+{'A': '$\\pi\\log_{e2}$', 'B': '$\\frac{\\pi}{4}\\log_{e}2$', 'C': '$\\frac{\\pi}{8}\\log_{e}2$', 'D': '$\\frac{\\pi}{2}\\log_{e}2$'}
+ANS C
+SOL Let x = $\tan\theta$ $\int_{0}^{\pi/4} \frac{\theta}{1 + tan\theta}\sec^{2}\theta d\theta = \theta\log_{e}$ $\left. \ (1 + tan\theta) \right|_{0}^{\pi/4} - \int_{0}^{\pi/4} \log_{e}(1 + tan\theta)d\theta = \frac{\pi}{4}\log_{e}2 - I$ $I = \int_{0}^{\pi/4} \log_{e}(1 + tan\theta)d\theta$ $I = \int_{0}^{\pi/4} \log_{e}\left( 1 + tan\left( \frac{\pi}{4} - \theta \right) \right)d\theta = \int_{0}^{\pi/4} \log_{e}\left( \frac{2}{1 + tan\theta} \right)d\theta$ $2I = \int_{0}^{\pi/4} \log_{e}2d\theta =
+===== M-19-Q2 mathematics Range of function
+Range of $f(x) = 4^{x} + 2^{x} + 1$ is
+{'A': '$(0,\\infty)$', 'B': '$(1,\\infty)$', 'C': '$(2,\\infty)$', 'D': '$(3,\\infty)$'}
+ANS B
+SOL $f(x) = 4^{x} + 2^{x} + 1$ Let $2^{x} = t > 0,\forall x \in R$ $\therefore$ $f(x) = g(t) = t^{2} + t + 1,t > 0$ $g(t) = \left( t + \frac{1}{2} \right)^{2} + \frac{3}{4}$ $\left( t + \frac{1}{2} \right) > \frac{1}{2} \Rightarrow$ $\left( t + \frac{1}{2} \right)^{2} > \frac{1}{4} \Rightarrow$ $\left( t + \frac{1}{2} \right)^{2} + \frac{3}{4} > 1$ Range is $(1,\infty)$
+===== M-20-Q6 mathematics Maxima and minima
+Point lies on the curve $y = e^{- x^{2}}$ and has the coordinate $(x,e^{- x^{2}})$ where x > 0. Point B has the coordinates (x, 0). If the origin, then the maximum area of the triangle AOB is
+{'A': '$\\frac{1}{\\sqrt{2e}}$', 'B': '$\\frac{1}{\\sqrt{4e}}$', 'C': '$\\frac{1}{\\sqrt{e}}$', 'D': '$\\frac{1}{\\sqrt{8e}}$'}
+ANS D
+SOL $A = \frac{1}{2} \times x \times e^{- x^{2}}$ $\frac{dA}{dx} = \frac{1}{2}\lbrack e^{- x^{2}} - 2x^{2}e^{- x^{2}}\rbrack = 0$ $\Rightarrow x^{2} = \frac{1}{2}$ $\therefore A = \frac{1}{2} \times \frac{1}{\sqrt{2}} \times e^{- \frac{1}{2}} = \frac{1}{\sqrt{8e}}$
+===== M-22-Q20 mathematics Coefficients of expansion
+If the third term in the binomial expansion of $\left( 1 + x^{\log_{2}x} \right)^{5}$ equals 2560, then a possible value of x is
+{'A': '$4\\sqrt{2}$', 'B': '$\\frac{1}{8}$', 'C': '$2\\sqrt{2}$', 'D': '$\\frac{1}{4}$'}
+ANS D
+SOL In the expansion of $\left( 1 + x^{\log_{2}x} \right)^{5}$ Third term say $T_{3} = \left( x^{\log_{2}x} \right)^{2} = 2560$ $\Rightarrow \left( x^{\log_{2}x} \right)^{2} = 256$ Taking logarithm to the base 2 on both sides $\Rightarrow 2\left( \log_{2}x \right)^{2} = 8 \Rightarrow \left( \log_{2}x \right) = \pm 2$ $\Rightarrow x = 4,\frac{1}{4}$ Here, $x = \frac{1}{4}$
+===== M-16-Q5 mathematics Cosine of compound angles
+The expression $\cos^{2}(A + B) + \cos^{2}B - 2cos(A + B)cosAcosB$ is
+{'A': 'dependent on B', 'B': 'dependent on A and B both', 'C': 'dependent on A', 'D': 'independent from A and B both'}
+ANS C
+SOL $\cos^{2}(A + B) + \cos^{2}B - 2cos(A + B)cosAcosB$ $= \cos^{2}(A + B) + \cos^{2}B - cos(A + B)\lbrack(cos(A - B) + cos(A + B)\rbrack$ $= \cos^{2}B - cos(A - B)cos(A + B)$ $= \cos^{2}B - (\cos^{2}A - \sin^{2}B) = 1 - \cos^{2}A$ Hence it is dependent on A.
+===== M-28-Q13 mathematics Area under curve
+The area (in sq. units) bounded by the parabola y = $x^2$ -1, the tangent at the point (2, 3) to it and the y axis is
+{'A': '$\\frac{56}{3}$', 'B': '$\\frac{8}{3}$', 'C': '$\\frac{32}{3}$', 'D': '$\\frac{14}{3}$'}
+ANS B
+SOL tangentat (2,3) is $\frac{y + 3}{2} = 2x - 1$ y = 4x-5 area $= \int_{- 5}^{3}  xdy - \int_{- 1}^{3}  xdy$ $= \int_{- 5}^{3} \left( \frac{y + 5}{4} \right) - \int_{- 1}^{3} \sqrt{y + 1}dy$ $= |\left. \ \frac{\frac{y^{2}}{2} + 5y}{4} \right|_{- 5}^{3} - \left| \frac{2}{3}(y + 1)^{3/2} \right|_{- 1}^{3}$ $= |\frac{\left( \frac{9}{2} + 15 \right) - \left( \frac{25}{2} - 25 \right)}{4}| = | - \frac{16}{3}| = \frac{8}{3}$
+===== M-07-Q3 mathematics Orthocentre
+Let equation of two sides of a triangle are 4x + 5y = 20 and 3x - 2y + 6 = 0. If orthocenter of triangle is (1, 1) then the equation of third side of triangle is
+{'A': '$y + 10 = \\frac{- 13}{61}\\left( x + \\frac{35}{2} \\right)$', 'B': '$y + 10 = \\frac{- 13}{61}\\left( x - \\frac{35}{2} \\right)$', 'C': '$y + 10 = \\frac{13}{61}\\left( x - \\frac{35}{2} \\right)$', 'D': '$y - 10 = \\frac{13}{61}\\left( x - \\frac{35}{2} \\right)$'}
+ANS B
+SOL 4x + 5y = 20..........(i) 3x - 2y + 6 = 0..........(ii) orthocenter (1, 1) Line $\bot$ to 4x + 5y = 20 and passes (1, 1) is 5x - 4y = 1..........(iii) and line $\bot$ to 3x - 2y + 6 = 0 and passes (1, 1) is 2x + 3y = 5..........(iv) on solving (i) & (iv) pt $\left( \frac{35}{2}, - 10 \right)$ on solving (ii) & (iii) pt $\left( - 13, - \frac{33}{2} \right)$ side BC is $y + 10 = \frac{- \frac{33}{2} + 10}{- 13 - \frac{35}{2}}\left( x + \frac{35}{2} \right)$ $\Rightarrow y - \frac{23}{2} = \frac{33
+===== M-18-Q14 mathematics Trigonometric identities
+If A + B = $\frac{\pi}{4},$  then (tan⁡A+1)(tan⁡B+1) is equal to.
+{'A': '1', 'B': '2', 'C': '$\\sqrt{3}$', 'D': '$\\frac{1}{2}$'}
+ANS B
+SOL $\frac{tanA + tanB}{1 - tanAtanB} = 1$ $\Rightarrow tanA + tanB + tanAtanB + 1 = 1 + =$ $\Rightarrow (1 + tanA)(1 + tanB) = 2$
+===== M-22-Q10 mathematics Equation of sides
+Let the equations of two sides of a triangle be 3x - 2y + 6 = 0 and 4x + 5y - 20 = 0. If the orthocentre of this triangle is at (1, 1), then the equation of its third side is
+{'A': '26x - 122y - 1675 = 0', 'B': '26x + 61y + 1675 = 0', 'C': '122y - 26x - 1675 = 0', 'D': '122y + 26x + 1675 = 0'}
+ANS A
+SOL 4x + 5y = 20..........(i) 3x - 2y + 6 = 0..........(ii) Orthocenter (1, 1) Line $$ to 4x + 5y = 20 and passes (1, 1) is 5x - 4y = 1..........(iii) and line $$to 3x - 2y + 6 = 0 and passes (1, 1) is 2x + 3y = 5..........(iv) on solving (i) & (iv) pt $\left( \frac{35}{2}, - 10 \right)$ on solving (ii) & (iii) pt $\left( - 13, - \frac{33}{2} \right)$ side BC is y + 10 = $\frac{- \frac{33}{2} + 10}{- 13 - \frac{35}{2}}\left( x - \frac{35}{2} \right)$ $\Rightarrow y + 10 = \frac{13}{61}\left( x - \
+===== M-05-Q17 mathematics Logarithmic inequality
+The solution set of the inequality $\log_{sin\left( \frac{\pi}{3} \right)}\left( x^{2} - 3x + 2 \right) \geq 2$ is
+{'A': '$\\left( \\frac{1}{2},2 \\right)$', 'B': '$\\left( 1,\\frac{5}{2} \\right)$', 'C': '$\\lbrack\\frac{1}{2},1) \\cup (2,\\frac{5}{2}\\rbrack$', 'D': '$(1,2)$'}
+ANS C
+SOL $\log_{\sin(\pi/3)}\left( x^{2} - 3x + 2 \right) \geq 2$ $\log_{\sin\left( \frac{\pi}{3} \right)}x^{2} - 3x + 2 \geq 2\log_{\sin\left( \frac{\pi}{3} \right)}\sin\left( \frac{\pi}{3} \right)$ $\because\sin\frac{\pi}{3} = \frac{\sqrt{3}}{2} < 1$ $\Rightarrow x^{2} - 3x + 2 \leq \left( \sin\left( \frac{\pi}{3} \right) \right)^{2}$ $\Rightarrow x^{2} - 3x + 2 \leq 3/4$ $\Rightarrow 4x^{2} - 12x + 5 \leq 0$ $\Rightarrow (2x - 5)(2x - 1) \leq 0$ $x \in \left\lbrack \frac{1}{2},\frac{5}{2} \right\rbrac
+===== M-27-Q6 mathematics Area
+Area of the region bounded by points (x,y) satisfying $x^2$ + $y^2$ ≤ |x| + |y| is $x^2$ + $y^2$ ≤ |x| + |y|
+{'A': '2π + 4', 'B': '$\\frac{\\pi}{2} + 1$', 'C': 'π', 'D': 'π + 2'}
+ANS D
+SOL Required area = 4[A(ΔOPB) + A(semi PCB)] A(ΔOAB) = $\frac{1}{2}$ A(semi PCB) = $\frac{\pi}{4}$ Hence = 4 $\left( \frac{1}{2} + \frac{\pi}{4} \right)$ = π + 2
+===== M-22-Q15 mathematics Integration using substitution
+Let n ≥ 2 be a natural number and $0 < \theta < \pi/2.$ Then $\int\frac{\left( \sin^{n}\theta - sin\theta \right)^{\frac{1}{n}}cos\theta}{\sin^{n + 1}\theta}d\theta$ is equal to
+{'A': '$\\frac{n}{n^{2} - 1}\\left( 1 - \\frac{1}{\\sin^{n + 1}\\theta} \\right)^{\\frac{n + 1}{n}} + C$', 'B': '$\\frac{n}{n^{2} - 1}\\left( 1 - \\frac{1}{\\sin^{n - 1}\\theta} \\right)^{\\frac{n + 1}{n}} + C$', 'C': '$\\frac{n}{n^{2} + 1}\\left( 1 - \\frac{1}{\\sin^{n - 1}\\theta} \\right)^{\\frac{n + 1}{n}} + C$', 'D': '$\\frac{n}{n^{2} - 1}\\left( 1 + \\frac{1}{\\sin^{n - 1}\\theta} \\right)^{\\frac{n + 1}{n}} + C$'}
+ANS B
+SOL $\int\frac{\left( \sin^{n}\theta - sin\theta \right)^{\frac{1}{n}}cos\theta}{\sin^{n + 1}\theta}d\theta$ $= \int\frac{\left( t^{n} - t \right)^{\frac{1}{n}}dt}{t^{n + 1}}$ (Put $sin\theta = t$) $= \int\frac{t\left( 1 - \frac{1}{t^{n - 1}} \right)^{\frac{1}{n}}}{t^{n + 1}}dt = \int\frac{\left( 1 - \frac{1}{t^{n - 1}} \right)^{\frac{1}{n}}}{t^{n}}dt$ Put $1 - \frac{1}{t^{n - 1}} = z \Rightarrow \frac{(n - 1)}{t^{n}}$ dt = dz $\Rightarrow I = \frac{1}{n - 1}\int z^{\frac{1}{n}}dz = \frac{z^{\frac{1
+===== M-27-Q3 mathematics Tangent to parabola
+If two different tangents of $y^2$ = 4x are normal chords to $x^2$ = 4by then $y^2$ = 4x
+{'A': '$|b| > \\frac{1}{2\\sqrt{2}}$', 'B': '$|b| < \\frac{1}{2\\sqrt{2}}$', 'C': '$|b| > \\frac{1}{\\sqrt{2}}$', 'D': '$|b| < \\frac{1}{\\sqrt{2}}$'}
+ANS B
+SOL Tangent to $y^2$ = 4x → y thok = mx + $\frac{1}{m}$ Normal to $x^2$ = 4by → y = mx + 2b + $\frac{b}{m^{2}}$ $\Rightarrow$ $\frac{1}{m} = 2b + \frac{b}{m^{2}}$ $\Rightarrow$ (2b) $m^2$ - m + b = 0 $\Rightarrow$ D > 0 $\Rightarrow$ $|b| < \frac{1}{2\sqrt{2}}$
+===== M-18-Q13 mathematics Complementary angles
+The value of  $\frac{tan20^{\circ}}{cot70^{\circ}}$ is equal to.
+{'A': '2', 'B': '3', 'C': '1', 'D': '(tan20°$)^2$'}
+ANS C
+SOL $\cot\left( 90^{\circ} - \theta \right) = \tan\theta$ $\therefore\frac{\tan 20^{\circ}}{\cot 70^{\circ}} = \frac{\tan 20^{\circ}}{\cot\left( 90^{\circ} - 20^{\circ} \right)}$ $= \frac{tan20^{\circ}}{tan20^{\circ}} = 1$
+===== M-27-Q5 mathematics Hyperbola
+If a variable line has intercepts of $e_1$ and $e_2on$ the co-ordinate axes, where $\frac{e_{1}}{2}\&\frac{e_{2}}{2}$are the eccentricities of a hyperbola and its conjugate, then the line always touches a fixed circle $x^2$ + $y^2$ = $r^2$, where is o ml mRdsUærk,sa $x^2$ + $y^2$ = $r^2$ djrh
+{'A': '1', 'B': '2', 'C': '3', 'D': '4'}
+ANS B
+SOL Line is js[kk $xe_{2} + ye_{1} - e_{1}e_{2} = 0$.........(i) Also rFkk $4\left( e_{1}^{2} + e_{2}^{2} \right) = e_{1}^{2}e_{2}^{2}$.........(ii)
+===== M-20-Q3 mathematics Monotonocity
+The interval on which f(x) = $2x^3$ + $9x^2$ + 12x - 1 is decreasing in
+{'A': '$( - 1,\\infty)$', 'B': '$( - 2, - 1)$', 'C': '$( - \\infty, - 2)$', 'D': '$( - 1,1)$'}
+ANS B
+SOL $f(x) = 2x^{3} + 9x^{2} + 12x - 1$ $f'(x) = 6x^{2} + 18x + 12$ For decreasing $f'(x) < 0$ $6x + 18x + 12 < 0$ $x^{2} + 3x + 2 < 0$ $(x + 1)(x + 2) < 0$ $x \in ( - 2, - 1)$
+===== M-08-Q17 mathematics Classic definition of Probability
+Let A = set of all 3 × 3 matrices having entries +1 or -1, if a matrix B from the set A is chosen randomly, then the probability that the product of the elements of any row or any column of B is -1 is
+{'A': '$\\frac{1}{32}$', 'B': '$\\frac{1}{8}$', 'C': '$\\frac{1}{16}$', 'D': '$\\frac{9}{32}$'}
+ANS A
+SOL Total = $2^9$ $\ Let\ B = \left| a_{1}\ \ \ \ a_{2}\ \ \ \ a_{3}\ b_{1}\ \ \ \ b_{2}\ \ \ \ b_{3}\ c_{1}\ \ \ \ c_{2}\ \ \ \ c_{3}\ \right|$ The first row has 4 combination $\{ 1,\ 1, - 1\},\{ - 1,\ 1,\ 1\},\{ 1, - 1,\ 1\},\{ - 1, - 1, - 1\}$. Now for each combination the rest entries can be filled in 4 ways Hence, Probability is $\frac{16}{2^{9}} = \frac{1}{32}$
+===== M-11-Q12 mathematics Permutations and Combinations
+Number of natural number's less than 7000 using digit 0, 1, 3, 7, 9 (repetition allowed) is
+{'A': '375', 'B': '275', 'C': '274', 'D': '374'}
+ANS D
+SOL Ist 2st 3st 4st position position position position There are 3 way to fill $I^st$ position (0, 1, 3) for remaining digits there are 5 ways. (0000 is not included) hence required ans = 3.5.5.5 - 1 = 375- 1 = 374
+===== M-22-Q11 mathematics Differentiation by first principle
+Let f be a differentiable function from R to R such that $|f(x) - f(y)| \leq 2|x - y|^{3/2}$, for all x, y $\in$ R. If f(0) = 1 then $\int_{0}^{1}  f^{2}$(x)dx is equal to
+{'A': '$\\frac{1}{2}$', 'B': '0', 'C': '1', 'D': '2'}
+ANS C
+SOL $|f(x) - f(y)| \leq 2|x - y|^{3/2}$ $\left| \frac{f(x) - f(y)}{x - y} \right| \leq 2|x - y|^{1/2}$ $\lim_{y \rightarrow x} \left| \frac{f(x) - f(y)}{x - y} \right| \leq \lim_{y \rightarrow x}  2|x - y|^{1/2}$ $\Rightarrow \ \left| f^{'}(x) \right| \leq 0$ $\Rightarrow$ $f^{'}(x) = 0$ $\Rightarrow f(x) = c\ as\ f(0) = 1 \Rightarrow$ $f(x) = 1$ $\Rightarrow \ \int_{0}^{1}  f^{2}(x)dx = 1$
+===== M-06-Q18 mathematics AGP series
+The sum of infinite series $\frac{1.3}{2} + \frac{3.5}{2^{2}} + \frac{5.7}{2^{3}} + \frac{7.9}{2^{4}} + \ldots...\infty$
+{'A': '21', 'B': '22', 'C': '23', 'D': '24'}
+ANS C
+SOL $S = \frac{1 \cdot 3}{2} + \frac{3 \cdot 5}{2^{2}} + \frac{5 \cdot 7}{2^{3}} + \frac{7 \cdot 9}{2^{4}} + \cdots\infty$ $\frac{3}{2} = \frac{1 \cdot 3}{2^{2}} + \frac{3 \cdot 5}{2^{3}} + \frac{5 \cdot 7}{24} + \cdots\infty$ $S - \frac{5}{2} = \frac{3}{2} + \frac{12}{2^{2}} + \frac{20}{2^{3}} + \cdots\infty$ $\Rightarrow \frac{5}{2} = \frac{3}{2} + 3 + \frac{5}{2} + \frac{7}{2^{2}} + \frac{9}{2^{3}} + \cdots \cdot \infty$ $\Rightarrow \frac{5}{4} = \frac{3}{4} + \frac{3}{2} + \frac{5}{2^{2}} + \fr
+===== M-18-Q16 mathematics Period of function
+The period of the function f(x) $= \frac{|sinx| + |cosx|}{|sinx - cosx|}$ is.
+{'A': '$\\frac{\\pi}{2}$', 'B': '$\\frac{\\pi}{4}$', 'C': '$\\pi$', 'D': '$2\\pi$'}
+ANS C
+SOL When $T = \pi/2$ then $D^{r} \rightarrow cosx + sinx \Rightarrow \pi/2$ can not be the period
+===== M-12-Q14 mathematics Integration of algebraic functions
+If c is arbitrary constant then $\int\frac{\left( x^{8} + 4 \right)dx}{x^{4} - 2x^{2} + 2} =$
+{'A': '$\\frac{x^{5}}{5} - \\frac{2x^{3}}{3} + 2x + c$', 'B': '$\\frac{x^{5}}{5} - \\frac{2x^{3}}{3} - 2x + c$', 'C': '$\\frac{x^{5}}{5} + \\frac{2x^{3}}{3} - 2x + c$', 'D': '$\\frac{x^{5}}{5} + \\frac{2x^{3}}{3} + 2x + c$'}
+ANS D
+SOL $\Rightarrow \int\frac{\left( x^{8} + 4 + 4x^{4} \right) - 4x^{4}}{x^{4} - 2x^{2} + 2}dx = \int\frac{\left( x^{8} + 2x^{2} + 2 \right)\left( x^{4} - 2x + 2 \right)}{\left( x^{4} - 2x^{2} + 2 \right)}dx = \frac{x^{5}}{5} + \frac{2x^{3}}{3} + 2x + c$
+===== M-06-Q14 mathematics Arithmetic progression
+Let 6 Arithmetic means $A_{1},A_{2},A_{3},A_{4},A_{5},A_{6}$ are inserted between two consecutive natural number a and (a > b). If $A_{1}^{2} - A_{2}^{2} + A_{3}^{2} - A_{4}^{2} + A_{5}^{2} - A_{6}^{2}$ is equal to prime number then is equal to
+{'A': '1', 'B': '2', 'C': '3', 'D': '4'}
+ANS C
+SOL $b_{1}\ A_{1},\ \ A_{2},\ \ A_{3}\ \cdots\cdots\cdots,a$ $A_{1} = b + d$ $A_{2} = b + 2d$ $\begin{matrix} \because & a = b + 1 \end{matrix}$ $\Rightarrow a - b = 1$ $\Rightarrow d = \frac{a - b}{7} = \frac{1}{7}$ $\Rightarrow A_{1} = b + \frac{1}{7}$ $A_{2} = b + \frac{2}{7}$ $\Rightarrow \ A_{1}^{2} - A_{2}^{2} + A_{3}^{2} - A_{4}^{2} + A_{5}^{2} - A_{6}^{2}$ $= \left( A_{1} + A_{2} \right)\left( A_{1} - A_{2} \right) + \left( A_{3} - A_{4} \right)\left( A_{3} + A_{4} \right) + \left( A_{5} - A
+===== M-09-Q4 mathematics Minimum and maximum values
+$\ $If minimum value of function $f(x) = \left( 1 + \alpha^{2} \right)x^{2} - 2\alpha x + 1\ is\ g(\alpha),$ then maximum value of g$(\alpha)$ will be
+{'A': '0', 'B': '1', 'C': '2', 'D': '4'}
+ANS B
+SOL $f(x) = \left( 1 + \alpha^{2} \right)x^{2} - 2\alpha x + 1$ $g(\alpha) = \frac{- D}{4a} = \frac{- \left( 4\alpha^{2} - 4\left( 1 + \alpha^{2} \right) \right)}{4\left( 1 + \alpha^{2} \right)} = \frac{1}{1 + \alpha^{2}}$ maximum of value of g( ) = 1
+===== M-16-Q6 mathematics Properties of logarithm
+$x^{(\log_{x}a \cdot \log_{a}y \cdot \log_{y}z)}$ is equal to
+{'A': 'x', 'B': 'y', 'C': 'z', 'D': 'xyz'}
+ANS C
+SOL $x^{(\log_{x}a \cdot \log_{a}y \cdot \log_{y}z)} = x^{\log_{x}z} = z$
+===== M-05-Q7 mathematics Rational inequality
+The number of positive integral values of x satisfying the inequality $\frac{\left( 3^{x} - 5^{x} \right)(x - 2)}{\left( x^{2} + 5x + 2 \right)} \geq 0$ is
+{'A': '4', 'B': '3', 'C': '2', 'D': '1'}
+ANS C
+SOL $\frac{\left( 3^{x} - 5^{x} \right)(m - 2)}{x^{2} + 5x + 2} \geq 0$ For $x > 0\;$ $3^{x} - 5^{x} < 0 \Rightarrow - ve\ $ $x + 5x + 2 > 0 \Rightarrow + ve$ $\Rightarrow x - 2 \leq 0$ $\Rightarrow x \leq 2$ $\Rightarrow x \in (0,2\rbrack$ Integer values = 1, 2
+===== M-23-Q17 mathematics Integration using substitution
+$\int_{0}^{\infty} \frac{\mathcal{l}n2x}{1 + x^{2}}$ dx is equal to
+{'A': '0', 'B': '$\\frac{\\pi}{8}\\mathcal{l}n2$', 'C': '$\\frac{\\pi}{4}\\mathcal{\\ l}n\\ 2$', 'D': '$\\frac{\\pi}{2}\\mathcal{\\ l}n\\ 2$'}
+ANS D
+SOL $I = \int_{0}^{\infty} \frac{\mathcal{l}n2x}{1 + x^{2}}dx$ $x = \tan\theta$ $dx = \sec^{2}\theta d\theta$ $I = \int_{0}^{\frac{\pi}{2}} \frac{\mathcal{l}n2tan\theta}{1 + \tan^{2}\theta}\sec^{2}\theta d\theta$ $I = \int_{0}^{\frac{\pi}{2}} \mathcal{l}n2tan\theta d\theta$.......(1) $I = \int_{0}^{\frac{\pi}{2}} \mathcal{l}n2\cot\theta d\theta$.......(2) (1) + (2) $2I = \int_{0}^{\frac{\pi}{2}} \mathcal{l}n4d\theta$ $I = \frac{\pi}{4}\mathcal{l}n4$ $I = \frac{\pi}{2}\mathcal{l}n2$
+===== M-02-Q5 mathematics Conic Sections
+The locus of the middle points of the focal chords of parabola, y2 = 8x is another parabola whose length of latus rectum is
+{'A': '1', 'B': '2', 'C': '3', 'D': '4'}
+ANS D
+SOL 2h = a ....(1) and 2k = 2a (t1 + t2)....(2) and t1t2 = - 1 from (2) k2 = a2 y2 = 2a (x - 2a) Put a = 2 Hence, y2 = 4 (x - 4). ]
+===== M-24-Q17 mathematics Inradius and circumradius
+In $\Delta$ABC with usual notation, let $\angle A = 36^{\circ},\angle B = 54^{\circ}\ $and $\angle C = 90^{\circ}$. If r is the inradius and R is the circumradius of $\Delta$; then $\left( \frac{a + b}{r + R} \right)$ is equal to.
+{'A': '1', 'B': '2', 'C': '3', 'D': '4'}
+ANS B
+SOL Use r = (s - c) $tan\frac{C}{2}$ = s - c $R = \frac{c}{2}$ ($\because$ right angle triangle) $\frac{a + b}{r + R} = \frac{a + b}{s - c + \frac{c}{2}} = \frac{a + b}{\left( \frac{a + b}{2} \right)} = 2$

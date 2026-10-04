@@ -1,0 +1,543 @@
+{
+ "M-23-Q19": {
+  "verdict": "ok",
+  "explanation": "Since $x^2-3x+4>0$ for all real $x$, the inequality becomes $x^2-mx-2>-(x^2-3x+4)$, i.e. $2x^2-(m+3)x+2>0$ for all $x$. This needs discriminant $(m+3)^2-16<0$, i.e. $-7<m<1$. The integers $-6,-5,\\dots,0$ give 7 values."
+ },
+ "M-28-Q9": {
+  "verdict": "ok",
+  "explanation": "With vertex $A(1,2)$, the other vertices are reflections of $A$ through the midpoints: $B=2(-1,1)-(1,2)=(-3,0)$ and $C=2(2,3)-(1,2)=(3,4)$. Centroid $=\\left(\\frac{1-3+3}{3},\\frac{2+0+4}{3}\\right)=\\left(\\frac13,2\\right)$."
+ },
+ "M-13-Q2": {
+  "verdict": "fix",
+  "explanation": "By Leibniz rule, $\\frac{dy}{dx}=2x\\cos^{-1}(x^4)-\\cos^{-1}(x^2)$. At $x=2^{-1/4}$: $x^4=\\frac12$, $x^2=\\frac1{\\sqrt2}$, so slope $=2\\cdot2^{-1/4}\\cdot\\frac{\\pi}{3}-\\frac{\\pi}{4}=\\left(\\frac{\\sqrt[4]{8}}{3}-\\frac14\\right)\\pi$, since $2\\cdot 2^{-1/4}=2^{3/4}=\\sqrt[4]{8}$.",
+  "stem": "The slope of the tangent to the curve $y=\\int_{x}^{x^{2}}\\cos^{-1}(t^{2})\\,dt$ at $x=\\frac{1}{\\sqrt[4]{2}}$ is",
+  "options": {
+   "A": "$\\left( \\frac{\\sqrt[4]{8}}{2} - \\frac{3}{4} \\right)\\pi$",
+   "B": "$\\left( \\frac{\\sqrt[4]{8}}{3} - \\frac{1}{4} \\right)\\pi$",
+   "C": "$\\left( \\frac{\\sqrt[5]{8}}{4} - \\frac{1}{3} \\right)\\pi$",
+   "D": "None of these"
+  }
+ },
+ "M-17-Q20": {
+  "verdict": "fix",
+  "explanation": "Write $x=[x]+\\{x\\}$: $\\{x\\}+2[x]+2\\{x\\}=[x]\\Rightarrow 3\\{x\\}=-[x]$. Since $0\\le\\{x\\}<1$, $[x]\\in\\{0,-1,-2\\}$, giving $\\{x\\}=0,\\frac13,\\frac23$ and $x=0,-\\frac23,-\\frac43$. Sum $=-2$.",
+  "stem": "The sum of all real solutions of the equation $\\{x\\}+2x=[x]$ (where $\\{\\cdot\\}$ and $[\\cdot]$ denote the fractional part function and the greatest integer function respectively) is equal to",
+  "options": {
+   "A": "0",
+   "B": "-1",
+   "C": "-2",
+   "D": "-3"
+  }
+ },
+ "M-17-Q6": {
+  "verdict": "fix",
+  "explanation": "$OA=OA$, so $R$ is reflexive; $OA=OB\\Rightarrow OB=OA$, so symmetric; $OA=OB$ and $OB=OC\\Rightarrow OA=OC$, so transitive. Hence $R$ is an equivalence relation (points are related iff they lie on the same circle centred at $O$).",
+  "stem": "A relation $R$ on the set of points of a given plane is defined by $(A,B)\\in R$ if $OA=OB$, where $O$ is a fixed point in the same plane. Then the relation $R$ is",
+  "options": {
+   "A": "reflexive but not transitive",
+   "B": "equivalence relation",
+   "C": "reflexive but not symmetric",
+   "D": "None of these"
+  }
+ },
+ "M-19-Q5": {
+  "verdict": "ok",
+  "explanation": "Numerator: $\\sqrt{x^2+1}-\\sqrt[3]{x^3+1}\\approx\\left(x+\\frac{1}{2x}\\right)-\\left(x+\\frac{1}{3x^2}\\right)\\to0$. Denominator: $\\sqrt[4]{x^4+1}-\\sqrt[5]{x^4+1}\\approx x-x^{4/5}\\to\\infty$. Hence the limit is $0$."
+ },
+ "M-09-Q1": {
+  "verdict": "fix",
+  "explanation": "We need $6-[x^2-2]>0$, i.e. $[x^2-2]\\le5$, i.e. $x^2-2<6\\Rightarrow x^2<8$. The positive integers satisfying this are $x=1,2$, so there are 2 values.",
+  "stem": "Let $f(x)=\\frac{1}{\\sqrt{6-[x^{2}-2]}}$, where $[\\cdot]$ is the greatest integer function. Then the number of positive integral values in the domain of $f(x)$ is",
+  "options": {
+   "A": "4",
+   "B": "2",
+   "C": "5",
+   "D": "6"
+  }
+ },
+ "M-11-Q20": {
+  "verdict": "fix",
+  "explanation": "The lines meet at $\\left(\\frac65,\\frac65\\right)$. Let $A=(a,0)$, $B=(0,b)$; $P$ divides $AB$ with $AP:PB=1:3$, so $P=(h,k)=\\left(\\frac{3a}{4},\\frac{b}{4}\\right)$, i.e. $a=\\frac{4h}{3}$, $b=4k$. Since $\\frac{x}{a}+\\frac{y}{b}=1$ passes through $\\left(\\frac65,\\frac65\\right)$: $\\frac65\\left(\\frac{3}{4h}+\\frac{1}{4k}\\right)=1\\Rightarrow 6(3k+h)=20hk$, i.e. $3x+9y-10xy=0$.",
+  "stem": "A variable line, drawn through the point of intersection of the straight lines $3x+2y-6=0$ and $2x+3y-6=0$, meets the x-axis and y-axis at $A$ and $B$ respectively. The locus of the point $P$ on $AB$ such that $PB:PA=3:1$ is",
+  "options": {
+   "A": "$3x+9y+10xy=0$",
+   "B": "$3x+9y-10xy=0$",
+   "C": "$3x-9y-10xy=0$",
+   "D": "$9x-9y-10xy=0$"
+  }
+ },
+ "M-28-Q15": {
+  "verdict": "ok",
+  "explanation": "With $r^2+h^2=9$, $V=\\frac13\\pi h(9-h^2)$. $\\frac{dV}{dh}=\\frac13\\pi(9-3h^2)=0\\Rightarrow h=\\sqrt3$, $r^2=6$. $V_{\\max}=\\frac13\\pi\\cdot6\\cdot\\sqrt3=2\\sqrt3\\pi$."
+ },
+ "M-01-Q3": {
+  "verdict": "ok",
+  "explanation": "For $p\\to q$ with $p$: triangles are equiangular, $q$: triangles are similar, the contrapositive is $\\sim q\\to\\sim p$: if two triangles are not similar then they are not equiangular. Option D is the inverse, not the contrapositive."
+ },
+ "M-27-Q20": {
+  "verdict": "fix",
+  "explanation": "$3a+4b+c=0$ means every such line passes through the fixed point $(3,4)$. The distance from $(1,-2)$ is maximum when the line is perpendicular to the segment joining $(3,4)$ and $(1,-2)$, whose slope is $3$. So the slope is $-\\frac13$: $y-4=-\\frac13(x-3)\\Rightarrow x+3y-15=0$.",
+  "stem": "The equation of the straight line $ax+by+c=0$, where $3a+4b+c=0$, which is at maximum distance from $(1,-2)$, is",
+  "options": {
+   "A": "$3x + y - 17 = 0$",
+   "B": "$4x + 3y - 24 = 0$",
+   "C": "$3x + 4y - 25 = 0$",
+   "D": "$x + 3y - 15 = 0$"
+  }
+ },
+ "M-25-Q7": {
+  "verdict": "ok",
+  "explanation": "Take a point $(h,3-h)$ on $x+y=3$. Its chord of contact is $hx+(3-h)y=9$, i.e. $h(x-y)+3(y-3)=0$. This passes through the intersection of $x=y$ and $y=3$, i.e. $(3,3)$, for every $h$."
+ },
+ "M-23-Q18": {
+  "verdict": "fix",
+  "explanation": "A point $P$ lies on some circle of radius 3 whose centre is on $x^2+y^2=25$ (distance 5 from $O$). So the distance $OP$ ranges from $5-3=2$ to $5+3=8$. Hence $4\\le x^2+y^2\\le64$.",
+  "stem": "The centres of a set of circles, each of radius 3, lie on the circle $x^2+y^2=25$. The locus of any point on these circles is",
+  "options": {
+   "A": "$3\\le x^2+y^2\\le9$",
+   "B": "$x^2+y^2\\ge25$",
+   "C": "$x^2+y^2\\le25$",
+   "D": "$4\\le x^2+y^2\\le64$"
+  }
+ },
+ "M-19-Q13": {
+  "verdict": "fix",
+  "explanation": "The product of $n$ G.M.'s inserted between $a$ and $b$ is $(ab)^{n/2}$. So $(2\\times162)^{n/2}=324^{n/2}=18^n=5832=18^3$, giving $n=3$.",
+  "stem": "$n$ G.M.'s are inserted between the two numbers 2 and 162. If the product of the $n$ G.M.'s is 5832, then $n$ is",
+  "options": {
+   "A": "3",
+   "B": "5",
+   "C": "4",
+   "D": "2"
+  }
+ },
+ "M-20-Q4": {
+  "verdict": "ok",
+  "explanation": "Since $\\alpha,\\beta$ satisfy $t^2=6t+2$, we get $\\alpha^{n}=6\\alpha^{n-1}+2\\alpha^{n-2}$ and similarly for $\\beta$. Subtracting, $a_n=6a_{n-1}+2a_{n-2}$. With $n=10$: $a_{10}-2a_8=6a_9$, so $\\frac{a_{10}-2a_8}{2a_9}=3$."
+ },
+ "M-26-Q19": {
+  "verdict": "fix",
+  "explanation": "Perpendicular tangents meet on the director circle of $\\frac{x^2}{5}+\\frac{y^2}{4}=1$, i.e. $x^2+y^2=9$. Put $m=3\\cos\\theta$, $n=3\\sin\\theta$: $E=12\\cos\\theta+9\\sin\\theta$, which ranges over $[-\\sqrt{144+81},\\sqrt{144+81}]=[-15,15]$.",
+  "stem": "Let $(m,n)$ be a point from which two perpendicular tangents can be drawn to the ellipse $4x^2+5y^2=20$. If $E=4m+3n$, then",
+  "options": {
+   "A": "$- 15 \\leq E \\leq 15$",
+   "B": "$E \\geq 0$",
+   "C": "$- 5 \\leq E \\leq 20$",
+   "D": "$E \\leq - 5\\sqrt{5}\\ or\\ E \\geq 5\\sqrt{5}$"
+  }
+ },
+ "P-22-Q13": {
+  "verdict": "ok",
+  "explanation": "$a=F/m=4t$, so $v=2t^2$ (starting from rest). At $t=2$ s, $v=8$ m/s. By the work-energy theorem $W=\\frac12(1)(8)^2=32$ J $=8n$, so $n=4$."
+ },
+ "P-19-Q5": {
+  "verdict": "fix",
+  "explanation": "Limit of resolution $\\theta=1.22\\frac{\\lambda}{D}$. Minimum separation on the moon $=d\\theta=\\frac{1.22\\times5893\\times10^{-10}\\times4\\times10^{8}}{5}\\approx57.5$ m $\\approx58$ m.",
+  "stem": "The aperture diameter of a telescope is 5 m. The separation between the moon and the earth is $4\\times10^{5}$ km. With light of wavelength 5893 Å, the minimum separation between objects on the surface of the moon, so that they are just resolved, is close to",
+  "options": {
+   "A": "600 m",
+   "B": "20 m",
+   "C": "200 m",
+   "D": "58 m"
+  }
+ },
+ "P-12-Q15": {
+  "verdict": "fix",
+  "explanation": "At null point the cell's emf (no current drawn, so internal resistance is irrelevant) balances 1000 cm: potential gradient $=\\frac{5}{1000}$ V/cm. Potential across the whole 1200 cm wire $=6$ V, so $R=\\frac{6}{60\\times10^{-3}}=100\\,\\Omega$.",
+  "stem": "The length of a potentiometer wire is 1200 cm and it carries a current of 60 mA. For a cell of emf 5 V and internal resistance of $20\\,\\Omega$, the null point on it is found to be at 1000 cm. The resistance of the whole wire is",
+  "options": {
+   "A": "$600\\Omega$",
+   "B": "$120\\Omega$",
+   "C": "$100\\Omega$",
+   "D": "$80\\Omega$"
+  }
+ },
+ "P-22-Q16": {
+  "verdict": "fix",
+  "explanation": "The train is a semicircular arc of radius $R$; its centre of mass is at $\\frac{2R}{\\pi}$ from the centre and moves with angular speed $\\omega=\\frac{V}{R}$. So $v_{cm}=\\frac{2R}{\\pi}\\cdot\\frac{V}{R}=\\frac{2V}{\\pi}$ and momentum $=Mv_{cm}=\\frac{2MV}{\\pi}$. It is not $MV$ because the velocities of different parts point in different directions.",
+  "stem": "A train of mass $M$ is moving on a circular track of radius $R$ with constant speed $V$. The length of the train is half of the perimeter of the track. The linear momentum of the train will be",
+  "options": {
+   "A": "Zero",
+   "B": "$\\frac{2M\\ V}{\\pi}$",
+   "C": "MVR",
+   "D": "MV"
+  }
+ },
+ "P-08-Q18": {
+  "verdict": "ok",
+  "explanation": "First law: $\\Delta Q=\\Delta U+W\\Rightarrow110=40+W\\Rightarrow W=70$ J."
+ },
+ "P-13-Q11": {
+  "verdict": "fix",
+  "explanation": "$\\frac{B^2}{2\\mu_0}$ is the magnetic energy density, i.e. energy per unit volume: $\\frac{ML^2T^{-2}}{L^3}=ML^{-1}T^{-2}$.",
+  "stem": "The dimensions of$\\frac{B^{2}}{2\\mu_{0}}$, where B is magnetic field and $\\mu_{0}$ is the magnetic permeability of vacuum, is",
+  "options": {
+   "A": "$MLT^{-2}$",
+   "B": "$ML^{-1}T^{-2}$",
+   "C": "$ML^{2}T^{-1}$",
+   "D": "$ML^{2}T^{-2}$"
+  }
+ },
+ "P-19-Q9": {
+  "verdict": "fix",
+  "explanation": "For a sphere, $E=\\frac{kQ}{R^2}$ and $V=\\frac{kQ}{R}=ER$. So $\\frac{V_1}{V_2}=\\frac{E_1R_1}{E_2R_2}=\\frac{R_1}{R_2}\\cdot\\frac{R_1}{R_2}=\\left(\\frac{R_1}{R_2}\\right)^2$.",
+  "stem": "Consider two charged metallic spheres $S_1$ and $S_2$ of radii $R_1$ and $R_2$, respectively. The electric fields $E_1$ (on $S_1$) and $E_2$ (on $S_2$) on their surfaces are such that $E_1/E_2=R_1/R_2$. Then the ratio $V_1(\\text{on }S_1)/V_2(\\text{on }S_2)$ of the electrostatic potentials on each sphere is",
+  "options": {
+   "A": "$\\left(\\frac{R_1}{R_2}\\right)^3$",
+   "B": "$\\frac{R_1}{R_2}$",
+   "C": "$\\frac{R_2}{R_1}$",
+   "D": "$\\left(\\frac{R_1}{R_2}\\right)^2$"
+  }
+ },
+ "P-19-Q12": {
+  "verdict": "fix",
+  "explanation": "Inside, $B=\\frac{\\mu_0Ir}{2\\pi a^2}$, so at $r=\\frac a3$: $B_1=\\frac{\\mu_0I}{6\\pi a}$. Outside, $B=\\frac{\\mu_0I}{2\\pi r}$, so at $2a$: $B_2=\\frac{\\mu_0I}{4\\pi a}$. Ratio $\\frac{B_1}{B_2}=\\frac46=\\frac23$.",
+  "stem": "A long, straight wire of radius $a$ carries a current distributed uniformly over its cross-section. The ratio of the magnetic fields due to the wire at distances $\\frac{a}{3}$ and $2a$, respectively, from the axis of the wire is",
+  "options": {
+   "A": "$\\frac{1}{2}$",
+   "B": "2",
+   "C": "$\\frac{3}{2}$",
+   "D": "$\\frac{2}{3}$"
+  }
+ },
+ "P-14-Q15": {
+  "verdict": "fix",
+  "explanation": "By Malus's law, $\\cos^2\\theta=0.1\\Rightarrow\\cos\\theta\\approx0.316\\Rightarrow\\theta\\approx71.6^\\circ$ between polarizer and analyzer axes. Zero intensity requires $\\theta=90^\\circ$, so the analyzer must be rotated further by $90^\\circ-71.6^\\circ=18.4^\\circ$. Option C (71.6°) is the current angle, not the extra rotation.",
+  "stem": "A polarizer-analyzer set is adjusted such that the intensity of light coming out of the analyzer is just 10% of the intensity of light incident on it from the polarizer. Assuming that the polarizer-analyzer set does not absorb any light, the angle by which the analyzer needs to be rotated further to reduce the output intensity to zero is",
+  "options": {
+   "A": "$45^\\circ$",
+   "B": "$90^\\circ$",
+   "C": "$71.6^\\circ$",
+   "D": "$18.4^\\circ$"
+  }
+ },
+ "P-20-Q10": {
+  "verdict": "fix",
+  "explanation": "Lens maker's formula with $R_1=\\infty$, $R_2=-30$ cm (the focal length does not depend on which face faces the object): $\\frac1f=(1.5-1)\\left(0+\\frac1{30}\\right)=\\frac{1}{60}$, so $f=60$ cm.",
+  "stem": "A point object in air is in front of the curved surface of a plano-convex lens. The radius of curvature of the curved surface is 30 cm and the refractive index of the lens material is 1.5. The focal length of the lens (in cm) is",
+  "options": {
+   "A": "50",
+   "B": "40",
+   "C": "60",
+   "D": "30"
+  }
+ },
+ "P-08-Q15": {
+  "verdict": "fix",
+  "explanation": "Water vs sand: $100\\times1\\times10=100\\times s_s\\times20\\Rightarrow s_s=0.5$ cal g$^{-1}$°C$^{-1}$. Liquid vs sand: $100\\times s_l\\times20=100\\times0.5\\times10\\Rightarrow s_l=0.25$ cal g$^{-1}$°C$^{-1}$ $=0.25\\times4.2=1.05$ kJ kg$^{-1}$K$^{-1}$.",
+  "stem": "The temperature of 100 g of water in a thermoflask remains fixed for a pretty long time at 50°C. An equal mass of sand at 20°C is poured into the flask and shaken for some time so that the temperature of the mixture is 40°C. Now the experiment is repeated with 100 g of a liquid at 50°C and an equal amount of sand at 20°C, when the temperature of the mixture is found to be 30°C. The specific heat of the liquid (in $\\mathrm{kJ\\,kg^{-1}\\,K^{-1}}$) is",
+  "options": {
+   "A": "1.05",
+   "B": "2.01",
+   "C": "1.55",
+   "D": "1.95"
+  }
+ },
+ "P-08-Q8": {
+  "verdict": "fix",
+  "explanation": "Isothermal bulk modulus $B=-V\\left(\\frac{dP}{dV}\\right)_T=P$. With $n=1$ mol ($32$ g of $\\mathrm{O_2}$), $T=400$ K, $V=1\\,\\mathrm{m^3}$: $P=\\frac{nRT}{V}=400R$.",
+  "stem": "32 g of $\\mathrm{O_2}$ is contained in a cubical container of side 1 m and maintained at a temperature of 127°C. The isothermal bulk modulus of elasticity of the gas in terms of the universal gas constant $R$ is",
+  "options": {
+   "A": "127 R",
+   "B": "400 R",
+   "C": "200 R",
+   "D": "560 R"
+  }
+ },
+ "P-06-Q15": {
+  "verdict": "ok",
+  "explanation": "Work required $W(d)=-\\int_0^d kx(x-\\lambda)\\,dx=k\\left(\\frac{\\lambda d^2}{2}-\\frac{d^3}{3}\\right)$. $\\frac{dW}{dd}=kd(\\lambda-d)\\ge0$ for $0\\le d\\le\\lambda$, so $W$ increases throughout and is maximum at $d=\\lambda$. Note $d=\\lambda/2$ is where the force magnitude peaks, not the work."
+ },
+ "P-17-Q12": {
+  "verdict": "fix",
+  "explanation": "Restoring torque $\\tau=-(I\\pi a^2)B\\theta$; moment of inertia about a diameter $=\\frac{ma^2}{2}$. So $\\omega^2=\\frac{2\\pi a^2IB}{ma^2}=\\frac{2\\pi IB}{m}$ and $T=\\frac{2\\pi}{\\omega}=2\\pi\\sqrt{\\frac{m}{2\\pi IB}}=\\sqrt{\\frac{2\\pi m}{IB}}$.",
+  "stem": "A small circular loop of conducting wire has radius $a$ and carries current $I$. It is placed in a uniform magnetic field $B$ perpendicular to its plane such that when rotated slightly about its diameter and released, it starts performing simple harmonic motion of time period $T$. If the mass of the loop is $m$, then",
+  "options": {
+   "A": "$T = \\sqrt{\\frac{\\pi m}{IB}}$",
+   "B": "$T = \\sqrt{\\frac{2m}{IB}}$",
+   "C": "$T = \\sqrt{\\frac{\\pi m}{2IB}}$",
+   "D": "$T = \\sqrt{\\frac{2\\pi m}{IB}}$"
+  }
+ },
+ "P-18-Q20": {
+  "verdict": "fix",
+  "explanation": "$I_z=\\frac12MR^2$. About a diameter $I=\\frac14MR^2$; the line $y=x+c$ is parallel to a diameter at distance $\\frac{|c|}{\\sqrt2}$. Parallel axes: $\\frac14MR^2+M\\frac{c^2}{2}=\\frac12MR^2\\Rightarrow c^2=\\frac{R^2}{2}\\Rightarrow c=\\pm\\frac{R}{\\sqrt2}$.",
+  "stem": "A uniform disc of radius $R$ lies in the x-y plane, with its centre at the origin. Its moment of inertia about the z-axis is equal to its moment of inertia about the line $y=x+c$. The value of $c$ will be",
+  "options": {
+   "A": "$- \\frac{R}{2}$",
+   "B": "$\\pm \\frac{R}{\\sqrt{2}}$",
+   "C": "$\\frac{+ R}{4}$",
+   "D": "$- R$"
+  }
+ },
+ "P-05-Q14": {
+  "verdict": "fix",
+  "explanation": "Let $L=c^ag^bp^x$: $[L]=[LT^{-1}]^a[LT^{-2}]^b[ML^{-1}T^{-2}]^x$. Mass: $x=0$; length: $a+b=1$; time: $-a-2b=0$. So $a=2$, $b=-1$, and $[L]=c^2/g$.",
+  "stem": "If the velocity of light $c$, the acceleration due to gravity $g$ and the atmospheric pressure $p$ are taken as the fundamental quantities, then the dimensions of length will be",
+  "options": {
+   "A": "$c^{2}/g$",
+   "B": "$c/p$",
+   "C": "$g/c$",
+   "D": "$c/g$"
+  }
+ },
+ "P-05-Q5": {
+  "verdict": "fix",
+  "explanation": "Along the incline, flight time $T=\\frac{2u\\sin(\\alpha-\\beta)}{g\\cos\\beta}$. Striking at right angles means the velocity component along the incline is zero then: $u\\cos(\\alpha-\\beta)=g\\sin\\beta\\,T$. Combining: $2\\tan(\\alpha-\\beta)=\\cot\\beta$. Then $\\tan\\alpha=\\frac{\\frac12\\cot\\beta+\\tan\\beta}{1-\\frac12}=\\cot\\beta+2\\tan\\beta$.",
+  "stem": "A particle is projected up an inclined plane of inclination $\\beta$ at an elevation $\\alpha$ to the horizontal. If the particle strikes the inclined plane at right angles then $\\tan\\alpha =$",
+  "options": {
+   "A": "$\\cot\\beta-2\\tan\\beta$",
+   "B": "$\\tan\\beta+2\\cot\\beta$",
+   "C": "$\\cot\\beta+2\\tan\\beta$",
+   "D": "$\\tan\\beta-2\\cot\\beta$"
+  }
+ },
+ "P-06-Q17": {
+  "verdict": "ok",
+  "explanation": "$\\frac{dU}{dx}=2x-4=0$ at $x=2$, so the force is zero there. $\\frac{d^2U}{dx^2}=2>0$, so $U$ is a minimum and $x=2$ is a point of stable equilibrium."
+ },
+ "P-19-Q16": {
+  "verdict": "ok",
+  "explanation": "Total resistance needed $=\\frac{V}{I_g}=\\frac{10}{10^{-3}}=10\\,\\mathrm{k\\Omega}$. Series resistance $=10000-100=9900\\,\\Omega=9.9\\,\\mathrm{k\\Omega}$. Option B ignores the coil resistance."
+ },
+ "P-05-Q8": {
+  "verdict": "fix",
+  "explanation": "To reach the exactly opposite point, the swimmer's component along the flow must cancel the current. Heading at $60^\\circ$ to the perpendicular (upstream), this component is $2\\sin60^\\circ=\\sqrt3$ km/h, so the current speed is $\\sqrt3$ km/h.",
+  "stem": "A man who can swim at the rate of $2$ km/h (in still water) crosses a river to a point exactly opposite on the other bank by swimming at an angle of 60° to the direction perpendicular to the river flow. The velocity of the water current in km/h is",
+  "options": {
+   "A": "1",
+   "B": "2",
+   "C": "$1/2$",
+   "D": "$\\sqrt{3}$"
+  }
+ },
+ "P-17-Q10": {
+  "verdict": "ok",
+  "explanation": "Light escapes only within the critical cone: $\\sin C=\\frac34$, $\\cos C=\\frac{\\sqrt7}{4}$. Fraction $=\\frac{2\\pi r^2(1-\\cos C)}{4\\pi r^2}=\\frac{1-\\cos C}{2}=\\frac{4-\\sqrt7}{8}\\approx0.17$, i.e. about 17%."
+ },
+ "P-05-Q1": {
+  "verdict": "ok",
+  "explanation": "$v=3t^2-12t+3$, $a=6t-12=0\\Rightarrow t=2$ s. Then $v=12-24+3=-9$ m/s."
+ },
+ "P-16-Q9": {
+  "verdict": "fix",
+  "explanation": "$v=\\frac{dx}{dt}=\\frac{t}{2}$, so $v=0$ at $t=0$ and $v=1$ m/s at $t=2$ s. Work done $=\\Delta K=\\frac12\\times6\\times1^2=3$ J.",
+  "stem": "A body of mass 6 kg is acted upon by a force which causes a displacement in it given by $x=\\frac{t^{2}}{4}$ metre, where $t$ is the time in seconds. The work done by the force in 2 seconds is",
+  "options": {
+   "A": "12 J",
+   "B": "9 J",
+   "C": "6 J",
+   "D": "3 J"
+  }
+ },
+ "P-12-Q12": {
+  "verdict": "fix",
+  "explanation": "$C_1+C_2=10\\,\\mu F$ and, at the same voltage, $U\\propto C$, so $C_2=4C_1$. Thus $C_1=2\\,\\mu F$, $C_2=8\\,\\mu F$. In series: $C=\\frac{2\\times8}{10}=1.6\\,\\mu F$.",
+  "stem": "The effective capacitance of a parallel combination of two capacitors $C_1$ and $C_2$ is $10\\,\\mu F$. When these capacitors are individually connected to a voltage source of 1 V, the energy stored in the capacitor $C_2$ is 4 times that of $C_1$. If these capacitors are connected in series, their effective capacitance will be",
+  "options": {
+   "A": "$4.2\\mu F$",
+   "B": "$8.4\\mu F$",
+   "C": "$3.2\\mu F$",
+   "D": "$1.6\\mu F$"
+  }
+ },
+ "P-16-Q13": {
+  "verdict": "ok",
+  "explanation": "Initial COM height $=\\frac{2\\times30+4\\times0}{6}=10$ m; initial COM velocity $=\\frac{2\\times0+4\\times15}{6}=10$ m/s upward; COM acceleration $=g$ downward. Extra rise $=\\frac{10^2}{2\\times10}=5$ m (reached at $t=1$ s, before either body hits the ground or collides), so maximum height $=15$ m."
+ },
+ "P-19-Q18": {
+  "verdict": "fix",
+  "explanation": "Phase difference $\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\cdot\\frac{\\lambda}{8}=\\frac{\\pi}{4}$. $\\frac{I}{I_0}=\\cos^2\\frac{\\Delta\\phi}{2}=\\cos^2\\frac{\\pi}{8}\\approx0.853$.",
+  "stem": "In a double-slit experiment, at a certain point on the screen the path difference between the two interfering waves is $\\frac{1}{8}$th of a wavelength. The ratio of the intensity of light at that point to that at the centre of a bright fringe is",
+  "options": {
+   "A": "0.568",
+   "B": "0.760",
+   "C": "0.853",
+   "D": "0.672"
+  }
+ },
+ "P-13-Q15": {
+  "verdict": "fix",
+  "explanation": "Demagnetization requires $H=nI$ equal to the coercivity, with $n=\\frac{100}{0.1}=1000$ turns/m. So $I=\\frac{3\\times10^3}{1000}=3$ A.",
+  "stem": "The coercivity of a small magnet where the ferromagnet gets demagnetized is $3\\times10^{3}\\ \\mathrm{A\\,m^{-1}}$. The current required to be passed in a solenoid of length 10 cm and number of turns 100, so that the magnet gets demagnetized when inside the solenoid, is",
+  "options": {
+   "A": "30 mA",
+   "B": "60 mA",
+   "C": "3 A",
+   "D": "6 A"
+  }
+ },
+ "P-01-Q14": {
+  "verdict": "fix",
+  "explanation": "$L=I\\omega=\\frac25MR^2\\omega$ with $M=6\\times10^{24}$ kg, $R=6.4\\times10^6$ m, $\\omega=\\frac{2\\pi}{86400}\\approx7.3\\times10^{-5}$ rad/s. $L\\approx0.4\\times6\\times10^{24}\\times4.1\\times10^{13}\\times7.3\\times10^{-5}\\approx7\\times10^{33}$, of the order of $10^{34}$ kg m$^2$s$^{-1}$.",
+  "stem": "Which one of the following choices is closest to the order of the angular momentum of the Earth (expressed in base MKS units) associated with its rotation about its axis ?",
+  "options": {
+   "A": "$10^{38}$",
+   "B": "$10^{34}$",
+   "C": "$10^{30}$",
+   "D": "$10^{22}$"
+  }
+ },
+ "P-23-Q3": {
+  "verdict": "fix",
+  "explanation": "Energy conservation: $\\frac12v^2-\\frac{GM}{R}=\\frac12u^2-\\frac{GM}{10R}\\Rightarrow v^2=u^2+\\frac{9}{10}\\cdot\\frac{2GM}{R}=u^2+0.9v_e^2$. So $v^2=144+0.9\\times(11.2)^2\\approx256.9$, giving $v\\approx16$ km/s.",
+  "stem": "An asteroid is moving directly towards the centre of the earth. When at a distance of $10R$ ($R$ is the radius of the earth) from the earth's centre, it has a speed of 12 km/s. Neglecting the effect of the earth's atmosphere, what will be the speed of the asteroid (in km/s) when it hits the surface of the earth? (Escape velocity from the earth is 11.2 km/s.)",
+  "options": {
+   "A": "14",
+   "B": "12",
+   "C": "16",
+   "D": "18"
+  }
+ },
+ "P-08-Q10": {
+  "verdict": "fix",
+  "explanation": "For an ideal gas $U\\propto T$ (since $U=0$ at $T=0$). In a reversible adiabatic process $TV^{\\gamma-1}=$ constant, so $UV^{\\gamma-1}=$ constant. Raising to the power $\\frac{1}{\\gamma-1}$: $VU^{\\frac{1}{\\gamma-1}}=$ constant.",
+  "stem": "An ideal gas, whose internal energy $U$ is zero at absolute zero temperature, undergoes a reversible adiabatic compression. If $U$, $P$, $V$, $T$ represent the internal energy, pressure, volume and absolute temperature of the gas respectively, and $\\gamma=\\frac{C_P}{C_V}$, then",
+  "options": {
+   "A": "$UV^{\\gamma}=$ constant",
+   "B": "$UP^{\\gamma}=$ constant",
+   "C": "$TU^{\\gamma-1}=$ constant",
+   "D": "$VU^{\\frac{1}{\\gamma-1}}=$ constant"
+  }
+ },
+ "P-01-Q12": {
+  "verdict": "ok",
+  "explanation": "Case 1: $\\vec F=q\\vec v\\times\\vec B$ with $\\vec v$ north and $\\vec F$ up requires $\\vec B$ pointing west above the wire, so the current flows south. Case 2: east of a southward current, $\\vec B$ points vertically up. With $\\vec v$ westward (towards the wire), $\\vec F=q(-\\hat i)\\times\\hat k=q\\hat j$, i.e. north."
+ },
+ "P-05-Q11": {
+  "verdict": "ok",
+  "explanation": "Displacement $=\\int_0^2(4t-3t^2)\\,dt=[2t^2-t^3]_0^2=8-8=0$. Average velocity $=\\frac{0}{2}=0$. (Average speed would be nonzero since the particle reverses at $t=\\frac43$ s.)"
+ },
+ "P-08-Q1": {
+  "verdict": "fix",
+  "explanation": "With $T\\propto PV$: $TV^{3/2}=$ const $\\Rightarrow PV^{5/2}=$ const, a polytropic process with $x=\\frac52$. $C=C_V+\\frac{R}{1-x}=\\frac32R-\\frac23R=\\frac{5R}{6}$.",
+  "stem": "A monoatomic ideal gas follows the process $TV^{3/2}=$ constant. The molar specific heat for this process is ($R$ = gas constant)",
+  "options": {
+   "A": "$\\frac{5R}{2}$",
+   "B": "$\\frac{5R}{6}$",
+   "C": "$\\frac{3R}{2}$",
+   "D": "R"
+  }
+ },
+ "P-02-Q42": {
+  "verdict": "ok",
+  "explanation": "Initially the second fork is $256\\pm6$ Hz. Waxing lowers fork 1's frequency and the beats fall to 4, so fork 2 must be 250 Hz (not 262) and waxed fork 1 is 254 or 246 Hz. Removing some wax raises its frequency to give 0 beats, i.e. 250 Hz, which is possible only from 246 Hz (from 254 Hz it would move away from 250)."
+ },
+ "P-06-Q4": {
+  "verdict": "ok",
+  "explanation": "$d\\vec s=4t\\,dt\\,\\hat i$ (the $\\hat j$ part is constant). $W=\\int_0^2(3t)(4t)\\,dt=\\int_0^2 12t^2\\,dt=4t^3\\big|_0^2=32$ J."
+ },
+ "P-06-Q19": {
+  "verdict": "ok",
+  "explanation": "The whole rope accelerates at $a=\\frac{F}{m}$. The 4 m beyond the point (mass $\\frac45m$) is pulled only by the tension: $T=\\frac45m\\cdot\\frac{F}{m}=\\frac45\\times5=4$ N."
+ },
+ "P-06-Q10": {
+  "verdict": "ok",
+  "explanation": "$s=\\frac12at^2$, so with the same distance and twice the time, $a_{\\text{friction}}=\\frac{a_0}{4}$: $g(\\sin\\theta-\\mu\\cos\\theta)=\\frac{g\\sin\\theta}{4}\\Rightarrow\\mu=\\frac34\\tan\\theta=0.75$ at $45^\\circ$."
+ },
+ "P-13-Q8": {
+  "verdict": "fix",
+  "explanation": "Magnetic field lines form closed loops (zero net flux through any closed surface). Every field line passing through the coil area returns through the rest of the infinite plane in the opposite direction, so $\\phi_i=-\\phi_0$.",
+  "stem": "Consider a circular coil of wire carrying constant current $I$, forming a magnetic dipole. The magnetic flux through an infinite plane that contains the circular coil, excluding the circular coil area, is $\\phi_i$. The magnetic flux through the area of the circular coil is $\\phi_0$. Which of the following options is correct?",
+  "options": {
+   "A": "$\\phi_i>\\phi_0$",
+   "B": "$\\phi_i<\\phi_0$",
+   "C": "$\\phi_i=-\\phi_0$",
+   "D": "$\\phi_i=\\phi_0$"
+  }
+ },
+ "P-05-Q12": {
+  "verdict": "fix",
+  "explanation": "Relative position of B w.r.t. A: $(d-vt,\\,-2vt)$, so $R^2=(d-vt)^2+4v^2t^2$. $\\frac{d(R^2)}{dt}=-2v(d-vt)+8v^2t=0\\Rightarrow T_0=\\frac{d}{5v}$. Then $R_{\\min}^2=\\frac{16d^2}{25}+\\frac{4d^2}{25}\\Rightarrow R_{\\min}=\\frac{2d}{\\sqrt5}$, so B is wrong; $R(t)$ is neither a line nor a circle.",
+  "stem": "Initially two particles A and B are at $(0,0)$ and $(d,0)$ respectively. They start moving with velocities $\\vec v_A=v\\hat i+v\\hat j$ and $\\vec v_B=-v\\hat j$. If $R$ is the separation between them and $T_0$ is the time when the separation between them is minimum, then",
+  "options": {
+   "A": "$T_{0} = \\frac{d}{5v}$",
+   "B": "$R_{\\min} = \\frac{d}{\\sqrt{5}}$",
+   "C": "Graph of R vs time is straight line",
+   "D": "Graph of R vs time is Circle"
+  }
+ },
+ "P-12-Q4": {
+  "verdict": "drop",
+  "reason": "Refers to a figure/circuit (switch S1, plates) not provided; stem incomplete."
+ },
+ "P-05-Q16": {
+  "verdict": "fix",
+  "explanation": "$\\frac{\\Delta A}{A}=2\\frac{\\Delta a}{a}+3\\frac{\\Delta b}{b}+\\frac{\\Delta c}{c}+\\frac12\\frac{\\Delta d}{d}=2(1)+3(3)+2+\\frac12(2)=14\\%$.",
+  "stem": "A physical quantity $A$ is related to four observations $a$, $b$, $c$ and $d$ as follows: $A=\\frac{a^{2}b^{3}}{c\\sqrt{d}}$. The percentage errors of measurement in $a$, $b$, $c$ and $d$ are 1%, 3%, 2% and 2% respectively. What is the percentage error in the quantity $A$?",
+  "options": {
+   "A": "12%",
+   "B": "7%",
+   "C": "5%",
+   "D": "14%"
+  }
+ },
+ "P-05-Q10": {
+  "verdict": "fix",
+  "explanation": "$\\frac{dv}{dt}=-av^2\\Rightarrow\\frac1v=\\frac1u+at\\Rightarrow v=\\frac{u}{1+aut}$. Then $s=\\int_0^t\\frac{u\\,dt}{1+aut}=\\frac1a\\ln(1+aut)$.",
+  "stem": "A point moves in a straight line under the retardation $av^2$, where $a$ is a positive constant and $v$ is the speed. If the initial speed is $u$, the distance covered in $t$ seconds is",
+  "options": {
+   "A": "$aut$",
+   "B": "$\\frac{1}{a}\\ln(aut)$",
+   "C": "$\\frac{1}{a}\\ln(1+aut)$",
+   "D": "$a\\ln(aut)$"
+  }
+ },
+ "P-18-Q1": {
+  "verdict": "fix",
+  "explanation": "Dragging up the plane needs $F_1=W\\sin\\theta+\\mu W\\cos\\theta$; lifting needs $W$. $F_1<W\\Rightarrow\\mu<\\frac{1-\\sin\\theta}{\\cos\\theta}=\\frac{\\cos\\frac\\theta2-\\sin\\frac\\theta2}{\\cos\\frac\\theta2+\\sin\\frac\\theta2}=\\tan\\left(\\frac\\pi4-\\frac\\theta2\\right)$.",
+  "stem": "A weight $W$ is to be moved from the bottom to the top of an inclined plane of inclination $\\theta$ to the horizontal. If a smaller force is to be applied to drag it along the plane in comparison to lifting it vertically up, the coefficient of friction should be such that",
+  "options": {
+   "A": "$\\mu > tan(\\frac{\\pi}{4} - \\frac{\\theta}{2})$",
+   "B": "$\\mu < tan(\\frac{\\pi}{4} - \\frac{\\theta}{2})$",
+   "C": "$\\mu < tan\\theta$",
+   "D": "$\\mu > tan\\frac{\\pi}{4}$"
+  }
+ },
+ "P-18-Q2": {
+  "verdict": "ok",
+  "explanation": "Only the tangential force does work, so power $=\\frac{dK}{dt}=6t$. At $t=1$ s, $P=6$ W. (Equivalently $v=\\sqrt3t$, $a_t=\\sqrt3$, $P=ma_tv=6$ W.)"
+ },
+ "P-06-Q16": {
+  "verdict": "ok",
+  "explanation": "$v=\\frac{dx}{dt}=t^2$, so $v(0)=0$ and $v(2)=4$ m/s. By the work-energy theorem, $W=\\frac12\\times2\\times4^2=16$ J."
+ },
+ "P-08-Q2": {
+  "verdict": "ok",
+  "explanation": "$v_{rms}=\\sqrt2\\,v_s\\Rightarrow\\frac{3RT}{M}=2\\frac{\\gamma RT}{M}\\Rightarrow\\gamma_{mix}=\\frac32$. $\\gamma_{mix}=\\frac{2\\cdot\\frac72R+n\\cdot\\frac52R}{2\\cdot\\frac52R+n\\cdot\\frac32R}=\\frac{14+5n}{10+3n}=\\frac32\\Rightarrow28+10n=30+9n\\Rightarrow n=2$."
+ },
+ "P-17-Q7": {
+  "verdict": "fix",
+  "explanation": "The same screen width holds $15\\beta_1=10\\beta_2$ with $\\beta\\propto\\lambda$: $15\\times500=10\\lambda\\Rightarrow\\lambda=750$ nm.",
+  "stem": "In a Young's double slit experiment, 15 fringes are observed on a small portion of the screen when light of wavelength 500 nm is used. Ten fringes are observed on the same section of the screen when another light source of wavelength $\\lambda$ is used. Then the value of $\\lambda$ is",
+  "options": {
+   "A": "850 nm",
+   "B": "650 nm",
+   "C": "750 nm",
+   "D": "550 nm"
+  }
+ },
+ "P-07-Q9": {
+  "verdict": "fix",
+  "explanation": "The stick rotates about the fixed bottom end. Energy: $mg\\frac{l}{2}=\\frac12\\cdot\\frac{ml^2}{3}\\omega^2\\Rightarrow\\omega=\\sqrt{\\frac{3g}{l}}$. Speed of the top end $=\\omega l=\\sqrt{3gl}=\\sqrt{3g}$ for $l=1$ m (SI units).",
+  "stem": "A uniform metre stick is held vertically with one end on the floor and is allowed to fall. Assuming that the end on the floor does not slip, the speed of the other end when it hits the floor is (in SI units)",
+  "options": {
+   "A": "$\\sqrt{4g}$",
+   "B": "$\\sqrt{3g}$",
+   "C": "$\\sqrt{5g}$",
+   "D": "$\\sqrt{g}$"
+  }
+ },
+ "P-22-Q19": {
+  "verdict": "ok",
+  "explanation": "Velocity $v=7-2t$ becomes zero at $t=3.5$ s, so the particle turns back during the 4th second. From $t=3$ to $3.5$ s it moves $\\frac12(2)(0.5)^2=0.25$ m, and from $3.5$ to $4$ s it returns $0.25$ m. Distance $=0.5$ m $=\\frac{x}{10}$, so $x=5$. (The displacement in that second is zero.)"
+ },
+ "P-24-Q9": {
+  "verdict": "ok",
+  "explanation": "The weight is unchanged and the cylinder does not expand, so $\\rho_0\\cdot A\\cdot80=\\rho_4\\cdot A\\cdot79$ (submerged lengths in cm). $\\frac{\\rho_4}{\\rho_0}=\\frac{80}{79}\\approx1.01$."
+ },
+ "P-24-Q10": {
+  "verdict": "ok",
+  "explanation": "Continuity: $vA=$ constant, so $v\\propto\\frac1{d^2}$. Minimum velocity is at maximum diameter: $\\frac{v_{\\min}}{v_{\\max}}=\\left(\\frac{4.8}{6.4}\\right)^2=\\left(\\frac34\\right)^2=\\frac{9}{16}$."
+ }
+}

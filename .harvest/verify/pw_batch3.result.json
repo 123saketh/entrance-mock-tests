@@ -1,0 +1,271 @@
+{
+ "JEE Main 2025 Jan #158": {
+  "verdict": "ok",
+  "explanation": "Powers of $i$ cycle with period 4, so only $k_1, k_2 \\bmod 4$ matter (16 equally likely pairs). $i^{k_1}+i^{k_2}=0$ iff $i^{k_2}=-i^{k_1}$, i.e. $k_2\\equiv k_1+2 \\pmod 4$: 4 pairs. So $P(\\text{non-zero})=1-\\frac{4}{16}=\\frac34$."
+ },
+ "JEE Main 2025 Jan #162": {
+  "verdict": "fix",
+  "explanation": "$x^2+1\\le 2|x|+1$ iff $|x|\\le 2$. By symmetry, area $=2\\left[\\int_0^2 (x^2+1)\\,dx+\\int_2^3 (2x+1)\\,dx\\right]=2\\left[\\frac{14}{3}+6\\right]=\\frac{64}{3}$. Trap: using the parabola on all of $[0,3]$.",
+  "options": {
+   "A": "$\\frac{80}{3}$",
+   "B": "$\\frac{64}{3}$",
+   "C": "$\\frac{32}{3}$",
+   "D": "$\\frac{17}{3}$"
+  }
+ },
+ "JEE Main 2025 Jan #163": {
+  "verdict": "ok",
+  "explanation": "For $x\\ge\\frac32$: $x^2+2x-7=0\\Rightarrow x=-1+2\\sqrt2$. For $x<\\frac32$: $x^2-2x-1=0\\Rightarrow x=1-\\sqrt2$ (reject $1+\\sqrt2>\\frac32$). Sum of squares $=(9-4\\sqrt2)+(3-2\\sqrt2)=12-6\\sqrt2=6(2-\\sqrt2)$. Trap: forgetting to check each root against its case."
+ },
+ "JEE Main 2025 Jan #164": {
+  "verdict": "ok",
+  "explanation": "$\\sum_{1}^{25}T_r=\\frac{25}{2}(T_1+T_{25})=\\frac{13}{20}\\Rightarrow T_1=\\frac{1}{500}$, and $d=\\frac{1}{500}$, so $T_r=\\frac{r}{500}$. $T_m=\\frac{1}{25}\\Rightarrow m=20$. Then $5m\\sum_{20}^{40}T_r=100\\cdot\\frac{630}{500}=126$."
+ },
+ "JEE Main 2025 Jan #165": {
+  "verdict": "ok",
+  "explanation": "$X\\in\\{0,1,2\\}$ with $P=\\frac{21}{45},\\frac{21}{45},\\frac{3}{45}$. $E[X]=\\frac{27}{45}=\\frac35$, $E[X^2]=\\frac{33}{45}=\\frac{11}{15}$. $\\mathrm{Var}=\\frac{11}{15}-\\frac{9}{25}=\\frac{28}{75}$. Trap: using the binomial variance $2(0.3)(0.7)$ (drawing is without replacement)."
+ },
+ "JEE Main 2025 Jan #167": {
+  "verdict": "fix",
+  "explanation": "With $f(x)=\\frac{96x^2\\cos^2x}{1+e^x}$, $\\int_{-a}^{a}f=\\int_0^a[f(x)+f(-x)]dx=\\int_0^{\\pi/2}96x^2\\cos^2x\\,dx=48\\int_0^{\\pi/2}x^2(1+\\cos2x)\\,dx=48\\left(\\frac{\\pi^3}{24}-\\frac{\\pi}{4}\\right)=\\pi(2\\pi^2-12)$. So $\\alpha+\\beta=-10$, $(\\alpha+\\beta)^2=100$.",
+  "stem": "If $\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{96 x^2 \\cos^2 x}{1+e^x} \\, dx = \\pi (\\alpha \\pi^2 + \\beta)$, $\\alpha, \\beta \\in \\mathbb{Z}$, then $(\\alpha + \\beta)^2$ equals"
+ },
+ "JEE Main 2025 Jan #168": {
+  "verdict": "ok",
+  "explanation": "Characteristic equation $2t^2-5t+3=0$ gives $t=1,\\frac32$, so $a_n=A+B(\\frac32)^n$; $a_0=0,a_1=\\frac12$ give $a_n=(\\frac32)^n-1$. Then $\\sum_{1}^{100}a_k=3\\left[(\\frac32)^{100}-1\\right]-100=3a_{100}-100$."
+ },
+ "JEE Main 2025 Jan #169": {
+  "verdict": "ok",
+  "explanation": "First digit $f\\in\\{5,6,7\\}$, last digit $l$ with $f+l\\le8$: $f=5$: 4 choices, $f=6$: 3, $f=7$: 2, total 9; middle three digits $8^3=512$ ways. $9\\times512=4608$, but $50000$ itself is not greater than $50000$, so answer $4607$. Trap: forgetting to exclude 50000."
+ },
+ "JEE Main 2025 Jan #170": {
+  "verdict": "ok",
+  "explanation": "$x+y$ even iff $x,y$ have the same parity. $x+x=2x$ is even (reflexive); symmetric trivially; if $x,y$ and $y,z$ share parity then so do $x,z$ (transitive). Hence an equivalence relation (two classes: evens and odds)."
+ },
+ "JEE Main 2025 Jan #176": {
+  "verdict": "ok",
+  "explanation": "Let $b$ boys, $g$ girls come from A ($b+g=5$, $g\\le3$) and $4-b$, $4-g$ from B. Cases: $(b,g)=(4,1)$: $35\\cdot3\\cdot1\\cdot10=1050$; $(3,2)$: $35\\cdot3\\cdot6\\cdot10=6300$; $(2,3)$: $21\\cdot1\\cdot15\\cdot5=1575$. Total $8925$."
+ },
+ "JEE Main 2025 Jan #177": {
+  "verdict": "ok",
+  "explanation": "Infinitely many solutions need $\\Delta=\\Delta_x=\\Delta_y=\\Delta_z=0$. Solving $\\Delta=0$ and $\\Delta_x=0$ gives $(\\lambda,\\mu)=(-1,13)$ or $(-\\frac{10}{3},-\\frac92)$; only $(-1,13)$ also makes $\\Delta_y=\\Delta_z=0$. So $\\lambda+\\mu=12$. Trap: not checking all determinants."
+ },
+ "JEE Main 2025 Jan #178": {
+  "verdict": "ok",
+  "explanation": "A: $\\log_{2/\\pi}\\left|\\frac{\\sin2x}{2}\\right|=2\\Rightarrow|\\sin2x|=\\frac{8}{\\pi^2}<1$, giving 4 solutions in $(0,\\pi)$. B: with $t=\\sqrt x$, $t\\ge2$: $t^2-7t+12=0\\Rightarrow t=3,4$; $t<2$: $t^2-t=0\\Rightarrow t=0,1$. So $B=\\{0,1,9,16\\}$. Sets are disjoint, so $n(A\\cup B)=8$."
+ },
+ "JEE Main 2025 Jan #179": {
+  "verdict": "ok",
+  "explanation": "For $x>0$, $e^x>e^x-1$ always (unbounded). For $x<0$, $e^x=1-e^x$ at $x=-\\ln2$. Bounded region: $\\int_{-\\ln2}^0(e^x-(1-e^x))\\,dx=[2e^x-x]_{-\\ln2}^0=2-1-\\ln2=1-\\ln2$."
+ },
+ "JEE Main 2025 Jan #180": {
+  "verdict": "ok",
+  "explanation": "Chord with midpoint $(x_1,y_1)$: $T=S_1$, i.e. $\\frac{3x}{25}+\\frac{y}{16}=\\frac{9}{25}+\\frac{1}{16}$. Multiplying by 400: $48x+25y=169$."
+ },
+ "JEE Main 2025 Jan #182": {
+  "verdict": "ok",
+  "explanation": "$f'-\\frac2xf=\\frac{3}{x^2}$; integrating factor $\\frac1{x^2}$: $\\left(\\frac{f}{x^2}\\right)'=\\frac3{x^4}\\Rightarrow\\frac f{x^2}=-\\frac1{x^3}+C$. $f(1)=4\\Rightarrow C=5$. $f(2)=4(5-\\frac18)=\\frac{39}{2}$, so $2f(2)=39$."
+ },
+ "JEE Main 2025 Jan #183": {
+  "verdict": "fix",
+  "explanation": "$7=5\\sum_{k\\ge0}\\frac{1}{7^k}+\\alpha\\sum_{k\\ge1}\\frac{k}{7^k}=5\\cdot\\frac76+\\alpha\\cdot\\frac{1/7}{(6/7)^2}=\\frac{35}{6}+\\frac{7\\alpha}{36}$. So $\\frac{7\\alpha}{36}=\\frac76\\Rightarrow\\alpha=6$ (an AGP).",
+  "stem": "If $7 = 5 + \\frac{1}{7} (5 + \\alpha) + \\frac{1}{7^2} (5 + 2\\alpha) + \\frac{1}{7^3} (5 + 3\\alpha) + \\cdots \\infty$, then the value of $\\alpha$ is:"
+ },
+ "JEE Main 2025 Jan #184": {
+  "verdict": "ok",
+  "explanation": "$[x]$ jumps at $x=-1,0,1,2$ in $(-2,3)$ while $|x-2|$ is continuous, so $m=4$. Non-differentiable at these 4 points (discontinuous) and at $x=2$ (corner, already counted), so $n=4$. $m+n=8$."
+ },
+ "JEE Main 2025 Jan #185": {
+  "verdict": "ok",
+  "explanation": "There are $2^4=16$ matrices. $\\det=ad-bc\\ne0$ needs exactly one of $ad,bc$ equal to 1: $ad=1,bc=0$: 3 ways; $bc=1,ad=0$: 3 ways. $P(E)=\\frac{6}{16}=\\frac38$."
+ },
+ "JEE Main 2025 Jan #186": {
+  "verdict": "fix",
+  "explanation": "Centroid $G=\\frac{\\vec p+\\vec q+\\vec r}{3}$. Since $G=\\frac{H+2O}{3}$, $O=\\frac{3G-H}{2}=\\frac12\\left(1-\\frac14\\right)(\\vec p+\\vec q+\\vec r)=\\frac38(\\vec p+\\vec q+\\vec r)$. So $\\alpha+2\\beta+5\\gamma=\\frac38\\cdot8=3$.",
+  "stem": "Let the position vectors of three vertices of a triangle be $4 \\vec{p} + \\vec{q} - 3 \\vec{r}$, $-5 \\vec{p} + \\vec{q} + 2 \\vec{r}$, and $2 \\vec{p} - \\vec{q} + 2 \\vec{r}$. If the position vectors of the orthocenter and the circumcenter of the triangle are $\\frac{\\vec{p} + \\vec{q} + \\vec{r}}{4}$ and $\\alpha \\vec{p} + \\beta \\vec{q} + \\gamma \\vec{r}$ respectively, then $\\alpha + 2 \\beta + 5 \\gamma$ is equal to:"
+ },
+ "JEE Main 2025 Jan #187": {
+  "verdict": "ok",
+  "explanation": "$\\vec b=\\vec a\\times(\\hat i-2\\hat k)=2\\hat i+8\\hat j+\\hat k$, $\\vec c=\\vec b\\times\\hat k=8\\hat i-2\\hat j$. $\\vec c-2\\hat j=8\\hat i-4\\hat j$. Projection on $\\vec a$: $\\frac{24+4}{\\sqrt{14}}=\\frac{28}{\\sqrt{14}}=2\\sqrt{14}$."
+ },
+ "JEE Main 2025 Jan #189": {
+  "verdict": "ok",
+  "explanation": "$f(x)=\\frac{4^x-1}{4^x+1}=\\tanh(x\\ln2)$ is strictly increasing, hence one-one, with range $(-1,1)\\ne(-\\infty,1)$, so not onto."
+ },
+ "JEE Main 2025 Jan #190": {
+  "verdict": "ok",
+  "explanation": "$S_{40}=20(2a+39d)=1030$, $S_{12}=6(2a+11d)=57$ give $d=\\frac32$, $a=-\\frac72$. $S_{30}-S_{10}=15(2a+29d)-5(2a+9d)=547.5-32.5=515$."
+ },
+ "JEE Main 2025 Jan #191": {
+  "verdict": "ok",
+  "explanation": "$A=\\binom{2n-1}{29}$, $B=\\binom{2n-1}{11}$. For $n=21$: $\\binom{41}{29}=\\binom{41}{12}$ and $\\frac{\\binom{41}{12}}{\\binom{41}{11}}=\\frac{30}{12}=\\frac52$, so $2A=5B$ holds. Trap: the $r$th term has coefficient $\\binom{N}{r-1}$, not $\\binom{N}{r}$."
+ },
+ "JEE Main 2025 Jan #192": {
+  "verdict": "ok",
+  "explanation": "$f'(x)=\\frac{2}{x-2}-2x+a$; largest increasing interval ending at 3 means $f'(3)=0\\Rightarrow a=4$. Then $g=(x-1)^3(x-2)^2$, $g'=(x-1)^2(x-2)(5x-8)<0$ on $(\\frac85,2)$. $100(4+1.6-2)=360$."
+ },
+ "JEE Main 2025 Jan #193": {
+  "verdict": "ok",
+  "explanation": "With $s=\\frac{\\sin x}{x}$, the matrix is $sI+$ (rank-one matrix with each row $(a,1,b)$), so $f=s^2(s+a+1+b)$. As $x\\to0$, $s\\to1$: limit $=2+a+b$. $\\lambda=2,\\mu=\\nu=1$, $(\\lambda+\\mu+\\nu)^2=16$."
+ },
+ "JEE Main 2025 Jan #194": {
+  "verdict": "ok",
+  "explanation": "Foot of perpendicular from $V$ to $x+2y=0$ is $(0,0)$, so focus $S=2V-(0,0)=(3,6)$. Parabola: $(x-3)^2+(y-6)^2=\\frac{(x+2y)^2}{5}$, i.e. $4x^2+y^2-4xy-30x-60y+225=0$. $\\alpha+\\beta+\\gamma=4+1+4=9$."
+ },
+ "JEE Main 2025 Jan #195": {
+  "verdict": "fix",
+  "explanation": "$\\beta+\\frac{1+\\beta^2}{\\alpha-\\beta}=\\frac{1+\\alpha\\beta}{\\alpha-\\beta}$, so the first term is $\\tan^{-1}\\alpha-\\tan^{-1}\\beta$; similarly the second is $\\tan^{-1}\\beta-\\tan^{-1}\\gamma$. The third argument is negative, so it equals $\\pi-(\\tan^{-1}\\alpha-\\tan^{-1}\\gamma)$. Sum $=\\pi$. Trap: missing the $\\pi$ for a negative argument of $\\cot^{-1}$.",
+  "stem": "If $\\alpha > \\beta > \\gamma > 0$, then the expression $\\cot^{-1} \\left\\{\\beta + \\frac{(1 + \\beta^2)}{(\\alpha - \\beta)}\\right\\} + \\cot^{-1} \\left\\{\\gamma + \\frac{(1 + \\gamma^2)}{(\\beta - \\gamma)}\\right\\} + \\cot^{-1} \\left\\{\\alpha + \\frac{(1 + \\alpha^2)}{(\\gamma - \\alpha)}\\right\\}$ is equal to:"
+ },
+ "JEE Main 2025 Jan #201": {
+  "verdict": "ok",
+  "explanation": "$a_2a_4=a_1a_5=28$ and $a_2+a_4=29$, so $a_2=1$, $a_4=28$ (increasing). $r^2=28$, $a_6=a_4r^2=784$."
+ },
+ "JEE Main 2025 Jan #202": {
+  "verdict": "fix",
+  "explanation": "$\\frac{dx}{dy}+\\frac{x}{y^2}=\\frac1{y^3}$; IF $e^{-1/y}$. $xe^{-1/y}=\\int\\frac{e^{-1/y}}{y^3}dy=\\left(1+\\frac1y\\right)e^{-1/y}+C$. $x(1)=1\\Rightarrow C=-\\frac1e$, so $x=1+\\frac1y-e^{\\frac1y-1}$. $x(\\frac12)=3-e$.",
+  "stem": "Let $x = x(y)$ be the solution of the differential equation $y^2 \\mathrm{d}x + \\left(x - \\frac{1}{y}\\right) \\mathrm{d}y = 0$. If $x(1) = 1$, then $x\\left(\\frac{1}{2}\\right)$ is:"
+ },
+ "JEE Main 2025 Jan #203": {
+  "verdict": "ok",
+  "explanation": "$P(B_1\\mid B_2)=\\frac{P(B_1B_2)}{P(B_2)}=\\frac{\\frac{6}{10}\\cdot\\frac59}{\\frac{6}{10}}=\\frac59$ (since $P(B_2)=P(B_1)=\\frac{6}{10}$ by symmetry). $m+n=14$."
+ },
+ "JEE Main 2025 Jan #204": {
+  "verdict": "fix",
+  "explanation": "Taking $\\ln$: $5t^2+3=8t$ with $t=\\ln x$, i.e. $5t^2-8t+3=0$ (roots $1,\\frac35$). Product of solutions $x_1x_2=e^{t_1+t_2}=e^{8/5}$. Trap: multiplying the roots $t$ instead of adding them.",
+  "options": {
+   "A": "$e^{8/5}$",
+   "B": "$e^{6/5}$",
+   "C": "$e^2$",
+   "D": "$e$"
+  }
+ },
+ "JEE Main 2025 Jan #206": {
+  "verdict": "fix",
+  "explanation": "$f=7\\tan^6x\\sec^2x-3\\tan^2x\\sec^2x=\\frac{d}{dx}(\\tan^7x-\\tan^3x)$. $I_1=[\\tan^7x-\\tan^3x]_0^{\\pi/4}=0$. $I_2=[x(\\tan^7x-\\tan^3x)]_0^{\\pi/4}-\\int_0^{\\pi/4}(\\tan^7x-\\tan^3x)dx=-\\int_0^1u^3(u^2-1)du=\\frac1{12}$. So $7I_1+12I_2=1$.",
+  "stem": "Let $f(x) = 7 \\tan^8 x + 7 \\tan^6 x - 3 \\tan^4 x - 3 \\tan^2 x$, $I_1 = \\int_0^{\\pi/4} f(x) \\mathrm{d}x$ and $I_2 = \\int_0^{\\pi/4} x f(x) \\mathrm{d}x$. Then $7 I_1 + 12 I_2$ is equal to:"
+ },
+ "JEE Main 2025 Jan #207": {
+  "verdict": "ok",
+  "explanation": "The circle's centre lies on the perpendicular bisector of the $x$-intercepts, so $-\\frac p2=-1\\Rightarrow p=2$; roots $1,-3$, $y$-intercept $(0,-3)$ (check: centre $(-1,-1)$ equidistant, radius $\\sqrt5$). Area $=\\frac12\\cdot4\\cdot3=6$."
+ },
+ "JEE Main 2025 Jan #209": {
+  "verdict": "ok",
+  "explanation": "$x=y=0$: $1=2f'(0)\\Rightarrow f'(0)=\\frac12$. $y=0$: $f(x)=\\frac12f(x)+f'(x)\\Rightarrow f'=\\frac f2$, so $f=e^{x/2}$. $\\sum_{1}^{100}\\frac n2=\\frac{5050}{2}=2525$."
+ },
+ "JEE Main 2025 Jan #210": {
+  "verdict": "ok",
+  "explanation": "Choose 2 letters from A to L (12) to precede M and 2 from N to Z (13) to follow; the arrangement is then fixed. $\\binom{12}{2}\\binom{13}{2}=66\\cdot78=5148$."
+ },
+ "JEE Main 2025 Jan #211": {
+  "verdict": "ok",
+  "explanation": "Let $\\theta=\\sec^{-1}x\\in[0,\\pi]\\setminus\\{\\frac\\pi2\\}$; $\\csc^{-1}x=\\frac\\pi2-\\theta$. $16[\\theta^2+(\\frac\\pi2-\\theta)^2]$ is minimum $2\\pi^2$ at $\\theta=\\frac\\pi4$ and maximum $16\\cdot\\frac{5\\pi^2}{4}=20\\pi^2$ at $\\theta=\\pi$. Sum $=22\\pi^2$."
+ },
+ "JEE Main 2025 Jan #212": {
+  "verdict": "ok",
+  "explanation": "$f(x)=e^{kx}$ with $k=f'(0)=4a$. Then $k^2-3ak-1=0\\Rightarrow4a^2=1\\Rightarrow a=\\frac12$, $k=2$. $f(ax)=e^x$, area $=\\int_0^2e^xdx=e^2-1$."
+ },
+ "JEE Main 2025 Jan #213": {
+  "verdict": "ok",
+  "explanation": "Curves meet at $x=0$ and $x=2\\sqrt3$. The part of the circle outside $y^2\\le2\\sqrt3x$ is the left half-disc minus the parabolic segment: $6\\pi-2\\int_0^{2\\sqrt3}\\sqrt{2\\sqrt3x}\\,dx=6\\pi-16$. (For $x>2\\sqrt3$ the disc lies inside the parabola.)"
+ },
+ "JEE Main 2025 Jan #214": {
+  "verdict": "ok",
+  "explanation": "Centre $(1,1)$, $c=13$. $(1,6)$ lies on the transverse axis, so it is a vertex: $a=5$. $b^2=169-25=144$, latus rectum $\\frac{2b^2}{a}=\\frac{288}{5}$."
+ },
+ "JEE Main 2025 Jan #215": {
+  "verdict": "drop",
+  "reason": "Original question is inconsistent: S_0 = -15/64 != 0, so T_1 = 105/64 differs from the general formula (2r-1)(2r+1)(2r+3)/8; exact limit is 2/3 + 8/105, not an option. Keyed 2/3 only under the flawed assumption."
+ },
+ "JEE Main 2025 Jan #216": {
+  "verdict": "ok",
+  "explanation": "Of 8 outcomes, $HHT,HTH,HTT,THT$ contain exactly one 'HT' and the rest none, so $X\\sim$ Bernoulli$(\\frac12)$: $\\mu=\\frac12$, $\\sigma^2=\\frac14$. $64(\\mu+\\sigma^2)=48$."
+ },
+ "JEE Main 2025 Jan #217": {
+  "verdict": "ok",
+  "explanation": "Equivalence relations correspond to partitions of $\\{1,2,3\\}$; the Bell number $B_3=5$."
+ },
+ "JEE Main 2025 Jan #218": {
+  "verdict": "ok",
+  "explanation": "$C$: centre $(-2,2)$, radius 2. Distance to $(2,5)$ is $5$. Two intersection points iff $|r-2|<5<r+2$, i.e. $3<r<7$. $3\\beta-2\\alpha=21-6=15$."
+ },
+ "JEE Main 2025 Jan #219": {
+  "verdict": "ok",
+  "explanation": "Reduced fractions $\\frac mn$ with $m<n\\le10$ number $\\sum_{n=2}^{10}\\varphi(n)=1+2+2+4+2+6+4+6+4=31$; distinct reduced fractions are distinct values."
+ },
+ "JEE Main 2025 Jan #220": {
+  "verdict": "fix",
+  "explanation": "$z_1\\bar z_2=e^{i\\pi/4}$, $z_2\\bar z_3=e^{i\\pi/4}$, $z_3\\bar z_1=e^{-i\\pi/2}$. Sum $=\\sqrt2+i(\\sqrt2-1)$; modulus squared $=2+(3-2\\sqrt2)=5-2\\sqrt2$. $\\alpha^2+\\beta^2=25+4=29$.",
+  "stem": "Let $z_1, z_2$, and $z_3$ be three complex numbers on the circle $|z| = 1$ with $\\arg(z_1) = \\frac{\\pi}{4}$, $\\arg(z_2) = 0$, and $\\arg(z_3) = -\\frac{\\pi}{4}$. If $|z_1 \\bar{z}_2 + z_2 \\bar{z}_3 + z_3 \\bar{z}_1|^2 = \\alpha + \\beta \\sqrt{2}$, $\\alpha, \\beta \\in \\mathbb{Z}$, then the value of $\\alpha^2 + \\beta^2$ is:"
+ },
+ "JEE Main 2025 Jan #226": {
+  "verdict": "fix",
+  "explanation": "Point on the line through $(1,4,0)$: $(1+t,4+2t,3t)$. Setting it on the first line: $\\frac{t-1}{2}=\\frac{2t-2}{3}=\\frac{3t-3}{4}\\Rightarrow t=1$, giving $(2,6,3)$. Distance $=\\sqrt{1+4+9}=\\sqrt{14}$.",
+  "stem": "The distance of the line $\\frac{x-2}{2}=\\frac{y-6}{3}=\\frac{z-3}{4}$ from the point $(1,4,0)$ along the line $\\frac{x}{1}=\\frac{y-2}{2}=\\frac{z+3}{3}$ is:"
+ },
+ "JEE Main 2025 Jan #227": {
+  "verdict": "ok",
+  "explanation": "On $x=0$: $|y|\\ge3$ and $|y|\\le3$ force $y=\\pm3$; on $y=0$: $x=\\pm3$. $C=\\{(0,\\pm3),(\\pm3,0)\\}$, so $\\sum|x+y|=4\\times3=12$."
+ },
+ "JEE Main 2025 Jan #229": {
+  "verdict": "ok",
+  "explanation": "By parts, $g(x)=-x^3\\cos x+3x^2\\sin x+6x\\cos x-6\\sin x$, and $g'(x)=x^3\\sin x$. $g(\\frac\\pi2)=\\frac{3\\pi^2}{4}-6$, $g'(\\frac\\pi2)=\\frac{\\pi^3}{8}$. $8(g+g')=\\pi^3+6\\pi^2-48$, so $\\alpha+\\beta-\\gamma=1+6+48=55$."
+ },
+ "JEE Main 2025 Jan #230": {
+  "verdict": "ok",
+  "explanation": "$A=(a,a+2)$, $B=(b,-2)$, $P=\\frac{A+2B}{3}$ gives $a=3y+2$, $b=\\frac{3x-3y-2}{2}$. $AB=8$: $(a-b)^2+(a+4)^2=64$ simplifies to $9(x^2+13y^2-6xy-4x+28y)-76=0$. So $\\alpha-\\beta-\\gamma=13+6+4=23$."
+ },
+ "JEE Main 2025 Jan #231": {
+  "verdict": "drop",
+  "reason": "As transcribed, d^2 = 4/5 so m+n = 9 (not an option); sign variants of the direction ratios also fail to give 14, so the original data could not be identified."
+ },
+ "JEE Main 2025 Jan #232": {
+  "verdict": "fix",
+  "explanation": "$\\frac{2x^2-3x+5}{3x^2+5x+4}\\to\\frac23$ and $\\left(\\frac{3x-1}{3x+2}\\right)^{x/2}=\\left(1-\\frac{3}{3x+2}\\right)^{x/2}\\to e^{-1/2}$. Limit $=\\frac{2}{3\\sqrt e}$. Trap: treating the $1^\\infty$ form as 1.",
+  "stem": "$\\lim_{x \\to \\infty} \\frac{(2x^2 - 3x + 5)(3x - 1)^{\\frac{x}{2}}}{(3x^2 + 5x + 4) \\sqrt{(3x + 2)^x}}$ is equal to:",
+  "options": {
+   "A": "$\\frac{2}{\\sqrt{3e}}$",
+   "B": "$\\frac{2e}{\\sqrt{3}}$",
+   "C": "$\\frac{2}{3\\sqrt{e}}$",
+   "D": "$\\frac{2e}{3}$"
+  }
+ },
+ "JEE Main 2025 Jan #233": {
+  "verdict": "ok",
+  "explanation": "$\\overrightarrow{OA}=\\frac{(5r-1,\\,5r-1,\\,10r+2)}{r+1}$. Substituting into the condition and solving gives the unique positive root $r=7$. Check: $A=(\\frac{17}{4},\\frac{17}{4},9)$, $\\overrightarrow{OQ}\\cdot\\overrightarrow{OA}=132.5$, $\\overrightarrow{OP}\\times\\overrightarrow{OA}=(-17.5,17.5,0)$ with $|\\cdot|^2=612.5$, and $132.5-\\frac{612.5}{5}=10$."
+ },
+ "JEE Main 2025 Jan #234": {
+  "verdict": "ok",
+  "explanation": "Chord with midpoint $(1,\\frac12)$: $T=S_1\\Rightarrow\\frac x4+\\frac y4=\\frac38$, i.e. $x+y=\\frac32$. Substituting: $3x^2-6x+\\frac12=0$, $|x_1-x_2|=\\sqrt{4-\\frac23}=\\sqrt{\\frac{10}{3}}$; length $=\\sqrt2\\cdot\\sqrt{\\frac{10}{3}}=\\frac23\\sqrt{15}$."
+ },
+ "JEE Main 2025 Jan #235": {
+  "verdict": "ok",
+  "explanation": "$\\Delta=\\begin{vmatrix}1&1&1\\\\1&2&5\\\\1&5&\\lambda\\end{vmatrix}=\\lambda-17$. At $\\lambda=17$, the third row of coefficients equals $-3(\\text{row}_1)+4(\\text{row}_2)$, which needs $\\mu=-18+36=18$ for consistency. So no solution iff $\\lambda=17,\\mu\\ne18$."
+ },
+ "JEE Main 2025 Jan #236": {
+  "verdict": "ok",
+  "explanation": "$\\cos x\\cos(\\frac\\pi3-x)\\cos(\\frac\\pi3+x)=\\frac{\\cos3x}{4}$, so $f=6+4\\sin3x\\cos3x\\cos6x=6+\\sin12x$, range $[5,7]$. Distance of $(5,7)$ from $3x+4y+12=0$: $\\frac{15+28+12}{5}=11$."
+ },
+ "JEE Main 2025 Jan #237": {
+  "verdict": "ok",
+  "explanation": "Put $x=vy$: $x-y\\frac{dx}{dy}=-y^2\\frac{dv}{dy}$, so $\\sin v\\,dv=-\\frac{dy}{y}\\Rightarrow\\cos v=\\ln y+C$; $v(1)=\\frac\\pi2\\Rightarrow C=0$. At $y=2$: $\\cos\\frac{x(2)}{2}=\\ln2$, so $\\cos x(2)=2(\\ln2)^2-1$."
+ },
+ "JEE Main 2025 Jan #238": {
+  "verdict": "ok",
+  "explanation": "Outer radius $R=r+h$, $V=\\frac43\\pi R^3$, $\\frac{dV}{dt}=4\\pi R^2\\frac{dh}{dt}$: $81=4\\pi R^2\\cdot\\frac1{4\\pi}\\Rightarrow R=9$, so chocolate radius $r=9-1=8$. Surface area $=4\\pi\\cdot64=256\\pi$."
+ },
+ "JEE Main 2025 Jan #239": {
+  "verdict": "fix",
+  "explanation": "With $z=e^{i\\theta}$, $\\frac{z}{\\bar z}+\\frac{\\bar z}{z}=2\\cos2\\theta$, so $|2\\cos2\\theta|=1\\Rightarrow\\cos2\\theta=\\pm\\frac12$. For $\\theta\\in[0,2\\pi)$, $2\\theta\\in[0,4\\pi)$ gives 4 solutions for each sign: 8 in total.",
+  "stem": "The number of complex numbers $z$, satisfying $|z| = 1$ and $\\left|\\frac{z}{\\bar{z}} + \\frac{\\bar{z}}{z}\\right| = 1$, is:"
+ },
+ "JEE Main 2025 Jan #240": {
+  "verdict": "ok",
+  "explanation": "$A\\,[\\mathbf u\\ \\mathbf v\\ \\mathbf w]=[\\mathbf e_3\\ \\mathbf e_2\\ \\mathbf e_1]$ with $\\mathbf u=(0,1,0)^T,\\mathbf v=(4,1,3)^T,\\mathbf w=(2,1,2)^T$, so $A=[\\mathbf e_3\\ \\mathbf e_2\\ \\mathbf e_1]B^{-1}$. Row 2 of $A$ is row 2 of $B^{-1}$, which is $(1,0,-1)$. Hence $a_{23}=-1$."
+ },
+ "JEE Main 2025 Jan #241": {
+  "verdict": "fix",
+  "explanation": "$I=\\int_0^{\\pi/2}\\frac{\\sin^{3/2}x}{\\sin^{3/2}x+\\cos^{3/2}x}dx=\\frac\\pi4$ (King's rule), so the upper limit is $\\frac\\pi2$. Using $x\\to\\frac\\pi2-x$: $J=\\frac\\pi4\\int_0^{\\pi/2}\\frac{\\sin x\\cos x}{\\sin^4x+\\cos^4x}dx=\\frac\\pi4\\cdot\\frac12\\int_0^1\\frac{dt}{t^2+(1-t)^2}=\\frac\\pi4\\cdot\\frac\\pi4=\\frac{\\pi^2}{16}$.",
+  "stem": "If $I = \\int_0^{\\frac{\\pi}{2}} \\frac{\\sin^{\\frac{3}{2}} x}{\\sin^{\\frac{3}{2}} x + \\cos^{\\frac{3}{2}} x} \\, dx$, then $\\int_0^{2I} \\frac{x \\sin x \\cos x}{\\sin^4 x + \\cos^4 x} \\, dx$ equals:"
+ }
+}

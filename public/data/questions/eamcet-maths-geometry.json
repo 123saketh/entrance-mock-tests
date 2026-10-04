@@ -1,0 +1,2039 @@
+[
+  {
+    "id": "eam-mat-b-0001",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The angle between the vectors $2\\hat i-\\hat j+2\\hat k$ and $\\hat i+2\\hat j-2\\hat k$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\cos^{-1}\\left(-\\frac{2}{9}\\right)$"
+      },
+      {
+        "key": "B",
+        "text": "$\\cos^{-1}\\left(\\frac{4}{9}\\right)$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{\\pi}{2}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\cos^{-1}\\left(-\\frac{4}{9}\\right)$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Dot product $=2-2-4=-4$ and both magnitudes are $3$, so $\\cos\\theta=\\frac{-4}{9}$, giving $\\theta=\\cos^{-1}(-\\frac49)$, an obtuse angle. Dropping the minus sign gives the acute angle $\\cos^{-1}\\frac49$. Writing the dot product as $-2$ (a slip in the $\\hat k$ term) gives $-\\frac29$. The angle is not $\\frac{\\pi}{2}$ because the dot product is not zero.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0002",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The projection of $\\vec a=\\hat i+2\\hat j+3\\hat k$ on $\\vec b=2\\hat i-\\hat j+2\\hat k$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{6}{\\sqrt{14}}$"
+      },
+      {
+        "key": "B",
+        "text": "$3$"
+      },
+      {
+        "key": "C",
+        "text": "$2$"
+      },
+      {
+        "key": "D",
+        "text": "$6$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Projection of $\\vec a$ on $\\vec b$ $=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|}=\\frac{2-2+6}{3}=2$. $6$ is $\\vec a\\cdot\\vec b$ without dividing by $|\\vec b|$. $\\frac{6}{\\sqrt{14}}$ divides by $|\\vec a|$, which gives the projection of $\\vec b$ on $\\vec a$. $3$ is just $|\\vec b|$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0003",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "If $|\\vec a|=3$, $|\\vec b|=4$ and $|\\vec a+\\vec b|=5$, then $|\\vec a-\\vec b|$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$1$"
+      },
+      {
+        "key": "B",
+        "text": "$5$"
+      },
+      {
+        "key": "C",
+        "text": "$7$"
+      },
+      {
+        "key": "D",
+        "text": "$\\sqrt7$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$|\\vec a+\\vec b|^2+|\\vec a-\\vec b|^2=2(|\\vec a|^2+|\\vec b|^2)=50$, so $|\\vec a-\\vec b|^2=50-25=25$ and $|\\vec a-\\vec b|=5$. Here $\\vec a\\perp\\vec b$, so both diagonals are equal. $1$ and $7$ treat the vectors as parallel ($4-3$ and $4+3$). $\\sqrt7$ comes from $\\sqrt{|\\vec b|^2-|\\vec a|^2}$, which is not a valid rule.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0004",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The area of the triangle with vertices $A(1,0,0)$, $B(0,2,0)$ and $C(0,0,3)$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$7$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{7}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$3$"
+      },
+      {
+        "key": "D",
+        "text": "$6$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$\\vec{AB}=(-1,2,0)$ and $\\vec{AC}=(-1,0,3)$, so $\\vec{AB}\\times\\vec{AC}=(6,3,2)$, with magnitude $\\sqrt{49}=7$. Area $=\\frac12\\cdot7=\\frac72$. $7$ forgets the factor $\\frac12$. $3$ is $\\frac12\\cdot1\\cdot2\\cdot3$, half the product of the intercepts, which is not an area formula. $6$ is the product of the intercepts.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0005",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "If the vectors $\\hat i+2\\hat j+3\\hat k$, $2\\hat i+\\lambda\\hat j+\\hat k$ and $3\\hat i+\\hat j+4\\hat k$ are coplanar, then $\\lambda=$",
+    "options": [
+      {
+        "key": "A",
+        "text": "$1$"
+      },
+      {
+        "key": "B",
+        "text": "$5$"
+      },
+      {
+        "key": "C",
+        "text": "$-1$"
+      },
+      {
+        "key": "D",
+        "text": "$-5$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Coplanar means the scalar triple product is zero: $\\begin{vmatrix}1&2&3\\\\2&\\lambda&1\\\\3&1&4\\end{vmatrix}=(4\\lambda-1)-2(8-3)+3(2-3\\lambda)=-5\\lambda-5=0$, so $\\lambda=-1$. A sign slip in the cofactor expansion gives $1$. $\\pm5$ come from confusing the coefficient of $\\lambda$ with the root.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0006",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The volume of the parallelepiped whose coterminous edges are $\\hat i+\\hat j$, $\\hat j+\\hat k$ and $\\hat k+\\hat i$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2$"
+      },
+      {
+        "key": "B",
+        "text": "$1$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac13$"
+      },
+      {
+        "key": "D",
+        "text": "$4$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Volume $=|[\\vec a\\ \\vec b\\ \\vec c]|=\\left|\\begin{vmatrix}1&1&0\\\\0&1&1\\\\1&0&1\\end{vmatrix}\\right|=|1(1)-1(0-1)+0|=2$. $\\frac13$ is the tetrahedron volume $\\frac16\\cdot2$. $1$ is half the true value. $4$ uses the known result $[\\vec a+\\vec b\\ \\ \\vec b+\\vec c\\ \\ \\vec c+\\vec a]=2[\\vec a\\ \\vec b\\ \\vec c]$ wrongly, applying the factor $2$ twice.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0007",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "If $\\vec a=\\hat i+\\hat j+\\hat k$, $\\vec b=\\hat i-\\hat j$ and $\\vec c=\\hat j+\\hat k$, then $\\vec a\\times(\\vec b\\times\\vec c)$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2\\hat i-2\\hat j$"
+      },
+      {
+        "key": "B",
+        "text": "$-2\\hat i+2\\hat j$"
+      },
+      {
+        "key": "C",
+        "text": "$\\hat i-\\hat j+2\\hat k$"
+      },
+      {
+        "key": "D",
+        "text": "$2\\hat j+2\\hat k$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$\\vec a\\times(\\vec b\\times\\vec c)=(\\vec a\\cdot\\vec c)\\vec b-(\\vec a\\cdot\\vec b)\\vec c$. Here $\\vec a\\cdot\\vec c=2$ and $\\vec a\\cdot\\vec b=0$, so the result is $2\\vec b=2\\hat i-2\\hat j$. $-2\\hat i+2\\hat j$ has the expansion order reversed. $2\\hat j+2\\hat k$ is $2\\vec c$, which uses the wrong vector. $\\hat i-\\hat j+2\\hat k$ does not satisfy the expansion.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0008",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "hard",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The shortest distance between the lines $\\vec r=(\\hat i+2\\hat j+\\hat k)+t(\\hat i-\\hat j+\\hat k)$ and $\\vec r=(2\\hat i-\\hat j-\\hat k)+s(2\\hat i+\\hat j+2\\hat k)$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{3}{\\sqrt2}$"
+      },
+      {
+        "key": "B",
+        "text": "$3\\sqrt2$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{9}{\\sqrt{14}}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\sqrt2$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$\\vec b_1\\times\\vec b_2=(1,-1,1)\\times(2,1,2)=(-3,0,3)$, with magnitude $3\\sqrt2$. $\\vec a_2-\\vec a_1=(1,-3,-2)$, and its dot product with $(-3,0,3)$ is $-9$. SD $=\\frac{9}{3\\sqrt2}=\\frac{3}{\\sqrt2}$. $3\\sqrt2$ is just $|\\vec b_1\\times\\vec b_2|$. $\\frac{9}{\\sqrt{14}}$ divides by $|\\vec a_2-\\vec a_1|$ instead of the normal's length. $\\sqrt2$ comes from an arithmetic slip in the dot product.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0009",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "If $\\vec a,\\vec b,\\vec c$ are unit vectors with $\\vec a+\\vec b+\\vec c=\\vec 0$, then $\\vec a\\cdot\\vec b+\\vec b\\cdot\\vec c+\\vec c\\cdot\\vec a=$",
+    "options": [
+      {
+        "key": "A",
+        "text": "$-\\frac32$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac32$"
+      },
+      {
+        "key": "C",
+        "text": "$0$"
+      },
+      {
+        "key": "D",
+        "text": "$-3$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Square $\\vec a+\\vec b+\\vec c=\\vec0$: $|\\vec a|^2+|\\vec b|^2+|\\vec c|^2+2(\\vec a\\cdot\\vec b+\\vec b\\cdot\\vec c+\\vec c\\cdot\\vec a)=0$, so $3+2S=0$ and $S=-\\frac32$. $\\frac32$ loses the sign. $0$ would require mutually perpendicular vectors, but three such vectors cannot sum to zero. $-3$ forgets to divide by $2$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0010",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "$\\tan 75^\\circ+\\cot 75^\\circ=$",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2$"
+      },
+      {
+        "key": "B",
+        "text": "$2\\sqrt3$"
+      },
+      {
+        "key": "C",
+        "text": "$4$"
+      },
+      {
+        "key": "D",
+        "text": "$4\\sqrt3$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$\\tan75^\\circ=2+\\sqrt3$ and $\\cot75^\\circ=2-\\sqrt3$, so the sum is $4$. Another route: $\\tan\\theta+\\cot\\theta=\\frac{2}{\\sin2\\theta}=\\frac{2}{\\sin150^\\circ}=4$. $2\\sqrt3$ is the difference $\\tan75^\\circ-\\cot75^\\circ$. $2$ uses $\\frac{1}{\\sin2\\theta}$ without the factor $2$. $4\\sqrt3$ is twice that difference.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0011",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "If $A+B=225^\\circ$, then $\\dfrac{\\cot A}{1+\\cot A}\\cdot\\dfrac{\\cot B}{1+\\cot B}=$",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac12$"
+      },
+      {
+        "key": "B",
+        "text": "$2$"
+      },
+      {
+        "key": "C",
+        "text": "$1$"
+      },
+      {
+        "key": "D",
+        "text": "$-\\frac12$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$\\cot(A+B)=1$ gives $\\cot A\\cot B-1=\\cot A+\\cot B$, so $(1+\\cot A)(1+\\cot B)=1+\\cot A+\\cot B+\\cot A\\cot B=2\\cot A\\cot B$. The expression is therefore $\\frac{\\cot A\\cot B}{2\\cot A\\cot B}=\\frac12$. $2$ is the reciprocal, i.e. the value of $(1+\\cot A)(1+\\cot B)/(\\cot A\\cot B)$. $1$ and $-\\frac12$ come from sign errors in $\\cot225^\\circ=+1$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0012",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "If $\\sin\\theta=\\frac35$ and $\\theta$ lies in the second quadrant, then $\\tan2\\theta=$",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{7}{24}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{24}{7}$"
+      },
+      {
+        "key": "C",
+        "text": "$-\\frac{7}{24}$"
+      },
+      {
+        "key": "D",
+        "text": "$-\\frac{24}{7}$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "In Q II, $\\cos\\theta=-\\frac45$, so $\\tan\\theta=-\\frac34$. Then $\\tan2\\theta=\\frac{2\\tan\\theta}{1-\\tan^2\\theta}=\\frac{-\\frac32}{\\frac{7}{16}}=-\\frac{24}{7}$. $\\frac{24}{7}$ ignores the negative sign of $\\tan\\theta$ in Q II. $\\pm\\frac{7}{24}$ give $\\cot2\\theta$, i.e. the formula inverted.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0013",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "$\\cos\\frac{\\pi}{7}\\cos\\frac{2\\pi}{7}\\cos\\frac{4\\pi}{7}=$",
+    "options": [
+      {
+        "key": "A",
+        "text": "$-\\frac18$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{1}{16}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac18$"
+      },
+      {
+        "key": "D",
+        "text": "$-\\frac14$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Multiply and divide by $\\sin\\frac{\\pi}{7}$ and use $2\\sin x\\cos x=\\sin2x$ three times. The product becomes $\\frac{\\sin\\frac{8\\pi}{7}}{8\\sin\\frac{\\pi}{7}}$. Since $\\sin\\frac{8\\pi}{7}=-\\sin\\frac{\\pi}{7}$, the value is $-\\frac18$. $\\frac18$ misses that $\\frac{8\\pi}{7}$ is in Q III, where sine is negative. $\\frac1{16}$ and $-\\frac14$ use the wrong power of $2$ (there are three doublings, so $2^3$).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0014",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "$\\sin 20^\\circ+\\sin 40^\\circ-\\sin 80^\\circ=$",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac12$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{\\sqrt3}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$0$"
+      },
+      {
+        "key": "D",
+        "text": "$1$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$\\sin40^\\circ+\\sin20^\\circ=2\\sin30^\\circ\\cos10^\\circ=\\cos10^\\circ=\\sin80^\\circ$, so the expression is $0$. $\\frac12$ stops at $\\sin30^\\circ$. $\\frac{\\sqrt3}{2}$ uses $\\cos30^\\circ$ in the sum formula, which belongs to a different identity. $1$ treats $2\\sin30^\\circ\\cos10^\\circ$ as just $2\\sin30^\\circ$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0015",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The period of $f(x)=|\\sin x|+|\\cos x|$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\pi$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{\\pi}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$2\\pi$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{\\pi}{4}$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$f(x+\\frac{\\pi}{2})=|\\cos x|+|-\\sin x|=f(x)$, so $\\frac{\\pi}{2}$ is a period. No smaller period works: $f(0)=1$ but $f(\\frac{\\pi}{4})=\\sqrt2$, so $\\frac{\\pi}{4}$ fails. $\\pi$ is the period of each term alone, but it is not the least period of the sum. $2\\pi$ ignores the modulus completely.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0016",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The maximum value of $5\\cos\\theta+3\\cos\\left(\\theta+\\frac{\\pi}{3}\\right)+3$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$8$"
+      },
+      {
+        "key": "B",
+        "text": "$13$"
+      },
+      {
+        "key": "C",
+        "text": "$10$"
+      },
+      {
+        "key": "D",
+        "text": "$11$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Expand: $5\\cos\\theta+\\frac32\\cos\\theta-\\frac{3\\sqrt3}{2}\\sin\\theta=\\frac{13}{2}\\cos\\theta-\\frac{3\\sqrt3}{2}\\sin\\theta$. Its maximum is $\\sqrt{\\frac{169}{4}+\\frac{27}{4}}=\\sqrt{49}=7$, so the overall maximum is $7+3=10$. $11$ adds the amplitudes $5+3$ and then the constant $3$, which assumes both cosines peak together. $13$ is $\\frac{13}{2}\\cdot2$. $8$ forgets the $+3$ and uses the maximum $5+3$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0017",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "$\\dfrac{1-\\cos2\\theta+\\sin2\\theta}{1+\\cos2\\theta+\\sin2\\theta}=$",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\tan2\\theta$"
+      },
+      {
+        "key": "B",
+        "text": "$\\tan\\theta$"
+      },
+      {
+        "key": "C",
+        "text": "$\\cot\\theta$"
+      },
+      {
+        "key": "D",
+        "text": "$\\sin2\\theta$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Numerator $=2\\sin^2\\theta+2\\sin\\theta\\cos\\theta=2\\sin\\theta(\\sin\\theta+\\cos\\theta)$. Denominator $=2\\cos^2\\theta+2\\sin\\theta\\cos\\theta=2\\cos\\theta(\\cos\\theta+\\sin\\theta)$. The ratio is $\\tan\\theta$. $\\cot\\theta$ swaps $1\\pm\\cos2\\theta$. $\\tan2\\theta$ and $\\sin2\\theta$ wrongly cancel the $1$'s and keep the double angles.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0018",
+    "subject": "mathematics",
+    "topic": "Trigonometric Equations",
+    "difficulty": "hard",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The number of distinct solutions of $\\sin x+\\sin3x+\\sin5x=0$ in $[0,\\pi]$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$4$"
+      },
+      {
+        "key": "B",
+        "text": "$5$"
+      },
+      {
+        "key": "C",
+        "text": "$3$"
+      },
+      {
+        "key": "D",
+        "text": "$6$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$\\sin5x+\\sin x=2\\sin3x\\cos2x$, so the equation becomes $\\sin3x(2\\cos2x+1)=0$. From $\\sin3x=0$: $x=0,\\frac{\\pi}{3},\\frac{2\\pi}{3},\\pi$. From $\\cos2x=-\\frac12$: $x=\\frac{\\pi}{3},\\frac{2\\pi}{3}$, which are repeats. That leaves $4$ distinct solutions. $6$ counts the repeats twice. $5$ and $3$ come from wrongly dropping or adding an endpoint.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0019",
+    "subject": "mathematics",
+    "topic": "Trigonometric Equations",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The number of solutions of $\\sin2x=\\cos x$ in $[0,2\\pi]$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2$"
+      },
+      {
+        "key": "B",
+        "text": "$3$"
+      },
+      {
+        "key": "C",
+        "text": "$4$"
+      },
+      {
+        "key": "D",
+        "text": "$6$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$2\\sin x\\cos x=\\cos x$ gives $\\cos x(2\\sin x-1)=0$. Then $\\cos x=0$ gives $x=\\frac{\\pi}{2},\\frac{3\\pi}{2}$, and $\\sin x=\\frac12$ gives $x=\\frac{\\pi}{6},\\frac{5\\pi}{6}$. That is $4$ solutions. $2$ comes from dividing by $\\cos x$, which loses the roots where $\\cos x=0$. $3$ and $6$ miscount the $\\sin x=\\frac12$ roots in $[0,2\\pi]$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0020",
+    "subject": "mathematics",
+    "topic": "Inverse Trigonometric Functions",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "$\\cos^{-1}\\left(\\cos\\frac{7\\pi}{6}\\right)=$",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{5\\pi}{6}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{7\\pi}{6}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{\\pi}{6}$"
+      },
+      {
+        "key": "D",
+        "text": "$-\\frac{5\\pi}{6}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The principal range of $\\cos^{-1}$ is $[0,\\pi]$. Since $\\cos\\frac{7\\pi}{6}=\\cos(2\\pi-\\frac{7\\pi}{6})=\\cos\\frac{5\\pi}{6}$ and $\\frac{5\\pi}{6}\\in[0,\\pi]$, the answer is $\\frac{5\\pi}{6}$. $\\frac{7\\pi}{6}$ lies outside $[0,\\pi]$. $\\frac{\\pi}{6}$ has a positive cosine, but $\\cos\\frac{7\\pi}{6}<0$. $-\\frac{5\\pi}{6}$ is negative, so it is not in the range.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0021",
+    "subject": "mathematics",
+    "topic": "Inverse Trigonometric Functions",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "$\\tan^{-1}\\frac12+\\tan^{-1}\\frac15+\\tan^{-1}\\frac18=$",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{\\pi}{3}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{\\pi}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{\\pi}{6}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{\\pi}{4}$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$\\tan^{-1}\\frac12+\\tan^{-1}\\frac15=\\tan^{-1}\\frac{\\frac{7}{10}}{\\frac{9}{10}}=\\tan^{-1}\\frac79$. Then $\\tan^{-1}\\frac79+\\tan^{-1}\\frac18=\\tan^{-1}\\frac{\\frac{65}{72}}{\\frac{65}{72}}=\\tan^{-1}1=\\frac{\\pi}{4}$. $\\frac{\\pi}{3}$ and $\\frac{\\pi}{6}$ come from errors in the denominator $1-xy$. $\\frac{\\pi}{2}$ would need $xy=1$ at some step, which never happens.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0022",
+    "subject": "mathematics",
+    "topic": "Inverse Trigonometric Functions",
+    "difficulty": "hard",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The solution set of $\\tan^{-1}(x+1)+\\tan^{-1}(x-1)=\\tan^{-1}\\frac{8}{31}$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\{-8\\}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\left\\{-\\frac14\\right\\}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\left\\{\\frac14\\right\\}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\left\\{\\frac14,-8\\right\\}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Take $\\tan$ of both sides: $\\frac{2x}{1-(x^2-1)}=\\frac{8}{31}$, which simplifies to $4x^2+31x-8=0$, i.e. $(4x-1)(x+8)=0$. For $x=-8$, the left side is $\\tan^{-1}(-7)+\\tan^{-1}(-9)$, which is less than $-\\frac{\\pi}{2}$ and so cannot equal $\\tan^{-1}\\frac{8}{31}>0$. Only $x=\\frac14$ satisfies the equation. Keeping both roots ignores the principal-value check. $-\\frac14$ comes from a sign error in factoring.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0023",
+    "subject": "mathematics",
+    "topic": "Hyperbolic Functions",
+    "difficulty": "hard",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "If $\\cosh x=\\sec\\theta$, then $\\tanh^2\\frac{x}{2}=$",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\tan^2\\theta$"
+      },
+      {
+        "key": "B",
+        "text": "$\\cot^2\\frac{\\theta}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\tan^2\\frac{\\theta}{2}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\sin^2\\frac{\\theta}{2}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$\\tanh^2\\frac x2=\\frac{\\cosh x-1}{\\cosh x+1}=\\frac{\\sec\\theta-1}{\\sec\\theta+1}=\\frac{1-\\cos\\theta}{1+\\cos\\theta}=\\tan^2\\frac{\\theta}{2}$. $\\cot^2\\frac\\theta2$ inverts the half-angle ratio. $\\tan^2\\theta$ equals $\\sec^2\\theta-1=\\cosh^2x-1=\\sinh^2x$, which is a different quantity. $\\sin^2\\frac\\theta2$ uses only the numerator $\\frac{1-\\cos\\theta}{2}$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0024",
+    "subject": "mathematics",
+    "topic": "Hyperbolic Functions",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "$\\sinh^{-1}\\left(\\frac34\\right)=$",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\log_e\\frac12$"
+      },
+      {
+        "key": "B",
+        "text": "$\\log_e 2$"
+      },
+      {
+        "key": "C",
+        "text": "$\\log_e\\frac32$"
+      },
+      {
+        "key": "D",
+        "text": "$\\log_e 3$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$\\sinh^{-1}x=\\log_e\\left(x+\\sqrt{x^2+1}\\right)$, so the value is $\\log\\left(\\frac34+\\frac54\\right)=\\log2$. $\\log\\frac12$ uses $x-\\sqrt{x^2+1}$, which is negative, so its log is undefined. $\\log\\frac32$ and $\\log3$ come from errors in evaluating $\\sqrt{x^2+1}=\\frac54$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0025",
+    "subject": "mathematics",
+    "topic": "Hyperbolic Functions",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "If $\\tanh x=\\frac12$, then $\\sinh 2x=$",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac45$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac53$"
+      },
+      {
+        "key": "C",
+        "text": "$1$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac43$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$\\sinh2x=\\frac{2\\tanh x}{1-\\tanh^2x}=\\frac{1}{\\frac34}=\\frac43$. $\\frac45$ uses the circular-trig form $\\frac{2t}{1+t^2}$, which gives $\\tanh2x$ here: hyperbolic double-angle formulas swap these signs. $\\frac53$ is $\\cosh2x=\\frac{1+t^2}{1-t^2}$. $1$ is $2\\tanh x$ alone.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0026",
+    "subject": "mathematics",
+    "topic": "Properties of Triangles",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The largest angle of a triangle with sides $3,5,7$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$135^\\circ$"
+      },
+      {
+        "key": "B",
+        "text": "$120^\\circ$"
+      },
+      {
+        "key": "C",
+        "text": "$90^\\circ$"
+      },
+      {
+        "key": "D",
+        "text": "$150^\\circ$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The largest angle is opposite the side $7$: $\\cos C=\\frac{9+25-49}{2\\cdot3\\cdot5}=-\\frac12$, so $C=120^\\circ$. $90^\\circ$ would need $9+25=49$, which is false. $135^\\circ$ and $150^\\circ$ correspond to $\\cos C=-\\frac{1}{\\sqrt2}$ and $-\\frac{\\sqrt3}{2}$, which are not the computed value.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0027",
+    "subject": "mathematics",
+    "topic": "Properties of Triangles",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "In $\\triangle ABC$ with $a=13$, $b=14$, $c=15$, the inradius $r$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$4$"
+      },
+      {
+        "key": "B",
+        "text": "$12$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{65}{8}$"
+      },
+      {
+        "key": "D",
+        "text": "$14$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$s=21$ and $\\Delta=\\sqrt{21\\cdot8\\cdot7\\cdot6}=84$, so $r=\\frac{\\Delta}{s}=4$. $\\frac{65}{8}$ is the circumradius $R=\\frac{abc}{4\\Delta}$. $12=\\frac{\\Delta}{s-b}$ is the exradius $r_2$, and $14=\\frac{\\Delta}{s-c}$ is the exradius $r_3$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0028",
+    "subject": "mathematics",
+    "topic": "Properties of Triangles",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "In any $\\triangle ABC$, $a(b\\cos C-c\\cos B)=$",
+    "options": [
+      {
+        "key": "A",
+        "text": "$a^2$"
+      },
+      {
+        "key": "B",
+        "text": "$0$"
+      },
+      {
+        "key": "C",
+        "text": "$c^2-b^2$"
+      },
+      {
+        "key": "D",
+        "text": "$b^2-c^2$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "By the cosine rule, $ab\\cos C=\\frac{a^2+b^2-c^2}{2}$ and $ac\\cos B=\\frac{a^2+c^2-b^2}{2}$. Their difference is $b^2-c^2$. $c^2-b^2$ reverses the subtraction. $a^2$ is $a(b\\cos C+c\\cos B)$, from the projection rule with a plus sign. $0$ holds only when $b=c$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0029",
+    "subject": "mathematics",
+    "topic": "Properties of Triangles",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "If in $\\triangle ABC$, $a\\cos A=b\\cos B$, then the triangle is",
+    "options": [
+      {
+        "key": "A",
+        "text": "equilateral"
+      },
+      {
+        "key": "B",
+        "text": "isosceles or right-angled"
+      },
+      {
+        "key": "C",
+        "text": "isosceles only"
+      },
+      {
+        "key": "D",
+        "text": "right-angled only"
+      }
+    ],
+    "answer": "B",
+    "explanation": "By the sine rule, $\\sin A\\cos A=\\sin B\\cos B$, so $\\sin2A=\\sin2B$. Then either $A=B$ (isosceles) or $2A=\\pi-2B$, i.e. $C=\\frac{\\pi}{2}$ (right-angled). For example, a $3$-$4$-$5$ triangle satisfies $3\\cdot\\frac45=4\\cdot\\frac35$ but is not isosceles, so isosceles only is wrong. Right-angled only misses $A=B$. Equilateral is too restrictive.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0030",
+    "subject": "mathematics",
+    "topic": "Properties of Triangles",
+    "difficulty": "hard",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "If the exradii of a triangle are $r_1=2$, $r_2=3$ and $r_3=6$, then the area of the triangle is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$11$"
+      },
+      {
+        "key": "B",
+        "text": "$6$"
+      },
+      {
+        "key": "C",
+        "text": "$1$"
+      },
+      {
+        "key": "D",
+        "text": "$36$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$\\frac1r=\\frac1{r_1}+\\frac1{r_2}+\\frac1{r_3}=1$, so $r=1$. Then $\\Delta^2=r\\,r_1r_2r_3=36$ and $\\Delta=6$. Check: $s=\\frac{\\Delta}{r}=6$, giving sides $s-\\frac{\\Delta}{r_1}=3$, $4$, $5$, a right triangle of area $6$. $36$ is $\\Delta^2$. $1$ is the inradius. $11$ is $r_1+r_2+r_3$, which equals $4R+r$, not the area.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0031",
+    "subject": "mathematics",
+    "topic": "Properties of Triangles",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The angle of elevation of the top of a tower from a point on level ground is $30^\\circ$. After walking $20$ m towards the tower, it becomes $60^\\circ$. The height of the tower is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$10$ m"
+      },
+      {
+        "key": "B",
+        "text": "$20$ m"
+      },
+      {
+        "key": "C",
+        "text": "$20\\sqrt3$ m"
+      },
+      {
+        "key": "D",
+        "text": "$10\\sqrt3$ m"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Let the height be $h$ and the final distance $d$. Then $h=d\\sqrt3$ and $h=\\frac{d+20}{\\sqrt3}$. So $3d=d+20$, giving $d=10$ and $h=10\\sqrt3$ m. $20$ m is the slant distance from the second point (the triangle there is isosceles with angles $30^\\circ,30^\\circ$), not the height. $20\\sqrt3$ uses $d=20$. $10$ m is $d$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0032",
+    "subject": "mathematics",
+    "topic": "Locus",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The locus of a point equidistant from $(1,2)$ and $(3,4)$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$x+y-5=0$"
+      },
+      {
+        "key": "B",
+        "text": "$x+y-3=0$"
+      },
+      {
+        "key": "C",
+        "text": "$x-y+5=0$"
+      },
+      {
+        "key": "D",
+        "text": "$x-y+1=0$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$(x-1)^2+(y-2)^2=(x-3)^2+(y-4)^2$ simplifies to $4x+4y-20=0$, i.e. $x+y=5$. This is the perpendicular bisector: it passes through the midpoint $(2,3)$ and has slope $-1$. $x-y+1=0$ is the line joining the two points, not its bisector. $x+y-3=0$ misses the midpoint. $x-y+5=0$ has the wrong slope.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0033",
+    "subject": "mathematics",
+    "topic": "Locus",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "$A=(3,0)$ and $B=(-3,0)$. The locus of a point $P$ such that $PA=2PB$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$x^2+y^2-10x+9=0$"
+      },
+      {
+        "key": "B",
+        "text": "$x^2+y^2+10x-9=0$"
+      },
+      {
+        "key": "C",
+        "text": "$3x^2+3y^2+30x-27=0$"
+      },
+      {
+        "key": "D",
+        "text": "$x^2+y^2+10x+9=0$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$(x-3)^2+y^2=4[(x+3)^2+y^2]$ simplifies to $3x^2+3y^2+30x+27=0$, i.e. $x^2+y^2+10x+9=0$ (a circle of Apollonius centred at $(-5,0)$). The $-10x$ version swaps $A$ and $B$, i.e. it uses $PB=2PA$. The versions with $-9$ and $-27$ have a sign slip in the constant term ($9-36=-27$ moves to the other side as $+27$).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0034",
+    "subject": "mathematics",
+    "topic": "Transformation of Axes",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "When the origin is shifted to $(2,-3)$ by translation of axes, the new coordinates of the point $(4,5)$ are",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(2,2)$"
+      },
+      {
+        "key": "B",
+        "text": "$(-2,-8)$"
+      },
+      {
+        "key": "C",
+        "text": "$(2,8)$"
+      },
+      {
+        "key": "D",
+        "text": "$(6,2)$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Under translation $X=x-h$, $Y=y-k$ with $(h,k)=(2,-3)$, the new coordinates are $X=4-2=2$ and $Y=5+3=8$. $(6,2)$ adds instead of subtracting. $(2,2)$ treats $k$ as $+3$. $(-2,-8)$ computes old minus new in the wrong order.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0035",
+    "subject": "mathematics",
+    "topic": "Transformation of Axes",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The angle through which the axes must be rotated to remove the $xy$-term from $3x^2+2\\sqrt3\\,xy+y^2=0$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{\\pi}{6}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{\\pi}{4}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{\\pi}{3}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{\\pi}{12}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "For $ax^2+2hxy+by^2$, use $\\tan2\\theta=\\frac{2h}{a-b}=\\frac{2\\sqrt3}{3-1}=\\sqrt3$. So $2\\theta=\\frac{\\pi}{3}$ and $\\theta=\\frac{\\pi}{6}$. $\\frac{\\pi}{3}$ is $2\\theta$, i.e. the halving step was forgotten. $\\frac{\\pi}{4}$ is the answer only when $a=b$. $\\frac{\\pi}{12}$ halves twice.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0036",
+    "subject": "mathematics",
+    "topic": "Straight Lines",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The distance between the parallel lines $3x+4y-7=0$ and $6x+8y+1=0$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac32$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac65$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac85$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac34$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Write the second line as $3x+4y+\\frac12=0$. The distance is $\\frac{|-7-\\frac12|}{5}=\\frac{15}{10}=\\frac32$. $\\frac85$ uses $c_2=1$ without first making the $x,y$ coefficients equal. $\\frac34$ halves the correct value. $\\frac65$ subtracts the constants as $|-7+\\frac12|$ and then slips, instead of $|-7-\\frac12|$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0037",
+    "subject": "mathematics",
+    "topic": "Straight Lines",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The acute angle between the lines $y=(2-\\sqrt3)x+5$ and $y=(2+\\sqrt3)x-7$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$90^\\circ$"
+      },
+      {
+        "key": "B",
+        "text": "$45^\\circ$"
+      },
+      {
+        "key": "C",
+        "text": "$60^\\circ$"
+      },
+      {
+        "key": "D",
+        "text": "$30^\\circ$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$\\tan\\theta=\\left|\\frac{m_1-m_2}{1+m_1m_2}\\right|=\\frac{2\\sqrt3}{1+(4-3)}=\\sqrt3$, so $\\theta=60^\\circ$. $30^\\circ$ gives $\\tan\\theta=\\frac1{\\sqrt3}$, which comes from inverting the formula (computing $\\cot\\theta$). $90^\\circ$ needs $m_1m_2=-1$, but here $m_1m_2=+1$. $45^\\circ$ has no basis.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0038",
+    "subject": "mathematics",
+    "topic": "Straight Lines",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The image (reflection) of the point $(1,2)$ in the line $3x+4y-1=0$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\left(-\\frac15,\\frac25\\right)$"
+      },
+      {
+        "key": "B",
+        "text": "$\\left(\\frac75,\\frac65\\right)$"
+      },
+      {
+        "key": "C",
+        "text": "$\\left(-\\frac75,-\\frac65\\right)$"
+      },
+      {
+        "key": "D",
+        "text": "$\\left(-\\frac65,-\\frac75\\right)$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The image $(h,k)$ satisfies $\\frac{h-1}{3}=\\frac{k-2}{4}=\\frac{-2(3+8-1)}{25}=-\\frac45$. So $h=1-\\frac{12}{5}=-\\frac75$ and $k=2-\\frac{16}{5}=-\\frac65$. $\\left(-\\frac15,\\frac25\\right)$ is the foot of the perpendicular, which uses the factor $-1$ instead of $-2$. The other two have the signs or the coordinates swapped.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0039",
+    "subject": "mathematics",
+    "topic": "Straight Lines",
+    "difficulty": "hard",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "A line passes through the intersection of $x-y+1=0$ and $2x-3y+5=0$ and is at distance $\\frac75$ from $(3,2)$. Its equation is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$4x+3y-17=0$ or $3x-4y+6=0$"
+      },
+      {
+        "key": "B",
+        "text": "$3x+4y-18=0$ or $4x+3y-17=0$"
+      },
+      {
+        "key": "C",
+        "text": "$4x-3y-1=0$ or $3x-4y-6=0$"
+      },
+      {
+        "key": "D",
+        "text": "$4x-3y+1=0$ or $3x-4y+6=0$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The intersection point is $(2,3)$. A line through it is $mx-y+3-2m=0$, and its distance from $(3,2)$ is $\\frac{|m+1|}{\\sqrt{m^2+1}}=\\frac75$. This gives $12m^2-25m+12=0$, so $m=\\frac43$ or $\\frac34$. The lines are $4x-3y+1=0$ and $3x-4y+6=0$. The pair with $-1,-6$ does not pass through $(2,3)$. $4x+3y-17=0$ passes through $(2,3)$ but is at distance $\\frac15$ from $(3,2)$. $3x+4y-18=0$ is also at the wrong distance.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0040",
+    "subject": "mathematics",
+    "topic": "Pair of Straight Lines",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The acute angle between the lines represented by $x^2-5xy+6y^2=0$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\tan^{-1}\\frac16$"
+      },
+      {
+        "key": "B",
+        "text": "$\\tan^{-1}\\frac15$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{\\pi}{4}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\tan^{-1}\\frac17$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$\\tan\\theta=\\frac{2\\sqrt{h^2-ab}}{|a+b|}=\\frac{2\\sqrt{\\frac{25}{4}-6}}{7}=\\frac17$. You can also factor as $(x-2y)(x-3y)$, giving slopes $\\frac12$ and $\\frac13$. $\\frac15$ uses $a-b$ in the denominator. $\\frac16$ is the product of the slopes. $\\frac{\\pi}{4}$ is the angle between $y=x$ and the $x$-axis.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0041",
+    "subject": "mathematics",
+    "topic": "Pair of Straight Lines",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The distance between the parallel lines given by $x^2+4xy+4y^2+3x+6y-4=0$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$5$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{1}{\\sqrt5}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\sqrt5$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{3}{\\sqrt5}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Put $u=x+2y$: $u^2+3u-4=0$, so $(u+4)(u-1)=0$. The lines are $x+2y+4=0$ and $x+2y-1=0$, at distance $\\frac{|4-(-1)|}{\\sqrt5}=\\sqrt5$. The formula $2\\sqrt{\\frac{g^2-ac}{a(a+b)}}$ gives the same result. $5$ forgets to divide by $\\sqrt5$. $\\frac{3}{\\sqrt5}$ uses $|c_1+c_2|$. $\\frac1{\\sqrt5}$ uses only one constant.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0042",
+    "subject": "mathematics",
+    "topic": "Pair of Straight Lines",
+    "difficulty": "hard",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The lines joining the origin to the points of intersection of the line $x+y=1$ with the circle $x^2+y^2-4x-6y+c=0$ are perpendicular. Then $c=$",
+    "options": [
+      {
+        "key": "A",
+        "text": "$-4$"
+      },
+      {
+        "key": "B",
+        "text": "$4$"
+      },
+      {
+        "key": "C",
+        "text": "$8$"
+      },
+      {
+        "key": "D",
+        "text": "$2$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Homogenise using $1=x+y$: $x^2+y^2-(4x+6y)(x+y)+c(x+y)^2=0$. The coefficient of $x^2$ is $c-3$ and the coefficient of $y^2$ is $c-5$. For perpendicular lines their sum must be zero: $2c-8=0$, so $c=4$. This value is valid because the line still cuts the circle (radius $3$, distance from the centre $2\\sqrt2$). $8$ comes from forgetting the factor $2$. $-4$ is a sign slip. $2$ is half the correct value and has no valid derivation.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0043",
+    "subject": "mathematics",
+    "topic": "Circles",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The centre and radius of the circle $2x^2+2y^2-4x+8y-8=0$ are",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(2,-4)$ and $\\sqrt{28}$"
+      },
+      {
+        "key": "B",
+        "text": "$(1,-2)$ and $3$"
+      },
+      {
+        "key": "C",
+        "text": "$(-1,2)$ and $3$"
+      },
+      {
+        "key": "D",
+        "text": "$(1,-2)$ and $\\sqrt5$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Divide by $2$: $x^2+y^2-2x+4y-4=0$. The centre is $(-g,-f)=(1,-2)$ and $r=\\sqrt{1+4+4}=3$. $(-1,2)$ takes the centre as $(g,f)$. $\\sqrt5$ omits the constant term $-c=4$. $(2,-4)$ and $\\sqrt{28}$ come from not dividing by $2$ first.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0044",
+    "subject": "mathematics",
+    "topic": "Circles",
+    "difficulty": "hard",
+    "exams": [
+      "ap-eamcet"
+    ],
+    "stem": "The equation of the circle through the points of intersection of $x^2+y^2=9$ and $x+y=1$ whose centre lies on the line $x+y=1$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$x^2+y^2-x-y-10=0$"
+      },
+      {
+        "key": "B",
+        "text": "$x^2+y^2+x+y-10=0$"
+      },
+      {
+        "key": "C",
+        "text": "$x^2+y^2-2x-2y-7=0$"
+      },
+      {
+        "key": "D",
+        "text": "$x^2+y^2-x-y-8=0$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Circles through these points have the form $x^2+y^2-9+\\lambda(x+y-1)=0$, with centre $(-\\frac\\lambda2,-\\frac\\lambda2)$. The centre lies on $x+y=1$, so $-\\lambda=1$ and $\\lambda=-1$. This gives $x^2+y^2-x-y-8=0$, the circle with the common chord as diameter. $+x+y-10$ uses $\\lambda=+1$. $-2x-2y-7$ is in the family ($\\lambda=-2$), but its centre $(1,1)$ is not on the line. $-x-y-10$ is not in the family, because $\\lambda=-1$ forces the constant $-8$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0045",
+    "subject": "mathematics",
+    "topic": "Circles",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The pole of the line $x+2y=5$ with respect to the circle $x^2+y^2=10$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(4,2)$"
+      },
+      {
+        "key": "B",
+        "text": "$(1,2)$"
+      },
+      {
+        "key": "C",
+        "text": "$(2,4)$"
+      },
+      {
+        "key": "D",
+        "text": "$(-2,-4)$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The polar of $(x_1,y_1)$ with respect to $x^2+y^2=10$ is $xx_1+yy_1=10$. Comparing with $x+2y=5$: $\\frac{x_1}{1}=\\frac{y_1}{2}=\\frac{10}{5}=2$, so the pole is $(2,4)$. $(1,2)$ forgets to scale to the radius squared $10$. $(4,2)$ swaps the coordinates. $(-2,-4)$ has a sign error.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0046",
+    "subject": "mathematics",
+    "topic": "Circles",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The number of common tangents to the circles $x^2+y^2=4$ and $x^2+y^2-6x-8y+16=0$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2$"
+      },
+      {
+        "key": "B",
+        "text": "$4$"
+      },
+      {
+        "key": "C",
+        "text": "$1$"
+      },
+      {
+        "key": "D",
+        "text": "$3$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The centres are $(0,0)$ and $(3,4)$, and the radii are $2$ and $\\sqrt{9+16-16}=3$. The distance between the centres is $5=r_1+r_2$, so the circles touch externally and have $3$ common tangents. $4$ needs $d>r_1+r_2$ (separate circles). $2$ needs intersecting circles. $1$ needs internal touching, $d=|r_1-r_2|$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0047",
+    "subject": "mathematics",
+    "topic": "System of Circles",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The radical axis of the circles $x^2+y^2+2x+3y+1=0$ and $x^2+y^2-x+y-2=0$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$3x-2y+3=0$"
+      },
+      {
+        "key": "B",
+        "text": "$3x+2y+3=0$"
+      },
+      {
+        "key": "C",
+        "text": "$3x+2y-1=0$"
+      },
+      {
+        "key": "D",
+        "text": "$x+4y-1=0$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The radical axis is $S_1-S_2=0$: $(2x+x)+(3y-y)+(1+2)=0$, i.e. $3x+2y+3=0$. $x+4y-1=0$ comes from adding the equations. $3x+2y-1=0$ subtracts the constants wrongly ($1-2$). $3x-2y+3=0$ has a sign error in the $y$-coefficient.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0048",
+    "subject": "mathematics",
+    "topic": "System of Circles",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The circles $x^2+y^2-4x+6y+k=0$ and $x^2+y^2+2x-2y-2=0$ cut each other orthogonally. Then $k=$",
+    "options": [
+      {
+        "key": "A",
+        "text": "$-12$"
+      },
+      {
+        "key": "B",
+        "text": "$12$"
+      },
+      {
+        "key": "C",
+        "text": "$-8$"
+      },
+      {
+        "key": "D",
+        "text": "$8$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The orthogonality condition is $2g_1g_2+2f_1f_2=c_1+c_2$. Here $2(-2)(1)+2(3)(-1)=-10=k-2$, so $k=-8$. (The first circle then has $r^2=4+9+8>0$, so it is real.) $8$ has a sign slip. $-12$ comes from $c_1-c_2$. $12$ combines both errors.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0049",
+    "subject": "mathematics",
+    "topic": "Parabola",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The equation of the tangent to the parabola $y^2=8x$ at the point $(2,4)$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$x-y+2=0$"
+      },
+      {
+        "key": "B",
+        "text": "$x+y-6=0$"
+      },
+      {
+        "key": "C",
+        "text": "$2x-y=0$"
+      },
+      {
+        "key": "D",
+        "text": "$x-2y+6=0$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The tangent at $(x_1,y_1)$ to $y^2=4ax$ is $yy_1=2a(x+x_1)$. With $a=2$: $4y=4(x+2)$, i.e. $y=x+2$. $x+y-6=0$ is the normal at $(2,4)$. $2x-y=0$ joins the origin to the point. $x-2y+6=0$ uses $yy_1=a(x+x_1)$, which misses the factor $2$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0050",
+    "subject": "mathematics",
+    "topic": "Parabola",
+    "difficulty": "hard",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The normal to $y^2=12x$ at $(3,6)$ meets the parabola again at",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(12,-12)$"
+      },
+      {
+        "key": "B",
+        "text": "$(3,-6)$"
+      },
+      {
+        "key": "C",
+        "text": "$(27,-18)$"
+      },
+      {
+        "key": "D",
+        "text": "$(48,-24)$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "For $a=3$, the point $(3,6)$ is $(at^2,2at)$ with $t_1=1$. A normal at $t_1$ meets the parabola again at $t_2=-t_1-\\frac{2}{t_1}=-3$, i.e. $(3\\cdot9,\\,2\\cdot3\\cdot(-3))=(27,-18)$. Check: the normal is $x+y=9$, and $27-18=9$. $(3,-6)$ is the other end of the latus rectum ($t=-1$). $(12,-12)$ uses $t_2=-2$, i.e. $-\\frac{2}{t_1}$ alone. $(48,-24)$ uses $t_2=-4$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0051",
+    "subject": "mathematics",
+    "topic": "Parabola",
+    "difficulty": "easy",
+    "exams": [
+      "ap-eamcet"
+    ],
+    "stem": "The focus of the parabola $y^2-4y-8x+12=0$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(1,2)$"
+      },
+      {
+        "key": "B",
+        "text": "$(3,2)$"
+      },
+      {
+        "key": "C",
+        "text": "$(-1,2)$"
+      },
+      {
+        "key": "D",
+        "text": "$(3,-2)$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Complete the square: $(y-2)^2=8(x-1)$. The vertex is $(1,2)$ and $4a=8$, so $a=2$. The focus is $(1+2,2)=(3,2)$. $(1,2)$ is the vertex. $(-1,2)$ moves the wrong way (onto the directrix line). $(3,-2)$ has the sign of the $y$-shift wrong.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0052",
+    "subject": "mathematics",
+    "topic": "Ellipse",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The eccentricity of the ellipse $9x^2+25y^2=225$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac35$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac54$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac34$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac45$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Dividing by $225$ gives $\\frac{x^2}{25}+\\frac{y^2}{9}=1$, so $a=5$, $b=3$ and $e=\\sqrt{1-\\frac{9}{25}}=\\frac45$. $\\frac35$ is $\\frac ba$. $\\frac54$ is greater than $1$, which is impossible for an ellipse (it is the hyperbola-type formula). $\\frac34$ is $\\frac{b}{\\sqrt{a^2-b^2}}$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0053",
+    "subject": "mathematics",
+    "topic": "Ellipse",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The tangent to the ellipse $\\frac{x^2}{9}+\\frac{y^2}{4}=1$ at the point with eccentric angle $\\frac{\\pi}{3}$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2x+3\\sqrt3\\,y=12$"
+      },
+      {
+        "key": "B",
+        "text": "$3x+2\\sqrt3\\,y=12$"
+      },
+      {
+        "key": "C",
+        "text": "$2x+\\sqrt3\\,y=6$"
+      },
+      {
+        "key": "D",
+        "text": "$\\sqrt3x+2y=6$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The tangent at $(a\\cos\\theta,b\\sin\\theta)$ is $\\frac{x\\cos\\theta}{a}+\\frac{y\\sin\\theta}{b}=1$, i.e. $\\frac{x}{6}+\\frac{\\sqrt3y}{4}=1$. Multiplying by $12$ gives $2x+3\\sqrt3y=12$, which passes through $(\\frac32,\\sqrt3)$. $3x+2\\sqrt3y=12$ swaps $a$ and $b$. $2x+\\sqrt3y=6$ passes through the point of contact but has slope $-\\frac{2}{\\sqrt3}$ instead of the tangent slope $-\\frac{2}{3\\sqrt3}$. $\\sqrt3x+2y=6$ does not even pass through $(\\frac32,\\sqrt3)$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0054",
+    "subject": "mathematics",
+    "topic": "Hyperbola",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The eccentricity of the hyperbola $16x^2-9y^2=144$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac35$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac53$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac43$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac54$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In standard form, $\\frac{x^2}{9}-\\frac{y^2}{16}=1$, so $a^2=9$, $b^2=16$ and $e=\\sqrt{1+\\frac{16}{9}}=\\frac53$. $\\frac54$ uses $a^2=16$, i.e. the conjugate hyperbola. $\\frac43$ is $\\frac ba$. $\\frac35<1$ is impossible for a hyperbola.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0055",
+    "subject": "mathematics",
+    "topic": "Hyperbola",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The tangents to the hyperbola $\\frac{x^2}{4}-\\frac{y^2}{3}=1$ that are parallel to $y=x$ are",
+    "options": [
+      {
+        "key": "A",
+        "text": "$y=x\\pm\\sqrt7$"
+      },
+      {
+        "key": "B",
+        "text": "$y=x\\pm1$"
+      },
+      {
+        "key": "C",
+        "text": "$y=x\\pm\\sqrt3$"
+      },
+      {
+        "key": "D",
+        "text": "$y=x\\pm2$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$y=mx+c$ touches $\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$ when $c^2=a^2m^2-b^2=4-3=1$, so $c=\\pm1$. $\\pm\\sqrt7$ uses the ellipse condition $a^2m^2+b^2$. $\\pm2$ uses $c=a$, and $\\pm\\sqrt3$ uses $c=b$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0056",
+    "subject": "mathematics",
+    "topic": "Hyperbola",
+    "difficulty": "medium",
+    "exams": [
+      "ap-eamcet"
+    ],
+    "stem": "The asymptotes of the rectangular hyperbola $xy-3x-2y=0$ are",
+    "options": [
+      {
+        "key": "A",
+        "text": "$x=3,\\ y=2$"
+      },
+      {
+        "key": "B",
+        "text": "$x=2,\\ y=3$"
+      },
+      {
+        "key": "C",
+        "text": "$x=-2,\\ y=-3$"
+      },
+      {
+        "key": "D",
+        "text": "$x=0,\\ y=0$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Rewrite as $(x-2)(y-3)=6$. This is the rectangular hyperbola $XY=6$ with centre $(2,3)$, so the asymptotes are $x=2$ and $y=3$. $x=3,\\ y=2$ reads the coefficients against the wrong variables. $x=-2,\\ y=-3$ has the signs flipped. $x=0,\\ y=0$ are the asymptotes of $xy=c^2$ before the shift.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0057",
+    "subject": "mathematics",
+    "topic": "3D Geometry",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The point dividing the join of $A(2,-1,3)$ and $B(5,2,-3)$ internally in the ratio $1:2$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(4,1,-1)$"
+      },
+      {
+        "key": "B",
+        "text": "$(-1,-4,9)$"
+      },
+      {
+        "key": "C",
+        "text": "$\\left(\\frac72,\\frac12,0\\right)$"
+      },
+      {
+        "key": "D",
+        "text": "$(3,0,1)$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "For ratio $m:n=1:2$, the point is $\\frac{1\\cdot B+2\\cdot A}{3}=\\frac{(5+4,\\,2-2,\\,-3+6)}{3}=(3,0,1)$. $(4,1,-1)$ uses ratio $2:1$. $\\left(\\frac72,\\frac12,0\\right)$ is the midpoint. $(-1,-4,9)$ is the external division point.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0058",
+    "subject": "mathematics",
+    "topic": "3D Geometry",
+    "difficulty": "easy",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The direction cosines of a line with direction ratios $2,-1,-2$ are",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac23,-\\frac13,-\\frac23$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{2}{\\sqrt5},-\\frac{1}{\\sqrt5},-\\frac{2}{\\sqrt5}$"
+      },
+      {
+        "key": "C",
+        "text": "$2,-1,-2$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac29,-\\frac19,-\\frac29$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Divide by $\\sqrt{4+1+4}=3$ to get $\\frac23,-\\frac13,-\\frac23$, whose squares add to $1$. $2,-1,-2$ are only ratios, since their squares add to $9$. Dividing by $9$ uses the square of the magnitude. $\\sqrt5$ ignores one component.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0059",
+    "subject": "mathematics",
+    "topic": "3D Geometry",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The angle between two lines with direction ratios $1,1,2$ and $\\sqrt3-1,\\,-\\sqrt3-1,\\,4$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{\\pi}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{\\pi}{6}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{\\pi}{4}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{\\pi}{3}$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$\\cos\\theta=\\frac{(\\sqrt3-1)-(\\sqrt3+1)+8}{\\sqrt6\\cdot\\sqrt{(\\sqrt3-1)^2+(\\sqrt3+1)^2+16}}=\\frac{6}{\\sqrt6\\cdot\\sqrt{24}}=\\frac12$, so $\\theta=\\frac{\\pi}{3}$. $\\frac{\\pi}{6}$ confuses $\\cos$ with $\\sin$. $\\frac{\\pi}{2}$ would need the numerator to be zero, which happens only if the $\\sqrt3$ terms are mishandled. $\\frac{\\pi}{4}$ has no basis.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eam-mat-b-0060",
+    "subject": "mathematics",
+    "topic": "3D Geometry",
+    "difficulty": "medium",
+    "exams": [
+      "ts-eamcet",
+      "ap-eamcet"
+    ],
+    "stem": "The angle between the planes $2x-y+z=6$ and $x+y+2z=7$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{\\pi}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{\\pi}{6}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{\\pi}{4}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{\\pi}{3}$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "It equals the angle between the normals $(2,-1,1)$ and $(1,1,2)$: $\\cos\\theta=\\frac{2-1+2}{\\sqrt6\\sqrt6}=\\frac12$, so $\\theta=\\frac{\\pi}{3}$. $\\frac{\\pi}{6}$ is the complement, as if one normal were treated as a line lying in the other plane. $\\frac{\\pi}{2}$ would need the dot product of the normals to be $0$, but it is $3$. $\\frac{\\pi}{4}$ comes from $\\cos\\theta=\\frac{3}{\\sqrt{18}}$, a slip in the magnitudes.",
+    "source": {
+      "kind": "authored"
+    }
+  }
+]

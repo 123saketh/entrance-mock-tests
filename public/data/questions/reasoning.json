@@ -1,0 +1,2252 @@
+[
+  {
+    "id": "lr-a-0001",
+    "subject": "reasoning",
+    "topic": "Analogy",
+    "difficulty": "easy",
+    "stem": "Choose the number that completes the analogy.\n\n8 : 64 :: 11 : ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "132"
+      },
+      {
+        "key": "B",
+        "text": "111"
+      },
+      {
+        "key": "C",
+        "text": "121"
+      },
+      {
+        "key": "D",
+        "text": "144"
+      }
+    ],
+    "answer": "C",
+    "explanation": "64 = 8². So the answer is 11² = 121. 132 = 11 × 12 and 144 = 12² are near-miss traps; 111 just repeats the digit.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0002",
+    "subject": "reasoning",
+    "topic": "Analogy",
+    "difficulty": "medium",
+    "stem": "Choose the number that completes the analogy.\n\n3 : 28 :: 5 : ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "125"
+      },
+      {
+        "key": "B",
+        "text": "126"
+      },
+      {
+        "key": "C",
+        "text": "124"
+      },
+      {
+        "key": "D",
+        "text": "136"
+      }
+    ],
+    "answer": "B",
+    "explanation": "28 = 3³ + 1, so the required number is 5³ + 1 = 126. 125 forgets the '+1', 124 uses '−1', and 136 has no consistent rule.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0003",
+    "subject": "reasoning",
+    "topic": "Analogy",
+    "difficulty": "medium",
+    "stem": "Choose the letter group that completes the analogy.\n\nACE : FHJ :: KMO : ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "PQR"
+      },
+      {
+        "key": "B",
+        "text": "OQS"
+      },
+      {
+        "key": "C",
+        "text": "QSU"
+      },
+      {
+        "key": "D",
+        "text": "PRT"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Each letter of ACE moves 5 places forward to give FHJ (A→F, C→H, E→J). Applying +5 to KMO gives PRT. OQS uses +4 and QSU uses +6; PQR ignores the gap of two letters within the group.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0004",
+    "subject": "reasoning",
+    "topic": "Analogy",
+    "difficulty": "easy",
+    "stem": "Choose the word that completes the analogy.\n\nOrnithology : Birds :: Seismology : ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Volcanoes"
+      },
+      {
+        "key": "B",
+        "text": "Oceans"
+      },
+      {
+        "key": "C",
+        "text": "Earthquakes"
+      },
+      {
+        "key": "D",
+        "text": "Rocks"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Ornithology is the study of birds; seismology is the study of earthquakes. Volcanoes are studied in volcanology, oceans in oceanography, and rocks in petrology.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0005",
+    "subject": "reasoning",
+    "topic": "Analogy",
+    "difficulty": "hard",
+    "stem": "In the analogy CAT : UBD, the second word is formed from the first by a fixed rule. Using the same rule, LAMP : ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "QNBM"
+      },
+      {
+        "key": "B",
+        "text": "MBNQ"
+      },
+      {
+        "key": "C",
+        "text": "OLZK"
+      },
+      {
+        "key": "D",
+        "text": "QNCM"
+      }
+    ],
+    "answer": "A",
+    "explanation": "CAT reversed is TAC; shifting each letter one place forward gives UBD. LAMP reversed is PMAL, and +1 gives QNBM. MBNQ applies the shift without reversing; OLZK shifts backward; QNCM wrongly shifts A by two places.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0006",
+    "subject": "reasoning",
+    "topic": "Classification",
+    "difficulty": "easy",
+    "stem": "Find the odd one out.",
+    "options": [
+      {
+        "key": "A",
+        "text": "121"
+      },
+      {
+        "key": "B",
+        "text": "290"
+      },
+      {
+        "key": "C",
+        "text": "169"
+      },
+      {
+        "key": "D",
+        "text": "225"
+      }
+    ],
+    "answer": "B",
+    "explanation": "121 = 11², 169 = 13², 225 = 15² are perfect squares; 290 is not (17² = 289).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0007",
+    "subject": "reasoning",
+    "topic": "Classification",
+    "difficulty": "medium",
+    "stem": "Find the odd one out.",
+    "options": [
+      {
+        "key": "A",
+        "text": "17"
+      },
+      {
+        "key": "B",
+        "text": "29"
+      },
+      {
+        "key": "C",
+        "text": "37"
+      },
+      {
+        "key": "D",
+        "text": "51"
+      }
+    ],
+    "answer": "D",
+    "explanation": "17, 29 and 37 are prime numbers. 51 = 3 × 17 is composite, a common trap because it looks prime.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0008",
+    "subject": "reasoning",
+    "topic": "Classification",
+    "difficulty": "medium",
+    "stem": "Find the odd letter group.",
+    "options": [
+      {
+        "key": "A",
+        "text": "BDF"
+      },
+      {
+        "key": "B",
+        "text": "HJL"
+      },
+      {
+        "key": "C",
+        "text": "RTW"
+      },
+      {
+        "key": "D",
+        "text": "MOQ"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In BDF, HJL and MOQ each letter is two places after the previous one (+2, +2). In RTW the steps are +2 and +3 (R→T→W), so it does not fit.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0009",
+    "subject": "reasoning",
+    "topic": "Classification",
+    "difficulty": "easy",
+    "stem": "Find the odd one out.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Flute"
+      },
+      {
+        "key": "B",
+        "text": "Violin"
+      },
+      {
+        "key": "C",
+        "text": "Sitar"
+      },
+      {
+        "key": "D",
+        "text": "Guitar"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Violin, sitar and guitar are string instruments; the flute is a wind instrument.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0010",
+    "subject": "reasoning",
+    "topic": "Classification",
+    "difficulty": "hard",
+    "stem": "Find the odd number pair.",
+    "options": [
+      {
+        "key": "A",
+        "text": "(3, 10)"
+      },
+      {
+        "key": "B",
+        "text": "(9, 81)"
+      },
+      {
+        "key": "C",
+        "text": "(5, 26)"
+      },
+      {
+        "key": "D",
+        "text": "(7, 50)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In the other pairs the second number is the square of the first plus one: 3²+1 = 10, 5²+1 = 26, 7²+1 = 50. For 9 the rule gives 82, not 81. A student who checks only 'square' may wrongly pick another pair.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0011",
+    "subject": "reasoning",
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "stem": "Find the next term: 2, 6, 12, 20, 30, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "40"
+      },
+      {
+        "key": "B",
+        "text": "44"
+      },
+      {
+        "key": "C",
+        "text": "36"
+      },
+      {
+        "key": "D",
+        "text": "42"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The terms are 1×2, 2×3, 3×4, 4×5, 5×6, so the next is 6×7 = 42. Equivalently the differences 4, 6, 8, 10 increase by 2, so the next difference is 12. 40 assumes a difference of 10 again.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0012",
+    "subject": "reasoning",
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "stem": "Find the next term: 5, 10, 20, 40, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "60"
+      },
+      {
+        "key": "B",
+        "text": "80"
+      },
+      {
+        "key": "C",
+        "text": "70"
+      },
+      {
+        "key": "D",
+        "text": "100"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Each term is double the previous one, so the next is 40 × 2 = 80. 60 adds 20 as if the series were arithmetic; 70 and 100 follow no consistent rule.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0013",
+    "subject": "reasoning",
+    "topic": "Number Series",
+    "difficulty": "medium",
+    "stem": "Find the next term: 3, 7, 15, 31, 63, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "127"
+      },
+      {
+        "key": "B",
+        "text": "125"
+      },
+      {
+        "key": "C",
+        "text": "126"
+      },
+      {
+        "key": "D",
+        "text": "128"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Each term = 2 × previous + 1 (3→7→15→31→63→127). Also each term is 2ⁿ − 1. 126 and 128 come from doubling without the +1 or with +2.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0014",
+    "subject": "reasoning",
+    "topic": "Number Series",
+    "difficulty": "medium",
+    "stem": "Find the next term: 4, 9, 25, 49, 121, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "144"
+      },
+      {
+        "key": "B",
+        "text": "196"
+      },
+      {
+        "key": "C",
+        "text": "169"
+      },
+      {
+        "key": "D",
+        "text": "225"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The terms are squares of consecutive primes: 2², 3², 5², 7², 11², so next is 13² = 169. 144 = 12² and 225 = 15² use non-primes; 196 = 14² is also not a prime square.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0015",
+    "subject": "reasoning",
+    "topic": "Number Series",
+    "difficulty": "medium",
+    "stem": "Find the wrong number in the series: 6, 11, 21, 36, 57, 81, 111",
+    "options": [
+      {
+        "key": "A",
+        "text": "57"
+      },
+      {
+        "key": "B",
+        "text": "21"
+      },
+      {
+        "key": "C",
+        "text": "36"
+      },
+      {
+        "key": "D",
+        "text": "81"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The differences should be 5, 10, 15, 20, 25, 30. Starting from 6: 11, 21, 36, 56, 81, 111. So 57 should be 56. Note that with 57 the next two differences (21 and 24, then 30) break the pattern, which is why 81 can look wrong at first glance.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0016",
+    "subject": "reasoning",
+    "topic": "Number Series",
+    "difficulty": "hard",
+    "stem": "Find the next term: 2, 3, 8, 27, 112, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "560"
+      },
+      {
+        "key": "B",
+        "text": "448"
+      },
+      {
+        "key": "C",
+        "text": "570"
+      },
+      {
+        "key": "D",
+        "text": "565"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Rule: multiply by n and add n for n = 1, 2, 3, ...: 2×1+1 = 3, 3×2+2 = 8, 8×3+3 = 27, 27×4+4 = 112, 112×5+5 = 565. 560 forgets the '+5'; 448 multiplies by 4 again; 570 adds 10.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0017",
+    "subject": "reasoning",
+    "topic": "Number Series",
+    "difficulty": "medium",
+    "stem": "Find the next term: 1, 2, 6, 15, 31, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "55"
+      },
+      {
+        "key": "B",
+        "text": "57"
+      },
+      {
+        "key": "C",
+        "text": "56"
+      },
+      {
+        "key": "D",
+        "text": "62"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The differences are 1, 4, 9, 16, i.e. 1², 2², 3², 4². The next difference is 5² = 25, so 31 + 25 = 56. 62 doubles the last term; 55 and 57 are off-by-one traps.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0018",
+    "subject": "reasoning",
+    "topic": "Letter Series",
+    "difficulty": "easy",
+    "stem": "Find the next letter: A, C, F, J, O, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "T"
+      },
+      {
+        "key": "B",
+        "text": "U"
+      },
+      {
+        "key": "C",
+        "text": "V"
+      },
+      {
+        "key": "D",
+        "text": "S"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The gaps increase by one: A(+2)C(+3)F(+4)J(+5)O(+6) → U. T and V are one place off; S keeps the gap at +4.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0019",
+    "subject": "reasoning",
+    "topic": "Letter Series",
+    "difficulty": "medium",
+    "stem": "Find the next term: ZXU, WUR, TRO, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "QOM"
+      },
+      {
+        "key": "B",
+        "text": "QOL"
+      },
+      {
+        "key": "C",
+        "text": "ROL"
+      },
+      {
+        "key": "D",
+        "text": "QNL"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Each letter moves 3 places back: Z→W→T→Q, X→U→R→O, U→R→O→L. So the next group is QOL. The other options shift one of the letters incorrectly.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0020",
+    "subject": "reasoning",
+    "topic": "Letter Series",
+    "difficulty": "medium",
+    "stem": "Find the next letter: B, Y, D, W, F, U, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "S"
+      },
+      {
+        "key": "B",
+        "text": "G"
+      },
+      {
+        "key": "C",
+        "text": "T"
+      },
+      {
+        "key": "D",
+        "text": "H"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Two alternating series: B, D, F, ? (positions 2, 4, 6 → 8 = H) and Y, W, U (25, 23, 21). The 7th term belongs to the first series, so it is H. S continues the wrong series; G and T use a step of 1.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0021",
+    "subject": "reasoning",
+    "topic": "Letter Series",
+    "difficulty": "hard",
+    "stem": "Find the next term: BEH, DHL, FKP, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "HNT"
+      },
+      {
+        "key": "B",
+        "text": "HMT"
+      },
+      {
+        "key": "C",
+        "text": "INT"
+      },
+      {
+        "key": "D",
+        "text": "HNS"
+      }
+    ],
+    "answer": "A",
+    "explanation": "First letters: B, D, F, H (+2). Second letters: E, H, K, N (+3). Third letters: H, L, P, T (+4). So the answer is HNT. Each distractor gets one of the three sub-series wrong.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0022",
+    "subject": "reasoning",
+    "topic": "Coding-Decoding",
+    "difficulty": "easy",
+    "stem": "If PENCIL is coded as QFODJM, how is ERASER coded in the same language?",
+    "options": [
+      {
+        "key": "A",
+        "text": "FSBTFR"
+      },
+      {
+        "key": "B",
+        "text": "DQZRDQ"
+      },
+      {
+        "key": "C",
+        "text": "FSBTFS"
+      },
+      {
+        "key": "D",
+        "text": "FSATFS"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Each letter is replaced by the next letter: P→Q, E→F, ... So ERASER → FSBTFS. DQZRDQ uses the previous letter; the other two options mis-shift one letter.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0023",
+    "subject": "reasoning",
+    "topic": "Coding-Decoding",
+    "difficulty": "easy",
+    "stem": "If CAT is coded as 24 (the sum of the positions of its letters in the alphabet), what is the code for DOG?",
+    "options": [
+      {
+        "key": "A",
+        "text": "26"
+      },
+      {
+        "key": "B",
+        "text": "25"
+      },
+      {
+        "key": "C",
+        "text": "27"
+      },
+      {
+        "key": "D",
+        "text": "28"
+      }
+    ],
+    "answer": "A",
+    "explanation": "CAT = 3 + 1 + 20 = 24. DOG = 4 + 15 + 7 = 26. The other values result from mis-counting one letter's position (e.g. O as 14 or 16).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0024",
+    "subject": "reasoning",
+    "topic": "Coding-Decoding",
+    "difficulty": "medium",
+    "stem": "In a certain code, MONKEY is written as XDJMNL. How is TIGER written in that code?",
+    "options": [
+      {
+        "key": "A",
+        "text": "SHFDQ"
+      },
+      {
+        "key": "B",
+        "text": "QDFHS"
+      },
+      {
+        "key": "C",
+        "text": "SFHJU"
+      },
+      {
+        "key": "D",
+        "text": "QDFHT"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Each letter of MONKEY is moved one place back (LNMJDX) and the result is reversed (XDJMNL). For TIGER: one place back gives SHFDQ, reversed gives QDFHS. SHFDQ forgets to reverse; SFHJU moves letters forward; QDFHT mis-shifts T.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0025",
+    "subject": "reasoning",
+    "topic": "Coding-Decoding",
+    "difficulty": "easy",
+    "stem": "In a code language, 'pik nok tam' means 'sweet hot tea', 'tam jil pik' means 'tea is sweet', and 'nok ras' means 'hot water'. What is the code for 'is'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "pik"
+      },
+      {
+        "key": "B",
+        "text": "tam"
+      },
+      {
+        "key": "C",
+        "text": "jil"
+      },
+      {
+        "key": "D",
+        "text": "ras"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The first two sentences share 'pik' and 'tam' and the words 'sweet' and 'tea', so pik/tam stand for sweet/tea. The remaining word of the second sentence, 'jil', must mean 'is'. 'ras' means 'water' (from the third sentence, since 'nok' = 'hot').",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0026",
+    "subject": "reasoning",
+    "topic": "Coding-Decoding",
+    "difficulty": "medium",
+    "stem": "If GOLD is coded as TLOW, how is SILVER coded in the same way?",
+    "options": [
+      {
+        "key": "A",
+        "text": "HROVEI"
+      },
+      {
+        "key": "B",
+        "text": "HRPEVI"
+      },
+      {
+        "key": "C",
+        "text": "GROEVI"
+      },
+      {
+        "key": "D",
+        "text": "HROEVI"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Each letter is replaced by its 'opposite' letter (A↔Z, B↔Y, ...; the positions add up to 27): G(7)→T(20), O→L, L→O, D→W. For SILVER: S→H, I→R, L→O, V→E, E→V, R→I = HROEVI. HROVEI swaps two letters; HRPEVI and GROEVI mis-convert one letter.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0027",
+    "subject": "reasoning",
+    "topic": "Coding-Decoding",
+    "difficulty": "hard",
+    "stem": "In a certain code, FRIEND is written as HUMJTK. How is CANDLE written in that code?",
+    "options": [
+      {
+        "key": "A",
+        "text": "EDRIRL"
+      },
+      {
+        "key": "B",
+        "text": "EDRJRL"
+      },
+      {
+        "key": "C",
+        "text": "EDQIRL"
+      },
+      {
+        "key": "D",
+        "text": "DCRIRL"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The letters are shifted by +2, +3, +4, +5, +6, +7 in order: F+2 = H, R+3 = U, I+4 = M, E+5 = J, N+6 = T, D+7 = K. For CANDLE: C+2 = E, A+3 = D, N+4 = R, D+5 = I, L+6 = R, E+7 = L → EDRIRL. The distractors each apply one shift incorrectly (e.g. a constant +1 for the first letters in DCRIRL).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0028",
+    "subject": "reasoning",
+    "topic": "Coding-Decoding",
+    "difficulty": "medium",
+    "stem": "If ROSE is coded as 6821, CHAIR as 73456 and PREACH as 961473, how is SEARCH coded?",
+    "options": [
+      {
+        "key": "A",
+        "text": "214763"
+      },
+      {
+        "key": "B",
+        "text": "216473"
+      },
+      {
+        "key": "C",
+        "text": "214673"
+      },
+      {
+        "key": "D",
+        "text": "241673"
+      }
+    ],
+    "answer": "C",
+    "explanation": "From the given words: R = 6, O = 8, S = 2, E = 1, C = 7, H = 3, A = 4, I = 5, P = 9 (the codes are consistent, e.g. R = 6 in all three). SEARCH → S2 E1 A4 R6 C7 H3 = 214673. The distractors swap pairs of digits.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0029",
+    "subject": "reasoning",
+    "topic": "Blood Relations",
+    "difficulty": "easy",
+    "stem": "Pointing to a young man, Riya said, \"He is the son of my grandfather's only son.\" How is the young man related to Riya?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cousin"
+      },
+      {
+        "key": "B",
+        "text": "Uncle"
+      },
+      {
+        "key": "C",
+        "text": "Father"
+      },
+      {
+        "key": "D",
+        "text": "Brother"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Riya's (paternal) grandfather's only son is Riya's father. The son of Riya's father is her brother. 'Cousin' would require the grandfather to have another child; 'Father' is the grandfather's son himself, not his son's son.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0030",
+    "subject": "reasoning",
+    "topic": "Blood Relations",
+    "difficulty": "easy",
+    "stem": "A is the sister of B. C is the mother of B. D is the father of C. How is A related to D?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Daughter"
+      },
+      {
+        "key": "B",
+        "text": "Granddaughter"
+      },
+      {
+        "key": "C",
+        "text": "Grandmother"
+      },
+      {
+        "key": "D",
+        "text": "Niece"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A and B are siblings, so C is also A's mother. D is C's father, i.e. A's grandfather. Since A is a sister (female), A is D's granddaughter. 'Daughter' skips a generation; 'Niece' would need D to be C's brother.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0031",
+    "subject": "reasoning",
+    "topic": "Blood Relations",
+    "difficulty": "medium",
+    "stem": "Introducing a woman, Arun said, \"She is the wife of the only son of my father's father.\" How is the woman related to Arun?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Aunt"
+      },
+      {
+        "key": "B",
+        "text": "Mother"
+      },
+      {
+        "key": "C",
+        "text": "Grandmother"
+      },
+      {
+        "key": "D",
+        "text": "Sister"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Arun's father's father is his grandfather; the grandfather's only son is Arun's father; the father's wife is Arun's mother. 'Aunt' would need another son; 'Grandmother' is the grandfather's wife.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0032",
+    "subject": "reasoning",
+    "topic": "Blood Relations",
+    "difficulty": "medium",
+    "stem": "P + Q means P is the father of Q; P − Q means P is the wife of Q; P × Q means P is the brother of Q; P ÷ Q means P is the daughter of Q. If A + B × C − D, how is A related to D?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Father"
+      },
+      {
+        "key": "B",
+        "text": "Brother-in-law"
+      },
+      {
+        "key": "C",
+        "text": "Uncle"
+      },
+      {
+        "key": "D",
+        "text": "Father-in-law"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A + B: A is B's father. B × C: B is C's brother, so A is also C's father. C − D: C is D's wife. Hence A is the father of D's wife, i.e. D's father-in-law. 'Brother-in-law' would be B's relation to D.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0033",
+    "subject": "reasoning",
+    "topic": "Blood Relations",
+    "difficulty": "hard",
+    "stem": "In a family of six members A, B, C, D, E and F, there are two married couples. D is the grandmother of A and the mother of B. C is the wife of B and the mother of F. F is the granddaughter of E. How is F related to A?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sister"
+      },
+      {
+        "key": "B",
+        "text": "Cousin"
+      },
+      {
+        "key": "C",
+        "text": "Daughter"
+      },
+      {
+        "key": "D",
+        "text": "Niece"
+      }
+    ],
+    "answer": "A",
+    "explanation": "D is the mother of B and grandmother of A, so A is a child of B. The couples are B–C and D–E (F is E's granddaughter, so E is the grandfather). F is the daughter of B and C, so A and F have the same parents: F (female) is A's sister. 'Cousin' assumes A and F have different parents, but only B–C have children in the next generation.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0034",
+    "subject": "reasoning",
+    "topic": "Direction Sense",
+    "difficulty": "easy",
+    "stem": "Ravi walks 5 km north, turns right and walks 3 km, then turns right again and walks 5 km. Where is he now with respect to his starting point?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3 km west"
+      },
+      {
+        "key": "B",
+        "text": "13 km east"
+      },
+      {
+        "key": "C",
+        "text": "3 km east"
+      },
+      {
+        "key": "D",
+        "text": "5 km north"
+      }
+    ],
+    "answer": "C",
+    "explanation": "North 5 km, right turn → east 3 km, right turn → south 5 km. The north and south walks cancel, leaving him 3 km east. '3 km west' results from treating the right turns as left turns; 13 km adds all distances.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0035",
+    "subject": "reasoning",
+    "topic": "Direction Sense",
+    "difficulty": "medium",
+    "stem": "Meena walks 10 m south, turns left and walks 6 m, turns left and walks 18 m, then turns right and walks 9 m. How far is she from her starting point?",
+    "options": [
+      {
+        "key": "A",
+        "text": "15 m"
+      },
+      {
+        "key": "B",
+        "text": "23 m"
+      },
+      {
+        "key": "C",
+        "text": "13 m"
+      },
+      {
+        "key": "D",
+        "text": "17 m"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Taking the start as origin: south 10 → (0, −10); left (east) 6 → (6, −10); left (north) 18 → (6, 8); right (east) 9 → (15, 8). Distance = √(15² + 8²) = √289 = 17 m. 15 m is only the east-west component and 23 m adds the components.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0036",
+    "subject": "reasoning",
+    "topic": "Direction Sense",
+    "difficulty": "medium",
+    "stem": "One morning, shortly after sunrise, Suresh stood facing a pole. The shadow of the pole fell exactly to his right. Which direction was Suresh facing?",
+    "options": [
+      {
+        "key": "A",
+        "text": "South"
+      },
+      {
+        "key": "B",
+        "text": "North"
+      },
+      {
+        "key": "C",
+        "text": "East"
+      },
+      {
+        "key": "D",
+        "text": "West"
+      }
+    ],
+    "answer": "A",
+    "explanation": "After sunrise the sun is in the east, so shadows fall towards the west. If west is on Suresh's right, he must be facing south. Facing north would put west on his left.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0037",
+    "subject": "reasoning",
+    "topic": "Direction Sense",
+    "difficulty": "medium",
+    "stem": "Town B is 12 km north of town A. Town C is 3 km east of B. Town D is 8 km south of C. How far and in which direction is D from A?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 km, north-west"
+      },
+      {
+        "key": "B",
+        "text": "5 km, north-east"
+      },
+      {
+        "key": "C",
+        "text": "7 km, north-east"
+      },
+      {
+        "key": "D",
+        "text": "4 km, north"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Taking A as the origin: B = (0, 12), C = (3, 12), D = (3, 4). D is 3 km east and 4 km north of A, so the distance is √(9 + 16) = 5 km towards the north-east. 7 km adds 3 + 4; north-west reverses the east component.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0038",
+    "subject": "reasoning",
+    "topic": "Seating Arrangement",
+    "difficulty": "medium",
+    "stem": "Five friends A, B, C, D and E sit in a row facing north. C sits in the middle. A sits to the immediate right of C. B sits at one of the extreme ends. D does not sit next to C. Who sits second from the left end?",
+    "options": [
+      {
+        "key": "A",
+        "text": "D"
+      },
+      {
+        "key": "B",
+        "text": "B"
+      },
+      {
+        "key": "C",
+        "text": "E"
+      },
+      {
+        "key": "D",
+        "text": "A"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Positions 1-5 from the left: C = 3, A = 4. B and D must take the ends (B by condition; D cannot be at 2, which is next to C). So E is at position 2. Whichever end B and D occupy, E is fixed at second from the left.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0039",
+    "subject": "reasoning",
+    "topic": "Seating Arrangement",
+    "difficulty": "medium",
+    "stem": "Six people P, Q, R, S, T and U sit around a circular table facing the centre. P sits opposite S. Q is to the immediate left of P, and U is to the immediate right of P. T is to the immediate right of S. Who sits opposite Q?",
+    "options": [
+      {
+        "key": "A",
+        "text": "T"
+      },
+      {
+        "key": "B",
+        "text": "U"
+      },
+      {
+        "key": "C",
+        "text": "R"
+      },
+      {
+        "key": "D",
+        "text": "S"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Facing the centre, a person's left neighbour is the next seat clockwise. Number seats clockwise with P at 1: Q (left of P) at 2, S (opposite P) at 4, U (right of P) at 6. T, to the right of S, is at 3. R takes seat 5, which is opposite seat 2 (Q). T is opposite U, and S is opposite P.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0040",
+    "subject": "reasoning",
+    "topic": "Seating Arrangement",
+    "difficulty": "hard",
+    "stem": "Six persons J, K, L, M, N and O sit in a row facing north. K sits third to the right of J. L sits at the extreme right end. N sits to the immediate right of J. M sits second to the left of N. O does not sit at either end. Who sits at the extreme left end?",
+    "options": [
+      {
+        "key": "A",
+        "text": "J"
+      },
+      {
+        "key": "B",
+        "text": "M"
+      },
+      {
+        "key": "C",
+        "text": "O"
+      },
+      {
+        "key": "D",
+        "text": "N"
+      }
+    ],
+    "answer": "B",
+    "explanation": "L = 6. If J = 1, then N = 2 and M would be at position 0, impossible. If J = 2, then N = 3, M = 1 and K = 5, leaving O = 4 (not an end) — valid. If J = 3, K = 6 clashes with L. So the order is M, J, N, O, K, L, and M is at the left end. Without the clue about N, J could also be at the left end, which is the trap.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0041",
+    "subject": "reasoning",
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "stem": "Consider the statements to be true even if they seem to differ from commonly known facts. Decide which of the given conclusions logically follow.\n\nStatements:\nAll roses are flowers.\nAll flowers are plants.\n\nConclusions:\nI. All roses are plants.\nII. Some plants are roses.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "key": "B",
+        "text": "Only conclusion II follows"
+      },
+      {
+        "key": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "key": "D",
+        "text": "Neither I nor II follows"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Roses ⊂ flowers ⊂ plants, so all roses are plants (I). Converting 'All roses are plants' gives 'Some plants are roses' (II). Both follow. Students often reject II because 'all' becomes 'some', but a partial converse of a universal affirmative is valid.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0042",
+    "subject": "reasoning",
+    "topic": "Syllogism",
+    "difficulty": "medium",
+    "stem": "Consider the statements to be true even if they seem to differ from commonly known facts. Decide which of the given conclusions logically follow.\n\nStatements:\nSome pens are books.\nNo book is a bag.\n\nConclusions:\nI. Some pens are not bags.\nII. No pen is a bag.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "key": "B",
+        "text": "Only conclusion II follows"
+      },
+      {
+        "key": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "key": "D",
+        "text": "Neither I nor II follows"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The pens that are books cannot be bags (since no book is a bag), so 'Some pens are not bags' follows. Other pens (those that are not books) may or may not be bags, so 'No pen is a bag' is not certain. Hence only I.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0043",
+    "subject": "reasoning",
+    "topic": "Syllogism",
+    "difficulty": "medium",
+    "stem": "Consider the statements to be true even if they seem to differ from commonly known facts. Decide which of the given conclusions logically follow.\n\nStatements:\nAll cats are dogs.\nSome dogs are rats.\n\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "key": "B",
+        "text": "Only conclusion II follows"
+      },
+      {
+        "key": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "key": "D",
+        "text": "Neither I nor II follows"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The dogs that are rats may lie entirely outside the cat region, so I does not necessarily follow. II is simply the converse of 'Some dogs are rats', which is always valid. Hence only II.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0044",
+    "subject": "reasoning",
+    "topic": "Syllogism",
+    "difficulty": "hard",
+    "stem": "Consider the statements to be true even if they seem to differ from commonly known facts. Decide which of the given conclusions logically follow.\n\nStatements:\nSome A are B.\nSome B are C.\n\nConclusions:\nI. Some A are C.\nII. No A is C.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "key": "B",
+        "text": "Only conclusion II follows"
+      },
+      {
+        "key": "C",
+        "text": "Neither I nor II follows"
+      },
+      {
+        "key": "D",
+        "text": "Either I or II follows"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Neither conclusion follows on its own because two 'some' premises give no definite link between A and C. However, I and II form a complementary pair (same subject and predicate, one 'some ... are', the other 'no ... is'), so exactly one of them must be true. Hence 'Either I or II follows'. Choosing 'Neither' ignores the complementary-pair rule.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0045",
+    "subject": "reasoning",
+    "topic": "Logical Deduction",
+    "difficulty": "medium",
+    "stem": "Statement: \"Only students who score above 90% in the qualifying test will be eligible for the scholarship.\"\n\nConclusions:\nI. A student who scores 85% in the qualifying test will not be eligible for the scholarship.\nII. Every student who scores above 90% will receive the scholarship.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "key": "B",
+        "text": "Only conclusion II follows"
+      },
+      {
+        "key": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "key": "D",
+        "text": "Neither I nor II follows"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'Only those above 90%' means scoring above 90% is a necessary condition, so a student with 85% is not eligible (I follows). But being eligible is not the same as receiving the scholarship, and a necessary condition is not a sufficient one, so II does not follow.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0046",
+    "subject": "reasoning",
+    "topic": "Logical Deduction",
+    "difficulty": "hard",
+    "stem": "Statement: \"Most of the accidents on the national highway occur between midnight and 4 a.m.\"\n\nConclusions:\nI. Driving on the highway during the day is completely safe.\nII. Fewer vehicles use the highway between midnight and 4 a.m. than during the day.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "key": "B",
+        "text": "Only conclusion II follows"
+      },
+      {
+        "key": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "key": "D",
+        "text": "Neither I nor II follows"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'Most accidents occur at night' does not mean that no accidents happen in the day, so I is an overstatement. The statement gives no information about traffic volume at different hours, so II is an unsupported assumption (if anything, it is irrelevant to the accident count). Neither follows.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0047",
+    "subject": "reasoning",
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "stem": "Read the information and choose the conclusion that must be true.\n\nAll members of the robotics club are engineering students. Some engineering students are members of the music society. No member of the music society plays chess competitively. Rahul is a member of the robotics club.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Rahul is an engineering student."
+      },
+      {
+        "key": "B",
+        "text": "Rahul is a member of the music society."
+      },
+      {
+        "key": "C",
+        "text": "Rahul does not play chess competitively."
+      },
+      {
+        "key": "D",
+        "text": "Some members of the robotics club are in the music society."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Since every robotics club member is an engineering student, Rahul must be one. Only 'some' engineering students are in the music society, so we cannot say Rahul is, or that any robotics member is. Because Rahul's music-society membership is unknown, we also cannot conclude anything about his chess.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0048",
+    "subject": "reasoning",
+    "topic": "Logical Deduction",
+    "difficulty": "hard",
+    "stem": "Read the information and choose the conclusion that can definitely be drawn.\n\nEvery train that stops at Junction X also stops at Junction Y. The Coastal Express does not stop at Junction Y. Some trains that stop at Junction Y run overnight.",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Coastal Express runs overnight."
+      },
+      {
+        "key": "B",
+        "text": "Every train that stops at Junction Y also stops at Junction X."
+      },
+      {
+        "key": "C",
+        "text": "No overnight train stops at Junction X."
+      },
+      {
+        "key": "D",
+        "text": "The Coastal Express does not stop at Junction X."
+      }
+    ],
+    "answer": "D",
+    "explanation": "'Stops at X → stops at Y' implies its contrapositive 'does not stop at Y → does not stop at X', so the Coastal Express cannot stop at X. Nothing is said about its timing. The third option reverses the given implication, and the last cannot be concluded because some overnight trains stopping at Y might also stop at X.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0049",
+    "subject": "reasoning",
+    "topic": "Chart Logic",
+    "difficulty": "easy",
+    "stem": "Three friends, Asha, Bina and Chitra, each own a different pet (cat, dog, parrot) and each has a different favourite colour (red, blue, green). A partially filled chart shows:\n\nAsha: pet = dog, colour = ?\nBina: pet = ?, colour = green\nChitra: pet = ?, colour = ?\n\nAdditional information: Chitra does not own the cat. The parrot owner's favourite colour is red.\n\nWhat is Asha's favourite colour?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Red"
+      },
+      {
+        "key": "B",
+        "text": "Green"
+      },
+      {
+        "key": "C",
+        "text": "Blue"
+      },
+      {
+        "key": "D",
+        "text": "Cannot be determined"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Asha owns the dog and Chitra does not own the cat, so Chitra owns the parrot and Bina the cat. The parrot owner (Chitra) likes red. Bina likes green, so Asha likes blue. Red belongs to Chitra and green to Bina; the chart is fully determined.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0050",
+    "subject": "reasoning",
+    "topic": "Chart Logic",
+    "difficulty": "medium",
+    "stem": "The table shows runs scored by three batsmen P, Q and R in three matches M1, M2 and M3. Some entries are missing.\n\nP: M1 = 20, M2 = 35, M3 = ?, Total = 90\nQ: M1 = ?, M2 = 40, M3 = 25, Total = ?\nR: M1 = 30, M2 = ?, M3 = 45, Total = 100\nMatch totals: M1 = 80\n\nWhat is Q's total score?",
+    "options": [
+      {
+        "key": "A",
+        "text": "95"
+      },
+      {
+        "key": "B",
+        "text": "90"
+      },
+      {
+        "key": "C",
+        "text": "100"
+      },
+      {
+        "key": "D",
+        "text": "85"
+      }
+    ],
+    "answer": "A",
+    "explanation": "From the M1 column: Q's M1 = 80 − 20 − 30 = 30. Q's total = 30 + 40 + 25 = 95. The other missing entries (P's M3 = 35, R's M2 = 25) are not needed. 90 and 100 are the other batsmen's totals; 85 results from taking Q's M1 as 20.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0051",
+    "subject": "reasoning",
+    "topic": "Chart Logic",
+    "difficulty": "hard",
+    "stem": "Four executives, Kumar, Lata, Mohan and Nisha, visit four different cities, Delhi, Pune, Goa and Agra, on four different days from Monday to Thursday (one visit per day). The planning chart has only these entries:\n\nLata: day = Wednesday\nGoa: day = Monday\n\nFurther information: Kumar visits Pune on the day immediately after the Delhi visit. Nisha does not visit Goa.\n\nWho visits Agra, and on which day?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mohan, Tuesday"
+      },
+      {
+        "key": "B",
+        "text": "Nisha, Monday"
+      },
+      {
+        "key": "C",
+        "text": "Mohan, Monday"
+      },
+      {
+        "key": "D",
+        "text": "Nisha, Tuesday"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Goa is on Monday, so the Delhi–Pune pair is Tue–Wed or Wed–Thu. Pune on Wednesday would make Kumar the Wednesday visitor, but that is Lata; so Delhi is Wednesday (Lata) and Pune is Thursday (Kumar). Agra is therefore Tuesday. Of Mohan and Nisha, Nisha cannot visit Goa, so Nisha visits Agra on Tuesday and Mohan visits Goa on Monday.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0052",
+    "subject": "reasoning",
+    "topic": "Ranking and Ordering",
+    "difficulty": "easy",
+    "stem": "In a row of students, Kiran is 14th from the left end and 9th from the right end. How many students are there in the row?",
+    "options": [
+      {
+        "key": "A",
+        "text": "23"
+      },
+      {
+        "key": "B",
+        "text": "22"
+      },
+      {
+        "key": "C",
+        "text": "21"
+      },
+      {
+        "key": "D",
+        "text": "24"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Total = (position from left) + (position from right) − 1 = 14 + 9 − 1 = 22. 23 forgets to subtract 1, counting Kiran twice.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0053",
+    "subject": "reasoning",
+    "topic": "Ranking and Ordering",
+    "difficulty": "medium",
+    "stem": "P is taller than Q but shorter than R. S is taller than R. T is shorter than Q. Who is the third tallest?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P"
+      },
+      {
+        "key": "B",
+        "text": "Q"
+      },
+      {
+        "key": "C",
+        "text": "R"
+      },
+      {
+        "key": "D",
+        "text": "T"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Combining: S > R > P > Q > T. The third tallest is P. R is second tallest, Q is fourth and T is the shortest.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0054",
+    "subject": "reasoning",
+    "topic": "Ranking and Ordering",
+    "difficulty": "hard",
+    "stem": "In a row, A is 10th from the left and B is 15th from the right. When A and B interchange their positions, A becomes 18th from the left. How many people are in the row?",
+    "options": [
+      {
+        "key": "A",
+        "text": "33"
+      },
+      {
+        "key": "B",
+        "text": "31"
+      },
+      {
+        "key": "C",
+        "text": "28"
+      },
+      {
+        "key": "D",
+        "text": "32"
+      }
+    ],
+    "answer": "D",
+    "explanation": "After the swap, A occupies B's original place, which is 18th from the left and 15th from the right. Total = 18 + 15 − 1 = 32. 33 omits the −1; 28 and 31 come from wrongly mixing A's old position (10th) into the count.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0055",
+    "subject": "reasoning",
+    "topic": "Clocks",
+    "difficulty": "easy",
+    "stem": "What is the angle between the hour hand and the minute hand of a clock at 3:30?",
+    "options": [
+      {
+        "key": "A",
+        "text": "90°"
+      },
+      {
+        "key": "B",
+        "text": "75°"
+      },
+      {
+        "key": "C",
+        "text": "60°"
+      },
+      {
+        "key": "D",
+        "text": "105°"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Angle = |30H − 5.5M| = |30 × 3 − 5.5 × 30| = |90 − 165| = 75°. 90° assumes the hour hand stays on 3; at 3:30 it has moved halfway towards 4.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0056",
+    "subject": "reasoning",
+    "topic": "Clocks",
+    "difficulty": "medium",
+    "stem": "How many times in a day (24 hours) are the hour and minute hands of a clock at right angles to each other?",
+    "options": [
+      {
+        "key": "A",
+        "text": "48"
+      },
+      {
+        "key": "B",
+        "text": "22"
+      },
+      {
+        "key": "C",
+        "text": "44"
+      },
+      {
+        "key": "D",
+        "text": "24"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In 12 hours the hands are at right angles 22 times (normally twice an hour, but only once in the 2–4 o'clock and 8–10 o'clock stretches because one occurrence is shared at 3:00 and at 9:00). In 24 hours this gives 44. 48 assumes exactly two per hour; 22 is the count for only 12 hours.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0057",
+    "subject": "reasoning",
+    "topic": "Calendars",
+    "difficulty": "easy",
+    "stem": "If today is Wednesday, what day of the week will it be 75 days from today?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Monday"
+      },
+      {
+        "key": "B",
+        "text": "Sunday"
+      },
+      {
+        "key": "C",
+        "text": "Tuesday"
+      },
+      {
+        "key": "D",
+        "text": "Saturday"
+      }
+    ],
+    "answer": "A",
+    "explanation": "75 = 7 × 10 + 5, so 75 days later is 5 days after Wednesday: Thursday, Friday, Saturday, Sunday, Monday. Sunday comes from counting only 4 extra days.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0058",
+    "subject": "reasoning",
+    "topic": "Calendars",
+    "difficulty": "hard",
+    "stem": "The calendar of the year 2023 will be repeated exactly in which of the following years?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2029"
+      },
+      {
+        "key": "B",
+        "text": "2028"
+      },
+      {
+        "key": "C",
+        "text": "2034"
+      },
+      {
+        "key": "D",
+        "text": "2033"
+      }
+    ],
+    "answer": "C",
+    "explanation": "2023 is a non-leap year starting on Sunday. A year repeats its calendar when the accumulated odd days are a multiple of 7 and the leap status matches. Counting odd days from 2023 (1 for each ordinary year, 2 for each leap year): 2023–2033 gives 1+2+1+1+1+2+1+1+1+2+1 = 14, so 2034 starts on Sunday and is non-leap. 2028 is a leap year; 2029 and 2033 start on other days.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0059",
+    "subject": "reasoning",
+    "topic": "Mathematical Operations",
+    "difficulty": "easy",
+    "stem": "If '+' means '×', '×' means '−', '−' means '÷' and '÷' means '+', find the value of\n\n8 + 3 × 12 − 4 ÷ 2",
+    "options": [
+      {
+        "key": "A",
+        "text": "25"
+      },
+      {
+        "key": "B",
+        "text": "21"
+      },
+      {
+        "key": "C",
+        "text": "19"
+      },
+      {
+        "key": "D",
+        "text": "23"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Substituting: 8 × 3 − 12 ÷ 4 + 2 = 24 − 3 + 2 = 23 (division and multiplication before addition and subtraction). Working left to right without BODMAS gives other values such as 25 or 19.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0060",
+    "subject": "reasoning",
+    "topic": "Mathematical Operations",
+    "difficulty": "medium",
+    "stem": "If P denotes '÷', Q denotes '×', R denotes '+' and S denotes '−', find the value of\n\n36 P 4 Q 3 R 10 S 7",
+    "options": [
+      {
+        "key": "A",
+        "text": "27"
+      },
+      {
+        "key": "B",
+        "text": "30"
+      },
+      {
+        "key": "C",
+        "text": "33"
+      },
+      {
+        "key": "D",
+        "text": "34"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The expression is 36 ÷ 4 × 3 + 10 − 7 = 9 × 3 + 3 = 27 + 3 = 30. 27 stops after the multiplication; computing 4 × 3 first (36 ÷ 12 = 3) gives 6, not an option, a common BODMAS slip.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0061",
+    "subject": "reasoning",
+    "topic": "Mathematical Operations",
+    "difficulty": "medium",
+    "stem": "If 3 # 4 = 25, 5 # 12 = 169 and 6 # 8 = 100, then 7 # 24 = ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "625"
+      },
+      {
+        "key": "B",
+        "text": "576"
+      },
+      {
+        "key": "C",
+        "text": "961"
+      },
+      {
+        "key": "D",
+        "text": "649"
+      }
+    ],
+    "answer": "A",
+    "explanation": "a # b = a² + b²: 9 + 16 = 25, 25 + 144 = 169, 36 + 64 = 100. So 7 # 24 = 49 + 576 = 625. 576 is only 24²; 961 = (7 + 24)² does not fit the examples (e.g. (3 + 4)² = 49, not 25); 649 is an arithmetic slip.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0062",
+    "subject": "reasoning",
+    "topic": "Venn Diagrams",
+    "difficulty": "medium",
+    "stem": "Which statement correctly describes how the three classes Women, Mothers and Doctors would be represented in a Venn diagram?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Women circle lies entirely inside the Mothers circle, and the Doctors circle is separate from both."
+      },
+      {
+        "key": "B",
+        "text": "All three circles are completely separate from one another."
+      },
+      {
+        "key": "C",
+        "text": "The Mothers circle lies inside the Women circle, and the Doctors circle lies entirely inside the Mothers circle."
+      },
+      {
+        "key": "D",
+        "text": "The Mothers circle lies entirely inside the Women circle, and the Doctors circle partly overlaps both."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Every mother is a woman, so Mothers ⊂ Women. Some doctors are women (and some of those are mothers), while some doctors are men, so Doctors partly overlaps both. Not every woman is a mother, so Women cannot be inside Mothers, and not every doctor is a mother.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0063",
+    "subject": "reasoning",
+    "topic": "Venn Diagrams",
+    "difficulty": "hard",
+    "stem": "In a survey of 100 people, 50 read newspaper A, 40 read B and 30 read C. 15 read both A and B, 10 read both B and C, 12 read both A and C, and 5 read all three. How many people read none of the three newspapers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "17"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "22"
+      }
+    ],
+    "answer": "B",
+    "explanation": "n(A ∪ B ∪ C) = 50 + 40 + 30 − 15 − 10 − 12 + 5 = 88. So 100 − 88 = 12 read none. 17 forgets to add back the 5 who read all three (union 83); 7 adds the 5 twice (union 93); 22 subtracts the 5 instead of adding it (union 78).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0064",
+    "subject": "reasoning",
+    "topic": "Mirror and Water Images",
+    "difficulty": "medium",
+    "stem": "Which of the following words, written in capital letters, will look exactly the same when seen in a plane mirror placed vertically to its right?",
+    "options": [
+      {
+        "key": "A",
+        "text": "DAD"
+      },
+      {
+        "key": "B",
+        "text": "NOON"
+      },
+      {
+        "key": "C",
+        "text": "MOM"
+      },
+      {
+        "key": "D",
+        "text": "BOB"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A vertical mirror reverses the left-right order and flips each letter. A word looks unchanged only if it is a palindrome made of letters with vertical symmetry (A, H, I, M, O, T, U, V, W, X, Y). MOM qualifies. DAD, NOON and BOB are palindromes, but D, N and B are not vertically symmetric, so they appear reversed.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0065",
+    "subject": "reasoning",
+    "topic": "Mirror and Water Images",
+    "difficulty": "medium",
+    "stem": "Which of the following words, written in capital letters, will appear unchanged in its water image (reflection in a horizontal surface below it)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "BRAKE"
+      },
+      {
+        "key": "B",
+        "text": "BOXED"
+      },
+      {
+        "key": "C",
+        "text": "PLACE"
+      },
+      {
+        "key": "D",
+        "text": "MAKE"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A water image flips letters upside down without changing their order, so every letter must be symmetric about a horizontal axis (such as B, C, D, E, H, I, K, O, X). All letters of BOXED are. BRAKE contains R and A, PLACE contains P, L and A, and MAKE contains M and A, which change when flipped.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0066",
+    "subject": "reasoning",
+    "topic": "Cubes and Dice",
+    "difficulty": "medium",
+    "stem": "A wooden cube painted red on all faces is cut into 64 identical smaller cubes. How many of the smaller cubes have exactly two faces painted?",
+    "options": [
+      {
+        "key": "A",
+        "text": "24"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "32"
+      }
+    ],
+    "answer": "A",
+    "explanation": "With n = 4 cubes along each edge, two-face cubes lie on the edges but not at the corners: 12 edges × (n − 2) = 12 × 2 = 24. 8 is the number of corner cubes (three faces painted) and also of unpainted inner cubes.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0067",
+    "subject": "reasoning",
+    "topic": "Cubes and Dice",
+    "difficulty": "hard",
+    "stem": "A die has faces numbered 1 to 6. In three different positions of the die, the three visible faces are {1, 2, 3}, {1, 4, 5} and {3, 4, 6} respectively. Which number is on the face opposite to 2?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Faces seen together are adjacent, never opposite. 1 is adjacent to 2, 3, 4 and 5, so 6 is opposite 1. 3 is adjacent to 1, 2, 4 and 6, so 5 is opposite 3. The remaining pair is 2 and 4. So 1 and 6 are adjacent to 2, and 5 is opposite 3, not 2.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0068",
+    "subject": "reasoning",
+    "topic": "Pattern Perception",
+    "difficulty": "easy",
+    "stem": "In the 4 × 4 number grid below, the bottom-right quarter (2 × 2) is missing. Which quarter completes the pattern?\n\nRow 1: 1  2  3  4\nRow 2: 2  4  6  8\nRow 3: 3  6  ?  ?\nRow 4: 4  8  ?  ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Row 3: 9 12; Row 4: 12 15"
+      },
+      {
+        "key": "B",
+        "text": "Row 3: 8 12; Row 4: 12 16"
+      },
+      {
+        "key": "C",
+        "text": "Row 3: 9 12; Row 4: 12 16"
+      },
+      {
+        "key": "D",
+        "text": "Row 3: 9 11; Row 4: 12 16"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Each entry equals (row number) × (column number). Row 3 ends 3 × 3 = 9, 3 × 4 = 12; Row 4 ends 4 × 3 = 12, 4 × 4 = 16. Each distractor breaks the rule in one cell.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0069",
+    "subject": "reasoning",
+    "topic": "Pattern Perception",
+    "difficulty": "medium",
+    "stem": "In the 4 × 4 letter grid below, the bottom-right quarter (2 × 2) is missing. Which quarter completes the pattern?\n\nRow 1: A  B  C  D\nRow 2: B  C  D  A\nRow 3: C  D  ?  ?\nRow 4: D  A  ?  ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Row 3: B A; Row 4: C B"
+      },
+      {
+        "key": "B",
+        "text": "Row 3: A B; Row 4: C B"
+      },
+      {
+        "key": "C",
+        "text": "Row 3: B C; Row 4: A B"
+      },
+      {
+        "key": "D",
+        "text": "Row 3: A B; Row 4: B C"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Each row is the previous row shifted one place to the left (the first letter moves to the end). Row 3 = C D A B and Row 4 = D A B C. Each column also follows the same cycle, which confirms the answer. The distractors reverse or swap letters within the quarter.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0070",
+    "subject": "reasoning",
+    "topic": "Paper Cutting",
+    "difficulty": "easy",
+    "stem": "A square sheet of paper is folded in half along its vertical centre line, and then folded in half again along its horizontal centre line. A single hole is punched through all the layers, away from the folds and edges. How many holes will there be when the sheet is fully unfolded?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Two folds produce 2 × 2 = 4 layers, so one punch makes 4 holes, symmetric about both centre lines. 2 counts only one fold; 8 would need three folds.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0071",
+    "subject": "reasoning",
+    "topic": "Paper Cutting",
+    "difficulty": "medium",
+    "stem": "A square sheet measuring 10 cm × 10 cm is folded in half along its vertical centre line so that the left half lies on top of the right half. A hole is punched through both layers at a point 1 cm below the top edge and 1 cm from the right edge of the folded sheet. Where will the holes be when the sheet is unfolded?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Two holes, each 1 cm below the top edge: one 1 cm from the left edge and one 1 cm from the right edge"
+      },
+      {
+        "key": "B",
+        "text": "One hole, 1 cm below the top edge and 1 cm from the right edge"
+      },
+      {
+        "key": "C",
+        "text": "Two holes, each 1 cm below the top edge: one 1 cm from the right edge and one 4 cm from the right edge"
+      },
+      {
+        "key": "D",
+        "text": "Two holes, each 1 cm from the right edge: one 1 cm below the top edge and one 1 cm above the bottom edge"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The folded sheet occupies the right half (fold at the 5 cm line). A hole 1 cm from the right edge is 4 cm from the fold; its mirror image across the fold is 4 cm on the other side, i.e. 1 cm from the left edge, at the same height. 'One hole' ignores the second layer; the '4 cm from the right edge' option mirrors about the wrong line; the top/bottom option mirrors across a horizontal fold that was never made.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0072",
+    "subject": "reasoning",
+    "topic": "Figure Matrix",
+    "difficulty": "medium",
+    "stem": "Find the missing number in the matrix (the same rule applies to every row).\n\nRow 1: 8, 3, 67\nRow 2: 5, 7, 32\nRow 3: 9, 4, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "81"
+      },
+      {
+        "key": "B",
+        "text": "77"
+      },
+      {
+        "key": "C",
+        "text": "85"
+      },
+      {
+        "key": "D",
+        "text": "90"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Third number = (first number)² + second number: 8² + 3 = 67, 5² + 7 = 32, so 9² + 4 = 85. 81 is only 9²; 77 = 9² − 4 uses the wrong operation.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0073",
+    "subject": "reasoning",
+    "topic": "Figure Matrix",
+    "difficulty": "hard",
+    "stem": "Find the missing letter in the matrix.\n\nRow 1: C, F, I\nRow 2: B, H, N\nRow 3: A, J, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "R"
+      },
+      {
+        "key": "B",
+        "text": "T"
+      },
+      {
+        "key": "C",
+        "text": "S"
+      },
+      {
+        "key": "D",
+        "text": "Q"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Using alphabet positions: Row 1 = 3, 6, 9 (step 3); Row 2 = 2, 8, 14 (step 6); Row 3 = 1, 10, ? (step 9) → 19 = S. The row steps themselves increase by 3. R and T are one place off; Q (17) uses a step of 8.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0074",
+    "subject": "reasoning",
+    "topic": "Rule Detection",
+    "difficulty": "medium",
+    "stem": "Rule: each term is formed from the previous term by moving its first symbol to the end. Which of the following sequences obeys this rule?",
+    "options": [
+      {
+        "key": "A",
+        "text": "#@&* → *#@& → &*#@ → @&*#"
+      },
+      {
+        "key": "B",
+        "text": "#@&* → @&*# → &*#@ → *#@&"
+      },
+      {
+        "key": "C",
+        "text": "#@&* → @&*# → &#*@ → *#@&"
+      },
+      {
+        "key": "D",
+        "text": "#@&* → @#&* → @&#* → @&*#"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Moving the first symbol to the end: #@&* → @&*# → &*#@ → *#@&. The first distractor moves the last symbol to the front (the reverse rule). The second breaks the rule at the third term. The third swaps adjacent symbols instead of rotating.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-a-0075",
+    "subject": "reasoning",
+    "topic": "Rule Detection",
+    "difficulty": "easy",
+    "stem": "Rule: in each successive term, the number of X's increases by one and the number of O's decreases by one. Which sequence obeys this rule?",
+    "options": [
+      {
+        "key": "A",
+        "text": "XOOOO, XXOOO, XXXOO, XXXXO"
+      },
+      {
+        "key": "B",
+        "text": "XOOOO, XXOOOO, XXXOOOO, XXXXOOOO"
+      },
+      {
+        "key": "C",
+        "text": "XXXXO, XXXOO, XXOOO, XOOOO"
+      },
+      {
+        "key": "D",
+        "text": "XOOOO, XXOOO, XXXO, XXXXOO"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Only the first sequence increases X by one and decreases O by one at every step (1X4O, 2X3O, 3X2O, 4X1O). The second keeps adding O's; the third does the opposite (X decreases); the fourth breaks the rule in the last two terms.",
+    "source": {
+      "kind": "authored"
+    }
+  }
+]

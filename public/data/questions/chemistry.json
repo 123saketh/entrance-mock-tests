@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "chem-a-0001",
+    "subject": "chemistry",
+    "topic": "Mole Concept",
+    "difficulty": "easy",
+    "stem": "The number of moles of oxygen atoms present in 8.8 g of CO$_2$ is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.2"
+      },
+      {
+        "key": "B",
+        "text": "0.4"
+      },
+      {
+        "key": "C",
+        "text": "0.1"
+      },
+      {
+        "key": "D",
+        "text": "0.8"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Moles of CO$_2$ = 8.8/44 = 0.2 mol. Each CO$_2$ has 2 O atoms, so O atoms = 0.4 mol. 0.2 is the moles of CO$_2$ molecules (forgetting the factor 2); 0.8 doubles twice; 0.1 halves instead of doubling.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0002",
+    "subject": "chemistry",
+    "topic": "Mole Concept",
+    "difficulty": "easy",
+    "stem": "4 g of NaOH is dissolved in water and the solution is made up to 250 mL. The molarity of the solution is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.6 M"
+      },
+      {
+        "key": "B",
+        "text": "0.1 M"
+      },
+      {
+        "key": "C",
+        "text": "0.4 M"
+      },
+      {
+        "key": "D",
+        "text": "0.016 M"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Moles NaOH = 4/40 = 0.1 mol; volume = 0.25 L; M = 0.1/0.25 = 0.4 M. 0.1 M ignores the volume (treats it as 1 L); 1.6 M and 0.016 M come from multiplying/dividing by 4 incorrectly.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0003",
+    "subject": "chemistry",
+    "topic": "Mole Concept",
+    "difficulty": "easy",
+    "stem": "A compound contains 40% C, 6.67% H and 53.33% O by mass. Its molar mass is 180 g mol$^{-1}$. Its molecular formula is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "C$_2$H$_4$O$_2$"
+      },
+      {
+        "key": "B",
+        "text": "C$_3$H$_6$O$_3$"
+      },
+      {
+        "key": "C",
+        "text": "C$_6$H$_{12}$O$_6$"
+      },
+      {
+        "key": "D",
+        "text": "C$_6$H$_6$O$_6$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Mole ratio C : H : O = 40/12 : 6.67/1 : 53.33/16 = 3.33 : 6.67 : 3.33 = 1 : 2 : 1, so empirical formula CH$_2$O (30 g/mol). n = 180/30 = 6, giving C$_6$H$_{12}$O$_6$. C$_3$H$_6$O$_3$ (90) and C$_2$H$_4$O$_2$ (60) have the right ratio but wrong molar mass; C$_6$H$_6$O$_6$ has the wrong H ratio.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0004",
+    "subject": "chemistry",
+    "topic": "Atomic Structure",
+    "difficulty": "medium",
+    "stem": "Using Bohr's model, the radius of the second orbit of He$^+$ is (radius of first Bohr orbit of H = 0.529 Å):",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.529 Å"
+      },
+      {
+        "key": "B",
+        "text": "0.2645 Å"
+      },
+      {
+        "key": "C",
+        "text": "2.116 Å"
+      },
+      {
+        "key": "D",
+        "text": "1.058 Å"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$r_n = 0.529\\,\\frac{n^2}{Z}$ Å = $0.529\\times\\frac{4}{2}$ = 1.058 Å. 2.116 Å ignores Z; 0.529 Å is the H ground-state radius; 0.2645 Å is the first orbit of He$^+$ (n = 1).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0005",
+    "subject": "chemistry",
+    "topic": "Atomic Structure",
+    "difficulty": "easy",
+    "stem": "The total number of orbitals in the shell with principal quantum number $n = 4$ is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "32"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Number of orbitals in a shell = $n^2$ = 16 (one 4s, three 4p, five 4d, seven 4f). 32 is the maximum number of electrons ($2n^2$); 4 is the number of subshells; 8 has no basis.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0006",
+    "subject": "chemistry",
+    "topic": "Atomic Structure",
+    "difficulty": "medium",
+    "stem": "An electron at rest is accelerated through a potential difference of 100 V. Its de Broglie wavelength is approximately:",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.227 Å"
+      },
+      {
+        "key": "B",
+        "text": "0.1227 Å"
+      },
+      {
+        "key": "C",
+        "text": "3.88 Å"
+      },
+      {
+        "key": "D",
+        "text": "12.27 Å"
+      }
+    ],
+    "answer": "A",
+    "explanation": "For an electron, $\\lambda = \\frac{12.27}{\\sqrt{V}}$ Å = 12.27/10 = 1.227 Å (from $\\lambda = h/\\sqrt{2meV}$). 12.27 Å forgets the square root of 100; 0.1227 Å divides by V instead of $\\sqrt V$; 3.88 Å divides by $\\sqrt{10}$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0007",
+    "subject": "chemistry",
+    "topic": "Atomic Structure",
+    "difficulty": "easy",
+    "stem": "The maximum number of spectral lines emitted when the electrons in a sample of hydrogen atoms fall from $n = 5$ to the ground state is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Number of lines = $\\frac{n(n-1)}{2} = \\frac{5\\times4}{2}$ = 10. 4 counts only direct jumps to n = 1 from each level, 6 is the value for n = 4, and 5 just equals n.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0008",
+    "subject": "chemistry",
+    "topic": "States of Matter",
+    "difficulty": "easy",
+    "stem": "At the same temperature, the ratio of the root mean square speed of H$_2$ molecules to that of O$_2$ molecules is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 : 4"
+      },
+      {
+        "key": "B",
+        "text": "4 : 1"
+      },
+      {
+        "key": "C",
+        "text": "16 : 1"
+      },
+      {
+        "key": "D",
+        "text": "2 : 1"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$u_{rms} = \\sqrt{3RT/M}$, so $u_{H_2}/u_{O_2} = \\sqrt{32/2} = 4$. 16 : 1 forgets the square root; 1 : 4 inverts the ratio; 2 : 1 takes the square root twice.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0009",
+    "subject": "chemistry",
+    "topic": "States of Matter",
+    "difficulty": "medium",
+    "stem": "Which of the following gases has the largest value of the van der Waals constant $a$?",
+    "options": [
+      {
+        "key": "A",
+        "text": "He"
+      },
+      {
+        "key": "B",
+        "text": "H$_2$"
+      },
+      {
+        "key": "C",
+        "text": "N$_2$"
+      },
+      {
+        "key": "D",
+        "text": "NH$_3$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$a$ measures intermolecular attraction. NH$_3$ is polar and hydrogen-bonded, so it has the largest $a$ (≈ 4.2 L$^2$ atm mol$^{-2}$) and is easily liquefied. N$_2$ (≈1.4) has only dispersion forces; H$_2$ and He have very small $a$ values.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0010",
+    "subject": "chemistry",
+    "topic": "States of Matter",
+    "difficulty": "medium",
+    "stem": "Under identical conditions, a gas X diffuses at half the rate of helium. The molar mass of X is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "16 g mol$^{-1}$"
+      },
+      {
+        "key": "B",
+        "text": "32 g mol$^{-1}$"
+      },
+      {
+        "key": "C",
+        "text": "64 g mol$^{-1}$"
+      },
+      {
+        "key": "D",
+        "text": "8 g mol$^{-1}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Graham's law: $r_X/r_{He} = \\sqrt{M_{He}/M_X}$ ⇒ $1/2 = \\sqrt{4/M_X}$ ⇒ $M_X = 16$. 8 uses a linear (non-square-root) relation; 32 and 64 result from squaring errors.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0011",
+    "subject": "chemistry",
+    "topic": "Thermodynamics",
+    "difficulty": "hard",
+    "stem": "For the reaction N$_2$(g) + 3H$_2$(g) → 2NH$_3$(g) at 300 K, the value of $\\Delta H - \\Delta U$ is approximately ($R$ = 8.314 J K$^{-1}$ mol$^{-1}$):",
+    "options": [
+      {
+        "key": "A",
+        "text": "$+4.99$ kJ"
+      },
+      {
+        "key": "B",
+        "text": "$-4.99$ kJ"
+      },
+      {
+        "key": "C",
+        "text": "zero"
+      },
+      {
+        "key": "D",
+        "text": "$-2.49$ kJ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$\\Delta H - \\Delta U = \\Delta n_g RT$, with $\\Delta n_g = 2 - 4 = -2$: $-2\\times8.314\\times300 = -4988$ J ≈ $-4.99$ kJ. The positive value has the sign of $\\Delta n_g$ wrong; $-2.49$ kJ uses $\\Delta n_g = -1$; zero would apply only if $\\Delta n_g = 0$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0012",
+    "subject": "chemistry",
+    "topic": "Thermodynamics",
+    "difficulty": "medium",
+    "stem": "For a reaction, $\\Delta H = +40$ kJ mol$^{-1}$ and $\\Delta S = +100$ J K$^{-1}$ mol$^{-1}$ (both assumed temperature-independent). The reaction becomes spontaneous above:",
+    "options": [
+      {
+        "key": "A",
+        "text": "40 K"
+      },
+      {
+        "key": "B",
+        "text": "0.4 K"
+      },
+      {
+        "key": "C",
+        "text": "400 K"
+      },
+      {
+        "key": "D",
+        "text": "4000 K"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Spontaneous when $\\Delta G = \\Delta H - T\\Delta S < 0$, i.e. $T > \\Delta H/\\Delta S = 40000/100 = 400$ K. 0.4 K forgets to convert kJ to J; 40 K and 4000 K are off by a factor of 10.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0013",
+    "subject": "chemistry",
+    "topic": "Thermodynamics",
+    "difficulty": "medium",
+    "stem": "Given: C(s) + O$_2$(g) → CO$_2$(g), $\\Delta H = -393.5$ kJ; CO(g) + ½O$_2$(g) → CO$_2$(g), $\\Delta H = -283.0$ kJ. The standard enthalpy of formation of CO(g) is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "$-110.5$ kJ mol$^{-1}$"
+      },
+      {
+        "key": "B",
+        "text": "$-676.5$ kJ mol$^{-1}$"
+      },
+      {
+        "key": "C",
+        "text": "$-283.0$ kJ mol$^{-1}$"
+      },
+      {
+        "key": "D",
+        "text": "$+110.5$ kJ mol$^{-1}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Subtract the second equation from the first: C + ½O$_2$ → CO, $\\Delta H = -393.5 - (-283.0) = -110.5$ kJ. $+110.5$ has the wrong sign; $-676.5$ adds the two values; $-283.0$ is the enthalpy of combustion of CO.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0014",
+    "subject": "chemistry",
+    "topic": "Thermodynamics",
+    "difficulty": "hard",
+    "stem": "One mole of an ideal gas expands isothermally and reversibly at 300 K from 10 L to 100 L. The work done on the gas is approximately ($R$ = 8.314 J K$^{-1}$ mol$^{-1}$):",
+    "options": [
+      {
+        "key": "A",
+        "text": "$-5.74$ kJ"
+      },
+      {
+        "key": "B",
+        "text": "zero"
+      },
+      {
+        "key": "C",
+        "text": "$+5.74$ kJ"
+      },
+      {
+        "key": "D",
+        "text": "$-2.49$ kJ"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$w = -nRT\\ln\\frac{V_2}{V_1} = -1\\times8.314\\times300\\times2.303\\log 10 = -5743$ J ≈ $-5.74$ kJ (work is done by the gas, so work on the gas is negative). $+5.74$ kJ has the wrong sign; $-2.49$ kJ omits the ln factor (just $-RT$); zero applies to free expansion, not reversible expansion.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0015",
+    "subject": "chemistry",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "hard",
+    "stem": "For PCl$_5$(g) ⇌ PCl$_3$(g) + Cl$_2$(g), PCl$_5$ is 50% dissociated at equilibrium when the total pressure is 1 atm. The value of $K_p$ is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.0 atm"
+      },
+      {
+        "key": "B",
+        "text": "0.25 atm"
+      },
+      {
+        "key": "C",
+        "text": "0.333 atm"
+      },
+      {
+        "key": "D",
+        "text": "0.5 atm"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Starting with 1 mol: PCl$_5$ = 1 − α, PCl$_3$ = Cl$_2$ = α, total = 1 + α. $K_p = \\frac{\\alpha^2 P}{1-\\alpha^2} = \\frac{0.25\\times1}{0.75} = 0.333$ atm. 0.25 atm ignores the change in total moles (uses $\\alpha^2P$); 0.5 atm and 1.0 atm have no valid basis.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0016",
+    "subject": "chemistry",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "easy",
+    "stem": "For the Haber process, N$_2$(g) + 3H$_2$(g) ⇌ 2NH$_3$(g), $\\Delta H < 0$, the equilibrium yield of NH$_3$ is increased by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "low pressure and high temperature"
+      },
+      {
+        "key": "B",
+        "text": "high pressure and high temperature"
+      },
+      {
+        "key": "C",
+        "text": "high pressure and low temperature"
+      },
+      {
+        "key": "D",
+        "text": "adding a catalyst"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The forward reaction decreases gas moles (4 → 2), so high pressure favours it; it is exothermic, so low temperature favours it (Le Chatelier). High temperature lowers the yield; a catalyst only helps reach equilibrium faster and does not shift it.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0017",
+    "subject": "chemistry",
+    "topic": "Ionic Equilibrium",
+    "difficulty": "medium",
+    "stem": "The pH of a 0.001 M aqueous solution of Ba(OH)$_2$ (assume complete dissociation, 25 °C) is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "11.00"
+      },
+      {
+        "key": "B",
+        "text": "11.30"
+      },
+      {
+        "key": "C",
+        "text": "3.00"
+      },
+      {
+        "key": "D",
+        "text": "10.70"
+      }
+    ],
+    "answer": "B",
+    "explanation": "[OH$^-$] = 2 × 0.001 = 0.002 M; pOH = −log(0.002) = 2.70; pH = 14 − 2.70 = 11.30. 11.00 forgets that Ba(OH)$_2$ gives two OH$^-$; 10.70 subtracts log 2 instead of adding; 3.00 is pOH-type confusion.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0018",
+    "subject": "chemistry",
+    "topic": "Ionic Equilibrium",
+    "difficulty": "medium",
+    "stem": "A buffer solution contains 0.1 M CH$_3$COOH and 0.2 M CH$_3$COONa. If p$K_a$ of acetic acid is 4.74, the pH of the buffer is (log 2 = 0.30):",
+    "options": [
+      {
+        "key": "A",
+        "text": "5.34"
+      },
+      {
+        "key": "B",
+        "text": "4.44"
+      },
+      {
+        "key": "C",
+        "text": "4.74"
+      },
+      {
+        "key": "D",
+        "text": "5.04"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Henderson equation: pH = p$K_a$ + log([salt]/[acid]) = 4.74 + log 2 = 5.04. 4.44 inverts the ratio; 4.74 assumes equal concentrations; 5.34 adds log 4.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0019",
+    "subject": "chemistry",
+    "topic": "Ionic Equilibrium",
+    "difficulty": "medium",
+    "stem": "The solubility of Ag$_2$CrO$_4$ in water at a certain temperature is $1.0\\times10^{-4}$ mol L$^{-1}$. Its solubility product is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "$4.0\\times10^{-12}$"
+      },
+      {
+        "key": "B",
+        "text": "$2.0\\times10^{-8}$"
+      },
+      {
+        "key": "C",
+        "text": "$1.0\\times10^{-12}$"
+      },
+      {
+        "key": "D",
+        "text": "$1.0\\times10^{-8}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Ag$_2$CrO$_4$ ⇌ 2Ag$^+$ + CrO$_4^{2-}$; $K_{sp} = (2s)^2(s) = 4s^3 = 4\\times10^{-12}$. $1\\times10^{-12}$ forgets the factor 4; $1\\times10^{-8}$ treats it as a 1:1 salt ($s^2$); $2\\times10^{-8}$ uses $2s\\cdot s$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0020",
+    "subject": "chemistry",
+    "topic": "Redox Reactions",
+    "difficulty": "hard",
+    "stem": "The oxidation number of sulphur in peroxodisulphuric acid, H$_2$S$_2$O$_8$, is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "+7"
+      },
+      {
+        "key": "B",
+        "text": "+6"
+      },
+      {
+        "key": "C",
+        "text": "+5"
+      },
+      {
+        "key": "D",
+        "text": "+8"
+      }
+    ],
+    "answer": "B",
+    "explanation": "H$_2$S$_2$O$_8$ contains one peroxide (–O–O–) linkage: 6 O atoms are −2 and 2 O atoms are −1. 2(+1) + 2x + 6(−2) + 2(−1) = 0 ⇒ x = +6. +7 comes from assuming all eight O are −2; sulphur cannot exceed +6 (its group number), so +8 is impossible; +5 has no basis.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0021",
+    "subject": "chemistry",
+    "topic": "Solutions",
+    "difficulty": "easy",
+    "stem": "1.8 g of glucose (molar mass 180 g mol$^{-1}$) is dissolved in 100 g of water. The elevation in boiling point is ($K_b$ of water = 0.52 K kg mol$^{-1}$):",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.104 K"
+      },
+      {
+        "key": "B",
+        "text": "0.052 K"
+      },
+      {
+        "key": "C",
+        "text": "0.0052 K"
+      },
+      {
+        "key": "D",
+        "text": "0.52 K"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Molality = (1.8/180)/0.100 kg = 0.1 m; $\\Delta T_b = K_b m = 0.52\\times0.1 = 0.052$ K. 0.0052 K uses 1 kg of solvent; 0.52 K uses m = 1; 0.104 K wrongly applies $i = 2$ to a non-electrolyte.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0022",
+    "subject": "chemistry",
+    "topic": "Solutions",
+    "difficulty": "easy",
+    "stem": "Which of the following 0.1 m aqueous solutions has the lowest freezing point?",
+    "options": [
+      {
+        "key": "A",
+        "text": "NaCl"
+      },
+      {
+        "key": "B",
+        "text": "Urea"
+      },
+      {
+        "key": "C",
+        "text": "K$_2$SO$_4$"
+      },
+      {
+        "key": "D",
+        "text": "Glucose"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$\\Delta T_f = iK_fm$; at equal molality, the solute with the largest van't Hoff factor gives the lowest freezing point. K$_2$SO$_4$ gives 3 ions ($i$ ≈ 3), NaCl gives 2, while urea and glucose are non-electrolytes ($i$ = 1).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0023",
+    "subject": "chemistry",
+    "topic": "Electrochemistry",
+    "difficulty": "medium",
+    "stem": "For the Daniell cell Zn | Zn$^{2+}$(1 M) || Cu$^{2+}$(1 M) | Cu, $E^\\circ_{Cu^{2+}/Cu} = +0.34$ V and $E^\\circ_{Zn^{2+}/Zn} = -0.76$ V. The standard Gibbs energy change of the cell reaction is ($F$ = 96500 C mol$^{-1}$):",
+    "options": [
+      {
+        "key": "A",
+        "text": "$-212.3$ kJ mol$^{-1}$"
+      },
+      {
+        "key": "B",
+        "text": "$+212.3$ kJ mol$^{-1}$"
+      },
+      {
+        "key": "C",
+        "text": "$-106.2$ kJ mol$^{-1}$"
+      },
+      {
+        "key": "D",
+        "text": "$-424.6$ kJ mol$^{-1}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$E^\\circ_{cell} = 0.34 - (-0.76) = 1.10$ V; $\\Delta G^\\circ = -nFE^\\circ = -2\\times96500\\times1.10 = -212.3$ kJ. $-106.2$ uses n = 1; $+212.3$ has the wrong sign (the cell is spontaneous); $-424.6$ uses n = 4.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0024",
+    "subject": "chemistry",
+    "topic": "Chemical Kinetics",
+    "difficulty": "medium",
+    "stem": "A first-order reaction has a half-life of 30 min. The time required for 87.5% of the reaction to be completed is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "90 min"
+      },
+      {
+        "key": "B",
+        "text": "45 min"
+      },
+      {
+        "key": "C",
+        "text": "120 min"
+      },
+      {
+        "key": "D",
+        "text": "60 min"
+      }
+    ],
+    "answer": "A",
+    "explanation": "87.5% completion leaves 12.5% = (1/2)$^3$, i.e. three half-lives: 3 × 30 = 90 min. 60 min gives 75% completion; 120 min gives 93.75%; 45 min is 1.5 half-lives.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0025",
+    "subject": "chemistry",
+    "topic": "Chemical Kinetics",
+    "difficulty": "hard",
+    "stem": "The rate constant of a reaction doubles when the temperature is raised from 300 K to 310 K. The activation energy is approximately ($R$ = 8.314 J K$^{-1}$ mol$^{-1}$, log 2 = 0.301):",
+    "options": [
+      {
+        "key": "A",
+        "text": "107.2 kJ mol$^{-1}$"
+      },
+      {
+        "key": "B",
+        "text": "53.6 kJ mol$^{-1}$"
+      },
+      {
+        "key": "C",
+        "text": "26.8 kJ mol$^{-1}$"
+      },
+      {
+        "key": "D",
+        "text": "5.36 kJ mol$^{-1}$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$\\log\\frac{k_2}{k_1} = \\frac{E_a}{2.303R}\\left(\\frac{T_2-T_1}{T_1T_2}\\right)$ ⇒ $E_a = \\frac{2.303\\times8.314\\times0.301\\times300\\times310}{10} \\approx 53.6$ kJ mol$^{-1}$. 26.8 and 107.2 are off by a factor of 2; 5.36 is off by a factor of 10.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0026",
+    "subject": "chemistry",
+    "topic": "Electrochemistry",
+    "difficulty": "hard",
+    "stem": "The electrode potential of a Cu$^{2+}$/Cu electrode in which [Cu$^{2+}$] = 0.01 M at 298 K is ($E^\\circ_{Cu^{2+}/Cu} = +0.34$ V; $\\frac{2.303RT}{F}$ = 0.0591 V):",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.281 V"
+      },
+      {
+        "key": "B",
+        "text": "0.340 V"
+      },
+      {
+        "key": "C",
+        "text": "0.222 V"
+      },
+      {
+        "key": "D",
+        "text": "0.399 V"
+      }
+    ],
+    "answer": "A",
+    "explanation": "For Cu$^{2+}$ + 2e$^-$ → Cu: $E = E^\\circ - \\frac{0.0591}{2}\\log\\frac{1}{[Cu^{2+}]} = 0.34 - 0.02955\\times2 = 0.281$ V. 0.399 V adds the correction (sign error); 0.222 V uses n = 1; 0.340 V ignores the concentration term.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0027",
+    "subject": "chemistry",
+    "topic": "Electrochemistry",
+    "difficulty": "medium",
+    "stem": "The mass of aluminium deposited at the cathode when 9650 C of electricity is passed through molten Al$_2$O$_3$ (in cryolite) is (Al = 27 g mol$^{-1}$):",
+    "options": [
+      {
+        "key": "A",
+        "text": "2.7 g"
+      },
+      {
+        "key": "B",
+        "text": "0.9 g"
+      },
+      {
+        "key": "C",
+        "text": "1.8 g"
+      },
+      {
+        "key": "D",
+        "text": "0.27 g"
+      }
+    ],
+    "answer": "B",
+    "explanation": "9650 C = 0.1 F. Al$^{3+}$ + 3e$^-$ → Al, so 0.1 F deposits 0.1/3 mol = 0.0333 × 27 = 0.9 g. 2.7 g assumes 1 electron per Al; 1.8 g assumes 2 electrons; 0.27 g is a decimal slip.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0028",
+    "subject": "chemistry",
+    "topic": "Chemical Kinetics",
+    "difficulty": "easy",
+    "stem": "The unit of the rate constant of a reaction is L mol$^{-1}$ s$^{-1}$. The order of the reaction is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "first"
+      },
+      {
+        "key": "B",
+        "text": "third"
+      },
+      {
+        "key": "C",
+        "text": "second"
+      },
+      {
+        "key": "D",
+        "text": "zero"
+      }
+    ],
+    "answer": "C",
+    "explanation": "For order n, units of k are (mol L$^{-1}$)$^{1-n}$ s$^{-1}$. L mol$^{-1}$ s$^{-1}$ = (mol L$^{-1}$)$^{-1}$ s$^{-1}$ ⇒ 1 − n = −1 ⇒ n = 2. Zero order gives mol L$^{-1}$ s$^{-1}$, first order s$^{-1}$, third order L$^2$ mol$^{-2}$ s$^{-1}$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0029",
+    "subject": "chemistry",
+    "topic": "Chemical Kinetics",
+    "difficulty": "medium",
+    "stem": "For a zero-order reaction with initial concentration 0.8 M and rate constant 0.02 mol L$^{-1}$ s$^{-1}$, the half-life is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "20 s"
+      },
+      {
+        "key": "B",
+        "text": "10 s"
+      },
+      {
+        "key": "C",
+        "text": "40 s"
+      },
+      {
+        "key": "D",
+        "text": "34.7 s"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Zero order: $t_{1/2} = \\frac{[A]_0}{2k} = \\frac{0.8}{0.04} = 20$ s. 40 s forgets the factor 2; 34.7 s wrongly uses the first-order formula 0.693/k; 10 s divides by 4k.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0030",
+    "subject": "chemistry",
+    "topic": "Surface Chemistry",
+    "difficulty": "easy",
+    "stem": "According to the Freundlich adsorption isotherm $\\frac{x}{m} = kP^{1/n}$, a plot of $\\log\\frac{x}{m}$ versus $\\log P$ is a straight line whose slope equals:",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\log k$"
+      },
+      {
+        "key": "B",
+        "text": "$1/n$"
+      },
+      {
+        "key": "C",
+        "text": "$n$"
+      },
+      {
+        "key": "D",
+        "text": "$k$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Taking logs: $\\log\\frac{x}{m} = \\log k + \\frac{1}{n}\\log P$. This is y = c + mx with slope 1/n and intercept log k. $n$ is the inverse of the slope; log k is the intercept, and k itself is neither.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0031",
+    "subject": "chemistry",
+    "topic": "Surface Chemistry",
+    "difficulty": "medium",
+    "stem": "Which of the following electrolytes is most effective in coagulating a positively charged ferric hydroxide sol?",
+    "options": [
+      {
+        "key": "A",
+        "text": "K$_2$SO$_4$"
+      },
+      {
+        "key": "B",
+        "text": "AlCl$_3$"
+      },
+      {
+        "key": "C",
+        "text": "K$_4$[Fe(CN)$_6$]"
+      },
+      {
+        "key": "D",
+        "text": "NaCl"
+      }
+    ],
+    "answer": "C",
+    "explanation": "By the Hardy–Schulze rule, the ion of charge opposite to the sol coagulates it, and its power rises with its charge. For a positive sol the active ions are anions: [Fe(CN)$_6$]$^{4-}$ > SO$_4^{2-}$ > Cl$^-$. Al$^{3+}$ is a cation and would be effective only for a negative sol; its Cl$^-$ is univalent.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0032",
+    "subject": "chemistry",
+    "topic": "Surface Chemistry",
+    "difficulty": "medium",
+    "stem": "Which of the following statements is true for chemisorption but NOT for physisorption?",
+    "options": [
+      {
+        "key": "A",
+        "text": "It is easily reversed by lowering the pressure"
+      },
+      {
+        "key": "B",
+        "text": "Its enthalpy of adsorption is low, about 20–40 kJ mol$^{-1}$"
+      },
+      {
+        "key": "C",
+        "text": "It readily forms multimolecular layers"
+      },
+      {
+        "key": "D",
+        "text": "It is highly specific and may require activation energy"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Chemisorption involves chemical bond formation: it is highly specific, often has an activation energy, is usually irreversible, forms a unimolecular layer and has high enthalpy (80–240 kJ mol$^{-1}$). Low enthalpy, multilayer formation and easy reversibility are all features of physisorption.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0033",
+    "subject": "chemistry",
+    "topic": "Solutions",
+    "difficulty": "hard",
+    "stem": "18 g of glucose (C$_6$H$_{12}$O$_6$) is dissolved in 178.2 g of water. If the vapour pressure of pure water at the given temperature is 760 mm Hg, the vapour pressure of the solution is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "745.2 mm Hg"
+      },
+      {
+        "key": "B",
+        "text": "7.6 mm Hg"
+      },
+      {
+        "key": "C",
+        "text": "760 mm Hg"
+      },
+      {
+        "key": "D",
+        "text": "752.4 mm Hg"
+      }
+    ],
+    "answer": "D",
+    "explanation": "n(glucose) = 0.1 mol, n(water) = 178.2/18 = 9.9 mol; $x_{water}$ = 9.9/10.0 = 0.99. Raoult's law: $p = x_{water}p^\\circ$ = 0.99 × 760 = 752.4 mm Hg. 7.6 mm Hg is the lowering, not the vapour pressure; 760 ignores the solute; 745.2 doubles the lowering.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0034",
+    "subject": "chemistry",
+    "topic": "Solutions",
+    "difficulty": "easy",
+    "stem": "The osmotic pressure of a 0.1 M aqueous solution of urea at 300 K is approximately ($R$ = 0.0821 L atm K$^{-1}$ mol$^{-1}$):",
+    "options": [
+      {
+        "key": "A",
+        "text": "24.6 atm"
+      },
+      {
+        "key": "B",
+        "text": "2.46 atm"
+      },
+      {
+        "key": "C",
+        "text": "4.92 atm"
+      },
+      {
+        "key": "D",
+        "text": "0.246 atm"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$\\pi = CRT = 0.1\\times0.0821\\times300 = 2.46$ atm. Urea is a non-electrolyte, so $i$ = 1; 4.92 atm wrongly takes $i$ = 2. 0.246 and 24.6 atm are decimal errors.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0035",
+    "subject": "chemistry",
+    "topic": "Periodic Properties",
+    "difficulty": "easy",
+    "stem": "Which of the following elements has the highest first ionization enthalpy?",
+    "options": [
+      {
+        "key": "A",
+        "text": "O"
+      },
+      {
+        "key": "B",
+        "text": "B"
+      },
+      {
+        "key": "C",
+        "text": "C"
+      },
+      {
+        "key": "D",
+        "text": "N"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Across period 2, IE generally increases, but N (2p$^3$, exactly half-filled, extra stable) has a higher IE than O (2p$^4$, where removal of a paired electron is easier due to repulsion). Order: N > O > C > B.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0036",
+    "subject": "chemistry",
+    "topic": "Periodic Properties",
+    "difficulty": "medium",
+    "stem": "Which halogen has the most negative electron gain enthalpy?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cl"
+      },
+      {
+        "key": "B",
+        "text": "F"
+      },
+      {
+        "key": "C",
+        "text": "Br"
+      },
+      {
+        "key": "D",
+        "text": "I"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Although F is the most electronegative, its very small 2p subshell causes strong interelectronic repulsion, so the incoming electron is less welcome. Hence Cl has the most negative electron gain enthalpy (order Cl > F > Br > I).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0037",
+    "subject": "chemistry",
+    "topic": "Periodic Properties",
+    "difficulty": "medium",
+    "stem": "The correct order of ionic radii for the isoelectronic species N$^{3-}$, O$^{2-}$, F$^-$, Na$^+$ and Mg$^{2+}$ is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "F$^-$ > O$^{2-}$ > N$^{3-}$ > Na$^+$ > Mg$^{2+}$"
+      },
+      {
+        "key": "B",
+        "text": "Na$^+$ > Mg$^{2+}$ > N$^{3-}$ > O$^{2-}$ > F$^-$"
+      },
+      {
+        "key": "C",
+        "text": "N$^{3-}$ > O$^{2-}$ > F$^-$ > Na$^+$ > Mg$^{2+}$"
+      },
+      {
+        "key": "D",
+        "text": "Mg$^{2+}$ > Na$^+$ > F$^-$ > O$^{2-}$ > N$^{3-}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "All have 10 electrons; radius decreases as nuclear charge increases (N: Z = 7 … Mg: Z = 12). So N$^{3-}$ is largest and Mg$^{2+}$ smallest. The other orders either reverse the trend or place cations above anions, which contradicts the effective nuclear charge argument.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0038",
+    "subject": "chemistry",
+    "topic": "Chemical Bonding",
+    "difficulty": "easy",
+    "stem": "The shape of the XeF$_4$ molecule is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "square planar"
+      },
+      {
+        "key": "B",
+        "text": "octahedral"
+      },
+      {
+        "key": "C",
+        "text": "tetrahedral"
+      },
+      {
+        "key": "D",
+        "text": "see-saw"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Xe has 8 valence electrons: 4 bond pairs + 2 lone pairs = 6 electron pairs (sp$^3$d$^2$, octahedral arrangement). The two lone pairs occupy trans positions, leaving a square planar shape. Octahedral is the electron-pair geometry, not the shape; tetrahedral and see-saw correspond to 4 and 5 electron pairs.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0039",
+    "subject": "chemistry",
+    "topic": "Chemical Bonding",
+    "difficulty": "easy",
+    "stem": "Which of the following molecules has zero dipole moment?",
+    "options": [
+      {
+        "key": "A",
+        "text": "NH$_3$"
+      },
+      {
+        "key": "B",
+        "text": "BF$_3$"
+      },
+      {
+        "key": "C",
+        "text": "H$_2$O"
+      },
+      {
+        "key": "D",
+        "text": "NF$_3$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "BF$_3$ is trigonal planar, so the three B–F bond dipoles cancel. NH$_3$ and NF$_3$ are pyramidal and H$_2$O is bent, so their bond dipoles (and lone pairs) give a net dipole moment.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0040",
+    "subject": "chemistry",
+    "topic": "Chemical Bonding",
+    "difficulty": "medium",
+    "stem": "According to molecular orbital theory, the bond order of the superoxide ion, O$_2^-$, is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.5"
+      },
+      {
+        "key": "B",
+        "text": "2.5"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "answer": "A",
+    "explanation": "O$_2^-$ has 17 electrons: bonding electrons = 10, antibonding = 7. Bond order = (10 − 7)/2 = 1.5. 2 is for O$_2$, 2.5 for O$_2^+$, and 1 for the peroxide ion O$_2^{2-}$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0041",
+    "subject": "chemistry",
+    "topic": "Chemical Bonding",
+    "difficulty": "medium",
+    "stem": "Which of the following species is diamagnetic?",
+    "options": [
+      {
+        "key": "A",
+        "text": "O$_2$"
+      },
+      {
+        "key": "B",
+        "text": "O$_2^-$"
+      },
+      {
+        "key": "C",
+        "text": "O$_2^+$"
+      },
+      {
+        "key": "D",
+        "text": "N$_2$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "N$_2$ (14 electrons) has all MOs doubly occupied, so it is diamagnetic. O$_2$ has two unpaired electrons in π* orbitals, while O$_2^+$ and O$_2^-$ each have one unpaired electron, so all three are paramagnetic.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0042",
+    "subject": "chemistry",
+    "topic": "Chemical Bonding",
+    "difficulty": "medium",
+    "stem": "The correct order of H–X–H bond angles is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "H$_2$O > NH$_3$ > H$_2$S"
+      },
+      {
+        "key": "B",
+        "text": "NH$_3$ > H$_2$O > H$_2$S"
+      },
+      {
+        "key": "C",
+        "text": "H$_2$S > H$_2$O > NH$_3$"
+      },
+      {
+        "key": "D",
+        "text": "H$_2$O > H$_2$S > NH$_3$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "NH$_3$ (one lone pair) ≈ 107°, H$_2$O (two lone pairs, more repulsion) ≈ 104.5°, H$_2$S ≈ 92° because the larger, less electronegative S uses nearly pure p orbitals. Orders placing H$_2$O above NH$_3$ ignore the extra lone pair; H$_2$S is always the smallest.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0043",
+    "subject": "chemistry",
+    "topic": "Chemical Bonding",
+    "difficulty": "hard",
+    "stem": "The correct order of boiling points of the hydrogen halides is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "HF > HCl > HBr > HI"
+      },
+      {
+        "key": "B",
+        "text": "HCl > HBr > HI > HF"
+      },
+      {
+        "key": "C",
+        "text": "HI > HBr > HCl > HF"
+      },
+      {
+        "key": "D",
+        "text": "HF > HI > HBr > HCl"
+      }
+    ],
+    "answer": "D",
+    "explanation": "HF has strong intermolecular hydrogen bonding, so it boils highest (293 K). For HCl, HBr, HI, boiling point rises with molar mass (stronger van der Waals forces): HI > HBr > HCl. The order with HF lowest ignores H-bonding; the order HF > HCl > HBr > HI reverses the van der Waals trend.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0044",
+    "subject": "chemistry",
+    "topic": "s-Block Elements",
+    "difficulty": "medium",
+    "stem": "Which of the following alkali metal carbonates decomposes on heating to give CO$_2$?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Na$_2$CO$_3$"
+      },
+      {
+        "key": "B",
+        "text": "Rb$_2$CO$_3$"
+      },
+      {
+        "key": "C",
+        "text": "Li$_2$CO$_3$"
+      },
+      {
+        "key": "D",
+        "text": "K$_2$CO$_3$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Li$^+$ is very small with high polarising power; it distorts the carbonate ion and stabilises the oxide, so Li$_2$CO$_3$ → Li$_2$O + CO$_2$ on heating (diagonal similarity with Mg). Carbonates of Na, K and Rb are thermally stable.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0045",
+    "subject": "chemistry",
+    "topic": "s-Block Elements",
+    "difficulty": "easy",
+    "stem": "Which of the following alkaline earth metal sulphates is the least soluble in water?",
+    "options": [
+      {
+        "key": "A",
+        "text": "BeSO$_4$"
+      },
+      {
+        "key": "B",
+        "text": "BaSO$_4$"
+      },
+      {
+        "key": "C",
+        "text": "CaSO$_4$"
+      },
+      {
+        "key": "D",
+        "text": "MgSO$_4$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Solubility of group 2 sulphates decreases down the group (BeSO$_4$ > MgSO$_4$ > CaSO$_4$ > SrSO$_4$ > BaSO$_4$) because hydration enthalpy falls faster than lattice enthalpy. BeSO$_4$ and MgSO$_4$ are readily soluble; CaSO$_4$ is sparingly soluble but more soluble than BaSO$_4$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0046",
+    "subject": "chemistry",
+    "topic": "Hydrogen",
+    "difficulty": "hard",
+    "stem": "The molarity of a '20 volume' H$_2$O$_2$ solution is approximately:",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.89 M"
+      },
+      {
+        "key": "B",
+        "text": "3.57 M"
+      },
+      {
+        "key": "C",
+        "text": "1.50 M"
+      },
+      {
+        "key": "D",
+        "text": "1.79 M"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'20 volume' means 1 L gives 20 L O$_2$ at STP = 20/22.4 mol O$_2$. Since 2H$_2$O$_2$ → 2H$_2$O + O$_2$, moles of H$_2$O$_2$ = 2 × 20/22.4 = 1.79 mol, so 1.79 M. 0.89 M forgets the 2 : 1 ratio; 3.57 M doubles twice; 1.50 M has no basis.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0047",
+    "subject": "chemistry",
+    "topic": "Hydrogen",
+    "difficulty": "medium",
+    "stem": "In Clark's method, temporary hardness of water is removed by adding:",
+    "options": [
+      {
+        "key": "A",
+        "text": "excess dilute HCl"
+      },
+      {
+        "key": "B",
+        "text": "sodium chloride"
+      },
+      {
+        "key": "C",
+        "text": "sodium hexametaphosphate (Calgon)"
+      },
+      {
+        "key": "D",
+        "text": "a calculated amount of slaked lime, Ca(OH)$_2$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Ca(HCO$_3$)$_2$ + Ca(OH)$_2$ → 2CaCO$_3$↓ + 2H$_2$O; the precipitate is filtered off. Calgon is used to remove permanent hardness by complexing Ca$^{2+}$/Mg$^{2+}$; NaCl and HCl do not remove hardness (NaCl is used to regenerate ion-exchange resins).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0048",
+    "subject": "chemistry",
+    "topic": "p-Block Elements",
+    "difficulty": "medium",
+    "stem": "Due to the inert pair effect, the most stable oxidation state of thallium is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "+1"
+      },
+      {
+        "key": "B",
+        "text": "+2"
+      },
+      {
+        "key": "C",
+        "text": "+5"
+      },
+      {
+        "key": "D",
+        "text": "+3"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Down group 13, the ns$^2$ pair becomes increasingly reluctant to participate in bonding (poor shielding by d and f electrons). For Tl, the +1 state is more stable than +3, so Tl(III) compounds are oxidising. +3 is the group oxidation state stable for B and Al; +2 and +5 are not characteristic.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0049",
+    "subject": "chemistry",
+    "topic": "p-Block Elements",
+    "difficulty": "medium",
+    "stem": "Boric acid, B(OH)$_3$, behaves as a weak acid in water because it:",
+    "options": [
+      {
+        "key": "A",
+        "text": "accepts an OH$^-$ ion from water, acting as a Lewis acid"
+      },
+      {
+        "key": "B",
+        "text": "donates protons from its three –OH groups"
+      },
+      {
+        "key": "C",
+        "text": "is a tribasic protonic acid"
+      },
+      {
+        "key": "D",
+        "text": "ionises completely to give H$^+$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "B(OH)$_3$ + 2H$_2$O → [B(OH)$_4$]$^-$ + H$_3$O$^+$. The electron-deficient boron accepts OH$^-$, releasing H$^+$ from water; it is a weak monobasic Lewis acid. It does not donate its own O–H protons, is not tribasic, and is far from fully ionised.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0050",
+    "subject": "chemistry",
+    "topic": "p-Block Elements",
+    "difficulty": "easy",
+    "stem": "Which of the following oxoacids of chlorine is the strongest acid?",
+    "options": [
+      {
+        "key": "A",
+        "text": "HClO$_3$"
+      },
+      {
+        "key": "B",
+        "text": "HClO$_4$"
+      },
+      {
+        "key": "C",
+        "text": "HClO$_2$"
+      },
+      {
+        "key": "D",
+        "text": "HClO"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Acid strength rises with the oxidation state of Cl (+1 → +7). In ClO$_4^-$ the negative charge is delocalised over four O atoms, making it the most stable (weakest) conjugate base, so HClO$_4$ is the strongest acid. HClO is the weakest.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0051",
+    "subject": "chemistry",
+    "topic": "p-Block Elements",
+    "difficulty": "medium",
+    "stem": "The basicity of phosphorous acid, H$_3$PO$_3$, is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "B",
+    "explanation": "H$_3$PO$_3$ has the structure HP(O)(OH)$_2$: one H is bonded directly to P (non-ionisable) and two are in P–OH groups (ionisable). Hence it is dibasic. 3 counts all H atoms; 1 is the basicity of H$_3$PO$_2$ (hypophosphorous acid).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0052",
+    "subject": "chemistry",
+    "topic": "p-Block Elements",
+    "difficulty": "hard",
+    "stem": "Complete hydrolysis of XeF$_6$ gives:",
+    "options": [
+      {
+        "key": "A",
+        "text": "XeOF$_4$"
+      },
+      {
+        "key": "B",
+        "text": "XeF$_4$"
+      },
+      {
+        "key": "C",
+        "text": "XeO$_3$"
+      },
+      {
+        "key": "D",
+        "text": "XeO$_2$F$_2$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "XeF$_6$ + 3H$_2$O → XeO$_3$ + 6HF. XeOF$_4$ (with 1 H$_2$O) and XeO$_2$F$_2$ (with 2 H$_2$O) are products of partial hydrolysis. XeF$_4$ is not a hydrolysis product (Xe stays in the +6 state).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0053",
+    "subject": "chemistry",
+    "topic": "p-Block Elements",
+    "difficulty": "easy",
+    "stem": "Which of the following oxides is amphoteric?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ZnO"
+      },
+      {
+        "key": "B",
+        "text": "Na$_2$O"
+      },
+      {
+        "key": "C",
+        "text": "SO$_3$"
+      },
+      {
+        "key": "D",
+        "text": "CaO"
+      }
+    ],
+    "answer": "A",
+    "explanation": "ZnO dissolves in acids (ZnO + 2HCl → ZnCl$_2$ + H$_2$O) and in alkalis (ZnO + 2NaOH → Na$_2$ZnO$_2$ + H$_2$O). Na$_2$O and CaO are basic oxides; SO$_3$ is an acidic oxide.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0054",
+    "subject": "chemistry",
+    "topic": "Periodic Properties",
+    "difficulty": "medium",
+    "stem": "According to IUPAC nomenclature for elements with atomic number greater than 100, the temporary name of the element with $Z = 104$ is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Unnilpentium"
+      },
+      {
+        "key": "B",
+        "text": "Unnilhexium"
+      },
+      {
+        "key": "C",
+        "text": "Unnilquadium"
+      },
+      {
+        "key": "D",
+        "text": "Ununquadium"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Digit roots: 0 = nil, 1 = un, 4 = quad, 5 = pent, 6 = hex. 104 → un-nil-quad-ium = Unnilquadium (Unq). Unnilpentium is 105, Unnilhexium is 106, and Ununquadium is 114.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0055",
+    "subject": "chemistry",
+    "topic": "d-Block Elements",
+    "difficulty": "medium",
+    "stem": "The spin-only magnetic moment of the Fe$^{3+}$ ion (Z of Fe = 26) is approximately:",
+    "options": [
+      {
+        "key": "A",
+        "text": "5.92 BM"
+      },
+      {
+        "key": "B",
+        "text": "2.83 BM"
+      },
+      {
+        "key": "C",
+        "text": "3.87 BM"
+      },
+      {
+        "key": "D",
+        "text": "4.90 BM"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Fe$^{3+}$ is 3d$^5$ with 5 unpaired electrons: $\\mu = \\sqrt{n(n+2)} = \\sqrt{35} = 5.92$ BM. 4.90 BM (n = 4) is for Fe$^{2+}$; 3.87 BM (n = 3) and 2.83 BM (n = 2) correspond to fewer unpaired electrons.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0056",
+    "subject": "chemistry",
+    "topic": "d-Block Elements",
+    "difficulty": "easy",
+    "stem": "Which of the following ions is colourless in aqueous solution?",
+    "options": [
+      {
+        "key": "A",
+        "text": "V$^{3+}$"
+      },
+      {
+        "key": "B",
+        "text": "Cr$^{3+}$"
+      },
+      {
+        "key": "C",
+        "text": "Sc$^{3+}$"
+      },
+      {
+        "key": "D",
+        "text": "Ti$^{3+}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Colour of transition metal ions arises from d–d transitions, which need partially filled d orbitals. Sc$^{3+}$ is 3d$^0$, so it is colourless. Ti$^{3+}$ (d$^1$, purple), V$^{3+}$ (d$^2$, green) and Cr$^{3+}$ (d$^3$, violet/green) are coloured.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0057",
+    "subject": "chemistry",
+    "topic": "f-Block Elements",
+    "difficulty": "medium",
+    "stem": "Which of the following is a consequence of the lanthanoid contraction?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Zr and Hf have almost identical atomic radii"
+      },
+      {
+        "key": "B",
+        "text": "Atomic radii of 5d elements are much larger than those of 4d elements"
+      },
+      {
+        "key": "C",
+        "text": "Basicity of hydroxides increases from La(OH)$_3$ to Lu(OH)$_3$"
+      },
+      {
+        "key": "D",
+        "text": "Lanthanoids show only the +3 oxidation state"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Poor shielding by 4f electrons makes radii shrink steadily across the lanthanoids, cancelling the expected increase from 4d to 5d. Thus Zr (160 pm) and Hf (159 pm) are nearly equal and hard to separate. Basicity actually decreases from La(OH)$_3$ to Lu(OH)$_3$; lanthanoids also show +2 and +4 states; 5d radii are not much larger than 4d.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0058",
+    "subject": "chemistry",
+    "topic": "d-Block Elements",
+    "difficulty": "medium",
+    "stem": "The number of moles of KMnO$_4$ required to oxidise one mole of FeSO$_4$ in acidic medium is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.33"
+      },
+      {
+        "key": "B",
+        "text": "1.0"
+      },
+      {
+        "key": "C",
+        "text": "0.2"
+      },
+      {
+        "key": "D",
+        "text": "5.0"
+      }
+    ],
+    "answer": "C",
+    "explanation": "MnO$_4^-$ + 8H$^+$ + 5Fe$^{2+}$ → Mn$^{2+}$ + 5Fe$^{3+}$ + 4H$_2$O. MnO$_4^-$ gains 5 electrons while each Fe$^{2+}$ loses 1, so 1 mol Fe$^{2+}$ needs 1/5 = 0.2 mol KMnO$_4$. 5.0 inverts the ratio; 1.0 ignores the electron count; 0.33 wrongly uses the 3-electron change of neutral medium (MnO$_4^-$ → MnO$_2$).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0059",
+    "subject": "chemistry",
+    "topic": "d-Block Elements",
+    "difficulty": "easy",
+    "stem": "When the pH of an orange solution of potassium dichromate is increased by adding alkali, the solution turns yellow due to the formation of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "CrO$_4^{2-}$"
+      },
+      {
+        "key": "B",
+        "text": "CrO$_5$"
+      },
+      {
+        "key": "C",
+        "text": "Cr$^{3+}$"
+      },
+      {
+        "key": "D",
+        "text": "Cr$_2$O$_3$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Cr$_2$O$_7^{2-}$ + 2OH$^-$ ⇌ 2CrO$_4^{2-}$ + H$_2$O; the yellow chromate ion forms in basic solution (no change in oxidation state, Cr stays +6). Cr$^{3+}$ (green) forms only on reduction; CrO$_5$ (blue) forms with H$_2$O$_2$ in acid; Cr$_2$O$_3$ is a solid green oxide.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0060",
+    "subject": "chemistry",
+    "topic": "Coordination Compounds",
+    "difficulty": "medium",
+    "stem": "The IUPAC name of [Co(NH$_3$)$_5$Cl]Cl$_2$ is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "pentaamminechloridocobalt(II) chloride"
+      },
+      {
+        "key": "B",
+        "text": "pentaamminechloridocobalt(III) chloride"
+      },
+      {
+        "key": "C",
+        "text": "pentaamminechloridocobaltate(III) chloride"
+      },
+      {
+        "key": "D",
+        "text": "chloridopentaamminecobalt(III) chloride"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Charge on Co: x + 5(0) + (−1) = +2 ⇒ x = +3. Ligands are listed alphabetically (ammine before chlorido), and the complex is a cation so the metal name is unchanged (not '-ate'). The (II) version has the wrong oxidation state; 'chloridopentaammine' breaks alphabetical order; 'cobaltate' is only used for anionic complexes.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0061",
+    "subject": "chemistry",
+    "topic": "Coordination Compounds",
+    "difficulty": "medium",
+    "stem": "The number of geometrical isomers possible for the octahedral complex ion [Co(NH$_3$)$_4$Cl$_2$]$^+$ is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ],
+    "answer": "C",
+    "explanation": "An MA$_4$B$_2$ octahedral complex has two geometrical isomers: cis (Cl's at 90°, violet) and trans (Cl's at 180°, green). Counting each of the 4 equivalent cis positions separately (giving 3 or 4) overcounts identical arrangements; 0 ignores cis–trans isomerism.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0062",
+    "subject": "chemistry",
+    "topic": "Coordination Compounds",
+    "difficulty": "hard",
+    "stem": "The hybridisation of the central metal and the magnetic behaviour of [Fe(CN)$_6$]$^{4-}$ are, respectively:",
+    "options": [
+      {
+        "key": "A",
+        "text": "sp$^3$d$^2$, paramagnetic"
+      },
+      {
+        "key": "B",
+        "text": "d$^2$sp$^3$, paramagnetic"
+      },
+      {
+        "key": "C",
+        "text": "sp$^3$d$^2$, diamagnetic"
+      },
+      {
+        "key": "D",
+        "text": "d$^2$sp$^3$, diamagnetic"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Fe$^{2+}$ is 3d$^6$. CN$^-$ is a strong-field ligand, so all six electrons pair up in the t$_{2g}$ set (low spin), leaving two empty 3d orbitals for d$^2$sp$^3$ (inner-orbital) hybridisation; no unpaired electrons ⇒ diamagnetic. sp$^3$d$^2$ with paramagnetism describes a weak-field complex like [FeF$_6$]$^{4-}$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0063",
+    "subject": "chemistry",
+    "topic": "Coordination Compounds",
+    "difficulty": "hard",
+    "stem": "One mole of a complex with empirical composition CoCl$_3$·4NH$_3$ gives one mole of AgCl when treated with excess AgNO$_3$ solution. The complex is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "[Co(NH$_3$)$_4$Cl]Cl$_2$"
+      },
+      {
+        "key": "B",
+        "text": "[Co(NH$_3$)$_4$Cl$_2$]Cl"
+      },
+      {
+        "key": "C",
+        "text": "[Co(NH$_3$)$_4$Cl$_3$]"
+      },
+      {
+        "key": "D",
+        "text": "[Co(NH$_3$)$_3$Cl$_3$]·NH$_3$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Only Cl$^-$ ions outside the coordination sphere precipitate as AgCl. One AgCl per formula ⇒ one ionisable Cl$^-$, so two Cl are coordinated: [Co(NH$_3$)$_4$Cl$_2$]Cl (CN = 6). [Co(NH$_3$)$_4$Cl]Cl$_2$ would give 2 AgCl; [Co(NH$_3$)$_4$Cl$_3$] would have CN 7 and give none; [Co(NH$_3$)$_3$Cl$_3$] gives no AgCl.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0064",
+    "subject": "chemistry",
+    "topic": "Coordination Compounds",
+    "difficulty": "hard",
+    "stem": "Which of the following complexes exhibits optical isomerism?",
+    "options": [
+      {
+        "key": "A",
+        "text": "cis-[Co(en)$_2$Cl$_2$]$^+$"
+      },
+      {
+        "key": "B",
+        "text": "trans-[Pt(NH$_3$)$_2$Cl$_2$]"
+      },
+      {
+        "key": "C",
+        "text": "[Co(NH$_3$)$_6$]$^{3+}$"
+      },
+      {
+        "key": "D",
+        "text": "trans-[Co(en)$_2$Cl$_2$]$^+$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The cis isomer of [M(AA)$_2$B$_2$] has no plane of symmetry, so it exists as a pair of non-superimposable mirror images (d and l). The trans isomer has a mirror plane through the two en rings; [Co(NH$_3$)$_6$]$^{3+}$ is highly symmetric; square-planar trans-[Pt(NH$_3$)$_2$Cl$_2$] lies in a mirror plane.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0065",
+    "subject": "chemistry",
+    "topic": "Metallurgy",
+    "difficulty": "easy",
+    "stem": "The froth flotation method is mainly used for the concentration of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "halide ores"
+      },
+      {
+        "key": "B",
+        "text": "oxide ores"
+      },
+      {
+        "key": "C",
+        "text": "sulphide ores"
+      },
+      {
+        "key": "D",
+        "text": "carbonate ores"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In froth flotation, sulphide ore particles are preferentially wetted by pine oil (collector) and rise with the froth, while the gangue is wetted by water and sinks. Oxide ores are usually concentrated by gravity or magnetic separation or leaching; carbonate and halide ores are not concentrated this way.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0066",
+    "subject": "chemistry",
+    "topic": "Qualitative Analysis",
+    "difficulty": "medium",
+    "stem": "In the brown ring test for the nitrate ion, the brown ring formed at the junction of the two liquid layers is due to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "[Fe(H$_2$O)$_5$(NO)]$^{2+}$"
+      },
+      {
+        "key": "B",
+        "text": "NO$_2$ gas dissolved in the acid"
+      },
+      {
+        "key": "C",
+        "text": "[Fe(H$_2$O)$_6$]$^{3+}$"
+      },
+      {
+        "key": "D",
+        "text": "Fe$_2$(SO$_4$)$_3$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "NO$_3^-$ is reduced by Fe$^{2+}$ in conc. H$_2$SO$_4$ to NO, which binds to excess Fe$^{2+}$: [Fe(H$_2$O)$_6$]$^{2+}$ + NO → [Fe(H$_2$O)$_5$(NO)]$^{2+}$ (brown) + H$_2$O. [Fe(H$_2$O)$_6$]$^{3+}$ and Fe$_2$(SO$_4$)$_3$ are pale yellow; NO$_2$ is not responsible for the ring.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0067",
+    "subject": "chemistry",
+    "topic": "GOC",
+    "difficulty": "easy",
+    "stem": "Which of the following carbocations is the most stable?",
+    "options": [
+      {
+        "key": "A",
+        "text": "CH$_3^+$"
+      },
+      {
+        "key": "B",
+        "text": "CH$_3$CH$_2^+$"
+      },
+      {
+        "key": "C",
+        "text": "(CH$_3$)$_3$C$^+$"
+      },
+      {
+        "key": "D",
+        "text": "(CH$_3$)$_2$CH$^+$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Carbocation stability: 3° > 2° > 1° > methyl, because alkyl groups donate electrons by +I effect and hyperconjugation. The tert-butyl cation has 9 α-hydrogens for hyperconjugation; the methyl cation has none and is least stable.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0068",
+    "subject": "chemistry",
+    "topic": "GOC",
+    "difficulty": "medium",
+    "stem": "Which of the following acids is the strongest?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ClCH$_2$COOH"
+      },
+      {
+        "key": "B",
+        "text": "BrCH$_2$COOH"
+      },
+      {
+        "key": "C",
+        "text": "ICH$_2$COOH"
+      },
+      {
+        "key": "D",
+        "text": "FCH$_2$COOH"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Electron-withdrawing halogens stabilise the carboxylate ion by the −I effect; the effect is greatest for the most electronegative halogen, F. Acid strength: FCH$_2$COOH > ClCH$_2$COOH > BrCH$_2$COOH > ICH$_2$COOH.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0069",
+    "subject": "chemistry",
+    "topic": "IUPAC Nomenclature",
+    "difficulty": "medium",
+    "stem": "The IUPAC name of CH$_3$CH(CH$_3$)CH$_2$CH(OH)CH$_3$ is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "2-methylpentan-4-ol"
+      },
+      {
+        "key": "B",
+        "text": "1,3-dimethylbutan-1-ol"
+      },
+      {
+        "key": "C",
+        "text": "4-methylpentan-1-ol"
+      },
+      {
+        "key": "D",
+        "text": "4-methylpentan-2-ol"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The longest chain containing the C–OH has 5 carbons; numbering gives the –OH the lowest locant: C2 bears OH and C4 bears CH$_3$, giving 4-methylpentan-2-ol. '2-methylpentan-4-ol' numbers from the wrong end; 4-methylpentan-1-ol is a different compound; 'dimethylbutanol' does not use the longest chain.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0070",
+    "subject": "chemistry",
+    "topic": "Isomerism",
+    "difficulty": "hard",
+    "stem": "The total number of structural isomers (alcohols and ethers together) with the molecular formula C$_4$H$_{10}$O is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Alcohols (4): butan-1-ol, butan-2-ol, 2-methylpropan-1-ol, 2-methylpropan-2-ol. Ethers (3): CH$_3$OCH$_2$CH$_2$CH$_3$, CH$_3$OCH(CH$_3$)$_2$, C$_2$H$_5$OC$_2$H$_5$. Total = 7 (ignoring stereoisomers). 4 counts only alcohols, 3 only ethers, and 6 misses one ether or alcohol.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0071",
+    "subject": "chemistry",
+    "topic": "Stereochemistry",
+    "difficulty": "medium",
+    "stem": "In the Newman projection of the staggered conformation of ethane, the dihedral angle between a C–H bond on the front carbon and the nearest C–H bond on the rear carbon is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "120°"
+      },
+      {
+        "key": "B",
+        "text": "0°"
+      },
+      {
+        "key": "C",
+        "text": "180°"
+      },
+      {
+        "key": "D",
+        "text": "60°"
+      }
+    ],
+    "answer": "D",
+    "explanation": "In the staggered form, rear C–H bonds lie exactly midway between front C–H bonds (which are 120° apart), so the nearest pair are 60° apart. 0° is the eclipsed conformation; 180° is the angle to the anti (farthest) C–H bond, not the nearest; 120° is the angle between bonds on the same carbon.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0072",
+    "subject": "chemistry",
+    "topic": "Purification and Analysis",
+    "difficulty": "medium",
+    "stem": "In Lassaigne's test for nitrogen, the appearance of a Prussian blue colour is due to the formation of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "[Fe(CN)$_5$NOS]$^{4-}$"
+      },
+      {
+        "key": "B",
+        "text": "Na$_4$[Fe(CN)$_6$]"
+      },
+      {
+        "key": "C",
+        "text": "Fe(SCN)$^{2+}$"
+      },
+      {
+        "key": "D",
+        "text": "Fe$_4$[Fe(CN)$_6$]$_3$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "N in the compound forms NaCN on fusion with Na; with FeSO$_4$ it gives Na$_4$[Fe(CN)$_6$], which with Fe$^{3+}$ forms ferric ferrocyanide Fe$_4$[Fe(CN)$_6$]$_3$ (Prussian blue). Na$_4$[Fe(CN)$_6$] itself is pale yellow; the nitroprusside complex (violet) indicates sulphur; Fe(SCN)$^{2+}$ (blood red) indicates both N and S.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0073",
+    "subject": "chemistry",
+    "topic": "Purification and Analysis",
+    "difficulty": "easy",
+    "stem": "In a paper chromatography experiment, a spot moves 3.0 cm while the solvent front moves 7.5 cm from the base line. The $R_f$ value of the substance is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.60"
+      },
+      {
+        "key": "B",
+        "text": "4.50"
+      },
+      {
+        "key": "C",
+        "text": "0.40"
+      },
+      {
+        "key": "D",
+        "text": "2.50"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$R_f$ = distance moved by substance / distance moved by solvent front = 3.0/7.5 = 0.40. 2.50 inverts the ratio (an $R_f$ can never exceed 1); 0.60 is 1 − 0.40; 4.50 is the difference of the distances.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0074",
+    "subject": "chemistry",
+    "topic": "Isomerism",
+    "difficulty": "easy",
+    "stem": "Which of the following compounds exhibits geometrical (cis–trans) isomerism?",
+    "options": [
+      {
+        "key": "A",
+        "text": "CH$_2$=CHCH$_2$CH$_3$ (but-1-ene)"
+      },
+      {
+        "key": "B",
+        "text": "CH$_3$CH=CH$_2$ (propene)"
+      },
+      {
+        "key": "C",
+        "text": "(CH$_3$)$_2$C=CH$_2$ (2-methylpropene)"
+      },
+      {
+        "key": "D",
+        "text": "CH$_3$CH=CHCH$_3$ (but-2-ene)"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Geometrical isomerism needs each double-bond carbon to carry two different groups. In but-2-ene each sp$^2$ carbon has H and CH$_3$, so cis and trans forms exist. In but-1-ene, propene and 2-methylpropene one carbon carries two identical groups (=CH$_2$ or two CH$_3$).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0075",
+    "subject": "chemistry",
+    "topic": "Isomerism",
+    "difficulty": "hard",
+    "stem": "The total number of stereoisomers of butane-2,3-diol, CH$_3$CH(OH)CH(OH)CH$_3$, is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "B",
+    "explanation": "There are two chiral centres, so at most 2$^2$ = 4. However, because both halves are identical, the (2R,3S) form has an internal plane of symmetry and is a single achiral meso compound. Stereoisomers: (2R,3R), (2S,3S) and meso = 3. The answer 4 ignores the meso form; 2 counts only the enantiomeric pair.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0076",
+    "subject": "chemistry",
+    "topic": "Hydrocarbons",
+    "difficulty": "medium",
+    "stem": "Propene reacts with HBr in the presence of benzoyl peroxide. The major product is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "1-bromopropane"
+      },
+      {
+        "key": "B",
+        "text": "1,2-dibromopropane"
+      },
+      {
+        "key": "C",
+        "text": "3-bromopropene"
+      },
+      {
+        "key": "D",
+        "text": "2-bromopropane"
+      }
+    ],
+    "answer": "A",
+    "explanation": "In the presence of peroxide, HBr adds by a free-radical mechanism (Kharasch/peroxide effect): Br• adds to the terminal carbon to give the more stable 2° radical, leading to anti-Markovnikov product CH$_3$CH$_2$CH$_2$Br. 2-Bromopropane is the Markovnikov product (no peroxide); 1,2-dibromopropane needs Br$_2$; 3-bromopropene is an allylic substitution product (NBS).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0077",
+    "subject": "chemistry",
+    "topic": "Hydrocarbons",
+    "difficulty": "medium",
+    "stem": "Ozonolysis of 2-methylbut-2-ene, (CH$_3$)$_2$C=CHCH$_3$, followed by treatment with Zn/H$_2$O gives:",
+    "options": [
+      {
+        "key": "A",
+        "text": "propanal and ethanal"
+      },
+      {
+        "key": "B",
+        "text": "methanal and butan-2-one"
+      },
+      {
+        "key": "C",
+        "text": "propanone and ethanal"
+      },
+      {
+        "key": "D",
+        "text": "two molecules of propanone"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Ozonolysis cleaves the C=C and converts each carbon into C=O: (CH$_3$)$_2$C= → (CH$_3$)$_2$C=O (propanone) and =CHCH$_3$ → CH$_3$CHO (ethanal). Two propanones would come from 2,3-dimethylbut-2-ene; methanal + butan-2-one from 2-methylbut-1-ene; propanal would require a CH$_3$CH$_2$CH= unit.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0078",
+    "subject": "chemistry",
+    "topic": "Hydrocarbons",
+    "difficulty": "medium",
+    "stem": "Which of the following gives a white precipitate with ammoniacal silver nitrate solution?",
+    "options": [
+      {
+        "key": "A",
+        "text": "But-1-yne"
+      },
+      {
+        "key": "B",
+        "text": "Butane"
+      },
+      {
+        "key": "C",
+        "text": "But-2-yne"
+      },
+      {
+        "key": "D",
+        "text": "But-1-ene"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Terminal alkynes (R–C≡C–H) have an acidic H on the sp carbon (50% s character) and form silver acetylides: R–C≡CAg (white ppt). But-2-yne has no terminal H; but-1-ene and butane have no acidic H.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0079",
+    "subject": "chemistry",
+    "topic": "Hydrocarbons",
+    "difficulty": "medium",
+    "stem": "Which of the following species is aromatic?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cyclohepta-1,3,5-triene, C$_7$H$_8$"
+      },
+      {
+        "key": "B",
+        "text": "Cyclopentadienyl anion, C$_5$H$_5^-$"
+      },
+      {
+        "key": "C",
+        "text": "Cyclopentadienyl cation, C$_5$H$_5^+$"
+      },
+      {
+        "key": "D",
+        "text": "Cyclooctatetraene, C$_8$H$_8$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "C$_5$H$_5^-$ is cyclic, planar, fully conjugated and has 6 π electrons (4n + 2, n = 1), so it is aromatic. C$_5$H$_5^+$ has 4 π electrons (antiaromatic); cyclooctatetraene (8 π) is tub-shaped and non-aromatic; cycloheptatriene has an sp$^3$ CH$_2$ breaking the conjugation.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0080",
+    "subject": "chemistry",
+    "topic": "Hydrocarbons",
+    "difficulty": "easy",
+    "stem": "Which of the following substituents on a benzene ring is meta-directing in electrophilic aromatic substitution?",
+    "options": [
+      {
+        "key": "A",
+        "text": "–CH$_3$"
+      },
+      {
+        "key": "B",
+        "text": "–Cl"
+      },
+      {
+        "key": "C",
+        "text": "–OCH$_3$"
+      },
+      {
+        "key": "D",
+        "text": "–CHO"
+      }
+    ],
+    "answer": "D",
+    "explanation": "–CHO withdraws electrons by −R and −I effects, deactivating the ring and making ortho/para positions most electron-poor, so substitution occurs at meta. –OCH$_3$ and –CH$_3$ are activating o/p directors; –Cl is deactivating but still o/p directing (+R effect).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0081",
+    "subject": "chemistry",
+    "topic": "Haloalkanes",
+    "difficulty": "hard",
+    "stem": "(R)-2-Bromobutane is treated with aqueous NaOH under S$_N$2 conditions. The product is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "(S)-butan-2-ol"
+      },
+      {
+        "key": "B",
+        "text": "but-2-ene only"
+      },
+      {
+        "key": "C",
+        "text": "(R)-butan-2-ol"
+      },
+      {
+        "key": "D",
+        "text": "a racemic mixture of butan-2-ol"
+      }
+    ],
+    "answer": "A",
+    "explanation": "S$_N$2 proceeds by backside attack with Walden inversion. OH replaces Br and takes the same priority rank (OH > C$_2$H$_5$ > CH$_3$ > H, just like Br), so inversion of configuration changes the label from R to S. Retention (R) is not possible in S$_N$2; racemisation is characteristic of S$_N$1; elimination would need alcoholic KOH.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0082",
+    "subject": "chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "difficulty": "easy",
+    "stem": "Which of the following alcohols gives turbidity immediately with Lucas reagent (conc. HCl + anhydrous ZnCl$_2$) at room temperature?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2-Methylpropan-2-ol"
+      },
+      {
+        "key": "B",
+        "text": "2-Methylpropan-1-ol"
+      },
+      {
+        "key": "C",
+        "text": "Butan-1-ol"
+      },
+      {
+        "key": "D",
+        "text": "Butan-2-ol"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Lucas test works via a carbocation (S$_N$1); 3° alcohols form stable 3° carbocations and give the alkyl chloride (turbidity) at once. 2-Methylpropan-2-ol is tertiary. Butan-2-ol (2°) gives turbidity in about 5 minutes; butan-1-ol and 2-methylpropan-1-ol (1°) do not react appreciably at room temperature.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0083",
+    "subject": "chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "difficulty": "medium",
+    "stem": "Which of the following is the most acidic?",
+    "options": [
+      {
+        "key": "A",
+        "text": "p-Cresol"
+      },
+      {
+        "key": "B",
+        "text": "p-Nitrophenol"
+      },
+      {
+        "key": "C",
+        "text": "Phenol"
+      },
+      {
+        "key": "D",
+        "text": "m-Nitrophenol"
+      }
+    ],
+    "answer": "B",
+    "explanation": "–NO$_2$ at the para position stabilises the phenoxide ion by both −I and −R effects (the negative charge delocalises onto the nitro group). At the meta position only −I operates, so m-nitrophenol is weaker. Phenol has no such stabilisation, and the electron-donating CH$_3$ makes p-cresol even less acidic than phenol.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0084",
+    "subject": "chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "difficulty": "hard",
+    "stem": "Anisole (C$_6$H$_5$OCH$_3$) is heated with HI. The products are:",
+    "options": [
+      {
+        "key": "A",
+        "text": "iodobenzene and methyl iodide"
+      },
+      {
+        "key": "B",
+        "text": "phenol and methanol"
+      },
+      {
+        "key": "C",
+        "text": "iodobenzene and methanol"
+      },
+      {
+        "key": "D",
+        "text": "phenol and methyl iodide"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The O–C$_6$H$_5$ bond has partial double-bond character (resonance), so it does not break. I$^-$ attacks the methyl carbon of the protonated ether (S$_N$2): C$_6$H$_5$OCH$_3$ + HI → C$_6$H$_5$OH + CH$_3$I. Products with iodobenzene require breaking the aryl–O bond; phenol + methanol is not formed because I$^-$ is the nucleophile.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0085",
+    "subject": "chemistry",
+    "topic": "Aldehydes and Ketones",
+    "difficulty": "easy",
+    "stem": "Which of the following does NOT undergo aldol condensation?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Propanal, CH$_3$CH$_2$CHO"
+      },
+      {
+        "key": "B",
+        "text": "Ethanal, CH$_3$CHO"
+      },
+      {
+        "key": "C",
+        "text": "Propanone, CH$_3$COCH$_3$"
+      },
+      {
+        "key": "D",
+        "text": "Benzaldehyde, C$_6$H$_5$CHO"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Aldol condensation requires at least one α-hydrogen to form the enolate. Benzaldehyde has no α-H (the CHO is attached directly to the ring), so it undergoes the Cannizzaro reaction instead. Ethanal, propanone and propanal all have α-hydrogens.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0086",
+    "subject": "chemistry",
+    "topic": "Aldehydes and Ketones",
+    "difficulty": "medium",
+    "stem": "Which of the following compounds gives a positive iodoform test?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pentan-3-one"
+      },
+      {
+        "key": "B",
+        "text": "Butan-2-ol"
+      },
+      {
+        "key": "C",
+        "text": "Methanol"
+      },
+      {
+        "key": "D",
+        "text": "Propan-1-ol"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The iodoform test is given by compounds with CH$_3$CO– or CH$_3$CH(OH)– groups. Butan-2-ol, CH$_3$CH(OH)CH$_2$CH$_3$, contains CH$_3$CH(OH)– (oxidised to CH$_3$CO– by NaOI), giving yellow CHI$_3$. Propan-1-ol and methanol lack the CH$_3$CH(OH) unit; pentan-3-one (CH$_3$CH$_2$COCH$_2$CH$_3$) has no CH$_3$CO– group.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0087",
+    "subject": "chemistry",
+    "topic": "Aldehydes and Ketones",
+    "difficulty": "medium",
+    "stem": "Acetophenone (C$_6$H$_5$COCH$_3$) can be converted directly into ethylbenzene by using:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tollens' reagent"
+      },
+      {
+        "key": "B",
+        "text": "NaBH$_4$"
+      },
+      {
+        "key": "C",
+        "text": "LiAlH$_4$"
+      },
+      {
+        "key": "D",
+        "text": "Zn–Hg / conc. HCl"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Clemmensen reduction (zinc amalgam + conc. HCl) reduces C=O to CH$_2$, giving C$_6$H$_5$CH$_2$CH$_3$. NaBH$_4$ and LiAlH$_4$ reduce the ketone only to the secondary alcohol 1-phenylethanol; Tollens' reagent is an oxidising agent that does not react with ketones.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0088",
+    "subject": "chemistry",
+    "topic": "Carboxylic Acids",
+    "difficulty": "hard",
+    "stem": "The correct order of acid strength is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "CH$_3$COOH > C$_6$H$_5$COOH > HCOOH"
+      },
+      {
+        "key": "B",
+        "text": "HCOOH > C$_6$H$_5$COOH > CH$_3$COOH"
+      },
+      {
+        "key": "C",
+        "text": "HCOOH > CH$_3$COOH > C$_6$H$_5$COOH"
+      },
+      {
+        "key": "D",
+        "text": "C$_6$H$_5$COOH > HCOOH > CH$_3$COOH"
+      }
+    ],
+    "answer": "B",
+    "explanation": "p$K_a$ values: HCOOH 3.75, C$_6$H$_5$COOH 4.19, CH$_3$COOH 4.76. Formic acid has no electron-donating group; the sp$^2$ phenyl carbon is mildly electron-withdrawing, so benzoic acid is stronger than acetic acid, where the +I CH$_3$ group destabilises the carboxylate. Orders placing acetic acid above benzoic or benzoic above formic contradict these values.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0089",
+    "subject": "chemistry",
+    "topic": "Amines",
+    "difficulty": "hard",
+    "stem": "The correct order of basic strength of the following in aqueous solution is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "(C$_2$H$_5$)$_3$N > (C$_2$H$_5$)$_2$NH > C$_2$H$_5$NH$_2$ > NH$_3$"
+      },
+      {
+        "key": "B",
+        "text": "(C$_2$H$_5$)$_2$NH > (C$_2$H$_5$)$_3$N > C$_2$H$_5$NH$_2$ > NH$_3$"
+      },
+      {
+        "key": "C",
+        "text": "C$_2$H$_5$NH$_2$ > (C$_2$H$_5$)$_2$NH > (C$_2$H$_5$)$_3$N > NH$_3$"
+      },
+      {
+        "key": "D",
+        "text": "NH$_3$ > C$_2$H$_5$NH$_2$ > (C$_2$H$_5$)$_2$NH > (C$_2$H$_5$)$_3$N"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In water, basicity depends on the +I effect, solvation of the ammonium ion (H-bonding) and steric hindrance together. For ethylamines the net result is 2° > 3° > 1° > NH$_3$ (p$K_b$: 3.00, 3.25, 3.29, 4.75). The 3° > 2° > 1° order holds only in the gas phase; NH$_3$ is the weakest base of the four.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0090",
+    "subject": "chemistry",
+    "topic": "Amines",
+    "difficulty": "medium",
+    "stem": "Propanamide (CH$_3$CH$_2$CONH$_2$) on treatment with Br$_2$ and aqueous NaOH gives:",
+    "options": [
+      {
+        "key": "A",
+        "text": "propan-1-amine"
+      },
+      {
+        "key": "B",
+        "text": "propanenitrile"
+      },
+      {
+        "key": "C",
+        "text": "methanamine"
+      },
+      {
+        "key": "D",
+        "text": "ethanamine"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Hofmann bromamide degradation removes the carbonyl carbon as CO$_3^{2-}$: RCONH$_2$ + Br$_2$ + 4NaOH → RNH$_2$ + Na$_2$CO$_3$ + 2NaBr + 2H$_2$O. With R = C$_2$H$_5$, the product is C$_2$H$_5$NH$_2$ (ethanamine, one carbon fewer). Propan-1-amine would be the LiAlH$_4$ reduction product; methanamine loses two carbons; propanenitrile forms on dehydration with P$_2$O$_5$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0091",
+    "subject": "chemistry",
+    "topic": "Amines",
+    "difficulty": "medium",
+    "stem": "Which of the following does NOT give the carbylamine (isocyanide) test?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Benzylamine"
+      },
+      {
+        "key": "B",
+        "text": "Methanamine"
+      },
+      {
+        "key": "C",
+        "text": "N-Methylaniline"
+      },
+      {
+        "key": "D",
+        "text": "Aniline"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The carbylamine test (CHCl$_3$ + alcoholic KOH, foul smell of isocyanide) is given only by primary amines, aliphatic or aromatic. N-Methylaniline, C$_6$H$_5$NHCH$_3$, is a secondary amine. Aniline, methanamine and benzylamine (C$_6$H$_5$CH$_2$NH$_2$) are all primary.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0092",
+    "subject": "chemistry",
+    "topic": "Amines",
+    "difficulty": "medium",
+    "stem": "Benzenediazonium chloride on treatment with hypophosphorous acid (H$_3$PO$_2$) gives:",
+    "options": [
+      {
+        "key": "A",
+        "text": "aniline"
+      },
+      {
+        "key": "B",
+        "text": "chlorobenzene"
+      },
+      {
+        "key": "C",
+        "text": "phenol"
+      },
+      {
+        "key": "D",
+        "text": "benzene"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Mild reducing agents like H$_3$PO$_2$ (or ethanol) replace the –N$_2^+$ group by H: C$_6$H$_5$N$_2^+$Cl$^-$ + H$_3$PO$_2$ + H$_2$O → C$_6$H$_6$ + N$_2$ + H$_3$PO$_3$ + HCl. Phenol forms on warming with water; chlorobenzene requires CuCl/HCl (Sandmeyer); aniline is not regenerated.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0093",
+    "subject": "chemistry",
+    "topic": "Biomolecules",
+    "difficulty": "hard",
+    "stem": "Which of the following observations could NOT be explained by the open-chain structure of glucose and led to the proposal of its cyclic structure?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Glucose reduces Tollens' reagent"
+      },
+      {
+        "key": "B",
+        "text": "Glucose gives n-hexane on prolonged heating with HI"
+      },
+      {
+        "key": "C",
+        "text": "Glucose does not give Schiff's test or form the hydrogensulphite addition product with NaHSO$_3$"
+      },
+      {
+        "key": "D",
+        "text": "Glucose forms a pentaacetate with acetic anhydride"
+      }
+    ],
+    "answer": "C",
+    "explanation": "An open-chain aldehyde should give Schiff's test and react with NaHSO$_3$; glucose does neither, indicating the –CHO is tied up in a cyclic hemiacetal (also, its pentaacetate does not react with NH$_2$OH). Reduction of Tollens' reagent, pentaacetate formation (five –OH groups) and formation of n-hexane (straight chain of 6 C) are all consistent with the open-chain structure.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0094",
+    "subject": "chemistry",
+    "topic": "Biomolecules",
+    "difficulty": "easy",
+    "stem": "Which of the following is a non-reducing sugar?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Glucose"
+      },
+      {
+        "key": "B",
+        "text": "Maltose"
+      },
+      {
+        "key": "C",
+        "text": "Sucrose"
+      },
+      {
+        "key": "D",
+        "text": "Lactose"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In sucrose, the glycosidic bond links C1 of α-D-glucose with C2 of β-D-fructose, so both reducing (hemiacetal/hemiketal) groups are involved and no free carbonyl can form. Maltose and lactose each retain a free hemiacetal group, and glucose is an aldose, so all three reduce Tollens' and Fehling's reagents.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0095",
+    "subject": "chemistry",
+    "topic": "Biomolecules",
+    "difficulty": "easy",
+    "stem": "Pernicious anaemia is caused by the deficiency of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vitamin K"
+      },
+      {
+        "key": "B",
+        "text": "Vitamin D"
+      },
+      {
+        "key": "C",
+        "text": "Vitamin C"
+      },
+      {
+        "key": "D",
+        "text": "Vitamin B$_{12}$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Vitamin B$_{12}$ (cyanocobalamin, a cobalt complex) is needed for RBC formation; its deficiency causes pernicious anaemia. Vitamin C deficiency causes scurvy, vitamin D deficiency causes rickets/osteomalacia, and vitamin K deficiency causes delayed blood clotting.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0096",
+    "subject": "chemistry",
+    "topic": "Polymers",
+    "difficulty": "easy",
+    "stem": "Nylon-6,6 is obtained by condensation polymerisation of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "phenol and formaldehyde"
+      },
+      {
+        "key": "B",
+        "text": "caprolactam"
+      },
+      {
+        "key": "C",
+        "text": "hexamethylenediamine and adipic acid"
+      },
+      {
+        "key": "D",
+        "text": "ethylene glycol and terephthalic acid"
+      }
+    ],
+    "answer": "C",
+    "explanation": "n H$_2$N(CH$_2$)$_6$NH$_2$ + n HOOC(CH$_2$)$_4$COOH → nylon-6,6 + water; each monomer has 6 carbons, hence the name. Caprolactam gives nylon-6; ethylene glycol + terephthalic acid gives terylene (Dacron); phenol + formaldehyde gives Bakelite.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0097",
+    "subject": "chemistry",
+    "topic": "Polymers",
+    "difficulty": "medium",
+    "stem": "Which of the following is a biodegradable polymer?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Polythene"
+      },
+      {
+        "key": "B",
+        "text": "PVC"
+      },
+      {
+        "key": "C",
+        "text": "Teflon"
+      },
+      {
+        "key": "D",
+        "text": "PHBV"
+      }
+    ],
+    "answer": "D",
+    "explanation": "PHBV (poly-β-hydroxybutyrate-co-β-hydroxyvalerate) is a copolymer of 3-hydroxybutanoic and 3-hydroxypentanoic acids and is degraded by bacteria (nylon-2-nylon-6 is another example). PVC, polythene and Teflon are addition polymers with C–C backbones that persist in the environment.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0098",
+    "subject": "chemistry",
+    "topic": "Chemistry in Everyday Life",
+    "difficulty": "medium",
+    "stem": "Which of the following drugs is used as a tranquilizer?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Aspirin"
+      },
+      {
+        "key": "B",
+        "text": "Equanil (meprobamate)"
+      },
+      {
+        "key": "C",
+        "text": "Cimetidine"
+      },
+      {
+        "key": "D",
+        "text": "Chloramphenicol"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Equanil (meprobamate) is a tranquilizer used to relieve anxiety and depression. Aspirin is a non-narcotic analgesic/antipyretic, chloramphenicol is a broad-spectrum antibiotic, and cimetidine is an antacid (H$_2$-receptor antagonist).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0099",
+    "subject": "chemistry",
+    "topic": "Chemistry in Everyday Life",
+    "difficulty": "medium",
+    "stem": "The use of which artificial sweetener is limited to cold foods and soft drinks because it is unstable at cooking temperature?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Aspartame"
+      },
+      {
+        "key": "B",
+        "text": "Saccharin"
+      },
+      {
+        "key": "C",
+        "text": "Alitame"
+      },
+      {
+        "key": "D",
+        "text": "Sucralose"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Aspartame (methyl ester of a dipeptide of aspartic acid and phenylalanine) decomposes at cooking temperature, so it is used only in cold foods and drinks. Sucralose (a trichloro derivative of sucrose) is stable at cooking temperature; saccharin was the first popular artificial sweetener; alitame is a high-potency sweetener.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "chem-a-0100",
+    "subject": "chemistry",
+    "topic": "Environmental Chemistry",
+    "difficulty": "medium",
+    "stem": "Which of the following is NOT a typical constituent of photochemical smog?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Acrolein"
+      },
+      {
+        "key": "B",
+        "text": "Peroxyacetyl nitrate (PAN)"
+      },
+      {
+        "key": "C",
+        "text": "Ozone"
+      },
+      {
+        "key": "D",
+        "text": "Sulphur dioxide"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Photochemical (oxidising) smog forms in warm, sunny climates from NO$_x$ and hydrocarbons and contains O$_3$, NO, PAN, acrolein and formaldehyde. SO$_2$ is a characteristic component of classical (reducing, London) smog formed from coal smoke in cool humid climates.",
+    "source": {
+      "kind": "authored"
+    }
+  }
+]

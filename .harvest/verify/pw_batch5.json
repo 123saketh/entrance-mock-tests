@@ -1,0 +1,662 @@
+[
+ {
+  "ref": "JEE Main 2025 Apr #70",
+  "stem": "If the domain of the function $f(x)=\\log_7\\bigl(1-\\log_4(x^2-9x+18)\\bigr)$ is $(\\alpha,\\beta)\\cup(\\gamma,\\delta)$, then $\\alpha+\\beta+\\gamma+\\delta$ is equal to:",
+  "options": {
+   "A": "18",
+   "B": "16",
+   "C": "15",
+   "D": "17"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #76",
+  "stem": "Let $A$ be a matrix of order $3\\times3$ with $\\lvert A\\rvert=5$. If $\\bigl\\lvert 2\\,\\mathrm{adj}\\bigl(3A\\,\\mathrm{adj}(2A)\\bigr)\\bigr\\rvert=2^{\\alpha}3^{\\beta}5^{\\gamma}$, where $\\alpha,\\beta,\\gamma\\in\\mathbb{N}$, then $\\alpha+\\beta+\\gamma$ is equal to:",
+  "options": {
+   "A": "25",
+   "B": "26",
+   "C": "27",
+   "D": "28"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #77",
+  "stem": "Let a line passing through the point $(4,1,0)$ intersect the line $L_1:\\;\\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{4}$ at the point $A(\\alpha,\\beta,\\gamma)$ and the line $L_2:\\;x-6 = y - z + 4$ at the point $B(a,b,c)$. Then $\\det\\begin{pmatrix}1 & 0 & 1 \\\\ \\alpha & \\beta & \\gamma \\\\ a & b & c\\end{pmatrix}$ is equal to:",
+  "options": {
+   "A": "8",
+   "B": "16",
+   "C": "12",
+   "D": "6"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #78",
+  "stem": "Let $\\alpha$ and $\\beta$ be the roots of $x^2 + \\sqrt{3}\\,x - 16 = 0$, and $\\gamma$ and $\\delta$ be the roots of $x^2 + 3x - 1 = 0$. If $P_n = \\alpha^n + \\beta^n$ and $Q_n = \\gamma^n + \\delta^n$, then\n$$\\frac{P_{25} + \\sqrt{3}\\,P_{24}}{2P_{23}} \\;+\\; \\frac{Q_{25} - Q_{23}}{Q_{24}}$$\nis equal to:",
+  "options": {
+   "A": "3",
+   "B": "4",
+   "C": "5",
+   "D": "7"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #79",
+  "stem": "The sum of all rational terms in the expansion of $(2+\\sqrt{3})^8$ is:",
+  "options": {
+   "A": "16923",
+   "B": "3763",
+   "C": "33845",
+   "D": "18817"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #80",
+  "stem": "Let $A = \\{-3, -2, -1, 0, 1, 2, 3\\}$. Let $R$ be a relation on $A$ defined by $xRy$ if and only if $0 \\le x^2 + 2y \\le 4$. Let $\\ell$ be the number of elements in $R$ and $m$ be the minimum number of elements required to be added to $R$ to make it a reflexive relation. Then $\\ell + m$ is equal to:",
+  "options": {
+   "A": "19",
+   "B": "20",
+   "C": "17",
+   "D": "18"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #81",
+  "stem": "A line passing through the point $P(\\sqrt{5},\\sqrt{5})$ intersects the ellipse $\\dfrac{x^2}{36}+\\dfrac{y^2}{25}=1$ at points $A$ and $B$ such that $(PA)\\cdot(PB)$ is maximum. Then $5\\bigl(PA^2+PB^2\\bigr)$ is equal to:",
+  "options": {
+   "A": "218",
+   "B": "377",
+   "C": "290",
+   "D": "338"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #82",
+  "stem": "The sum $1 + 3 + 11 + 25 + 45 + 71 + \\dots$ up to 20 terms is equal to:",
+  "options": {
+   "A": "7240",
+   "B": "7130",
+   "C": "6982",
+   "D": "8124"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #83",
+  "stem": "If the domain of the function $f(x)=\\log_e\\bigl(\\tfrac{2x-3}{5+4x}\\bigr)+\\sin^{-1}\\bigl(\\tfrac{4+3x}{2-x}\\bigr)$ is $[\\alpha,\\beta]$, then $\\alpha^2+4\\beta$ is equal to:",
+  "options": {
+   "A": "5",
+   "B": "4",
+   "C": "3",
+   "D": "7"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #84",
+  "stem": "If $\\sum_{r=1}^9 \\binom{r+3}{2} C_r = \\alpha\\bigl(\\tfrac{3}{2}\\bigr)^9 - \\beta$, where $\\alpha,\\beta\\in\\mathbb{N}$, then $(\\alpha+\\beta)^2$ is equal to:",
+  "options": {
+   "A": "27",
+   "B": "9",
+   "C": "81",
+   "D": "18"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #85",
+  "stem": "If $y(x)=\\begin{vmatrix} \\sin x & \\cos x & \\sin x+\\cos x+1 \\\\ 27 & 28 & 27 \\\\ 1 & 1 & 1 \\end{vmatrix},\\;x\\in\\mathbb{R},$ then $\\frac{d^2y}{dx^2}+y$ is equal to:",
+  "options": {
+   "A": "-1",
+   "B": "28",
+   "C": "27",
+   "D": "1"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #86",
+  "stem": "The number of solutions of the equation $2x + 3\\tan x = \\pi$, $x\\in[-2\\pi,2\\pi]\\setminus\\{\\pm\\tfrac{\\pi}{2},\\pm\\tfrac{3\\pi}{2}\\}$ is:",
+  "options": {
+   "A": "6",
+   "B": "5",
+   "C": "4",
+   "D": "3"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #87",
+  "stem": "Let $g$ be a differentiable function such that $\\displaystyle\\int_0^x g(t)\\,dt = x - \\int_x^\\pi g(t)\\,dt$, $x\\ge0$, and let $y=y(x)$ satisfy the differential equation $\\frac{dy}{dx} - y\\tan x = 2(x+1)\\sec x\\,g(x)$ for $x\\in[0,\\tfrac{\\pi}{2}]$. If $y(0)=0$, then $y\\bigl(\\tfrac{\\pi}{3}\\bigr)$ is equal to:",
+  "options": {
+   "A": "$\\frac{2\\pi}{3\\sqrt{3}}$",
+   "B": "$\\frac{4\\pi}{3}$",
+   "C": "$\\frac{2\\pi}{3}$",
+   "D": "$\\frac{4\\pi}{\\sqrt{3}}$"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #88",
+  "stem": "A line passes through the origin and makes equal angles with the positive coordinate axes. It intersects the lines $L_1:\\;2x+y+6=0$ and $L_2:\\;4x+2y-p=0,\\;p>0$, at the points $A$ and $B$, respectively. If $AB=\\tfrac{9}{\\sqrt{2}}$ and the foot of the perpendicular from the point $A$ on the line $L_2$ is $M$, then $\\tfrac{AM}{BM}$ is equal to:",
+  "options": {
+   "A": "5",
+   "B": "4",
+   "C": "2",
+   "D": "3"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #89",
+  "stem": "Let $z\\in\\mathbb{C}$ be such that $\\frac{z^2 + 3i}{z - 2 + i} = 2 + 3i$. Then the sum of all possible values of $z^2$ is:",
+  "options": {
+   "A": "19 - 2i",
+   "B": "-19 - 2i",
+   "C": "19 + 2i",
+   "D": "-19 + 2i"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #90",
+  "stem": "Let f(x)=\\int x^3\\sqrt{3 - x^2}\\,dx. If 5f(\\sqrt{2}) = -4, then f(1) is equal to:",
+  "options": {
+   "A": "$-2\\sqrt{2}/5$",
+   "B": "$-8\\sqrt{2}/5$",
+   "C": "$-4\\sqrt{2}/5$",
+   "D": "$-6\\sqrt{2}/5$"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #91",
+  "stem": "Let $a_1, a_2, a_3, \\dots$ be a G.P. of increasing positive numbers. If $a_3 a_5 = 729$ and $a_2 + a_4 = \\tfrac{111}{4}$, then $24(a_1 + a_2 + a_3)$ is equal to:",
+  "options": {
+   "A": "131",
+   "B": "130",
+   "C": "129",
+   "D": "128"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #92",
+  "stem": "Let the domain of the function $f(x)=\\log_2\\bigl(\\log_4\\bigl(\\log_6(3+4x-x^2)\\bigr)\\bigr)$ be $(a,b)$. If $\\displaystyle\\int_0^a \\lfloor x^2\\rfloor\\,dx = p - \\sqrt{q} - \\sqrt{r}$, with $p,q,r\\in\\mathbb{N}$ and $\\gcd(p,q,r)=1$, where $\\lfloor\\cdot\\rfloor$ is the greatest integer function, then $p+q+r$ is equal to:",
+  "options": {
+   "A": "10",
+   "B": "8",
+   "C": "11",
+   "D": "9"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #93",
+  "stem": "The radius of the smallest circle which touches the parabolas $y = x^2 + 2$ and $x = y^2 + 2$ is:",
+  "options": {
+   "A": "$\\tfrac{7\\sqrt{2}}{2}$",
+   "B": "$\\tfrac{7\\sqrt{2}}{16}$",
+   "C": "$\\tfrac{7\\sqrt{2}}{4}$",
+   "D": "$\\tfrac{7\\sqrt{2}}{8}$"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #94",
+  "stem": "Let $f(x)=\\begin{cases}(1+ax)^{1/x},&x<0,\\\\1+b,&x=0,\\\\\\displaystyle\\frac{\\sqrt{x+4}-2}{\\sqrt[3]{x+c}-2},&x>0\\end{cases}$ be continuous at $x=0$. Then $e^a b c$ is equal to:",
+  "options": {
+   "A": "64",
+   "B": "72",
+   "C": "48",
+   "D": "36"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #95",
+  "stem": "Line L1 passes through the point (1, 2, 3) and is parallel to the z-axis. Line L2 passes through the point (λ, 5, 6) and is parallel to the y-axis. If for λ = λ₁, λ₂ with λ₂ < λ₁ the shortest distance between these two lines is 3, then the square of the distance of the point (λ₁, λ₂, 7) from the line L1 is:",
+  "options": {
+   "A": "40",
+   "B": "32",
+   "C": "25",
+   "D": "37"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #101",
+  "stem": "Let $a>0$. If the function $f(x)=6x^{3}-45a x^{2}+108a^{2}x+1$ attains its local maximum and minimum values at the points $x_{1}$ and $x_{2}$ respectively such that $x_{1}x_{2}=54$, then $a+x_{1}+x_{2}$ is equal to:",
+  "options": {
+   "A": "15",
+   "B": "18",
+   "C": "24",
+   "D": "13"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #102",
+  "stem": "The sum of the infinite series $\\cot^{-1}\\left(\\tfrac{7}{4}\\right)+\\cot^{-1}\\left(\\tfrac{19}{4}\\right)+\\cot^{-1}\\left(\\tfrac{39}{4}\\right)+\\cot^{-1}\\left(\\tfrac{67}{4}\\right)+\\ldots$ is:",
+  "options": {
+   "A": "$\\frac{\\pi}{2}+\\tan^{-1}\\left(\\frac{1}{2}\\right)$",
+   "B": "$\\frac{\\pi}{2}-\\cot^{-1}\\left(\\frac{1}{2}\\right)$",
+   "C": "$\\frac{\\pi}{2}+\\cot^{-1}\\left(\\frac{1}{2}\\right)$",
+   "D": "$\\frac{\\pi}{2}-\\tan^{-1}\\left(\\frac{1}{2}\\right)$"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #103",
+  "stem": "Let $f$ be a differentiable function on $\\mathbb{R}$ such that $f(2)=1$ and $f'(2)=4$. If $\\displaystyle\\lim_{x\\to0}\\bigl(f(2+x)\\bigr)^{3/x}=e^{\\alpha}$, then the number of times the curve $y=4x^{3}-4x^{2}-4(\\alpha-7)x-\\alpha$ meets the $x$-axis is:",
+  "options": {
+   "A": "2",
+   "B": "1",
+   "C": "0",
+   "D": "3"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #104",
+  "stem": "Let $A = \\{-3,-2,-1,0,1,2,3\\}$ and $R$ be a relation on $A$ defined by $xRy$ iff $2x - y \\in \\{0,1\\}$. Let $\\ell$ be the number of elements in $R$. Let $m$ and $n$ be the minimum numbers of elements that must be added to $R$ to make it reflexive and symmetric, respectively. Then $\\ell + m + n$ is equal to:",
+  "options": {
+   "A": "18",
+   "B": "17",
+   "C": "15",
+   "D": "16"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #105",
+  "stem": "Let the product of $\\omega_1 = (8+i)\\sin\\theta + (7+4i)\\cos\\theta$ and $\\omega_2 = (1+8i)\\sin\\theta + (4+7i)\\cos\\theta$ be $\\alpha + i\\beta$, where $i=\\sqrt{-1}$. Let $p$ and $q$ be the maximum and minimum values of $\\alpha+\\beta$, respectively. Then $p+q$ is equal to:",
+  "options": {
+   "A": "140",
+   "B": "130",
+   "C": "160",
+   "D": "150"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #106",
+  "stem": "Let the values of $p$, for which the shortest distance between the lines $\\displaystyle\\frac{x+1}{3}=\\frac{y}{4}=\\frac{z}{5}$ and $\\mathbf{r}=(p\\hat{i}+2\\hat{j}+\\hat{k})+\\lambda(2\\hat{i}+3\\hat{j}+4\\hat{k})$ is $\\tfrac{1}{\\sqrt6}$, be $a,b$ with $a<b$. Then the length of the latus rectum of the ellipse $\\displaystyle\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$ is:",
+  "options": {
+   "A": "9",
+   "B": "$\\tfrac{3}{2}$",
+   "C": "$\\tfrac{2}{3}$",
+   "D": "18"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #107",
+  "stem": "The axis of a parabola is the line $y = x$ and its vertex and focus are in the first quadrant at distances $\\sqrt{2}$ and $2\\sqrt{2}$ from the origin, respectively. If the point $(1, k)$ lies on the parabola, then a possible value of $k$ is:",
+  "options": {
+   "A": "4",
+   "B": "9",
+   "C": "3",
+   "D": "8"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #108",
+  "stem": "Let the domains of the functions $f(x)=\\log_{10}\\log_{10}\\bigl(8-\\log_{2}(x^2+4x+5)\\bigr)$ and $g(x)=\\sin^{-1}\\!\\bigl(\\tfrac{7x+10}{x-2}\\bigr)$ be $(\\alpha,\\beta)$ and $[\\gamma,\\delta]$, respectively. Then $\\alpha^2+\\beta^2+\\gamma^2+\\delta^2$ is equal to:",
+  "options": {
+   "A": "15",
+   "B": "13",
+   "C": "16",
+   "D": "14"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #109",
+  "stem": "A line passing through the point $A(-2,0)$ touches the parabola $P:\\;y^2 = x - 2$ at the point $B$ in the first quadrant. The area of the region bounded by the line $AB$, the parabola $P$, and the $x$-axis is:",
+  "options": {
+   "A": "$\\tfrac{7}{3}$",
+   "B": "2",
+   "C": "$\\tfrac{8}{3}$",
+   "D": "3"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #110",
+  "stem": "Let the sum of the focal distances of the point P(4,3) on the hyperbola $H:\\;\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$ be $\\tfrac{8\\sqrt{5}}{3}$. If for $H$, the length of the latus rectum is $l$ and the product of the focal distances of the point $P$ is $m$, then $9l^2+6m$ is equal to:",
+  "options": {
+   "A": "184",
+   "B": "186",
+   "C": "185",
+   "D": "187"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #111",
+  "stem": "Let the matrix $A=\\begin{pmatrix}1&0&0\\\\1&0&1\\\\0&1&0\\end{pmatrix}$ satisfy $A^n = A^{n-2} + A^2 - I$ for $n\\ge3$. Then the sum of all the elements of $A^{50}$ is:",
+  "options": {
+   "A": "53",
+   "B": "52",
+   "C": "39",
+   "D": "44"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #112",
+  "stem": "If the sum of the first 20 terms of the series $\\displaystyle\\frac{4\\cdot1}{4+3\\cdot1^2+1^4}+\\frac{4\\cdot2}{4+3\\cdot2^2+2^4}+\\frac{4\\cdot3}{4+3\\cdot3^2+3^4}+\\dots$ is $\\tfrac{m}{n}$, where $m$ and $n$ are coprime, then $m+n$ is equal to:",
+  "options": {
+   "A": "423",
+   "B": "420",
+   "C": "421",
+   "D": "422"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #113",
+  "stem": "If $1^2\\binom{15}{1}^2 + 2^2\\binom{15}{2}^2 + 3^2\\binom{15}{3}^2 + \\dots + 15^2\\binom{15}{15}^2 = 2^m\\,3^n\\,5^k$, where $m,n,k$ are positive integers, then $m + n + k$ is equal to:",
+  "options": {
+   "A": "19",
+   "B": "21",
+   "C": "18",
+   "D": "20"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #114",
+  "stem": "Let for two distinct values of $p$ the lines $y = x + p$ touch the ellipse $E:\\;\\frac{x^2}{4}+\\frac{y^2}{3}=1$ at the points $A$ and $B$. Let the line $y = x$ intersect $E$ at the points $C$ and $D$. Then the area of the quadrilateral $ABCD$ is equal to:",
+  "options": {
+   "A": "36",
+   "B": "24",
+   "C": "48",
+   "D": "20"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #115",
+  "stem": "Consider two sets A and B, each containing three numbers in A.P. Let the sum and the product of the elements of A be 36 and p respectively, and the sum and the product of the elements of B be 36 and q respectively. Let d and D be the common differences of the A.P. in A and B respectively such that D = d + 3, d > 0. If $\\frac{p+q}{p-q} = \\frac{19}{5}$, then p - q is equal to:",
+  "options": {
+   "A": "600",
+   "B": "450",
+   "C": "630",
+   "D": "540"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #116",
+  "stem": "If a curve $y=y(x)$ passes through the point $(1,\\tfrac{\\pi}{2})$ and satisfies the differential equation $\\bigl(7x^4\\cot y - e^x\\csc y\\bigr)\\frac{dx}{dy} = x^5$, $x\\ge1$, then at $x=2$, the value of $\\cos y$ is:",
+  "options": {
+   "A": "$\\frac{2e^2 - e}{64}$",
+   "B": "$\\frac{2e^2 + e}{64}$",
+   "C": "$\\frac{2e^2 - e}{128}$",
+   "D": "$\\frac{2e^2 + e}{128}$"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #117",
+  "stem": "The centre of a circle $C$ is at the centre of the ellipse $E:\\;\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$, $a>b$. Let $C$ pass through the foci $F_1$ and $F_2$ of $E$ such that the circle $C$ and the ellipse $E$ intersect at four points. Let $P$ be one of these four points. If the area of the triangle $\\triangle PF_1F_2$ is $30$ and the length of the major axis of $E$ is $17$, then the distance between the foci of $E$ is:",
+  "options": {
+   "A": "26",
+   "B": "13",
+   "C": "12",
+   "D": "$\\frac{13}{2}$"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #118",
+  "stem": "Let $f(x)+2f\\bigl(\\tfrac{1}{x}\\bigr)=x^2+5$ and $2g(x)-3g\\bigl(\\tfrac{1}{x}\\bigr)=x$, $x>0$. If $\\alpha=\\int_1^2 f(x)\\,dx$ and $\\beta=\\int_1^2 g(x)\\,dx$, then the value of $9\\alpha+\\beta$ is:",
+  "options": {
+   "A": "1",
+   "B": "0",
+   "C": "10",
+   "D": "11"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #119",
+  "stem": "Let $A$ be the point of intersection of the lines\n$$L_1:\\;\\frac{x-7}{1}=\\frac{y-5}{0}=\\frac{z-3}{-1},$$\nand\n$$L_2:\\;\\frac{x-1}{3}=\\frac{y+3}{4}=\\frac{z+7}{5}.$$Let $B$ and $C$ be points on $L_1$ and $L_2$ respectively such that $AB=AC=\\sqrt{15}$. Then the square of the area of triangle $ABC$ is:",
+  "options": {
+   "A": "54",
+   "B": "63",
+   "C": "57",
+   "D": "60"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #120",
+  "stem": "Let the mean and the standard deviation of the observations 2, 3, 3, 4, 5, 7, a, b be 4 and √2 respectively. Then the mean deviation about the mode of these observations is:",
+  "options": {
+   "A": "1",
+   "B": "3/4",
+   "C": "2",
+   "D": "1/2"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #126",
+  "stem": "Let f, g: (1, \\infty) \\to \\mathbb{R} be defined as f(x) = \\frac{2x+3}{5x+2} and g(x) = \\frac{2-3x}{1-x}. If the range of the function f\\circ g: [2,4] \\to \\mathbb{R} is [\\alpha, \\beta], then \\frac{1}{\\beta - \\alpha} is equal to:",
+  "options": {
+   "A": "68",
+   "B": "29",
+   "C": "2",
+   "D": "56"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #127",
+  "stem": "Consider the sets A = \\{(x, y) \\in \\mathbb{R} \\times \\mathbb{R} : x^2 + y^2 \\ge 25\\}, B = \\{(x, y) \\in \\mathbb{R} \\times \\mathbb{R} : x^2 + 9y^2 = 144\\}, C = \\{(x, y) \\in \\mathbb{Z} \\times \\mathbb{Z} : 2x^2 + y^2 \\le 4\\}, and D = A \\cap B. The total number of one-one functions from the set D to the set C is:",
+  "options": {
+   "A": "15120",
+   "B": "19320",
+   "C": "17160",
+   "D": "18290"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #128",
+  "stem": "Let A = \\{1, 6, 11, 16, \\ldots\\} and B = \\{9, 16, 23, 30, \\ldots\\} be the sets consisting of the first 2025 terms of two arithmetic progressions. Then n(A \\cup B) is:",
+  "options": {
+   "A": "3814",
+   "B": "4027",
+   "C": "3761",
+   "D": "4003"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #129",
+  "stem": "The probability of forming a 12-person committee from 4 engineers, 2 doctors and 10 professors containing at least 3 engineers and at least 1 doctor is:",
+  "options": {
+   "A": "129/182",
+   "B": "103/182",
+   "C": "17/26",
+   "D": "19/26"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #130",
+  "stem": "For an integer n \\ge 2, if the arithmetic mean of all coefficients in the binomial expansion of (x + y)^{2n-3} is 16, then the distance of the point P(2n-1, n^2-4n) from the line x + y = 8 is:",
+  "options": {
+   "A": "$\\sqrt{2}$",
+   "B": "$2\\sqrt{2}$",
+   "C": "$5\\sqrt{2}$",
+   "D": "$3\\sqrt{2}$"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #131",
+  "stem": "Let the shortest distance between the lines $\\frac{x-3}{3} = \\frac{y-\\alpha}{-1} = \\frac{z-3}{1}$ and $\\frac{x+3}{-3} = \\frac{y+7}{2} = \\frac{z-\\beta}{4}$ be 3\\sqrt{30}. Then the positive value of 5\\alpha + \\beta is:",
+  "options": {
+   "A": "42",
+   "B": "46",
+   "C": "48",
+   "D": "40"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #132",
+  "stem": "If \\lim_{x\\to1} \\frac{(x-1)(6 + \\lambda \\cos(x-1)) + \\mu \\sin(1-x)}{(x-1)^3} = -1, where \\lambda, \\mu \\in \\mathbb{R}, then \\lambda + \\mu is equal to:",
+  "options": {
+   "A": "18",
+   "B": "20",
+   "C": "19",
+   "D": "17"
+  },
+  "answer": "A"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #133",
+  "stem": "Let f: [0, \\infty) \\to \\mathbb{R} be a differentiable function such that f(x) = 1 - 2x + \\int_0^x e^{t-x} f(t) \\, dt for all x \\in [0, \\infty). Then the area of the region bounded by y = f(x) and the coordinate axes is:",
+  "options": {
+   "A": "$\\sqrt{5}$",
+   "B": "1/2",
+   "C": "$\\sqrt{2}$",
+   "D": "2"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #134",
+  "stem": "Let A and B be two distinct points on the line L: (x-6)/3 = (y-7)/2 = (z-7)/-2. Both A and B are at a distance 2\\sqrt{17} from the foot of the perpendicular drawn from the point (1, 2, 3) to the line L. If O is the origin, then OA \\cdot OB is equal to:",
+  "options": {
+   "A": "49",
+   "B": "47",
+   "C": "21",
+   "D": "62"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #135",
+  "stem": "Let f: \\mathbb{R} \\to \\mathbb{R} be a continuous function satisfying f(0) = 1 and f(2x) - f(x) = x for all x \\in \\mathbb{R}. If \\lim_{n\\to\\infty} [f(x) - f(x/2^n)] = G(x), then \\sum_{r=1}^{10} G(r^2) is equal to:",
+  "options": {
+   "A": "540",
+   "B": "385",
+   "C": "420",
+   "D": "215"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #136",
+  "stem": "1 + 3 + 5^2 + 7 + 9^2 + \\dots up to 40 terms is equal to:",
+  "options": {
+   "A": "43890",
+   "B": "41880",
+   "C": "33980",
+   "D": "40870"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #137",
+  "stem": "In the expansion of $\\bigl(\\frac{\\sqrt{2}}{3} + \\frac{1}{\\sqrt{3}}\\bigr)^n$, n \\in \\mathbb{N}, if the ratio of the 15th term from the beginning to the 15th term from the end is \\tfrac{1}{6}, then the value of \\binom{n}{3} is:",
+  "options": {
+   "A": "4060",
+   "B": "1040",
+   "C": "2300",
+   "D": "4960"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #138",
+  "stem": "Considering the principal values of the inverse trigonometric functions, \\sin^{-1}\\bigl(\\tfrac{\\sqrt{3}}{2}x + \\tfrac{1}{2}\\sqrt{1-x^2}\\bigr), -\\tfrac{1}{2} < x < \\tfrac{1}{\\sqrt{2}}, is equal to:",
+  "options": {
+   "A": "$\\frac{\\pi}{4} + \\sin^{-1} x$",
+   "B": "$\\frac{\\pi}{6} + \\sin^{-1} x$",
+   "C": "$-\\frac{5\\pi}{6} - \\sin^{-1} x$",
+   "D": "$\\frac{5\\pi}{6} - \\sin^{-1} x$"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #139",
+  "stem": "Consider two vectors \\mathbf{u}=3\\mathbf{i}-\\mathbf{j} and \\mathbf{v}=2\\mathbf{i}+\\mathbf{j}-\\lambda\\mathbf{k}, \\lambda > 0. The angle between them is given by \\cos^{-1}\\bigl(\\tfrac{\\sqrt{5}}{2\\sqrt{7}}\\bigr). Let \\mathbf{v}=\\mathbf{v}_1+\\mathbf{v}_2, where \\mathbf{v}_1 is parallel to \\mathbf{u} and \\mathbf{v}_2 is perpendicular to \\mathbf{u}. Then the value of |\\mathbf{v}_1|^2 + |\\mathbf{v}_2|^2 is:",
+  "options": {
+   "A": "$\\tfrac{23}{2}$",
+   "B": "14",
+   "C": "$\\tfrac{25}{2}$",
+   "D": "10"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #140",
+  "stem": "Let the three sides of a triangle be on the lines 4x - 7y + 10 = 0, x + y = 5, and 7x + 4y = 15. Then the distance of its orthocentre from the orthocentre of the triangle formed by the lines x = 0, y = 0, and x + y = 1 is:",
+  "options": {
+   "A": "5",
+   "B": "$\\sqrt{5}$",
+   "C": "$\\sqrt{20}$",
+   "D": "20"
+  },
+  "answer": "B"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #141",
+  "stem": "The value of \\int_{-1}^{1} \\frac{(1 + \\sqrt{|x|} - x)e^x + (\\sqrt{|x|} - x)e^{-x}}{e^x + e^{-x}} \\, dx is equal to:",
+  "options": {
+   "A": "$3 - \\frac{2\\sqrt{2}}{3}$",
+   "B": "$2 + \\frac{2\\sqrt{2}}{3}$",
+   "C": "$1 - \\frac{2\\sqrt{2}}{3}$",
+   "D": "$1 + \\frac{2\\sqrt{2}}{3}$"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #142",
+  "stem": "The length of the latus-rectum of the ellipse whose foci are (2,5) and (2,-3) and eccentricity is \\tfrac{4}{5} is:",
+  "options": {
+   "A": "$\\tfrac{6}{5}$",
+   "B": "$\\tfrac{50}{3}$",
+   "C": "$\\tfrac{10}{3}$",
+   "D": "$\\tfrac{18}{5}$"
+  },
+  "answer": "D"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #143",
+  "stem": "Consider the equation x^2 + 4x - n = 0, where n \\in [20,100] is a natural number. Then the number of all distinct values of n, for which the given equation has integral roots, is equal to:",
+  "options": {
+   "A": "7",
+   "B": "8",
+   "C": "6",
+   "D": "5"
+  },
+  "answer": "C"
+ },
+ {
+  "ref": "JEE Main 2025 Apr #144",
+  "stem": "A box contains 10 pens of which 3 are defective. A sample of 2 pens is drawn at random and let X denote the number of defective pens. Then the variance of X is:",
+  "options": {
+   "A": "$\\tfrac{11}{15}$",
+   "B": "$\\tfrac{28}{75}$",
+   "C": "$\\tfrac{2}{15}$",
+   "D": "$\\tfrac{3}{5}$"
+  },
+  "answer": "B"
+ }
+]

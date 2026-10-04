@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "math-b-0001",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "easy",
+    "stem": "If $\\tan\\theta = \\frac{3}{4}$ and $\\theta$ lies in the third quadrant, then $\\sin\\theta + \\cos\\theta$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{7}{5}$"
+      },
+      {
+        "key": "B",
+        "text": "$-\\frac{7}{5}$"
+      },
+      {
+        "key": "C",
+        "text": "$-\\frac{1}{5}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{1}{5}$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In the third quadrant both $\\sin$ and $\\cos$ are negative. From a 3-4-5 triangle, $\\sin\\theta = -\\frac35$ and $\\cos\\theta = -\\frac45$, so the sum is $-\\frac75$. $\\frac75$ forgets the signs. $\\pm\\frac15$ comes from giving $\\sin$ and $\\cos$ opposite signs, which happens in the 2nd or 4th quadrant, not here.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0002",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "easy",
+    "stem": "The value of $\\sin 15^\\circ \\cos 15^\\circ$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{1}{4}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{1}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{\\sqrt3}{4}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{1}{8}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$\\sin 15^\\circ\\cos 15^\\circ = \\frac12\\sin 30^\\circ = \\frac12\\cdot\\frac12 = \\frac14$. $\\frac12$ is $\\sin 30^\\circ$ itself (the factor $\\frac12$ was dropped). $\\frac{\\sqrt3}{4}$ wrongly uses $\\cos 30^\\circ$. $\\frac18$ halves twice.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0003",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "medium",
+    "stem": "The value of $\\cos 20^\\circ \\cos 40^\\circ \\cos 80^\\circ$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{1}{4}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{1}{16}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{1}{8}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{\\sqrt3}{8}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Use $\\cos\\theta\\cos(60^\\circ-\\theta)\\cos(60^\\circ+\\theta) = \\frac14\\cos 3\\theta$ with $\\theta = 20^\\circ$: the product is $\\frac14\\cos 60^\\circ = \\frac18$. (Or multiply and divide by $2\\sin 20^\\circ$ and apply $2\\sin A\\cos A=\\sin 2A$ three times to get $\\frac{\\sin 160^\\circ}{8\\sin 20^\\circ}=\\frac18$.) $\\frac14$ forgets the $\\cos 60^\\circ$. $\\frac{1}{16}$ applies the identity one time too many. $\\frac{\\sqrt3}{8}$ is the answer for the product of sines, $\\sin 20^\\circ\\sin 40^\\circ\\sin 80^\\circ$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0004",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "medium",
+    "stem": "The number of solutions of $\\sin 2x = \\cos x$ in $[0, 2\\pi]$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2$"
+      },
+      {
+        "key": "B",
+        "text": "$3$"
+      },
+      {
+        "key": "C",
+        "text": "$4$"
+      },
+      {
+        "key": "D",
+        "text": "$6$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$2\\sin x\\cos x = \\cos x \\Rightarrow \\cos x(2\\sin x - 1) = 0$. $\\cos x = 0$ gives $x = \\frac{\\pi}{2}, \\frac{3\\pi}{2}$, and $\\sin x = \\frac12$ gives $x = \\frac{\\pi}{6}, \\frac{5\\pi}{6}$, for 4 solutions in total. Getting 2 comes from dividing by $\\cos x$ and losing the $\\cos x = 0$ roots. Getting 3 or 6 comes from miscounting the roots of $\\sin x = \\frac12$ in $[0,2\\pi]$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0005",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "easy",
+    "stem": "The maximum value of $5\\sin x - 12\\cos x + 3$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$13$"
+      },
+      {
+        "key": "B",
+        "text": "$16$"
+      },
+      {
+        "key": "C",
+        "text": "$20$"
+      },
+      {
+        "key": "D",
+        "text": "$10$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$a\\sin x + b\\cos x$ ranges over $[-\\sqrt{a^2+b^2}, \\sqrt{a^2+b^2}]$, and here $\\sqrt{25+144} = 13$. So the maximum is $13 + 3 = 16$. $13$ forgets the constant $+3$. $20$ adds $5+12+3$, but the two maxima are not reached at the same $x$. $10$ subtracts the 3.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0006",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "hard",
+    "stem": "The value of $\\tan 9^\\circ - \\tan 27^\\circ - \\tan 63^\\circ + \\tan 81^\\circ$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2$"
+      },
+      {
+        "key": "B",
+        "text": "$4$"
+      },
+      {
+        "key": "C",
+        "text": "$0$"
+      },
+      {
+        "key": "D",
+        "text": "$4\\sqrt3$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Group the terms as $(\\tan 9^\\circ + \\cot 9^\\circ) - (\\tan 27^\\circ + \\cot 27^\\circ)$. Since $\\tan\\theta + \\cot\\theta = \\frac{2}{\\sin 2\\theta}$, this equals $\\frac{2}{\\sin 18^\\circ} - \\frac{2}{\\sin 54^\\circ} = \\frac{2}{\\frac{\\sqrt5-1}{4}} - \\frac{2}{\\frac{\\sqrt5+1}{4}} = 2(\\sqrt5+1) - 2(\\sqrt5-1) = 4$. $0$ assumes the terms cancel in pairs. $2$ drops the factor 2 in $\\frac{2}{\\sin 2\\theta}$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0007",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "medium",
+    "stem": "The general solution of $\\tan x + \\cot x = 2$ is ($n \\in \\mathbb{Z}$)",
+    "options": [
+      {
+        "key": "A",
+        "text": "$x = n\\pi + \\frac{\\pi}{4}$"
+      },
+      {
+        "key": "B",
+        "text": "$x = n\\pi - \\frac{\\pi}{4}$"
+      },
+      {
+        "key": "C",
+        "text": "$x = 2n\\pi + \\frac{\\pi}{4}$"
+      },
+      {
+        "key": "D",
+        "text": "$x = \\frac{n\\pi}{2} + \\frac{\\pi}{4}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Put $t = \\tan x$: $t + \\frac1t = 2 \\Rightarrow (t-1)^2 = 0 \\Rightarrow \\tan x = 1$, so $x = n\\pi + \\frac{\\pi}{4}$. $n\\pi - \\frac{\\pi}{4}$ solves $\\tan x = -1$, where the sum is $-2$. $2n\\pi + \\frac{\\pi}{4}$ misses solutions such as $\\frac{5\\pi}{4}$, because $\\tan$ has period $\\pi$. $\\frac{n\\pi}{2} + \\frac{\\pi}{4}$ also includes $\\frac{3\\pi}{4}$, where the sum is $-2$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0008",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "easy",
+    "stem": "If $\\sin A = \\frac{1}{3}$, then $\\cos 2A$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{7}{9}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{2}{3}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{8}{9}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{1}{9}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$\\cos 2A = 1 - 2\\sin^2 A = 1 - \\frac{2}{9} = \\frac79$. $\\frac{8}{9}$ is $\\cos^2 A$. $\\frac19$ is $\\sin^2 A$. $\\frac23$ comes from using $1 - 2\\sin A$ without squaring.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0009",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "hard",
+    "stem": "If $\\sin x + \\sin^2 x = 1$, then $\\cos^8 x + 2\\cos^6 x + \\cos^4 x$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0$"
+      },
+      {
+        "key": "B",
+        "text": "$2$"
+      },
+      {
+        "key": "C",
+        "text": "$-1$"
+      },
+      {
+        "key": "D",
+        "text": "$1$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "From the given equation, $\\sin x = 1 - \\sin^2 x = \\cos^2 x$. The expression is $(\\cos^4 x + \\cos^2 x)^2 = (\\sin^2 x + \\sin x)^2 = 1^2 = 1$. $0$ and $2$ come from algebra slips in the perfect-square step. $-1$ is impossible because the expression is a square.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0010",
+    "subject": "mathematics",
+    "topic": "Inverse Trigonometric Functions",
+    "difficulty": "easy",
+    "stem": "The value of $\\sin^{-1}\\left(\\sin \\frac{5\\pi}{6}\\right)$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{5\\pi}{6}$"
+      },
+      {
+        "key": "B",
+        "text": "$-\\frac{\\pi}{6}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{\\pi}{6}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{\\pi}{3}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The principal range of $\\sin^{-1}$ is $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$. Since $\\sin\\frac{5\\pi}{6} = \\sin\\frac{\\pi}{6} = \\frac12$, the answer is $\\frac{\\pi}{6}$. $\\frac{5\\pi}{6}$ lies outside the principal range (cancelling $\\sin^{-1}\\sin$ blindly). $-\\frac{\\pi}{6}$ has the wrong sign. $\\frac{\\pi}{3}$ mixes this up with $\\cos^{-1}\\frac12$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0011",
+    "subject": "mathematics",
+    "topic": "Inverse Trigonometric Functions",
+    "difficulty": "medium",
+    "stem": "The value of $\\tan^{-1} 1 + \\tan^{-1} 2 + \\tan^{-1} 3$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{\\pi}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{3\\pi}{4}$"
+      },
+      {
+        "key": "C",
+        "text": "$0$"
+      },
+      {
+        "key": "D",
+        "text": "$\\pi$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$\\tan^{-1}2 + \\tan^{-1}3$: here $xy = 6 > 1$ and both are positive, so the sum is $\\pi + \\tan^{-1}\\frac{5}{1-6} = \\pi - \\frac{\\pi}{4} = \\frac{3\\pi}{4}$. Adding $\\tan^{-1}1 = \\frac{\\pi}{4}$ gives $\\pi$. $0$ uses the formula without the $+\\pi$ correction. $\\frac{3\\pi}{4}$ is only the partial sum. $\\frac{\\pi}{2}$ is a guess with no basis.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0012",
+    "subject": "mathematics",
+    "topic": "Inverse Trigonometric Functions",
+    "difficulty": "medium",
+    "stem": "The value of $\\cos\\left(\\tan^{-1}\\frac{3}{4} + \\sin^{-1}\\frac{5}{13}\\right)$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{33}{65}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{63}{65}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{56}{65}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{16}{65}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Let $\\alpha = \\tan^{-1}\\frac34$, so $\\sin\\alpha = \\frac35$ and $\\cos\\alpha = \\frac45$. Let $\\beta = \\sin^{-1}\\frac{5}{13}$, so $\\cos\\beta = \\frac{12}{13}$. Then $\\cos(\\alpha+\\beta) = \\frac45\\cdot\\frac{12}{13} - \\frac35\\cdot\\frac{5}{13} = \\frac{48-15}{65} = \\frac{33}{65}$. $\\frac{63}{65}$ uses a $+$ sign (that is $\\cos(\\alpha-\\beta)$). $\\frac{56}{65}$ is $\\sin(\\alpha+\\beta)$. $\\frac{16}{65}$ is $\\sin(\\alpha-\\beta)$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0013",
+    "subject": "mathematics",
+    "topic": "Inverse Trigonometric Functions",
+    "difficulty": "hard",
+    "stem": "The solution set of $\\tan^{-1}(x+1) + \\tan^{-1}(x-1) = \\tan^{-1}\\frac{8}{31}$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\{-8\\}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\left\\{\\frac{1}{4}\\right\\}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\left\\{\\frac14, -8\\right\\}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\left\\{\\frac18\\right\\}$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Take $\\tan$ of both sides: $\\frac{2x}{1-(x^2-1)} = \\frac{8}{31} \\Rightarrow 4x^2 + 31x - 8 = 0 \\Rightarrow x = \\frac14$ or $x = -8$. Check each root. For $x = -8$ the left side is $\\tan^{-1}(-7) + \\tan^{-1}(-9) < -\\frac{\\pi}{2}$, but the right side is positive, so $-8$ is extraneous. Only $\\frac14$ works. The trap is accepting both roots without checking.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0014",
+    "subject": "mathematics",
+    "topic": "Inverse Trigonometric Functions",
+    "difficulty": "easy",
+    "stem": "The value of $\\cos^{-1}\\left(-\\frac{1}{2}\\right) + 2\\sin^{-1}\\left(\\frac{1}{2}\\right)$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{2\\pi}{3}$"
+      },
+      {
+        "key": "B",
+        "text": "$0$"
+      },
+      {
+        "key": "C",
+        "text": "$\\pi$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{4\\pi}{3}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$\\cos^{-1}(-\\frac12) = \\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3}$ and $2\\sin^{-1}\\frac12 = \\frac{\\pi}{3}$, so the sum is $\\pi$. $0$ wrongly takes $\\cos^{-1}(-\\frac12) = -\\frac{\\pi}{3}$, which is outside $[0,\\pi]$. $\\frac{2\\pi}{3}$ drops the second term. $\\frac{4\\pi}{3}$ uses $\\frac{2\\pi}{3}$ for the second term too.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0015",
+    "subject": "mathematics",
+    "topic": "Straight Lines",
+    "difficulty": "easy",
+    "stem": "The distance between the parallel lines $3x + 4y - 7 = 0$ and $6x + 8y + 11 = 0$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{5}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{18}{5}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{9}{5}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{3}{10}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "First make the coefficients equal: $3x + 4y + \\frac{11}{2} = 0$. The distance is $\\frac{|\\frac{11}{2} - (-7)|}{5} = \\frac{25/2}{5} = \\frac52$. $\\frac{18}{5}$ uses $|11+7|/5$ without scaling the equation. $\\frac{9}{5}$ uses $18/10$, which mixes the forms. $\\frac{3}{10}$ subtracts the constants with the wrong sign.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0016",
+    "subject": "mathematics",
+    "topic": "Straight Lines",
+    "difficulty": "easy",
+    "stem": "The image (reflection) of the point $(2, 3)$ in the line $x + y - 11 = 0$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(5, 6)$"
+      },
+      {
+        "key": "B",
+        "text": "$(9, 8)$"
+      },
+      {
+        "key": "C",
+        "text": "$(6, 5)$"
+      },
+      {
+        "key": "D",
+        "text": "$(8, 9)$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "For the image, $\\frac{x-2}{1} = \\frac{y-3}{1} = \\frac{-2(2+3-11)}{1+1} = 6$, giving $(8, 9)$. $(5,6)$ is the foot of the perpendicular, not the image. $(9,8)$ and $(6,5)$ swap the coordinates.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0017",
+    "subject": "mathematics",
+    "topic": "Straight Lines",
+    "difficulty": "medium",
+    "stem": "The acute angle between the lines $y = (2-\\sqrt3)x + 5$ and $y = (2+\\sqrt3)x - 7$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$30^\\circ$"
+      },
+      {
+        "key": "B",
+        "text": "$45^\\circ$"
+      },
+      {
+        "key": "C",
+        "text": "$60^\\circ$"
+      },
+      {
+        "key": "D",
+        "text": "$90^\\circ$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The slopes are $\\tan 15^\\circ$ and $\\tan 75^\\circ$, so the lines make angles $15^\\circ$ and $75^\\circ$ with the x-axis and the angle between them is $60^\\circ$. Check: $\\tan\\theta = \\left|\\frac{m_1 - m_2}{1 + m_1 m_2}\\right| = \\frac{2\\sqrt3}{2} = \\sqrt3$. $90^\\circ$ wrongly assumes $m_1m_2=-1$, but in fact $m_1m_2 = 1$. $30^\\circ$ inverts the tangent.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0018",
+    "subject": "mathematics",
+    "topic": "Straight Lines",
+    "difficulty": "medium",
+    "stem": "The equation of the line passing through the point of intersection of $x + y = 3$ and $2x - y = 0$, and perpendicular to $3x + 4y = 7$, is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$3x + 4y - 11 = 0$"
+      },
+      {
+        "key": "B",
+        "text": "$4x + 3y - 10 = 0$"
+      },
+      {
+        "key": "C",
+        "text": "$4x - 3y + 2 = 0$"
+      },
+      {
+        "key": "D",
+        "text": "$4x - 3y - 2 = 0$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The intersection point is $(1, 2)$. A line perpendicular to $3x + 4y = 7$ has the form $4x - 3y + k = 0$, and passing through $(1,2)$ gives $4 - 6 + k = 0$, so $k = 2$. $3x + 4y - 11 = 0$ is parallel, not perpendicular. $4x + 3y - 10 = 0$ has the wrong slope sign. $4x - 3y - 2 = 0$ does not pass through $(1,2)$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0019",
+    "subject": "mathematics",
+    "topic": "Straight Lines",
+    "difficulty": "medium",
+    "stem": "The orthocentre of the triangle with vertices $O(0,0)$, $B(6,0)$ and $C(2,4)$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(2, 2)$"
+      },
+      {
+        "key": "B",
+        "text": "$\\left(\\frac83, \\frac43\\right)$"
+      },
+      {
+        "key": "C",
+        "text": "$(3, 1)$"
+      },
+      {
+        "key": "D",
+        "text": "$(1, 3)$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The altitude from $C$ is perpendicular to $OB$ (the x-axis), so it is $x = 2$. The slope of $BC$ is $\\frac{4}{-4} = -1$, so the altitude from $O$ is $y = x$. They meet at $(2,2)$. $\\left(\\frac83,\\frac43\\right)$ is the centroid. $(3,1)$ is the circumcentre (check with Euler's line: $H = 3G - 2O' = (8,4) - (6,2) = (2,2)$). $(1,3)$ swaps coordinates.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0020",
+    "subject": "mathematics",
+    "topic": "Straight Lines",
+    "difficulty": "medium",
+    "stem": "If the lines $ax + 2y + 1 = 0$, $bx + 3y + 1 = 0$ and $cx + 4y + 1 = 0$ are concurrent, then $a, b, c$ are in",
+    "options": [
+      {
+        "key": "A",
+        "text": "Geometric progression"
+      },
+      {
+        "key": "B",
+        "text": "Harmonic progression"
+      },
+      {
+        "key": "C",
+        "text": "Arithmetic progression"
+      },
+      {
+        "key": "D",
+        "text": "None of these; instead $a + b + c = 0$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Three lines are concurrent when $\\begin{vmatrix} a & 2 & 1\\\\ b & 3 & 1\\\\ c & 4 & 1\\end{vmatrix} = 0$. Expanding gives $-a + 2b - c = 0$, i.e. $2b = a + c$, so $a, b, c$ are in AP. GP needs $b^2 = ac$ and HP needs $\\frac{2}{b} = \\frac1a + \\frac1c$; neither follows. $a+b+c=0$ is a condition people often confuse with this one.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0021",
+    "subject": "mathematics",
+    "topic": "Straight Lines",
+    "difficulty": "hard",
+    "stem": "The distance of the point $(2, 3)$ from the line $2x - 3y + 9 = 0$, measured along the line $x - y + 1 = 0$, is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{4}{\\sqrt{13}}$"
+      },
+      {
+        "key": "B",
+        "text": "$4\\sqrt2$"
+      },
+      {
+        "key": "C",
+        "text": "$2\\sqrt2$"
+      },
+      {
+        "key": "D",
+        "text": "$8$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The line $x - y + 1 = 0$ passes through $(2,3)$ with direction $(1,1)$, so take points $(2+u, 3+u)$. Substituting into $2x - 3y + 9 = 0$: $4 + 2u - 9 - 3u + 9 = 0$, so $u = 4$. The point reached is $(6,7)$ and the distance is $4\\sqrt2$. $\\frac{4}{\\sqrt{13}}$ is the perpendicular distance, not the distance along the given line. $2\\sqrt2$ and $8$ come from mishandling the direction-cosine factor $\\sqrt2$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0022",
+    "subject": "mathematics",
+    "topic": "Straight Lines",
+    "difficulty": "medium",
+    "stem": "The acute angle $\\theta$ between the pair of lines $x^2 - 5xy + 4y^2 = 0$ satisfies",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\tan\\theta = \\frac{5}{3}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\tan\\theta = \\frac{3}{4}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\tan\\theta = \\frac{3}{5}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\tan\\theta = \\frac{6}{5}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "For $ax^2 + 2hxy + by^2 = 0$, $\\tan\\theta = \\frac{2\\sqrt{h^2 - ab}}{|a+b|}$. Here $a = 1$, $2h = -5$ (so $h = -\\frac52$) and $b = 4$, giving $\\tan\\theta = \\frac{2\\cdot\\frac32}{5} = \\frac35$. Check: the lines are $y = x$ and $y = \\frac x4$, and $\\frac{1 - 1/4}{1 + 1/4} = \\frac35$. $\\frac{6}{5}$ takes $h = -5$ (forgetting $2h$). $\\frac53$ inverts the formula.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0023",
+    "subject": "mathematics",
+    "topic": "Straight Lines",
+    "difficulty": "hard",
+    "stem": "The equation of the bisector of the angle between the lines $3x - 4y + 7 = 0$ and $12x + 5y - 2 = 0$ that contains the origin is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$21x + 77y - 101 = 0$"
+      },
+      {
+        "key": "B",
+        "text": "$11x + 3y + 9 = 0$"
+      },
+      {
+        "key": "C",
+        "text": "$3x - 11y + 9 = 0$"
+      },
+      {
+        "key": "D",
+        "text": "$11x - 3y + 9 = 0$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Write both lines with positive constant terms: $3x - 4y + 7 = 0$ and $-12x - 5y + 2 = 0$. The bisector of the angle containing the origin is $\\frac{3x - 4y + 7}{5} = +\\frac{-12x - 5y + 2}{13}$, which gives $99x - 27y + 81 = 0$, i.e. $11x - 3y + 9 = 0$. $21x + 77y - 101 = 0$ is the other bisector, the one not containing the origin. The remaining two are sign slips.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0024",
+    "subject": "mathematics",
+    "topic": "Circles",
+    "difficulty": "easy",
+    "stem": "The centre and radius of the circle $x^2 + y^2 - 4x + 6y - 12 = 0$ are",
+    "options": [
+      {
+        "key": "A",
+        "text": "Centre $(-2, 3)$, radius $5$"
+      },
+      {
+        "key": "B",
+        "text": "Centre $(2, -3)$, radius $\\sqrt{12}$"
+      },
+      {
+        "key": "C",
+        "text": "Centre $(2, -3)$, radius $25$"
+      },
+      {
+        "key": "D",
+        "text": "Centre $(2, -3)$, radius $5$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Comparing with $x^2 + y^2 + 2gx + 2fy + c = 0$: $g = -2$ and $f = 3$, so the centre is $(-g, -f) = (2, -3)$ and $r = \\sqrt{4 + 9 + 12} = 5$. $(-2, 3)$ takes the centre as $(g, f)$. $\\sqrt{12}$ ignores $g^2 + f^2$. $25$ is $r^2$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0025",
+    "subject": "mathematics",
+    "topic": "Circles",
+    "difficulty": "medium",
+    "stem": "The length of the tangent from the point $(5, 3)$ to the circle $x^2 + y^2 - 2x + 4y - 4 = 0$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2\\sqrt2$"
+      },
+      {
+        "key": "B",
+        "text": "$4\\sqrt2$"
+      },
+      {
+        "key": "C",
+        "text": "$32$"
+      },
+      {
+        "key": "D",
+        "text": "$6$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The tangent length is $\\sqrt{S_1}$, where $S_1 = 25 + 9 - 10 + 12 - 4 = 32$, so the length is $\\sqrt{32} = 4\\sqrt2$. $2\\sqrt2$ comes from a sign slip on the $4y$ term ($S_1 = 8$). $32$ forgets the square root.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0026",
+    "subject": "mathematics",
+    "topic": "Circles",
+    "difficulty": "easy",
+    "stem": "The equation of the circle drawn on the segment joining $(1, 2)$ and $(5, -4)$ as diameter is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$x^2 + y^2 - 6x + 2y - 3 = 0$"
+      },
+      {
+        "key": "B",
+        "text": "$x^2 + y^2 + 6x - 2y - 3 = 0$"
+      },
+      {
+        "key": "C",
+        "text": "$x^2 + y^2 - 6x + 2y + 3 = 0$"
+      },
+      {
+        "key": "D",
+        "text": "$x^2 + y^2 - 6x - 2y - 3 = 0$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Diameter form: $(x-1)(x-5) + (y-2)(y+4) = 0 \\Rightarrow x^2 - 6x + 5 + y^2 + 2y - 8 = 0$, which is $x^2 + y^2 - 6x + 2y - 3 = 0$. The centre is $(3, -1)$, the midpoint, as expected. The other options have the signs of $g$ and $f$ flipped, or the constant $5 - 8$ miscomputed.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0027",
+    "subject": "mathematics",
+    "topic": "Circles",
+    "difficulty": "medium",
+    "stem": "The line $3x + 4y = k$ touches the circle $x^2 + y^2 - 2x - 4y - 4 = 0$. The possible values of $k$ are",
+    "options": [
+      {
+        "key": "A",
+        "text": "$4$ or $-26$"
+      },
+      {
+        "key": "B",
+        "text": "$26$ or $-4$"
+      },
+      {
+        "key": "C",
+        "text": "$15$ or $-15$"
+      },
+      {
+        "key": "D",
+        "text": "$26$ only"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The centre is $(1,2)$ and $r = \\sqrt{1 + 4 + 4} = 3$. For tangency, $\\frac{|3 + 8 - k|}{5} = 3 \\Rightarrow |11 - k| = 15 \\Rightarrow k = 26$ or $k = -4$. $4$ or $-26$ has the sign of $k$ flipped. $\\pm15$ assumes the centre is at the origin. Taking $26$ alone forgets the second parallel tangent.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0028",
+    "subject": "mathematics",
+    "topic": "Circles",
+    "difficulty": "hard",
+    "stem": "The number of common tangents to the circles $x^2 + y^2 - 2x - 4y = 0$ and $x^2 + y^2 - 8y - 4 = 0$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$1$"
+      },
+      {
+        "key": "B",
+        "text": "$2$"
+      },
+      {
+        "key": "C",
+        "text": "$3$"
+      },
+      {
+        "key": "D",
+        "text": "$4$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$C_1 = (1,2)$ with $r_1 = \\sqrt5$; $C_2 = (0,4)$ with $r_2 = \\sqrt{16+4} = 2\\sqrt5$. The distance between centres is $d = \\sqrt{1+4} = \\sqrt5 = r_2 - r_1$, so the circles touch internally and have exactly 1 common tangent. 3 is the count for external touching ($d = r_1 + r_2$). 2 is for intersecting circles, and 4 for separate circles.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0029",
+    "subject": "mathematics",
+    "topic": "Circles",
+    "difficulty": "medium",
+    "stem": "The equation of the chord of the circle $x^2 + y^2 - 6x + 4y - 12 = 0$ whose midpoint is $(1, 1)$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$3x + 2y - 5 = 0$"
+      },
+      {
+        "key": "B",
+        "text": "$2x - 3y + 1 = 0$"
+      },
+      {
+        "key": "C",
+        "text": "$2x + 3y - 5 = 0$"
+      },
+      {
+        "key": "D",
+        "text": "$3x - 2y - 1 = 0$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Use $T = S_1$: $x + y - 3(x+1) + 2(y+1) - 12 = 1 + 1 - 6 + 4 - 12$, which simplifies to $2x - 3y + 1 = 0$. Check: the centre $(3,-2)$ to $(1,1)$ has slope $-\\frac32$, and the chord's slope $\\frac23$ is perpendicular to it. $3x + 2y - 5 = 0$ is the line joining the centre to the midpoint, not the chord. The others do not satisfy perpendicularity.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0030",
+    "subject": "mathematics",
+    "topic": "Circles",
+    "difficulty": "medium",
+    "stem": "The locus of the midpoints of chords of the circle $x^2 + y^2 = 16$ that subtend a right angle at the centre is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$x^2 + y^2 = 8$"
+      },
+      {
+        "key": "B",
+        "text": "$x^2 + y^2 = 4$"
+      },
+      {
+        "key": "C",
+        "text": "$x^2 + y^2 = 12$"
+      },
+      {
+        "key": "D",
+        "text": "$x^2 + y^2 = 4\\sqrt2$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A chord subtending $90^\\circ$ at the centre has half-angle $45^\\circ$, so its midpoint is at distance $r\\cos 45^\\circ = \\frac{4}{\\sqrt2} = 2\\sqrt2$ from the centre. The locus is $x^2 + y^2 = 8$. $x^2 + y^2 = 4$ uses $\\frac r2$, which is correct for a $120^\\circ$ chord. $4\\sqrt2$ forgets to square the distance.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0031",
+    "subject": "mathematics",
+    "topic": "Conic Sections",
+    "difficulty": "easy",
+    "stem": "The focus of the parabola $y^2 = -12x$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(-3, 0)$"
+      },
+      {
+        "key": "B",
+        "text": "$(3, 0)$"
+      },
+      {
+        "key": "C",
+        "text": "$(0, -3)$"
+      },
+      {
+        "key": "D",
+        "text": "$(-12, 0)$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$y^2 = -4ax$ with $4a = 12$ gives $a = 3$, and the parabola opens to the left, so the focus is $(-3, 0)$. $(3,0)$ ignores the minus sign. $(0,-3)$ would be correct for $x^2 = -12y$. $(-12,0)$ uses $4a$ in place of $a$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0032",
+    "subject": "mathematics",
+    "topic": "Conic Sections",
+    "difficulty": "medium",
+    "stem": "The directrix of the parabola $(y - 2)^2 = 8(x + 1)$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$x = 1$"
+      },
+      {
+        "key": "B",
+        "text": "$x = -3$"
+      },
+      {
+        "key": "C",
+        "text": "$x = -5$"
+      },
+      {
+        "key": "D",
+        "text": "$x = 3$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Shift with $X = x + 1$ and $Y = y - 2$: $Y^2 = 8X$, so $a = 2$ and the directrix is $X = -2$, i.e. $x = -3$. $x = 1$ is the line through the focus $(1, 2)$. $x = -5$ uses $4a$ as the distance from the vertex. $x = 3$ uses the wrong sign for the shift.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0033",
+    "subject": "mathematics",
+    "topic": "Conic Sections",
+    "difficulty": "medium",
+    "stem": "The eccentricity of a hyperbola is $\\frac{5}{3}$. The eccentricity of its conjugate hyperbola is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{5}{4}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{4}{5}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{3}{5}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{5}{3}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "For a hyperbola and its conjugate, $\\frac{1}{e_1^2} + \\frac{1}{e_2^2} = 1$. So $\\frac{1}{e_2^2} = 1 - \\frac{9}{25} = \\frac{16}{25}$, giving $e_2 = \\frac54$. $\\frac45$ and $\\frac35$ are less than 1, which is impossible for a hyperbola. $\\frac53$ assumes the conjugate has the same eccentricity, which happens only for a rectangular hyperbola ($e_1 = e_2 = \\sqrt2$).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0034",
+    "subject": "mathematics",
+    "topic": "Conic Sections",
+    "difficulty": "easy",
+    "stem": "The eccentricity of the ellipse $9x^2 + 25y^2 = 225$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{3}{5}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{4}{5}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{5}{4}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{3}{4}$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$\\frac{x^2}{25} + \\frac{y^2}{9} = 1$, so $a = 5$ and $b = 3$. Then $e = \\sqrt{1 - \\frac{9}{25}} = \\frac45$. $\\frac35$ is $\\frac ba$. $\\frac54$ is greater than 1, which is impossible for an ellipse. $\\frac34$ is $\\frac{b}{ae}$, a mix-up of the lengths.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0035",
+    "subject": "mathematics",
+    "topic": "Conic Sections",
+    "difficulty": "medium",
+    "stem": "The equation of the ellipse with foci $(\\pm 4, 0)$ and eccentricity $\\frac{1}{2}$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{x^2}{64} + \\frac{y^2}{16} = 1$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{x^2}{64} + \\frac{y^2}{48} = 1$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{x^2}{48} + \\frac{y^2}{64} = 1$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{x^2}{16} + \\frac{y^2}{12} = 1$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$ae = 4$ and $e = \\frac12$ give $a = 8$. Then $b^2 = a^2(1 - e^2) = 64\\cdot\\frac34 = 48$, so the ellipse is $\\frac{x^2}{64} + \\frac{y^2}{48} = 1$. $b^2 = 16$ wrongly uses $b = ae$. Swapping the denominators puts the foci on the y-axis. $\\frac{x^2}{16} + \\frac{y^2}{12} = 1$ takes $a = 4$, i.e. treats the focal distance as $a$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0036",
+    "subject": "mathematics",
+    "topic": "Conic Sections",
+    "difficulty": "medium",
+    "stem": "The length of the latus rectum of the ellipse $4x^2 + 9y^2 = 36$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{9}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{4}{3}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{16}{3}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{8}{3}$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$\\frac{x^2}{9} + \\frac{y^2}{4} = 1$, so $a = 3$ and $b = 2$. The latus rectum is $\\frac{2b^2}{a} = \\frac{8}{3}$. $\\frac92$ is $\\frac{2a^2}{b}$, with $a$ and $b$ swapped. $\\frac43$ forgets the factor 2. $\\frac{16}{3}$ doubles it again.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0037",
+    "subject": "mathematics",
+    "topic": "Conic Sections",
+    "difficulty": "medium",
+    "stem": "For the ellipse $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ $(a > b)$, the length of the latus rectum equals half the length of the minor axis. The eccentricity is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{1}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{\\sqrt3}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{1}{\\sqrt2}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{\\sqrt3}{4}$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$\\frac{2b^2}{a} = b \\Rightarrow a = 2b$, so $e^2 = 1 - \\frac{b^2}{a^2} = 1 - \\frac14 = \\frac34$ and $e = \\frac{\\sqrt3}{2}$. $\\frac12$ takes $e = \\frac ba$. $\\frac{1}{\\sqrt2}$ would need $a^2 = 2b^2$, which makes the latus rectum $\\sqrt2\\,b$, not $b$. $\\frac{\\sqrt3}{4}$ halves the correct value.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0038",
+    "subject": "mathematics",
+    "topic": "Conic Sections",
+    "difficulty": "medium",
+    "stem": "The distance between the directrices of the hyperbola $\\frac{x^2}{16} - \\frac{y^2}{9} = 1$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{32}{5}$"
+      },
+      {
+        "key": "B",
+        "text": "$10$"
+      },
+      {
+        "key": "C",
+        "text": "$8$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{16}{5}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$e = \\sqrt{1 + \\frac{9}{16}} = \\frac54$. The directrices are $x = \\pm\\frac ae$, so the distance between them is $\\frac{2a}{e} = \\frac{8}{5/4} = \\frac{32}{5}$. $10$ is the distance between the foci ($2ae$). $8$ is the length of the transverse axis. $\\frac{16}{5}$ is $\\frac ae$, only half the distance.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0039",
+    "subject": "mathematics",
+    "topic": "Conic Sections",
+    "difficulty": "medium",
+    "stem": "The line $y = 2x + c$ is a tangent to the hyperbola $\\frac{x^2}{9} - \\frac{y^2}{4} = 1$. Then $c$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\pm 2\\sqrt{10}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\pm 4\\sqrt2$"
+      },
+      {
+        "key": "C",
+        "text": "$\\pm 2\\sqrt2$"
+      },
+      {
+        "key": "D",
+        "text": "$\\pm 4$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The tangency condition for a hyperbola is $c^2 = a^2m^2 - b^2 = 9\\cdot4 - 4 = 32$, so $c = \\pm4\\sqrt2$. $\\pm2\\sqrt{10}$ uses the ellipse condition $a^2m^2 + b^2 = 40$. The other values come from mixing up $a^2$ and $b^2$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0040",
+    "subject": "mathematics",
+    "topic": "Conic Sections",
+    "difficulty": "hard",
+    "stem": "The normal to the parabola $y^2 = 8x$ at the point $(2, 4)$ meets the parabola again at",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(8, -8)$"
+      },
+      {
+        "key": "B",
+        "text": "$(18, 12)$"
+      },
+      {
+        "key": "C",
+        "text": "$(2, -4)$"
+      },
+      {
+        "key": "D",
+        "text": "$(18, -12)$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "In parametric form $(2t^2, 4t)$, the point $(2,4)$ has $t = 1$. A normal at $t_1$ meets the parabola again at $t_2 = -t_1 - \\frac{2}{t_1} = -3$, which is $(18, -12)$. Directly: the normal is $x + y = 6$, and solving with $y^2 = 8x$ gives $y = 4$ or $y = -12$. $(2,-4)$ is the other end of the focal chord. $(18,12)$ has the wrong sign. $(8,-8)$ comes from using $t_2 = -t_1 - \\frac{1}{t_1}$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0041",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "easy",
+    "stem": "If $|\\vec a| = 3$, $|\\vec b| = 4$ and $\\vec a\\cdot\\vec b = 6$, then $|\\vec a + \\vec b|$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\sqrt{13}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\sqrt{37}$"
+      },
+      {
+        "key": "C",
+        "text": "$7$"
+      },
+      {
+        "key": "D",
+        "text": "$37$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$|\\vec a + \\vec b|^2 = 9 + 16 + 2(6) = 37$, so $|\\vec a + \\vec b| = \\sqrt{37}$. $\\sqrt{13}$ is $|\\vec a - \\vec b|$. $7$ assumes the vectors are parallel. $37$ forgets the square root.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0042",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "easy",
+    "stem": "The angle between the vectors $\\hat i + \\hat j$ and $\\hat j + \\hat k$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$30^\\circ$"
+      },
+      {
+        "key": "B",
+        "text": "$45^\\circ$"
+      },
+      {
+        "key": "C",
+        "text": "$90^\\circ$"
+      },
+      {
+        "key": "D",
+        "text": "$60^\\circ$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$\\cos\\theta = \\frac{(1)(0) + (1)(1) + (0)(1)}{\\sqrt2\\cdot\\sqrt2} = \\frac12$, so $\\theta = 60^\\circ$. $90^\\circ$ wrongly assumes the dot product is 0. $45^\\circ$ forgets one of the magnitudes ($\\cos\\theta = \\frac{1}{\\sqrt2}$).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0043",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "medium",
+    "stem": "The diagonals of a parallelogram are $3\\hat i + \\hat j - 2\\hat k$ and $\\hat i - 3\\hat j + 4\\hat k$. Its area is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$10\\sqrt3$"
+      },
+      {
+        "key": "B",
+        "text": "$15$"
+      },
+      {
+        "key": "C",
+        "text": "$20\\sqrt3$"
+      },
+      {
+        "key": "D",
+        "text": "$5\\sqrt3$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "In terms of diagonals, the area is $\\frac12|\\vec d_1\\times\\vec d_2|$. Here $\\vec d_1\\times\\vec d_2 = -2\\hat i - 14\\hat j - 10\\hat k$, with magnitude $\\sqrt{300} = 10\\sqrt3$, so the area is $5\\sqrt3$. $10\\sqrt3$ forgets the $\\frac12$ and treats the diagonals as sides.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0044",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "medium",
+    "stem": "The vectors $2\\hat i - \\hat j + \\hat k$, $\\hat i + 2\\hat j - 3\\hat k$ and $3\\hat i + \\lambda\\hat j + 5\\hat k$ are coplanar. Then $\\lambda$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$4$"
+      },
+      {
+        "key": "B",
+        "text": "$-2$"
+      },
+      {
+        "key": "C",
+        "text": "$-4$"
+      },
+      {
+        "key": "D",
+        "text": "$7$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Coplanar means the scalar triple product is zero: $2(10 + 3\\lambda) + 1(5 + 9) + 1(\\lambda - 6) = 0 \\Rightarrow 7\\lambda + 28 = 0 \\Rightarrow \\lambda = -4$. $4$ is a sign slip in the cofactor expansion. $7$ is the coefficient of $\\lambda$, not the root.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0045",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "medium",
+    "stem": "The projection of $\\vec a = 2\\hat i + 3\\hat j + 2\\hat k$ on $\\vec b = \\hat i + 2\\hat j + 2\\hat k$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$4$"
+      },
+      {
+        "key": "B",
+        "text": "$12$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{12}{\\sqrt{17}}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{4}{3}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The projection of $\\vec a$ on $\\vec b$ is $\\frac{\\vec a\\cdot\\vec b}{|\\vec b|} = \\frac{2 + 6 + 4}{3} = 4$. $12$ is just the dot product. $\\frac{12}{\\sqrt{17}}$ is the projection of $\\vec b$ on $\\vec a$, the reverse. $\\frac43$ divides by $|\\vec b|^2$, which gives the scalar coefficient of the vector projection.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0046",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "hard",
+    "stem": "If $[\\vec a\\ \\vec b\\ \\vec c] = 3$, then $[\\vec a + 2\\vec b\\ \\ \\vec b + 2\\vec c\\ \\ \\vec c + 2\\vec a]$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$9$"
+      },
+      {
+        "key": "B",
+        "text": "$27$"
+      },
+      {
+        "key": "C",
+        "text": "$18$"
+      },
+      {
+        "key": "D",
+        "text": "$81$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The new box product equals $\\det\\begin{pmatrix}1&2&0\\\\0&1&2\\\\2&0&1\\end{pmatrix}\\cdot[\\vec a\\ \\vec b\\ \\vec c]$. The determinant is $1(1) - 2(0 - 4) + 0 = 9$, so the value is $9\\times3 = 27$. $9$ is the determinant alone. $18$ uses the familiar result $[\\vec a+\\vec b\\ \\ \\vec b+\\vec c\\ \\ \\vec c+\\vec a] = 2[\\vec a\\ \\vec b\\ \\vec c]$ with the wrong factor.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0047",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "medium",
+    "stem": "If $\\vec a, \\vec b, \\vec c$ are unit vectors with $\\vec a + \\vec b + \\vec c = \\vec 0$, then $\\vec a\\cdot\\vec b + \\vec b\\cdot\\vec c + \\vec c\\cdot\\vec a$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$-\\frac{3}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{3}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$0$"
+      },
+      {
+        "key": "D",
+        "text": "$-\\frac{1}{2}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Square the condition: $|\\vec a + \\vec b + \\vec c|^2 = 3 + 2(\\vec a\\cdot\\vec b + \\vec b\\cdot\\vec c + \\vec c\\cdot\\vec a) = 0$, so the sum is $-\\frac32$. (The vectors form an equilateral triangle, and each dot product is $\\cos 120^\\circ = -\\frac12$.) $-\\frac12$ is a single dot product. $\\frac32$ has the wrong sign.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0048",
+    "subject": "mathematics",
+    "topic": "3D Geometry",
+    "difficulty": "easy",
+    "stem": "The direction cosines of a line with direction ratios $2, -1, 2$ are",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac23, -\\frac13, \\frac23$"
+      },
+      {
+        "key": "B",
+        "text": "$2, -1, 2$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{2}{\\sqrt5}, -\\frac{1}{\\sqrt5}, \\frac{2}{\\sqrt5}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac13, -\\frac23, \\frac13$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Divide by $\\sqrt{4 + 1 + 4} = 3$: $\\left(\\frac23, -\\frac13, \\frac23\\right)$. Check: $l^2 + m^2 + n^2 = 1$. $2, -1, 2$ are the direction ratios, not cosines. $\\sqrt5$ forgets one of the squared terms. The last option mixes up the components.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0049",
+    "subject": "mathematics",
+    "topic": "3D Geometry",
+    "difficulty": "easy",
+    "stem": "The angle between the planes $2x - y + z = 6$ and $x + y + 2z = 7$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$30^\\circ$"
+      },
+      {
+        "key": "B",
+        "text": "$45^\\circ$"
+      },
+      {
+        "key": "C",
+        "text": "$60^\\circ$"
+      },
+      {
+        "key": "D",
+        "text": "$90^\\circ$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$\\cos\\theta = \\frac{|2 - 1 + 2|}{\\sqrt6\\sqrt6} = \\frac{3}{6} = \\frac12$, so $\\theta = 60^\\circ$. $30^\\circ$ uses $\\sin$ instead of $\\cos$; that formula is for the angle between a line and a plane. $90^\\circ$ comes from an arithmetic slip in the dot product.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0050",
+    "subject": "mathematics",
+    "topic": "3D Geometry",
+    "difficulty": "easy",
+    "stem": "The distance of the point $(1, 2, 3)$ from the plane $2x - y + 2z + 3 = 0$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$3$"
+      },
+      {
+        "key": "B",
+        "text": "$9$"
+      },
+      {
+        "key": "C",
+        "text": "$2$"
+      },
+      {
+        "key": "D",
+        "text": "$4$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$d = \\frac{|2(1) - 2 + 2(3) + 3|}{\\sqrt{4 + 1 + 4}} = \\frac{9}{3} = 3$. $9$ forgets to divide by $|\\vec n|$. $2$ drops the constant $+3$. $4$ is an arithmetic slip.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0051",
+    "subject": "mathematics",
+    "topic": "3D Geometry",
+    "difficulty": "medium",
+    "stem": "The shortest distance between the lines $\\vec r = (\\hat i + 2\\hat j + \\hat k) + \\lambda(\\hat i - \\hat j + \\hat k)$ and $\\vec r = (2\\hat i - \\hat j - \\hat k) + \\mu(2\\hat i + \\hat j + 2\\hat k)$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$9$"
+      },
+      {
+        "key": "B",
+        "text": "$\\sqrt2$"
+      },
+      {
+        "key": "C",
+        "text": "$3\\sqrt2$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{3}{\\sqrt2}$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$\\vec b_1\\times\\vec b_2 = -3\\hat i + 0\\hat j + 3\\hat k$, with magnitude $3\\sqrt2$. $\\vec a_2 - \\vec a_1 = \\hat i - 3\\hat j - 2\\hat k$, and the dot product is $-3 + 0 - 6 = -9$. So $SD = \\frac{9}{3\\sqrt2} = \\frac{3}{\\sqrt2}$. $9$ forgets to divide. $3\\sqrt2$ is $|\\vec b_1\\times\\vec b_2|$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0052",
+    "subject": "mathematics",
+    "topic": "3D Geometry",
+    "difficulty": "medium",
+    "stem": "The line $\\frac{x-1}{2} = \\frac{y+1}{1} = \\frac{z-3}{-2}$ and the plane $x + 2y + 2z = 5$ are such that the line",
+    "options": [
+      {
+        "key": "A",
+        "text": "is parallel to the plane but does not lie in it"
+      },
+      {
+        "key": "B",
+        "text": "is perpendicular to the plane"
+      },
+      {
+        "key": "C",
+        "text": "meets the plane at exactly one point at $45^\\circ$"
+      },
+      {
+        "key": "D",
+        "text": "lies in the plane"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$\\vec b\\cdot\\vec n = 2 + 2 - 4 = 0$, so the line is parallel to the plane. The point $(1,-1,3)$ on the line gives $1 - 2 + 6 = 5$, so it lies on the plane, and therefore the whole line lies in the plane. Stopping at $\\vec b\\cdot\\vec n = 0$ gives only 'parallel'. Perpendicular would need $\\vec b \\parallel \\vec n$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0053",
+    "subject": "mathematics",
+    "topic": "3D Geometry",
+    "difficulty": "hard",
+    "stem": "The image of the point $(1, 3, 4)$ in the plane $2x - y + z + 3 = 0$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(-1, 4, 3)$"
+      },
+      {
+        "key": "B",
+        "text": "$(3, 1, 6)$"
+      },
+      {
+        "key": "C",
+        "text": "$(-3, 5, 2)$"
+      },
+      {
+        "key": "D",
+        "text": "$(5, 1, 6)$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$\\frac{x-1}{2} = \\frac{y-3}{-1} = \\frac{z-4}{1} = \\frac{-2(2 - 3 + 4 + 3)}{6} = -2$, giving $(-3, 5, 2)$. $(-1, 4, 3)$ is the foot of the perpendicular, where the multiplier is $-1$. $(3, 1, 6)$ uses $+2$, i.e. the wrong direction. Check that the midpoint of $(1,3,4)$ and $(-3,5,2)$, which is $(-1,4,3)$, lies on the plane.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0054",
+    "subject": "mathematics",
+    "topic": "3D Geometry",
+    "difficulty": "hard",
+    "stem": "The equation of the plane passing through the line of intersection of the planes $x + y + z = 6$ and $2x + 3y + 4z + 5 = 0$, and through the point $(1, 1, 1)$, is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$20x + 23y + 26z + 69 = 0$"
+      },
+      {
+        "key": "B",
+        "text": "$23x + 20y + 26z - 69 = 0$"
+      },
+      {
+        "key": "C",
+        "text": "$26x + 23y + 20z - 69 = 0$"
+      },
+      {
+        "key": "D",
+        "text": "$20x + 23y + 26z - 69 = 0$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Take $(x + y + z - 6) + \\lambda(2x + 3y + 4z + 5) = 0$. At $(1,1,1)$: $-3 + 14\\lambda = 0$, so $\\lambda = \\frac{3}{14}$. Multiplying by 14 gives $20x + 23y + 26z - 69 = 0$. Check: $20 + 23 + 26 - 69 = 0$. The other options fail at $(1,1,1)$ or fail to contain the line of intersection: the permuted coefficients pass through $(1,1,1)$ but are not in the family.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0055",
+    "subject": "mathematics",
+    "topic": "3D Geometry",
+    "difficulty": "easy",
+    "stem": "The point dividing the segment joining $A(1, -2, 3)$ and $B(3, 4, -5)$ externally in the ratio $2 : 3$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\left(\\frac95, \\frac25, -\\frac15\\right)$"
+      },
+      {
+        "key": "B",
+        "text": "$(3, 14, -19)$"
+      },
+      {
+        "key": "C",
+        "text": "$(-3, -14, 19)$"
+      },
+      {
+        "key": "D",
+        "text": "$(-3, 14, 19)$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "External division: $\\left(\\frac{2\\cdot3 - 3\\cdot1}{2-3}, \\frac{2\\cdot4 - 3(-2)}{-1}, \\frac{2(-5) - 3\\cdot3}{-1}\\right) = (-3, -14, 19)$. $\\left(\\frac95, \\frac25, -\\frac15\\right)$ is the internal division point. $(3, 14, -19)$ forgets the $(m-n) = -1$ denominator. $(-3, 14, 19)$ has a sign slip in $y$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0056",
+    "subject": "mathematics",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "stem": "Two fair dice are thrown. The probability that the sum of the numbers is 8 is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{1}{6}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{5}{36}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{1}{9}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{7}{36}$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Favourable outcomes: $(2,6), (3,5), (4,4), (5,3), (6,2)$, which is 5 out of 36, so the probability is $\\frac{5}{36}$. $\\frac16$ is the probability for a sum of 7. $\\frac19$ counts unordered pairs. $\\frac{7}{36}$ is a miscount.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0057",
+    "subject": "mathematics",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "stem": "For events $A$ and $B$, $P(A) = 0.4$, $P(B) = 0.5$ and $P(A\\cup B) = 0.7$. Then $P(A \\mid B')$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0.2$"
+      },
+      {
+        "key": "B",
+        "text": "$0.5$"
+      },
+      {
+        "key": "C",
+        "text": "$0.6$"
+      },
+      {
+        "key": "D",
+        "text": "$0.4$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$P(A\\cap B) = 0.4 + 0.5 - 0.7 = 0.2$, so $P(A\\cap B') = 0.4 - 0.2 = 0.2$. Then $P(A\\mid B') = \\frac{0.2}{P(B')} = \\frac{0.2}{0.5} = 0.4$. This equals $P(A)$ because $A$ and $B$ are independent ($0.4\\times0.5 = 0.2$). $0.2$ is $P(A\\cap B')$, the joint probability rather than the conditional one. $0.6$ is $P(A')$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0058",
+    "subject": "mathematics",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "stem": "Bag I contains 3 red and 2 black balls; Bag II contains 2 red and 4 black balls. A bag is chosen at random and a ball drawn from it is red. The probability that it came from Bag I is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{5}{14}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{3}{5}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{9}{14}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{7}{15}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "By Bayes' theorem: $\\frac{\\frac12\\cdot\\frac35}{\\frac12\\cdot\\frac35 + \\frac12\\cdot\\frac13} = \\frac{3/10}{3/10 + 1/6} = \\frac{9}{14}$. $\\frac{5}{14}$ is the probability that it came from Bag II. $\\frac35$ is $P(\\text{red} \\mid \\text{Bag I})$, the likelihood rather than the posterior. $\\frac{7}{15}$ is the total probability of drawing red.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0059",
+    "subject": "mathematics",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "stem": "For a binomial variate $X$ the mean is 4 and the variance is 3. Then $P(X \\ge 1)$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\left(\\frac34\\right)^{16}$"
+      },
+      {
+        "key": "B",
+        "text": "$1 - \\left(\\frac14\\right)^{16}$"
+      },
+      {
+        "key": "C",
+        "text": "$1 - \\left(\\frac34\\right)^{16}$"
+      },
+      {
+        "key": "D",
+        "text": "$1 - \\left(\\frac34\\right)^{15}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "From $np = 4$ and $npq = 3$: $q = \\frac34$, $p = \\frac14$ and $n = 16$. So $P(X\\ge1) = 1 - P(X=0) = 1 - q^{16} = 1 - \\left(\\frac34\\right)^{16}$. $\\left(\\frac34\\right)^{16}$ is $P(X = 0)$. $1 - \\left(\\frac14\\right)^{16}$ swaps $p$ and $q$. The exponent 15 is an off-by-one error in $n$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0060",
+    "subject": "mathematics",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "stem": "A fair coin is tossed $n$ times. The least value of $n$ for which the probability of getting at least one head is at least $0.99$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$6$"
+      },
+      {
+        "key": "B",
+        "text": "$8$"
+      },
+      {
+        "key": "C",
+        "text": "$10$"
+      },
+      {
+        "key": "D",
+        "text": "$7$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$1 - \\left(\\frac12\\right)^n \\ge 0.99 \\Rightarrow 2^n \\ge 100$. Since $2^6 = 64 < 100 \\le 128 = 2^7$, the least value is $n = 7$. $6$ gives only $1 - \\frac{1}{64} \\approx 0.984$. $8$ satisfies the condition but is not the least. $10$ comes from guessing $2^n \\ge 1000$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0061",
+    "subject": "mathematics",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "stem": "$A$ and $B$ throw a fair die alternately, with $A$ starting. The first to throw a six wins. The probability that $A$ wins is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{5}{11}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{6}{11}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{1}{2}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{1}{6}$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$A$ wins on throw 1, 3, 5, and so on: $P = \\frac16 + \\left(\\frac56\\right)^2\\frac16 + \\cdots = \\frac{1/6}{1 - 25/36} = \\frac{6}{11}$. $\\frac{5}{11}$ is $B$'s probability of winning. $\\frac12$ ignores the advantage of throwing first. $\\frac16$ counts only the first throw.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0062",
+    "subject": "mathematics",
+    "topic": "Probability",
+    "difficulty": "hard",
+    "stem": "A man speaks the truth 3 out of 4 times. He throws a fair die and reports that it is a six. The probability that it is actually a six is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{3}{4}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{1}{8}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{3}{8}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{5}{8}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bayes: $\\frac{\\frac16\\cdot\\frac34}{\\frac16\\cdot\\frac34 + \\frac56\\cdot\\frac14} = \\frac{3/24}{3/24 + 5/24} = \\frac38$. $\\frac34$ ignores the prior $\\frac16$ (base-rate fallacy). $\\frac58$ is the probability that it is not a six given the report. $\\frac18$ is the unnormalised numerator $\\frac{3}{24}$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0063",
+    "subject": "mathematics",
+    "topic": "Probability",
+    "difficulty": "hard",
+    "stem": "Three distinct numbers are chosen at random from $\\{1, 2, 3, \\ldots, 20\\}$. The probability that they form an arithmetic progression is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{1}{19}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{3}{19}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{3}{38}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{1}{38}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "An AP $a, a+d, a+2d$ with $d \\ge 1$ has $20 - 2d$ choices of $a$, for $d = 1$ to $9$: $18 + 16 + \\cdots + 2 = 90$. The total is $\\binom{20}{3} = 1140$, so $P = \\frac{90}{1140} = \\frac{3}{38}$. (Equivalently, the middle term is the average of two numbers of the same parity: $2\\binom{10}{2} = 90$.) $\\frac{3}{19}$ counts each AP twice, once for $+d$ and once for $-d$. $\\frac{1}{19}$ comes from counting only 60 APs.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0064",
+    "subject": "mathematics",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "stem": "A random variable $X$ takes the values $0, 1, 2, 3$ with probabilities $k, 2k, 3k, 4k$ respectively. The variance of $X$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2$"
+      },
+      {
+        "key": "B",
+        "text": "$5$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{1}{2}$"
+      },
+      {
+        "key": "D",
+        "text": "$1$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$10k = 1$, so $k = 0.1$. $E(X) = 0.2 + 0.6 + 1.2 = 2$ and $E(X^2) = 0.2 + 1.2 + 3.6 = 5$, so $\\mathrm{Var}(X) = 5 - 4 = 1$. $2$ is the mean. $5$ is $E(X^2)$, with the $\\mu^2$ term forgotten.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0065",
+    "subject": "mathematics",
+    "topic": "Statistics",
+    "difficulty": "medium",
+    "stem": "The variance of the first 10 natural numbers is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{11}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{33}{4}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{77}{2}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{99}{10}$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$\\sigma^2 = \\frac{n^2 - 1}{12} = \\frac{99}{12} = \\frac{33}{4}$. Directly: $\\frac{385}{10} - (5.5)^2 = 38.5 - 30.25 = 8.25$. $\\frac{11}{2}$ is the mean. $\\frac{77}{2}$ is the mean of the squares. $\\frac{99}{10}$ divides by $n$ in place of 12.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0066",
+    "subject": "mathematics",
+    "topic": "Statistics",
+    "difficulty": "hard",
+    "stem": "The mean and variance of 5 observations are $4.4$ and $8.24$. If three of the observations are $1, 2$ and $6$, the other two are",
+    "options": [
+      {
+        "key": "A",
+        "text": "$4$ and $9$"
+      },
+      {
+        "key": "B",
+        "text": "$5$ and $8$"
+      },
+      {
+        "key": "C",
+        "text": "$3$ and $10$"
+      },
+      {
+        "key": "D",
+        "text": "$6$ and $7$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The sum is $5\\times4.4 = 22$, so $x + y = 13$. The sum of squares is $5(8.24 + 4.4^2) = 5(27.6) = 138$, so $x^2 + y^2 = 138 - 41 = 97$. Then $xy = \\frac{169 - 97}{2} = 36$, giving $4$ and $9$. All the options add to 13, so they match the mean. Only $4$ and $9$ match the variance: $5, 8$ gives $x^2 + y^2 = 89$, $3, 10$ gives $109$, and $6, 7$ gives $85$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0067",
+    "subject": "mathematics",
+    "topic": "Statistics",
+    "difficulty": "easy",
+    "stem": "The standard deviation of a data set is 4. Each observation is multiplied by 3 and then 5 is added. The new standard deviation is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$17$"
+      },
+      {
+        "key": "B",
+        "text": "$144$"
+      },
+      {
+        "key": "C",
+        "text": "$7$"
+      },
+      {
+        "key": "D",
+        "text": "$12$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "SD is unaffected by adding a constant and scales by $|a|$: $\\sigma' = 3\\times4 = 12$. $17$ wrongly adds the 5. $144$ is the new variance ($9\\times16$). $7$ adds 3 instead of multiplying.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0068",
+    "subject": "mathematics",
+    "topic": "Statistics",
+    "difficulty": "easy",
+    "stem": "The standard deviation of the frequency distribution below is\n$x$: 2, 4, 6, 8\n$f$: 1, 3, 3, 1",
+    "options": [
+      {
+        "key": "A",
+        "text": "$3$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{3}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\sqrt2$"
+      },
+      {
+        "key": "D",
+        "text": "$\\sqrt3$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$N = 8$ and the mean is $\\frac{2 + 12 + 18 + 8}{8} = 5$. The variance is $\\frac{1(9) + 3(1) + 3(1) + 1(9)}{8} = \\frac{24}{8} = 3$, so $\\sigma = \\sqrt3$. $3$ is the variance, not the SD. $\\frac32$ is the mean absolute deviation about the mean ($\\frac{12}{8}$). $\\sqrt2$ divides by $N + 4$ by mistake.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0069",
+    "subject": "mathematics",
+    "topic": "Linear Programming",
+    "difficulty": "medium",
+    "stem": "The maximum value of $Z = 3x + 2y$ subject to $x + y \\le 4$, $x + 3y \\le 6$, $x, y \\ge 0$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$11$"
+      },
+      {
+        "key": "B",
+        "text": "$4$"
+      },
+      {
+        "key": "C",
+        "text": "$12$"
+      },
+      {
+        "key": "D",
+        "text": "$13$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The corner points of the feasible region are $(0,0)$, $(4,0)$, $(3,1)$ and $(0,2)$, with $Z = 0, 12, 11, 4$. So the maximum is $12$, at $(4,0)$. $11$ assumes the optimum is at the intersection point $(3,1)$. $4$ is the value at $(0,2)$. $13$ evaluates $Z$ at an infeasible point such as $(3,2)$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-b-0070",
+    "subject": "mathematics",
+    "topic": "Linear Programming",
+    "difficulty": "hard",
+    "stem": "Minimise $Z = 2x + 3y$ subject to $x + y \\ge 5$, $x + 3y \\ge 9$, $x, y \\ge 0$. The minimum value of $Z$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$12$"
+      },
+      {
+        "key": "B",
+        "text": "$15$"
+      },
+      {
+        "key": "C",
+        "text": "$18$"
+      },
+      {
+        "key": "D",
+        "text": "Does not exist, since the feasible region is unbounded"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The region is unbounded, with corners $(9,0)$, $(3,2)$ and $(0,5)$, where $Z = 18, 12, 15$. The candidate minimum is 12. Since the half-plane $2x + 3y < 12$ has no point in common with the feasible region, 12 is the true minimum, at $(3,2)$. An unbounded region does not by itself rule out a minimum; it only means you must check the open half-plane. $15$ and $18$ are values at the other corners.",
+    "source": {
+      "kind": "authored"
+    }
+  }
+]

@@ -1,0 +1,536 @@
+===== M-23-Q19 mathematics Inequalities
+Q: Number of integral values of m for which the inequality $\frac{x^{2} - mx - 2}{x^{2} - 3x + 4} > - 1$ is satisfied by all real values of x.
+A : 5
+B : 6
+C : 7
+D : 8
+ANS C
+SOL: Given  $\frac{x^{2} - mx - 2}{x^{2} - 3x + 4}$> - 1 for all $x \in R$ $\Rightarrow$ $x^2$ - mx - 2 > - $(x^2$ - 3x + 4) $\ $(as $x^2$ - 3x + 4 > 0 $\forall$x $\in$R) $\Rightarrow 2x^{2} - (m + 3)x + 2 > 0$ for all x $\in$ R $\Rightarrow$ disc. = (m + $3)^2$ - 16 < 0 $\Rightarrow$ $m^2$ + 6x - 7 < 0 $\Rightarrow$ (m + 7) (m - 1) < 0 $\Rightarrow$ m $\epsilon$ (-7, 1) $\Rightarrow$ no. of integral values of m is 7
+===== M-28-Q9 mathematics Centroid of triangle
+Q: A triangle has a vertex at (1,2) and the mid points of the two sides through it are (-1,1) and (2,3). Then the centroid of this triangle is
+A : $\left( 1,\frac{7}{3} \right)$
+B : $\left( \frac{1}{3},\frac{5}{3} \right)$
+C : $\left( \frac{1}{3},1 \right)$
+D : $\left( \frac{1}{3},2 \right)$
+ANS D
+SOL: =$\left( \frac{1 + 3 - 3}{3},\frac{2 + 0 + 4}{3} \right) = \left( \frac{1}{3},2 \right)$
+===== M-13-Q2 mathematics Leibinitz theorem
+Q: The slope of the tangent to curve $y = \int_{x}^{x^{2}} \cos^{- 1}t^{2}dt\ at\ x = \frac{1}{\sqrt[4]{2}}$ is
+A : $\left( \frac{\sqrt[4]{8}}{2} - \frac{3}{4} \right)\pi$
+B : $\left( \frac{\sqrt[4]{8}}{3} - \frac{1}{4} \right)\pi$
+C : $\left( \frac{\sqrt[5]{8}}{4} - \frac{1}{3} \right)\pi$
+D : None of these
+ANS B
+SOL: $\frac{dy}{dx} = \cos^{- 1}\left( x^{4} \right) \cdot 2x - \cos^{- 1}\left( x^{2} \right).1$ $\left. \ \frac{dy}{dx} \right|_{x = \frac{1}{\sqrt{2}}} = \left( \frac{\sqrt[4]{8}}{3} - \frac{1}{4} \right)\pi$
+===== M-17-Q20 mathematics Greatest integer functions
+Q: Sum of all real solution of equation $\{ x\} + 2x = \lbrack x\rbrack$ (where & are fractional part function and greatest integer function respectively) is equal to
+A : 0
+B : -1
+C : -2
+D : -3
+ANS C
+SOL: $\{ x\} + 2\{ x\} + 2\lbrack x\rbrack = \lbrack x\rbrack$ $3\{ x\} = - \lbrack x\rbrack$ $\lbrack x\rbrack = 0, - 1, - 2$ $\left\{ x \right\} = \frac{1}{3}when\{ x\} = - 1$ $\left\{ x \right\} = \frac{2}{3}when\lbrack x\rbrack = - 2$
+===== M-17-Q6 mathematics Equivalence relation
+Q: A relation R on set of point of given plane defined as$(A,B) \in RifOA = OB$ where O is fixed point on same plane. Then relation R is
+A : reflexive but not transitive
+B : equivalence relation
+C : reflexive but not symmetric
+D : None of these
+ANS B
+SOL: Let R be the given relation since $OA = OA \Rightarrow R$ is reflexive $OA = OB \Rightarrow OB = OA \Rightarrow R$ is symmetric $OA = OB$ and $OB = OC$ $\Rightarrow OA = OC \Rightarrow R$ is transitive Hence R is an equivalence relation
+===== M-19-Q5 mathematics Indeterminate forms
+Q: $\lim_{x \rightarrow \infty} \frac{\sqrt{x^{2} + 1} - \sqrt[3]{x^{3} + 1}}{\sqrt[4]{x^{4} + 1} - \sqrt[5]{x^{4} + 1}}$ equals
+A : $1$
+B : $0$
+C : $- 1$
+D : None of these
+ANS B
+SOL: $\lim_{x \rightarrow \infty} \frac{\sqrt{1 + \frac{1}{x^{2}}} - \sqrt[3]{1 + \frac{1}{x^{3}}}}{\sqrt[4]{1 + \frac{1}{x^{4}}} - \sqrt[5]{\frac{1}{x} + \frac{1}{x^{5}}}} = \frac{1 - 1}{1 - 0} = 0$
+===== M-09-Q1 mathematics Greatest integer function
+Q: Let f (x) $= \frac{1}{\sqrt{6 - \left\lbrack x^{2} - 2 \right\rbrack}}$, is the greatest integer function, then number of positive integral value in the domain of f(x) is/are
+A : 4
+B : 2
+C : 5
+D : 6
+ANS B
+SOL: 6 - > 0 < 8 positive integer soln. are x = 1,2
+===== M-11-Q20 mathematics Locus of point
+Q: If a variable line, drawn through the point of intersection of the straight lines 3x + 2y - 6 = 0 and 2x + 3y - 6 = 0, meets the x-axis and y-axis in A and B respectively, then the locus of point P such that PB: PA = 3: 1
+A : 3x + 9y + 10xy = 0
+B : 3x + 9y - 10xy = 0
+C : 3x - 9y - 10xy = 0
+D : 9x - 9y - 10xy = 0
+ANS B
+SOL: Let the straight line be 3x + 2y - 6 + $\lambda$ (2x + 3y - 6) = 0 $\therefore$ Coordinates of A and B are $\left( \frac{6 + 6\lambda}{3 + 2\lambda},0 \right)$ and $\left( 0,\frac{6 + 6\lambda}{2 + 3\lambda} \right)$ $\therefore$ Coordinates of P are $\left( \frac{3}{4}\left( \frac{6 + 6\lambda}{3 + 2\lambda} \right),\frac{1}{4}\left( \frac{6 + 6\lambda}{2 + 3\lambda} \right) \right)$ $\therefore$ Locus P is given by eliminating $\lambda$ between $\frac{6 + 6\lambda}{3 + 2\lambda} = \frac{4x}{3}$ and $\frac{6 + 6\lambda}{2 + 3\lambda} = 4y$  i.e. $\frac{12x - 18}{18 - 8x} = \frac{8y - 6}{6 - 1
+===== M-28-Q15 mathematics Maximum and minimum
+Q: The maximum volume (in cu. m ) of the right circular cone having slant height 3m is
+A : 6π
+B : $2\sqrt{3}\pi$
+C : $\frac{4}{3}\pi$
+D : $3\sqrt{3}\pi$
+ANS B
+SOL: $V = \frac{1}{3}\pi r^{2}h,r^{2} + h^{2} = 9$ $V = \frac{1}{3}\pi h\left( 9 - h^{2} \right)$ $\frac{dv}{dh} = \frac{1}{3}\pi\left( 9 - 3h^{2} \right) = 0$ $9 - 3h^{2} = 0$ $h^{2} = 3,h = \sqrt{3}$ $v = \frac{1}{3}(\pi)(6)\sqrt{3} = 2\sqrt{3}\pi$
+===== M-01-Q3 mathematics Algebra
+Q: The contrapositive of "If two triangles are equiangular, then they are similar" is
+A : If two triangles are not similar then they are equiangular.
+B : If two triangles are not equiangular then they are similar.
+C : If two triangles are not similar then they are not equiangular.
+D : If two triangles are not equiangular then they are not similar.
+ANS C
+SOL: Let p: Two triangles are equiangular q: Triangles are similar ∴ Given statement is p → q So, its contrapositive is ~q → ~p i.e., If two triangles are not similar then they are not equiangular.]
+===== M-27-Q20 mathematics Equation of straight line
+Q: Equation of straight line $ax + by + c = 0$, where $3a\ + \ 4b\ + \ c\ = \ 0,$ which is at maximum distance from (1, -2), is tgk¡$3a\ + \ 4b\ + \ c\ = \ 0$vkSj ftldh fcUnq(1, -2)
+A : $3x + y - 17 = 0$
+B : $4x + 3y - 24 = 0$
+C : $3x + 4y - 25 = 0$
+D : $x + 3y - 15 = 0$
+ANS D
+SOL: It passes through a fixed point (3, 4) slope of line joining (3, 4) and (1, -2) is$\frac{- 6}{- 2} = 3$ slope of required line$= - \frac{1}{3}$ equation is $y - 4 = - \frac{1}{3}(x - 3)$ $x + 3y - 15 = 0$ <+ky$\frac{- 6}{- 2} = 3$
+===== M-25-Q7 mathematics Chord of contact
+Q: If tangents are drawn from any point on the line x + y = 3 to the circle $x^{2} + y^{2} = 9$ then the chord of contact passes through the point
+A : (1, 1)
+B : (2, 2)
+C : (3, 3)
+D : (4, 4)
+ANS C
+SOL: Chord of contact is Li'kZ thok $xh + yk = 9 \Rightarrow xh + y(3 - h) = 9 \Rightarrow h(x - y) + 3(y - 3) = 0 \Rightarrow (3,3)$
+===== M-23-Q18 mathematics Family of circle
+Q: The center of set of circles, each of radius 3, lies on the circles $x^2$ + $y^2$ = 25. The locus of any point in the set is
+A : 3 ≤ $x^2$ + $y^2$ ≤ 9
+B : $x^2$ + $y^2$ ≥ 25
+C : $x^2$ + $y^2$ ≤ 25
+D : 4 ≤ $x^2$ + $y^2$ ≤ 64
+ANS D
+SOL: Let (h, k) be any point in the set, then equation of circle is (x - $h)^2$ + (y - $k)^2$ = 9 But (h, k) lie on $x^2$ + $y^2$ = 25 then $h^2$ + $k^2$ = 25 $\therefore$ 2 ≤ distance between the centres of two circles ≤ 8 $\Rightarrow 2 \leq \sqrt{h^{2} + k^{2}} \leq 8 \Rightarrow 4 \leq h^{2} + k^{2} \leq 64$ Locus of (h, k) is (4 ≤ $x^2$ + $y^2$ ≤ 64)
+===== M-19-Q13 mathematics Geometric mean
+Q: n, G.M.'s are inserted between two numbers 2 and 162. If the product of the n G.M.'s is 5832 then n is
+A : 3
+B : 5
+C : 4
+D : 2
+ANS A
+SOL: Product of n, G.M.'s $n = (2.162)^{\frac{n}{2}}$ $(324)^{\frac{n}{2}} = 5832$ $18^n$ = 5832 $18^n$ = $18^3$ n = 3
+===== M-20-Q4 mathematics Relation between roots and coefficients
+Q: Let $\beta$ and $\alpha$ be the roots of $x^{2} - 6x - 2 = 0$, with $\alpha > \beta$, If $a_{n} = \alpha^{n} - \beta^{n}$ for $n \geq 1$, then the value of $\frac{a_{10} - 2a_{8}}{2a_{9}}$
+A : 1
+B : 2
+C : 3
+D : 4
+ANS C
+SOL: We observe that $(\alpha + \beta)(\alpha^{n - 1} - \beta^{n - 1}) = \alpha^{n} - \beta^{n} + \alpha\beta(\alpha^{n - 2} - \beta^{n - 2})$ $\Rightarrow 6a_{n - 1} = a_{n} - 2a_{n - 2}$ $\Rightarrow 6 = \frac{a_{n} - 2a_{n - 2}}{a_{n - 1}}$ $\Rightarrow 3 = \frac{a_{n} - 2a_{n - 2}}{2a_{n - 1}},\forall n > 2$ Putting n = 10, we get $\frac{a_{10} - 2a_{8}}{2a_{9}} = 3$
+===== M-26-Q19 mathematics Director circle of ellipse
+Q: Let (m, n) to be a point from which two perpendicular tangents can be drawn to the ellipse $4x^2$ + $5y^2$ = 20. If E=4m + 3n, then
+A : $- 15 \leq E \leq 15$
+B : $E \geq 0$
+C : $- 5 \leq E \leq 20$
+D : $E \leq - 5\sqrt{5}\ or\ E \geq 5\sqrt{5}$
+ANS A
+SOL: Here, (m, n) lies on director circle of given ellipse $\left( \frac{x^{2}}{5} + \frac{y^{2}}{4} = 1 \right)$;gka (m,n) nh?kZo`Ùk fLFkr $\therefore\left( m^{2} + n^{2} = 5 + 4 \right) \Rightarrow \ $Director $E = 12cos\theta + 9sin\theta$ $- \sqrt{(12)^{2} + 9^{2}} \leq E \leq \sqrt{(12)^{2} - 9^{2}}$ $- 15 \leq E \leq 15$
+===== P-22-Q13 physics Work done by variable force
+Q: A force F= 4t acts on a particle of mass 1kg. If the particle starts from rest the work done by the force during the first 2 second will be 8n J, find n.
+A : 4
+B : 6
+C : 5
+D : 3
+ANS A
+SOL: $\frac{dv}{dt} = 4t$ $\int_{0}^{v}{dv} = 4\int_{0}^{t}{t\ dt}$ $V = 2t^{2}$ $ds = 2t^{2}dt$ $W = \int_{}^{}{Fds\ cos0^{\circ}}$ $= \int_{0}^{2}  4t \cdot 2t^{2}dt$ $= 8\left\lbrack \frac{t^{4}}{4} \right\rbrack_{0}^{2}$
+===== P-19-Q5 physics Diffraction
+Q: The aperture diameter of a telescope is 5 m. The separation between the moon and the earth is $4 \times 10^{5}$km. With light of wavelength of 5893 A, the minimum separation between objects on the surface ofmoon, so that they are just resolved, is close to
+A : 600 m
+B : 20 m
+C : 200 m
+D : 58 m
+ANS D
+SOL: $\theta = 1.22\frac{\lambda}{a}$ Distance $= O_{1}O_{2} = d\theta = 1.22\frac{\lambda}{a}d$ Distance $= O_{1}O_{2} = \frac{1.22 \times 5893 \times 10^{- 10} \times 4 \times 10^{8}}{5} \approx 57.5m$ answer from options = 58 m (minimum distance)
+===== P-12-Q15 physics Potentiometer
+Q: The length of a potentiometer wire is 120 cm and it carries a current of 60 mA. For a cell of emf 5V and internal resistance of 20$\Omega$, the null point on it is found to be at 1000 cm. The resistance of whole wire is
+A : $600\Omega$
+B : $120\Omega$
+C : $100\Omega$
+D : $80\Omega$
+ANS C
+SOL: Potential gradient $= \frac{5}{1000} = \frac{V_{P}}{1200}$ $V_{p} = 6V$  and  $R_{p} = \frac{V_{P}}{I} = \frac{6}{60 \times 10^{- 3}} = 100\Omega$
+===== P-22-Q16 physics Linear momentum of center of mass
+Q: A train of mass M is moving on a circular track of radius ' R ' with constant speed V. The length of thetrain is half of the perimeter of the track. The linear momentum of the train will be
+A : Zero
+B : $\frac{2M\ V}{\pi}$
+C : MVR
+D : MV
+ANS B
+SOL: If we treat the train as a ring of mass then its COM will be at a distance from the centre of the circle. Velocity of centre of mass is: $V_{CM} = R_{CM} \cdot \omega$ = $\frac{2R}{\pi} \cdot \omega$ = $\frac{2R}{\pi} \cdot \left( \frac{v}{R} \right)$ $\left( \because\omega = \frac{v}{R} \right)$ $\Rightarrow$ $V_{CM} = \frac{2V}{\pi}$ $\Rightarrow$ ${MV}_{CM} = \frac{2MV}{\pi}$ As the linear momentum of any system = $MV_CM$ The linear momentum of the train $= \frac{2MV}{\pi}$
+===== P-08-Q18 physics First law of thermodynamics
+Q: 110 J of heat are added to a gaseous system where change in internal energy is 40 J, then the amount of external work done is
+A : 40 J
+B : 110J
+C : 70 J
+D : 150 J
+ANS C
+SOL: $\Delta W = \Delta u + \Delta W$ $\Rightarrow 110 = 40 + \Delta W$ $\Rightarrow \Delta W = 110 - 40 = 70J$
+===== P-13-Q11 physics Dimension of energy density in magnetic
+Q: The dimensions of$\frac{B^{2}}{2\mu_{0}}$, where B is magnetic field and $\mu_{0}$ is the magnetic permeability of vacuum, is
+A : $MLT^-2$
+B : $ML^-1T^-2$
+C : $ML^2T^-1$
+D : $ML^2T^-2$
+ANS B
+SOL: Energy density in magnetic field$= \frac{B^{2}}{2\mu_{0}}$ $= \frac{\ Force\ \times \ displacement\ }{(\ displacement\ )^{3}} = \frac{{MLT}^{- 2}L}{L^{3}} = {ML}^{- 1}T^{- 2}$
+===== P-19-Q9 physics Electric potential
+Q: Consider two charged metallic spheres $S_{1}$ and $S_{2}$ of radii$R_{1}$and $R_{2}$, respectively. The electric fields $E_{1}$(on $S_{1}$) and $E_{2}$ (on $S_{2}$) on their surfaces are such that $E_{1}/E_{2} = R_{1}/R_{2}$. Then the ratio$V_{1}(onS_{1})/V_{2}(onS_{2})$ of the electrostatic potentials on each sphere is
+A : ${(\frac{R_{1}}{R_{2}})}^{3}$
+B : $\frac{R_{1}}{R_{2}}$
+C : $(\frac{R_{2}}{R_{1}})$
+D : ${(\frac{R_{1}}{R_{2}})}^{2}$
+ANS D
+SOL: $\frac{E_{1}}{E_{2}} = \frac{r_{1}}{r_{2}}$ $\frac{V_{1}}{V_{2}} = \frac{E_{1}r_{1}}{E_{2}r_{2}} = \frac{r_{1}}{r_{2}} \times \frac{r_{1}}{r_{2}} = {(\frac{r_{1}}{r_{2}})}^{2}$
+===== P-19-Q12 physics Ampere's circuital law
+Q: A long, straight wire of radius a carries a current distributed uniformly over its cross-section. The ratioof the magnetic fields due to the wire at distance $\frac{a}{3}$ and 2a, respectively from the axis of the wire is
+A : $\frac{1}{2}$
+B : 2
+C : $\frac{3}{2}$
+D : $\frac{2}{3}$
+ANS D
+SOL: $B_{A} = \frac{\mu_{0}ir}{2\pi a^{2}} = \frac{\mu_{0}i\frac{a}{3}}{2\pi a^{2}} = \frac{\mu_{0}i}{\pi a^{2}}\frac{a}{6} = \frac{\mu_{0}i}{6\pi a}$ $B_{B} = \frac{\mu_{0}i}{2\pi(2a)}$ $\frac{B_{A}}{B_{B}} = \frac{4}{6} = \frac{2}{3}$
+===== P-14-Q15 physics Polarization
+Q: A polarizer - analyzer set is adjusted such that the intensity of light coming out of the analyzer is just 10 of the original intensity. Assuming that the polarizer-analyzer set does not absorb any light, the angle by which the analyzer needs to be rotated further to reduce the output intensity to be zero is
+A : 45º
+B : 90º
+C : 71.6º
+D : 18.4º
+ANS D
+SOL: Which is 0.707 So and so only one option is correct i.e. 18.4º Angle rotated should be
+===== P-20-Q10 physics Lens maker's formula
+Q: A point object in air is in front of the curved surface of a plano-convex lens. The radius of curvature of thecurved surface is 30 cm and the refractive index of the lens material is 1.5, then the focal length of thelens (in cm) is_______.
+A : 50
+B : 40
+C : 60
+D : 30
+ANS C
+SOL: $\frac{1}{f} = (\mu - 1)\left( \frac{1}{R_{1}} - \frac{1}{R_{2}} \right)$ $R_{1} = \infty$ $R_{2} = - 30cm$ $\frac{1}{f} = (1.5 - 1)\left( \frac{1}{\infty} - \frac{1}{- 30} \right)$ $\begin{aligned} & \frac{1}{f} = \frac{0.5}{30}   & f = 60cm \end{aligned}$
+===== P-08-Q15 physics Specific heat
+Q: Temperature of 100 g of water in a thermoflaskremains fixed for a pretty long time at 50ºC. Anequal mass of sand at 20ºC is poured in the flaskand shaken for some time so that the temperatureof the mixture is 40ºC. Now the experiment is repeated with 100 g of a liquid at 50ºC and an equalamount of sand at 20ºC when the temperature ofthe mixture is found to be 30ºC. The specific heat of the liquid (in $kJ{kg}^{- 1}K^{- 1}$ ) is
+A : 1.05
+B : 2.01
+C : 1.55
+D : 1.95
+ANS A
+SOL: $m_{\omega}\ S_{\omega}\ \Delta T_{\omega} = m_{S}\ S_{S}\ \Delta T_{S}$ $100 \times 1 \times 10 = 100 \times S_{S} \times 20$ $\Rightarrow S_{S} = \frac{1}{2}cal/{gm}^{\circ}C$ $m_{S}\ S_{S}\ \Delta T_{S} = m_{\mathcal{l}}{\ S}_{\mathcal{l}}\ \Delta T_{\mathcal{l}}$ $100 \times \frac{1}{2} \times 10 = 100 \times {\ S}_{\mathcal{l}} \times 20$ $\Rightarrow S_{\mathcal{l}} = \frac{1}{4}cal/ºC\ gm$ $S_{\mathcal{l}} = \frac{4.2kJ}{4}/^{\circ}cgm = 1.05kJ/ºC\ gm$
+===== P-08-Q8 physics Bulk modulus
+Q: 32 g of $O_2$ is contained in a cubical container of side 1 m and maintained at a temperature of 127ºC. The isothermal bulk modulus of elasticity of the gas in terms of universal gas constant R is
+A : 127 R
+B : 400 R
+C : 200 R
+D : 560 R
+ANS B
+SOL: Bulk modulus of elasticity at constant temperature $B = \frac{dP}{dV/V} - = - V\left( \frac{dP}{dV} \right)_{T} = + P = \frac{nRT}{v}$ $= \frac{1 \times R \times 400}{1^{3}} = 400R$
+===== P-06-Q15 physics Work done by a variable force
+Q: The force exerted by a compression device is given by $F(x) = kx(x - \lambda)$ for $0 \leq x \leq \lambda$, where $\lambda$ is the maximum possible compression, x is the compression and k is a constant. The work required to compress the device by a distance d will be maximum when
+A : $d = \lambda/4$
+B : $d = \lambda/\sqrt{2}$
+C : $d = \lambda/2$
+D : $d = \lambda$
+ANS D
+SOL: For W to be maximum i.e. $F(x) = 0 \Rightarrow x = \lambda,x = 0$ Clearly for $d = \lambda$,the work done is maximum.
+===== P-17-Q12 physics Magnetism
+Q: A small circular loop of conducting wire has radius a and carries current I. It is placed in a uniform magnetic field B perpendicular to its plane such that when rotated slightly about its diameter and released, it starts performing simple harmonic motion of time period T. If the mass of the loop is $ mathrm{m}\$ then
+A : $T = \sqrt{\frac{\pi m}{IB}}$
+B : $T = \sqrt{\frac{2m}{IB}}$
+C : $T = \sqrt{\frac{\pi m}{2IB}}$
+D : $T = \sqrt{\frac{2\pi m}{IB}}$
+ANS D
+SOL: $\tau = MBsin\theta = I\alpha$ $\pi R^{2}IB\theta = \frac{{mR}^{2}}{2}\alpha$. $\omega = \sqrt{\frac{2\pi IB}{m}} = \frac{2\pi}{T};T = \sqrt{\frac{2\pi m}{IB}}$
+===== P-18-Q20 physics Moment of inertia
+Q: A uniform disc of radius R lies in the x-y plane, with its centre at origin. its moment of inertia about zaxis is equal to its moment of inertia about line $y = x + c$. The value of c will be
+A : $- \frac{R}{2}$
+B : $\pm \frac{R}{\sqrt{2}}$
+C : $\frac{+ R}{4}$
+D : $- R$
+ANS B
+SOL: $I_{PQR} = \frac{1}{4}{MR}^{2} + M{(\frac{C}{\sqrt{2}})}^{2}$ But $I_{PQR} = \frac{1}{2}{MR}^{2}$ $\therefore C = \pm \frac{R}{\sqrt{2}}$ Hence (2) is correct.
+===== P-05-Q14 physics Dimensional analysis
+Q: If the velocity of light denoted by acceleration due to gravity are taken as fundamental units, then the dimensions of length will be
+A : $c^{2}/g$
+B : $c/p$
+C : $g/c$
+D : $c/g$
+ANS A
+SOL: Let $L\alpha c^{a}g^{b}p^{c}$ $L = kc^{a}g^{b}p^{c}$ Putting dimensions on both sides: $\left\lbrack M^{0}LT^{0} \right\rbrack = \left\lbrack LT^{- 1} \right\rbrack^{a}\left\lbrack LT^{- 2} \right\rbrack^{b}\left\lbrack ML^{- 1}T^{- 2} \right\rbrack^{c}$ $\left\lbrack M^{0}LT^{0} \right\rbrack = \left\lbrack M^{c}L^{a + b - c}T^{- a - 2b - 2c} \right\rbrack$ Comparing dimensions of both sides $c = 0,\ \ \ \ \ a + b - c = 1$ $- a - 2b - 2c = 0$ solving we get $a = 2,b = - 1$ hence$\lbrack L\rbrack = \left\lbrack c^{2}/g \right\rbrack$
+===== P-05-Q5 physics Projectile up the inclined plane
+Q: A particle is projected up an inclined plane of inclination $\beta$ at an elevation $\alpha$ to the horizontal. If the particle strikes the inclined plane at right angles then $\tan\alpha =$
+A : $(cot\beta - 2tan\beta)$
+B : $(tan\beta + 2cot\beta)$
+C : $(cot\beta + 2tan\beta)$
+D : $(tan\beta - 2cot\beta)$
+ANS C
+SOL: $T = \frac{2usin(\alpha - \beta)}{gcos\beta}$......(1) $O = ucos(\alpha - \beta) - (gsin\beta)T$ $\Rightarrow T = \frac{ucos(\alpha - \beta)}{gsin\beta}$......(2) from (1) &(2) $2tan(\alpha - \beta) = cot\beta$ $\Rightarrow tan\alpha = (cot\beta + 2tan\beta)$
+===== P-06-Q17 physics Potential energy curve
+Q: The potential energy of a particle varies with x according to the relation $U(x) = x^{2} - 4x$. The point x=2 is a point of
+A : stable equilibrium
+B : unstable equilibrium
+C : neutral equilibrium
+D : none of above
+ANS A
+SOL: $U(x) = x^{2} - 4x$ $F = 0$ $\frac{dU(x)}{dx} = 0$ $2x - 4 = 0\ gives\ \ \ x = 2$ $\frac{d^{2}U}{{dx}^{2}} = 2 > 0$ i.e. U is minimum hence x = 2 is a point of stable equilibrium.
+===== P-19-Q16 physics Converting galvanometer into voltmeter
+Q: A galvanometer having a coil resistance $100\Omega$ gives a full scale deflection when a current of 1 mA is passed through it. What is the value of the resistance which can convert this galvanometer into a voltmeter giving full scale deflection for a potential difference of 10 V?
+A : $8.9k\Omega$
+B : $10k\Omega$
+C : $9.9k\Omega$
+D : $7.9k\Omega$
+ANS C
+SOL: $V_{g} = i_{g}R_{g} = 0.1V$ $V = 10V$ $R = R_{g}(\frac{V}{V_{g}} - 1)$ $= 100 \times 99 = 9.9K\Omega$
+===== P-05-Q8 physics River problem
+Q: A man who can swim at the rate of $2km/hr$ (in still river) crosses a river to a point exactly opposite on the other bank by swimming at an angle of 60º perpendicular direction of river flow of the water in the river. The velocity of the water current in $km/hr$ is
+A : 1
+B : 2
+C : $1/2$
+D : $\sqrt{3}$
+ANS D
+SOL: Let speed of current be u. For net velocity ofman to be normal to river flow. $2sin60^{\circ} = u$ or$u = \sqrt{3}km/hr$
+===== P-17-Q10 physics TIR
+Q: There is a small source of light at some depth below the surface of water (refractive index = 4/3) in a tank of large cross sectional surface area. Neglecting any reflection from the bottom and absorption by water, percentage of light that emerges out of surface is (nearly): [Use the fact that surface area of a spherical cap of height h and radius of curvature r is $2\pi rh$]
+A : 50
+B : 34
+C : 17
+D : 21
+ANS C
+SOL: Solid angle $d\Omega = 2\pi R^{2}(1 - cos\beta)$ Percentage of light $= \frac{2\pi R^{2}(1 - cos\beta)}{4\pi R^{2}} \times 100$ $= \frac{1 - cos\beta}{2} \times 100 = (\frac{4 - \sqrt{7}}{8}) \times 100 \approx 17\%$
+===== P-05-Q1 physics Non-uniform acceleration
+Q: Position of a particle moving on x-axis as a function of time t is given by $x = \left( t^{3} - 6t^{2} + 3t + 4 \right)$meter. What is the velocity of the particle when its acceleration is zero?
+A : $- 12m/s$
+B : $- 6m/s$
+C : $- 3m/s$
+D : $- 9m/s$
+ANS D
+SOL: $v = 3t^{2} - 12t + 3$ $a = 6t - 12 = 0$ $\Rightarrow t = 2\sec$ $v(t = 2sec) = - 9m/s$
+===== P-16-Q9 physics Work -energy theorem
+Q: A body of mass 6 kg is acted upon by a force which causes a displacement in it given by $x = \frac{t^{2}}{4}$ metre where t is the time in second. The work done by the force is 2 seconds is
+A : 12 J
+B : 9 J
+C : 6 J
+D : 3 J
+ANS D
+SOL: The velocity of the body a time t is given by $= \frac{dx}{dt} = \frac{d}{dt}(\frac{t^{2}}{4}) = \frac{t}{2}$ At $t = 0, = u = 0\ and\ t = 2s, = 1{ms}^{- 1}$, Now, work done = increase in KE $= \frac{1}{2}m - \frac{1}{2}mu^{2} = \frac{1}{2}m - 0$ $= \frac{1}{2}m = \frac{1}{2} \times 6 \times (1)^{2} = 3J$
+===== P-12-Q12 physics Equivalent capacitance
+Q: Effective capacitance of parallel combination of two capacitors C1 and C2 is 10$\mu F$. When these capacitorsare individually connected to a voltage source of 1V, the energy stored in the capacitor $C_2$ is 4 times thatof $C_1.$ If these capacitors are connected in series, their effective capacitance will be
+A : $4.2\mu F$
+B : $8.4\mu F$
+C : $3.2\mu F$
+D : $1.6\mu F$
+ANS D
+SOL: Given $C_1$ + $C_2$$= 10\mu F$....(i) $4\left( \frac{1}{2}C_{1}V^{2} \right) = \frac{1}{2}C_{2}V^{2}$ $\Rightarrow$ $4C_1$=$C_2....$(ii) from equation (i) and (ii) $C_{1} = 2\mu F$ $C_{2} = 8\mu F$ If they are in series $C_{eq} = \frac{C_{1}C_{2}}{C_{1} + C_{2}} = 1.6\mu F$
+===== P-16-Q13 physics Motion of center of mass
+Q: An object A is dropped from rest from the top of a 30 m high building and at the same moment another object B is projected vertically upwards with an initial speed of 15 m/s from the base of the building. Mass of the object A is 2 kg while mass of the object B is 4kg. The maximum height above the ground level attained by the centre of mass of the A and B system is (take$g = 10m/s^{2}$)
+A : 15 m
+B : 25 m
+C : 30 m
+D : 35 m
+ANS A
+SOL: Using $\frac{m_{1}{\overset{\rightarrow}{x}}_{1} + m_{2}{\overset{\rightarrow}{x}}_{2}}{m_{1} + m_{2}} = X_{cm}$ By putting values $X_{cm} = 10\ m$from base. Initial velocity of COM$\Rightarrow \frac{m_{1}v_{1} + m_{2}v_{2}}{m_{1} + m_{2}} = 10m/supward$ Also, acceleration of COM is g thus using $v^{2} = u^{2} + 2$as for COM $0 = 10^{2} + 2 \times ( - 10) \times h_{\max}$ $h_{\max} = 5m$from the initial position of COM Hence total height from base$= 10 + 5m = 15m$
+===== P-19-Q18 physics YDSE
+Q: In a double-slit experiment, at a certain point on the screen the path difference between the two interfering waves is $\frac{1}{8}$thof a wavelength. The ratio of the intensity of light at that point to that at the centre of a bright fringe is
+A : 0.568
+B : 0.760
+C : 0.853
+D : 0.672
+ANS C
+SOL: $I = I_{0}\cos^{2}(\frac{\Delta\phi}{2})$ $\frac{I}{I_{0}} = \cos^{2}\lbrack\frac{\frac{2\pi}{\lambda} \times \Delta x}{2}\rbrack = \cos^{2}(\frac{\pi}{8})$; $\frac{I}{I_{0}} = 0.853$
+===== P-13-Q15 physics Coercivity
+Q: The coercivity of a small magnet where the ferromagnet gets demagnetized is 3 × $10^3$ $Am^-1.$ The current required to be passed in a solenoid of length 10 cm and number of turns 100, so that the magnet gets demagnetized when inside the solenoid, is
+A : 30 mA
+B : 60 mA
+C : 3 A
+D : 6 A
+ANS C
+SOL: For solenoid $\frac{B}{\mu_{0}} = H$ or $B = \mu_{0}nI$ $H = nI$ $\Rightarrow 3 \times 10^{3} = \frac{100}{0.1} \times I$ Ι = 3A
+===== P-01-Q14 physics Gravitation
+Q: Which one of the following choices is closest to the order of the angular momentum of the Earth (expressed in base MKS units) associated with its rotation about its axis ?
+A : 1038
+B : 1034
+C : 1030
+D : 1022
+ANS B
+SOL: m = 6 × 1024 kg R = 6.4 × 106 m I = mR2 L = Iω = × 6 × 1024 × (6.4 × 106)2 × = × 0.39 × 1034
+===== P-23-Q3 physics Conservation of mechanical energy
+Q: An asteroid is moving directly towards the centre of the earth. when at a distance of 10R (R is theradius of the earth) from the earths centre, it has a speed of 12 km/s. Neglecting the effect of earth'satmosphere, what will be the speed of the asteroid when it hits the surface of the earth (escape velocityfrom the earth is 11.2
+A : 14
+B : 12
+C : 16
+D : 18
+ANS C
+SOL: $KE_i$ + $PE_i$ = $KE_f$ + $PE_i$ $\frac{1}{2}mu_{0}^{2} + \left( - \frac{GMm}{10R} \right) = \frac{1}{2}mv^{2} + \left( - \frac{GMm}{R} \right)$ $v^{2} = u_{0}^{2} + \frac{2GM}{R}\left\lbrack 1 - \frac{1}{10} \right\rbrack$ $v = \sqrt{u_{0}^{2} + \frac{9}{5}\frac{GM}{R}}$ $= \sqrt{12^{2} + \left( \frac{9}{5} \right)\frac{(11.2)^{2}}{2}}$ $= \sqrt{144 + 0.9(11.2)^{2}} = \sqrt{256.896}$ = 16.028 km/s $\simeq 16$
+===== P-08-Q10 physics Adiabatic process
+Q: An ideal gas whose internal energy U is at absolute zero temperature is equal to zero undergoes areversible adiabatic compression. If U, P, V, T represents the internal energy, pressure, volume and absolute temperature respectively for ideal gas then $\left( \gamma = \frac{C_{P}}{C_{v}} \right)$.
+A : $UV^{\gamma} =$constant
+B : ${UP}^{\gamma} =$constant
+C : ${TU}^{\gamma - 1} =$constant
+D : ${VU}^{\frac{1}{\gamma - 1}} =$constant
+ANS D
+SOL: $U\ \alpha\ T$ For adiabatic process ${TV}^{\gamma - 1} =$ constant $\therefore{UV}^{\gamma - 1} =$constant $\Rightarrow {VU}^{\frac{1}{\gamma - 1}} =$constant
+===== P-01-Q12 physics Current Electricity
+Q: A horizontal conductor is oriented north south and carries some current. A positively charged particle located vertically above it and having a velocity directed northward experiences an upward force. What is the direction of the force if this charged particle were located to the east of the conductor and had a velocity directed towards the conductor.
+A : North
+B : South
+C : Up
+D : Down
+ANS A
+SOL: 12 in first case according to Magnetic field will be towards west at position of charge particle for this current in conductor should be towards south in second case magnetic field at position of particular is upward so according to force will be towards north.
+===== P-05-Q11 physics Non uniform acceleration
+Q: The velocity of an object moving rectilinearly is given as a function of time by $v = 4t - 3t^{2}$, where v is in m/s and t is in seconds. The average velocity of particle between t=0 to t=2 seconds is
+A : 0
+B : $- 2m/s$
+C : $- 4m/s$
+D : none of these
+ANS A
+SOL: $< v > = \frac{\int_{0}^{2}  vdt}{\int_{0}^{2}  dt} = \frac{\int_{0}^{2} \left( 4t - 3t^{2} \right)dt}{2} = 0$
+===== P-08-Q1 physics Adiabatic process
+Q: A monoatomic ideal gas follows the process: $TV^3$/2 = constant The molar specific heat for this process is: (R = gas constant).
+A : $\frac{5R}{2}$
+B : $\frac{5R}{6}$
+C : $\frac{3R}{2}$
+D : R
+ANS B
+SOL: $TV^3$/2 = constant $\frac{(P \vee )V^{3/2}}{nR} =$constant ${PV}^{\frac{5}{2}} =$constant  ${PV}^{x} =$constant $x = \frac{5}{2}$ $C = C_{v} + \frac{R}{1 - x}$ For polytropic process, $C = \frac{3}{2}R + \frac{R}{1 - \frac{5}{2}} = \frac{5R}{6}$
+===== P-02-Q42 physics Waves & Oscillations
+Q: Two tuning forks are producing 6 beats/s. The frequency of first tuning fork is 256 Hz. Now, first tuning fork is loaded with wax. As a result the beat frequency becomes 4 beats/s. Now some portion of the wax is removed from first tuning fork. As a result the beat frequency becomes 0 beats/s. Then the frequency of first tuning fork after waxing (the condition when beat frequency is 4 beats/s) will be
+A : 250 Hz
+B : 262 Hz
+C : 254 Hz
+D : 246 Hz
+ANS D
+SOL: Since beat frequency is 6 Hz, therefore, frequency of second fork will be either 262 Hz or 250 Hz. Since on loading with wax beat frequency decreases, frequency of second fork should be 250 Hz. So after waxing, the frequency of first tuning fork should be either 252 or 246 Hz. Since after removing a portion of wax from first fork beat frequency becomes zero. Therefore frequency of first fork after waxing should be 246 Hz.
+===== P-06-Q4 physics Work done by variable force
+Q: A force $\overrightarrow{F} = \left( 3t\widehat{i} + 5\widehat{j} \right)N$ acts on a body due to which its position varies as $\overrightarrow{s} = \left( 2t^{2}\widehat{i} - 5\widehat{j} \right)$. Work done by this force in first two seconds is
+A : 23 J
+B : 32 J
+C : zero
+D : can't be obtained
+ANS B
+SOL: $W = \int\overline{F} \cdot d\overline{s} = \int(3t\ \widehat{i} + 5\widehat{j}).(4t\ dt\ \widehat{i})$ $= \int_{0}^{2}  12t^{2}dt = \frac{12\left\lbrack t^{3} \right\rbrack_{0}^{2}}{3} = 32\ J$
+===== P-06-Q19 physics Laws of Motion
+Q: A uniform thick rope of length 5m is kept on frictionless surface and a force of 5N is applied to one of its end. Find tension in the rope at 1 m from this end
+A : 1 N
+B : 3 N
+C : 4 N
+D : 5 N
+ANS C
+SOL: Equation of motion $$F - T = \times a\ldots.(i)$$ $$T = \times a\ldots(ii)$$ Solving (i) and (ii) T = 4 N TOPIC: Newton's second law SUB TOPIC: Tension in a rope
+===== P-06-Q10 physics Inclined plane with friction
+Q: Starting from rest, a body slides down a $45^{\circ}$ inclined plane in twice the time it takes to slide down the same distance in the absence of friction. The coefficient of friction between the body and the inclined plane is
+A : 0.33
+B : 0.25
+C : 0.75
+D : 0.80
+ANS C
+SOL: $\mu = tan\theta\left( 1 - \frac{1}{n^{2}} \right)$ $\theta = 45^{\circ}$ and $n = 2$ (Given) $\therefore\mu = tan45^{\circ}\left( 1 - \frac{1}{2^{2}} \right) = 1 - \frac{1}{4} = \frac{3}{4} = 0.75$
+===== P-13-Q8 physics Magnetic flux
+Q: Consider a circular coil of wire carrying constant current I, forming a magnetic dipole. The magnetic flux through an infinite plane that contains the circular coil and excluding the circular coil area is given by $\phi_{i}$.The magnetic flux through the area of the circular coil area is given by $\phi_{0}$. Which of the following optionis correct?
+A : $\phi > \phi_{0}$
+B : $\phi_{1} < \phi_{0}$
+C : $\phi_{i} = - \phi_{0}$
+D : $\phi_{1} = \phi_{0}$
+ANS C
+SOL: As magnetic field lines always form a closed loop, hence every magnetic field line creating magnetic flux in the inner region must be passing through the outer region. Since flux in two regions are in opposite direction, $\therefore$ $\phi_{i} = - \phi_{0}$
+===== P-05-Q12 physics Minimum separation
+Q: Initially two particles A and B are present at (0,0) and (d, 0) respectively. They start moving with speed ${\overset{\rightarrow}{v}}_{A} = v\overset{\hat{}}{i} + v\overset{\hat{}}{j}$and$V_{B} = - v\overset{\hat{}}{j}$. If R is the separation between them and $T_{0}$ be the time when separationbetween them is minimum, then
+A : $T_{0} = \frac{d}{5v}$
+B : $R_{\min} = \frac{d}{\sqrt{5}}$
+C : Graph of R vs time is straight line
+D : Graph of R vs time is Circle
+ANS A
+SOL: $V_{BA} = - v\overset{\hat{}}{i} - 2v\overset{\hat{}}{j}$ $tan\theta = 2$ at any time t $x = d - vt$ $y = - 2vt$ $\therefore R^{2} = (d - vt)^{2} + 4v^{2}t^{2}$ $R = \sqrt{5v^{2}t^{2} - 2vdt + d^{2}}$ It is neither st. line nor circle $R_{\min} = dsin\theta = \frac{2d}{\sqrt{5}}$ Distance $BC = dcos\theta$ $= \frac{d}{\sqrt{5}}$ time, $T_{0} = \frac{d}{\sqrt{5}v_{BA}}$ $T_{0} = \frac{d}{\sqrt{5} \times \sqrt{5v}};\ T_{0} = \frac{d}{5v}$
+===== P-12-Q4 physics Distribution of charge on plates
+Q: The charge that will flow to earth when only switch S1 is closed and right most plate is uncharged is
+A : $- \left( \frac{Q}{2} \right)$
+B : $\left( \frac{Q}{2} \right)$
+C : Q
+D : - Q
+ANS C
+SOL: At point D,$\overrightarrow{E}$must be zero because potential of left most plate is zero. So, x = 0 ${\overrightarrow{E}}_{A} = 0$ (Conductor) x = y + Q y = - Q
+===== P-05-Q16 physics Percentage error
+Q: A physical quantity A is related to fourobservation a, b, c and d as follows$A = \frac{a^{2}b^{3}}{c\sqrt{d}}$ The percentage errors of measurement in a, b, c and d are 1, 3, 2 and 2 respectively. Whatis the percentage error in the quantity A ?
+A : 12
+B : 7
+C : 5
+D : 14
+ANS D
+SOL: $\frac{dA}{A} = 2\frac{da}{a} + 3\frac{db}{b} + \frac{dc}{c} + \frac{1}{2}\frac{dd}{d}$ $\%\frac{dA}{A} = 2*1 + 3*3 + 1*2 + \frac{1}{2}*2 = 14\%.$
+===== P-05-Q10 physics Non uniform acceleration
+Q: A point moves in a straight line under the retardation $av^2$, where is a positive constant and v is speed. If the initial speed is u, the distance covered in seconds is
+A : $\ a\ u\ t\ $
+B : $\frac{1}{a}ln(aut)$
+C : $\frac{1}{a}ln(1 + aut)$
+D : $\ a\ In\ (aut)$
+ANS C
+SOL: The retardation is given by $\frac{dv}{dt} = - av^{2}$ integrating between proper limits $\Rightarrow - \int_{u}^{v} \frac{dv}{v^{2}} = \int_{0}^{t}  adt$or$\frac{1}{v} = at + \frac{1}{u}$ $\Rightarrow \frac{dt}{dx} = at + \frac{1}{u} \Rightarrow dx = \frac{udt}{1 + aut}$ integrating between proper limits$\Rightarrow \int_{0}^{s}  dx = \int_{0}^{t} \frac{udt}{1 + aut} \Rightarrow S = \frac{1}{a}\ ln\ (1 + \ aut\ )$
+===== P-18-Q1 physics Friction
+Q: A weight W is to be moved from the bottom to the top of an inclined plane of inclination $\theta$ to the horizontal. If a smaller force is to be applied to drag it along the plane in comparison to lift it verticallyup, the coefficient of friction should be such that
+A : $\mu > tan(\frac{\pi}{4} - \frac{\theta}{2})$
+B : $\mu < tan(\frac{\pi}{4} - \frac{\theta}{2})$
+C : $\mu < tan\theta$
+D : $\mu > tan\frac{\pi}{4}$
+ANS B
+SOL: Force applied to drag$F_{1} = Wsin\theta + \mu Wcos\theta$ Force applied to lift $F_{2} = W$ As, $F_{1} < F_{2} \Rightarrow Wsin\theta + \mu Wcos\theta < W$ $\Rightarrow \mu < \frac{1 - sin\theta}{cos\theta} = \frac{\sin^{2}\frac{\theta}{2} + \cos^{2}\frac{\theta}{2} - 2sin\frac{\theta}{2}cos\frac{\theta}{2}}{\cos^{2}\frac{\theta}{2} - \sin^{2}\frac{\theta}{2}}$ $= \frac{{(cos\frac{\theta}{2} - sin\frac{\theta}{2})}^{2}}{(\cos^{2}\frac{\theta}{2} - \sin^{2}\frac{\theta}{2})} = \frac{cos\frac{\theta}{2} - sin\frac{\theta}{2}}{cos\frac{\theta}{2} + sin\frac{\theta}{2}} = \frac{1 - tan\frac{\thet
+===== P-18-Q2 physics Tangential acceleration
+Q: Kinetic energy of a particle of mass 2 kg moving along a circle varies with time t as $K = 3t^{2}$, where t in second and K is in Joules. Then rate at which work is being done on particle at t=1 s in watt is
+A : 6
+B : 4
+C : 5
+D : 2
+ANS A
+SOL: $K = \frac{1}{2}{mv}^{2} = 3t^{2}$ $v = \sqrt{3}t$ $a_{t} = dv/dt = \sqrt{3}$ $= ma_{t}v$ $= 2.\sqrt{3} \cdot \sqrt{3} \times 1 = 6watt$
+===== P-06-Q16 physics Work energy theorem
+Q: Under the action of a force, a 2 kg body moves such that its position x as a function of time is given by $x = t^{3}/3$,where xis in meters and t is in seconds. The work done by the force in the first two seconds starting form rest is
+A : 1600 J
+B : 160 J
+C : 16 J
+D : 1.6 J
+ANS C
+SOL: $x = \frac{t^{3}}{3}$ $\frac{dx}{dt} = \frac{3t^{2}}{3}$ $V = t^{2}$ $V(2) = 4$ $V(0) = 0$ $\Rightarrow \Delta K = \frac{1}{2}m\left( 4^{2} \right) - \frac{1}{2}m\left( 0^{2} \right)$ $\Delta K = 16\ J$ From work energy theorem Work done by force = $\Delta K = 16\ J$
+===== P-08-Q2 physics Root mean square speed
+Q: Two moles of hydrogen are mixed with n moles of helium. The root mean square speed of gas molecules in the mixture is $\sqrt{2}$ times the speed of sound in the mixture. Then n is.
+A : 3
+B : 2
+C : 1.5
+D : 2.5
+ANS B
+SOL: $V_{rms} = \sqrt{\frac{3RT}{M_{mix}}}$ $V_{sound\ } = \sqrt{\frac{\gamma RT}{M_{mix}}}$ $V_{rms} = \sqrt{2}V_{sound\ }$ $\sqrt{\frac{3RT}{M_{mix}}} = \sqrt{2}\sqrt{\frac{\gamma RT}{M_{mix}}}$ $\gamma_{mix} = \frac{3}{2}$ $\gamma_{mix} = \frac{n_{1}C_{P_{1}} + n_{2}C_{P_{2}}}{n_{1}C_{v_{1}} + n_{2}C_{v_{2}}}$ $\frac{3}{2} = \frac{2 \times \frac{7R}{2} + n \times \frac{5R}{2}}{2 \times \frac{5R}{2} + n \times \frac{3R}{2}}$ $\Rightarrow \frac{3}{2} = \frac{14 + 5n}{10 + 3n}$ $\Rightarrow 30 + 9n = 28 + 10n$ $\Rightarrow n = 2$
+===== P-17-Q7 physics YDSE
+Q: In a Young's double slit experiment 15 fringes are observed on a small portion of the screen when light of wavelength 500 nm is used. Ten fringes are observed on the same section of the screen when another light source of wavelength $\lambda$ is used Then the value of $ lambda\$ is (in nm)______.
+A : 850 nm
+B : 650 nm
+C : 750 nm
+D : 550 nm
+ANS C
+SOL: $15 \times 500 \times \frac{D}{d} = 10 \times \lambda_{2} \times \frac{D}{d}$ $\lambda_{2} = 15 \times 50nm$ $\lambda_{2} = 750nm$
+===== P-07-Q9 physics Conservation of mechanical energy
+Q: A uniform metre stick is held vertically with one end on the floor and is allowed to fall. The speed of theother end when it hits the floor assuming that the end at the floor does not slip
+A : $\sqrt{4g}$
+B : $\sqrt{3g}$
+C : $\sqrt{5g}$
+D : $\sqrt{g}$
+ANS B
+SOL: using energy conservation $mg\frac{\mathcal{l}}{2} = \frac{1}{2}I\omega^{2}$ $mg\frac{\mathcal{l}}{2} = \frac{1}{2} \cdot \frac{m\mathcal{l}^{2}}{3}\omega^{2}$ $= 1m$ $\omega = \sqrt{\frac{3g}{}}$ $V_{A} = \omega = \sqrt{3g} = (\sqrt{3g})$
+===== P-22-Q19 physics Uniform accelerated motion
+Q: Consider a particle initially moving with a velocity 7 m/s starts decelerating at a constant rate of$2m/s^{2}$. The distance travelled in the fourth second is$\frac{x}{10}m$. Find the value of x.
+A : 5
+B : 6
+C : 7
+D : 8
+ANS A
+SOL: Here particle is decelerating so velocity of particle becomes after t=3.5 sec. the particle has a turning point at t=3.5 sec. $0 = 7 - 2t$ $t = 3.5\sec$ $y_{2} = 7 \times 3.5 - \frac{1}{2} \times 2 \times (3.5)^{2} = \frac{49}{4}m$ $y_{2} - x_{1} = \frac{49}{4} - 12 = \frac{1}{4}m$. Due to symmetry displacement of the particle at t=3 and t=4sec. is same. so total distance traveled in the fourth sec is$= \frac{1}{4} + \frac{1}{4} = \frac{1}{2}m$
+===== P-24-Q9 physics Buoyancy
+Q: A leak proof cylinder of length 1 m, made of a metal which has very low coefficient of expansion is floating vertically in water at 0°C such that its height above the water surface is 20 cm. When the temperature of water is increased to 4°C, the height of the cylinder above the water surface becomes 21 cm. The density of water at T = 4°C, relative to the density at T = 0°C is close to
+A : 1.03
+B : 1.04
+C : 1.26
+D : 1.01
+ANS D
+SOL: $mg = A(79)\rho_{4^{\circ}C}g$ $\frac{\rho_{4^{\circ}C}}{\rho_{0^{\circ}C}} = \frac{80}{79} = 1.01$
+===== P-24-Q10 physics Equation of continuity
+Q: An ideal fluid flows (laminar flow) through a pipe of non-uniform diameter. The maximum and minimum diameters of the pipes are 6.4 cm and 4.8 cm, respectively. The ratio of the minimum and the maximum velocities of fluid in this pipe is
+A : $\frac{9}{16}$
+B : $\frac{\sqrt{3}}{2}$
+C : $\frac{81}{256}$
+D : $\frac{8}{4}$
+ANS A
+SOL: Using equation of continuity $\frac{V_{1}}{V_{2}} = \frac{A_{2}}{A_{2}} = \left( \frac{4.8}{6.4} \right)^{2} = \frac{9}{16}$
