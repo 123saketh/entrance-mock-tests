@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
-import { marksFor, outcome, type Outcome } from '../lib/scoring';
-import { SUBJECTS, SUBJECT_NAMES, type ExamState, type SubjectId } from '../types';
+import { marksFor, outcome, subjectsInOrder, type Outcome } from '../lib/scoring';
+import { SUBJECT_NAMES, type ExamState, type SubjectId } from '../types';
 import { fmtTime } from './Results';
 import Figure, { optionsAreFigures } from './Figure';
 import PyqBadge from './PyqBadge';
@@ -41,7 +41,7 @@ export default function ReviewList({ exam, initialFilter, onBack, onPdf }: Props
     if (filter === 'flagged') return item.flagged;
     return outcome(item) === filter;
   });
-  const subjectsPresent = SUBJECTS.filter((s) => exam.items.some((i) => i.question.subject === s));
+  const subjectsPresent = subjectsInOrder(exam.items);
 
   return (
     <div className="space-y-4">

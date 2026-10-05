@@ -50,7 +50,7 @@ export const TS_EAMCET: ExamPattern = {
   id: 'ts-eamcet',
   name: 'TS EAMCET',
   fullName: 'TG EAPCET (Engineering)',
-  status: 'coming-soon',
+  status: 'ready',
   durationMin: 180,
   marking: { correct: 1, wrong: 0, skipped: 0 },
   sections: [
@@ -70,7 +70,7 @@ export const AP_EAMCET: ExamPattern = {
   id: 'ap-eamcet',
   name: 'AP EAMCET',
   fullName: 'AP EAPCET (Engineering)',
-  status: 'coming-soon',
+  status: 'ready',
   durationMin: 180,
   marking: { correct: 1, wrong: 0, skipped: 0 },
   sections: [

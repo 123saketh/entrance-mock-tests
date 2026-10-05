@@ -2,3 +2,6 @@ node_modules/
 dist/
 .vite/
 *.local
+
+# Agent working files: raw downloads, scratch scripts, source PDFs (kept locally only)
+.harvest/

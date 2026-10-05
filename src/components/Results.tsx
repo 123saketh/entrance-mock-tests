@@ -46,7 +46,7 @@ export default function Results({ exam, result, onReview, onPdf, onRestart }: Pr
           <Stat label="Questions" value={o.total} />
           <Stat label="Answered" value={o.attempted} />
           <Stat label="Correct" value={o.correct} tone="good" sub={`+${o.positive} marks`} onClick={() => onReview('correct')} />
-          <Stat label="Incorrect" value={o.incorrect} tone="bad" sub={`−${o.negative} marks`} onClick={() => onReview('incorrect')} />
+          <Stat label="Incorrect" value={o.incorrect} tone="bad" sub={m.wrong === 0 ? 'no negative marking' : `−${o.negative} marks`} onClick={() => onReview('incorrect')} />
           <Stat label="Skipped" value={o.skipped} tone="muted" sub="0 marks" onClick={() => onReview('skipped')} />
           <Stat label="Accuracy" value={`${o.accuracy}%`} sub="of answered" />
         </div>

@@ -1,4 +1,5 @@
-import { SUBJECTS, SUBJECT_SHORT, type ExamItem, type SubjectId } from '../types';
+import { subjectsInOrder } from '../lib/scoring';
+import { SUBJECT_SHORT, type ExamItem, type SubjectId } from '../types';
 
 interface Props {
   items: ExamItem[];
@@ -18,7 +19,7 @@ function cellClass(item: ExamItem, current: boolean): string {
 
 export default function Navigator({ items, currentIndex, lockedBefore, onJump }: Props) {
   const groups: { label: string; subject: SubjectId | 'bonus'; indices: number[] }[] = [];
-  for (const s of SUBJECTS) {
+  for (const s of subjectsInOrder(items.filter((i) => !i.bonus))) {
     const indices = items.flatMap((it, i) => (!it.bonus && it.question.subject === s ? [i] : []));
     if (indices.length) groups.push({ label: SUBJECT_SHORT[s], subject: s, indices });
   }

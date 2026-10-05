@@ -7,6 +7,11 @@ import {
   type Tally,
 } from '../types';
 
+/** Subjects in the order they appear in the paper (BITSAT: P, C, E, LR, M; EAMCET: M, P, C). */
+export function subjectsInOrder(items: ExamItem[]): (typeof SUBJECTS)[number][] {
+  return [...new Set(items.map((i) => i.question.subject))];
+}
+
 export type Outcome = 'correct' | 'incorrect' | 'skipped';
 
 export function outcome(item: ExamItem): Outcome {
@@ -55,7 +60,7 @@ export function scoreExam(exam: ExamState): ExamResult {
   const mainItems = exam.items.filter((i) => !i.bonus);
   const bonusItems = exam.items.filter((i) => i.bonus);
 
-  const sections = SUBJECTS.map((subject) => ({
+  const sections = subjectsInOrder(exam.items).map((subject) => ({
     subject,
     ...tally(
       exam.items.filter((i) => i.question.subject === subject),

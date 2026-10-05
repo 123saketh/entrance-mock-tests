@@ -5,8 +5,8 @@ Offline mock-test site for Indian engineering entrance exams. Pick an exam from 
 | Exam | Pattern | Marking | Status |
 |---|---|---|---|
 | **BITSAT** | 130 Qs, 180 min: Physics 30, Chemistry 30, English 10, LR 20, Maths 40, plus a 12-question bonus round | +3 / −1 / 0 | Ready |
-| **TS EAMCET** (TG EAPCET) | 160 Qs, 180 min: Maths 80, Physics 40, Chemistry 40 | +1 / 0 / 0 | Coming soon |
-| **AP EAMCET** (AP EAPCET) | 160 Qs, 180 min: Maths 80, Physics 40, Chemistry 40 | +1 / 0 / 0 | Coming soon |
+| **TS EAMCET** (TG EAPCET) | 160 Qs, 180 min: Maths 80, Physics 40, Chemistry 40 | +1 / 0 / 0 | Ready |
+| **AP EAMCET** (AP EAPCET) | 160 Qs, 180 min: Maths 80, Physics 40, Chemistry 40 | +1 / 0 / 0 | Ready |
 
 The BITSAT pattern follows the official BITSAT-2026 brochure. Answer all 130 questions and you can opt into 12 bonus questions (3 each from Physics, Chemistry, Maths and LR). Once you opt in, the 130 answers are locked.
 
