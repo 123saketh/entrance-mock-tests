@@ -329,6 +329,7 @@ export default function App() {
       <Shell nav={<SideNav current={examId} onSelect={switchExam} />}>
         {warning && <Banner>{warning}</Banner>}
         <StartScreen
+          key={examId}
           pattern={pattern}
           counts={counts}
           history={history}
