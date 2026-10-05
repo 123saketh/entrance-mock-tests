@@ -32,3 +32,8 @@ Write the JSON with python (json.dump(..., ensure_ascii=False)) to avoid escapin
 to check it parses. Every input item must appear in exactly one of the two files.
 Work steadily; correctness beats speed. Do not use any website. Do not edit any other files.
 Final message: counts kept/dropped and list of key disagreements.
+
+IMPORTANT (resumability): save progress incrementally. Keep your builder script in your temp folder and
+re-run it to (re)write the output + drops files after every ~8 questions, so partial work survives an
+interruption. If the output file already exists when you start, load it and continue from the first
+unprocessed item instead of redoing work.
