@@ -10,6 +10,7 @@ and record the official (preliminary) key from the tick icon.
 usage: python scripts/pyq/extract_ap.py <pdf> <outdir>
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -25,6 +26,13 @@ def pix_to_pil(doc, xref):
     if pix.alpha or pix.n > 3:
         pix = fitz.Pixmap(fitz.csRGB, pix)
     return Image.open(io.BytesIO(pix.tobytes("png"))).convert("RGB")
+
+
+def decode(txt):
+    """Some 2025 papers use a CID font whose text extracts as glyph ids (with NULs) offset by 29."""
+    if chr(0) not in txt:
+        return txt
+    return "".join(c if c == chr(10) else chr(ord(c) + 29) for c in txt.replace(chr(0), ""))
 
 
 def classify_icons(doc, xrefs):
@@ -49,11 +57,11 @@ def main(pdf, outdir):
     for pno in range(doc.page_count):
         page = doc[pno]
         for b in page.get_text("blocks"):
-            txt = b[4]
+            txt = decode(b[4])
             y = b[1]
-            if "Question Number :" in txt:
-                n = int(txt.split("Question Number :")[1].split()[0])
-                events.append((pno, y, "q", n))
+            mq = re.search(r"Question Number :\s*(\d+)", txt)
+            if mq:
+                events.append((pno, y, "q", int(mq.group(1))))
             elif "Options :" in txt:
                 events.append((pno, y, "opts", None))
             else:

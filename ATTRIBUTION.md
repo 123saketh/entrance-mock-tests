@@ -56,19 +56,21 @@ Files: `public/data/questions/pyq-ap-eamcet.json` (tagged `ap-eamcet`) and `pyq-
 Licence: official exam-authority releases, used for personal practice. Each question links to its source PDF.
 Method: `scripts/pyq/extract_ap.py` reads each official TCS-iON master paper. Stems and options are images, and the key is the green tick icon. The script builds one image per question. The English text was transcribed into LaTeX, then every question was re-solved independently. Questions were dropped when they needed a figure, could not be read, were ill-posed, or the re-solved answer disagreed with the official key. The drop log is in `.harvest/pyq/drop_log.json`. To rebuild, run `python scripts/pyq/build_pyq.py`.
 
-### AP EAPCET 2026 Engineering, APSCHE/JNTUK master papers with **preliminary** keys (no final keys were published on the site)
+### AP EAPCET 2026 Engineering, APSCHE/JNTUK master papers with **preliminary** keys (no final keys published)
 | Shift | URL | Status |
 |---|---|---|
-| 12 May Shift 1 | https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_12TH_MAY2026_SHIFT_1.pdf | used (all subjects) |
-| 12 May Shift 2 | https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_12TH_MAY2026_SHIFT_2.pdf | used (all subjects) |
-| 13 May Shift 1 | https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_13TH_MAY2026_SHIFT_1.pdf | physics + chemistry used; maths not yet transcribed |
-| 13 May Shift 2 | https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_13TH_MAY2026_SHIFT_2.pdf | used (all sections) |
-| 14 May S1/S2, 15 May S1/S2, 18 May S1/S2 | https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_{14,15,18}TH_MAY2026_SHIFT_{1,2}.pdf | downloaded and extracted (`.harvest/pyq/ap`); not yet transcribed, because of the time and usage budget |
+| 12 May S1, 12 May S2, 13 May S1, 13 May S2, 14 May S1 | https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_{12,13}TH_MAY2026_SHIFT_{1,2}.pdf, QPK_14TH_MAY2026_SHIFT_1.pdf | used (all sections) |
+| 14 May S2, 15 May S1/S2, 18 May S1/S2 | https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_{14,15,18}TH_MAY2026_SHIFT_{1,2}.pdf | extracted, queued |
+
+### AP EAPCET 2024 / 2025 Engineering: Wayback Machine copies of the official cets.apsche.ap.gov.in PDFs (registered in `.harvest/pyq/papers.json`)
+- 2024 (the exam-papers page said "Preliminary Keys"): 18 May S1, 19 May S2, 20 May S1/S2, 21 May S1/S2, 22 May S1/S2, 23 May S1. All 9 are extracted (160 questions each) and queued.
+- 2025 (the archive has no copy of the 2025 page, so the key status is unknown; labelled "official (preliminary/final not stated)"): 23 May S2, 24 May S1, 26 May S1/S2, 27 May S1 are complete. 21 May S1/S2 and 22 May S1/S2 are archived copies truncated at 5 MB, so only Q1 to about Q100-120 are usable. All are extracted and queued.
+- Not usable: 2025 23 May S1 and 2025 19/20 May (truncated captures; 19/20 May are Agriculture anyway), and the 2024 16/17 May papers (Agriculture & Pharmacy).
 
 ### Skipped or blocked
 | Source | Reason |
 |---|---|
 | TS (TG) EAPCET, all years | `eapcet.tsche.ac.in` no longer resolves (NXDOMAIN). The new site `eapcet.tgche.ac.in` only serves the 2026 "Master Question Paper With Final Key" after a candidate logs in with hall ticket number, registration number and date of birth. No older papers are linked, and the Wayback Machine has no PDFs from either host. **No TS questions were imported.** |
-| AP EAPCET 2024/2025 (`QPK_16TH_MAY_SHIFT_1.pdf` ... `QPK_27th_MAY_SHIFT_1.pdf`, `QPK_S1..S13.pdf`) | These now return 401 on the live site. Wayback copies of the official PDFs exist (the CDX listing is in `.harvest/pyq`) but have not been processed yet. |
+| AP EAPCET 2023 (`QPK_S1..S13.pdf`) | Not examined yet (Wayback copies exist). |
 | Coaching or aggregator compilations | Not used, per policy. |
 | Open datasets (GitHub/HF) | None found with EAMCET/EAPCET questions under an open licence. |

@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "eng-b-0001",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "stem": "Identify the part of the sentence that contains an error. If there is no error, choose 'No error'.\n\n(A) Each of the players were / (B) given a new jersey / (C) before the final. / (D) No error",
+    "options": [
+      {
+        "key": "A",
+        "text": "Each of the players were"
+      },
+      {
+        "key": "B",
+        "text": "given a new jersey"
+      },
+      {
+        "key": "C",
+        "text": "before the final"
+      },
+      {
+        "key": "D",
+        "text": "No error"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'Each of' + plural noun takes a singular verb, so it should be 'Each of the players was'. Part B is correct as the passive participle 'given', and part C is a correct time phrase. Since part A has an agreement error, 'No error' is wrong.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0002",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "stem": "Identify the part of the sentence that contains an error. If there is no error, choose 'No error'.\n\n(A) The furniture in these rooms / (B) are made of teak / (C) imported from Myanmar. / (D) No error",
+    "options": [
+      {
+        "key": "A",
+        "text": "The furniture in these rooms"
+      },
+      {
+        "key": "B",
+        "text": "are made of teak"
+      },
+      {
+        "key": "C",
+        "text": "imported from Myanmar"
+      },
+      {
+        "key": "D",
+        "text": "No error"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'Furniture' is an uncountable noun and takes a singular verb: 'is made of teak'. The plural 'rooms' in part A is only the object of the preposition 'in' and does not control the verb. Part C correctly describes the teak. Hence part B contains the error.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0003",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Identify the part of the sentence that contains an error. If there is no error, choose 'No error'.\n\n(A) If I would have known about the strike, / (B) I would have left / (C) home much earlier. / (D) No error",
+    "options": [
+      {
+        "key": "A",
+        "text": "If I would have known about the strike,"
+      },
+      {
+        "key": "B",
+        "text": "I would have left"
+      },
+      {
+        "key": "C",
+        "text": "home much earlier"
+      },
+      {
+        "key": "D",
+        "text": "No error"
+      }
+    ],
+    "answer": "A",
+    "explanation": "In a third conditional (unreal past), the if-clause takes the past perfect: 'If I had known about the strike'. 'Would have' belongs only in the main clause, so part B ('I would have left') is correct. Part C has no error. Therefore part A is wrong.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0004",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "stem": "Identify the part of the sentence that contains an error. If there is no error, choose 'No error'.\n\n(A) Not only the students / (B) but also the principal / (C) were present at the function. / (D) No error",
+    "options": [
+      {
+        "key": "A",
+        "text": "Not only the students"
+      },
+      {
+        "key": "B",
+        "text": "but also the principal"
+      },
+      {
+        "key": "C",
+        "text": "were present at the function"
+      },
+      {
+        "key": "D",
+        "text": "No error"
+      }
+    ],
+    "answer": "C",
+    "explanation": "With 'not only ... but also', the verb agrees with the nearer subject. The nearer subject is 'the principal' (singular), so the verb should be 'was present'. Parts A and B are correctly paired correlatives. A common trap is to treat the two subjects as a combined plural, as with 'and'.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0005",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Identify the part of the sentence that contains an error. If there is no error, choose 'No error'.\n\n(A) He is senior than me / (B) by three years / (C) in the service. / (D) No error",
+    "options": [
+      {
+        "key": "A",
+        "text": "He is senior than me"
+      },
+      {
+        "key": "B",
+        "text": "by three years"
+      },
+      {
+        "key": "C",
+        "text": "in the service"
+      },
+      {
+        "key": "D",
+        "text": "No error"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Latin comparatives such as senior, junior, superior, inferior and prior are followed by 'to', not 'than'. The correct form is 'He is senior to me'. Part B correctly states the difference with 'by', and part C is fine. So the error lies in part A.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0006",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "stem": "Identify the part of the sentence that contains an error. If there is no error, choose 'No error'.\n\n(A) The jury were divided / (B) in their opinions / (C) about the verdict. / (D) No error",
+    "options": [
+      {
+        "key": "A",
+        "text": "The jury were divided"
+      },
+      {
+        "key": "B",
+        "text": "in their opinions"
+      },
+      {
+        "key": "C",
+        "text": "about the verdict"
+      },
+      {
+        "key": "D",
+        "text": "No error"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A collective noun takes a plural verb and plural pronoun when the members act as individuals. Here the jurors hold different opinions, so 'were divided' and 'their opinions' are correct, and they agree with each other. 'About the verdict' is idiomatic. Students often wrongly 'correct' it to 'was', but the sentence has no error.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0007",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Identify the part of the sentence that contains an error. If there is no error, choose 'No error'.\n\n(A) She did not / (B) attend the meeting / (C) because she has fallen ill the day before. / (D) No error",
+    "options": [
+      {
+        "key": "A",
+        "text": "She did not"
+      },
+      {
+        "key": "B",
+        "text": "attend the meeting"
+      },
+      {
+        "key": "C",
+        "text": "because she has fallen ill the day before"
+      },
+      {
+        "key": "D",
+        "text": "No error"
+      }
+    ],
+    "answer": "C",
+    "explanation": "An action completed before another past action ('did not attend') needs the past perfect: 'because she had fallen ill the day before'. The present perfect cannot be used with a definite past time such as 'the day before'. Parts A and B ('did not attend') are correct.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0008",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Identify the part of the sentence that contains an error. If there is no error, choose 'No error'.\n\n(A) Ten kilometres / (B) is a long distance / (C) to walk in this heat. / (D) No error",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ten kilometres"
+      },
+      {
+        "key": "B",
+        "text": "is a long distance"
+      },
+      {
+        "key": "C",
+        "text": "to walk in this heat"
+      },
+      {
+        "key": "D",
+        "text": "No error"
+      }
+    ],
+    "answer": "D",
+    "explanation": "When a plural amount of distance, time or money is thought of as a single quantity, it takes a singular verb. 'Ten kilometres' is one distance here, so 'is' is correct. Changing it to 'are' is the common trap. Part C is idiomatic, so the sentence has no error.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0009",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "stem": "Fill in the blank with the correct article.\n\nHe is ______ honest man, and everyone in the village trusts him.",
+    "options": [
+      {
+        "key": "A",
+        "text": "an"
+      },
+      {
+        "key": "B",
+        "text": "no article needed"
+      },
+      {
+        "key": "C",
+        "text": "the"
+      },
+      {
+        "key": "D",
+        "text": "a"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'Honest' begins with a silent 'h', so it starts with a vowel sound and takes 'an'. 'A' is used before consonant sounds. 'The' would point to a particular man already known, which the sentence does not do, and a singular countable noun like 'man' cannot stand without an article.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0010",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Fill in the blank with the most appropriate determiner.\n\n______ of the two roads leads to the fort, so you may take whichever you like.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Every"
+      },
+      {
+        "key": "B",
+        "text": "Both"
+      },
+      {
+        "key": "C",
+        "text": "Each"
+      },
+      {
+        "key": "D",
+        "text": "All"
+      }
+    ],
+    "answer": "C",
+    "explanation": "'Each of the two' refers to the two roads one at a time and matches the singular verb 'leads'. 'Both' would need the plural verb 'lead'. 'All' is used for more than two, and 'every' cannot be followed directly by 'of'.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0011",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "stem": "Fill in the blank with the correct preposition.\n\nThe train is due to arrive ______ 6:45 p.m.",
+    "options": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "in"
+      },
+      {
+        "key": "C",
+        "text": "for"
+      },
+      {
+        "key": "D",
+        "text": "at"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'At' is used before a precise clock time. 'On' is used with days and dates, 'in' with months, years and parts of the day, and 'due to arrive for 6:45' is not idiomatic.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0012",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Fill in the blank with the correct preposition.\n\nShe has been suffering ______ fever since Monday.",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "from"
+      },
+      {
+        "key": "C",
+        "text": "by"
+      },
+      {
+        "key": "D",
+        "text": "of"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The fixed combination is 'suffer from' an illness. 'For' would express duration ('suffering for three days'), not the cause. 'Suffering of fever' and 'suffering by fever' are not standard usage.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0013",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Fill in the blanks with the correct prepositions.\n\nHe was accused ______ theft, but the court later acquitted him ______ the charge.",
+    "options": [
+      {
+        "key": "A",
+        "text": "of, from"
+      },
+      {
+        "key": "B",
+        "text": "for, from"
+      },
+      {
+        "key": "C",
+        "text": "of, of"
+      },
+      {
+        "key": "D",
+        "text": "with, of"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Both verbs take 'of': one is 'accused of' a crime and 'acquitted of' a charge. 'Accused for' and 'accused with' are wrong. 'Acquitted from' is a common error that comes from mixing it up with 'released from'.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0014",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "stem": "Fill in the blank with the appropriate modal.\n\nWhen I was young, I ______ swim across the river without getting tired.",
+    "options": [
+      {
+        "key": "A",
+        "text": "can"
+      },
+      {
+        "key": "B",
+        "text": "must"
+      },
+      {
+        "key": "C",
+        "text": "could"
+      },
+      {
+        "key": "D",
+        "text": "may"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Ability in the past is expressed by 'could'. 'Can' is present tense and does not fit 'When I was young'. 'May' expresses permission or possibility, and 'must' expresses obligation or deduction, neither of which fits the meaning.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0015",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Fill in the blank with the appropriate modal.\n\nThe ground is wet everywhere; it ______ have rained last night.",
+    "options": [
+      {
+        "key": "A",
+        "text": "should"
+      },
+      {
+        "key": "B",
+        "text": "ought"
+      },
+      {
+        "key": "C",
+        "text": "would"
+      },
+      {
+        "key": "D",
+        "text": "must"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'Must have + past participle' expresses a confident deduction about the past from present evidence (the wet ground). 'Should have rained' expresses an expectation that may not have come true. 'Ought' needs 'to' ('ought to have'), and 'would have rained' needs a condition.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0016",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "stem": "Fill in the blank with the appropriate modal.\n\nYou ______ have bought the tickets in advance; the hall was half empty when we arrived.",
+    "options": [
+      {
+        "key": "A",
+        "text": "wouldn't"
+      },
+      {
+        "key": "B",
+        "text": "couldn't"
+      },
+      {
+        "key": "C",
+        "text": "mustn't"
+      },
+      {
+        "key": "D",
+        "text": "needn't"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'Needn't have + past participle' means something was done but turned out to be unnecessary, which fits a half-empty hall. 'Mustn't have' is not used for past necessity. 'Couldn't have' means it was impossible, and 'wouldn't have' needs a condition. Neither fits the context.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0017",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Choose the option with the adjectives in the correct order.\n\nShe bought a ______ table for the dining room.",
+    "options": [
+      {
+        "key": "A",
+        "text": "round beautiful old wooden"
+      },
+      {
+        "key": "B",
+        "text": "beautiful old round wooden"
+      },
+      {
+        "key": "C",
+        "text": "wooden old round beautiful"
+      },
+      {
+        "key": "D",
+        "text": "old beautiful wooden round"
+      }
+    ],
+    "answer": "B",
+    "explanation": "English adjectives normally follow the order opinion, size, age, shape, colour, origin, material, then purpose. That gives beautiful (opinion), old (age), round (shape), wooden (material). The other options put age before opinion, shape before opinion, or material first, and all of these sound unnatural.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0018",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "stem": "Fill in the blank with the correct relative pronoun.\n\nThe boy ______ I met at the station turned out to be my cousin's classmate.",
+    "options": [
+      {
+        "key": "A",
+        "text": "whose"
+      },
+      {
+        "key": "B",
+        "text": "what"
+      },
+      {
+        "key": "C",
+        "text": "which"
+      },
+      {
+        "key": "D",
+        "text": "whom"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The pronoun refers to a person ('the boy') and is the object of 'met', so 'whom' is correct. 'Which' is used for things, and 'whose' shows possession, which needs a noun after it. 'What' cannot introduce a relative clause after a noun.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0019",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "stem": "The speaker has only one brother. Choose the correctly written sentence.",
+    "options": [
+      {
+        "key": "A",
+        "text": "My brother, that lives in Pune, is a doctor."
+      },
+      {
+        "key": "B",
+        "text": "My brother, who lives in Pune, is a doctor."
+      },
+      {
+        "key": "C",
+        "text": "My brother, which lives in Pune, is a doctor."
+      },
+      {
+        "key": "D",
+        "text": "My brother who lives in Pune, is a doctor."
+      }
+    ],
+    "answer": "B",
+    "explanation": "With only one brother, the clause just adds information, so it is non-defining. It must be enclosed in commas and introduced by 'who'. A single comma splits subject from verb. 'That' cannot introduce a non-defining clause, and 'which' cannot refer to a person.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0020",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Combine the sentences using a relative clause.\n\nI met a man. His car had broken down on the highway.",
+    "options": [
+      {
+        "key": "A",
+        "text": "I met a man whom car had broken down on the highway."
+      },
+      {
+        "key": "B",
+        "text": "I met a man who's car had broken down on the highway."
+      },
+      {
+        "key": "C",
+        "text": "I met a man whose car had broken down on the highway."
+      },
+      {
+        "key": "D",
+        "text": "I met a man which car had broken down on the highway."
+      }
+    ],
+    "answer": "C",
+    "explanation": "'His car' shows possession, so the possessive relative 'whose' replaces 'his'. 'Who's' is a contraction of 'who is' or 'who has', and it is a homophone trap. 'Whom' is an object pronoun and cannot come before a noun this way, and 'which' does not refer to people.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0021",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "stem": "Fill in the blank with the correct verb.\n\nBread and butter ______ his usual breakfast.",
+    "options": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "have been"
+      },
+      {
+        "key": "D",
+        "text": "were"
+      }
+    ],
+    "answer": "A",
+    "explanation": "When two nouns joined by 'and' name a single idea or dish, they take a singular verb. 'Bread and butter' is one breakfast item, so 'is' is correct. 'Are' and 'were' treat it as two separate things, and 'have been' is both plural and in the wrong tense for a usual habit.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0022",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "stem": "Choose the correct form of the verb.\n\nWater ______ at 100 degrees Celsius at sea level.",
+    "options": [
+      {
+        "key": "A",
+        "text": "boiled"
+      },
+      {
+        "key": "B",
+        "text": "boils"
+      },
+      {
+        "key": "C",
+        "text": "has boiled"
+      },
+      {
+        "key": "D",
+        "text": "is boiling"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Universal truths and scientific facts are expressed in the simple present: 'Water boils'. 'Is boiling' describes something happening now, 'boiled' places the fact in the past, and 'has boiled' describes a completed event. None of these expresses a general truth.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0023",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Choose the correct form of the verb.\n\nI ______ for the bus for forty minutes when it finally arrived.",
+    "options": [
+      {
+        "key": "A",
+        "text": "am waiting"
+      },
+      {
+        "key": "B",
+        "text": "was waiting"
+      },
+      {
+        "key": "C",
+        "text": "had been waiting"
+      },
+      {
+        "key": "D",
+        "text": "have been waiting"
+      }
+    ],
+    "answer": "C",
+    "explanation": "An action that continued for a period up to a point in the past ('when it finally arrived') takes the past perfect continuous with a duration: 'had been waiting for forty minutes'. 'Have been waiting' connects to the present, not the past. 'Was waiting' does not fit the duration phrase, and 'am waiting' is present.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0024",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "stem": "Choose the correct form of the verb.\n\nBy next June, she ______ in this company for ten years.",
+    "options": [
+      {
+        "key": "A",
+        "text": "will be working"
+      },
+      {
+        "key": "B",
+        "text": "will have been working"
+      },
+      {
+        "key": "C",
+        "text": "has been working"
+      },
+      {
+        "key": "D",
+        "text": "would work"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'By next June' plus a duration ('for ten years') calls for the future perfect continuous, which describes an action continuing up to a point in the future. 'Will be working' does not express the completed duration. 'Would work' is conditional, and 'has been working' is anchored in the present.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0025",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Choose the correct form of the verb.\n\nThe match will begin as soon as the chief guest ______.",
+    "options": [
+      {
+        "key": "A",
+        "text": "will arrive"
+      },
+      {
+        "key": "B",
+        "text": "would arrive"
+      },
+      {
+        "key": "C",
+        "text": "arrives"
+      },
+      {
+        "key": "D",
+        "text": "arrived"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In time clauses introduced by 'as soon as', 'when', 'before' or 'until', English uses the simple present to refer to the future. 'Will arrive' is the common error of repeating 'will' in the time clause. 'Arrived' and 'would arrive' do not match the future main clause.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0026",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Choose the sentence that shows correct parallel construction.",
+    "options": [
+      {
+        "key": "A",
+        "text": "The course teaches students how to write reports, deliver presentations and manage projects."
+      },
+      {
+        "key": "B",
+        "text": "The course teaches students writing reports, to deliver presentations and manage projects."
+      },
+      {
+        "key": "C",
+        "text": "The course teaches students how to write reports, delivering presentations and the management of projects."
+      },
+      {
+        "key": "D",
+        "text": "The course teaches students how to write reports, deliver presentations and project management."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Items in a series should have the same grammatical form. The correct sentence uses three base verbs after 'how to': write, deliver, manage. The other options mix an infinitive with a gerund and a noun phrase, a gerund with infinitives, or two verbs with a noun.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0027",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "stem": "Choose the sentence in which 'not only ... but also' is correctly placed.",
+    "options": [
+      {
+        "key": "A",
+        "text": "She not only plays the violin but the piano also."
+      },
+      {
+        "key": "B",
+        "text": "She plays not only the violin but also the piano."
+      },
+      {
+        "key": "C",
+        "text": "She not only plays the violin but also the piano."
+      },
+      {
+        "key": "D",
+        "text": "Not only she plays the violin but also the piano."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correlatives must come right before parallel elements. Here both are objects of 'plays' (the violin, the piano), so 'not only' comes after the verb. Putting 'not only' before 'plays' pairs a verb with a noun. Starting with 'Not only' needs inversion ('Not only does she play'), and 'but ... also' is split awkwardly.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0028",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "stem": "Choose the correct passive form.\n\nThe chef is preparing a special dish.",
+    "options": [
+      {
+        "key": "A",
+        "text": "A special dish is prepared by the chef."
+      },
+      {
+        "key": "B",
+        "text": "A special dish was being prepared by the chef."
+      },
+      {
+        "key": "C",
+        "text": "A special dish has been prepared by the chef."
+      },
+      {
+        "key": "D",
+        "text": "A special dish is being prepared by the chef."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The present continuous active ('is preparing') becomes 'is being + past participle' in the passive. 'Is prepared' is simple present. 'Has been prepared' is present perfect, and 'was being prepared' shifts to the past, so each changes the tense.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0029",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Choose the correct passive form.\n\nLet him open the window.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Let the window is opened by him."
+      },
+      {
+        "key": "B",
+        "text": "The window should be opened by him."
+      },
+      {
+        "key": "C",
+        "text": "The window is let to be opened by him."
+      },
+      {
+        "key": "D",
+        "text": "Let the window be opened by him."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Imperatives with 'let' become 'Let + object + be + past participle'. So 'Let the window be opened by him' is correct. 'Should be opened' changes the meaning from permission or suggestion to obligation. 'Let ... is opened' is ungrammatical, and 'is let to be opened' is not English.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0030",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "stem": "Choose the correct passive transformation.\n\nPeople believe that the temple was built in the tenth century.",
+    "options": [
+      {
+        "key": "A",
+        "text": "The temple was believed to have been built in the tenth century."
+      },
+      {
+        "key": "B",
+        "text": "It was believed that the temple was built in the tenth century."
+      },
+      {
+        "key": "C",
+        "text": "The temple is believed to be built in the tenth century."
+      },
+      {
+        "key": "D",
+        "text": "The temple is believed to have been built in the tenth century."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The belief is present ('believe'), so the main verb is 'is believed'. The building happened earlier, so it takes the perfect infinitive 'to have been built'. 'To be built' loses the earlier time. The other two options wrongly move the belief into the past.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0031",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Choose the sentence that has the same meaning as the one given.\n\nNo other metal is as useful as iron.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Iron is more useful than any metal."
+      },
+      {
+        "key": "B",
+        "text": "Iron is more useful than all metal."
+      },
+      {
+        "key": "C",
+        "text": "Iron is more useful than any other metal."
+      },
+      {
+        "key": "D",
+        "text": "Iron is the more useful of all metals."
+      }
+    ],
+    "answer": "C",
+    "explanation": "When the positive degree becomes the comparative, iron must be compared with 'any other metal'. Leaving out 'other' ('than any metal') illogically compares iron with itself. 'Than all metal' is unidiomatic, and 'the more useful of' is used only when comparing two things.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0032",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Choose the correct indirect speech.\n\nHe said to me, \"Where are you going?\"",
+    "options": [
+      {
+        "key": "A",
+        "text": "He told me where I was going."
+      },
+      {
+        "key": "B",
+        "text": "He asked me where I was going."
+      },
+      {
+        "key": "C",
+        "text": "He asked me where was I going."
+      },
+      {
+        "key": "D",
+        "text": "He asked me where I am going."
+      }
+    ],
+    "answer": "B",
+    "explanation": "In reported questions, 'said to' becomes 'asked'. The word order becomes that of a statement (subject before verb), and the tense shifts back: 'are going' becomes 'was going'. Keeping question order ('was I going') is wrong. 'Told' does not report a question, and 'am going' fails to shift the tense.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0033",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Choose the sentence that correctly transforms the following.\n\nAs soon as the bell rang, the students rushed out of the classroom.",
+    "options": [
+      {
+        "key": "A",
+        "text": "No sooner had the bell rang than the students rushed out of the classroom."
+      },
+      {
+        "key": "B",
+        "text": "No sooner did the bell ring when the students rushed out of the classroom."
+      },
+      {
+        "key": "C",
+        "text": "Hardly had the bell rung than the students rushed out of the classroom."
+      },
+      {
+        "key": "D",
+        "text": "No sooner had the bell rung than the students rushed out of the classroom."
+      }
+    ],
+    "answer": "D",
+    "explanation": "'No sooner' is followed by inversion with the past perfect ('had the bell rung') and paired with 'than'. 'No sooner ... when' is the wrong pairing. 'Had ... rang' uses the simple past form instead of the past participle. 'Hardly' pairs with 'when', not 'than'.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0034",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "stem": "Choose the correct question tag.\n\nLet's go for a walk, ______?",
+    "options": [
+      {
+        "key": "A",
+        "text": "shall we"
+      },
+      {
+        "key": "B",
+        "text": "will we"
+      },
+      {
+        "key": "C",
+        "text": "don't we"
+      },
+      {
+        "key": "D",
+        "text": "shan't we"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A suggestion beginning with 'Let's' (let us) always takes the tag 'shall we?'. 'Will we' and 'shan't we' are not used with 'Let's'. 'Don't we' treats the sentence as a statement in the simple present.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0035",
+    "subject": "english",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "stem": "Choose the correct question tag.\n\nHe hardly ever visits his parents, ______?",
+    "options": [
+      {
+        "key": "A",
+        "text": "does he"
+      },
+      {
+        "key": "B",
+        "text": "doesn't he"
+      },
+      {
+        "key": "C",
+        "text": "isn't he"
+      },
+      {
+        "key": "D",
+        "text": "is he"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'Hardly' gives the statement a negative meaning, so the tag must be positive. The auxiliary for 'visits' (simple present) is 'does', which gives 'does he?'. 'Doesn't he' is the trap of ignoring the negative force of 'hardly', and 'is/isn't' uses the wrong auxiliary.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0036",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "stem": "Choose the odd word out.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Violin"
+      },
+      {
+        "key": "B",
+        "text": "Flute"
+      },
+      {
+        "key": "C",
+        "text": "Guitar"
+      },
+      {
+        "key": "D",
+        "text": "Sitar"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The violin, sitar and guitar are string instruments, which produce sound when strings are bowed or plucked. The flute is a wind instrument played by blowing air across an opening, so it is the odd one out.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0037",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "stem": "Choose the odd word out.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Parsimonious"
+      },
+      {
+        "key": "B",
+        "text": "Altruistic"
+      },
+      {
+        "key": "C",
+        "text": "Benevolent"
+      },
+      {
+        "key": "D",
+        "text": "Magnanimous"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Benevolent, magnanimous and altruistic all describe generosity and concern for others. Parsimonious means excessively unwilling to spend money, which is the opposite quality. A common trap is to pick 'magnanimous' because it is less familiar.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0038",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "stem": "Choose the one word for the expression.\n\nA person who can speak many languages",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bilingual"
+      },
+      {
+        "key": "B",
+        "text": "Polymath"
+      },
+      {
+        "key": "C",
+        "text": "Philologist"
+      },
+      {
+        "key": "D",
+        "text": "Polyglot"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A polyglot speaks several languages fluently. A philologist studies the history and structure of languages, which does not mean speaking many of them. 'Bilingual' refers to exactly two languages. A polymath has wide learning in many subjects.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0039",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "stem": "Choose the one word for the expression.\n\nGovernment by the wealthy",
+    "options": [
+      {
+        "key": "A",
+        "text": "Aristocracy"
+      },
+      {
+        "key": "B",
+        "text": "Autocracy"
+      },
+      {
+        "key": "C",
+        "text": "Plutocracy"
+      },
+      {
+        "key": "D",
+        "text": "Bureaucracy"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Plutocracy comes from the Greek 'ploutos', meaning wealth, and means rule by the rich. Aristocracy is rule by a hereditary noble class. Autocracy is rule by one person with absolute power. Bureaucracy is government by unelected officials and administrative departments.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0040",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "stem": "Choose the one word for the expression.\n\nHandwriting that cannot be read",
+    "options": [
+      {
+        "key": "A",
+        "text": "Indelible"
+      },
+      {
+        "key": "B",
+        "text": "Ineligible"
+      },
+      {
+        "key": "C",
+        "text": "Illiterate"
+      },
+      {
+        "key": "D",
+        "text": "Illegible"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Illegible means impossible to read. Ineligible means not qualified, which is a sound-alike trap. Indelible means impossible to erase. Illiterate describes a person who cannot read, not the writing itself.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0041",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "hard",
+    "stem": "Choose the one word for the expression.\n\nA person who remains calm and indifferent to both pleasure and pain",
+    "options": [
+      {
+        "key": "A",
+        "text": "Epicure"
+      },
+      {
+        "key": "B",
+        "text": "Cynic"
+      },
+      {
+        "key": "C",
+        "text": "Stoic"
+      },
+      {
+        "key": "D",
+        "text": "Hedonist"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A stoic accepts pleasure and pain alike without showing emotion. A hedonist pursues pleasure as the highest good, and an epicure takes refined pleasure in food and drink, so both are drawn to pleasure. A cynic distrusts other people's motives, which has nothing to do with enduring pain.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0042",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "stem": "Choose the correctly spelt word.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Accommodate"
+      },
+      {
+        "key": "B",
+        "text": "Acomodate"
+      },
+      {
+        "key": "C",
+        "text": "Acommodate"
+      },
+      {
+        "key": "D",
+        "text": "Accomodate"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The correct spelling has a double 'c' and a double 'm': accommodate. The other options drop one or both of the doubled letters, which is one of the most frequent spelling errors in English.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0043",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "stem": "Choose the word that is INCORRECTLY spelt.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Liaison"
+      },
+      {
+        "key": "B",
+        "text": "Privilege"
+      },
+      {
+        "key": "C",
+        "text": "Supercede"
+      },
+      {
+        "key": "D",
+        "text": "Questionnaire"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The standard spelling is 'supersede', with an 's' in the last syllable. It is the only common English verb ending in '-sede'. Questionnaire (double n), liaison (two i's) and privilege (no 'd') are all spelt correctly.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0044",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "stem": "Fill in the blank with the correct form of the word given in brackets.\n\nThe committee questioned the ______ of the evidence before reaching a decision. (RELIABLE)",
+    "options": [
+      {
+        "key": "A",
+        "text": "reliance"
+      },
+      {
+        "key": "B",
+        "text": "reliably"
+      },
+      {
+        "key": "C",
+        "text": "relying"
+      },
+      {
+        "key": "D",
+        "text": "reliability"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The article 'the' and the phrase 'of the evidence' need a noun meaning 'the quality of being reliable', which is 'reliability'. 'Reliance' means dependence on something, a different sense. 'Reliably' is an adverb, and 'relying' is a verb form.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0045",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "stem": "Choose the correct word to fill in the blank.\n\nThe bride walked slowly down the ______ as the guests rose to their feet.",
+    "options": [
+      {
+        "key": "A",
+        "text": "I'll"
+      },
+      {
+        "key": "B",
+        "text": "aisle"
+      },
+      {
+        "key": "C",
+        "text": "ail"
+      },
+      {
+        "key": "D",
+        "text": "isle"
+      }
+    ],
+    "answer": "B",
+    "explanation": "An aisle is a passage between rows of seats, as in a hall or place of worship. 'Isle' (a small island), 'I'll' (I will) and 'ail' (to trouble or make ill) sound the same or similar but have different meanings.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0046",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "stem": "Choose the pair of words that correctly fills the blanks.\n\nThe ______ reason for the delay was a shortage of funds, not any disagreement over ______.",
+    "options": [
+      {
+        "key": "A",
+        "text": "principal, principle"
+      },
+      {
+        "key": "B",
+        "text": "principle, principal"
+      },
+      {
+        "key": "C",
+        "text": "principle, principle"
+      },
+      {
+        "key": "D",
+        "text": "principal, principal"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'Principal' as an adjective means main or chief, which fits 'the principal reason'. 'Principle' is a noun meaning a basic belief or rule, which fits 'disagreement over principle'. The other combinations confuse these homophones.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0047",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "stem": "Choose the meaning of the word in capitals as used in the sentence.\n\nThe minister's speech was full of PLATITUDES, and the audience soon lost interest.",
+    "options": [
+      {
+        "key": "A",
+        "text": "remarks repeated so often that they have lost their force"
+      },
+      {
+        "key": "B",
+        "text": "bold and original proposals"
+      },
+      {
+        "key": "C",
+        "text": "detailed statistical evidence"
+      },
+      {
+        "key": "D",
+        "text": "amusing personal stories"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A platitude is a dull, overused remark presented as if it were meaningful, which explains why the audience lost interest. 'Bold proposals' and 'amusing stories' would hold attention, so they contradict the context. 'Statistical evidence' is not what the word means.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0048",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "stem": "Which word describes a person who does not change his or her mind easily, and carries the most POSITIVE connotation?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Determined"
+      },
+      {
+        "key": "B",
+        "text": "Pig-headed"
+      },
+      {
+        "key": "C",
+        "text": "Stubborn"
+      },
+      {
+        "key": "D",
+        "text": "Obstinate"
+      }
+    ],
+    "answer": "A",
+    "explanation": "All four words describe firmness of purpose. 'Determined' praises that firmness as resolve, while 'obstinate', 'stubborn' and 'pig-headed' suggest an unreasonable refusal to change. 'Pig-headed' is the most negative of them.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0049",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "stem": "Choose the meaning of the word in capitals as used in the sentence.\n\nThe researchers repeated the study with a larger sample to CORROBORATE their initial findings.",
+    "options": [
+      {
+        "key": "A",
+        "text": "contradict"
+      },
+      {
+        "key": "B",
+        "text": "publish"
+      },
+      {
+        "key": "C",
+        "text": "confirm"
+      },
+      {
+        "key": "D",
+        "text": "simplify"
+      }
+    ],
+    "answer": "C",
+    "explanation": "To corroborate is to support or confirm a finding with more evidence, which is why a larger sample is used. 'Contradict' is the opposite. 'Publish' and 'simplify' do not explain why the study would be repeated.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0050",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "stem": "Choose the word closest in meaning to CANDID.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sly"
+      },
+      {
+        "key": "B",
+        "text": "Cautious"
+      },
+      {
+        "key": "C",
+        "text": "Polite"
+      },
+      {
+        "key": "D",
+        "text": "Frank"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Candid means honest and straightforward, which is the same as frank. 'Sly' (cunning) is almost the opposite. A cautious or polite person may deliberately hold back the truth, so neither word fits.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0051",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "hard",
+    "stem": "Choose the word closest in meaning to PERFUNCTORY.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Punctual"
+      },
+      {
+        "key": "B",
+        "text": "Thorough"
+      },
+      {
+        "key": "C",
+        "text": "Cursory"
+      },
+      {
+        "key": "D",
+        "text": "Fragrant"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Perfunctory describes an action done with minimum effort, as a routine duty, which matches cursory (hasty and superficial). 'Thorough' is the opposite. 'Fragrant' (suggested by 'perfume') and 'punctual' are sound-alike traps with unrelated meanings.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0052",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "stem": "Choose the word opposite in meaning to SCARCITY.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Abundance"
+      },
+      {
+        "key": "B",
+        "text": "Shortage"
+      },
+      {
+        "key": "C",
+        "text": "Dearth"
+      },
+      {
+        "key": "D",
+        "text": "Poverty"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Scarcity means insufficient supply, so its opposite is abundance, a plentiful supply. 'Shortage' and 'dearth' are synonyms of scarcity. 'Poverty' is related in meaning, not opposite.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0053",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "hard",
+    "stem": "Choose the word opposite in meaning to OBFUSCATE.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Delay"
+      },
+      {
+        "key": "B",
+        "text": "Clarify"
+      },
+      {
+        "key": "C",
+        "text": "Confuse"
+      },
+      {
+        "key": "D",
+        "text": "Obscure"
+      }
+    ],
+    "answer": "B",
+    "explanation": "To obfuscate is to make something unclear or hard to understand, so the opposite is to clarify. 'Confuse' and 'obscure' are near-synonyms. 'Delay' is unrelated in meaning.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0054",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "stem": "Choose the word that collocates correctly.\n\nThe government has decided to ______ a ban on single-use plastic.",
+    "options": [
+      {
+        "key": "A",
+        "text": "do"
+      },
+      {
+        "key": "B",
+        "text": "make"
+      },
+      {
+        "key": "C",
+        "text": "put up"
+      },
+      {
+        "key": "D",
+        "text": "impose"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The standard collocation is 'impose a ban'. English does not say 'make a ban' or 'do a ban', and 'put up' collocates with things like posters or resistance, not bans.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0055",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "stem": "Choose the option closest in meaning to the phrasal verb in capitals.\n\nThe new principal decided to DO AWAY WITH several outdated rules.",
+    "options": [
+      {
+        "key": "A",
+        "text": "abolish"
+      },
+      {
+        "key": "B",
+        "text": "revise"
+      },
+      {
+        "key": "C",
+        "text": "follow"
+      },
+      {
+        "key": "D",
+        "text": "explain"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'Do away with' means to get rid of or abolish. 'Revise' means to change something but keep it, while 'follow' and 'explain' keep the rules entirely, so none of them matches the sense of removal.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0056",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "stem": "Fill in the blank with the correct particle.\n\nShe takes ______ her mother; they have the same smile and the same laugh.",
+    "options": [
+      {
+        "key": "A",
+        "text": "after"
+      },
+      {
+        "key": "B",
+        "text": "over"
+      },
+      {
+        "key": "C",
+        "text": "up"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'Take after' means to resemble an older family member. 'Take up' means to start a hobby or activity. 'Take in' means to absorb or deceive, and 'take over' means to assume control.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0057",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "medium",
+    "stem": "Choose the correct meaning of the idiom in the sentence.\n\nThe huge stadium built for the games has become a white elephant.",
+    "options": [
+      {
+        "key": "A",
+        "text": "a costly possession that is expensive to maintain and of little use"
+      },
+      {
+        "key": "B",
+        "text": "a rare and sacred object"
+      },
+      {
+        "key": "C",
+        "text": "a symbol of national pride"
+      },
+      {
+        "key": "D",
+        "text": "a popular tourist attraction"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A 'white elephant' is something that costs a great deal to keep but brings little benefit, like an unused stadium. The other options read the phrase literally or positively (sacred, rare, popular), and they miss the idea of a burden.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0058",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "hard",
+    "stem": "Choose the correct meaning of the idiom in the sentence.\n\nHer argument, though passionate, cut no ice with the selection committee.",
+    "options": [
+      {
+        "key": "A",
+        "text": "made them angry"
+      },
+      {
+        "key": "B",
+        "text": "was presented in a cold manner"
+      },
+      {
+        "key": "C",
+        "text": "failed to impress or influence them"
+      },
+      {
+        "key": "D",
+        "text": "brought the discussion to an end"
+      }
+    ],
+    "answer": "C",
+    "explanation": "To 'cut no ice' with someone is to have no effect on or fail to persuade them. The idiom does not suggest anger, coldness of manner or ending the discussion. Those options take 'ice' literally.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0059",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "stem": "Choose the word that completes the analogy.\n\nBird : Flock :: Fish : ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pack"
+      },
+      {
+        "key": "B",
+        "text": "Herd"
+      },
+      {
+        "key": "C",
+        "text": "Swarm"
+      },
+      {
+        "key": "D",
+        "text": "School"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A group of birds is a flock, and a group of fish is a school (or shoal). A herd is used for cattle or elephants, a pack for wolves or dogs, and a swarm for insects such as bees.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0060",
+    "subject": "english",
+    "topic": "Vocabulary",
+    "difficulty": "hard",
+    "stem": "Choose the word that completes the analogy.\n\nCacophony : Sound :: Stench : ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Taste"
+      },
+      {
+        "key": "B",
+        "text": "Smell"
+      },
+      {
+        "key": "C",
+        "text": "Noise"
+      },
+      {
+        "key": "D",
+        "text": "Nose"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A cacophony is a harsh, unpleasant sound, and a stench is a foul, unpleasant smell. The relation is 'unpleasant form of'. 'Nose' is the organ, not the sense category. 'Noise' repeats the first pair, and 'taste' is the wrong sense.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0061",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "stem": "Read the passage and answer the question.\n\nTardigrades, often called water bears, are animals less than a millimetre long that live in moss, soil and the sediments of lakes and seas. Under a microscope they look almost comical: plump, eight-legged creatures that lumber along like tiny bears. Their reputation, however, rests on something far less amusing, an extraordinary ability to survive conditions that would kill nearly any other animal.\n\nWhen its surroundings dry out, a tardigrade pulls in its legs, loses almost all of its body water and curls into a lifeless-looking husk called a tun. In this state its metabolism falls to less than one per cent of normal. Tuns have survived being heated above 150 degrees Celsius, chilled close to absolute zero and, in a 2007 experiment, exposed to the vacuum of space for ten days. Add a drop of water, and many of them simply wake up and walk away.\n\nResearchers have found that tardigrades produce unusual proteins that form a glass-like gel inside their cells, holding delicate molecules in place until water returns. Some scientists hope that understanding this trick could one day help us store vaccines without refrigeration.\n\nAccording to the passage, what does a tardigrade do when its surroundings dry out?",
+    "options": [
+      {
+        "key": "A",
+        "text": "It burrows deeper into moist soil."
+      },
+      {
+        "key": "B",
+        "text": "It lays eggs that can survive the drought."
+      },
+      {
+        "key": "C",
+        "text": "It produces water from stored fat."
+      },
+      {
+        "key": "D",
+        "text": "It loses most of its body water and curls into a dormant tun."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The second paragraph states that the tardigrade pulls in its legs, loses almost all its body water and becomes a tun. Burrowing, making water from fat and laying drought-proof eggs are never mentioned. They are plausible-sounding inventions.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0062",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "stem": "Read the passage and answer the question.\n\nTardigrades, often called water bears, are animals less than a millimetre long that live in moss, soil and the sediments of lakes and seas. Under a microscope they look almost comical: plump, eight-legged creatures that lumber along like tiny bears. Their reputation, however, rests on something far less amusing, an extraordinary ability to survive conditions that would kill nearly any other animal.\n\nWhen its surroundings dry out, a tardigrade pulls in its legs, loses almost all of its body water and curls into a lifeless-looking husk called a tun. In this state its metabolism falls to less than one per cent of normal. Tuns have survived being heated above 150 degrees Celsius, chilled close to absolute zero and, in a 2007 experiment, exposed to the vacuum of space for ten days. Add a drop of water, and many of them simply wake up and walk away.\n\nResearchers have found that tardigrades produce unusual proteins that form a glass-like gel inside their cells, holding delicate molecules in place until water returns. Some scientists hope that understanding this trick could one day help us store vaccines without refrigeration.\n\nIn the sentence 'Add a drop of water, and many of them simply wake up and walk away', the word 'them' refers to",
+    "options": [
+      {
+        "key": "A",
+        "text": "the scientists who ran the experiment"
+      },
+      {
+        "key": "B",
+        "text": "the drops of water"
+      },
+      {
+        "key": "C",
+        "text": "the dried, dormant tardigrades (tuns)"
+      },
+      {
+        "key": "D",
+        "text": "the unusual proteins"
+      }
+    ],
+    "answer": "C",
+    "explanation": "'Them' refers to the tuns described in the previous sentence, the dried tardigrades that revive when water returns. Drops of water, scientists and proteins cannot 'wake up and walk away', and the proteins are mentioned only later.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0063",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "stem": "Read the passage and answer the question.\n\nTardigrades, often called water bears, are animals less than a millimetre long that live in moss, soil and the sediments of lakes and seas. Under a microscope they look almost comical: plump, eight-legged creatures that lumber along like tiny bears. Their reputation, however, rests on something far less amusing, an extraordinary ability to survive conditions that would kill nearly any other animal.\n\nWhen its surroundings dry out, a tardigrade pulls in its legs, loses almost all of its body water and curls into a lifeless-looking husk called a tun. In this state its metabolism falls to less than one per cent of normal. Tuns have survived being heated above 150 degrees Celsius, chilled close to absolute zero and, in a 2007 experiment, exposed to the vacuum of space for ten days. Add a drop of water, and many of them simply wake up and walk away.\n\nResearchers have found that tardigrades produce unusual proteins that form a glass-like gel inside their cells, holding delicate molecules in place until water returns. Some scientists hope that understanding this trick could one day help us store vaccines without refrigeration.\n\nWhich of the following can be inferred from the passage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tardigrades are found only in lakes and seas."
+      },
+      {
+        "key": "B",
+        "text": "Vaccines are already being stored using tardigrade proteins."
+      },
+      {
+        "key": "C",
+        "text": "The tardigrade's survival depends on shutting down most of its life processes rather than staying active through the harsh conditions."
+      },
+      {
+        "key": "D",
+        "text": "Active tardigrades can easily withstand temperatures above 150 degrees Celsius."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The extreme survival records all concern tuns, whose metabolism drops below one per cent of normal. So survival comes from near-shutdown. The passage never says active animals survive such heat. It names moss and soil as habitats too, and the vaccine idea is only a hope.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0064",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "stem": "Read the passage and answer the question.\n\nTardigrades, often called water bears, are animals less than a millimetre long that live in moss, soil and the sediments of lakes and seas. Under a microscope they look almost comical: plump, eight-legged creatures that lumber along like tiny bears. Their reputation, however, rests on something far less amusing, an extraordinary ability to survive conditions that would kill nearly any other animal.\n\nWhen its surroundings dry out, a tardigrade pulls in its legs, loses almost all of its body water and curls into a lifeless-looking husk called a tun. In this state its metabolism falls to less than one per cent of normal. Tuns have survived being heated above 150 degrees Celsius, chilled close to absolute zero and, in a 2007 experiment, exposed to the vacuum of space for ten days. Add a drop of water, and many of them simply wake up and walk away.\n\nResearchers have found that tardigrades produce unusual proteins that form a glass-like gel inside their cells, holding delicate molecules in place until water returns. Some scientists hope that understanding this trick could one day help us store vaccines without refrigeration.\n\nWhich of the following best summarises the passage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tardigrades look comical under a microscope, which has made them popular with scientists and the public."
+      },
+      {
+        "key": "B",
+        "text": "A 2007 experiment proved that tardigrades are the only animals that can live in outer space."
+      },
+      {
+        "key": "C",
+        "text": "Scientists have learnt to store vaccines without refrigeration by copying tardigrades."
+      },
+      {
+        "key": "D",
+        "text": "Tiny tardigrades survive extreme conditions by drying into a dormant state protected by special proteins, a mechanism that may have practical uses."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A good summary covers the creature, how it survives (the tun and the protective proteins) and the possible application. The 'comical' option focuses on a minor detail. The 2007 option overstates one experiment ('only animals'), and the vaccine option presents a hope as an achievement.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0065",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "stem": "Read the passage and answer the question.\n\nLong before the telegraph, news in India travelled on foot. Under the Mughals, and later under the East India Company, the dak system relied on runners known as harkaras, who carried bags of letters in relays between posts set roughly eight to ten kilometres apart. Each runner sprinted his stage, handed the bag to the next man and rested until the return journey. Because nobody ran far, the mail could keep moving day and night, and a letter might cover over a hundred and fifty kilometres in a single day.\n\nThe job was dangerous. Runners crossed forests at night, forded swollen rivers in the monsoon and faced wild animals and robbers. Many carried a spear hung with small bells; the jingling warned animals away and announced the runner's approach so that the next man would be ready.\n\nIn 1854 the Company reorganised the service into a unified postal department and introduced uniform postage stamps, so that a letter cost the same whatever the distance. Railways gradually replaced the runners on the main routes, yet in remote hill districts the jingle of the dak runner could still be heard well into the twentieth century.\n\nAccording to the passage, why could the mail keep moving day and night?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Two runners always travelled together and took turns."
+      },
+      {
+        "key": "B",
+        "text": "Each runner covered only a short stage before handing the bag to a fresh runner."
+      },
+      {
+        "key": "C",
+        "text": "Letters were carried by railway at night."
+      },
+      {
+        "key": "D",
+        "text": "The runners rode fast horses between the posts."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The passage says each runner sprinted only his stage of eight to ten kilometres and then passed the bag on, 'because nobody ran far'. Horses and pairs of runners are not mentioned, and the railways came later and replaced runners only on the main routes.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0066",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "stem": "Read the passage and answer the question.\n\nLong before the telegraph, news in India travelled on foot. Under the Mughals, and later under the East India Company, the dak system relied on runners known as harkaras, who carried bags of letters in relays between posts set roughly eight to ten kilometres apart. Each runner sprinted his stage, handed the bag to the next man and rested until the return journey. Because nobody ran far, the mail could keep moving day and night, and a letter might cover over a hundred and fifty kilometres in a single day.\n\nThe job was dangerous. Runners crossed forests at night, forded swollen rivers in the monsoon and faced wild animals and robbers. Many carried a spear hung with small bells; the jingling warned animals away and announced the runner's approach so that the next man would be ready.\n\nIn 1854 the Company reorganised the service into a unified postal department and introduced uniform postage stamps, so that a letter cost the same whatever the distance. Railways gradually replaced the runners on the main routes, yet in remote hill districts the jingle of the dak runner could still be heard well into the twentieth century.\n\nWhat was the purpose of the bells tied to the runners' spears?",
+    "options": [
+      {
+        "key": "A",
+        "text": "To scare away animals and alert the next runner that the mail was coming"
+      },
+      {
+        "key": "B",
+        "text": "To keep the runner awake during night journeys"
+      },
+      {
+        "key": "C",
+        "text": "To show that the bag contained official government letters"
+      },
+      {
+        "key": "D",
+        "text": "To let villagers know that they could hand over letters for posting"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The second paragraph gives two purposes: the jingling 'warned animals away' and 'announced the runner's approach so that the next man would be ready'. Official status, keeping awake and collecting villagers' letters are not mentioned. They are reasonable guesses with no support in the passage.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0067",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "stem": "Read the passage and answer the question.\n\nLong before the telegraph, news in India travelled on foot. Under the Mughals, and later under the East India Company, the dak system relied on runners known as harkaras, who carried bags of letters in relays between posts set roughly eight to ten kilometres apart. Each runner sprinted his stage, handed the bag to the next man and rested until the return journey. Because nobody ran far, the mail could keep moving day and night, and a letter might cover over a hundred and fifty kilometres in a single day.\n\nThe job was dangerous. Runners crossed forests at night, forded swollen rivers in the monsoon and faced wild animals and robbers. Many carried a spear hung with small bells; the jingling warned animals away and announced the runner's approach so that the next man would be ready.\n\nIn 1854 the Company reorganised the service into a unified postal department and introduced uniform postage stamps, so that a letter cost the same whatever the distance. Railways gradually replaced the runners on the main routes, yet in remote hill districts the jingle of the dak runner could still be heard well into the twentieth century.\n\nWhich of the following statements is supported by the passage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A harkara usually carried a letter all the way from sender to receiver."
+      },
+      {
+        "key": "B",
+        "text": "Runners were paid according to the distance they covered."
+      },
+      {
+        "key": "C",
+        "text": "The coming of the railways did not immediately end the use of runners everywhere."
+      },
+      {
+        "key": "D",
+        "text": "The Mughals introduced uniform postage stamps."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The last sentence says railways replaced runners 'on the main routes', while runners were still heard in hill districts well into the twentieth century. Pay is never discussed. Stamps were introduced by the Company in 1854, not by the Mughals, and the relay system means no single runner covered the whole route.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0068",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "stem": "Read the passage and answer the question.\n\nLong before the telegraph, news in India travelled on foot. Under the Mughals, and later under the East India Company, the dak system relied on runners known as harkaras, who carried bags of letters in relays between posts set roughly eight to ten kilometres apart. Each runner sprinted his stage, handed the bag to the next man and rested until the return journey. Because nobody ran far, the mail could keep moving day and night, and a letter might cover over a hundred and fifty kilometres in a single day.\n\nThe job was dangerous. Runners crossed forests at night, forded swollen rivers in the monsoon and faced wild animals and robbers. Many carried a spear hung with small bells; the jingling warned animals away and announced the runner's approach so that the next man would be ready.\n\nIn 1854 the Company reorganised the service into a unified postal department and introduced uniform postage stamps, so that a letter cost the same whatever the distance. Railways gradually replaced the runners on the main routes, yet in remote hill districts the jingle of the dak runner could still be heard well into the twentieth century.\n\nThe statement that uniform stamps meant 'a letter cost the same whatever the distance' suggests that, before 1854,",
+    "options": [
+      {
+        "key": "A",
+        "text": "stamps existed but were too expensive for most people"
+      },
+      {
+        "key": "B",
+        "text": "letters were carried free of charge"
+      },
+      {
+        "key": "C",
+        "text": "the charge for sending a letter depended on how far it travelled"
+      },
+      {
+        "key": "D",
+        "text": "only government officials were allowed to send letters"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Stressing that the new system made cost independent of distance implies that cost had depended on distance earlier. Nothing suggests the mail was free, that stamps already existed, or that private letters were banned. These options go beyond what the evidence supports.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0069",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "stem": "Read the passage and answer the question.\n\nIn recent years, several companies in Europe and elsewhere have experimented with a four-day working week, keeping salaries unchanged while cutting hours. In one widely reported British trial in 2022, about sixty organisations took part for six months. At the end, most chose to continue with the shorter week, and employees reported lower stress and fewer days off sick.\n\nSupporters argue that this is the future of work. Freed from a fifth day of meetings and commuting, they say, people return refreshed and achieve as much in four days as they once did in five. It is surely only a matter of time, they insist, before every office follows.\n\nThe picture is less simple than enthusiasts claim. The firms that volunteered for the trials were mostly small and office-based, and they may have been the ones best suited to the change from the start. A hospital, a bus company or a factory cannot simply close for a day; for them, a shorter week means hiring more staff. Productivity, too, is notoriously hard to measure in many jobs. The four-day week may well suit some workplaces, but it is unlikely to be a single answer for all.\n\nWhich of the following is a statement of FACT rather than opinion?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The four-day week is the future of work."
+      },
+      {
+        "key": "B",
+        "text": "It is surely only a matter of time before every office follows."
+      },
+      {
+        "key": "C",
+        "text": "People achieve as much in four days as they once did in five."
+      },
+      {
+        "key": "D",
+        "text": "About sixty organisations took part in a British trial in 2022."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The number of organisations in a dated trial can be checked, so it is a fact. The other three are claims or predictions that the passage presents as the supporters' views ('they argue', 'they say', 'they insist'), and none of them is established fact.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0070",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "stem": "Read the passage and answer the question.\n\nIn recent years, several companies in Europe and elsewhere have experimented with a four-day working week, keeping salaries unchanged while cutting hours. In one widely reported British trial in 2022, about sixty organisations took part for six months. At the end, most chose to continue with the shorter week, and employees reported lower stress and fewer days off sick.\n\nSupporters argue that this is the future of work. Freed from a fifth day of meetings and commuting, they say, people return refreshed and achieve as much in four days as they once did in five. It is surely only a matter of time, they insist, before every office follows.\n\nThe picture is less simple than enthusiasts claim. The firms that volunteered for the trials were mostly small and office-based, and they may have been the ones best suited to the change from the start. A hospital, a bus company or a factory cannot simply close for a day; for them, a shorter week means hiring more staff. Productivity, too, is notoriously hard to measure in many jobs. The four-day week may well suit some workplaces, but it is unlikely to be a single answer for all.\n\nWhich of the following best expresses the author's main point?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Trials of the four-day week are encouraging, but the results may not apply to every kind of workplace."
+      },
+      {
+        "key": "B",
+        "text": "Hospitals and factories are less productive than offices."
+      },
+      {
+        "key": "C",
+        "text": "The four-day week should be made compulsory for all companies."
+      },
+      {
+        "key": "D",
+        "text": "Four-day week trials have failed to reduce stress among employees."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The author reports positive results, then warns that the trial firms were unrepresentative and that some sectors cannot easily adapt. The conclusion: 'unlikely to be a single answer for all'. Making the week compulsory goes against this view. The trials did reduce stress, and the author never compares productivity across sectors.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0071",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "stem": "Read the passage and answer the question.\n\nIn recent years, several companies in Europe and elsewhere have experimented with a four-day working week, keeping salaries unchanged while cutting hours. In one widely reported British trial in 2022, about sixty organisations took part for six months. At the end, most chose to continue with the shorter week, and employees reported lower stress and fewer days off sick.\n\nSupporters argue that this is the future of work. Freed from a fifth day of meetings and commuting, they say, people return refreshed and achieve as much in four days as they once did in five. It is surely only a matter of time, they insist, before every office follows.\n\nThe picture is less simple than enthusiasts claim. The firms that volunteered for the trials were mostly small and office-based, and they may have been the ones best suited to the change from the start. A hospital, a bus company or a factory cannot simply close for a day; for them, a shorter week means hiring more staff. Productivity, too, is notoriously hard to measure in many jobs. The four-day week may well suit some workplaces, but it is unlikely to be a single answer for all.\n\nWhy does the author point out that the firms in the trials were volunteers that were 'mostly small and office-based'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "To argue that small firms are more profitable than large ones"
+      },
+      {
+        "key": "B",
+        "text": "To suggest that the encouraging results may not be representative of workplaces in general"
+      },
+      {
+        "key": "C",
+        "text": "To show that the trial lasted too short a time to be meaningful"
+      },
+      {
+        "key": "D",
+        "text": "To criticise the government for excluding large companies from the trial"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The author notes that these firms 'may have been the ones best suited to the change from the start'. This is a sample-bias point: success among them does not prove success everywhere. Profitability, trial length and government exclusion are never mentioned.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0072",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "stem": "Read the passage and answer the question.\n\nIn recent years, several companies in Europe and elsewhere have experimented with a four-day working week, keeping salaries unchanged while cutting hours. In one widely reported British trial in 2022, about sixty organisations took part for six months. At the end, most chose to continue with the shorter week, and employees reported lower stress and fewer days off sick.\n\nSupporters argue that this is the future of work. Freed from a fifth day of meetings and commuting, they say, people return refreshed and achieve as much in four days as they once did in five. It is surely only a matter of time, they insist, before every office follows.\n\nThe picture is less simple than enthusiasts claim. The firms that volunteered for the trials were mostly small and office-based, and they may have been the ones best suited to the change from the start. A hospital, a bus company or a factory cannot simply close for a day; for them, a shorter week means hiring more staff. Productivity, too, is notoriously hard to measure in many jobs. The four-day week may well suit some workplaces, but it is unlikely to be a single answer for all.\n\nThe author's attitude towards the claims of the four-day week's supporters can best be described as",
+    "options": [
+      {
+        "key": "A",
+        "text": "completely indifferent"
+      },
+      {
+        "key": "B",
+        "text": "wholeheartedly enthusiastic"
+      },
+      {
+        "key": "C",
+        "text": "openly hostile to any reduction in working hours"
+      },
+      {
+        "key": "D",
+        "text": "measured and sceptical of sweeping generalisations"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The author grants that the trials had good results and that the idea 'may well suit some workplaces', but says the picture is 'less simple than enthusiasts claim'. This is balanced scepticism. The author is not hostile (benefits are acknowledged), not enthusiastic (doubts are raised), and not indifferent (a clear view is argued).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0073",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "stem": "Read the passage and answer the question.\n\nThe arrangement of letters on almost every keyboard in the English-speaking world, with Q, W, E, R, T and Y across the top row, dates back to the typewriters of the 1870s. A popular story claims that the layout was designed to slow typists down. The truth is more interesting. Early machines had metal arms that jammed when neighbouring keys were struck in quick succession, so the inventor Christopher Sholes separated some letters that often appear together.\n\nWithin a few decades the jamming problem had been solved, and later inventors produced layouts that, they claimed, let typists work faster with less effort. None of them caught on. By then millions of people had learnt QWERTY, typing schools taught it and manufacturers built machines for it. Switching would have meant retraining a whole workforce for an uncertain gain.\n\nEconomists call this path dependence: a choice made for reasons that no longer apply continues because so much has been built upon it. Railway track widths, electrical plugs and even the side of the road on which we drive show the same pattern. Once a standard takes root, its convenience comes less from its own merits than from the fact that everyone else is using it.\n\nAccording to the passage, why did Sholes separate certain letters on the keyboard?",
+    "options": [
+      {
+        "key": "A",
+        "text": "To make the machines cheaper to manufacture"
+      },
+      {
+        "key": "B",
+        "text": "To slow typists down deliberately"
+      },
+      {
+        "key": "C",
+        "text": "To place the most common letters under the strongest fingers"
+      },
+      {
+        "key": "D",
+        "text": "To stop the metal arms of early typewriters from jamming"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The passage says the arms 'jammed when neighbouring keys were struck in quick succession', so letters that often appear together were separated. The idea of slowing typists is the 'popular story' that the author rejects. Finger strength and manufacturing cost are not mentioned.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0074",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "stem": "Read the passage and answer the question.\n\nThe arrangement of letters on almost every keyboard in the English-speaking world, with Q, W, E, R, T and Y across the top row, dates back to the typewriters of the 1870s. A popular story claims that the layout was designed to slow typists down. The truth is more interesting. Early machines had metal arms that jammed when neighbouring keys were struck in quick succession, so the inventor Christopher Sholes separated some letters that often appear together.\n\nWithin a few decades the jamming problem had been solved, and later inventors produced layouts that, they claimed, let typists work faster with less effort. None of them caught on. By then millions of people had learnt QWERTY, typing schools taught it and manufacturers built machines for it. Switching would have meant retraining a whole workforce for an uncertain gain.\n\nEconomists call this path dependence: a choice made for reasons that no longer apply continues because so much has been built upon it. Railway track widths, electrical plugs and even the side of the road on which we drive show the same pattern. Once a standard takes root, its convenience comes less from its own merits than from the fact that everyone else is using it.\n\nIn the last sentence, the expression 'takes root' means",
+    "options": [
+      {
+        "key": "A",
+        "text": "becomes firmly established"
+      },
+      {
+        "key": "B",
+        "text": "is officially banned"
+      },
+      {
+        "key": "C",
+        "text": "begins to decay"
+      },
+      {
+        "key": "D",
+        "text": "is first invented"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'Takes root' is a metaphor from plants: once a standard is firmly established, it is hard to remove. 'Begins to decay' reverses the image. 'Officially banned' contradicts the passage, and 'first invented' misses the idea of becoming entrenched over time.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0075",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "stem": "Read the passage and answer the question.\n\nThe arrangement of letters on almost every keyboard in the English-speaking world, with Q, W, E, R, T and Y across the top row, dates back to the typewriters of the 1870s. A popular story claims that the layout was designed to slow typists down. The truth is more interesting. Early machines had metal arms that jammed when neighbouring keys were struck in quick succession, so the inventor Christopher Sholes separated some letters that often appear together.\n\nWithin a few decades the jamming problem had been solved, and later inventors produced layouts that, they claimed, let typists work faster with less effort. None of them caught on. By then millions of people had learnt QWERTY, typing schools taught it and manufacturers built machines for it. Switching would have meant retraining a whole workforce for an uncertain gain.\n\nEconomists call this path dependence: a choice made for reasons that no longer apply continues because so much has been built upon it. Railway track widths, electrical plugs and even the side of the road on which we drive show the same pattern. Once a standard takes root, its convenience comes less from its own merits than from the fact that everyone else is using it.\n\nWhich of the following situations is the best example of 'path dependence' as the passage defines it?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A student changes her study method after getting poor results."
+      },
+      {
+        "key": "B",
+        "text": "A shop lowers its prices to attract more customers."
+      },
+      {
+        "key": "C",
+        "text": "A city keeps a narrow medieval street plan because rebuilding everything around new roads would cost too much."
+      },
+      {
+        "key": "D",
+        "text": "A company switches to new software because it is both cheaper and better."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Path dependence is a choice that lasts after its original reasons have gone, because so much has been built on it. The medieval street plan fits: it is kept because switching is too costly. The other three describe free, rational changes made on merit, which is the opposite of being locked in.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0076",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "stem": "Read the passage and answer the question.\n\nThe arrangement of letters on almost every keyboard in the English-speaking world, with Q, W, E, R, T and Y across the top row, dates back to the typewriters of the 1870s. A popular story claims that the layout was designed to slow typists down. The truth is more interesting. Early machines had metal arms that jammed when neighbouring keys were struck in quick succession, so the inventor Christopher Sholes separated some letters that often appear together.\n\nWithin a few decades the jamming problem had been solved, and later inventors produced layouts that, they claimed, let typists work faster with less effort. None of them caught on. By then millions of people had learnt QWERTY, typing schools taught it and manufacturers built machines for it. Switching would have meant retraining a whole workforce for an uncertain gain.\n\nEconomists call this path dependence: a choice made for reasons that no longer apply continues because so much has been built upon it. Railway track widths, electrical plugs and even the side of the road on which we drive show the same pattern. Once a standard takes root, its convenience comes less from its own merits than from the fact that everyone else is using it.\n\nWhich of the following best summarises the passage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Railway tracks, electrical plugs and keyboards were all designed by economists."
+      },
+      {
+        "key": "B",
+        "text": "QWERTY was designed to slow typists down and is therefore the least efficient layout ever made."
+      },
+      {
+        "key": "C",
+        "text": "The QWERTY layout survives not because it is the best design but because widespread adoption made switching too costly, an example of path dependence."
+      },
+      {
+        "key": "D",
+        "text": "Christopher Sholes invented the typewriter in the 1870s and solved the problem of jamming keys."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The passage traces QWERTY's origin and explains why it survived, then generalises with path dependence. The 'slow typists' option repeats the myth the passage rejects. The Sholes option covers only one detail and goes beyond the passage, which never says that Sholes invented the typewriter or that he was the one who finally solved the jamming problem. The economists option distorts the passage, since economists named the pattern but did not design the objects.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0077",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "stem": "Read the passage and answer the question.\n\nAlong tropical coasts, where rivers meet the sea, grow forests that seem to stand on stilts. Mangroves are among the few trees that tolerate salt water, and their tangled roots, arching above the mud, are their most striking feature. Some species push up pencil-like roots called pneumatophores that act as snorkels, drawing air into a root system buried in oxygen-poor mud.\n\nThese forests are far more than a curiosity. Their roots slow incoming waves and trap sediment, so a healthy belt of mangroves acts as a living sea wall. After the 2004 Indian Ocean tsunami, several studies reported that villages sheltered behind dense mangroves suffered less damage than exposed ones. The roots also serve as nurseries for young fish and crabs, supporting coastal fisheries, and mangrove mud locks away carbon several times faster, per hectare, than many inland forests.\n\nYet mangroves have been cleared at alarming rates for shrimp farms, ports and housing. Restoration is possible, but planting saplings in the wrong places has often failed; success depends on first restoring the natural flow of tides and fresh water.\n\nThe phrase 'a healthy belt of mangroves acts as a living sea wall' is",
+    "options": [
+      {
+        "key": "A",
+        "text": "a metaphor suggesting that mangroves protect the coast as a wall would"
+      },
+      {
+        "key": "B",
+        "text": "a simile comparing ocean waves to stone walls"
+      },
+      {
+        "key": "C",
+        "text": "a literal reference to walls built from mangrove wood"
+      },
+      {
+        "key": "D",
+        "text": "an exaggeration meant to show that mangroves are dangerous"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Mangroves are not literally walls. The phrase describes them as one, without 'like' or 'as', to show that they shield the coast by slowing waves. That makes it a metaphor. There is no 'like' or 'as' comparison, so it is not a simile. Nothing suggests mangrove wood is used for walls, or that mangroves are dangerous.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0078",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "stem": "Read the passage and answer the question.\n\nAlong tropical coasts, where rivers meet the sea, grow forests that seem to stand on stilts. Mangroves are among the few trees that tolerate salt water, and their tangled roots, arching above the mud, are their most striking feature. Some species push up pencil-like roots called pneumatophores that act as snorkels, drawing air into a root system buried in oxygen-poor mud.\n\nThese forests are far more than a curiosity. Their roots slow incoming waves and trap sediment, so a healthy belt of mangroves acts as a living sea wall. After the 2004 Indian Ocean tsunami, several studies reported that villages sheltered behind dense mangroves suffered less damage than exposed ones. The roots also serve as nurseries for young fish and crabs, supporting coastal fisheries, and mangrove mud locks away carbon several times faster, per hectare, than many inland forests.\n\nYet mangroves have been cleared at alarming rates for shrimp farms, ports and housing. Restoration is possible, but planting saplings in the wrong places has often failed; success depends on first restoring the natural flow of tides and fresh water.\n\nAccording to the passage, what is the function of pneumatophores?",
+    "options": [
+      {
+        "key": "A",
+        "text": "They filter salt out of the sea water."
+      },
+      {
+        "key": "B",
+        "text": "They help the root system obtain air from above the mud."
+      },
+      {
+        "key": "C",
+        "text": "They anchor the trees firmly against strong waves."
+      },
+      {
+        "key": "D",
+        "text": "They store fresh water for the dry season."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The passage says these pencil-like roots 'act as snorkels, drawing air into a root system buried in oxygen-poor mud'. Anchoring is linked to the tangled roots in general, not to pneumatophores. Salt filtering and water storage are not mentioned.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0079",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "stem": "Read the passage and answer the question.\n\nAlong tropical coasts, where rivers meet the sea, grow forests that seem to stand on stilts. Mangroves are among the few trees that tolerate salt water, and their tangled roots, arching above the mud, are their most striking feature. Some species push up pencil-like roots called pneumatophores that act as snorkels, drawing air into a root system buried in oxygen-poor mud.\n\nThese forests are far more than a curiosity. Their roots slow incoming waves and trap sediment, so a healthy belt of mangroves acts as a living sea wall. After the 2004 Indian Ocean tsunami, several studies reported that villages sheltered behind dense mangroves suffered less damage than exposed ones. The roots also serve as nurseries for young fish and crabs, supporting coastal fisheries, and mangrove mud locks away carbon several times faster, per hectare, than many inland forests.\n\nYet mangroves have been cleared at alarming rates for shrimp farms, ports and housing. Restoration is possible, but planting saplings in the wrong places has often failed; success depends on first restoring the natural flow of tides and fresh water.\n\nIf the passage were continued, the next paragraph would most likely discuss",
+    "options": [
+      {
+        "key": "A",
+        "text": "the history of shrimp farming in Asia"
+      },
+      {
+        "key": "B",
+        "text": "examples of restoration projects that succeeded by reviving tidal and freshwater flows"
+      },
+      {
+        "key": "C",
+        "text": "the different species of crabs found in coastal waters"
+      },
+      {
+        "key": "D",
+        "text": "how tsunamis are formed by undersea earthquakes"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The passage ends on the condition for successful restoration: restoring the natural flow of tides and fresh water. The natural next step is to show that idea in action. Shrimp-farm history, tsunami formation and crab species would each be a step backwards or sideways from the closing point.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0080",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "stem": "Read the passage and answer the question.\n\nIn Japan, a broken tea bowl is not always thrown away. In the craft known as kintsugi, meaning 'golden joinery', the pieces are glued back together with lacquer made from tree sap, and the seams are then dusted with powdered gold. The repaired bowl does not hide its damage; it wears its cracks like veins of light running across the glaze.\n\nAccording to one popular account, the practice began in the fifteenth century, when a shogun sent a cracked bowl to China for repair and was disappointed to receive it back held together with ugly metal staples. Japanese craftsmen, the story goes, set out to find a more beautiful solution. Whether or not the tale is true, kintsugi became closely linked with wabi-sabi, an outlook that finds beauty in imperfection and impermanence.\n\nCollectors sometimes value a mended bowl more highly than an unbroken one, because its history is now visible. In recent years the idea has travelled far beyond pottery. Therapists, writers and designers invoke kintsugi as a way of thinking about recovery: damage, they suggest, need not be concealed, for it can become part of what makes something, or someone, unique.\n\nThe expression 'like veins of light running across the glaze' is an example of",
+    "options": [
+      {
+        "key": "A",
+        "text": "onomatopoeia"
+      },
+      {
+        "key": "B",
+        "text": "a simile"
+      },
+      {
+        "key": "C",
+        "text": "alliteration"
+      },
+      {
+        "key": "D",
+        "text": "hyperbole"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The gold seams are compared to veins of light using 'like', which makes it a simile. Alliteration is the repetition of initial consonant sounds, which does not happen here. Hyperbole is deliberate exaggeration, and onomatopoeia is a word that imitates a sound. Neither applies.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0081",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "stem": "Read the passage and answer the question.\n\nIn Japan, a broken tea bowl is not always thrown away. In the craft known as kintsugi, meaning 'golden joinery', the pieces are glued back together with lacquer made from tree sap, and the seams are then dusted with powdered gold. The repaired bowl does not hide its damage; it wears its cracks like veins of light running across the glaze.\n\nAccording to one popular account, the practice began in the fifteenth century, when a shogun sent a cracked bowl to China for repair and was disappointed to receive it back held together with ugly metal staples. Japanese craftsmen, the story goes, set out to find a more beautiful solution. Whether or not the tale is true, kintsugi became closely linked with wabi-sabi, an outlook that finds beauty in imperfection and impermanence.\n\nCollectors sometimes value a mended bowl more highly than an unbroken one, because its history is now visible. In recent years the idea has travelled far beyond pottery. Therapists, writers and designers invoke kintsugi as a way of thinking about recovery: damage, they suggest, need not be concealed, for it can become part of what makes something, or someone, unique.\n\nHow does the author treat the story of the shogun and the stapled bowl?",
+    "options": [
+      {
+        "key": "A",
+        "text": "As a proven historical fact"
+      },
+      {
+        "key": "B",
+        "text": "As a popular account that may or may not be historically accurate"
+      },
+      {
+        "key": "C",
+        "text": "As a myth recently invented by therapists"
+      },
+      {
+        "key": "D",
+        "text": "As an official record kept by the Chinese court"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The author calls it 'one popular account', adds 'the story goes', and then says 'Whether or not the tale is true'. This signals that its accuracy is uncertain. The author does not present it as proven fact. Therapists are mentioned only in connection with modern uses of the idea, and no Chinese record is cited.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0082",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "stem": "Read the passage and answer the question.\n\nIn Japan, a broken tea bowl is not always thrown away. In the craft known as kintsugi, meaning 'golden joinery', the pieces are glued back together with lacquer made from tree sap, and the seams are then dusted with powdered gold. The repaired bowl does not hide its damage; it wears its cracks like veins of light running across the glaze.\n\nAccording to one popular account, the practice began in the fifteenth century, when a shogun sent a cracked bowl to China for repair and was disappointed to receive it back held together with ugly metal staples. Japanese craftsmen, the story goes, set out to find a more beautiful solution. Whether or not the tale is true, kintsugi became closely linked with wabi-sabi, an outlook that finds beauty in imperfection and impermanence.\n\nCollectors sometimes value a mended bowl more highly than an unbroken one, because its history is now visible. In recent years the idea has travelled far beyond pottery. Therapists, writers and designers invoke kintsugi as a way of thinking about recovery: damage, they suggest, need not be concealed, for it can become part of what makes something, or someone, unique.\n\nWhich of the following best expresses the central idea of the passage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Therapists have replaced craftsmen as the main practitioners of kintsugi."
+      },
+      {
+        "key": "B",
+        "text": "Kintsugi repairs broken pottery in a way that highlights the damage, and this idea has come to symbolise the value of visible recovery."
+      },
+      {
+        "key": "C",
+        "text": "Gold is used in kintsugi mainly to raise the market price of cheap bowls."
+      },
+      {
+        "key": "D",
+        "text": "Kintsugi was invented in China and later improved by Japanese craftsmen."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The passage describes the technique, links it to finding beauty in imperfection, and ends with its wider use as a metaphor for recovery. The China option misreads the story, in which the Chinese repair was the unsatisfactory one. Market price is a minor, distorted detail. Therapists only 'invoke' the idea and do not practise the craft.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0083",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "stem": "Read the passage and answer the question.\n\nFor a long time, sleep was regarded as a period of rest in which the brain simply switched off. Research over the past few decades has (1) ______ this view. During deep sleep, the brain appears to replay the experiences of the day, strengthening the connections that store new memories. In experiments, students who slept after learning a list of words recalled more of them the next morning than those who stayed awake, (2) ______ both groups had studied for the same length of time. Sleep also seems to help the brain sort information, keeping what is useful and letting trivial details fade. Lack of sleep, by contrast, makes it harder to concentrate and to (3) ______ new information. For students who cut back on sleep to study late into the night, the lesson is ironic: the hours stolen from sleep may undo much of the work done while awake.\n\nChoose the word that best fills blank (1).",
+    "options": [
+      {
+        "key": "A",
+        "text": "ignored"
+      },
+      {
+        "key": "B",
+        "text": "confirmed"
+      },
+      {
+        "key": "C",
+        "text": "overturned"
+      },
+      {
+        "key": "D",
+        "text": "supported"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The old view held that the brain 'switched off' during sleep, but the next sentences show the brain actively replaying and strengthening memories. So research has overturned that view. 'Confirmed' and 'supported' say the opposite, and 'ignored' does not fit, because the research directly answers the old view.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0084",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "stem": "Read the passage and answer the question.\n\nFor a long time, sleep was regarded as a period of rest in which the brain simply switched off. Research over the past few decades has (1) ______ this view. During deep sleep, the brain appears to replay the experiences of the day, strengthening the connections that store new memories. In experiments, students who slept after learning a list of words recalled more of them the next morning than those who stayed awake, (2) ______ both groups had studied for the same length of time. Sleep also seems to help the brain sort information, keeping what is useful and letting trivial details fade. Lack of sleep, by contrast, makes it harder to concentrate and to (3) ______ new information. For students who cut back on sleep to study late into the night, the lesson is ironic: the hours stolen from sleep may undo much of the work done while awake.\n\nChoose the word or phrase that best fills blank (2).",
+    "options": [
+      {
+        "key": "A",
+        "text": "because"
+      },
+      {
+        "key": "B",
+        "text": "so that"
+      },
+      {
+        "key": "C",
+        "text": "unless"
+      },
+      {
+        "key": "D",
+        "text": "even though"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The clause about equal study time is a concession. It rules out the idea that the sleepers simply studied more, so the result holds 'even though' study time was the same. 'Because' would wrongly make equal study time the cause of better recall. 'So that' expresses purpose and 'unless' a condition, and neither makes sense here.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0085",
+    "subject": "english",
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "stem": "Read the passage and answer the question.\n\nFor a long time, sleep was regarded as a period of rest in which the brain simply switched off. Research over the past few decades has (1) ______ this view. During deep sleep, the brain appears to replay the experiences of the day, strengthening the connections that store new memories. In experiments, students who slept after learning a list of words recalled more of them the next morning than those who stayed awake, (2) ______ both groups had studied for the same length of time. Sleep also seems to help the brain sort information, keeping what is useful and letting trivial details fade. Lack of sleep, by contrast, makes it harder to concentrate and to (3) ______ new information. For students who cut back on sleep to study late into the night, the lesson is ironic: the hours stolen from sleep may undo much of the work done while awake.\n\nChoose the word that best fills blank (3).",
+    "options": [
+      {
+        "key": "A",
+        "text": "absorb"
+      },
+      {
+        "key": "B",
+        "text": "delay"
+      },
+      {
+        "key": "C",
+        "text": "discard"
+      },
+      {
+        "key": "D",
+        "text": "forget"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Lack of sleep makes it harder to concentrate and to take in, or absorb, new information, which matches the passage's theme of memory formation. Saying it is 'harder to forget' or 'harder to discard' would be illogical, because sleep loss hurts learning. 'Delay' does not collocate meaningfully with 'information' here.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0086",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "easy",
+    "stem": "Rearrange the parts P, Q, R and S to form a meaningful sentence.\n\nP: the library\nQ: She returned\nR: before the due date\nS: the books to",
+    "options": [
+      {
+        "key": "A",
+        "text": "QSPR"
+      },
+      {
+        "key": "B",
+        "text": "QPRS"
+      },
+      {
+        "key": "C",
+        "text": "SPQR"
+      },
+      {
+        "key": "D",
+        "text": "QPSR"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The sentence reads: 'She returned (Q) the books to (S) the library (P) before the due date (R).' The subject and verb come first, then the object and destination, and the time phrase goes at the end. The other orders split 'the books to' from 'the library' or leave the object dangling.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0087",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "medium",
+    "stem": "Rearrange the parts P, Q, R and S to form a meaningful sentence.\n\nP: has made\nQ: The use of smartphones\nR: communication faster\nS: but not necessarily deeper",
+    "options": [
+      {
+        "key": "A",
+        "text": "RPQS"
+      },
+      {
+        "key": "B",
+        "text": "SQPR"
+      },
+      {
+        "key": "C",
+        "text": "QRPS"
+      },
+      {
+        "key": "D",
+        "text": "QPRS"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The subject 'The use of smartphones' (Q) takes the verb 'has made' (P). The pattern 'make + object + adjective' then gives 'communication faster' (R), and the contrast 'but not necessarily deeper' (S) closes the sentence. The other orders either start with the object or separate the verb from its object.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0088",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "medium",
+    "stem": "Choose the sentence in which the words are arranged correctly.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Rarely have I seen such a beautiful sunset."
+      },
+      {
+        "key": "B",
+        "text": "Rarely I have seen such a beautiful sunset."
+      },
+      {
+        "key": "C",
+        "text": "Rarely have I seen a such beautiful sunset."
+      },
+      {
+        "key": "D",
+        "text": "Rarely have seen I such a beautiful sunset."
+      }
+    ],
+    "answer": "A",
+    "explanation": "When a negative adverb such as 'rarely' begins a sentence, the auxiliary comes before the subject: 'Rarely have I seen'. 'Such' comes before the article ('such a beautiful sunset'). One option misses the inversion, one puts the subject after the participle, and one reverses 'such a'.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0089",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "medium",
+    "stem": "Arrange the sentences P, Q, R and S to form a coherent paragraph.\n\nP: When he returned, he noticed that a mould had killed the bacteria growing around it.\nQ: In 1928, Alexander Fleming left a dish of bacteria uncovered before going on holiday.\nR: It took more than a decade, however, before others found a way to produce the drug in large quantities.\nS: He named the active substance penicillin.",
+    "options": [
+      {
+        "key": "A",
+        "text": "QSPR"
+      },
+      {
+        "key": "B",
+        "text": "QPSR"
+      },
+      {
+        "key": "C",
+        "text": "PQSR"
+      },
+      {
+        "key": "D",
+        "text": "QPRS"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Q sets the scene with a date and name. P follows with 'When he returned', which links to the holiday. S names the substance only after it has been observed. R, with 'however' and 'the drug', moves on to the later development. Naming penicillin before the discovery, or starting with P (where 'he' has no referent), breaks the logic.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0090",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "hard",
+    "stem": "The first and last sentences of a paragraph are given. Arrange P, Q, R and S in the correct order.\n\nFirst: Most people assume that writing was invented to record stories and poems.\nP: Archaeologists, however, have found that the earliest written tablets from Mesopotamia contain no literature at all.\nQ: Instead, they list quantities of grain, livestock and labour.\nR: These records helped temple officials keep track of taxes and trade.\nS: Only centuries later did scribes begin to use the same signs to record myths and laws.\nLast: Literature, it seems, borrowed a technology that bookkeeping had built.",
+    "options": [
+      {
+        "key": "A",
+        "text": "PRQS"
+      },
+      {
+        "key": "B",
+        "text": "PQRS"
+      },
+      {
+        "key": "C",
+        "text": "QPRS"
+      },
+      {
+        "key": "D",
+        "text": "PQSR"
+      }
+    ],
+    "answer": "B",
+    "explanation": "P must come first because 'however' contrasts with the assumption in the first sentence. Q's 'Instead' and 'they' refer back to P's tablets. R's 'These records' refers to Q's lists. S then moves 'centuries later' to literature, which leads into the last sentence. Placing S before R would make 'These records' refer to myths and laws, which is wrong.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0091",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "easy",
+    "stem": "Arrange the sentences P, Q, R and S to form a coherent paragraph.\n\nP: Finally, the dried leaves are sorted by size and packed.\nQ: Freshly plucked tea leaves are first spread out to wither and lose moisture.\nR: They are then rolled, which breaks their cells and releases natural juices.\nS: Exposure to air after rolling causes oxidation, which gives black tea its dark colour.",
+    "options": [
+      {
+        "key": "A",
+        "text": "QSRP"
+      },
+      {
+        "key": "B",
+        "text": "QRPS"
+      },
+      {
+        "key": "C",
+        "text": "QRSP"
+      },
+      {
+        "key": "D",
+        "text": "RQSP"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The process markers settle the order: 'first' (Q), 'then rolled' (R), 'after rolling' (S), and 'Finally' (P). S must follow R because it refers to rolling, and P must come last because it begins with 'Finally'.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0092",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "easy",
+    "stem": "Choose the most appropriate topic sentence for the paragraph.\n\n______. They help farmers predict the onset of the monsoon, warn coastal residents of approaching cyclones, and guide aircraft around storms.",
+    "options": [
+      {
+        "key": "A",
+        "text": "The first artificial satellites were launched in the 1950s."
+      },
+      {
+        "key": "B",
+        "text": "Weather satellites provide information that is vital to many sectors of society."
+      },
+      {
+        "key": "C",
+        "text": "Farmers in India depend heavily on the monsoon."
+      },
+      {
+        "key": "D",
+        "text": "Cyclones cause enormous damage along the Indian coastline every year."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The paragraph lists several groups helped by 'they', so the topic sentence must name the subject (weather satellites) and state the general idea of wide usefulness. The 1950s launch is off-topic history. The cyclone and monsoon sentences each cover only one example and leave 'they' without a clear referent.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0093",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "medium",
+    "stem": "Choose the most appropriate topic sentence for the paragraph.\n\n______. Built in the dry regions of western India, stepwells allowed people to reach groundwater even as its level fell through the seasons. Their shaded steps and corridors also offered a cool place to gather in summer, and many were decorated with such elaborate carvings that they became temples of water.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Western India receives very little rainfall in most years."
+      },
+      {
+        "key": "B",
+        "text": "Stepwells served both practical and social purposes, combining engineering with art."
+      },
+      {
+        "key": "C",
+        "text": "Carvings in Indian temples often depict gods and goddesses."
+      },
+      {
+        "key": "D",
+        "text": "Most stepwells today lie neglected and filled with rubbish."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The paragraph covers three aspects of stepwells: water supply (practical), gathering places (social) and carvings (art). Only option B, which names both practical and social purposes along with art, covers all three. Rainfall is background only, the neglect of stepwells is not discussed, and temple carvings in general shift the focus away from stepwells.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0094",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "hard",
+    "stem": "Identify the sentence that breaks the unity of the paragraph.\n\n(1) Bamboo is one of the fastest-growing plants on Earth. (2) Some species can grow almost a metre in a single day. (3) Giant pandas spend up to fourteen hours a day eating. (4) Because it regrows so quickly after being cut, bamboo is increasingly valued as a renewable building material.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Some species can grow almost a metre in a single day."
+      },
+      {
+        "key": "B",
+        "text": "Because it regrows so quickly after being cut, bamboo is increasingly valued as a renewable building material."
+      },
+      {
+        "key": "C",
+        "text": "Bamboo is one of the fastest-growing plants on Earth."
+      },
+      {
+        "key": "D",
+        "text": "Giant pandas spend up to fourteen hours a day eating."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The paragraph is about bamboo's rapid growth and its use as a building material. The sentence about pandas' eating habits does not mention bamboo's growth or uses and breaks the flow. The other three form a clear chain: claim, supporting evidence, practical consequence.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0095",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "easy",
+    "stem": "Choose the most suitable connective to fill in the blank.\n\nTake an umbrella with you ______ it rains in the afternoon.",
+    "options": [
+      {
+        "key": "A",
+        "text": "in case"
+      },
+      {
+        "key": "B",
+        "text": "even though"
+      },
+      {
+        "key": "C",
+        "text": "unless"
+      },
+      {
+        "key": "D",
+        "text": "so that"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'In case' means as a precaution against a possible event, which fits taking an umbrella. 'Unless' would mean 'take it only if it does not rain', which is illogical. 'So that it rains' expresses an absurd purpose, and 'even though' wrongly presents the rain as already certain.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0096",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "medium",
+    "stem": "Choose the most suitable linker to fill in the blank.\n\nThe factory installed new filters on its waste pipes. ______, the level of pollution in the river dropped sharply within a month.",
+    "options": [
+      {
+        "key": "A",
+        "text": "For instance"
+      },
+      {
+        "key": "B",
+        "text": "Nonetheless"
+      },
+      {
+        "key": "C",
+        "text": "In contrast"
+      },
+      {
+        "key": "D",
+        "text": "As a result"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The fall in pollution is the effect of installing filters, so a cause-and-effect linker, 'As a result', is needed. 'In contrast' and 'Nonetheless' signal opposition, which would wrongly suggest that pollution fell in spite of the filters rather than because of them. 'For instance' introduces an example, not a consequence.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0097",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "medium",
+    "stem": "Choose the most suitable option to fill in the blank.\n\n______ the heavy traffic, we reached the airport in time for our flight.",
+    "options": [
+      {
+        "key": "A",
+        "text": "However"
+      },
+      {
+        "key": "B",
+        "text": "Despite"
+      },
+      {
+        "key": "C",
+        "text": "Although"
+      },
+      {
+        "key": "D",
+        "text": "Because of"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Reaching on time happened in spite of the traffic, so a concession is needed. Before a noun phrase ('the heavy traffic'), the preposition 'despite' is correct. 'Although' must introduce a full clause. 'Because of' makes traffic the cause of arriving on time, which is illogical, and 'however' cannot link a noun phrase this way.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0098",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "hard",
+    "stem": "Choose the pair of connectives that best completes the sentence.\n\n______ the drug showed great promise in early trials, it was withdrawn from the market ______ serious side effects were reported.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Since, although"
+      },
+      {
+        "key": "B",
+        "text": "Unless, until"
+      },
+      {
+        "key": "C",
+        "text": "Although, when"
+      },
+      {
+        "key": "D",
+        "text": "Because, after"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The first clause contrasts with the withdrawal, so it needs 'Although'. The second clause gives the event that triggered the withdrawal, so it needs 'when'. 'Because' makes promise the reason for withdrawal. 'Unless ... until' produces a confused condition, and 'Since ... although' reverses the logic of both clauses.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0099",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "medium",
+    "stem": "Choose the most suitable option to fill in the blank.\n\nSome birds, ______ the Arctic tern, migrate from one polar region to the other every year.",
+    "options": [
+      {
+        "key": "A",
+        "text": "so as"
+      },
+      {
+        "key": "B",
+        "text": "as if"
+      },
+      {
+        "key": "C",
+        "text": "such as"
+      },
+      {
+        "key": "D",
+        "text": "as well"
+      }
+    ],
+    "answer": "C",
+    "explanation": "'Such as' introduces an example of the group just named ('some birds'), and the Arctic tern is that example. 'As if' introduces an imagined comparison. 'So as' needs 'to' plus a verb to show purpose, and 'as well' means 'also', which does not fit before a noun here.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "eng-b-0100",
+    "subject": "english",
+    "topic": "Composition",
+    "difficulty": "medium",
+    "stem": "Choose the sentence that best concludes the paragraph.\n\nPublic libraries are no longer just storehouses of books. Many now lend laptops, run coding workshops for children and host job-search sessions for adults. In some towns, the library is the only place where residents can use the internet free of charge. ______",
+    "options": [
+      {
+        "key": "A",
+        "text": "Many libraries were built in the nineteenth century by wealthy donors."
+      },
+      {
+        "key": "B",
+        "text": "In short, the library has become a community hub that helps bridge the digital divide."
+      },
+      {
+        "key": "C",
+        "text": "Books, however, are becoming more expensive every year."
+      },
+      {
+        "key": "D",
+        "text": "Children should be encouraged to read at least one book every week."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A good conclusion pulls together the paragraph's point, that libraries now provide wider services, especially digital access. The 'community hub' sentence does this. The cost of books, children's reading habits and the history of library funding all introduce new topics instead of concluding this one.",
+    "source": {
+      "kind": "authored"
+    }
+  }
+]

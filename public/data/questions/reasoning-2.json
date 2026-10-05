@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "lr-b-0001",
+    "subject": "reasoning",
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "stem": "Find the next term: 2, 5, 11, 20, 32, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "45"
+      },
+      {
+        "key": "B",
+        "text": "47"
+      },
+      {
+        "key": "C",
+        "text": "48"
+      },
+      {
+        "key": "D",
+        "text": "44"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The differences are 3, 6, 9, 12, so the next difference is 15 and 32 + 15 = 47. 44 adds 12 again (repeating the last difference), 45 adds 13 (treating the differences as consecutive numbers), and 48 adds 16.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0002",
+    "subject": "reasoning",
+    "topic": "Number Series",
+    "difficulty": "medium",
+    "stem": "Find the next term: 3, 4, 12, 39, 103, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "203"
+      },
+      {
+        "key": "B",
+        "text": "228"
+      },
+      {
+        "key": "C",
+        "text": "216"
+      },
+      {
+        "key": "D",
+        "text": "232"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The differences are 1, 8, 27, 64, which are the cubes of 1, 2, 3, 4. The next difference is 5³ = 125, so 103 + 125 = 228. 216 is 6³, a cube but not the next term. 203 adds 100 (taking the differences as squares), and 232 is a near-miss.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0003",
+    "subject": "reasoning",
+    "topic": "Number Series",
+    "difficulty": "medium",
+    "stem": "Find the next term: 5, 12, 10, 19, 15, 26, 20, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "35"
+      },
+      {
+        "key": "B",
+        "text": "33"
+      },
+      {
+        "key": "C",
+        "text": "25"
+      },
+      {
+        "key": "D",
+        "text": "31"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Two series alternate. Odd positions: 5, 10, 15, 20 (+5). Even positions: 12, 19, 26, ... (+7), so the missing term is 26 + 7 = 33. 25 continues the odd-position series, but the missing term is in an even position. 31 and 35 use the wrong step for the even series.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0004",
+    "subject": "reasoning",
+    "topic": "Number Series",
+    "difficulty": "medium",
+    "stem": "Find the wrong number in the series: 2, 3, 7, 16, 33, 57, 93",
+    "options": [
+      {
+        "key": "A",
+        "text": "57"
+      },
+      {
+        "key": "B",
+        "text": "16"
+      },
+      {
+        "key": "C",
+        "text": "33"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The intended differences are 1, 4, 9, 16, 25, 36 (consecutive squares), which give 2, 3, 7, 16, 32, 57, 93. So 33 should be 32: 16 + 16 = 32, and 32 + 25 = 57. With 33 in place, the differences become 17 and 24, which breaks the pattern. 7, 16 and 57 all fit the square differences.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0005",
+    "subject": "reasoning",
+    "topic": "Number Series",
+    "difficulty": "hard",
+    "stem": "Find the next term: 4, 6, 12, 30, 90, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "360"
+      },
+      {
+        "key": "B",
+        "text": "315"
+      },
+      {
+        "key": "C",
+        "text": "300"
+      },
+      {
+        "key": "D",
+        "text": "270"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Each term is the previous one multiplied by 1.5, 2, 2.5, 3, ... (the multiplier grows by 0.5). So the next term is 90 × 3.5 = 315. 270 multiplies by 3 again, 360 multiplies by 4, and 300 adds 210, which plays no part in the pattern.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0006",
+    "subject": "reasoning",
+    "topic": "Letter Series",
+    "difficulty": "easy",
+    "stem": "Find the next letter: C, F, I, L, O, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Q"
+      },
+      {
+        "key": "B",
+        "text": "R"
+      },
+      {
+        "key": "C",
+        "text": "S"
+      },
+      {
+        "key": "D",
+        "text": "P"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Each letter moves 3 places forward: C(3), F(6), I(9), L(12), O(15), so the next is R(18). Q moves only 2 places, S moves 4, and P moves 1.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0007",
+    "subject": "reasoning",
+    "topic": "Letter Series",
+    "difficulty": "medium",
+    "stem": "Find the next term: AZ, CX, FU, JQ, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "NL"
+      },
+      {
+        "key": "B",
+        "text": "OM"
+      },
+      {
+        "key": "C",
+        "text": "OL"
+      },
+      {
+        "key": "D",
+        "text": "PL"
+      }
+    ],
+    "answer": "C",
+    "explanation": "First letters: A, C, F, J go up by +2, +3, +4, so the next is J + 5 = O. Second letters: Z, X, U, Q go down by −2, −3, −4, so the next is Q − 5 = L. The answer is OL. OM gets the second letter wrong (it uses −4 again), and NL and PL get the first letter wrong.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0008",
+    "subject": "reasoning",
+    "topic": "Letter Series",
+    "difficulty": "hard",
+    "stem": "Find the next term: Q1F, S2E, U6D, W24C, ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "X120B"
+      },
+      {
+        "key": "B",
+        "text": "Y120B"
+      },
+      {
+        "key": "C",
+        "text": "Y120A"
+      },
+      {
+        "key": "D",
+        "text": "Y96B"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Three patterns run side by side. First letters: Q, S, U, W (+2), so Y comes next. Numbers: 1, 2, 6, 24 are 1!, 2!, 3!, 4!, so 5! = 120 comes next. Last letters: F, E, D, C (−1), so B comes next. The answer is Y120B. 96 (24 × 4) uses the wrong multiplier, X breaks the +2 step, and A skips a letter.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0009",
+    "subject": "reasoning",
+    "topic": "Analogy",
+    "difficulty": "easy",
+    "stem": "Choose the word that completes the analogy.\n\nChisel : Sculptor :: Scalpel : ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Barber"
+      },
+      {
+        "key": "B",
+        "text": "Tailor"
+      },
+      {
+        "key": "C",
+        "text": "Mason"
+      },
+      {
+        "key": "D",
+        "text": "Surgeon"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A chisel is the main cutting tool of a sculptor. In the same way, a scalpel is the cutting tool of a surgeon. A barber uses a razor, a tailor uses scissors and a mason uses a trowel, so none of them fits the scalpel.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0010",
+    "subject": "reasoning",
+    "topic": "Analogy",
+    "difficulty": "easy",
+    "stem": "Choose the number that completes the analogy.\n\n6 : 35 :: 9 : ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "81"
+      },
+      {
+        "key": "B",
+        "text": "82"
+      },
+      {
+        "key": "C",
+        "text": "72"
+      },
+      {
+        "key": "D",
+        "text": "80"
+      }
+    ],
+    "answer": "D",
+    "explanation": "35 = 6² − 1, so the answer is 9² − 1 = 80. 81 is just 9², 82 is 9² + 1, and 72 = 9 × 8 follows an n(n − 1) rule that does not fit the given pair (6 × 5 = 30, not 35).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0011",
+    "subject": "reasoning",
+    "topic": "Analogy",
+    "difficulty": "medium",
+    "stem": "Choose the word that completes the analogy.\n\nBibliophile : Books :: Philatelist : ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Stamps"
+      },
+      {
+        "key": "B",
+        "text": "Coins"
+      },
+      {
+        "key": "C",
+        "text": "Matchboxes"
+      },
+      {
+        "key": "D",
+        "text": "Butterflies"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A bibliophile loves and collects books, and a philatelist collects postage stamps. A coin collector is a numismatist, a butterfly collector is a lepidopterist, and a matchbox-label collector is a phillumenist.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0012",
+    "subject": "reasoning",
+    "topic": "Analogy",
+    "difficulty": "medium",
+    "stem": "Choose the option that completes the analogy.\n\nThermometer : Temperature :: Anemometer : ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Humidity"
+      },
+      {
+        "key": "B",
+        "text": "Rainfall"
+      },
+      {
+        "key": "C",
+        "text": "Atmospheric pressure"
+      },
+      {
+        "key": "D",
+        "text": "Wind speed"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A thermometer measures temperature, and an anemometer measures wind speed. Atmospheric pressure is measured with a barometer, humidity with a hygrometer and rainfall with a rain gauge.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0013",
+    "subject": "reasoning",
+    "topic": "Analogy",
+    "difficulty": "medium",
+    "stem": "The same relationship holds in each pair. Find the missing number.\n\n7 : 56 :: 14 : 210 :: 16 : ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "288"
+      },
+      {
+        "key": "B",
+        "text": "240"
+      },
+      {
+        "key": "C",
+        "text": "256"
+      },
+      {
+        "key": "D",
+        "text": "272"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Each first number is multiplied by the next whole number: 7 × 8 = 56 and 14 × 15 = 210. So 16 × 17 = 272. 256 = 16², 240 = 16 × 15 (multiplying by the previous number), and 288 = 16 × 18.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0014",
+    "subject": "reasoning",
+    "topic": "Analogy",
+    "difficulty": "hard",
+    "stem": "The same rule relates the numbers in each pair. Find the missing number.\n\n5 : 120 :: 7 : 336 :: 9 : ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "729"
+      },
+      {
+        "key": "B",
+        "text": "810"
+      },
+      {
+        "key": "C",
+        "text": "720"
+      },
+      {
+        "key": "D",
+        "text": "648"
+      }
+    ],
+    "answer": "C",
+    "explanation": "120 = 4 × 5 × 6 and 336 = 6 × 7 × 8: each is the number times its two neighbours, which equals n³ − n. For 9 this gives 8 × 9 × 10 = 720. 729 = 9³ forgets to subtract n, and 810 = 9 × 90 and 648 = 8 × 81 are near-misses.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0015",
+    "subject": "reasoning",
+    "topic": "Classification",
+    "difficulty": "easy",
+    "stem": "Find the odd one out.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bronze"
+      },
+      {
+        "key": "B",
+        "text": "Silver"
+      },
+      {
+        "key": "C",
+        "text": "Aluminium"
+      },
+      {
+        "key": "D",
+        "text": "Copper"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Copper, aluminium and silver are pure metallic elements, each listed in the periodic table. Bronze is an alloy, a mixture of copper and tin, so it is the odd one.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0016",
+    "subject": "reasoning",
+    "topic": "Classification",
+    "difficulty": "easy",
+    "stem": "Find the odd number.",
+    "options": [
+      {
+        "key": "A",
+        "text": "125"
+      },
+      {
+        "key": "B",
+        "text": "144"
+      },
+      {
+        "key": "C",
+        "text": "64"
+      },
+      {
+        "key": "D",
+        "text": "27"
+      }
+    ],
+    "answer": "B",
+    "explanation": "27 = 3³, 64 = 4³ and 125 = 5³ are perfect cubes. 144 = 12² is a perfect square but not a cube (5³ = 125 and 6³ = 216), so it is the odd one. 64 is both a square and a cube, so it still belongs with the cubes.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0017",
+    "subject": "reasoning",
+    "topic": "Classification",
+    "difficulty": "medium",
+    "stem": "Find the odd letter pair.",
+    "options": [
+      {
+        "key": "A",
+        "text": "BY"
+      },
+      {
+        "key": "B",
+        "text": "DV"
+      },
+      {
+        "key": "C",
+        "text": "CX"
+      },
+      {
+        "key": "D",
+        "text": "AZ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In AZ, BY and CX the two letters are mirror opposites in the alphabet: their positions add up to 27 (1 + 26, 2 + 25, 3 + 24). D's opposite is W (4 + 23 = 27), but DV gives 4 + 22 = 26, so DV is the odd pair.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0018",
+    "subject": "reasoning",
+    "topic": "Classification",
+    "difficulty": "easy",
+    "stem": "Find the odd one out.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Rhombus"
+      },
+      {
+        "key": "B",
+        "text": "Pentagon"
+      },
+      {
+        "key": "C",
+        "text": "Square"
+      },
+      {
+        "key": "D",
+        "text": "Trapezium"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A rhombus, a square and a trapezium are all quadrilaterals (four sides). A pentagon has five sides, so it is the odd one. Square and rhombus are not odd, because all three four-sided shapes belong together.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0019",
+    "subject": "reasoning",
+    "topic": "Classification",
+    "difficulty": "hard",
+    "stem": "Three of the following numbers share a property that the fourth does not. Find the odd number.",
+    "options": [
+      {
+        "key": "A",
+        "text": "323"
+      },
+      {
+        "key": "B",
+        "text": "899"
+      },
+      {
+        "key": "C",
+        "text": "143"
+      },
+      {
+        "key": "D",
+        "text": "667"
+      }
+    ],
+    "answer": "D",
+    "explanation": "143 = 11 × 13, 323 = 17 × 19 and 899 = 29 × 31: each is the product of a pair of twin primes (primes that differ by 2). 667 = 23 × 29 is also a product of two primes, but they differ by 6, so 667 is the odd one. All four are odd products of two primes, so that property alone does not separate them.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0020",
+    "subject": "reasoning",
+    "topic": "Classification",
+    "difficulty": "medium",
+    "stem": "Three of the following words are rearrangements of the same letters. Find the odd word.",
+    "options": [
+      {
+        "key": "A",
+        "text": "SILENT"
+      },
+      {
+        "key": "B",
+        "text": "ENLIST"
+      },
+      {
+        "key": "C",
+        "text": "TINSEL"
+      },
+      {
+        "key": "D",
+        "text": "LENTIL"
+      }
+    ],
+    "answer": "D",
+    "explanation": "SILENT, TINSEL and ENLIST all use the letters E, I, L, N, S, T exactly once, so they are anagrams of one another. LENTIL has two L's and no S, so it is the odd one.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0021",
+    "subject": "reasoning",
+    "topic": "Coding-Decoding",
+    "difficulty": "easy",
+    "stem": "If TRAIN is coded as RPYGL, how is PLANE coded in the same language?",
+    "options": [
+      {
+        "key": "A",
+        "text": "NJYMC"
+      },
+      {
+        "key": "B",
+        "text": "NKYLC"
+      },
+      {
+        "key": "C",
+        "text": "OKZMD"
+      },
+      {
+        "key": "D",
+        "text": "NJYLC"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Each letter moves 2 places back: T→R, R→P, A→Y (wrapping around), I→G, N→L. So PLANE gives P→N, L→J, A→Y, N→L, E→C, which is NJYLC. OKZMD moves only 1 place back, NJYMC slips on the fourth letter, and NKYLC slips on the second.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0022",
+    "subject": "reasoning",
+    "topic": "Coding-Decoding",
+    "difficulty": "easy",
+    "stem": "In a certain code, each letter is replaced by its position in the alphabet, so BED is written as 254. How is FACE written in that code?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5135"
+      },
+      {
+        "key": "B",
+        "text": "6153"
+      },
+      {
+        "key": "C",
+        "text": "6135"
+      },
+      {
+        "key": "D",
+        "text": "6134"
+      }
+    ],
+    "answer": "C",
+    "explanation": "F = 6, A = 1, C = 3, E = 5, so FACE is 6135. 6153 swaps the last two letters, 5135 takes F as 5, and 6134 takes E as 4.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0023",
+    "subject": "reasoning",
+    "topic": "Coding-Decoding",
+    "difficulty": "medium",
+    "stem": "In a code language, 'mo ra ki' means 'books are costly', 'ki la pa' means 'costly fresh fruits' and 'ra pa tu' means 'fruits are cheap'. What is the code for 'fresh'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ki"
+      },
+      {
+        "key": "B",
+        "text": "pa"
+      },
+      {
+        "key": "C",
+        "text": "tu"
+      },
+      {
+        "key": "D",
+        "text": "la"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'costly' appears in the first two sentences, and the only code they share is 'ki'. 'fruits' appears in the last two, and the code they share is 'pa'. That leaves 'la' as the code for 'fresh' in the second sentence. 'tu' means 'cheap', 'pa' means 'fruits' and 'ki' means 'costly'.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0024",
+    "subject": "reasoning",
+    "topic": "Coding-Decoding",
+    "difficulty": "medium",
+    "stem": "If NUMBER is written as UNBMRE in a certain code, how is GARDEN written in that code?",
+    "options": [
+      {
+        "key": "A",
+        "text": "AGDRNE"
+      },
+      {
+        "key": "B",
+        "text": "AGRDNE"
+      },
+      {
+        "key": "C",
+        "text": "GADREN"
+      },
+      {
+        "key": "D",
+        "text": "AGDREN"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The word is split into pairs (NU, MB, ER) and the two letters in each pair are swapped: UN, BM, RE. GARDEN gives GA, RD, EN → AG, DR, NE, so the code is AGDRNE. AGRDNE leaves the middle pair unswapped, AGDREN leaves the last pair unswapped, and GADREN swaps only the middle letters.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0025",
+    "subject": "reasoning",
+    "topic": "Coding-Decoding",
+    "difficulty": "medium",
+    "stem": "In a certain code, SKY is written as 26 and FUN is written as 40. How is MAP written in that code?",
+    "options": [
+      {
+        "key": "A",
+        "text": "49"
+      },
+      {
+        "key": "B",
+        "text": "52"
+      },
+      {
+        "key": "C",
+        "text": "51"
+      },
+      {
+        "key": "D",
+        "text": "30"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Each letter takes its position counted from Z (A = 26, B = 25, ..., Z = 1), and the values are added. SKY: S = 8, K = 16, Y = 2, which makes 26. FUN: 21 + 6 + 13 = 40. MAP: M = 14, A = 26, P = 11, which makes 51. 30 adds the usual positions (13 + 1 + 16), and 52 and 49 are slips.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0026",
+    "subject": "reasoning",
+    "topic": "Coding-Decoding",
+    "difficulty": "hard",
+    "stem": "If MOTHER is coded as NNUGFQ, how is FATHER coded in the same language?",
+    "options": [
+      {
+        "key": "A",
+        "text": "GBUGFQ"
+      },
+      {
+        "key": "B",
+        "text": "EZUGFQ"
+      },
+      {
+        "key": "C",
+        "text": "GZUIFQ"
+      },
+      {
+        "key": "D",
+        "text": "GZUGFQ"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Letters in odd positions move 1 forward and letters in even positions move 1 back: M→N, O→N, T→U, H→G, E→F, R→Q. FATHER: F→G, A→Z (wrapping back from A), T→U, H→G, E→F, R→Q, giving GZUGFQ. GBUGFQ moves A forward, GZUIFQ moves H forward, and EZUGFQ moves F back.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0027",
+    "subject": "reasoning",
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "stem": "Statement: All employees of Firm X who joined before 2020 have been given a laptop. Meena joined Firm X in 2018.\n\nConclusions:\nI. Meena has been given a laptop.\nII. Employees of Firm X who joined after 2020 have not been given a laptop.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "key": "B",
+        "text": "Only conclusion II follows"
+      },
+      {
+        "key": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "key": "D",
+        "text": "Neither I nor II follows"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Meena joined in 2018, before 2020, so the rule covers her and I follows. The statement only says what happened to those who joined before 2020. It says nothing about later joiners, who may or may not have laptops, so II does not follow. The trap is reading 'all who joined before 2020 got one' as 'only they got one'.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0028",
+    "subject": "reasoning",
+    "topic": "Logical Deduction",
+    "difficulty": "medium",
+    "stem": "Statement: The railway authorities have decided to run special trains during the festival season to clear the extra rush of passengers.\n\nAssumptions:\nI. There will be an extra rush of passengers during the festival season.\nII. The regular trains will not be able to carry all the passengers during the festival season.\n\nWhich of the assumptions is/are implicit in the statement?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only assumption I is implicit"
+      },
+      {
+        "key": "B",
+        "text": "Only assumption II is implicit"
+      },
+      {
+        "key": "C",
+        "text": "Both I and II are implicit"
+      },
+      {
+        "key": "D",
+        "text": "Neither I nor II is implicit"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The decision is meant to 'clear the extra rush', so the authorities must expect such a rush, and I is implicit. Special trains would be pointless if the regular ones could carry everyone, so the decision also assumes the regular trains are not enough, and II is implicit too. Choosing only one misses that the decision rests on both beliefs.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0029",
+    "subject": "reasoning",
+    "topic": "Logical Deduction",
+    "difficulty": "medium",
+    "stem": "Statement: Should students be allowed to carry mobile phones into examination halls?\n\nArguments:\nI. No, mobile phones can be used to get unfair help during the examination.\nII. Yes, almost every student owns a mobile phone nowadays.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only argument I is strong"
+      },
+      {
+        "key": "B",
+        "text": "Only argument II is strong"
+      },
+      {
+        "key": "C",
+        "text": "Both I and II are strong"
+      },
+      {
+        "key": "D",
+        "text": "Neither I nor II is strong"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Argument I names a real and important result of allowing phones (cheating) and bears directly on the question, so it is strong. Argument II only says that phones are common. How many students own phones has nothing to do with whether phones should be allowed in an examination hall, so II is weak.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0030",
+    "subject": "reasoning",
+    "topic": "Logical Deduction",
+    "difficulty": "hard",
+    "stem": "Read the information and answer the question.\n\nIn a college, every student who takes Robotics also takes Programming. No student who takes Programming takes Painting. Some students who take Painting also take Music. Arjun takes Robotics.\n\nWhich of the following CANNOT be true?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Arjun takes Music."
+      },
+      {
+        "key": "B",
+        "text": "Some students who take Music also take Programming."
+      },
+      {
+        "key": "C",
+        "text": "Some students who take Painting also take Robotics."
+      },
+      {
+        "key": "D",
+        "text": "Every student who takes Music also takes Painting."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Every Robotics student takes Programming, and no Programming student takes Painting, so no Robotics student can take Painting. That makes the Painting–Robotics statement impossible. The other three are possible, though not certain. A Music student who skips Painting could take Programming. Nothing stops Arjun from taking Music. And all Music students could be among the Painting students without breaking any rule.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0031",
+    "subject": "reasoning",
+    "topic": "Logical Deduction",
+    "difficulty": "medium",
+    "stem": "Read the information and choose the statement that is definitely true.\n\nA library opens at 9 a.m. on weekdays (Monday to Friday) and at 11 a.m. on Saturdays. It is closed on Sundays. On every day that it opens, it closes exactly eight hours after opening.",
+    "options": [
+      {
+        "key": "A",
+        "text": "The library is open at noon on a Sunday."
+      },
+      {
+        "key": "B",
+        "text": "The library is open at 6:30 p.m. on a Saturday."
+      },
+      {
+        "key": "C",
+        "text": "The library is open at 10 a.m. on a Saturday."
+      },
+      {
+        "key": "D",
+        "text": "The library is open at 5:30 p.m. on a Tuesday."
+      }
+    ],
+    "answer": "B",
+    "explanation": "On Saturday it opens at 11 a.m. and closes 8 hours later at 7 p.m., so it is open at 6:30 p.m. On weekdays it closes at 9 + 8 = 5 p.m., so it is shut at 5:30 p.m. on Tuesday. At 10 a.m. on Saturday it has not yet opened, and it never opens on Sunday.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0032",
+    "subject": "reasoning",
+    "topic": "Logical Deduction",
+    "difficulty": "hard",
+    "stem": "Statement: A candidate is shortlisted for the interview only if she has cleared the written test. Priya was not shortlisted.\n\nConclusions:\nI. Priya did not clear the written test.\nII. Every candidate who cleared the written test was shortlisted.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "key": "B",
+        "text": "Only conclusion II follows"
+      },
+      {
+        "key": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "key": "D",
+        "text": "Neither I nor II follows"
+      }
+    ],
+    "answer": "D",
+    "explanation": "'Shortlisted only if cleared' means shortlisted → cleared. Clearing the test is necessary but may not be enough. Priya could have cleared it and still not been shortlisted (for example, because seats were limited), so I does not follow. II turns the condition around into cleared → shortlisted, which the statement never says, so II does not follow either.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0033",
+    "subject": "reasoning",
+    "topic": "Logical Deduction",
+    "difficulty": "medium",
+    "stem": "Read the information and choose the conclusion that must be true.\n\nIf it rains, the match is cancelled. If the match is cancelled, the tickets are refunded. The tickets were not refunded.",
+    "options": [
+      {
+        "key": "A",
+        "text": "It rained, but the match was not cancelled."
+      },
+      {
+        "key": "B",
+        "text": "It did not rain."
+      },
+      {
+        "key": "C",
+        "text": "The match was cancelled, but it did not rain."
+      },
+      {
+        "key": "D",
+        "text": "Nothing can be concluded about whether it rained."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The chain is rain → cancelled → refunded. With no refund, the match cannot have been cancelled. And if it had rained, the match would have been cancelled, so it did not rain. 'Cancelled' contradicts 'no refund', and 'rain without cancellation' breaks the first rule. The chain works backwards, so something can be concluded.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0034",
+    "subject": "reasoning",
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "stem": "Statement: Each of the 120 students of Class XII has opted for exactly one of two subjects, Biology or Computer Science. 45 of them have opted for Biology.\n\nConclusions:\nI. 75 students have opted for Computer Science.\nII. More students have opted for Biology than for Computer Science.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "key": "B",
+        "text": "Only conclusion II follows"
+      },
+      {
+        "key": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "key": "D",
+        "text": "Neither I nor II follows"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Every student chose exactly one subject, so Computer Science has 120 − 45 = 75 students, and I follows. Since 45 < 75, fewer students chose Biology than Computer Science, so II is false and does not follow.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0035",
+    "subject": "reasoning",
+    "topic": "Chart Logic",
+    "difficulty": "easy",
+    "stem": "Three students X, Y and Z each study a different subject (Physics, Chemistry, Biology) and each comes from a different city (Delhi, Pune, Jaipur). A partially filled chart reads:\n\nX: subject = ?, city = Pune\nY: subject = Chemistry, city = ?\nZ: subject = ?, city = ?\n\nAdditional information: The student from Delhi studies Biology. Z is not from Jaipur.\n\nWhich subject does X study, and which city is Y from?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Physics; Jaipur"
+      },
+      {
+        "key": "B",
+        "text": "Physics; Delhi"
+      },
+      {
+        "key": "C",
+        "text": "Biology; Jaipur"
+      },
+      {
+        "key": "D",
+        "text": "Chemistry; Delhi"
+      }
+    ],
+    "answer": "A",
+    "explanation": "X is from Pune and Z is not from Jaipur, so Z is from Delhi and Y is from Jaipur. The Delhi student studies Biology, so Z studies Biology. Y studies Chemistry, which leaves Physics for X. X cannot study Biology because X is not from Delhi, and Y cannot be from Delhi because Z is.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0036",
+    "subject": "reasoning",
+    "topic": "Chart Logic",
+    "difficulty": "medium",
+    "stem": "The table shows the number of units of three products A, B and C sold in three months. Some entries are missing.\n\nA: Jan = 12, Feb = ?, Mar = 9, Total = 35\nB: Jan = ?, Feb = 10, Mar = ?, Total = 30\nC: Jan = 8, Feb = ?, Mar = 11, Total = ?\nMonth totals: Jan = 30, Feb = 36\n\nHow many units of C were sold in the three months together?",
+    "options": [
+      {
+        "key": "A",
+        "text": "30"
+      },
+      {
+        "key": "B",
+        "text": "33"
+      },
+      {
+        "key": "C",
+        "text": "29"
+      },
+      {
+        "key": "D",
+        "text": "31"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A's Feb = 35 − 12 − 9 = 14. C's Feb = 36 − 14 − 10 = 12. C's total = 8 + 12 + 11 = 31. (To check: B's Jan = 30 − 12 − 8 = 10 and B's Mar = 30 − 10 − 10 = 10.) 30 is the Jan column total, not C's row total. 33 comes from taking C's Feb as 14, and 29 from taking it as 10.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0037",
+    "subject": "reasoning",
+    "topic": "Chart Logic",
+    "difficulty": "medium",
+    "stem": "A 4 × 4 chart is to be filled with the letters P, Q, R and S so that each letter appears exactly once in every row and every column. Some cells are already filled (rows are numbered from the top, columns from the left, and '_' marks an empty cell):\n\nRow 1: P _ _ S\nRow 2: _ S _ Q\nRow 3: _ _ S _\nRow 4: _ R _ P\n\nWhich letter goes in Row 3, Column 1?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Q"
+      },
+      {
+        "key": "B",
+        "text": "S"
+      },
+      {
+        "key": "C",
+        "text": "R"
+      },
+      {
+        "key": "D",
+        "text": "P"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Row 2 needs P and R in columns 1 and 3. Column 1 already has P (Row 1), so Row 2 = R S P Q. Row 4 needs Q and S in columns 1 and 3. Column 3 already has S (Row 3), so Row 4 = S R Q P. Column 1 now holds P, R and S, so Row 3, Column 1 must be Q. Each of the other three letters is already in column 1.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0038",
+    "subject": "reasoning",
+    "topic": "Chart Logic",
+    "difficulty": "hard",
+    "stem": "Four friends, Amit, Bhavna, Chirag and Deepa, each come from a different city (Hyderabad, Kochi, Lucknow, Nagpur) and each has a different profession (Doctor, Engineer, Lawyer, Teacher). The chart has only two entries filled in: Amit's profession is Lawyer, and the person from Kochi is the Teacher.\n\nFurther information:\n• Bhavna is from neither Kochi nor Lucknow.\n• Chirag is the Engineer and is not from Nagpur.\n• The Doctor is from Hyderabad.\n\nWhich of the following combinations is correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Deepa – Nagpur – Teacher"
+      },
+      {
+        "key": "B",
+        "text": "Chirag – Lucknow – Engineer"
+      },
+      {
+        "key": "C",
+        "text": "Amit – Hyderabad – Lawyer"
+      },
+      {
+        "key": "D",
+        "text": "Bhavna – Kochi – Doctor"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Amit is the Lawyer and Chirag the Engineer, so Bhavna and Deepa are the Doctor and the Teacher. The Teacher is from Kochi and Bhavna is not, so Bhavna is the Doctor (Hyderabad) and Deepa the Teacher (Kochi). Chirag is not from Nagpur, so Chirag is from Lucknow and Amit from Nagpur. In the other options, Bhavna cannot be from Kochi, Amit is not from Hyderabad, and Deepa is from Kochi.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0039",
+    "subject": "reasoning",
+    "topic": "Chart Logic",
+    "difficulty": "medium",
+    "stem": "A weekly timetable has five subjects, Maths, Physics, Chemistry, Biology and English, with exactly one subject on each day from Monday to Friday. The chart shows only one entry: Wednesday = Chemistry.\n\nFurther information:\n• Physics is on the day immediately after Maths.\n• Biology is on neither Monday nor Friday.\n• English is on an earlier day than Maths.\n\nWhich subject is on Tuesday?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Physics"
+      },
+      {
+        "key": "B",
+        "text": "Maths"
+      },
+      {
+        "key": "C",
+        "text": "Biology"
+      },
+      {
+        "key": "D",
+        "text": "English"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Maths and Physics must fall on consecutive days other than Wednesday, so they are Mon–Tue or Thu–Fri. English comes before Maths, so Maths cannot be on Monday. That puts Maths on Thursday and Physics on Friday. Biology cannot be on Monday, so it is on Tuesday, and English is on Monday. English is therefore not the Tuesday subject, and Maths and Physics are on Thursday and Friday.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0040",
+    "subject": "reasoning",
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "stem": "Consider the statements to be true even if they seem to differ from commonly known facts. Decide which of the given conclusions logically follow.\n\nStatements: No metal is a liquid. All coins are metals.\n\nConclusions:\nI. No coin is a liquid.\nII. Some liquids are coins.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "key": "B",
+        "text": "Only conclusion II follows"
+      },
+      {
+        "key": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "key": "D",
+        "text": "Neither I nor II follows"
+      }
+    ],
+    "answer": "A",
+    "explanation": "All coins lie inside the metals circle, and that circle does not touch the liquids circle, so no coin is a liquid and I follows. II says the exact opposite of I, so it is false and does not follow.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0041",
+    "subject": "reasoning",
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "stem": "Consider the statements to be true even if they seem to differ from commonly known facts. Decide which of the given conclusions logically follow.\n\nStatements: Some chairs are tables. Some tables are desks.\n\nConclusions:\nI. Some chairs are desks.\nII. All desks are tables.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "key": "B",
+        "text": "Only conclusion II follows"
+      },
+      {
+        "key": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "key": "D",
+        "text": "Neither I nor II follows"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Two 'some' statements give no definite link between chairs and desks. The tables that are chairs may be different from the tables that are desks, so I does not follow. 'Some tables are desks' does not mean every desk is a table, so II does not follow either. Neither follows.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0042",
+    "subject": "reasoning",
+    "topic": "Syllogism",
+    "difficulty": "medium",
+    "stem": "Consider the statements to be true even if they seem to differ from commonly known facts. Decide which of the given conclusions logically follow.\n\nStatements: All kites are birds. No bird is a fish. Some fish are whales.\n\nConclusions:\nI. Some birds are whales.\nII. Some whales are not birds.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "key": "B",
+        "text": "Only conclusion II follows"
+      },
+      {
+        "key": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "key": "D",
+        "text": "Neither I nor II follows"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The whales that are fish cannot be birds, because no fish is a bird. So at least some whales are not birds, and II follows. Nothing tells us whether any other whales are birds, so I is only a possibility and does not follow. Only II follows.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0043",
+    "subject": "reasoning",
+    "topic": "Syllogism",
+    "difficulty": "hard",
+    "stem": "Consider the statements to be true even if they seem to differ from commonly known facts. Decide which of the given conclusions logically follow.\n\nStatements: All engineers are athletes. No athlete is lazy. Some lazy people are artists.\n\nConclusions:\nI. No engineer is lazy.\nII. Some artists are not athletes.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "key": "B",
+        "text": "Only conclusion II follows"
+      },
+      {
+        "key": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "key": "D",
+        "text": "Neither I nor II follows"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Engineers lie inside athletes, and athletes do not overlap lazy people, so no engineer is lazy and I follows. The artists who are lazy cannot be athletes, so some artists are not athletes and II follows as well. Both follow. II is often rejected because it brings in a new term, but the 'some lazy people are artists' link makes it certain.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0044",
+    "subject": "reasoning",
+    "topic": "Syllogism",
+    "difficulty": "medium",
+    "stem": "Consider the statements to be true even if they seem to differ from commonly known facts. Decide which of the given conclusions logically follow.\n\nStatements: All P are Q. Some Q are R. No R is S.\n\nConclusions:\nI. Some Q are not S.\nII. Some P are not S.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "key": "B",
+        "text": "Only conclusion II follows"
+      },
+      {
+        "key": "C",
+        "text": "Both I and II follow"
+      },
+      {
+        "key": "D",
+        "text": "Neither I nor II follows"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The Q's that are R cannot be S (no R is S), so some Q are not S and I follows. P is only known to lie inside Q. P need not overlap R, and every P could be an S (Q may contain S elements), so II is not certain. Only I follows.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0045",
+    "subject": "reasoning",
+    "topic": "Blood Relations",
+    "difficulty": "easy",
+    "stem": "Pointing to a boy in a photograph, Kavya, a woman, said, \"His mother is the only daughter of my mother.\" How is the boy related to Kavya?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nephew"
+      },
+      {
+        "key": "B",
+        "text": "Cousin"
+      },
+      {
+        "key": "C",
+        "text": "Son"
+      },
+      {
+        "key": "D",
+        "text": "Brother"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Kavya is a woman, so she is a daughter of her mother. If her mother has only one daughter, that daughter is Kavya herself. So the boy's mother is Kavya, and the boy is her son. 'Nephew' would need the boy's mother to be Kavya's sister, which cannot be because Kavya is the only daughter.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0046",
+    "subject": "reasoning",
+    "topic": "Blood Relations",
+    "difficulty": "medium",
+    "stem": "In a certain code, 'A @ B' means A is the brother of B, 'A % B' means A is the daughter of B, and 'A & B' means A is the husband of B. If P @ Q % R & S, how is S related to P?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Aunt"
+      },
+      {
+        "key": "B",
+        "text": "Grandmother"
+      },
+      {
+        "key": "C",
+        "text": "Mother"
+      },
+      {
+        "key": "D",
+        "text": "Sister"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Q % R: Q is R's daughter. R & S: R is S's husband, so S is Q's mother. P @ Q: P is Q's brother, so P is also a child of R and S, which makes S P's mother. 'Aunt' and 'Grandmother' put S in the wrong branch or generation, and 'Sister' mixes S up with Q.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0047",
+    "subject": "reasoning",
+    "topic": "Blood Relations",
+    "difficulty": "medium",
+    "stem": "M is the son of N. N is the sister of O. O is the father of P. How is M related to P?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nephew"
+      },
+      {
+        "key": "B",
+        "text": "Brother"
+      },
+      {
+        "key": "C",
+        "text": "Uncle"
+      },
+      {
+        "key": "D",
+        "text": "Cousin"
+      }
+    ],
+    "answer": "D",
+    "explanation": "N (M's mother) and O (P's father) are siblings, so M and P are children of a brother and a sister. That makes them first cousins. M is not P's brother, since they have different parents. M is in the same generation as P, so 'Uncle' and 'Nephew' are wrong.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0048",
+    "subject": "reasoning",
+    "topic": "Blood Relations",
+    "difficulty": "hard",
+    "stem": "Pointing to a married woman, Rohit, a man, said, \"Her mother's only son-in-law is my father's only son.\" How is the woman related to Rohit?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mother-in-law"
+      },
+      {
+        "key": "B",
+        "text": "Sister"
+      },
+      {
+        "key": "C",
+        "text": "Sister-in-law"
+      },
+      {
+        "key": "D",
+        "text": "Wife"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Rohit is a man, so his father's only son is Rohit himself. That makes Rohit the only son-in-law of the woman's mother. The woman is married, which makes her husband a son-in-law of her mother. With only one son-in-law, her husband must be Rohit, so she is his wife. If she were his sister-in-law, her own husband would be a second son-in-law. 'Sister' fails because Rohit is her mother's son-in-law, not her son.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0049",
+    "subject": "reasoning",
+    "topic": "Direction Sense",
+    "difficulty": "easy",
+    "stem": "Anil walks 8 m towards the east, turns left and walks 6 m. How far, and in which direction, is he from his starting point?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10 m, North-West"
+      },
+      {
+        "key": "B",
+        "text": "14 m, North-East"
+      },
+      {
+        "key": "C",
+        "text": "2 m, North"
+      },
+      {
+        "key": "D",
+        "text": "10 m, North-East"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Turning left from east means walking north, so he ends 8 m east and 6 m north of the start. The distance is √(8² + 6²) = 10 m, towards the north-east. 14 m simply adds the two legs instead of using Pythagoras, and North-West gets the east–west direction backwards.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0050",
+    "subject": "reasoning",
+    "topic": "Direction Sense",
+    "difficulty": "medium",
+    "stem": "Neha is facing south. She turns 90° clockwise, then 135° anticlockwise, and then 180° clockwise. Which direction is she facing now?",
+    "options": [
+      {
+        "key": "A",
+        "text": "North-West"
+      },
+      {
+        "key": "B",
+        "text": "South-West"
+      },
+      {
+        "key": "C",
+        "text": "North-East"
+      },
+      {
+        "key": "D",
+        "text": "South-East"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Measure headings clockwise from north, so south = 180°. +90° → 270° (west). −135° → 135° (south-east). +180° → 315°, which is north-west. South-East is where she faces after the second turn (it misses the last turn). South-West comes from making the 135° turn clockwise instead of anticlockwise (270° + 135° = 45°, then + 180° = 225°), and North-East is where that mistaken route stands before the last turn.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0051",
+    "subject": "reasoning",
+    "topic": "Direction Sense",
+    "difficulty": "medium",
+    "stem": "Rita walks 6 km west, turns left and walks 4 km, turns left again and walks 9 km, turns left once more and walks 10 km, and finally turns right and walks 5 km. How far, and in which direction, is she from her starting point?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10 km, North-East"
+      },
+      {
+        "key": "B",
+        "text": "8 km, East"
+      },
+      {
+        "key": "C",
+        "text": "14 km, North-East"
+      },
+      {
+        "key": "D",
+        "text": "10 km, South-East"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Take the start as (0, 0). West 6 → (−6, 0). Left, so south 4 → (−6, −4). Left, so east 9 → (3, −4). Left, so north 10 → (3, 6). Right, so east 5 → (8, 6). She is 8 km east and 6 km north, so the distance is √(64 + 36) = 10 km, north-east. 'South-East' gets the north–south direction wrong, 14 km adds 8 + 6, and 8 km counts only the east part.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0052",
+    "subject": "reasoning",
+    "topic": "Seating Arrangement",
+    "difficulty": "medium",
+    "stem": "Six friends A, B, C, D, E and F sit in a row facing north. C sits at one of the extreme ends. D sits second to the right of C. E sits to the immediate left of A. B does not sit next to D. F does not sit at either end.\n\nWho sits to the immediate right of D?",
+    "options": [
+      {
+        "key": "A",
+        "text": "E"
+      },
+      {
+        "key": "B",
+        "text": "F"
+      },
+      {
+        "key": "C",
+        "text": "B"
+      },
+      {
+        "key": "D",
+        "text": "A"
+      }
+    ],
+    "answer": "A",
+    "explanation": "D is second to the right of C, so C must be at the left end: C _ D _ _ _. Seat 2 is next to D, so it cannot be B, and it cannot be the E-A pair, so it must be F. B cannot sit in seat 4 (next to D), so the pair E A takes seats 4 and 5 and B the right end: C F D E A B. E is immediately right of D. F is on D's left, A is two seats to the right, and B is at the end.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0053",
+    "subject": "reasoning",
+    "topic": "Seating Arrangement",
+    "difficulty": "hard",
+    "stem": "Eight people P, Q, R, S, T, U, V and W sit around a circular table, equally spaced and facing the centre. T sits opposite P. Q sits second to the right of P. R sits to the immediate left of T. U sits opposite R. W sits second to the right of R. S does not sit next to P.\n\nWho sits opposite W?",
+    "options": [
+      {
+        "key": "A",
+        "text": "U"
+      },
+      {
+        "key": "B",
+        "text": "Q"
+      },
+      {
+        "key": "C",
+        "text": "V"
+      },
+      {
+        "key": "D",
+        "text": "S"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Number the seats 0–7 clockwise with P at 0. When people face the centre, 'right' is anticlockwise. T is at 4, Q at 6 (two to P's right), R at 5 (T's left), U at 1 (opposite R) and W at 3 (two to R's right). Seats 2 and 7 remain. Seat 7 is next to P, so S takes seat 2 and V takes seat 7, which is opposite W at 3. S sits beside W, and U is opposite R.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0054",
+    "subject": "reasoning",
+    "topic": "Ranking and Ordering",
+    "difficulty": "easy",
+    "stem": "In a queue, Neel is 7th from the front and Asha is 5th from the back. Neel is ahead of Asha, and exactly 3 people stand between them. How many people are in the queue?",
+    "options": [
+      {
+        "key": "A",
+        "text": "14"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "15"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Asha is 7 + 3 + 1 = 11th from the front. Being 5th from the back means total = 11 + 5 − 1 = 15. 16 counts Asha twice (it forgets the − 1), 14 leaves out Asha's own place, and 12 ignores the people standing between them.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0055",
+    "subject": "reasoning",
+    "topic": "Ranking and Ordering",
+    "difficulty": "medium",
+    "stem": "Five people, Kiran, Latha, Manoj, Naveen and Oviya, live on the five floors of a building, one on each floor (floor 1 is the bottom, floor 5 the top). Manoj lives on an odd-numbered floor above Latha. Naveen lives on the floor immediately above Oviya. Kiran lives on neither the top floor nor the bottom floor. Latha and Kiran do not live on adjacent floors.\n\nWho lives on the floor immediately below Kiran?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Naveen"
+      },
+      {
+        "key": "B",
+        "text": "Oviya"
+      },
+      {
+        "key": "C",
+        "text": "Latha"
+      },
+      {
+        "key": "D",
+        "text": "Manoj"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Kiran is on floor 2, 3 or 4. Testing each case, only one arrangement fits every clue: Latha 1, Oviya 2, Naveen 3, Kiran 4, Manoj 5. (For example, Kiran on 2 forces Latha onto floor 4 or 5, and then Manoj cannot live above her on an odd floor.) So Naveen is directly below Kiran. Oviya is two floors down, Latha is at the bottom, and Manoj is above Kiran.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0056",
+    "subject": "reasoning",
+    "topic": "Clocks",
+    "difficulty": "medium",
+    "stem": "What is the angle between the hour hand and the minute hand of a clock at 7:20?",
+    "options": [
+      {
+        "key": "A",
+        "text": "100°"
+      },
+      {
+        "key": "B",
+        "text": "90°"
+      },
+      {
+        "key": "C",
+        "text": "80°"
+      },
+      {
+        "key": "D",
+        "text": "110°"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hour hand: 30 × 7 + 0.5 × 20 = 220°. Minute hand: 6 × 20 = 120°. The difference is 100°. 90° treats the hour hand as fixed at 7 (210°) and forgets that it has moved on. 110° and 80° come from moving the hour hand by the wrong amount.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0057",
+    "subject": "reasoning",
+    "topic": "Clocks",
+    "difficulty": "medium",
+    "stem": "At what time between 4 o'clock and 5 o'clock will the hour and minute hands of a clock be exactly together?",
+    "options": [
+      {
+        "key": "A",
+        "text": "$22\\frac{2}{11}$ minutes past 4"
+      },
+      {
+        "key": "B",
+        "text": "$21\\frac{3}{11}$ minutes past 4"
+      },
+      {
+        "key": "C",
+        "text": "$21\\frac{9}{11}$ minutes past 4"
+      },
+      {
+        "key": "D",
+        "text": "20 minutes past 4"
+      }
+    ],
+    "answer": "C",
+    "explanation": "At 4:00 the minute hand is 20 minute-spaces behind the hour hand, and it gains 11/12 of a minute-space every minute. Time = 20 × 12/11 = 240/11 = $21\\frac{9}{11}$ minutes. 20 minutes ignores that the hour hand keeps moving, and the other two values are slips in the 12/11 factor.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0058",
+    "subject": "reasoning",
+    "topic": "Calendars",
+    "difficulty": "hard",
+    "stem": "If 1 January 2025 was a Wednesday, what day of the week was 15 August 2026?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Thursday"
+      },
+      {
+        "key": "B",
+        "text": "Saturday"
+      },
+      {
+        "key": "C",
+        "text": "Sunday"
+      },
+      {
+        "key": "D",
+        "text": "Friday"
+      }
+    ],
+    "answer": "B",
+    "explanation": "2025 is not a leap year, so 1 January 2026 falls 365 days later (1 odd day), on a Thursday. From 1 January to 15 August 2026 is 31 + 28 + 31 + 30 + 31 + 30 + 31 + 14 = 226 days, and 226 = 32 × 7 + 2, which adds 2 odd days: Thursday + 2 = Saturday. Friday drops one odd day, Sunday treats 2026 as a leap year, and Thursday is only the day for 1 January 2026.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0059",
+    "subject": "reasoning",
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "stem": "In a group of 60 students, 35 like cricket, 28 like football and 10 like neither game. How many students like both games?",
+    "options": [
+      {
+        "key": "A",
+        "text": "15"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "13"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Students who like at least one game = 60 − 10 = 50. By inclusion–exclusion, both = 35 + 28 − 50 = 13. 3 uses 60 instead of 50 (35 + 28 − 60), 10 confuses 'both' with 'neither', and 15 is an arithmetic slip.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "lr-b-0060",
+    "subject": "reasoning",
+    "topic": "Mathematical Operations",
+    "difficulty": "medium",
+    "stem": "If the signs '+' and '÷' are interchanged and the numbers 4 and 8 are interchanged, which of the following equations becomes correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4 ÷ 8 + 2 × 3 = 13"
+      },
+      {
+        "key": "B",
+        "text": "4 + 2 ÷ 8 × 3 = 16"
+      },
+      {
+        "key": "C",
+        "text": "4 ÷ 2 + 8 × 3 = 26"
+      },
+      {
+        "key": "D",
+        "text": "8 + 2 ÷ 4 × 3 = 10"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Apply both swaps, then use BODMAS. '4 + 2 ÷ 8 × 3 = 16' becomes 8 ÷ 2 + 4 × 3 = 4 + 12 = 16, which is correct. '4 ÷ 2 + 8 × 3 = 26' is true as written, but after the swaps it becomes 8 + 2 ÷ 4 × 3 = 9.5. '8 + 2 ÷ 4 × 3 = 10' becomes 4 ÷ 2 + 8 × 3 = 26, and '4 ÷ 8 + 2 × 3 = 13' becomes 8 + 4 ÷ 2 × 3 = 14.",
+    "source": {
+      "kind": "authored"
+    }
+  }
+]

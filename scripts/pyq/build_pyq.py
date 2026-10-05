@@ -16,10 +16,16 @@ TASKS = ROOT / ".harvest/pyq/tasks"
 OUT = ROOT / "public/data/questions"
 
 AP_BASE = "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/"
-AP_SHIFTS = {  # shift code -> (pdf file, label)
-    f"{d}-{s}": (f"QPK_{d}TH_MAY2026_SHIFT_{s}.pdf", f"{d} May Shift {s}")
+# shift code -> {year, url, label, key}. 2026 codes are "<day>-<shift>"; older years "<year>-<day>-<shift>"
+# (registered in .harvest/pyq/papers.json, written by scripts/pyq/fetch_wayback.py).
+PAPERS = {
+    f"{d}-{s}": {"year": 2026, "url": AP_BASE + f"QPK_{d}TH_MAY2026_SHIFT_{s}.pdf",
+                 "label": f"{d} May Shift {s}", "key": "preliminary"}
     for d in ("12", "13", "14", "15", "18") for s in ("1", "2")
 }
+_reg = ROOT / ".harvest/pyq/papers.json"
+if _reg.exists():
+    PAPERS.update(json.loads(_reg.read_text(encoding="utf-8")))
 
 
 def norm(s):
@@ -32,7 +38,8 @@ def build_ap():
     for p in files:
         shift, chunk = p.stem.split("_")
         task = {t["n"]: t for t in json.loads((TASKS / p.name).read_text(encoding="utf-8"))}
-        pdf, label = AP_SHIFTS[shift]
+        P = PAPERS[shift]
+        year, label = P["year"], P["label"]
         for q in json.loads(p.read_text(encoding="utf-8")):
             t = task.get(q["n"])
             if t is None or q.get("answer") != t["official_key"]:
@@ -47,9 +54,9 @@ def build_ap():
                 dups.append((shift, q["n"], seen[k]))
                 continue
             seen[k] = (shift, q["n"])
-            d, s = shift.split("-")
+            d, s = shift.split("-")[-2:]
             out.append({
-                "id": f"pyq-ap-2026-{d}{s}-{q['n']:03d}",
+                "id": f"pyq-ap-{year}-{d}{s}-{q['n']:03d}",
                 "subject": t["subject"],
                 "topic": q["topic"],
                 "difficulty": q["difficulty"],
@@ -58,11 +65,12 @@ def build_ap():
                 "answer": q["answer"],
                 "explanation": q["explanation"],
                 "exams": ["ap-eamcet"],
-                "pyq": f"AP EAPCET 2026 · {label}",
+                "pyq": f"AP EAPCET {year} · {label}",
                 "source": {
                     "kind": "harvested",
-                    "name": f"AP EAPCET 2026 (official master paper with preliminary key, {label}, Q{q['n']})",
-                    "url": AP_BASE + pdf,
+                    "name": f"AP EAPCET {year} (official master paper with {P['key']} key, {label}, Q{q['n']})"
+                    + (" via Wayback Machine copy" if "web.archive.org" in P["url"] else ""),
+                    "url": P["url"],
                     "licence": "Official exam-authority release; for personal practice",
                 },
             })

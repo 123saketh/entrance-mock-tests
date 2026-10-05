@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "math-c-0001",
+    "subject": "mathematics",
+    "topic": "Complex Numbers",
+    "difficulty": "easy",
+    "stem": "The modulus of $\\dfrac{(3+4i)(1-i)}{2+i}$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\sqrt5$"
+      },
+      {
+        "key": "B",
+        "text": "$\\sqrt{10}$"
+      },
+      {
+        "key": "C",
+        "text": "$5\\sqrt2$"
+      },
+      {
+        "key": "D",
+        "text": "$10$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Modulus is multiplicative, so no expansion is needed: $\\dfrac{|3+4i|\\,|1-i|}{|2+i|}=\\dfrac{5\\sqrt2}{\\sqrt5}=\\sqrt{10}$. $5\\sqrt2$ forgets to divide by $|2+i|$; $10$ is $|z|^2$, not $|z|$; $\\sqrt5$ (that is, $5/\\sqrt5$) drops the factor $|1-i|=\\sqrt2$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0002",
+    "subject": "mathematics",
+    "topic": "Complex Numbers",
+    "difficulty": "medium",
+    "stem": "The locus of $z$ satisfying $|z-1|=2|z+1|$ is a circle of radius",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac43$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{16}{9}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac53$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "With $z=x+iy$: $(x-1)^2+y^2=4[(x+1)^2+y^2]\\Rightarrow x^2+y^2+\\frac{10}{3}x+1=0$. Centre $\\left(-\\frac53,0\\right)$, radius $\\sqrt{\\frac{25}{9}-1}=\\frac43$. $\\frac53$ is the distance of the centre from the origin; $2$ is just the ratio in the condition; $\\frac{16}{9}$ is $r^2$ with the square root left out.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0003",
+    "subject": "mathematics",
+    "topic": "Complex Numbers",
+    "difficulty": "hard",
+    "stem": "If $\\alpha=\\cos\\dfrac{2\\pi}{5}+i\\sin\\dfrac{2\\pi}{5}$, then $(1-\\alpha)(1-\\alpha^2)(1-\\alpha^3)(1-\\alpha^4)$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0$"
+      },
+      {
+        "key": "B",
+        "text": "$5$"
+      },
+      {
+        "key": "C",
+        "text": "$1$"
+      },
+      {
+        "key": "D",
+        "text": "$-5$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$\\alpha,\\alpha^2,\\alpha^3,\\alpha^4$ are the roots of $\\dfrac{x^5-1}{x-1}=1+x+x^2+x^3+x^4$, so $1+x+x^2+x^3+x^4=\\prod_{k=1}^{4}(x-\\alpha^k)$. Put $x=1$: the product is $5$. $0$ assumes some factor vanishes, but only $1-\\alpha^0$ would; $1$ comes from thinking that $|\\alpha|=1$ makes each factor have modulus 1; $-5$ is a sign slip, since there are four factors.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0004",
+    "subject": "mathematics",
+    "topic": "Complex Numbers",
+    "difficulty": "easy",
+    "stem": "The principal argument of $-1-i\\sqrt3$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{4\\pi}{3}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{\\pi}{3}$"
+      },
+      {
+        "key": "C",
+        "text": "$-\\dfrac{2\\pi}{3}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{2\\pi}{3}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The point $(-1,-\\sqrt3)$ lies in the third quadrant with reference angle $\\frac{\\pi}{3}$. The principal argument lies in $(-\\pi,\\pi]$, so it is $-\\left(\\pi-\\frac{\\pi}{3}\\right)=-\\frac{2\\pi}{3}$. $\\frac{4\\pi}{3}$ gives the same direction but is outside the principal range; $\\frac{2\\pi}{3}$ is the argument of the conjugate-type point $-1+i\\sqrt3$; $\\frac{\\pi}{3}$ is only the reference angle.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0005",
+    "subject": "mathematics",
+    "topic": "Quadratic Equations",
+    "difficulty": "medium",
+    "stem": "If one root of $x^2-px+8=0$ ($p$ real) is the square of the other, then $p$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$6$"
+      },
+      {
+        "key": "B",
+        "text": "$10$"
+      },
+      {
+        "key": "C",
+        "text": "$4$"
+      },
+      {
+        "key": "D",
+        "text": "$-6$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Let the roots be $\\alpha,\\alpha^2$. Product: $\\alpha^3=8$. The non-real cube roots $2\\omega,2\\omega^2$ make $\\alpha+\\alpha^2$ non-real, so $\\alpha=2$ and $p=\\alpha+\\alpha^2=2+4=6$. Check: $x^2-6x+8=0$ has roots $2,4$. $4$ is only the larger root; $-6$ uses $-p$ for the sum of roots, but for $x^2-px+q$ the sum is $+p$; $10$ wrongly uses the product $8$ as one of the roots ($8+2$).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0006",
+    "subject": "mathematics",
+    "topic": "Quadratic Equations",
+    "difficulty": "medium",
+    "stem": "Both roots of $x^2-(a-3)x+a=0$ are real and positive exactly when",
+    "options": [
+      {
+        "key": "A",
+        "text": "$a>3$"
+      },
+      {
+        "key": "B",
+        "text": "$1\\le a\\le 9$"
+      },
+      {
+        "key": "C",
+        "text": "$a\\ge 9$"
+      },
+      {
+        "key": "D",
+        "text": "$0<a\\le 1$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Need $D\\ge0$, sum $>0$, product $>0$. $D=(a-3)^2-4a=(a-1)(a-9)\\ge0\\Rightarrow a\\le1$ or $a\\ge9$; sum $a-3>0\\Rightarrow a>3$; product $a>0$. All three together give $a\\ge9$. $a>3$ ignores the discriminant (for $3<a<9$ the roots are not real); $0<a\\le1$ satisfies $D\\ge0$ but then the sum is negative; $1\\le a\\le9$ is where $D\\le0$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0007",
+    "subject": "mathematics",
+    "topic": "Quadratic Equations",
+    "difficulty": "medium",
+    "stem": "Let $\\alpha,\\beta$ be the roots of $x^2-6x-2=0$ and $a_n=\\alpha^n-\\beta^n$. Then $\\dfrac{a_{10}-2a_8}{2a_9}$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$-3$"
+      },
+      {
+        "key": "B",
+        "text": "$6$"
+      },
+      {
+        "key": "C",
+        "text": "$2$"
+      },
+      {
+        "key": "D",
+        "text": "$3$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Since $\\alpha^2=6\\alpha+2$, multiplying by $\\alpha^8$ gives $\\alpha^{10}=6\\alpha^9+2\\alpha^8$, and the same holds for $\\beta$. Subtracting: $a_{10}=6a_9+2a_8$, so $a_{10}-2a_8=6a_9$ and the ratio is $\\frac{6a_9}{2a_9}=3$. $6$ forgets the $2$ in the denominator; $-3$ comes from taking $\\alpha^2=-6\\alpha+2$ (wrong sign for the sum of roots), which gives $a_{10}=-6a_9+2a_8$; $2$ is just the constant term of the quadratic, not the ratio.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0008",
+    "subject": "mathematics",
+    "topic": "Sequences & Series",
+    "difficulty": "easy",
+    "stem": "Three numbers in GP have sum $19$ and product $216$. The largest of them is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$8$"
+      },
+      {
+        "key": "B",
+        "text": "$9$"
+      },
+      {
+        "key": "C",
+        "text": "$6$"
+      },
+      {
+        "key": "D",
+        "text": "$12$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Write them as $\\frac{a}{r},a,ar$. Product $a^3=216\\Rightarrow a=6$. Then $\\frac6r+6+6r=19\\Rightarrow 6r^2-13r+6=0\\Rightarrow r=\\frac32$ or $\\frac23$, giving $4,6,9$. Largest $=9$. $6$ is the middle term; $12$ assumes $r=2$, but $3+6+12=21\\ne19$; $8$ would need $r=\\frac43$, which fails the sum ($4.5+6+8=18.5$).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0009",
+    "subject": "mathematics",
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "stem": "$1\\cdot2+2\\cdot3+3\\cdot4+\\cdots+10\\cdot11$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$440$"
+      },
+      {
+        "key": "B",
+        "text": "$385$"
+      },
+      {
+        "key": "C",
+        "text": "$495$"
+      },
+      {
+        "key": "D",
+        "text": "$330$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$\\sum k(k+1)=\\sum k^2+\\sum k=385+55=440$, or directly $\\frac{n(n+1)(n+2)}{3}=\\frac{10\\cdot11\\cdot12}{3}=440$. $385$ is $\\sum k^2$ alone; $495$ adds $\\sum k$ twice; $330$ divides $10\\cdot11\\cdot12$ by $4$ instead of $3$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0010",
+    "subject": "mathematics",
+    "topic": "Sequences & Series",
+    "difficulty": "easy",
+    "stem": "The arithmetic mean and geometric mean of two positive numbers are $10$ and $8$. Their harmonic mean is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$9$"
+      },
+      {
+        "key": "B",
+        "text": "$6.4$"
+      },
+      {
+        "key": "C",
+        "text": "$4$"
+      },
+      {
+        "key": "D",
+        "text": "$6$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "For two positive numbers $G^2=AH$, so $H=\\frac{64}{10}=6.4$. (The numbers are $16$ and $4$: $\\frac{2\\cdot64}{20}=6.4$.) $6$ is $2G-A$, a false 'equal steps' guess; $9$ averages $A$ and $G$; $4$ is just the smaller number.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0011",
+    "subject": "mathematics",
+    "topic": "Sequences & Series",
+    "difficulty": "hard",
+    "stem": "In an AP, the sum of the first $p$ terms is $q$ and the sum of the first $q$ terms is $p$, where $p\\ne q$. The sum of the first $p+q$ terms is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0$"
+      },
+      {
+        "key": "B",
+        "text": "$-(p+q)$"
+      },
+      {
+        "key": "C",
+        "text": "$p+q$"
+      },
+      {
+        "key": "D",
+        "text": "$pq$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Write $S_n=An^2+Bn$. Then $Ap^2+Bp=q$ and $Aq^2+Bq=p$. Subtract and divide by $p-q$: $A(p+q)+B=-1$. So $S_{p+q}=(p+q)[A(p+q)+B]=-(p+q)$. $p+q$ loses the sign; $0$ answers a different classic, the case $S_p=S_q$; $pq$ has no basis.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0012",
+    "subject": "mathematics",
+    "topic": "Logarithms & Exponential Series",
+    "difficulty": "easy",
+    "stem": "$\\log_3\\!\\left(\\log_2\\!\\left(\\log_{\\sqrt5}625\\right)\\right)$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2$"
+      },
+      {
+        "key": "B",
+        "text": "$0$"
+      },
+      {
+        "key": "C",
+        "text": "$3$"
+      },
+      {
+        "key": "D",
+        "text": "$1$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$625=5^4=(\\sqrt5)^8$, so $\\log_{\\sqrt5}625=8$. Then $\\log_2 8=3$ and $\\log_3 3=1$. $2$ comes from taking the base as $5$ ($\\log_5 625=4$, $\\log_2 4=2$) and stopping there; $3$ stops one step early; $0$ would need the innermost value to be $2$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0013",
+    "subject": "mathematics",
+    "topic": "Logarithms & Exponential Series",
+    "difficulty": "medium",
+    "stem": "The sum to infinity of $\\dfrac{1}{1!}+\\dfrac{1+2}{2!}+\\dfrac{1+2+3}{3!}+\\cdots$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2e$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{3e}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$3e$"
+      },
+      {
+        "key": "D",
+        "text": "$e$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$T_n=\\dfrac{n(n+1)}{2\\,n!}=\\dfrac{n+1}{2\\,(n-1)!}$. With $m=n-1$: $\\sum_{m\\ge0}\\dfrac{m+2}{2\\,m!}=\\dfrac12\\left(\\sum\\frac{m}{m!}+2\\sum\\frac1{m!}\\right)=\\dfrac12(e+2e)=\\dfrac{3e}{2}$. $3e$ forgets the factor $\\frac12$ from $1+2+\\cdots+n=\\frac{n(n+1)}{2}$; $e$ and $2e$ keep only one of the two pieces.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0014",
+    "subject": "mathematics",
+    "topic": "Permutations & Combinations",
+    "difficulty": "easy",
+    "stem": "There are $10$ points in a plane, of which exactly $4$ are collinear and no other three are collinear. The number of triangles with vertices among these points is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$116$"
+      },
+      {
+        "key": "B",
+        "text": "$120$"
+      },
+      {
+        "key": "C",
+        "text": "$119$"
+      },
+      {
+        "key": "D",
+        "text": "$114$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "All triples: $\\binom{10}{3}=120$. Triples taken from the 4 collinear points do not form triangles: $\\binom43=4$. So $120-4=116$. $120$ forgets the collinear points; $114$ subtracts $\\binom42=6$ (pairs, not triples); $119$ treats the whole collinear set as only one bad triple.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0015",
+    "subject": "mathematics",
+    "topic": "Permutations & Combinations",
+    "difficulty": "medium",
+    "stem": "The number of solutions of $x+y+z=10$ in positive integers is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$36$"
+      },
+      {
+        "key": "B",
+        "text": "$45$"
+      },
+      {
+        "key": "C",
+        "text": "$66$"
+      },
+      {
+        "key": "D",
+        "text": "$28$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Put $x=a+1$ etc. Then $a+b+c=7$ with $a,b,c\\ge0$, which has $\\binom{9}{2}=36$ solutions. $66=\\binom{12}{2}$ counts non-negative solutions of $x+y+z=10$ (zero allowed); $45=\\binom{10}{2}$ and $28=\\binom82$ come from off-by-one errors in stars and bars.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0016",
+    "subject": "mathematics",
+    "topic": "Permutations & Combinations",
+    "difficulty": "medium",
+    "stem": "How many 4-digit numbers with all digits distinct are divisible by $5$?",
+    "options": [
+      {
+        "key": "A",
+        "text": "$896$"
+      },
+      {
+        "key": "B",
+        "text": "$504$"
+      },
+      {
+        "key": "C",
+        "text": "$1008$"
+      },
+      {
+        "key": "D",
+        "text": "$952$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Last digit $0$: $9\\cdot8\\cdot7=504$. Last digit $5$: the first digit cannot be $0$ or $5$, so $8$ choices, then $8\\cdot7$: $448$. Total $952$. $1008=2\\times504$ treats the '5' case like the '0' case and so lets $0$ lead; $504$ counts only numbers ending in $0$; $896=2\\times448$ makes the opposite mistake.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0017",
+    "subject": "mathematics",
+    "topic": "Permutations & Combinations",
+    "difficulty": "hard",
+    "stem": "Five letters are placed at random into five addressed envelopes, one letter per envelope. The number of ways in which exactly two letters go into their correct envelopes is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$20$"
+      },
+      {
+        "key": "B",
+        "text": "$10$"
+      },
+      {
+        "key": "C",
+        "text": "$31$"
+      },
+      {
+        "key": "D",
+        "text": "$60$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Choose the 2 correct letters: $\\binom52=10$. The other 3 must all be wrong, which is a derangement: $D_3=2$. Total $10\\times2=20$. $10$ forgets the derangement factor; $60=10\\times3!$ lets the remaining three go anywhere, including into correct envelopes; $31$ counts 'at least two' correct ($20+10+0+1$).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0018",
+    "subject": "mathematics",
+    "topic": "Binomial Theorem",
+    "difficulty": "easy",
+    "stem": "The middle term in the expansion of $\\left(\\dfrac{x}{2}+\\dfrac{2}{x}\\right)^{8}$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$56$"
+      },
+      {
+        "key": "B",
+        "text": "$70$"
+      },
+      {
+        "key": "C",
+        "text": "$35$"
+      },
+      {
+        "key": "D",
+        "text": "$140$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "There are 9 terms, so the middle one is $T_5=\\binom84\\left(\\frac x2\\right)^4\\left(\\frac2x\\right)^4=70\\cdot1=70$. $56=\\binom83$ uses $r=3$ instead of $r=4$; $140$ keeps a stray factor 2; $35=\\binom74$ uses $n=7$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0019",
+    "subject": "mathematics",
+    "topic": "Binomial Theorem",
+    "difficulty": "medium",
+    "stem": "$\\displaystyle\\sum_{r=0}^{9}\\frac{1}{r+1}\\binom{9}{r}$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{512}{10}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{511}{9}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{1023}{10}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{1023}{9}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$\\dfrac{1}{r+1}\\binom9r=\\dfrac{1}{10}\\binom{10}{r+1}$, so the sum is $\\dfrac{1}{10}\\left(2^{10}-\\binom{10}{0}\\right)=\\dfrac{1023}{10}$. (Equivalently $\\int_0^1(1+x)^9dx$.) $\\frac{512}{10}$ uses $2^9$ and forgets the shift to $n=10$; $\\frac{1023}{9}$ divides by $n$ instead of $n+1$; $\\frac{511}{9}$ makes both errors.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0020",
+    "subject": "mathematics",
+    "topic": "Binomial Theorem",
+    "difficulty": "hard",
+    "stem": "In the expansion of $(1+x)^n$, the coefficients of three consecutive terms are in the ratio $1:3:5$. Then $n$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$5$"
+      },
+      {
+        "key": "B",
+        "text": "$9$"
+      },
+      {
+        "key": "C",
+        "text": "$7$"
+      },
+      {
+        "key": "D",
+        "text": "$8$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Let them be $\\binom n{r-1},\\binom nr,\\binom n{r+1}$. $\\frac{\\binom nr}{\\binom n{r-1}}=\\frac{n-r+1}{r}=3\\Rightarrow n=4r-1$; $\\frac{\\binom n{r+1}}{\\binom nr}=\\frac{n-r}{r+1}=\\frac53\\Rightarrow 3n=8r+5$. Solving, $r=2$ and $n=7$. Check: $7,21,35$ are in ratio $1:3:5$. In $(1+x)^8$, $(1+x)^9$ and $(1+x)^5$ no three consecutive coefficients are in this ratio, so $8$, $9$ and $5$ are wrong.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0021",
+    "subject": "mathematics",
+    "topic": "Matrices & Determinants",
+    "difficulty": "easy",
+    "stem": "If $A=\\begin{bmatrix}0&2&-3\\\\-2&0&p\\\\3&-p&0\\end{bmatrix}$, then $\\det A$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2p$"
+      },
+      {
+        "key": "B",
+        "text": "$0$"
+      },
+      {
+        "key": "C",
+        "text": "$-6p$"
+      },
+      {
+        "key": "D",
+        "text": "$p^2+13$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$A^T=-A$, so $A$ is skew-symmetric of odd order. Then $\\det A=\\det A^T=\\det(-A)=(-1)^3\\det A$, which forces $\\det A=0$ for every $p$. The other options come from expanding with a sign error; for example $p^2+13$ adds the squares of the entries instead of expanding.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0022",
+    "subject": "mathematics",
+    "topic": "Matrices & Determinants",
+    "difficulty": "medium",
+    "stem": "For $A=\\begin{bmatrix}3&1\\\\-1&2\\end{bmatrix}$, $A^{-1}$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac15(7I-A)$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac17(5I-A)$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac17(A-5I)$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac17(A+5I)$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The characteristic equation is $\\lambda^2-(\\text{tr}A)\\lambda+\\det A=\\lambda^2-5\\lambda+7=0$. By Cayley-Hamilton, $A^2-5A+7I=O$, so $A(5I-A)=7I$ and $A^{-1}=\\frac17(5I-A)$. $\\frac17(A-5I)$ has the sign reversed and is $-A^{-1}$; $\\frac15(7I-A)$ swaps the roles of the trace and the determinant; $\\frac17(A+5I)$ comes from a sign slip in the characteristic equation.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0023",
+    "subject": "mathematics",
+    "topic": "Matrices & Determinants",
+    "difficulty": "medium",
+    "stem": "$\\begin{vmatrix} x+1 & x+2 & x+4\\\\ x+3 & x+5 & x+8\\\\ x+7 & x+10 & x+14\\end{vmatrix}$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0$"
+      },
+      {
+        "key": "B",
+        "text": "$x^2-2$"
+      },
+      {
+        "key": "C",
+        "text": "$-2$"
+      },
+      {
+        "key": "D",
+        "text": "$2$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$R_2\\to R_2-R_1$, $R_3\\to R_3-R_1$ give rows $(2,3,4)$ and $(6,8,10)$. Then $C_2\\to C_2-C_1$, $C_3\\to C_3-C_1$: $\\begin{vmatrix}x+1&1&3\\\\2&1&2\\\\6&2&4\\end{vmatrix}=(x+1)(0)-1(8-12)+3(4-6)=-2$. So the value does not depend on $x$, which rules out $x^2-2$. $2$ is a sign slip in the cofactor expansion; $0$ wrongly assumes two rows become proportional.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0024",
+    "subject": "mathematics",
+    "topic": "Matrices & Determinants",
+    "difficulty": "hard",
+    "stem": "The system $x+ky+3z=0,\\ 3x+ky-2z=0,\\ 2x+3y-4z=0$ has a non-zero solution $(x,y,z)$. Then $\\dfrac{xz}{y^2}$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{45}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$-\\dfrac{45}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$10$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{33}{2}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A non-trivial solution needs $\\begin{vmatrix}1&k&3\\\\3&k&-2\\\\2&3&-4\\end{vmatrix}=33-2k=0$, so $k=\\frac{33}{2}$. Subtracting the first equation from the second: $2x-5z=0$, so $x=\\frac{5z}{2}$. The third equation then gives $5z+3y-4z=0$, so $y=-\\frac z3$. Hence $\\frac{xz}{y^2}=\\frac{5z^2/2}{z^2/9}=\\frac{45}{2}$. $-\\frac{45}{2}$ carries the sign of $y$ into $y^2$; $\\frac{33}{2}$ is the value of $k$, not the ratio asked for; $10$ is the answer to a similar textbook system with different coefficients.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0025",
+    "subject": "mathematics",
+    "topic": "Sets, Relations & Functions",
+    "difficulty": "easy",
+    "stem": "The domain of $f(x)=\\dfrac{1}{\\sqrt{|x|-x}}$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(-\\infty,0]$"
+      },
+      {
+        "key": "B",
+        "text": "$(-\\infty,0)$"
+      },
+      {
+        "key": "C",
+        "text": "$\\mathbb{R}\\setminus\\{0\\}$"
+      },
+      {
+        "key": "D",
+        "text": "$(0,\\infty)$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "We need $|x|-x>0$ (strictly, because the root is in the denominator). For $x\\ge0$, $|x|-x=0$, so these are excluded. For $x<0$, $|x|-x=-2x>0$. So the domain is $(-\\infty,0)$. $(0,\\infty)$ is exactly the region where the expression is $0$; $(-\\infty,0]$ wrongly includes $x=0$, where we would divide by zero; $\\mathbb R\\setminus\\{0\\}$ forgets that positive $x$ fails too.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0026",
+    "subject": "mathematics",
+    "topic": "Sets, Relations & Functions",
+    "difficulty": "medium",
+    "stem": "The number of equivalence relations on the set $\\{1,2,3\\}$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$5$"
+      },
+      {
+        "key": "B",
+        "text": "$8$"
+      },
+      {
+        "key": "C",
+        "text": "$3$"
+      },
+      {
+        "key": "D",
+        "text": "$4$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Equivalence relations correspond to partitions of the set: $\\{1\\}\\{2\\}\\{3\\}$; $\\{1,2\\}\\{3\\}$; $\\{1,3\\}\\{2\\}$; $\\{2,3\\}\\{1\\}$; $\\{1,2,3\\}$. That is $5$. $4$ misses either the identity relation or the universal relation; $8=2^3$ counts reflexive-symmetric relations, which need not be transitive; $3$ counts only the two-block partitions.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0027",
+    "subject": "mathematics",
+    "topic": "Sets, Relations & Functions",
+    "difficulty": "medium",
+    "stem": "On $\\mathbb{Q}\\setminus\\{1\\}$ the binary operation $a*b=a+b-ab$ is defined. The inverse of $3$ with respect to $*$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$-\\dfrac13$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac32$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac13$"
+      },
+      {
+        "key": "D",
+        "text": "$-3$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Identity: $a+e-ae=a\\Rightarrow e(1-a)=0\\Rightarrow e=0$. Inverse of $3$: $3+b-3b=0\\Rightarrow b=\\frac32$. Check: $3+\\frac32-\\frac92=0$. $-3$ is the inverse under ordinary addition; $\\frac13$ is the inverse under multiplication; $-\\frac13$ mixes the two. The operation $*$ needs its own identity.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0028",
+    "subject": "mathematics",
+    "topic": "Mathematical Reasoning & Induction",
+    "difficulty": "easy",
+    "stem": "The converse of the statement 'If a quadrilateral is a square, then its diagonals are equal' is",
+    "options": [
+      {
+        "key": "A",
+        "text": "If the diagonals of a quadrilateral are not equal, then it is not a square"
+      },
+      {
+        "key": "B",
+        "text": "A quadrilateral is a square and its diagonals are not equal"
+      },
+      {
+        "key": "C",
+        "text": "If a quadrilateral is not a square, then its diagonals are not equal"
+      },
+      {
+        "key": "D",
+        "text": "If the diagonals of a quadrilateral are equal, then it is a square"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The converse of $p\\Rightarrow q$ is $q\\Rightarrow p$: 'if the diagonals are equal, then it is a square'. (It is false: a rectangle is a counter-example. A statement and its converse need not have the same truth value.) 'Not a square $\\Rightarrow$ diagonals not equal' is the inverse; 'diagonals not equal $\\Rightarrow$ not a square' is the contrapositive, which is equivalent to the original; '$p$ and not $q$' is the negation.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0029",
+    "subject": "mathematics",
+    "topic": "Mathematical Reasoning & Induction",
+    "difficulty": "medium",
+    "stem": "$\\sim(p\\leftrightarrow q)$ is logically equivalent to",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\sim p\\leftrightarrow \\sim q$"
+      },
+      {
+        "key": "B",
+        "text": "$p\\leftrightarrow \\sim q$"
+      },
+      {
+        "key": "C",
+        "text": "$\\sim p\\wedge \\sim q$"
+      },
+      {
+        "key": "D",
+        "text": "$(p\\wedge q)\\vee(\\sim p\\wedge \\sim q)$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$\\sim(p\\leftrightarrow q)$ is true exactly when $p$ and $q$ have different truth values. $p\\leftrightarrow\\sim q$ is true exactly when $p$ agrees with $\\sim q$, that is, when $p$ and $q$ differ. So they are equivalent. $\\sim p\\leftrightarrow\\sim q$ and $(p\\wedge q)\\vee(\\sim p\\wedge\\sim q)$ are both just $p\\leftrightarrow q$ again, the original statement and not its negation; $\\sim p\\wedge\\sim q$ is true in one row only.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0030",
+    "subject": "mathematics",
+    "topic": "Linear Inequalities",
+    "difficulty": "medium",
+    "stem": "The number of points $(x,y)$ with integer coordinates satisfying $x\\ge0$, $y\\ge0$ and $2x+3y\\le12$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$8$"
+      },
+      {
+        "key": "B",
+        "text": "$12$"
+      },
+      {
+        "key": "C",
+        "text": "$19$"
+      },
+      {
+        "key": "D",
+        "text": "$23$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "For each $x$, $y$ runs from $0$ to $\\left\\lfloor\\frac{12-2x}{3}\\right\\rfloor$. For $x=0,1,\\dots,6$ this gives $5,4,3,3,2,1,1$ points, so $19$ in all. $8$ counts only points with $x,y>0$; $12$ is the area of the triangle, which is not a lattice count; $23$ rounds $\\frac{12-2x}{3}$ up instead of down.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0031",
+    "subject": "mathematics",
+    "topic": "Limits, Continuity & Differentiability",
+    "difficulty": "easy",
+    "stem": "$\\displaystyle\\lim_{x\\to0}\\frac{e^{3x}-1}{\\ln(1+2x)}$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$6$"
+      },
+      {
+        "key": "B",
+        "text": "$1$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac32$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac23$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Use the standard limits $\\frac{e^{3x}-1}{3x}\\to1$ and $\\frac{\\ln(1+2x)}{2x}\\to1$. The limit is $\\frac{3x}{2x}=\\frac32$. $\\frac23$ inverts the ratio; $1$ treats both as plain $x$; $6$ multiplies the coefficients instead of dividing them.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0032",
+    "subject": "mathematics",
+    "topic": "Limits, Continuity & Differentiability",
+    "difficulty": "easy",
+    "stem": "$\\displaystyle\\lim_{x\\to\\infty}\\left(\\sqrt{x^2+5x}-x\\right)$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$5$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac52$"
+      },
+      {
+        "key": "C",
+        "text": "$0$"
+      },
+      {
+        "key": "D",
+        "text": "$\\infty$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Rationalise: $\\dfrac{5x}{\\sqrt{x^2+5x}+x}=\\dfrac{5}{\\sqrt{1+5/x}+1}\\to\\dfrac52$. $0$ wrongly cancels $\\sqrt{x^2}$ with $x$ before rationalising; $5$ forgets that the denominator tends to $2$, not $1$; $\\infty$ treats $\\infty-\\infty$ as $\\infty$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0033",
+    "subject": "mathematics",
+    "topic": "Limits, Continuity & Differentiability",
+    "difficulty": "medium",
+    "stem": "$\\displaystyle\\lim_{x\\to0}\\frac{\\tan x-\\sin x}{x^3}$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac13$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac12$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac16$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$\\tan x-\\sin x=\\tan x\\,(1-\\cos x)\\approx x\\cdot\\frac{x^2}{2}$, so the limit is $\\frac12$. (Series: $\\tan x=x+\\frac{x^3}{3}+\\dots$ and $\\sin x=x-\\frac{x^3}{6}+\\dots$, difference $\\frac{x^3}{2}$.) $0$ replaces both $\\tan x$ and $\\sin x$ by $x$ too early; $\\frac16$ and $\\frac13$ each keep only one of the two cubic terms.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0034",
+    "subject": "mathematics",
+    "topic": "Limits, Continuity & Differentiability",
+    "difficulty": "medium",
+    "stem": "$\\displaystyle\\lim_{x\\to2}\\big([x]+[-x]\\big)$, where $[\\cdot]$ is the greatest integer function, equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$1$"
+      },
+      {
+        "key": "B",
+        "text": "$0$"
+      },
+      {
+        "key": "C",
+        "text": "The limit does not exist"
+      },
+      {
+        "key": "D",
+        "text": "$-1$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "For any non-integer $x$, $[x]+[-x]=-1$. Near $2$ (on either side, $x\\ne2$): for $x\\to2^-$, $1+(-2)=-1$; for $x\\to2^+$, $2+(-3)=-1$. So the limit is $-1$, even though the value at $x=2$ is $0$ (a removable discontinuity). $0$ is $f(2)$, not the limit; 'does not exist' assumes the jumps of $[x]$ and $[-x]$ do not cancel, but they do.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0035",
+    "subject": "mathematics",
+    "topic": "Limits, Continuity & Differentiability",
+    "difficulty": "hard",
+    "stem": "If $\\displaystyle\\lim_{x\\to0}\\frac{a\\sin x+\\sin 2x}{x^3}$ is finite, then the value of this limit is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$-2$"
+      },
+      {
+        "key": "B",
+        "text": "$0$"
+      },
+      {
+        "key": "C",
+        "text": "$-1$"
+      },
+      {
+        "key": "D",
+        "text": "$1$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Expand: $a\\sin x+\\sin2x=(a+2)x-\\frac{(a+8)}{6}x^3+\\dots$ For a finite limit the $x$ term must vanish, so $a=-2$. The limit is then $-\\frac{6}{6}=-1$. $-2$ is the value of $a$, not the limit; $1$ loses the minus sign in the $x^3$ term of $\\sin$; $0$ assumes the cubic terms cancel as well, but $-2\\cdot(-\\frac16)+(-\\frac86)=-1\\ne0$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0036",
+    "subject": "mathematics",
+    "topic": "Limits, Continuity & Differentiability",
+    "difficulty": "medium",
+    "stem": "The number of points at which $f(x)=|x|^3+|x-2|+x|x|$ is not differentiable is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2$"
+      },
+      {
+        "key": "B",
+        "text": "$3$"
+      },
+      {
+        "key": "C",
+        "text": "$1$"
+      },
+      {
+        "key": "D",
+        "text": "$0$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$|x|^3$ is differentiable everywhere, including at $0$ (its derivative $3x|x|$ is continuous). $x|x|$ is also differentiable at $0$ (derivative $2|x|$). Only $|x-2|$ has a corner, at $x=2$. So there is exactly $1$ such point. $2$ and $3$ wrongly count $x=0$, once or twice, because a modulus sign appears there; $0$ overlooks $|x-2|$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0037",
+    "subject": "mathematics",
+    "topic": "Limits, Continuity & Differentiability",
+    "difficulty": "hard",
+    "stem": "$\\displaystyle\\lim_{x\\to0}(\\cos x)^{1/x^2}$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0$"
+      },
+      {
+        "key": "B",
+        "text": "$1$"
+      },
+      {
+        "key": "C",
+        "text": "$\\sqrt e$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{1}{\\sqrt e}$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "This is the $1^\\infty$ form, so the limit is $e^{L}$ with $L=\\lim\\frac{\\cos x-1}{x^2}=-\\frac12$. Hence $e^{-1/2}=\\frac{1}{\\sqrt e}$. $1$ treats $1^\\infty$ as $1$; $\\sqrt e$ loses the sign of $\\cos x-1$; $0$ assumes a base below $1$ raised to a huge power always gives $0$, but the base approaches $1$ fast enough to give a finite limit.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0038",
+    "subject": "mathematics",
+    "topic": "Differentiation & Applications",
+    "difficulty": "easy",
+    "stem": "For $|x|<1$, $\\dfrac{d}{dx}\\tan^{-1}\\!\\left(\\dfrac{2x}{1-x^2}\\right)$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{2}{1-x^2}$"
+      },
+      {
+        "key": "B",
+        "text": "$-\\dfrac{2}{1+x^2}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{1}{1+x^2}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{2}{1+x^2}$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "For $|x|<1$, $\\tan^{-1}\\frac{2x}{1-x^2}=2\\tan^{-1}x$ (put $x=\\tan\\theta$ with $|\\theta|<\\frac{\\pi}{4}$). So the derivative is $\\frac{2}{1+x^2}$. $\\frac{1}{1+x^2}$ drops the factor $2$; $-\\frac{2}{1+x^2}$ has the wrong sign; $\\frac{2}{1-x^2}$ confuses it with the derivative of a $\\tanh^{-1}$-type expression.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0039",
+    "subject": "mathematics",
+    "topic": "Differentiation & Applications",
+    "difficulty": "easy",
+    "stem": "If $x^2+xy+y^2=7$, then $\\dfrac{dy}{dx}$ at the point $(1,2)$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac45$"
+      },
+      {
+        "key": "B",
+        "text": "$-\\dfrac45$"
+      },
+      {
+        "key": "C",
+        "text": "$-\\dfrac12$"
+      },
+      {
+        "key": "D",
+        "text": "$-\\dfrac54$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Differentiate: $2x+y+xy'+2yy'=0\\Rightarrow y'=-\\dfrac{2x+y}{x+2y}=-\\dfrac{4}{5}$ at $(1,2)$. $-\\frac54$ inverts the fraction; $\\frac45$ loses the sign; $-\\frac12$ forgets the product rule on $xy$ (it drops both $y$ and $xy'$).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0040",
+    "subject": "mathematics",
+    "topic": "Differentiation & Applications",
+    "difficulty": "medium",
+    "stem": "If $x=t^2$ and $y=t^3$, then $\\dfrac{d^2y}{dx^2}$ at $t=1$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$3$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac32$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac34$"
+      },
+      {
+        "key": "D",
+        "text": "$6$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$\\frac{dy}{dx}=\\frac{3t^2}{2t}=\\frac{3t}{2}$. Then $\\frac{d^2y}{dx^2}=\\frac{d}{dt}\\left(\\frac{3t}{2}\\right)\\cdot\\frac{dt}{dx}=\\frac32\\cdot\\frac{1}{2t}=\\frac34$ at $t=1$. $\\frac32$ is only $\\frac{dy}{dx}$ (or forgets to multiply by $\\frac{dt}{dx}$); $3=\\frac{y''(t)}{x''(t)}$ is a common but invalid shortcut; $6$ is $\\frac{d^2y}{dt^2}$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0041",
+    "subject": "mathematics",
+    "topic": "Differentiation & Applications",
+    "difficulty": "medium",
+    "stem": "The value of $c$ given by Lagrange's mean value theorem for $f(x)=\\ln x$ on $[1,e]$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{1}{e-1}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{e+1}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\sqrt e$"
+      },
+      {
+        "key": "D",
+        "text": "$e-1$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$f'(c)=\\frac{f(e)-f(1)}{e-1}=\\frac{1}{e-1}$, and $f'(c)=\\frac1c$, so $c=e-1\\approx1.72\\in(1,e)$. $\\frac{e+1}{2}$ assumes $c$ is always the midpoint, which is true only for quadratics; $\\sqrt e$ is the geometric mean, which works for $\\frac1x$ but not for $\\ln x$; $\\frac{1}{e-1}$ is the slope $f'(c)$, not $c$ (it is also less than $1$, outside the interval).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0042",
+    "subject": "mathematics",
+    "topic": "Differentiation & Applications",
+    "difficulty": "medium",
+    "stem": "The normal to the curve $y=x^3$ at the point $(1,1)$ meets the $x$-axis at",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(4,0)$"
+      },
+      {
+        "key": "B",
+        "text": "$\\left(\\dfrac43,0\\right)$"
+      },
+      {
+        "key": "C",
+        "text": "$\\left(\\dfrac23,0\\right)$"
+      },
+      {
+        "key": "D",
+        "text": "$(-2,0)$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Tangent slope $3x^2=3$, so the normal has slope $-\\frac13$: $y-1=-\\frac13(x-1)$. Putting $y=0$ gives $x=4$. $\\left(\\frac23,0\\right)$ is where the tangent meets the axis; $(-2,0)$ uses slope $+\\frac13$ (sign forgotten); $\\left(\\frac43,0\\right)$ uses slope $-3$ (negated but not inverted).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0043",
+    "subject": "mathematics",
+    "topic": "Differentiation & Applications",
+    "difficulty": "easy",
+    "stem": "The radius of a sphere increases at $0.2$ cm/s. When the radius is $5$ cm, its volume increases at the rate of",
+    "options": [
+      {
+        "key": "A",
+        "text": "$4\\pi$ cm$^3$/s"
+      },
+      {
+        "key": "B",
+        "text": "$100\\pi$ cm$^3$/s"
+      },
+      {
+        "key": "C",
+        "text": "$20\\pi$ cm$^3$/s"
+      },
+      {
+        "key": "D",
+        "text": "$8\\pi$ cm$^3$/s"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}=4\\pi(25)(0.2)=20\\pi$ cm$^3$/s. $8\\pi$ is the rate of change of surface area, $8\\pi r\\frac{dr}{dt}$; $4\\pi$ uses $r$ instead of $r^2$; $100\\pi$ forgets to multiply by $\\frac{dr}{dt}$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0044",
+    "subject": "mathematics",
+    "topic": "Differentiation & Applications",
+    "difficulty": "hard",
+    "stem": "The point on the parabola $y^2=4x$ nearest to the point $(2,-8)$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(1,-2)$"
+      },
+      {
+        "key": "B",
+        "text": "$(9,-6)$"
+      },
+      {
+        "key": "C",
+        "text": "$(16,-8)$"
+      },
+      {
+        "key": "D",
+        "text": "$(4,-4)$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Take $P(t^2,2t)$. $D=(t^2-2)^2+(2t+8)^2$, so $D'=4t(t^2-2)+4(2t+8)=4t^3+32=0\\Rightarrow t=-2$, giving $P(4,-4)$. Check distances squared: $(4,-4)\\to20$, $(1,-2)\\to37$, $(9,-6)\\to53$, $(16,-8)\\to196$. $(16,-8)$ matches the $y$-coordinate of the given point but is far away; $(1,-2)$ is the latus-rectum end, an easy but wrong guess.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0045",
+    "subject": "mathematics",
+    "topic": "Differentiation & Applications",
+    "difficulty": "medium",
+    "stem": "$f(x)=x^3+ax^2+3x+5$ is increasing on the whole of $\\mathbb{R}$ if and only if",
+    "options": [
+      {
+        "key": "A",
+        "text": "$-3\\le a\\le 3$"
+      },
+      {
+        "key": "B",
+        "text": "$a\\ge 3$"
+      },
+      {
+        "key": "C",
+        "text": "$-6\\le a\\le 6$"
+      },
+      {
+        "key": "D",
+        "text": "$-3<a<3$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$f'(x)=3x^2+2ax+3\\ge0$ for all $x$ $\\iff$ discriminant $4a^2-36\\le0\\iff|a|\\le3$. At $a=\\pm3$, $f'(x)=3(x\\pm1)^2$ is zero at only one point, so $f$ is still increasing. That is why the endpoints belong, and the open interval $-3<a<3$ is wrong. $-6\\le a\\le6$ forgets the $2$ in $2ax$; $a\\ge3$ confuses the condition with a one-sided bound.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0046",
+    "subject": "mathematics",
+    "topic": "Integrals",
+    "difficulty": "easy",
+    "stem": "$\\displaystyle\\int\\frac{dx}{x\\ln x}$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{1}{\\ln x}+C$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{(\\ln x)^2}{2}+C$"
+      },
+      {
+        "key": "C",
+        "text": "$x\\ln x-x+C$"
+      },
+      {
+        "key": "D",
+        "text": "$\\ln|\\ln x|+C$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Put $u=\\ln x$, $du=\\frac{dx}{x}$: $\\int\\frac{du}{u}=\\ln|u|=\\ln|\\ln x|+C$. $\\frac{(\\ln x)^2}{2}$ is $\\int\\frac{\\ln x}{x}dx$; $\\frac{1}{\\ln x}$ differentiates to $-\\frac{1}{x(\\ln x)^2}$; $x\\ln x-x$ is $\\int\\ln x\\,dx$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0047",
+    "subject": "mathematics",
+    "topic": "Integrals",
+    "difficulty": "easy",
+    "stem": "$\\displaystyle\\int\\frac{dx}{\\sqrt{9-4x^2}}$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\sin^{-1}\\dfrac{2x}{3}+C$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac12\\sin^{-1}\\dfrac{2x}{3}+C$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac12\\sin^{-1}\\dfrac{3x}{2}+C$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac13\\sin^{-1}\\dfrac{2x}{3}+C$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$\\sqrt{9-4x^2}=2\\sqrt{\\frac94-x^2}$, so the integral is $\\frac12\\sin^{-1}\\frac{x}{3/2}=\\frac12\\sin^{-1}\\frac{2x}{3}$. Leaving out the $\\frac12$ forgets the factor taken out of the root; $\\frac13$ divides by $a$ as in the $\\tan^{-1}$ formula, which does not apply here; $\\frac{3x}{2}$ inverts the scaling.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0048",
+    "subject": "mathematics",
+    "topic": "Integrals",
+    "difficulty": "medium",
+    "stem": "$\\displaystyle\\int\\frac{dx}{1+e^{x}}$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$x-\\ln(1+e^x)+C$"
+      },
+      {
+        "key": "B",
+        "text": "$-\\ln(1+e^x)+C$"
+      },
+      {
+        "key": "C",
+        "text": "$x+\\ln(1+e^x)+C$"
+      },
+      {
+        "key": "D",
+        "text": "$\\ln(1+e^x)+C$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Write $\\frac{1}{1+e^x}=1-\\frac{e^x}{1+e^x}$. Integrating gives $x-\\ln(1+e^x)+C$. $\\ln(1+e^x)$ would need $e^x$ in the numerator; $x+\\ln(1+e^x)$ has the wrong sign; $-\\ln(1+e^x)$ drops the $\\int1\\,dx$ part.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0049",
+    "subject": "mathematics",
+    "topic": "Integrals",
+    "difficulty": "medium",
+    "stem": "$\\displaystyle\\int\\sin^{-1}x\\,dx$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$x\\sin^{-1}x+\\sqrt{1-x^2}+C$"
+      },
+      {
+        "key": "B",
+        "text": "$x\\sin^{-1}x-\\sqrt{1-x^2}+C$"
+      },
+      {
+        "key": "C",
+        "text": "$x\\sin^{-1}x+\\dfrac{1}{\\sqrt{1-x^2}}+C$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{x^2}{2}\\sin^{-1}x+C$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "By parts with $u=\\sin^{-1}x$, $dv=dx$: $x\\sin^{-1}x-\\int\\frac{x}{\\sqrt{1-x^2}}dx=x\\sin^{-1}x+\\sqrt{1-x^2}+C$. The minus-sign version mishandles $\\int\\frac{x\\,dx}{\\sqrt{1-x^2}}=-\\sqrt{1-x^2}$; $\\frac{x^2}{2}\\sin^{-1}x$ treats $\\sin^{-1}x$ as a constant; the $\\frac{1}{\\sqrt{1-x^2}}$ version adds the derivative of $\\sin^{-1}x$ instead of integrating.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0050",
+    "subject": "mathematics",
+    "topic": "Integrals",
+    "difficulty": "medium",
+    "stem": "$\\displaystyle\\int\\frac{x^2}{(x^2+1)(x^2+4)}\\,dx$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac43\\tan^{-1}\\dfrac x2-\\dfrac13\\tan^{-1}x+C$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac13\\tan^{-1}x-\\dfrac23\\tan^{-1}\\dfrac x2+C$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac13\\tan^{-1}\\dfrac x2-\\dfrac13\\tan^{-1}x+C$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac23\\tan^{-1}\\dfrac x2-\\dfrac13\\tan^{-1}x+C$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Put $x^2=u$: $\\frac{u}{(u+1)(u+4)}=\\frac{-1/3}{u+1}+\\frac{4/3}{u+4}$. So the integral is $-\\frac13\\tan^{-1}x+\\frac43\\cdot\\frac12\\tan^{-1}\\frac x2=\\frac23\\tan^{-1}\\frac x2-\\frac13\\tan^{-1}x+C$. $\\frac43$ forgets the $\\frac1a=\\frac12$ factor of the $\\tan^{-1}$ formula; $\\frac13\\tan^{-1}x-\\frac23\\tan^{-1}\\frac x2$ has every sign reversed; $\\frac13\\tan^{-1}\\frac x2-\\frac13\\tan^{-1}x$ uses wrong partial-fraction numerators.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0051",
+    "subject": "mathematics",
+    "topic": "Integrals",
+    "difficulty": "easy",
+    "stem": "$\\displaystyle\\int_{-1}^{1}\\left(x^5\\cos x+x^2\\right)dx$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac43$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac13$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac23$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$x^5\\cos x$ is odd, so it integrates to $0$ over $[-1,1]$. $x^2$ is even: $2\\int_0^1x^2dx=\\frac23$. $0$ wrongly treats the whole integrand as odd; $\\frac13$ integrates $x^2$ only over $[0,1]$; $\\frac43$ doubles twice.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0052",
+    "subject": "mathematics",
+    "topic": "Integrals",
+    "difficulty": "hard",
+    "stem": "$\\displaystyle\\int_0^{\\pi}\\frac{x\\sin x}{1+\\cos^2x}\\,dx$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{\\pi^2}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{\\pi^2}{8}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{\\pi}{4}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{\\pi^2}{4}$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Replacing $x$ by $\\pi-x$ gives $I=\\int_0^\\pi\\frac{(\\pi-x)\\sin x}{1+\\cos^2x}dx$. Adding: $2I=\\pi\\int_0^\\pi\\frac{\\sin x}{1+\\cos^2x}dx=\\pi\\left[-\\tan^{-1}(\\cos x)\\right]_0^\\pi=\\pi\\cdot\\frac{\\pi}{2}$. So $I=\\frac{\\pi^2}{4}$. $\\frac{\\pi^2}{2}$ forgets to halve $2I$; $\\frac{\\pi}{4}$ drops the factor $\\pi$ that comes out of the integral; $\\frac{\\pi^2}{8}$ uses only one half of $\\left[-\\tan^{-1}\\cos x\\right]$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0053",
+    "subject": "mathematics",
+    "topic": "Integrals",
+    "difficulty": "medium",
+    "stem": "$\\displaystyle\\lim_{n\\to\\infty}\\sum_{r=1}^{n}\\frac{n}{n^2+r^2}$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\ln2$"
+      },
+      {
+        "key": "B",
+        "text": "$1$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{\\pi}{4}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{\\pi}{2}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Write each term as $\\frac1n\\cdot\\frac{1}{1+(r/n)^2}$. As a Riemann sum this tends to $\\int_0^1\\frac{dx}{1+x^2}=\\frac{\\pi}{4}$. $\\frac{\\pi}{2}$ uses the limits $0$ to $\\infty$; $\\ln2$ is the result for $\\sum\\frac{1}{n+r}$, where the $r$ term is not squared; $1$ comes from putting $r=0$ in every term.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0054",
+    "subject": "mathematics",
+    "topic": "Integrals",
+    "difficulty": "hard",
+    "stem": "$\\displaystyle\\lim_{x\\to0^+}\\frac{1}{x^3}\\int_0^{x^2}\\sin\\sqrt t\\,dt$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac13$"
+      },
+      {
+        "key": "B",
+        "text": "$0$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac23$"
+      },
+      {
+        "key": "D",
+        "text": "$1$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "This is a $\\frac00$ form. L'Hospital with the Leibniz rule: the derivative of the numerator is $\\sin\\sqrt{x^2}\\cdot2x=2x\\sin x$, so the limit is $\\lim\\frac{2x\\sin x}{3x^2}=\\frac23$. $\\frac13$ drops the factor $2$ that the chain rule brings from the upper limit $x^2$; $1$ and $0$ come from comparing the orders of $x^2$ and $x^3$ incorrectly.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0055",
+    "subject": "mathematics",
+    "topic": "Area under Curves",
+    "difficulty": "easy",
+    "stem": "The area of the region bounded by $y=\\sin x$ and the $x$-axis between $x=0$ and $x=2\\pi$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2$"
+      },
+      {
+        "key": "B",
+        "text": "$2\\pi$"
+      },
+      {
+        "key": "C",
+        "text": "$0$"
+      },
+      {
+        "key": "D",
+        "text": "$4$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Area $=\\int_0^{2\\pi}|\\sin x|\\,dx=2\\int_0^\\pi\\sin x\\,dx=2\\times2=4$. $0$ is the signed integral, where the parts above and below the axis cancel; but area is never negative; $2$ counts only one arch; $2\\pi$ is the length of the interval.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0056",
+    "subject": "mathematics",
+    "topic": "Area under Curves",
+    "difficulty": "medium",
+    "stem": "The area of the region bounded by the parabola $y^2=4x$ and the line $y=2x$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac13$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac16$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac43$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac23$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "They meet at $(0,0)$ and $(1,2)$. Integrating in $y$: $\\int_0^2\\left(\\frac y2-\\frac{y^2}{4}\\right)dy=1-\\frac23=\\frac13$. $\\frac23$ is $\\int_0^1\\sqrt x\\,dx$, which uses $y=\\sqrt x$ and forgets the $4$; $\\frac16$ is the area between $y^2=x$ and $y=x$, a different pair of curves; $\\frac43=\\int_0^1 2\\sqrt x\\,dx$ is the area under the parabola without subtracting the triangle under the line.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0057",
+    "subject": "mathematics",
+    "topic": "Area under Curves",
+    "difficulty": "hard",
+    "stem": "The area of the region $\\{(x,y): x^2+y^2\\le4,\\ x+y\\ge2\\}$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\pi-1$"
+      },
+      {
+        "key": "B",
+        "text": "$\\pi-2$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{\\pi-2}{2}$"
+      },
+      {
+        "key": "D",
+        "text": "$2\\pi-2$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The chord $x+y=2$ joins $(2,0)$ and $(0,2)$ and cuts off a minor segment. Area = quarter circle minus triangle $=\\frac14\\pi(2)^2-\\frac12(2)(2)=\\pi-2$. $2\\pi-2$ uses half the circle instead of a quarter; $\\pi-1$ takes the triangle's area as $1$; $\\frac{\\pi-2}{2}$ halves the correct value.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0058",
+    "subject": "mathematics",
+    "topic": "Differential Equations",
+    "difficulty": "medium",
+    "stem": "The order of the differential equation whose general solution is $y=(c_1+c_2)\\,e^{x+c_3}$, where $c_1,c_2,c_3$ are arbitrary constants, is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2$"
+      },
+      {
+        "key": "B",
+        "text": "$3$"
+      },
+      {
+        "key": "C",
+        "text": "$1$"
+      },
+      {
+        "key": "D",
+        "text": "$0$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$y=(c_1+c_2)e^{c_3}\\cdot e^x=Ce^x$, which has only one essential arbitrary constant. Eliminating it gives $\\frac{dy}{dx}=y$, so the order is $1$. $3$ counts the constants as written without combining them; $2$ combines only $c_1+c_2$; order $0$ would mean no derivative is involved at all.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0059",
+    "subject": "mathematics",
+    "topic": "Differential Equations",
+    "difficulty": "medium",
+    "stem": "The general solution of $x\\dfrac{dy}{dx}=y+x\\tan\\dfrac{y}{x}$ is ($c$ an arbitrary constant)",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\sin\\dfrac yx=cx$"
+      },
+      {
+        "key": "B",
+        "text": "$\\sin\\dfrac yx=cx^2$"
+      },
+      {
+        "key": "C",
+        "text": "$\\tan\\dfrac yx=cx$"
+      },
+      {
+        "key": "D",
+        "text": "$\\cos\\dfrac yx=cx$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The equation is homogeneous. Put $y=vx$: $x(v+xv')=vx+x\\tan v\\Rightarrow xv'=\\tan v$, so $\\cot v\\,dv=\\frac{dx}{x}$. Integrating: $\\ln|\\sin v|=\\ln|x|+k$, so $\\sin\\frac yx=cx$. $\\tan\\frac yx$ comes from integrating $\\cot v$ wrongly; $\\cos\\frac yx$ comes from confusing $\\int\\cot v\\,dv=\\ln|\\sin v|$ with $\\int\\tan v\\,dv=-\\ln|\\cos v|$; $cx^2$ doubles the $\\ln x$ term.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0060",
+    "subject": "mathematics",
+    "topic": "Differential Equations",
+    "difficulty": "hard",
+    "stem": "If $\\dfrac{dy}{dx}+y\\tan x=\\sec x$ and $y(0)=1$, then $y\\!\\left(\\dfrac{\\pi}{4}\\right)$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$1$"
+      },
+      {
+        "key": "B",
+        "text": "$2$"
+      },
+      {
+        "key": "C",
+        "text": "$\\sqrt2$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{1}{\\sqrt2}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Integrating factor $e^{\\int\\tan x\\,dx}=\\sec x$. Then $(y\\sec x)'=\\sec^2x\\Rightarrow y\\sec x=\\tan x+C$. $y(0)=1$ gives $C=1$, so $y=\\sin x+\\cos x$ and $y\\left(\\frac\\pi4\\right)=\\sqrt2$. $\\frac1{\\sqrt2}$ drops the constant ($y=\\sin x$); $1$ just repeats the initial value, as if $y$ were constant; $2$ forgets to multiply back by $\\cos x$ ($\\tan\\frac\\pi4+1$).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0061",
+    "subject": "mathematics",
+    "topic": "Straight Lines",
+    "difficulty": "easy",
+    "stem": "The origin is shifted to the point $(2,-3)$ without rotating the axes. The new coordinates of the point $(5,1)$ are",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(3,4)$"
+      },
+      {
+        "key": "B",
+        "text": "$(3,-2)$"
+      },
+      {
+        "key": "C",
+        "text": "$(-3,-4)$"
+      },
+      {
+        "key": "D",
+        "text": "$(7,-2)$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "New coordinates: $(X,Y)=(x-h,\\,y-k)=(5-2,\\,1-(-3))=(3,4)$. $(7,-2)$ adds the shift instead of subtracting it; $(3,-2)$ subtracts $3$ instead of $-3$ in $y$; $(-3,-4)$ subtracts in the wrong order ($h-x$, $k-y$).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0062",
+    "subject": "mathematics",
+    "topic": "Straight Lines",
+    "difficulty": "medium",
+    "stem": "A line passes through $(3,4)$, and the portion of it between the coordinate axes is bisected at that point. Its equation is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$3x+4y=25$"
+      },
+      {
+        "key": "B",
+        "text": "$4x+3y=24$"
+      },
+      {
+        "key": "C",
+        "text": "$4x+3y=12$"
+      },
+      {
+        "key": "D",
+        "text": "$3x+4y=24$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "If the intercepts are $(a,0)$ and $(0,b)$, their midpoint is $(3,4)$, so $a=6$, $b=8$: $\\frac x6+\\frac y8=1\\Rightarrow4x+3y=24$. $3x+4y=25$ is the line through $(3,4)$ perpendicular to the line joining it to the origin, a different condition; $4x+3y=12$ uses intercepts $3$ and $4$, not double them; $3x+4y=24$ swaps the intercepts and does not even pass through $(3,4)$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0063",
+    "subject": "mathematics",
+    "topic": "Straight Lines",
+    "difficulty": "medium",
+    "stem": "The equation $\\lambda x^2-10xy+12y^2+5x-16y-3=0$ represents a pair of straight lines. Then $\\lambda$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2$"
+      },
+      {
+        "key": "B",
+        "text": "$1$"
+      },
+      {
+        "key": "C",
+        "text": "$3$"
+      },
+      {
+        "key": "D",
+        "text": "$-2$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Condition: $abc+2fgh-af^2-bg^2-ch^2=0$ with $a=\\lambda$, $h=-5$, $b=12$, $g=\\frac52$, $f=-8$, $c=-3$: $-36\\lambda+200-64\\lambda-75+75=0\\Rightarrow\\lambda=2$. (Indeed $2x^2-10xy+12y^2+5x-16y-3=(x-2y+3)(2x-6y-1)$.) $-2$ comes from a sign error in $2fgh$; $1$ and $3$ make the determinant non-zero; checking $h^2\\ge ab$ alone is not enough.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0064",
+    "subject": "mathematics",
+    "topic": "Straight Lines",
+    "difficulty": "medium",
+    "stem": "The incentre of the triangle with vertices $(0,0)$, $(4,0)$ and $(0,3)$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(1,1)$"
+      },
+      {
+        "key": "B",
+        "text": "$\\left(2,\\dfrac32\\right)$"
+      },
+      {
+        "key": "C",
+        "text": "$\\left(1,\\dfrac43\\right)$"
+      },
+      {
+        "key": "D",
+        "text": "$\\left(\\dfrac43,1\\right)$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "It is a right triangle with legs $4,3$ and hypotenuse $5$, so the inradius is $r=\\frac{3+4-5}{2}=1$. The incentre is at distance $1$ from both axes: $(1,1)$. $\\left(\\frac43,1\\right)$ is the centroid; $\\left(2,\\frac32\\right)$ is the circumcentre (midpoint of the hypotenuse); $\\left(1,\\frac43\\right)$ is not a standard centre.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0065",
+    "subject": "mathematics",
+    "topic": "Straight Lines",
+    "difficulty": "hard",
+    "stem": "Among all lines of the family $(x+2y-3)+k(2x-y-1)=0$, the one farthest from the point $(4,5)$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$4x+3y=7$"
+      },
+      {
+        "key": "B",
+        "text": "$3x-4y+1=0$"
+      },
+      {
+        "key": "C",
+        "text": "$4x-3y=1$"
+      },
+      {
+        "key": "D",
+        "text": "$3x+4y=7$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Every member passes through the intersection of $x+2y=3$ and $2x-y=1$, which is $(1,1)$. The distance from $(4,5)$ is greatest, equal to $5$, for the member perpendicular to the join of $(1,1)$ and $(4,5)$ (slope $\\frac43$). So its slope is $-\\frac34$: $3x+4y=7$. $4x-3y=1$ is the join itself and passes through $(4,5)$, giving distance $0$; $4x+3y=7$ and $3x-4y+1=0$ also pass through $(1,1)$ but lie at distances $\\frac{24}{5}$ and $\\frac75$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0066",
+    "subject": "mathematics",
+    "topic": "Circles",
+    "difficulty": "easy",
+    "stem": "The Cartesian equation of the circle $x=3+5\\cos\\theta,\\ y=-2+5\\sin\\theta$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$x^2+y^2-6x+4y-25=0$"
+      },
+      {
+        "key": "B",
+        "text": "$x^2+y^2+6x-4y-12=0$"
+      },
+      {
+        "key": "C",
+        "text": "$x^2+y^2-6x+4y+8=0$"
+      },
+      {
+        "key": "D",
+        "text": "$x^2+y^2-6x+4y-12=0$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$\\cos\\theta=\\frac{x-3}{5}$ and $\\sin\\theta=\\frac{y+2}{5}$, so $(x-3)^2+(y+2)^2=25$, i.e. $x^2+y^2-6x+4y-12=0$. $+6x-4y$ puts the centre at $(-3,2)$; $-25$ forgets to add the $9+4$ from expanding; $+8$ uses $r^2=5$ instead of $25$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0067",
+    "subject": "mathematics",
+    "topic": "Circles",
+    "difficulty": "medium",
+    "stem": "The length of the common chord of the circles $x^2+y^2=25$ and $x^2+y^2-12x+11=0$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$6$"
+      },
+      {
+        "key": "B",
+        "text": "$8$"
+      },
+      {
+        "key": "C",
+        "text": "$10$"
+      },
+      {
+        "key": "D",
+        "text": "$4$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Subtracting the equations gives the common chord $S_1-S_2=0$: $12x-11=25\\Rightarrow x=3$. On $x^2+y^2=25$ this gives $y=\\pm4$, so the length is $8$. (Both circles have radius $5$, with centres $6$ apart.) $6$ is the distance between the centres; $4$ is half the chord; $10$ is a diameter.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0068",
+    "subject": "mathematics",
+    "topic": "Circles",
+    "difficulty": "medium",
+    "stem": "A circle touches both coordinate axes, has its centre in the first quadrant and passes through $(2,1)$. Its radius can be",
+    "options": [
+      {
+        "key": "A",
+        "text": "$1$ or $5$"
+      },
+      {
+        "key": "B",
+        "text": "$5$ only"
+      },
+      {
+        "key": "C",
+        "text": "$1$ or $4$"
+      },
+      {
+        "key": "D",
+        "text": "$2$ or $3$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Centre $(r,r)$ and radius $r$: $(2-r)^2+(1-r)^2=r^2\\Rightarrow r^2-6r+5=0\\Rightarrow r=1$ or $5$. Both work: $(2,1)$ is at distance $1$ from $(1,1)$ and at distance $5$ from $(5,5)$. '$5$ only' throws away a valid circle; $2$ or $3$ and $1$ or $4$ do not satisfy the equation.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0069",
+    "subject": "mathematics",
+    "topic": "Circles",
+    "difficulty": "medium",
+    "stem": "The length of the chord cut off by the line $x-y+1=0$ on the circle $x^2+y^2=25$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{7}{\\sqrt2}$"
+      },
+      {
+        "key": "B",
+        "text": "$10$"
+      },
+      {
+        "key": "C",
+        "text": "$4\\sqrt6$"
+      },
+      {
+        "key": "D",
+        "text": "$7\\sqrt2$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The distance of the centre from the line is $d=\\frac{1}{\\sqrt2}$. Chord $=2\\sqrt{r^2-d^2}=2\\sqrt{25-\\frac12}=2\\cdot\\frac{7}{\\sqrt2}=7\\sqrt2$. $\\frac{7}{\\sqrt2}$ is only half the chord; $4\\sqrt6=2\\sqrt{24}$ uses $d=1$, forgetting to divide by $\\sqrt{1^2+1^2}$; $10$ is the diameter, which would need the line to pass through the centre.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0070",
+    "subject": "mathematics",
+    "topic": "Circles",
+    "difficulty": "hard",
+    "stem": "The circles $x^2+y^2+2x-4y-4=0$ and $x^2+y^2-4x+2ky+2=0$ cut each other orthogonally. Then $k$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$-\\dfrac14$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac12$"
+      },
+      {
+        "key": "C",
+        "text": "$-\\dfrac12$"
+      },
+      {
+        "key": "D",
+        "text": "$-1$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Orthogonality: $2g_1g_2+2f_1f_2=c_1+c_2$. Here $g_1=1$, $f_1=-2$, $c_1=-4$; $g_2=-2$, $f_2=k$, $c_2=2$. So $-4-4k=-2\\Rightarrow k=-\\frac12$, and the second circle is real, with $r^2=4+\\frac14-2>0$. $\\frac12$ uses $c_1-c_2$; $-1$ sets $2g_1g_2+2f_1f_2=0$, forgetting the constants; $-\\frac14$ takes $f_2=2k$, forgetting to halve the coefficient of $y$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0071",
+    "subject": "mathematics",
+    "topic": "Conic Sections",
+    "difficulty": "easy",
+    "stem": "The eccentricity of the hyperbola $xy=8$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$1$"
+      },
+      {
+        "key": "B",
+        "text": "$2$"
+      },
+      {
+        "key": "C",
+        "text": "$\\sqrt2$"
+      },
+      {
+        "key": "D",
+        "text": "$2\\sqrt2$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$xy=c^2$ is a rectangular hyperbola, $x^2-y^2=a^2$ rotated by $45^\\circ$. With $a=b$, $e=\\sqrt{1+\\frac{b^2}{a^2}}=\\sqrt2$, whatever the constant. $2\\sqrt2$ confuses $e$ with $\\sqrt8$; $2$ is the eccentricity when $b^2=3a^2$; $1$ is the eccentricity of a parabola.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0072",
+    "subject": "mathematics",
+    "topic": "Conic Sections",
+    "difficulty": "easy",
+    "stem": "The foci of the ellipse $\\dfrac{x^2}{16}+\\dfrac{y^2}{25}=1$ are",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(0,\\pm\\sqrt{41})$"
+      },
+      {
+        "key": "B",
+        "text": "$(0,\\pm5)$"
+      },
+      {
+        "key": "C",
+        "text": "$(0,\\pm3)$"
+      },
+      {
+        "key": "D",
+        "text": "$(\\pm3,0)$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Here $25>16$, so the major axis is along the $y$-axis, and $c=\\sqrt{25-16}=3$. The foci are $(0,\\pm3)$. $(\\pm3,0)$ assumes the major axis is always along $x$; $(0,\\pm5)$ are the vertices; $\\sqrt{41}$ adds $a^2+b^2$ as for a hyperbola.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0073",
+    "subject": "mathematics",
+    "topic": "Conic Sections",
+    "difficulty": "medium",
+    "stem": "One end of a focal chord of the parabola $y^2=8x$ is $(8,8)$. The other end is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(2,-4)$"
+      },
+      {
+        "key": "B",
+        "text": "$\\left(\\dfrac12,2\\right)$"
+      },
+      {
+        "key": "C",
+        "text": "$(8,-8)$"
+      },
+      {
+        "key": "D",
+        "text": "$\\left(\\dfrac12,-2\\right)$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Here $a=2$, and points are $(2t^2,4t)$. $(8,8)$ has $t_1=2$. The ends of a focal chord satisfy $t_1t_2=-1$, so $t_2=-\\frac12$, giving $\\left(\\frac12,-2\\right)$. Check: it is collinear with $(8,8)$ and the focus $(2,0)$. $(2,-4)$ is an end of the latus rectum; $(8,-8)$ is the mirror image, which gives a chord perpendicular to the axis that misses the focus; $\\left(\\frac12,2\\right)$ has the wrong sign of $t_2$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0074",
+    "subject": "mathematics",
+    "topic": "Conic Sections",
+    "difficulty": "medium",
+    "stem": "The tangents drawn from the point $(1,4)$ to the parabola $y^2=12x$ are",
+    "options": [
+      {
+        "key": "A",
+        "text": "$y=2x+2$ and $y=\\frac12x+\\frac72$"
+      },
+      {
+        "key": "B",
+        "text": "$y=x+3$ and $y=3x+1$"
+      },
+      {
+        "key": "C",
+        "text": "$y=x+3$ only"
+      },
+      {
+        "key": "D",
+        "text": "$y=-x+5$ and $y=-3x+7$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$y=mx+\\frac3m$ touches $y^2=12x$ (here $a=3$). It passes through $(1,4)$ if $4=m+\\frac3m\\Rightarrow m^2-4m+3=0\\Rightarrow m=1,3$, giving $y=x+3$ and $y=3x+1$. '$y=x+3$ only' misses the second tangent, but $(1,4)$ lies outside the parabola ($16>12$), so there are two; the other pairs pass through $(1,4)$ but fail $c=\\frac am$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0075",
+    "subject": "mathematics",
+    "topic": "Conic Sections",
+    "difficulty": "hard",
+    "stem": "The foci of the ellipse $\\dfrac{x^2}{16}+\\dfrac{y^2}{b^2}=1$ coincide with those of the hyperbola $\\dfrac{x^2}{144}-\\dfrac{y^2}{81}=\\dfrac{1}{25}$. Then $b^2$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$9$"
+      },
+      {
+        "key": "B",
+        "text": "$7$"
+      },
+      {
+        "key": "C",
+        "text": "$25$"
+      },
+      {
+        "key": "D",
+        "text": "$13$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Rewrite the hyperbola as $\\frac{x^2}{144/25}-\\frac{y^2}{81/25}=1$. Then $c^2=\\frac{144+81}{25}=9$, so the foci are $(\\pm3,0)$. For the ellipse, $16-b^2=9\\Rightarrow b^2=7$. $9$ is $c^2$ itself; $25=16+9$ uses the hyperbola relation $c^2=a^2+b^2$ for the ellipse; $13=16-3$ subtracts $c$ instead of $c^2$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0076",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "easy",
+    "stem": "The angle, in radians, turned through by the minute hand of a clock in $20$ minutes is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{4\\pi}{3}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{\\pi}{3}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{\\pi}{6}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{2\\pi}{3}$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The minute hand turns $2\\pi$ in $60$ min, so in $20$ min it turns $\\frac{20}{60}\\cdot2\\pi=\\frac{2\\pi}{3}$ ($120^\\circ$). $\\frac{\\pi}{3}$ uses $\\pi$ for a full turn; $\\frac{\\pi}{6}$ is the hour hand's turn in an hour; $\\frac{4\\pi}{3}$ doubles the answer.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0077",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "medium",
+    "stem": "$\\sin^2 5^\\circ+\\sin^2 10^\\circ+\\sin^2 15^\\circ+\\cdots+\\sin^2 90^\\circ$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{19}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$10$"
+      },
+      {
+        "key": "C",
+        "text": "$9$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{17}{2}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "There are $18$ terms. Pair $\\theta$ with $90^\\circ-\\theta$: $\\sin^2\\theta+\\cos^2\\theta=1$ for $(5,85),\\dots,(40,50)$, which is $8$ pairs. The leftover terms are $\\sin^245^\\circ=\\frac12$ and $\\sin^290^\\circ=1$. Total $8+\\frac12+1=\\frac{19}{2}$. $9$ halves the number of terms without handling the unpaired ones; $\\frac{17}{2}$ forgets $\\sin^290^\\circ$; $10$ counts $\\sin^245^\\circ$ as $1$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0078",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "medium",
+    "stem": "The general solution of $\\sqrt3\\cos x+\\sin x=\\sqrt2$ is ($n\\in\\mathbb{Z}$)",
+    "options": [
+      {
+        "key": "A",
+        "text": "$x=n\\pi\\pm\\dfrac{\\pi}{4}+\\dfrac{\\pi}{6}$"
+      },
+      {
+        "key": "B",
+        "text": "$x=2n\\pi\\pm\\dfrac{\\pi}{4}-\\dfrac{\\pi}{6}$"
+      },
+      {
+        "key": "C",
+        "text": "$x=2n\\pi\\pm\\dfrac{\\pi}{4}+\\dfrac{\\pi}{6}$"
+      },
+      {
+        "key": "D",
+        "text": "$x=2n\\pi\\pm\\dfrac{\\pi}{6}+\\dfrac{\\pi}{4}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Divide by $2$: $\\cos x\\cos\\frac\\pi6+\\sin x\\sin\\frac\\pi6=\\frac{1}{\\sqrt2}$, so $\\cos\\left(x-\\frac\\pi6\\right)=\\cos\\frac\\pi4$. Hence $x-\\frac\\pi6=2n\\pi\\pm\\frac\\pi4$. The $-\\frac\\pi6$ version writes $\\cos(x+\\frac\\pi6)$, a sign slip in the compound-angle formula; $n\\pi$ is the general solution for $\\tan$ or $\\cos^2$, not for $\\cos$, so it adds false roots; $2n\\pi\\pm\\frac\\pi6+\\frac\\pi4$ swaps the roles of $\\frac\\pi4$ and $\\frac\\pi6$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0079",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "medium",
+    "stem": "The minimum value of $\\sin^4x+\\cos^4x$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac14$"
+      },
+      {
+        "key": "B",
+        "text": "$1$"
+      },
+      {
+        "key": "C",
+        "text": "$0$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac12$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$\\sin^4x+\\cos^4x=(\\sin^2x+\\cos^2x)^2-2\\sin^2x\\cos^2x=1-\\frac12\\sin^22x$. Its minimum is $\\frac12$, when $\\sin^22x=1$. $0$ would need both $\\sin x$ and $\\cos x$ to vanish at once; $\\frac14$ is the largest value of $\\sin^2x\\cos^2x$, not the minimum of the expression; $1$ is the maximum.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0080",
+    "subject": "mathematics",
+    "topic": "Trigonometry",
+    "difficulty": "hard",
+    "stem": "If $\\sin\\theta+\\cos\\theta=\\dfrac15$ and $0<\\theta<\\pi$, then $\\tan\\theta$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$-\\dfrac34$"
+      },
+      {
+        "key": "B",
+        "text": "$-\\dfrac43$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac43$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac34$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Squaring: $1+2\\sin\\theta\\cos\\theta=\\frac1{25}$, so $2\\sin\\theta\\cos\\theta=-\\frac{24}{25}$. Then $\\theta$ is in the second quadrant and $\\sin\\theta-\\cos\\theta>0$: $(\\sin\\theta-\\cos\\theta)^2=1+\\frac{24}{25}$, so $\\sin\\theta-\\cos\\theta=\\frac75$. Solving, $\\sin\\theta=\\frac45$, $\\cos\\theta=-\\frac35$, and $\\tan\\theta=-\\frac43$. $-\\frac34$ swaps sine and cosine (it is the value when $\\sin\\theta-\\cos\\theta=-\\frac75$, which is impossible here); the positive values ignore that $\\sin\\theta\\cos\\theta<0$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0081",
+    "subject": "mathematics",
+    "topic": "Inverse Trigonometric Functions",
+    "difficulty": "easy",
+    "stem": "$\\sec^2\\!\\left(\\tan^{-1}2\\right)+\\csc^2\\!\\left(\\cot^{-1}3\\right)$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$13$"
+      },
+      {
+        "key": "B",
+        "text": "$15$"
+      },
+      {
+        "key": "C",
+        "text": "$10$"
+      },
+      {
+        "key": "D",
+        "text": "$5$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "$\\sec^2(\\tan^{-1}2)=1+\\tan^2=1+4=5$ and $\\csc^2(\\cot^{-1}3)=1+\\cot^2=1+9=10$. The sum is $15$. $13=4+9$ forgets the $1+$ in both identities; $5$ and $10$ are each only one of the two terms.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0082",
+    "subject": "mathematics",
+    "topic": "Inverse Trigonometric Functions",
+    "difficulty": "medium",
+    "stem": "The solution of $\\tan^{-1}2x+\\tan^{-1}3x=\\dfrac{\\pi}{4}$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$x=\\dfrac16$ only"
+      },
+      {
+        "key": "B",
+        "text": "$x=-1$ only"
+      },
+      {
+        "key": "C",
+        "text": "$x=1$"
+      },
+      {
+        "key": "D",
+        "text": "$x=\\dfrac16$ or $x=-1$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Taking $\\tan$ of both sides: $\\frac{5x}{1-6x^2}=1\\Rightarrow6x^2+5x-1=0\\Rightarrow x=\\frac16$ or $x=-1$. For $x=-1$ both inverse tangents are negative, so their sum is $-\\frac{3\\pi}{4}$, not $\\frac\\pi4$, and $x=-1$ is extraneous. So only $x=\\frac16$ works. '$\\frac16$ or $-1$' forgets to check the roots; '$-1$ only' keeps the wrong root; $x=1$ makes the left side exceed $\\frac\\pi2$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0083",
+    "subject": "mathematics",
+    "topic": "Inverse Trigonometric Functions",
+    "difficulty": "hard",
+    "stem": "$\\displaystyle\\sum_{r=1}^{\\infty}\\tan^{-1}\\frac{1}{r^2+r+1}$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{\\pi}{3}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{\\pi}{6}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{\\pi}{2}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{\\pi}{4}$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "$\\frac{1}{1+r(r+1)}=\\frac{(r+1)-r}{1+r(r+1)}$, so each term is $\\tan^{-1}(r+1)-\\tan^{-1}r$. The sum telescopes to $\\lim_{n\\to\\infty}\\tan^{-1}(n+1)-\\tan^{-1}1=\\frac\\pi2-\\frac\\pi4=\\frac\\pi4$. $\\frac\\pi2$ forgets to subtract $\\tan^{-1}1$; $\\frac\\pi3$ and $\\frac\\pi6$ do not come out of the telescoping at all (the first term alone is $\\tan^{-1}\\frac13$).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0084",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "easy",
+    "stem": "If $\\vec a=\\hat i+2\\hat j-\\hat k$ and $\\vec b=2\\hat i-\\hat j+3\\hat k$, the unit vector along $\\vec a+\\vec b$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{3\\hat i+\\hat j+2\\hat k}{\\sqrt{14}}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{3\\hat i+\\hat j+2\\hat k}{\\sqrt6}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{-\\hat i+3\\hat j-4\\hat k}{\\sqrt{26}}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{3\\hat i+\\hat j+2\\hat k}{14}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$\\vec a+\\vec b=3\\hat i+\\hat j+2\\hat k$ with magnitude $\\sqrt{9+1+4}=\\sqrt{14}$. Dividing gives the unit vector. Dividing by $14$ uses the squared magnitude; the $\\sqrt{26}$ option is along $\\vec a-\\vec b$; $\\sqrt6$ adds the components ($3+1+2$) instead of their squares.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0085",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "medium",
+    "stem": "If $|\\vec a\\times\\vec b|^2+(\\vec a\\cdot\\vec b)^2=144$ and $|\\vec a|=4$, then $|\\vec b|$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$12$"
+      },
+      {
+        "key": "B",
+        "text": "$9$"
+      },
+      {
+        "key": "C",
+        "text": "$3$"
+      },
+      {
+        "key": "D",
+        "text": "$36$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Lagrange's identity: $|\\vec a\\times\\vec b|^2+(\\vec a\\cdot\\vec b)^2=|\\vec a|^2|\\vec b|^2$, whatever the angle. So $16|\\vec b|^2=144$ and $|\\vec b|=3$. $9$ is $|\\vec b|^2$; $12=\\sqrt{144}$ ignores $|\\vec a|$; $36$ divides $144$ by $|\\vec a|$ instead of $|\\vec a|^2$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0086",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "medium",
+    "stem": "A unit vector perpendicular to both $\\hat i+\\hat j$ and $\\hat j+\\hat k$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{\\hat i-\\hat j+\\hat k}{\\sqrt3}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{\\hat i+\\hat j+\\hat k}{\\sqrt3}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{\\hat i+\\hat j-\\hat k}{\\sqrt3}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\hat i-\\hat j+\\hat k$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$(\\hat i+\\hat j)\\times(\\hat j+\\hat k)=\\hat i-\\hat j+\\hat k$, with magnitude $\\sqrt3$. Check: its dot product with $(1,1,0)$ is $1-1=0$, and with $(0,1,1)$ is $-1+1=0$. $\\hat i+\\hat j+\\hat k$ is not perpendicular (its dot products are $2$); $\\hat i+\\hat j-\\hat k$ fails with $\\hat i+\\hat j$; $\\hat i-\\hat j+\\hat k$ is perpendicular but is not a unit vector.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0087",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "medium",
+    "stem": "The area of the triangle with vertices $A(1,1,1)$, $B(1,2,3)$ and $C(2,3,1)$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{\\sqrt{21}}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\sqrt{21}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{21}{2}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{\\sqrt{14}}{2}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "$\\vec{AB}=(0,1,2)$ and $\\vec{AC}=(1,2,0)$. $\\vec{AB}\\times\\vec{AC}=(-4,2,-1)$, with magnitude $\\sqrt{21}$. Area $=\\frac12\\sqrt{21}$. $\\sqrt{21}$ is the area of the parallelogram (the $\\frac12$ is forgotten); $\\frac{21}{2}$ forgets the square root; $\\frac{\\sqrt{14}}{2}$ comes from a wrong cross product.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0088",
+    "subject": "mathematics",
+    "topic": "Vectors",
+    "difficulty": "hard",
+    "stem": "Let $\\vec a=\\hat i+\\hat j+\\hat k$ and $\\vec c=\\hat j-\\hat k$. If $\\vec a\\times\\vec b=\\vec c$ and $\\vec a\\cdot\\vec b=3$, then $\\vec b$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac13\\left(5\\hat i+2\\hat j+2\\hat k\\right)$"
+      },
+      {
+        "key": "B",
+        "text": "$\\hat i+\\hat j+\\hat k$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac13\\left(5\\hat i-2\\hat j-2\\hat k\\right)$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac13\\left(2\\hat i+5\\hat j+2\\hat k\\right)$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Cross with $\\vec a$: $\\vec a\\times(\\vec a\\times\\vec b)=(\\vec a\\cdot\\vec b)\\vec a-|\\vec a|^2\\vec b=\\vec a\\times\\vec c$. Here $\\vec a\\times\\vec c=-2\\hat i+\\hat j+\\hat k$, so $3\\vec a-3\\vec b=-2\\hat i+\\hat j+\\hat k$ and $\\vec b=\\frac13(5\\hat i+2\\hat j+2\\hat k)$. Check: $\\vec a\\cdot\\vec b=3$. $\\hat i+\\hat j+\\hat k$ satisfies the dot condition but gives $\\vec a\\times\\vec b=\\vec 0$; the other two come from sign or order slips in $\\vec a\\times\\vec c$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0089",
+    "subject": "mathematics",
+    "topic": "3D Geometry",
+    "difficulty": "easy",
+    "stem": "The distance of the point $(3,4,5)$ from the $x$-axis is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\sqrt{41}$"
+      },
+      {
+        "key": "B",
+        "text": "$3$"
+      },
+      {
+        "key": "C",
+        "text": "$5\\sqrt2$"
+      },
+      {
+        "key": "D",
+        "text": "$\\sqrt{34}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The foot of the perpendicular on the $x$-axis is $(3,0,0)$, so the distance is $\\sqrt{y^2+z^2}=\\sqrt{16+25}=\\sqrt{41}$. $3$ is the distance from the $yz$-plane; $5\\sqrt2$ is the distance from the origin; $\\sqrt{34}$ is the distance from the $y$-axis.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0090",
+    "subject": "mathematics",
+    "topic": "3D Geometry",
+    "difficulty": "medium",
+    "stem": "The angle between the line $\\vec r=(\\hat i+\\hat j)+\\lambda(\\hat i+\\hat k)$ and the plane $x+y=3$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{\\pi}{3}$"
+      },
+      {
+        "key": "B",
+        "text": "$0$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{\\pi}{6}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{\\pi}{4}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "For a line and a plane, $\\sin\\phi=\\frac{|\\vec d\\cdot\\vec n|}{|\\vec d||\\vec n|}=\\frac{|1+0+0|}{\\sqrt2\\sqrt2}=\\frac12$, so $\\phi=\\frac\\pi6$. $\\frac\\pi3$ uses $\\cos$, which gives the angle with the normal, not with the plane; $\\frac\\pi4$ has no basis; $0$ would need $\\vec d\\perp\\vec n$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0091",
+    "subject": "mathematics",
+    "topic": "3D Geometry",
+    "difficulty": "medium",
+    "stem": "The distance from the origin to the plane through $(2,0,0)$, $(0,3,0)$ and $(0,0,6)$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{6}{11}$"
+      },
+      {
+        "key": "B",
+        "text": "$1$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac{11}{\\sqrt{14}}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{6}{\\sqrt{14}}$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Intercept form: $\\frac x2+\\frac y3+\\frac z6=1\\Rightarrow3x+2y+z=6$. Distance $=\\frac{6}{\\sqrt{9+4+1}}=\\frac{6}{\\sqrt{14}}$. $1$ uses $\\frac{1}{\\frac12+\\frac13+\\frac16}$ without squaring; $\\frac{11}{\\sqrt{14}}$ puts the sum of the intercepts in the numerator; $\\frac{6}{11}$ divides by $2+3+6$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0092",
+    "subject": "mathematics",
+    "topic": "3D Geometry",
+    "difficulty": "medium",
+    "stem": "The lines $\\dfrac{x-1}{2}=\\dfrac{y-2}{3}=\\dfrac{z-3}{4}$ and $\\dfrac{x-4}{5}=\\dfrac{y-1}{2}=\\dfrac{z}{1}$ intersect at",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(3,5,7)$"
+      },
+      {
+        "key": "B",
+        "text": "$(1,2,3)$"
+      },
+      {
+        "key": "C",
+        "text": "$(-1,-1,-1)$"
+      },
+      {
+        "key": "D",
+        "text": "$(4,1,0)$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A general point of the first line is $(1+2s,2+3s,3+4s)$ and of the second $(4+5u,1+2u,u)$. Matching $z$: $u=3+4s$. Matching $x$: $1+2s=19+20s\\Rightarrow s=-1$, $u=-1$. The $y$-coordinates agree ($-1=-1$), so the point is $(-1,-1,-1)$. $(1,2,3)$ and $(3,5,7)$ lie on the first line only, and $(4,1,0)$ lies on the second only.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0093",
+    "subject": "mathematics",
+    "topic": "3D Geometry",
+    "difficulty": "hard",
+    "stem": "The lines $\\dfrac{x-1}{2}=\\dfrac{y+1}{3}=\\dfrac{z-1}{4}$ and $\\dfrac{x-3}{1}=\\dfrac{y-k}{2}=\\dfrac{z}{1}$ intersect. Then $k$ equals",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac29$"
+      },
+      {
+        "key": "B",
+        "text": "$-\\dfrac92$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac92$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac32$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The lines are not parallel, so they intersect exactly when they are coplanar: $\\begin{vmatrix}3-1&k+1&0-1\\\\2&3&4\\\\1&2&1\\end{vmatrix}=0$. This gives $2(3-8)-(k+1)(2-4)-(4-3)=2k-9=0$, so $k=\\frac92$. $-\\frac92$ is a sign slip when solving $2k-9=0$; $\\frac29$ inverts the answer; $\\frac32$ does not satisfy $2k-9=0$ (it gives $-6$).",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0094",
+    "subject": "mathematics",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "stem": "$A$ and $B$ are independent events with $P(A)=0.3$ and $P(B)=0.4$. The probability that at least one of them occurs is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0.7$"
+      },
+      {
+        "key": "B",
+        "text": "$0.42$"
+      },
+      {
+        "key": "C",
+        "text": "$0.58$"
+      },
+      {
+        "key": "D",
+        "text": "$0.12$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "$P(A\\cup B)=1-P(A')P(B')=1-0.7\\times0.6=0.58$, which equals $0.3+0.4-0.12$. $0.7$ forgets to subtract $P(A\\cap B)$, as if the events were mutually exclusive; $0.12$ is $P(A\\cap B)$; $0.42=P(A')P(B')$ is the probability that neither occurs.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0095",
+    "subject": "mathematics",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "stem": "A family has two children, and boys and girls are equally likely. Given that at least one child is a boy, the probability that both are boys is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac13$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac12$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac14$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac23$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The sample space is $\\{BB,BG,GB,GG\\}$. 'At least one boy' leaves $\\{BB,BG,GB\\}$, and only $BB$ is favourable, so the probability is $\\frac13$. $\\frac12$ wrongly treats the other child as independent of the given information (true only if a specific child, say the elder, is a boy); $\\frac14$ ignores the condition; $\\frac23$ is the probability of exactly one boy given at least one.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0096",
+    "subject": "mathematics",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "stem": "Three fair dice are thrown. The probability that the sum of the numbers shown is $10$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\dfrac{1}{9}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac{5}{72}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac16$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac18$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Count ordered triples with $a+b+c=10$ and $1\\le a,b,c\\le6$: $\\binom92-3\\binom32=36-9=27$ (remove the cases where some die would exceed $6$). So $P=\\frac{27}{216}=\\frac18$. $\\frac16$ assumes all sums are equally likely; $\\frac19=\\frac{24}{216}$ and $\\frac5{72}=\\frac{15}{216}$ come from miscounting the cases removed for a face above $6$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0097",
+    "subject": "mathematics",
+    "topic": "Statistics",
+    "difficulty": "easy",
+    "stem": "The mean deviation about the mean of the data $3,7,9,5,6$ is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac45$"
+      },
+      {
+        "key": "C",
+        "text": "$0$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac85$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The mean is $\\frac{30}{5}=6$. The absolute deviations are $3,1,3,1,0$, with sum $8$, so the mean deviation is $\\frac85=1.6$. $0$ comes from summing signed deviations, which always total zero about the mean; $2$ divides by $4$ instead of $5$; $\\frac45$ divides by $10$ instead of $5$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0098",
+    "subject": "mathematics",
+    "topic": "Statistics",
+    "difficulty": "hard",
+    "stem": "Two groups of $5$ observations each have means $4$ and $6$ and variances $2$ and $3$ respectively. The variance of all $10$ observations taken together is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$3$"
+      },
+      {
+        "key": "B",
+        "text": "$\\dfrac72$"
+      },
+      {
+        "key": "C",
+        "text": "$\\dfrac52$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac92$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Combined mean $=5$, so $d_1=-1$, $d_2=1$. $\\sigma^2=\\frac{n_1(\\sigma_1^2+d_1^2)+n_2(\\sigma_2^2+d_2^2)}{n_1+n_2}=\\frac{5(2+1)+5(3+1)}{10}=\\frac72$. $\\frac52$ just averages the variances and ignores the spread between the group means; $3$ adds $d^2$ for one group only; $\\frac92$ adds $\\frac{(6-4)^2}{2}=2$ to the average variance, but the correct extra term is $\\frac{n_1n_2}{(n_1+n_2)^2}(6-4)^2=1$.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0099",
+    "subject": "mathematics",
+    "topic": "Linear Programming",
+    "difficulty": "easy",
+    "stem": "The feasible region of an LPP is the quadrilateral with corners $(0,0)$, $(5,0)$, $(3,4)$ and $(0,5)$. The maximum value of $Z=4x+3y$ on this region is",
+    "options": [
+      {
+        "key": "A",
+        "text": "$35$"
+      },
+      {
+        "key": "B",
+        "text": "$24$"
+      },
+      {
+        "key": "C",
+        "text": "$15$"
+      },
+      {
+        "key": "D",
+        "text": "$20$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Evaluate at the corners: $0$, $20$, $24$, $15$. The maximum is $24$, at $(3,4)$. $20$ and $15$ are values at other corners; $35=4(5)+3(5)$ uses the largest $x$ and the largest $y$ together, at a point outside the region.",
+    "source": {
+      "kind": "authored"
+    }
+  },
+  {
+    "id": "math-c-0100",
+    "subject": "mathematics",
+    "topic": "Linear Programming",
+    "difficulty": "medium",
+    "stem": "For $Z=3x+2y$ subject to $x+y\\ge2$, $x-y\\le1$, $x\\ge0$, $y\\ge0$, which statement is true?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The feasible region is empty"
+      },
+      {
+        "key": "B",
+        "text": "The maximum value of $Z$ is $5.5$"
+      },
+      {
+        "key": "C",
+        "text": "The maximum value of $Z$ is $4$"
+      },
+      {
+        "key": "D",
+        "text": "$Z$ has no maximum value on the feasible region"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The region is unbounded: for example, every point $(0,t)$ with $t\\ge2$ is feasible, and $Z=2t$ grows without limit. So there is no maximum. The corner points are $(0,2)$, with $Z=4$, and $\\left(\\frac32,\\frac12\\right)$, with $Z=5.5$. $4$ is in fact the minimum, and $5.5$ is just a corner value; comparing corner values decides an optimum only when the optimum exists. The region is clearly non-empty.",
+    "source": {
+      "kind": "authored"
+    }
+  }
+]

@@ -7,14 +7,17 @@
     "eamcet-maths-calculus.json",
     "eamcet-maths-geometry.json",
     "eamcet-physics.json",
+    "english-2.json",
     "english.json",
     "harvested.json",
     "mathematics-1.json",
     "mathematics-2.json",
+    "mathematics-3.json",
     "physics-2.json",
     "physics.json",
     "pyq-ap-eamcet.json",
     "pyq-ts-eamcet.json",
+    "reasoning-2.json",
     "reasoning-figures.json",
     "reasoning.json"
   ]
