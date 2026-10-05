@@ -59,8 +59,8 @@ Method: `scripts/pyq/extract_ap.py` reads each official TCS-iON master paper. St
 ### AP EAPCET 2026 Engineering, APSCHE/JNTUK master papers with **preliminary** keys (no final keys published)
 | Shift | URL | Status |
 |---|---|---|
-| 12 May S1, 12 May S2, 13 May S1, 13 May S2, 14 May S1 | https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_{12,13}TH_MAY2026_SHIFT_{1,2}.pdf, QPK_14TH_MAY2026_SHIFT_1.pdf | used (all sections) |
-| 14 May S2, 15 May S1/S2, 18 May S1/S2 | https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_{14,15,18}TH_MAY2026_SHIFT_{1,2}.pdf | extracted, queued |
+| 12 May S1/S2, 13 May S1/S2, 14 May S1/S2 | https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_{12,13,14}TH_MAY2026_SHIFT_{1,2}.pdf | used (all sections) |
+| 15 May S1/S2, 18 May S1/S2 | https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_{15,18}TH_MAY2026_SHIFT_{1,2}.pdf | extracted, queued |
 
 ### AP EAPCET 2024 / 2025 Engineering: Wayback Machine copies of the official cets.apsche.ap.gov.in PDFs (registered in `.harvest/pyq/papers.json`)
 - 2024 (the exam-papers page said "Preliminary Keys"): 18 May S1, 19 May S2, 20 May S1/S2, 21 May S1/S2, 22 May S1/S2, 23 May S1. All 9 are extracted (160 questions each) and queued.

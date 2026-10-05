@@ -27898,6 +27898,1375 @@
   }
  },
  {
+  "id": "pyq-ap-2026-142-121",
+  "subject": "chemistry",
+  "topic": "Atomic Structure",
+  "difficulty": "easy",
+  "stem": "In a photoelectric effect, the kinetic energy of electrons is $1.3\\times10^{-19}$ J. If work function of the metal is 2.27 eV, then the frequency (in Hz) of the incident radiation is ($h=6.6\\times10^{-34}$ Js, $1\\text{ eV}=1.6\\times10^{-19}$ J)",
+  "options": [
+   {
+    "key": "A",
+    "text": "$7.47\\times10^{15}$"
+   },
+   {
+    "key": "B",
+    "text": "$7.47\\times10^{14}$"
+   },
+   {
+    "key": "C",
+    "text": "$6.47\\times10^{15}$"
+   },
+   {
+    "key": "D",
+    "text": "$3.47\\times10^{14}$"
+   }
+  ],
+  "answer": "B",
+  "explanation": "$h\\nu = W + KE = 2.27\\times1.6\\times10^{-19} + 1.3\\times10^{-19} = 4.932\\times10^{-19}$ J. $\\nu = 4.932\\times10^{-19}/6.6\\times10^{-34} = 7.47\\times10^{14}$ Hz. Option (1) is a power-of-ten slip; forgetting to convert eV to J gives nonsense values.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q121)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-122",
+  "subject": "chemistry",
+  "topic": "Atomic Structure",
+  "difficulty": "medium",
+  "stem": "Consider the following two statements\nStatement – I: The order of energies of 2s – orbitals of $H$, $Li$ and $Na$ is $E_{2s}(H) < E_{2s}(Li) < E_{2s}(Na)$\nStatement – II: The photoelectric effect explains the wave nature of light\nThe correct answer is",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both statements – I and II are correct"
+   },
+   {
+    "key": "B",
+    "text": "Statement – I is correct but Statement – II is not correct"
+   },
+   {
+    "key": "C",
+    "text": "Statement – I is not correct but Statement – II is correct"
+   },
+   {
+    "key": "D",
+    "text": "Both statements – I and II are not correct"
+   }
+  ],
+  "answer": "D",
+  "explanation": "Energy of the same orbital becomes more negative (lower) as nuclear charge increases, so $E_{2s}(H) > E_{2s}(Li) > E_{2s}(Na)$; Statement I is reversed. The photoelectric effect demonstrates the particle (photon) nature of light, not wave nature, so II is also false.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q122)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-123",
+  "subject": "chemistry",
+  "topic": "Classification of Elements",
+  "difficulty": "easy",
+  "stem": "Which of the following sets contain atomic numbers of only representative elements?\nI. 3, 33, 53, 87\nII. 2, 10, 22, 36\nIII. 9, 35, 51, 88\nIV. 17, 25, 37, 48\nThe correct answer is",
+  "options": [
+   {
+    "key": "A",
+    "text": "I & II only"
+   },
+   {
+    "key": "B",
+    "text": "II & III only"
+   },
+   {
+    "key": "C",
+    "text": "I & III only"
+   },
+   {
+    "key": "D",
+    "text": "II & IV only"
+   }
+  ],
+  "answer": "C",
+  "explanation": "Representative elements are s- and p-block (excluding noble gases). I: Li, As, I, Fr – all representative. III: F, Br, Sb, Ra – all representative. II contains noble gases (He, Ne, Kr) and Ti (22, d-block); IV contains Mn (25) and Cd (48), d-block.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q123)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-124",
+  "subject": "chemistry",
+  "topic": "Chemical Bonding",
+  "difficulty": "medium",
+  "stem": "Which of the following statements are correct about $\\mathrm{CO_3^{2-}}$ ion?\nI. The hybridisation of central atom is $sp^3$\nII. The average formal charge on each oxygen atom is 0.67\nIII. The resonance hybrid structure has one C–O single bond and two C=O double bonds\nIV. All C–O bond lengths are equal",
+  "options": [
+   {
+    "key": "A",
+    "text": "II & IV only"
+   },
+   {
+    "key": "B",
+    "text": "I & II only"
+   },
+   {
+    "key": "C",
+    "text": "II & III only"
+   },
+   {
+    "key": "D",
+    "text": "I & III only"
+   }
+  ],
+  "answer": "A",
+  "explanation": "C in $\\mathrm{CO_3^{2-}}$ is $sp^2$ (trigonal planar), so I is false. The $-2$ charge is shared over three O atoms: $2/3 \\approx 0.67$ each (II true). The resonance hybrid has three equivalent C–O bonds (bond order 1.33), so IV is true and III (which describes a single canonical form) is false.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q124)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-125",
+  "subject": "chemistry",
+  "topic": "Chemical Bonding",
+  "difficulty": "easy",
+  "stem": "In which of the following, the number of valence electrons is maximum?",
+  "options": [
+   {
+    "key": "A",
+    "text": "$\\mathrm{PO_4^{3-}}$"
+   },
+   {
+    "key": "B",
+    "text": "$\\mathrm{SO_3^{2-}}$"
+   },
+   {
+    "key": "C",
+    "text": "$\\mathrm{CO_3^{2-}}$"
+   },
+   {
+    "key": "D",
+    "text": "$\\mathrm{CNO^-}$"
+   }
+  ],
+  "answer": "A",
+  "explanation": "Count: $\\mathrm{PO_4^{3-}}$: $5+4(6)+3=32$; $\\mathrm{SO_3^{2-}}$: $6+18+2=26$; $\\mathrm{CO_3^{2-}}$: $4+18+2=24$; $\\mathrm{CNO^-}$: $4+5+6+1=16$. Remember to add the ionic charge electrons.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q125)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-126",
+  "subject": "chemistry",
+  "topic": "States of Matter",
+  "difficulty": "medium",
+  "stem": "A gas mixture contains 64% methane and 36% ethane by mass. The density of the mixture at 27°C and 750 mm pressure (in g $L^{-1}$) is (at. wt C = 12 u, H = 1 u, R = 0.082 L atm $K^{-1}mol^{-1}$)",
+  "options": [
+   {
+    "key": "A",
+    "text": "0.57"
+   },
+   {
+    "key": "B",
+    "text": "0.87"
+   },
+   {
+    "key": "C",
+    "text": "0.67"
+   },
+   {
+    "key": "D",
+    "text": "0.77"
+   }
+  ],
+  "answer": "D",
+  "explanation": "In 100 g: 64/16 = 4 mol $\\mathrm{CH_4}$, 36/30 = 1.2 mol $\\mathrm{C_2H_6}$; $M_{avg}=100/5.2=19.23$. $d = PM/RT = (750/760)(19.23)/(0.082\\times300) = 0.77$ g/L. Averaging molar masses by mass percent instead of moles gives a wrong value.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q126)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-127",
+  "subject": "chemistry",
+  "topic": "Some Basic Concepts",
+  "difficulty": "easy",
+  "stem": "The number of significant figures present in $0.010200\\times10^{3}$ is",
+  "options": [
+   {
+    "key": "A",
+    "text": "7"
+   },
+   {
+    "key": "B",
+    "text": "5"
+   },
+   {
+    "key": "C",
+    "text": "6"
+   },
+   {
+    "key": "D",
+    "text": "10"
+   }
+  ],
+  "answer": "B",
+  "explanation": "Leading zeros are not significant; trailing zeros after the decimal point are. In 0.010200 the significant digits are 1,0,2,0,0 → 5. The power of ten does not affect the count.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q127)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-128",
+  "subject": "chemistry",
+  "topic": "Thermodynamics",
+  "difficulty": "easy",
+  "stem": "Identify the set with only extensive properties",
+  "options": [
+   {
+    "key": "A",
+    "text": "Temperature, Pressure, Number of moles"
+   },
+   {
+    "key": "B",
+    "text": "Heat capacity, Enthalpy, Entropy"
+   },
+   {
+    "key": "C",
+    "text": "Pressure, Specific heat, Molar heat capacity"
+   },
+   {
+    "key": "D",
+    "text": "Density, Mole fraction, viscosity"
+   }
+  ],
+  "answer": "B",
+  "explanation": "Heat capacity, enthalpy and entropy all depend on the amount of substance (extensive). Temperature, pressure, specific heat, molar heat capacity, density, mole fraction and viscosity are intensive, so each other option contains at least one intensive property.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q128)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-129",
+  "subject": "chemistry",
+  "topic": "Thermodynamics",
+  "difficulty": "medium",
+  "stem": "Match the following\nList – I ($\\Delta_rH^\\circ$, $\\Delta_rS^\\circ$, $\\Delta_rG^\\circ$):\nA. $+$, $-$, $+$\nB. $-$, $-$, $-$\nC. $+$, $+$, $+$\nD. $+$, $+$, $-$\nList – II (Description about the reaction):\nI. Non spontaneous at low temperature\nII. Spontaneous at high temperature\nIII. Non spontaneous at all temperatures\nIV. Spontaneous at low temperature",
+  "options": [
+   {
+    "key": "A",
+    "text": "A-III, B-IV, C-II, D-I"
+   },
+   {
+    "key": "B",
+    "text": "A-III, B-IV, C-I, D-II"
+   },
+   {
+    "key": "C",
+    "text": "A-IV, B-III, C-II, D-I"
+   },
+   {
+    "key": "D",
+    "text": "A-II, B-IV, C-I, D-III"
+   }
+  ],
+  "answer": "B",
+  "explanation": "$\\Delta G=\\Delta H-T\\Delta S$. A ($+,-$): $\\Delta G>0$ always → III. B ($-,-$, $\\Delta G<0$): spontaneous at low T → IV. C ($+,+$ with $\\Delta G>0$): at low T $\\Delta H$ dominates → non-spontaneous at low T → I. D ($+,+$ with $\\Delta G<0$): $T\\Delta S$ dominates → spontaneous at high T → II.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q129)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-130",
+  "subject": "chemistry",
+  "topic": "Chemical Equilibrium",
+  "difficulty": "easy",
+  "stem": "At T(K), 15 moles of $\\mathrm{H_2}$ reacts with 5.2 moles of $\\mathrm{I_2}$ and forms 10 moles of HI. The equilibrium constant for the reaction $\\mathrm{2HI(g) \\rightleftharpoons H_2(g)+I_2(g)}$ is",
+  "options": [
+   {
+    "key": "A",
+    "text": "50"
+   },
+   {
+    "key": "B",
+    "text": "100"
+   },
+   {
+    "key": "C",
+    "text": "$2\\times10^{-2}$"
+   },
+   {
+    "key": "D",
+    "text": "$1\\times10^{-2}$"
+   }
+  ],
+  "answer": "C",
+  "explanation": "10 mol HI uses 5 mol each of $\\mathrm{H_2}$ and $\\mathrm{I_2}$: left 10 mol $\\mathrm{H_2}$, 0.2 mol $\\mathrm{I_2}$ ($\\Delta n=0$, volume cancels). $K = (10)(0.2)/10^2 = 2\\times10^{-2}$. 50 is $K$ for the forward (formation) reaction — the trap.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q130)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-132",
+  "subject": "chemistry",
+  "topic": "Hydrogen",
+  "difficulty": "easy",
+  "stem": "Permanent hardness of water cannot be removed by",
+  "options": [
+   {
+    "key": "A",
+    "text": "Using $\\mathrm{Na_2CO_3}$"
+   },
+   {
+    "key": "B",
+    "text": "Using Calgon"
+   },
+   {
+    "key": "C",
+    "text": "Using $\\mathrm{NaAlSiO_4}$"
+   },
+   {
+    "key": "D",
+    "text": "Boiling"
+   }
+  ],
+  "answer": "D",
+  "explanation": "Permanent hardness is due to chlorides/sulphates of Ca and Mg, which are not decomposed on boiling. Boiling removes only temporary (bicarbonate) hardness. Washing soda, Calgon and zeolite ($\\mathrm{NaAlSiO_4}$) all remove permanent hardness.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q132)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-133",
+  "subject": "chemistry",
+  "topic": "s-Block Elements",
+  "difficulty": "easy",
+  "stem": "Which of the following is not the raw material in Solvay process?",
+  "options": [
+   {
+    "key": "A",
+    "text": "$\\mathrm{NH_3}$"
+   },
+   {
+    "key": "B",
+    "text": "$\\mathrm{NaCl}$"
+   },
+   {
+    "key": "C",
+    "text": "$\\mathrm{CaCl_2}$"
+   },
+   {
+    "key": "D",
+    "text": "$\\mathrm{Ca(OH)_2}$"
+   }
+  ],
+  "answer": "C",
+  "explanation": "Solvay process uses NaCl (brine), $\\mathrm{NH_3}$ and $\\mathrm{CO_2}$/limestone; $\\mathrm{Ca(OH)_2}$ is used to regenerate ammonia from $\\mathrm{NH_4Cl}$. $\\mathrm{CaCl_2}$ is the by-product formed in that regeneration step, not a raw material.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q133)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-134",
+  "subject": "chemistry",
+  "topic": "p-Block Elements",
+  "difficulty": "medium",
+  "stem": "Which of the following statements regarding the similarities between boron and silicon is not correct?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Both form halides that undergo hydrolysis"
+   },
+   {
+    "key": "B",
+    "text": "Both form electron precise hydrides"
+   },
+   {
+    "key": "C",
+    "text": "Both form acidic oxides"
+   },
+   {
+    "key": "D",
+    "text": "Density of both is almost same"
+   }
+  ],
+  "answer": "B",
+  "explanation": "B and Si show a diagonal relationship: both form hydrolysable halides, acidic oxides ($\\mathrm{B_2O_3}$, $\\mathrm{SiO_2}$) and have similar densities (≈2.3 g/cm³). But boron hydrides (boranes, e.g. $\\mathrm{B_2H_6}$) are electron-deficient, while silanes are electron-precise.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q134)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-135",
+  "subject": "chemistry",
+  "topic": "p-Block Elements",
+  "difficulty": "easy",
+  "stem": "Which of the following carbon allotropes is not correctly matched with its use?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Graphite – as electrode in batteries"
+   },
+   {
+    "key": "B",
+    "text": "Diamond – as abrasive for cutting hard tools"
+   },
+   {
+    "key": "C",
+    "text": "Coke – as reducing agent in extraction of metals"
+   },
+   {
+    "key": "D",
+    "text": "Carbon black – in adsorbing poisonous gases"
+   }
+  ],
+  "answer": "D",
+  "explanation": "Activated charcoal (not carbon black) is used to adsorb poisonous gases, e.g. in gas masks. Carbon black is used in black ink and as a filler in automobile tyres. The other three pairings are correct.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q135)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-136",
+  "subject": "chemistry",
+  "topic": "Environmental Chemistry",
+  "difficulty": "easy",
+  "stem": "Two statements are given below\nStatement – I: An object located at 30 Km above the sea level is in stratosphere\nStatement – II: The maximum permissible limit of $Cd$ present in drinking water is 0.05 ppm\nThe correct answer is",
+  "options": [
+   {
+    "key": "A",
+    "text": "Statements I , II both are correct"
+   },
+   {
+    "key": "B",
+    "text": "Statements I and II both are not correct"
+   },
+   {
+    "key": "C",
+    "text": "Statement I is correct but statement – II is not correct"
+   },
+   {
+    "key": "D",
+    "text": "Statement I is not correct but statement – II is correct"
+   }
+  ],
+  "answer": "C",
+  "explanation": "The stratosphere extends from about 10 km to 50 km, so 30 km lies in it (I correct). The maximum permissible limit of Cd in drinking water is 0.005 ppm, not 0.05 ppm (II incorrect).",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q136)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-138",
+  "subject": "chemistry",
+  "topic": "Hydrocarbons",
+  "difficulty": "medium",
+  "stem": "An isomer of $\\mathrm{C_4H_8}$ is X, which exhibits cis-trans isomerism. Y is the chain isomer of X. Products obtained from ozonolysis of Y are",
+  "options": [
+   {
+    "key": "A",
+    "text": "$\\mathrm{CH_3CHO + CH_3CHO}$"
+   },
+   {
+    "key": "B",
+    "text": "$\\mathrm{CH_3CH_2CHO + HCOOH}$"
+   },
+   {
+    "key": "C",
+    "text": "$\\mathrm{CH_3COCH_3 + HCHO}$"
+   },
+   {
+    "key": "D",
+    "text": "$\\mathrm{CH_3CH_2COOH + CO_2}$"
+   }
+  ],
+  "answer": "C",
+  "explanation": "X = but-2-ene (shows cis-trans). Its chain isomer Y = 2-methylpropene, $\\mathrm{(CH_3)_2C=CH_2}$. Ozonolysis gives acetone + formaldehyde. Option (1) is the ozonolysis product of X itself — the trap.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q138)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-139",
+  "subject": "chemistry",
+  "topic": "Haloalkanes",
+  "difficulty": "medium",
+  "stem": "Observe the following reaction sequence\n$\\underset{\\text{X}}{\\mathrm{CH_3CH_2CH=CH_2}} \\xrightarrow{\\text{HBr}} \\text{Y (major)} \\xrightarrow{\\text{alc. KOH}} \\text{Z (major)}$\nCorrect statement regarding Z is",
+  "options": [
+   {
+    "key": "A",
+    "text": "Number of $\\pi$ bonds in it is two"
+   },
+   {
+    "key": "B",
+    "text": "Number of hyper conjugative resonance structures possible for it is 6"
+   },
+   {
+    "key": "C",
+    "text": "It does not exhibit cis-trans isomerism"
+   },
+   {
+    "key": "D",
+    "text": "It is the chain isomer of X"
+   }
+  ],
+  "answer": "B",
+  "explanation": "Markovnikov addition gives Y = 2-bromobutane; Saytzeff elimination gives Z = but-2-ene, $\\mathrm{CH_3CH=CHCH_3}$. It has 6 α-H atoms → 6 hyperconjugative structures. It has one π bond, shows cis-trans isomerism, and is a position (not chain) isomer of X.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q139)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-140",
+  "subject": "chemistry",
+  "topic": "Solid State",
+  "difficulty": "easy",
+  "stem": "The fraction of the total volume occupied by the atoms present in a face centred cubic unit cell is",
+  "options": [
+   {
+    "key": "A",
+    "text": "$\\frac{\\pi}{6}$"
+   },
+   {
+    "key": "B",
+    "text": "$\\frac{\\pi}{3\\sqrt2}$"
+   },
+   {
+    "key": "C",
+    "text": "$\\frac{\\pi\\sqrt3}{8}$"
+   },
+   {
+    "key": "D",
+    "text": "$\\frac{\\pi}{2\\sqrt2}$"
+   }
+  ],
+  "answer": "B",
+  "explanation": "FCC: 4 atoms, $a=2\\sqrt2\\,r$. Fraction $=\\frac{4\\cdot\\frac43\\pi r^3}{(2\\sqrt2 r)^3}=\\frac{\\pi}{3\\sqrt2}\\approx0.74$. $\\pi/6$ is simple cubic (0.52) and $\\pi\\sqrt3/8$ is BCC (0.68).",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q140)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-141",
+  "subject": "chemistry",
+  "topic": "Solutions",
+  "difficulty": "medium",
+  "stem": "At 300 K, a decimolar solution of potassium ferrocyanide is 50% dissociated. The osmotic pressure (in atm) of the solution is (R = 0.082 L atm $K^{-1}mol^{-1}$)",
+  "options": [
+   {
+    "key": "A",
+    "text": "6.83"
+   },
+   {
+    "key": "B",
+    "text": "3.87"
+   },
+   {
+    "key": "C",
+    "text": "7.38"
+   },
+   {
+    "key": "D",
+    "text": "7.83"
+   }
+  ],
+  "answer": "C",
+  "explanation": "$\\mathrm{K_4[Fe(CN)_6] \\to 4K^+ + [Fe(CN)_6]^{4-}}$, n = 5. $i = 1+(5-1)(0.5) = 3$. $\\pi = iCRT = 3\\times0.1\\times0.082\\times300 = 7.38$ atm. Digit-swapped 7.83 and 6.83 are distractors; ignoring dissociation gives 2.46.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q141)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-142",
+  "subject": "chemistry",
+  "topic": "Electrochemistry",
+  "difficulty": "easy",
+  "stem": "Which of the following are the correct statements about lead storage battery?\nI) It is a secondary battery\nII) In this lead is cathode and a grid of lead packed with $\\mathrm{PbO_2}$ is anode\nIII) In this 98% $\\mathrm{H_2SO_4}$ acts as electrolyte\nIV) During use of battery, concentration of $\\mathrm{H_2SO_4}$ decreases\nThe correct answer is",
+  "options": [
+   {
+    "key": "A",
+    "text": "I & II only"
+   },
+   {
+    "key": "B",
+    "text": "I & IV only"
+   },
+   {
+    "key": "C",
+    "text": "II & III only"
+   },
+   {
+    "key": "D",
+    "text": "II & IV only"
+   }
+  ],
+  "answer": "B",
+  "explanation": "It is rechargeable (secondary) – I true. Lead is the anode and the $\\mathrm{PbO_2}$ grid is the cathode – II reversed. Electrolyte is ~38% $\\mathrm{H_2SO_4}$, not 98% – III false. On discharge $\\mathrm{H_2SO_4}$ is consumed forming $\\mathrm{PbSO_4}$ – IV true.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q142)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-143",
+  "subject": "chemistry",
+  "topic": "Electrochemistry",
+  "difficulty": "easy",
+  "stem": "The conductivity of 0.001 M acetic acid is $5\\times10^{-5}$ S cm$^{-1}$. If the molar conductivity of acetic acid solution at infinite dilution is 390 S cm$^2$ mol$^{-1}$. What is its degree of dissociation?",
+  "options": [
+   {
+    "key": "A",
+    "text": "0.218"
+   },
+   {
+    "key": "B",
+    "text": "0.128"
+   },
+   {
+    "key": "C",
+    "text": "0.138"
+   },
+   {
+    "key": "D",
+    "text": "0.238"
+   }
+  ],
+  "answer": "B",
+  "explanation": "$\\Lambda_m = \\kappa\\times1000/C = 5\\times10^{-5}\\times1000/0.001 = 50$ S cm² mol⁻¹. $\\alpha = \\Lambda_m/\\Lambda_m^\\circ = 50/390 = 0.128$. Forgetting the factor 1000 gives an absurd value.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q143)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-144",
+  "subject": "chemistry",
+  "topic": "Chemical Kinetics",
+  "difficulty": "medium",
+  "stem": "Half-life of a first order reaction is 10 minutes. What is the rate of reaction after 20 minutes, if the initial concentration of the reactant is 10 M?",
+  "options": [
+   {
+    "key": "A",
+    "text": "$1.73\\times10^{-1}$ M min$^{-1}$"
+   },
+   {
+    "key": "B",
+    "text": "$1.73\\times10^{-2}$ M min$^{-1}$"
+   },
+   {
+    "key": "C",
+    "text": "$3.46\\times10^{-1}$ M min$^{-1}$"
+   },
+   {
+    "key": "D",
+    "text": "$4.19\\times10^{-2}$ M min$^{-1}$"
+   }
+  ],
+  "answer": "A",
+  "explanation": "$k = 0.693/10 = 0.0693$ min⁻¹. After 2 half-lives, [A] = 10/4 = 2.5 M. Rate = k[A] = 0.0693 × 2.5 = 0.173 = $1.73\\times10^{-1}$ M min⁻¹. Using [A] = 5 M (one half-life) gives $3.46\\times10^{-1}$ — the trap.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q144)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-145",
+  "subject": "chemistry",
+  "topic": "Surface Chemistry",
+  "difficulty": "medium",
+  "stem": "When $\\mathrm{FeCl_3}$ solution is added to hot water forms a sol “P”. However, when $\\mathrm{FeCl_3}$ solution is added to NaOH solution taken in excess, forms a sol ‘Q’. What are P and Q respectively?",
+  "options": [
+   {
+    "key": "A",
+    "text": "$\\mathrm{Fe_2O_3.xH_2O/Cl^-}$ ; $\\mathrm{Fe_2O_3.xH_2O/OH^-}$"
+   },
+   {
+    "key": "B",
+    "text": "$\\mathrm{Fe_2O_3.xH_2O/H^+}$ ; $\\mathrm{Fe_2O_3.xH_2O/Na^+}$"
+   },
+   {
+    "key": "C",
+    "text": "$\\mathrm{Fe_2O_3.xH_2O/Fe^{3+}}$ ; $\\mathrm{Fe_2O_3.xH_2O/OH^-}$"
+   },
+   {
+    "key": "D",
+    "text": "$\\mathrm{Fe_2O_3.xH_2O/OH^-}$ ; $\\mathrm{Fe_2O_3.xH_2O/Fe^{3+}}$"
+   }
+  ],
+  "answer": "C",
+  "explanation": "Colloid particles preferentially adsorb the common ion present in excess. In hot water, hydrolysis leaves excess $\\mathrm{Fe^{3+}}$ → positive sol $\\mathrm{Fe_2O_3.xH_2O/Fe^{3+}}$. In excess NaOH, $\\mathrm{OH^-}$ is adsorbed → negative sol. Option (4) reverses them.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q145)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-146",
+  "subject": "chemistry",
+  "topic": "Surface Chemistry",
+  "difficulty": "easy",
+  "stem": "In argentometric titrations, fluorescein is used as an indicator. This is due to",
+  "options": [
+   {
+    "key": "A",
+    "text": "Adsorption of fluorescein on the surface of AgCl"
+   },
+   {
+    "key": "B",
+    "text": "Absorption of fluorescein by AgCl"
+   },
+   {
+    "key": "C",
+    "text": "Complex formation of fluorescein with $\\mathrm{Ag^+}$"
+   },
+   {
+    "key": "D",
+    "text": "Oxidation of AgCl to $\\mathrm{AgClO_3}$"
+   }
+  ],
+  "answer": "A",
+  "explanation": "Fluorescein is an adsorption indicator: after the end point, excess $\\mathrm{Ag^+}$ makes the AgCl precipitate positively charged, and the fluoresceinate anion is adsorbed on its surface, giving a pink colour. It is a surface phenomenon (adsorption), not bulk absorption, complexation or oxidation.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q146)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-147",
+  "subject": "chemistry",
+  "topic": "Metallurgy",
+  "difficulty": "easy",
+  "stem": "Identify X and Y involved in the extraction of zinc from sphalerite in the sequence given below\nSphalerite → Froth flotation → X → reduction with coke → Y → Pure zinc",
+  "options": [
+   {
+    "key": "A",
+    "text": "X= Calcination; Y= Electrolysis"
+   },
+   {
+    "key": "B",
+    "text": "X= Roasting; Y= Fractional distillation"
+   },
+   {
+    "key": "C",
+    "text": "X= Roasting; Y= Liquation"
+   },
+   {
+    "key": "D",
+    "text": "X= Calcination; Y= Fractional distillation"
+   }
+  ],
+  "answer": "B",
+  "explanation": "Sphalerite is a sulphide ore (ZnS), so it is roasted (not calcined) to ZnO. After reduction with coke, the volatile zinc (low boiling point) is purified by (fractional) distillation. Calcination is for carbonate ores; liquation is used for low-melting metals like Sn.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q147)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-148",
+  "subject": "chemistry",
+  "topic": "p-Block Elements",
+  "difficulty": "medium",
+  "stem": "Observe the following reaction\n$\\mathrm{PH_3(aq)} \\xrightarrow{\\text{Light}} \\mathrm{X + H_2}$\nWhich of the following is NOT correct regarding X?",
+  "options": [
+   {
+    "key": "A",
+    "text": "It is non-poisonous, odourless solid"
+   },
+   {
+    "key": "B",
+    "text": "It is insoluble in water and carbon disulphide"
+   },
+   {
+    "key": "C",
+    "text": "It has polymeric structure"
+   },
+   {
+    "key": "D",
+    "text": "It exhibits chemiluminescence in dark"
+   }
+  ],
+  "answer": "D",
+  "explanation": "An aqueous solution of $\\mathrm{PH_3}$ decomposes in light to red phosphorus and $\\mathrm{H_2}$. Red phosphorus is odourless, non-poisonous, insoluble in water and $\\mathrm{CS_2}$, and polymeric. Glowing in the dark (chemiluminescence) is a property of white phosphorus, not red.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q148)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-149",
+  "subject": "chemistry",
+  "topic": "p-Block Elements",
+  "difficulty": "easy",
+  "stem": "In which of the following reactions, chlorine undergoes disproportionation?\nI. Reaction with cold, dilute NaOH\nII. Reaction with hot, concentrated NaOH\nIII. Reaction with $\\mathrm{H_2S}$\nThe correct answer is",
+  "options": [
+   {
+    "key": "A",
+    "text": "I, II only"
+   },
+   {
+    "key": "B",
+    "text": "I, II, III"
+   },
+   {
+    "key": "C",
+    "text": "II, III only"
+   },
+   {
+    "key": "D",
+    "text": "I, III only"
+   }
+  ],
+  "answer": "A",
+  "explanation": "Cold dilute NaOH: $\\mathrm{Cl_2 \\to NaCl + NaOCl}$ (0 → −1, +1). Hot conc. NaOH: $\\mathrm{3Cl_2 \\to 5NaCl + NaClO_3}$ (0 → −1, +5). Both are disproportionations. With $\\mathrm{H_2S}$: $\\mathrm{Cl_2 + H_2S \\to 2HCl + S}$; chlorine is only reduced.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q149)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-150",
+  "subject": "chemistry",
+  "topic": "d- and f-Block Elements",
+  "difficulty": "easy",
+  "stem": "During the preparation of $\\mathrm{K_2Cr_2O_7}$ from chromite ore, in one of the steps, the yellow solution of sodium chromate is converted into orange sodium dichromate crystals. This is achieved by,",
+  "options": [
+   {
+    "key": "A",
+    "text": "Increasing the pH"
+   },
+   {
+    "key": "B",
+    "text": "Decreasing the pH"
+   },
+   {
+    "key": "C",
+    "text": "Maintaining neutral pH"
+   },
+   {
+    "key": "D",
+    "text": "Adding NaCl"
+   }
+  ],
+  "answer": "B",
+  "explanation": "The chromate solution is acidified with $\\mathrm{H_2SO_4}$: $\\mathrm{2CrO_4^{2-} + 2H^+ \\to Cr_2O_7^{2-} + H_2O}$. Adding acid lowers pH. Increasing pH (adding base) shifts the equilibrium back to yellow chromate.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q150)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-151",
+  "subject": "chemistry",
+  "topic": "Coordination Compounds",
+  "difficulty": "medium",
+  "stem": "Which of the following complexes do not exhibit geometrical isomerism?\nI. $\\mathrm{K[Cr(H_2O)_2(C_2O_4)_2]}$\nII. $\\mathrm{[Co(en)_3]Cl_3}$\nIII. $\\mathrm{[Co(NH_3)_5(NO_2)](NO_3)_2}$\nThe correct answer is",
+  "options": [
+   {
+    "key": "A",
+    "text": "I , III only"
+   },
+   {
+    "key": "B",
+    "text": "II , III only"
+   },
+   {
+    "key": "C",
+    "text": "I , II only"
+   },
+   {
+    "key": "D",
+    "text": "I , II , III"
+   }
+  ],
+  "answer": "B",
+  "explanation": "I is of type $\\mathrm{[M(AA)_2B_2]}$ and shows cis-trans isomerism. II, $\\mathrm{[M(AA)_3]}$, shows only optical isomerism. III, $\\mathrm{[MA_5B]}$, has no geometrical isomers (it can show linkage isomerism). Hence II and III.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q151)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-152",
+  "subject": "chemistry",
+  "topic": "Polymers",
+  "difficulty": "medium",
+  "stem": "Consider the following polymerization reactions and the statements given about X and Y\nA. $n\\,\\mathrm{C_6H_5CH=CH_2} \\xrightarrow{\\text{RLi}} \\mathrm{X}$\nB. $n\\,\\mathrm{CH_2=CH-CH=CH_2} + n\\,\\mathrm{CH_2=CH-CN} \\xrightarrow{\\text{Peroxide}} \\mathrm{Y}$\nI. The strength of intermolecular forces in X > Y\nII. X and Y are synthetic rubbers\nIII. X is a thermoplastic polymer and Y is resistant to the action of petrol\nCorrect statements are",
+  "options": [
+   {
+    "key": "A",
+    "text": "II, III only"
+   },
+   {
+    "key": "B",
+    "text": "I, II only"
+   },
+   {
+    "key": "C",
+    "text": "I, III only"
+   },
+   {
+    "key": "D",
+    "text": "I, II, III"
+   }
+  ],
+  "answer": "C",
+  "explanation": "X = polystyrene (anionic polymerisation), a thermoplastic. Y = Buna-N (butadiene–acrylonitrile), an elastomer resistant to petrol and oils. Thermoplastics have stronger intermolecular forces than elastomers (I true). Polystyrene is not a rubber, so II is false.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q152)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-154",
+  "subject": "chemistry",
+  "topic": "Chemistry in Everyday Life",
+  "difficulty": "easy",
+  "stem": "Which of the following are broad spectrum antibiotics?\nI. Chloramphenicol\nII. Penicillin-G\nIII. Ofloxacin\nCorrect answer is",
+  "options": [
+   {
+    "key": "A",
+    "text": "II , III only"
+   },
+   {
+    "key": "B",
+    "text": "I , II , III"
+   },
+   {
+    "key": "C",
+    "text": "I , II only"
+   },
+   {
+    "key": "D",
+    "text": "I , III only"
+   }
+  ],
+  "answer": "D",
+  "explanation": "Chloramphenicol and ofloxacin act against a wide range of Gram-positive and Gram-negative bacteria (broad spectrum). Penicillin-G is a narrow-spectrum antibiotic, which rules out every option containing II.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q154)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-155",
+  "subject": "chemistry",
+  "topic": "Haloalkanes and Haloarenes",
+  "difficulty": "easy",
+  "stem": "Consider the following\n(I) 1 – Bromo – 1 – Phenylpropane\n(II) 1 – Bromo – 3 – n – butyl – 2 – methyl benzene\nBromides I , II are classified respectively as",
+  "options": [
+   {
+    "key": "A",
+    "text": "Benzyl ; Aryl"
+   },
+   {
+    "key": "B",
+    "text": "Aryl ; Aryl"
+   },
+   {
+    "key": "C",
+    "text": "Primary ; Benzyl"
+   },
+   {
+    "key": "D",
+    "text": "Aryl ; Primary"
+   }
+  ],
+  "answer": "A",
+  "explanation": "(I) $\\mathrm{C_6H_5CHBrCH_2CH_3}$: Br is on the $sp^3$ carbon attached to the ring → benzylic halide. (II) Br is attached directly to the benzene ring (position 1 of a substituted benzene) → aryl halide. The alkyl substituents in II do not carry the Br.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q155)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-156",
+  "subject": "chemistry",
+  "topic": "Chemistry in Everyday Life",
+  "difficulty": "medium",
+  "stem": "The number of chlorine atoms attached to $sp^2$ carbon in the structure of DDT is X. The number of chlorine atoms attached to $sp^3$ carbon in chloramphenicol is Y. What are X and Y respectively?",
+  "options": [
+   {
+    "key": "A",
+    "text": "3, 2"
+   },
+   {
+    "key": "B",
+    "text": "2, 3"
+   },
+   {
+    "key": "C",
+    "text": "5, 2"
+   },
+   {
+    "key": "D",
+    "text": "2, 2"
+   }
+  ],
+  "answer": "D",
+  "explanation": "DDT, $\\mathrm{(p\\text{-}ClC_6H_4)_2CH\\text{-}CCl_3}$: 2 Cl on aromatic ($sp^2$) carbons, 3 on the $sp^3$ $\\mathrm{CCl_3}$ carbon → X = 2. Chloramphenicol has a $\\mathrm{-NHCOCHCl_2}$ group: 2 Cl on an $sp^3$ carbon → Y = 2. Option (2) uses the $\\mathrm{CCl_3}$ count by mistake.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q156)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-157",
+  "subject": "chemistry",
+  "topic": "Alcohols, Phenols and Ethers",
+  "difficulty": "medium",
+  "stem": "What are X and Y respectively in the following reaction sequence? ($Me=-CH_3$)\n$\\mathrm{Z} + \\underset{\\text{(Benzene derivative)}}{\\mathrm{Y}} \\xleftarrow[\\Delta]{\\text{HBr}} \\text{Anisole} \\xrightarrow[\\text{anhy. AlCl}_3]{\\mathrm{CH_3Cl}} \\underset{\\text{(major product)}}{\\mathrm{X}}$",
+  "options": [
+   {
+    "key": "A",
+    "text": "3-Methylanisole ($m$-$\\mathrm{CH_3C_6H_4OMe}$) ; Bromobenzene"
+   },
+   {
+    "key": "B",
+    "text": "2-Methylanisole ($o$-$\\mathrm{CH_3C_6H_4OMe}$) ; Phenol"
+   },
+   {
+    "key": "C",
+    "text": "4-Methylanisole ($p$-$\\mathrm{CH_3C_6H_4OMe}$) ; Bromobenzene"
+   },
+   {
+    "key": "D",
+    "text": "4-Methylanisole ($p$-$\\mathrm{CH_3C_6H_4OMe}$) ; Phenol"
+   }
+  ],
+  "answer": "D",
+  "explanation": "$-\\mathrm{OMe}$ is o,p-directing; Friedel–Crafts methylation gives the para isomer as major (less steric hindrance) → X = 4-methylanisole. HBr cleaves the alkyl–O bond: $\\mathrm{C_6H_5OCH_3 + HBr \\to C_6H_5OH + CH_3Br}$, so Y = phenol (Z = $\\mathrm{CH_3Br}$). The aryl–O bond is not broken, so bromobenzene is wrong.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q157)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-158",
+  "subject": "chemistry",
+  "topic": "Aldehydes and Ketones",
+  "difficulty": "medium",
+  "stem": "What are A and B in the following set of reactions respectively?\n$\\underset{\\text{does not give iodoform test}}{\\mathrm{Y}} \\xleftarrow[\\text{anhy. AlCl}_3]{\\text{B}} \\text{Benzene} \\xrightarrow[\\text{anhy. AlCl}_3]{\\text{A}} \\underset{\\text{gets oxidised with Tollens' reagent}}{\\mathrm{X}}$",
+  "options": [
+   {
+    "key": "A",
+    "text": "CO, HCl ; $\\mathrm{CH_3CH_2COCl}$"
+   },
+   {
+    "key": "B",
+    "text": "CO, HCl ; $\\mathrm{CH_3COCl}$"
+   },
+   {
+    "key": "C",
+    "text": "$\\mathrm{CH_3COCl}$ ; $\\mathrm{CH_3CH_2COCl}$"
+   },
+   {
+    "key": "D",
+    "text": "$\\mathrm{CH_3COCl}$ ; CO, HCl"
+   }
+  ],
+  "answer": "A",
+  "explanation": "X reduces Tollens' reagent, so it is benzaldehyde, formed by Gattermann–Koch (CO, HCl). Y is a ketone without a $\\mathrm{CH_3CO-}$ group: propiophenone $\\mathrm{C_6H_5COCH_2CH_3}$ from $\\mathrm{CH_3CH_2COCl}$. Acetophenone (from $\\mathrm{CH_3COCl}$) would give a positive iodoform test.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q158)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-159",
+  "subject": "chemistry",
+  "topic": "Carboxylic Acids",
+  "difficulty": "medium",
+  "stem": "In which of the following sets, reactant and reagent are correctly matched to get corresponding carboxylic acid\nI. $\\mathrm{CH_3CH_2CH_2OH}$ ------ $\\mathrm{CrO_3 + H_2SO_4}$\nII. $\\mathrm{CH_3CH_2CH_2Br}$ ------ $\\mathrm{CO_2, H_3O^+}$\nIII. $\\mathrm{C_6H_5CH_2CH_3}$ ------ $\\mathrm{KMnO_4/OH^-, H_3O^+}$\nCorrect answer is",
+  "options": [
+   {
+    "key": "A",
+    "text": "I only"
+   },
+   {
+    "key": "B",
+    "text": "I, II only"
+   },
+   {
+    "key": "C",
+    "text": "I, III only"
+   },
+   {
+    "key": "D",
+    "text": "II only"
+   }
+  ],
+  "answer": "C",
+  "explanation": "I: Jones reagent oxidises a primary alcohol to the carboxylic acid (propanoic acid). III: alkaline $\\mathrm{KMnO_4}$ oxidises the whole side chain of an alkylbenzene to $\\mathrm{-COOH}$ (benzoic acid). II fails: an alkyl bromide must first be converted to a Grignard reagent (Mg, dry ether) before reacting with $\\mathrm{CO_2}$.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q159)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-160",
+  "subject": "chemistry",
+  "topic": "Amines",
+  "difficulty": "medium",
+  "stem": "Observe the following reaction\n$\\mathrm{C_7H_7N_2Cl} \\xrightarrow[283\\text{ K}]{\\mathrm{X}} \\mathrm{Y}$\nY reacts with aqueous NaOH solution and forms its sodium salt. What are X and Y?",
+  "options": [
+   {
+    "key": "A",
+    "text": "$\\mathrm{C_2H_5OH}$ ; Benzyl alcohol ($\\mathrm{C_6H_5CH_2OH}$)"
+   },
+   {
+    "key": "B",
+    "text": "$\\mathrm{C_2H_5OH}$ ; p-Cresol ($p$-$\\mathrm{CH_3C_6H_4OH}$)"
+   },
+   {
+    "key": "C",
+    "text": "$\\mathrm{H_2O}$ ; p-Cresol ($p$-$\\mathrm{CH_3C_6H_4OH}$)"
+   },
+   {
+    "key": "D",
+    "text": "$\\mathrm{H_2O}$ ; Benzyl alcohol ($\\mathrm{C_6H_5CH_2OH}$)"
+   }
+  ],
+  "answer": "C",
+  "explanation": "$\\mathrm{C_7H_7N_2Cl}$ is p-toluenediazonium chloride. Warming with water hydrolyses it to p-cresol, a phenol that dissolves in aq. NaOH as its sodium salt. Ethanol would reduce the diazonium salt to toluene, and benzyl alcohol (not phenolic, and not formed from an aryl diazonium) does not react with aq. NaOH.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q160)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
   "id": "pyq-ap-2026-142-001",
   "subject": "mathematics",
   "topic": "Functions",
@@ -31186,6 +32555,931 @@
   "source": {
    "kind": "harvested",
    "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q92)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-093",
+  "subject": "physics",
+  "topic": "Gravitation",
+  "difficulty": "easy",
+  "stem": "When $g$ is acceleration due to gravity on earth, the gain in potential energy of an object of mass $m$ raised from the surface of earth to a height equal to the radius of earth $R$ is given by",
+  "options": [
+   {
+    "key": "A",
+    "text": "$\\dfrac{mgR}{2}$"
+   },
+   {
+    "key": "B",
+    "text": "$\\dfrac{mgR}{4}$"
+   },
+   {
+    "key": "C",
+    "text": "$mgR$"
+   },
+   {
+    "key": "D",
+    "text": "$2mgR$"
+   }
+  ],
+  "answer": "A",
+  "explanation": "$\\Delta U=-\\dfrac{GMm}{2R}+\\dfrac{GMm}{R}=\\dfrac{GMm}{2R}=\\dfrac{mgR}{2}$ (using $GM=gR^2$). Using $mgh$ with $h=R$ gives $mgR$, which is wrong because $g$ decreases with height.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q93)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-094",
+  "subject": "physics",
+  "topic": "Thermal Properties of Matter",
+  "difficulty": "medium",
+  "stem": "The pressure applied on a cube from all sides is $P$. In order to keep its volume constant, the temperature of cube is to be raised by (The Bulk modulus and the coefficient of volume expansion of the material of the cube are $\\beta$ and $\\alpha$ respectively)",
+  "options": [
+   {
+    "key": "A",
+    "text": "$\\dfrac{P}{\\alpha\\beta}$"
+   },
+   {
+    "key": "B",
+    "text": "$\\dfrac{P\\alpha}{\\beta}$"
+   },
+   {
+    "key": "C",
+    "text": "$\\dfrac{P\\beta}{\\alpha}$"
+   },
+   {
+    "key": "D",
+    "text": "$\\dfrac{\\alpha\\beta}{P}$"
+   }
+  ],
+  "answer": "A",
+  "explanation": "Compression: $\\dfrac{\\Delta V}{V}=\\dfrac{P}{\\beta}$. Thermal expansion must cancel it: $\\alpha\\Delta T=\\dfrac{P}{\\beta}\\Rightarrow\\Delta T=\\dfrac{P}{\\alpha\\beta}$. The other options misplace $\\alpha$ or $\\beta$; a quick dimension check ($\\Delta T$ in K) eliminates them.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q94)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-095",
+  "subject": "physics",
+  "topic": "Mechanical Properties of Fluids",
+  "difficulty": "medium",
+  "stem": "A small sphere of radius $r$ is dropped in a viscous liquid. When it is moving with terminal velocity in the liquid, the relation between the rate of heat produced $\\left(\\dfrac{dQ}{dt}\\right)$ and $r$ is",
+  "options": [
+   {
+    "key": "A",
+    "text": "$\\dfrac{dQ}{dt}\\propto r^2$"
+   },
+   {
+    "key": "B",
+    "text": "$\\dfrac{dQ}{dt}\\propto r^5$"
+   },
+   {
+    "key": "C",
+    "text": "$\\dfrac{dQ}{dt}\\propto \\dfrac{1}{r^2}$"
+   },
+   {
+    "key": "D",
+    "text": "$\\dfrac{dQ}{dt}\\propto \\dfrac{1}{r^5}$"
+   }
+  ],
+  "answer": "B",
+  "explanation": "Heat rate = power against viscous drag: $\\dfrac{dQ}{dt}=Fv_t=6\\pi\\eta r v_t^2$. Since $v_t\\propto r^2$, $\\dfrac{dQ}{dt}\\propto r\\cdot r^4=r^5$. Option (1) uses $v_t\\propto r^2$ alone, forgetting the drag force factor.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q95)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-096",
+  "subject": "physics",
+  "topic": "Thermal Properties of Matter",
+  "difficulty": "medium",
+  "stem": "Two rods made of metals A and B, each of length 20 cm, expand by 0.075 cm and 0.045 cm respectively, when heated from $0^\\circ\\mathrm{C}$ to $100^\\circ\\mathrm{C}$. A composite rod of same length is made with a portion of metal A and remaining with B expands by 0.060 cm for same rise of temperature. Then the portion of composite rod made of A has initial length",
+  "options": [
+   {
+    "key": "A",
+    "text": "$8\\ \\mathrm{cm}$"
+   },
+   {
+    "key": "B",
+    "text": "$10\\ \\mathrm{cm}$"
+   },
+   {
+    "key": "C",
+    "text": "$15\\ \\mathrm{cm}$"
+   },
+   {
+    "key": "D",
+    "text": "$18\\ \\mathrm{cm}$"
+   }
+  ],
+  "answer": "B",
+  "explanation": "Expansion per cm: A $=0.075/20$, B $=0.045/20$. With length $x$ of A: $\\dfrac{0.075x+0.045(20-x)}{20}=0.060\\Rightarrow0.03x=0.3\\Rightarrow x=10$ cm. Since 0.060 is exactly midway between 0.075 and 0.045, the rod is half A, half B.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q96)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-097",
+  "subject": "physics",
+  "topic": "Kinetic Theory of Gases",
+  "difficulty": "medium",
+  "stem": "An ideal gas is expanding such that $P^2T=$ constant. The coefficient of volume expansion of the gas is ($P$ - Pressure, $T$ - temperature of the gas)",
+  "options": [
+   {
+    "key": "A",
+    "text": "$\\dfrac{1}{T}$"
+   },
+   {
+    "key": "B",
+    "text": "$\\dfrac{2}{T}$"
+   },
+   {
+    "key": "C",
+    "text": "$\\dfrac{3}{T}$"
+   },
+   {
+    "key": "D",
+    "text": "$\\dfrac{3}{2T}$"
+   }
+  ],
+  "answer": "D",
+  "explanation": "$P\\propto T/V$, so $P^2T\\propto T^3/V^2=$ const $\\Rightarrow V\\propto T^{3/2}$. Then $\\gamma=\\dfrac{1}{V}\\dfrac{dV}{dT}=\\dfrac{3}{2T}$. $\\dfrac1T$ holds only for an isobaric process.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q97)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-099",
+  "subject": "physics",
+  "topic": "Thermodynamics",
+  "difficulty": "easy",
+  "stem": "The efficiency of Carnot engine is 50% and temperature of sink is 500 K. Keeping the source temperature constant, the required sink temperature to raise the efficiency of the engine to 60% is",
+  "options": [
+   {
+    "key": "A",
+    "text": "100 K"
+   },
+   {
+    "key": "B",
+    "text": "400 K"
+   },
+   {
+    "key": "C",
+    "text": "500 K"
+   },
+   {
+    "key": "D",
+    "text": "600 K"
+   }
+  ],
+  "answer": "B",
+  "explanation": "$0.5=1-\\dfrac{500}{T_1}\\Rightarrow T_1=1000$ K. For 60%: $T_2=(1-0.6)\\times1000=400$ K. Efficiency rises only if the sink is cooled, so 500 K and 600 K are impossible.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q99)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-100",
+  "subject": "physics",
+  "topic": "Kinetic Theory of Gases",
+  "difficulty": "hard",
+  "stem": "Two moles of Helium are mixed with $n$ moles of Hydrogen. The rms speed of the gas molecules in the mixture is $\\sqrt2$ times the speed of sound in the mixture. The value of $n$ is",
+  "options": [
+   {
+    "key": "A",
+    "text": "1"
+   },
+   {
+    "key": "B",
+    "text": "3"
+   },
+   {
+    "key": "C",
+    "text": "2"
+   },
+   {
+    "key": "D",
+    "text": "3/2"
+   }
+  ],
+  "answer": "C",
+  "explanation": "$\\dfrac{v_{rms}}{v_s}=\\sqrt{\\dfrac{3}{\\gamma}}=\\sqrt2\\Rightarrow\\gamma=\\dfrac32$, so $C_V=\\dfrac{R}{\\gamma-1}=2R$. Mixture: $C_V=\\dfrac{2\\cdot\\frac32R+n\\cdot\\frac52R}{2+n}=2R\\Rightarrow3+2.5n=4+2n\\Rightarrow n=2$. Averaging $\\gamma$ directly instead of $C_V$ leads to wrong values.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q100)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-101",
+  "subject": "physics",
+  "topic": "Waves",
+  "difficulty": "easy",
+  "stem": "Two vibrating tuning forks produce progressive waves given by $y_1=2\\sin(500\\pi t-ax)$ and $y_2=2\\sin(506\\pi t-bx)$. Number of beats produced per minute is",
+  "options": [
+   {
+    "key": "A",
+    "text": "360"
+   },
+   {
+    "key": "B",
+    "text": "180"
+   },
+   {
+    "key": "C",
+    "text": "60"
+   },
+   {
+    "key": "D",
+    "text": "3"
+   }
+  ],
+  "answer": "B",
+  "explanation": "$f_1=\\dfrac{500\\pi}{2\\pi}=250$ Hz, $f_2=253$ Hz. Beat frequency $=3$ per second $=180$ per minute. Using $\\omega$ difference directly ($6\\pi$) or forgetting to convert to per minute gives 360 or 3.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q101)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-102",
+  "subject": "physics",
+  "topic": "Ray Optics",
+  "difficulty": "easy",
+  "stem": "A convex lens forms a real image 4 cm long on a screen. When the lens is shifted to a new position without disturbing the object, again a real image is formed on the screen which is 16 cm tall. The length of the object must be",
+  "options": [
+   {
+    "key": "A",
+    "text": "4 cm"
+   },
+   {
+    "key": "B",
+    "text": "8 cm"
+   },
+   {
+    "key": "C",
+    "text": "12 cm"
+   },
+   {
+    "key": "D",
+    "text": "20 cm"
+   }
+  ],
+  "answer": "B",
+  "explanation": "In the displacement method the two positions interchange $u$ and $v$, so $m_1m_2=1$ and $h_o=\\sqrt{h_1h_2}=\\sqrt{4\\times16}=8$ cm. The arithmetic mean (10 cm) or sum (20 cm) are traps.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q102)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-103",
+  "subject": "physics",
+  "topic": "Ray Optics",
+  "difficulty": "easy",
+  "stem": "A vessel of depth $x$ is half filled with oil of refractive index $\\mu_1$ and the other half is filled with water of refractive index $\\mu_2$. The apparent depth of the vessel when viewed from above is",
+  "options": [
+   {
+    "key": "A",
+    "text": "$\\dfrac{x(\\mu_1+\\mu_2)}{2\\mu_1\\mu_2}$"
+   },
+   {
+    "key": "B",
+    "text": "$\\dfrac{x\\mu_1\\mu_2}{2(\\mu_1+\\mu_2)}$"
+   },
+   {
+    "key": "C",
+    "text": "$\\dfrac{2x\\mu_1\\mu_2}{(\\mu_1+\\mu_2)}$"
+   },
+   {
+    "key": "D",
+    "text": "$\\dfrac{2x(\\mu_1+\\mu_2)}{\\mu_1\\mu_2}$"
+   }
+  ],
+  "answer": "A",
+  "explanation": "Apparent depths add: $\\dfrac{x/2}{\\mu_1}+\\dfrac{x/2}{\\mu_2}=\\dfrac{x(\\mu_1+\\mu_2)}{2\\mu_1\\mu_2}$. Options (2) and (3) invert the combination of $\\mu$'s; (3) would even exceed the real depth $x$.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q103)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-104",
+  "subject": "physics",
+  "topic": "Wave Optics",
+  "difficulty": "easy",
+  "stem": "The direction of the second order diffraction minima in Fraunhofer diffraction at a single slit is ($a$ = slit width) given by",
+  "options": [
+   {
+    "key": "A",
+    "text": "$\\sin\\theta=\\dfrac{\\lambda}{2a}$"
+   },
+   {
+    "key": "B",
+    "text": "$\\sin\\theta=\\dfrac{2\\lambda}{a}$"
+   },
+   {
+    "key": "C",
+    "text": "$\\sin\\theta=2\\lambda a$"
+   },
+   {
+    "key": "D",
+    "text": "$\\sin\\theta=\\dfrac{a}{2\\lambda}$"
+   }
+  ],
+  "answer": "B",
+  "explanation": "Single-slit minima: $a\\sin\\theta=n\\lambda$; for $n=2$, $\\sin\\theta=\\dfrac{2\\lambda}{a}$. Option (1) confuses with half-wavelength conditions; (3) and (4) are dimensionally wrong.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q104)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-105",
+  "subject": "physics",
+  "topic": "Electric Charges and Fields",
+  "difficulty": "medium",
+  "stem": "Charges $q$, $2q$, $3q$ and $4q$ are placed at the corners A, B, C and D of a square respectively (A bottom-left, B bottom-right, C top-right, D top-left). The direction of electric field at the centre O of the square is along",
+  "options": [
+   {
+    "key": "A",
+    "text": "AB"
+   },
+   {
+    "key": "B",
+    "text": "CB"
+   },
+   {
+    "key": "C",
+    "text": "BD"
+   },
+   {
+    "key": "D",
+    "text": "AC"
+   }
+  ],
+  "answer": "B",
+  "explanation": "Opposite charges on each diagonal partly cancel. Along AC: net field $\\propto 3q-q=2q$ pointing from C towards A. Along BD: net $\\propto 4q-2q=2q$ pointing from D towards B. These equal fields at $90^\\circ$ add to a resultant pointing straight down, i.e., parallel to CB. AC or BD alone gives only one diagonal's contribution.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q105)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-106",
+  "subject": "physics",
+  "topic": "Electrostatic Potential and Capacitance",
+  "difficulty": "hard",
+  "stem": "The electrical potential at a point A in an electric field $300\\ \\mathrm{N\\,C^{-1}}$ is 900 V. Now find the work done in moving $1\\ \\mu\\mathrm{C}$ charge from point A to 10 m (from the source charge) is",
+  "options": [
+   {
+    "key": "A",
+    "text": "$500\\times10^{-6}$ J"
+   },
+   {
+    "key": "B",
+    "text": "$600\\times10^{-6}$ J"
+   },
+   {
+    "key": "C",
+    "text": "$570\\times10^{-6}$ J"
+   },
+   {
+    "key": "D",
+    "text": "$630\\times10^{-6}$ J"
+   }
+  ],
+  "answer": "D",
+  "explanation": "For a point source, $V/E=r\\Rightarrow r_A=900/300=3$ m, so $kQ=2700$ V m. At 10 m, $V=270$ V. Work done by the field $=q(V_A-V)=10^{-6}\\times(900-270)=630\\times10^{-6}$ J. Using $W=qEd$ with a uniform field ignores that the field falls as $1/r^2$.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q106)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-107",
+  "subject": "physics",
+  "topic": "Electrostatic Potential and Capacitance",
+  "difficulty": "easy",
+  "stem": "Two point charges, $+2\\ \\mu\\mathrm{C}$ and $-2\\ \\mu\\mathrm{C}$, are fixed respectively at points A and B, separated by 4 m in air. A point P is located such that it is 3 m from $+2\\ \\mu\\mathrm{C}$ and 5 m from $-2\\ \\mu\\mathrm{C}$. What is the electric potential at point P? Take $k=9\\times10^9\\ \\mathrm{N\\,m^2\\,C^{-2}}$",
+  "options": [
+   {
+    "key": "A",
+    "text": "$1.2\\times10^3$ V"
+   },
+   {
+    "key": "B",
+    "text": "$2.4\\times10^3$ V"
+   },
+   {
+    "key": "C",
+    "text": "$-3.6\\times10^3$ V"
+   },
+   {
+    "key": "D",
+    "text": "$3.6\\times10^3$ V"
+   }
+  ],
+  "answer": "B",
+  "explanation": "Potential is a scalar sum: $V=9\\times10^9\\times2\\times10^{-6}\\left(\\dfrac13-\\dfrac15\\right)=18000\\times\\dfrac{2}{15}=2400$ V. Taking only the negative charge ($-3600$ V) or mishandling signs gives the other options.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q107)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-109",
+  "subject": "physics",
+  "topic": "Current Electricity",
+  "difficulty": "easy",
+  "stem": "A resistor has three colour bands, Orange, Red and Black from left to right respectively, the value of resistance is",
+  "options": [
+   {
+    "key": "A",
+    "text": "$16\\ \\Omega$"
+   },
+   {
+    "key": "B",
+    "text": "$32\\ \\Omega$"
+   },
+   {
+    "key": "C",
+    "text": "$320\\ \\Omega$"
+   },
+   {
+    "key": "D",
+    "text": "$160\\ \\Omega$"
+   }
+  ],
+  "answer": "B",
+  "explanation": "Orange = 3, Red = 2, Black multiplier $=10^0$: $R=32\\times1=32\\ \\Omega$. Treating black as a zero digit gives $320\\ \\Omega$, the common trap; the third band is the multiplier.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q109)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-110",
+  "subject": "physics",
+  "topic": "Moving Charges and Magnetism",
+  "difficulty": "medium",
+  "stem": "The radius of a coil of wire with $N$ turns is 0.1 m and 2 A current flows in the coil. A long straight wire carrying a current of $20\\pi$ A is located at 0.5 m from the centre of the coil, with the current directions such that their fields at the centre are opposite. The number of turns in the coil if the resultant magnetic field at the centre of the coil is zero",
+  "options": [
+   {
+    "key": "A",
+    "text": "2"
+   },
+   {
+    "key": "B",
+    "text": "4"
+   },
+   {
+    "key": "C",
+    "text": "6"
+   },
+   {
+    "key": "D",
+    "text": "10"
+   }
+  ],
+  "answer": "A",
+  "explanation": "Wire: $B=\\dfrac{\\mu_0 I}{2\\pi d}=\\dfrac{\\mu_0\\cdot20\\pi}{2\\pi\\cdot0.5}=20\\mu_0$. Coil: $B=\\dfrac{\\mu_0NI}{2r}=\\dfrac{\\mu_0N\\cdot2}{0.2}=10N\\mu_0$. Equating, $N=2$. Using $\\mu_0NI/r$ (dropping the 2) or other formula slips gives the other options.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q110)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-111",
+  "subject": "physics",
+  "topic": "Moving Charges and Magnetism",
+  "difficulty": "easy",
+  "stem": "A charged particle moves in a region where there is a uniform electric field $\\vec E=2\\times10^3\\,\\hat i\\ \\mathrm{N\\,C^{-1}}$ and a uniform magnetic field $\\vec B=5\\times10^{-2}\\,\\hat j$ T. The velocity of the particle (in $\\mathrm{m\\,s^{-1}}$), if the particle moves without any acceleration, is",
+  "options": [
+   {
+    "key": "A",
+    "text": "$5\\times10^4\\,\\hat k$"
+   },
+   {
+    "key": "B",
+    "text": "$2\\times10^3\\,\\hat k$"
+   },
+   {
+    "key": "C",
+    "text": "$4\\times10^4\\,\\hat k$"
+   },
+   {
+    "key": "D",
+    "text": "$4\\times10^4\\,(-\\hat k)$"
+   }
+  ],
+  "answer": "C",
+  "explanation": "No acceleration: $\\vec E+\\vec v\\times\\vec B=0\\Rightarrow\\vec v=\\dfrac{\\vec E\\times\\vec B}{B^2}$. $|v|=\\dfrac{2\\times10^3}{5\\times10^{-2}}=4\\times10^4$ m/s, direction $\\hat i\\times\\hat j=\\hat k$ (independent of the sign of charge). $-\\hat k$ would make the forces add instead of cancel.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q111)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-112",
+  "subject": "physics",
+  "topic": "Magnetism and Matter",
+  "difficulty": "easy",
+  "stem": "At a given place the ratio of total magnetic field of earth to the horizontal component of earth's field is 2. Angle of dip at that place is",
+  "options": [
+   {
+    "key": "A",
+    "text": "$30^\\circ$"
+   },
+   {
+    "key": "B",
+    "text": "$45^\\circ$"
+   },
+   {
+    "key": "C",
+    "text": "$60^\\circ$"
+   },
+   {
+    "key": "D",
+    "text": "$90^\\circ$"
+   }
+  ],
+  "answer": "C",
+  "explanation": "$B_H=B\\cos\\delta\\Rightarrow\\cos\\delta=\\dfrac{1}{2}\\Rightarrow\\delta=60^\\circ$. Using $\\sin\\delta=1/2$ (confusing with the vertical component) gives $30^\\circ$.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q112)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-113",
+  "subject": "physics",
+  "topic": "Electromagnetic Induction",
+  "difficulty": "easy",
+  "stem": "A loop moves towards a stationary magnet at constant speed $V$ resulting in an induced emf $E$ within the loop. If the magnet also moves away from the loop at the same speed $V$, the new induced emf in the loop is",
+  "options": [
+   {
+    "key": "A",
+    "text": "$E$"
+   },
+   {
+    "key": "B",
+    "text": "$\\dfrac{E}{2}$"
+   },
+   {
+    "key": "C",
+    "text": "$2E$"
+   },
+   {
+    "key": "D",
+    "text": "$0$"
+   }
+  ],
+  "answer": "D",
+  "explanation": "Induced emf depends on relative motion. Both move in the same direction at speed $V$, so their separation stays constant, flux does not change and emf $=0$. $2E$ would apply if the magnet moved towards the loop.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q113)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-114",
+  "subject": "physics",
+  "topic": "Alternating Current",
+  "difficulty": "easy",
+  "stem": "An alternating supply of $225$ V is applied across a circuit with resistance $20\\ \\Omega$ and impedance of $45\\ \\Omega$. The power dissipated in the circuit is",
+  "options": [
+   {
+    "key": "A",
+    "text": "$500$ W"
+   },
+   {
+    "key": "B",
+    "text": "$1000$ W"
+   },
+   {
+    "key": "C",
+    "text": "$550$ W"
+   },
+   {
+    "key": "D",
+    "text": "$2100$ W"
+   }
+  ],
+  "answer": "A",
+  "explanation": "$I_{rms}=\\dfrac{225}{45}=5$ A; power is dissipated only in the resistance: $P=I^2R=25\\times20=500$ W. Using $V^2/R$ or $VI$ (1125 W) ignores the power factor $R/Z$.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q114)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-115",
+  "subject": "physics",
+  "topic": "Electromagnetic Waves",
+  "difficulty": "medium",
+  "stem": "Electromagnetic radiations are emitted from a 15 W point source. The peak value of the magnetic field at a distance of 5 m from the source is",
+  "options": [
+   {
+    "key": "A",
+    "text": "$4\\times10^{-8}$ T"
+   },
+   {
+    "key": "B",
+    "text": "$2\\times10^{-8}$ T"
+   },
+   {
+    "key": "C",
+    "text": "$2\\times10^{-7}$ T"
+   },
+   {
+    "key": "D",
+    "text": "$4\\times10^{-7}$ T"
+   }
+  ],
+  "answer": "B",
+  "explanation": "$I=\\dfrac{P}{4\\pi r^2}=\\dfrac{15}{100\\pi}$ W/m$^2$. $I=\\dfrac{cB_0^2}{2\\mu_0}\\Rightarrow B_0=\\sqrt{\\dfrac{2\\mu_0I}{c}}=\\sqrt{\\dfrac{2\\times4\\pi\\times10^{-7}\\times15}{100\\pi\\times3\\times10^8}}=\\sqrt{4\\times10^{-16}}=2\\times10^{-8}$ T. Forgetting the factor 2 (rms vs peak) changes the value by $\\sqrt2$.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q115)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-116",
+  "subject": "physics",
+  "topic": "Dual Nature of Matter",
+  "difficulty": "easy",
+  "stem": "When photons of energy 4.2 eV are incident on a photosensitive material of work function 2.2 eV, photoelectrons are emitted with a maximum linear momentum of $P$. If photons of energy 6.2 eV are incident on the same photosensitive material, the maximum linear momentum of the emitted photoelectrons is",
+  "options": [
+   {
+    "key": "A",
+    "text": "$4P$"
+   },
+   {
+    "key": "B",
+    "text": "$P\\sqrt2$"
+   },
+   {
+    "key": "C",
+    "text": "$2P$"
+   },
+   {
+    "key": "D",
+    "text": "$P\\sqrt3$"
+   }
+  ],
+  "answer": "B",
+  "explanation": "$K_{max}$ goes from $4.2-2.2=2$ eV to $6.2-2.2=4$ eV. Since $p=\\sqrt{2mK}$, momentum scales as $\\sqrt2$: $P\\sqrt2$. Taking $p\\propto K$ gives $2P$.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q116)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-117",
+  "subject": "physics",
+  "topic": "Atoms",
+  "difficulty": "medium",
+  "stem": "If the ratio of the time periods of the electrons revolving in the first and $n^{th}$ orbits of Hydrogen atom is $1:64$, then the angular momentum of the electron in the $n^{th}$ excited state of Hydrogen atom is ($h$ - Planck's constant)",
+  "options": [
+   {
+    "key": "A",
+    "text": "$\\dfrac{3.5h}{\\pi}$"
+   },
+   {
+    "key": "B",
+    "text": "$\\dfrac{5h}{\\pi}$"
+   },
+   {
+    "key": "C",
+    "text": "$\\dfrac{2.5h}{\\pi}$"
+   },
+   {
+    "key": "D",
+    "text": "$\\dfrac{2h}{\\pi}$"
+   }
+  ],
+  "answer": "C",
+  "explanation": "$T\\propto n^3\\Rightarrow n^3=64\\Rightarrow n=4$. The 4th excited state is the 5th orbit, so $L=\\dfrac{5h}{2\\pi}=\\dfrac{2.5h}{\\pi}$. Using the 4th orbit itself ($\\dfrac{4h}{2\\pi}=\\dfrac{2h}{\\pi}$) is the trap: excited states are counted above the ground state $n=1$.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q117)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-118",
+  "subject": "physics",
+  "topic": "Nuclei",
+  "difficulty": "medium",
+  "stem": "If the radius of a nucleus having 13 protons and 14 neutrons is 3.6 fm, then the ratio of the volume to surface area of nucleus having 53 protons and 72 neutrons is",
+  "options": [
+   {
+    "key": "A",
+    "text": "12 fm"
+   },
+   {
+    "key": "B",
+    "text": "3 fm"
+   },
+   {
+    "key": "C",
+    "text": "6 fm"
+   },
+   {
+    "key": "D",
+    "text": "2 fm"
+   }
+  ],
+  "answer": "D",
+  "explanation": "$R\\propto A^{1/3}$: $R=3.6\\left(\\dfrac{125}{27}\\right)^{1/3}=3.6\\times\\dfrac53=6$ fm. For a sphere $\\dfrac{V}{S}=\\dfrac{R}{3}=2$ fm. 6 fm is the radius itself, the common trap.",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q118)",
+   "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
+   "licence": "Official exam-authority release; for personal practice"
+  }
+ },
+ {
+  "id": "pyq-ap-2026-142-120",
+  "subject": "physics",
+  "topic": "Communication Systems",
+  "difficulty": "medium",
+  "stem": "In amplitude modulation, if the modulation index is 0.8 and the peak voltage of the message signal is 10 V, then the amplitudes of the upper and lower side bands of the modulated wave are respectively",
+  "options": [
+   {
+    "key": "A",
+    "text": "22.5 V, 2.5 V"
+   },
+   {
+    "key": "B",
+    "text": "12.5 V, 10 V"
+   },
+   {
+    "key": "C",
+    "text": "5 V, 5 V"
+   },
+   {
+    "key": "D",
+    "text": "10 V, 5 V"
+   }
+  ],
+  "answer": "C",
+  "explanation": "$A_c=\\dfrac{A_m}{\\mu}=\\dfrac{10}{0.8}=12.5$ V. Each side band has amplitude $\\dfrac{\\mu A_c}{2}=\\dfrac{A_m}{2}=5$ V, and both side bands are equal. Unequal pairs are wrong; 22.5 V and 2.5 V are $A_c\\pm A_m$ (max/min envelope).",
+  "exams": [
+   "ap-eamcet"
+  ],
+  "pyq": "AP EAPCET 2026 · 14 May Shift 2",
+  "source": {
+   "kind": "harvested",
+   "name": "AP EAPCET 2026 (official master paper with preliminary key, 14 May Shift 2, Q120)",
    "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/EXAM_PAPER/QPK_14TH_MAY2026_SHIFT_2.pdf",
    "licence": "Official exam-authority release; for personal practice"
   }
